@@ -3,7 +3,7 @@ U.C. de Bases de Dados (2019/20)
 
 Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
 
-* [Diogo Vasconcelos]
+* Diogo Vasconcelos
 * Gonçalo Rodrigues Pinto
 * [João Parente]
 * [José Nuno Costa]
