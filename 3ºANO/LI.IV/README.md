@@ -3,14 +3,13 @@
 
 Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
 
-* [Diogo Vasconcelos]
+* Diogo Vasconcelos
 * Gonçalo Rodrigues Pinto
 * [João Parente]
 * [José Nuno Costa]
 * [Ricardo Costa]
 
 [Trabalho prático]:https://github.com/Joao-Parente/LI4
-[Diogo Vasconcelos]:
 [João Parente]:https://github.com/Joao-Parente
 [José Nuno Costa]:https://github.com/jnuno420
 [Ricardo Costa]:https://github.com/Sentinela24
