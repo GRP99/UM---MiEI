@@ -1,0 +1,44 @@
+"perfil1" : [ "c1", "c11" ] ;
+"perfil2" : [ "c2", "c22", "c222"] ;
+"perfil3" : [ "c3" , "perfil3" ] ;
+"perfil4" : [ "c444", "c44", "c4" ] ;
+"perfil5" : [ "c5", "c55", "caracteristica5" , "c555" ] ;
+"perfil6" : [ "c6", "c66" ]
+-
+R1 "Tipo1" "Recurso1" [18-19] [ "perfil1" ] ;
+R2 "Tipo2" "Recurso2" [19-20] [ "perfil2" ] ;
+R3 "Tipo2" "Recurso3" [19-21] [ "perfil2" , "perfil3" ] ;
+R4 "Tipo3" "Recurso4" [21-22] [ "perfil4" ] ;
+R5 "Tipo3" "Recurso5" [21-22] [ "perfil3" , "perfil4" ] ;
+R6 "Tipo1" "Recurso6" [19-22] [ "perfil4" , "perfil2" , "c3" ] ;
+R7 "Tipo2" "Recurso7" [18-19] [ "perfil1" ] ;
+R8 "Tipo4" "Recurso8" [22-23] [ "perfil5" ] ;
+R9 "Tipo5" "Recurso9" [23-30] [ "perfil6" ] ;
+R10 "Tipo3" "Recurso10" [19-22] [ "perfil4" , "perfil2" ]
+-
+A1 "Aluno1" 21 [ "caracteristica3" , "c44" , "caracteristica6" ] ;
+PG2 "Aluno2" 20 [ "caracteristica5" , "caracteristica2" ] ;
+A3 "Aluno3" 18 [ "caracteristica1" ]
+-
+C1 "Conceito1" ;
+C2 "Conceito2" ;
+C3 "Conceito3" ;
+C4 "Conceito4" ;
+C5 "Conceito5"
+-
+R1 ENSINA C1 ;
+R2 ENSINA C2 ;
+R7 ENSINA C2 ;
+R8 ENSINA C4 ;
+R3 ENSINA C3 ;
+R10 ENSINA C4 ;
+R9 ENSINA C5 ;
+R6 ENSINA C4 ;
+R4 ENSINA C4 ;
+R5 ENSINA C3 ;
+R5 ENSINA C4
+-
+ENSINAR C1 AO A3 ?
+ENSINAR C4 AO PG2 ?
+ENSINAR C4 AO A1 ?
+.

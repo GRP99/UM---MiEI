@@ -1,0 +1,15 @@
+insert into dim_city values (2634,'Braga');
+insert into dim_country values (15,'Portugal');
+insert into dim_experience values (6,'adventure');
+insert into dim_locationhost values (6298,'Ovar');
+insert into dim_neighbourhood values (1843,'Gualtar');
+insert into dim_host values (211325,613350,'2013-06-13',6298,1,50,1);
+insert into dim_installation values (211325,1,2,3,2,2,3,1);
+insert into dim_location values (211325,1843,2634,15,41.4803,-8.62323);
+insert into dim_date values ('2021-03-08',2021,03,08);
+insert into dim_reviews values (202837,62,'2020-09-01','2021-03-08',75,50,80,-1,30,100,90,0.80);
+insert into dim_amenities values (211325,2);
+insert into dim_amenities values (211325,3);
+insert into dim_verifications values (211325,3);
+insert into fact_AIRBNB values (122362,6,211325,211325,211325,13,43,170,170,-1,2,5,30,0,202837,3);
+insert into dim_features values (122362,2);

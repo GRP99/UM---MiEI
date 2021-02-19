@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "696995779315",
+    "firebase_url": "https://sensorweatherapp.firebaseio.com",
+    "project_id": "sensorweatherapp",
+    "storage_bucket": "sensorweatherapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696995779315:android:82a7bc35953bec1dd85d86",
+        "android_client_info": {
+          "package_name": "com.sensorweatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696995779315-nn0llbr2ds5tdlopadht5u7k7ppb9nuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF8kKQz4gGI6Bt3rwq8UWZ-pp7WnV362M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696995779315-nn0llbr2ds5tdlopadht5u7k7ppb9nuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

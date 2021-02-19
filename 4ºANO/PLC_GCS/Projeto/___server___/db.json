@@ -1,0 +1,898 @@
+{
+    "perfis": [
+        {
+            "perfil": "problemático",
+            "carateristicas": [
+                "irresponsável",
+                "desordeiro",
+                "insuportável",
+                "impulsivo",
+                "perturbado",
+                "complicado",
+                "problemático"
+            ]
+        },
+        {
+            "perfil": "pessimista",
+            "carateristicas": [
+                "negativo",
+                "inseguro",
+                "cauteloso",
+                "stressado",
+                "pessimista"
+            ]
+        },
+        {
+            "perfil": "extrovertido",
+            "carateristicas": [
+                "comunicativo",
+                "conversador",
+                "participativo",
+                "espontâneo",
+                "impulsivo",
+                "confiante",
+                "sociável",
+                "extrovertido"
+            ]
+        },
+        {
+            "perfil": "ansioso",
+            "carateristicas": [
+                "impaciente",
+                "nervoso",
+                "irrequieto",
+                "stressado",
+                "inseguro",
+                "apreensivo",
+                "angustiado",
+                "ansioso"
+            ]
+        }, {
+            "perfil": "estudioso",
+            "carateristicas": [
+                "esforçado",
+                "aplicado",
+                "atento",
+                "trabalhador",
+                "empenhado",
+                "dedicado",
+                "responsável",
+                "conhecedor",
+                "pró-ativo",
+                "interessado",
+                "concentrado",
+                "estudioso"
+            ]
+        }, {
+            "perfil": "perfeccionista",
+            "carateristicas": ["criterioso", "rigoroso", "persistente", "perfeccionista"]
+        }, {
+            "perfil": "tímido",
+            "carateristicas": [
+                "inseguro",
+                "introvertido",
+                "reservado",
+                "envergonhado",
+                "tímido"
+            ]
+        }, {
+            "perfil": "distraído",
+            "carateristicas": [
+                "preguiçoso",
+                "comodista",
+                "desinteressado",
+                "desmotivado",
+                "desatento",
+                "distraído"
+            ]
+        }, {
+            "perfil": "criativo",
+            "carateristicas": ["imaginativo", "inovador", "curioso", "criativo"]
+        }, {
+            "perfil": "autónomo",
+            "carateristicas": [
+                "responsável",
+                "crítico",
+                "independente",
+                "pró-ativo",
+                "autónomo"
+            ]
+        }, {
+            "perfil": "líder",
+            "carateristicas": [
+                "confiante",
+                "otimista",
+                "responsável",
+                "assertivo",
+                "expressivo",
+                "comunicativo",
+                "influenciador",
+                "crítico",
+                "líder"
+            ]
+        }
+    ],
+    "recursos": [
+        {
+            "id": "R21",
+            "tipo": "Livro",
+            "descricao": "JAVA6 e Programação Orientada pelos Objectos F. Mário Martins, Editora FCA, Série Tecnologias de Informação, ISBN-978-972-722-624-5, Julho de 2009.",
+            "idade_ideal": [
+                18, 22
+            ],
+            "perfis": ["extrovertido", "estudioso", "criativo", "autónomo"]
+        },
+        {
+            "id": "R20",
+            "tipo": "Curso Online",
+            "descricao": "Coursera : https://pt.coursera.org/courses?query=programming.",
+            "idade_ideal": [
+                16, 30
+            ],
+            "perfis": ["tímido", "problemático", "perfeccionista"]
+        },
+        {
+            "id": "R23",
+            "tipo": "Livro",
+            "descricao": "Donald E. Knuth. The Art of Computer Programming, Volume II: Seminumerical Algorithms, 2nd Edition.",
+            "idade_ideal": [
+                19, 22
+            ],
+            "perfis": ["estudioso", "perfeccionista"]
+        },
+        {
+            "id": "R22",
+            "tipo": "Livro",
+            "descricao": "Donald E. Knuth. The Art of Computer Programming, Volume I: Fundamental Algo- rithms, 2nd Edition. Addison-Wesley, 1973.",
+            "idade_ideal": [
+                19, 21
+            ],
+            "perfis": ["líder", "estudioso", "perfeccionista"]
+        }, {
+            "id": "R25",
+            "tipo": "Ficha",
+            "descricao": "1ª Ficha de Exercícios para as Aulas de GCS - Ano Letivo 2017/18 - Cristiana Araújo & Pedro Rangel Henriques",
+            "idade_ideal": [
+                21, 23
+            ],
+            "perfis": [
+                "tímido",
+                "extrovertido",
+                "problemático",
+                "líder",
+                "estudioso",
+                "ansioso",
+                "distraído",
+                "pessimista",
+                "perfeccionista",
+                "criativo",
+                "autónomo"
+            ]
+        }, {
+            "id": "R24",
+            "tipo": "Livro",
+            "descricao": "Donald E. Knuth. The Art of Computer Programming, Volume III: Sorting and Se- arching. AddisonWesley, 1973.",
+            "idade_ideal": [
+                19, 23
+            ],
+            "perfis": ["perfeccionista"]
+        }, {
+            "id": "R1",
+            "tipo": "Tese",
+            "descricao": "Pedro Rangel Henriques, Atributos e Modularidade na Especificação de Linguagens Formais. PhD thesis, Universidade do Minho, Dec. 1992",
+            "idade_ideal": [
+                21, 23
+            ],
+            "perfis": ["líder", "estudioso", "perfeccionista"]
+        }, {
+            "id": "R2",
+            "tipo": "Livro",
+            "descricao": "Coding All-in-One For Dummies (For Dummies (Computers)) - 1st Edition - by Nikhil Abraham.",
+            "idade_ideal": [
+                16, 23
+            ],
+            "perfis": ["distraído", "pessimista"]
+        }, {
+            "id": "R3",
+            "tipo": "Site",
+            "descricao": " Stack Overflow : https://stackoverflow.com ",
+            "idade_ideal": [
+                16, 100
+            ],
+            "perfis": [
+                "tímido",
+                "extrovertido",
+                "problemático",
+                "líder",
+                "estudioso",
+                "ansioso",
+                "distraído",
+                "pessimista",
+                "perfeccionista",
+                "criativo",
+                "autónomo"
+            ]
+        }, {
+            "id": "R4",
+            "tipo": "Livro",
+            "descricao": "Beginner's Step-by-Step Coding Course: Learn Computer Programming the Easy Way Illustrated Edition by DK.",
+            "idade_ideal": [
+                16, 23
+            ],
+            "perfis": ["tímido", "ansioso", "distraído", "pessimista"]
+        }, {
+            "id": "R5",
+            "tipo": "Livro",
+            "descricao": "B. Kerninghan, R. Pike. The Practice of Programming. Addison Wesley, 1999.",
+            "idade_ideal": [
+                18, 23
+            ],
+            "perfis": ["líder", "estudioso", "perfeccionista"]
+        }, {
+            "id": "R6",
+            "tipo": "Livro",
+            "descricao": "Ian Sommerville. Software Engineering, 8th Edition, Pearson Education (Addison Wesley), 2006.",
+            "idade_ideal": [
+                18, 25
+            ],
+            "perfis": ["líder", "criativo"]
+        }, {
+            "id": "R7",
+            "tipo": "Curso Online",
+            "descricao": "BitDegree : https://www.bitdegree.org/tag/coding-and-programming/programming-languages.",
+            "idade_ideal": [
+                16, 30
+            ],
+            "perfis": [
+                "tímido",
+                "extrovertido",
+                "problemático",
+                "ansioso",
+                "distraído",
+                "perfeccionista"
+            ]
+        }, {
+            "id": "R8",
+            "tipo": "Livro",
+            "descricao": "António Manuel Adrego da Rocha, Estruturas de Dados e Algoritmos em C, FCA, 978-972-722-295-7. ",
+            "idade_ideal": [
+                19, 21
+            ],
+            "perfis": [
+                "tímido",
+                "estudioso",
+                "ansioso",
+                "perfeccionista",
+                "criativo",
+                "autónomo"
+            ]
+        }, {
+            "id": "R9",
+            "tipo": "Livro",
+            "descricao": "Aho , Sethi , Ullman , Compiler Principles, Techniques and Tools , Addison-Wesley , 1986.",
+            "idade_ideal": [
+                20, 21
+            ],
+            "perfis": [
+                "tímido",
+                "estudioso",
+                "líder",
+                "perfeccionista",
+                "criativo",
+                "autónomo"
+            ]
+        }, {
+            "id": "R10",
+            "tipo": "Site",
+            "descricao": "W3Schools : https://www.w3schools.com/ .",
+            "idade_ideal": [
+                16, 75
+            ],
+            "perfis": [
+                "tímido",
+                "extrovertido",
+                "problemático",
+                "líder",
+                "ansioso",
+                "distraído",
+                "pessimista",
+                "criativo",
+                "autónomo"
+            ]
+        }, {
+            "id": "R12",
+            "tipo": "Livro",
+            "descricao": "Fundamentos da Computação, Livro II: Programação Funcional. José Manuel Valença e José Bernardo Barros. Universidade Aberta, 1999.",
+            "idade_ideal": [
+                18, 20
+            ],
+            "perfis": [
+                "tímido",
+                "estudioso",
+                "ansioso",
+                "pessimista",
+                "perfeccionista",
+                "autónomo"
+            ]
+        }, {
+            "id": "R11",
+            "tipo": "Livro",
+            "descricao": "Beginning Programming All-in-One Desk Reference For Dummies 1st Edition by Wallace Wang.",
+            "idade_ideal": [
+                16, 23
+            ],
+            "perfis": ["tímido", "distraído", "pessimista"]
+        }, {
+            "id": "R14",
+            "tipo": "Tese",
+            "descricao": "O Impacto da Animação e Visualização no Ensino da Programação por Paula Correia Tavares.",
+            "idade_ideal": [
+                13, 20
+            ],
+            "perfis": ["líder", "perfeccionista"]
+        }, {
+            "id": "R13",
+            "tipo": "Curso Online",
+            "descricao": "Code Academy : https://www.codecademy.com/catalog.",
+            "idade_ideal": [
+                16, 30
+            ],
+            "perfis": [
+                "tímido",
+                "extrovertido",
+                "problemático",
+                "distraído",
+                "perfeccionista"
+            ]
+        }, {
+            "id": "R16",
+            "tipo": "Livro",
+            "descricao": "Alves Marques et al., Sistemas Operativos, FCA Editora de Informática, 2ª edição, 2012.",
+            "idade_ideal": [
+                19, 22
+            ],
+            "perfis": ["estudioso", "perfeccionista", "líder"]
+        }, {
+            "id": "R15",
+            "tipo": "Livro",
+            "descricao": "Ramalho, J.C. e Henriques, P. R. XML & XSL : da teoria à prática. Lisboa : FCA - Editora de Informática, 2002 (Tecnologias de informação). ISBN 972-722-347-8",
+            "idade_ideal": [
+                19, 22
+            ],
+            "perfis": [
+                "tímido",
+                "estudioso",
+                "ansioso",
+                "pessimista",
+                "perfeccionista",
+                "autónomo"
+            ]
+        }, {
+            "id": "R18",
+            "tipo": "Software",
+            "descricao": "Criar jogos com Scratch",
+            "idade_ideal": [
+                10, 16
+            ],
+            "perfis": [
+                "tímido",
+                "extrovertido",
+                "problemático",
+                "ansioso",
+                "distraído",
+                "pessimista",
+                "criativo"
+            ]
+        }, {
+            "id": "R17",
+            "tipo": "Livro",
+            "descricao": "Computer Systems: A Programmer's Perspective (CS:APP), Randal Bryant and David O'Hallaron, Prentice Hall, 2nd Ed., 2010",
+            "idade_ideal": [
+                18, 23
+            ],
+            "perfis": ["estudioso", "criativo"]
+        }, {
+            "id": "R19",
+            "tipo": "Site",
+            "descricao": "Tutorialspoint : https://www.tutorialspoint.com/tutorialslibrary.htm.",
+            "idade_ideal": [
+                16, 75
+            ],
+            "perfis": [
+                "tímido",
+                "extrovertido",
+                "ansioso",
+                "distraído",
+                "pessimista",
+                "autónomo"
+            ]
+        }
+    ],
+    "conceitos": [
+        {
+            "id": "C3",
+            "descricao": "Ciclos"
+        },
+        {
+            "id": "C4",
+            "descricao": "Funções"
+        },
+        {
+            "id": "C5",
+            "descricao": "Recursividade"
+        },
+        {
+            "id": "C6",
+            "descricao": "Estruturas de dados"
+        }, {
+            "id": "C10",
+            "descricao": "Gramática de Atributos"
+        }, {
+            "id": "C7",
+            "descricao": "Gestão de memória"
+        }, {
+            "id": "C8",
+            "descricao": "Algoritmos"
+        }, {
+            "id": "C9",
+            "descricao": "Sistema Operativos"
+        }, {
+            "id": "C1",
+            "descricao": "Paradigmas"
+        }, {
+            "id": "C2",
+            "descricao": "Tipos de dados"
+        }
+    ],
+    "alunos": [
+        {
+            "id": "A83631",
+            "nome": "Filipa Alves dos Santos",
+            "idade": 20,
+            "carateristicas": [
+                "inovador",
+                "inseguro",
+                "aplicado",
+                "trabalhador",
+                "participativo"
+            ]
+        },
+        {
+            "id": "A84302",
+            "nome": "José Ricardo Sousa Mendes da Cunha",
+            "idade": 20,
+            "carateristicas": ["esforçado", "otimista"]
+        },
+        {
+            "id": "A83930",
+            "nome": "Luís Miguel Arieira Ramos",
+            "idade": 19,
+            "carateristicas": ["comodista", "inseguro"]
+        },
+        {
+            "id": "A80580",
+            "nome": "Pedro Rafael Bernardo Medeiros",
+            "idade": 18,
+            "carateristicas": ["comunicativo", "esforçado"]
+        }, {
+            "id": "A83655",
+            "nome": "Celso André de Carvalho Rodrigues",
+            "idade": 20,
+            "carateristicas": ["negativo", "stressado", "dedicado", "responsável"]
+        }, {
+            "id": "A83732",
+            "nome": "Gonçalo Rodrigues Pinto",
+            "idade": 20,
+            "carateristicas": ["rigoroso"]
+        }, {
+            "id": "A85954",
+            "nome": "Luís Mário Macedo Ribeiro",
+            "idade": 22,
+            "carateristicas": ["impulsivo"]
+        }, {
+            "id": "A82263",
+            "nome": "Moisés Araújo Antunes",
+            "idade": 18,
+            "carateristicas": ["empenhado", "comunicativo"]
+        }, {
+            "id": "A85813",
+            "nome": "António Alexandre Carvalho Lindo",
+            "idade": 22,
+            "carateristicas": ["participativo", "imaginativo", "conversador", "dedicado"]
+        }, {
+            "id": "A67645",
+            "nome": "António Sérgio Costa Gomes",
+            "idade": 18,
+            "carateristicas": ["inseguro", "dedicado"]
+        }, {
+            "id": "A82428",
+            "nome": "João Pedro da Costa Gomes",
+            "idade": 20,
+            "carateristicas": ["nervoso", "impulsivo", "curioso"]
+        }, {
+            "id": "A71407",
+            "nome": "Maurício Zulueta Lima Salgado",
+            "idade": 18,
+            "carateristicas": ["irresponsável", "criterioso", "imaginativo"]
+        }, {
+            "id": "A80624",
+            "nome": "Sofia Almeida Teixeira",
+            "idade": 21,
+            "carateristicas": ["desinteressado", "negativo", "irrequieto"]
+        }, {
+            "id": "A85176",
+            "nome": "Tânia Filipa Amorim Rocha",
+            "idade": 18,
+            "carateristicas": ["responsável"]
+        }, {
+            "id": "A82500",
+            "nome": "Helena Poças Martins",
+            "idade": 18,
+            "carateristicas": ["curioso", "impulsivo", "criterioso"]
+        }, {
+            "id": "PG39292",
+            "nome": "Maria Inês Vieira Pinto",
+            "idade": 18,
+            "carateristicas": ["dedicado", "cauteloso"]
+        }, {
+            "id": "A85059",
+            "nome": "Diogo Paulo Lopes de Vasconcelos",
+            "idade": 18,
+            "carateristicas": ["desordeiro", "desinteressado", "nervoso"]
+        }, {
+            "id": "A75310",
+            "nome": "Renato Jorge Cruzinha da Silva",
+            "idade": 20,
+            "carateristicas": ["stressado"]
+        }, {
+            "id": "A76089",
+            "nome": "Etienne da Silva Filipe Amado da Costa",
+            "idade": 18,
+            "carateristicas": ["comunicativo", "aplicado", "otimista"]
+        }, {
+            "id": "A79751",
+            "nome": "Diogo Miguel Alves Rocha",
+            "idade": 19,
+            "carateristicas": ["desordeiro", "comodista"]
+        }, {
+            "id": "A70782",
+            "nome": "Guilherme Pereira Martins",
+            "idade": 22,
+            "carateristicas": ["comodista", "preguiçoso", "comunicativo"]
+        }, {
+            "id": "A75411",
+            "nome": "Ricardo Guerra Leal",
+            "idade": 20,
+            "carateristicas": ["otimista", "expressivo"]
+        }, {
+            "id": "A84775",
+            "nome": "João da Cunha e Costa",
+            "idade": 21,
+            "carateristicas": ["inseguro", "preguiçoso", "irrequieto"]
+        }, {
+            "id": "A83765",
+            "nome": "Rodrigo da Silva Pimentel",
+            "idade": 19,
+            "carateristicas": ["otimista", "atento", "confiante"]
+        }, {
+            "id": "A60201",
+            "nome": "Tiago Filipe Martins Moreira",
+            "idade": 20,
+            "carateristicas": ["impulsivo", "comunicativo"]
+        }, {
+            "id": "A37",
+            "nome": "Ana Margarida da Rocha Ferreira",
+            "idade": 22,
+            "carateristicas": ["irresponsável", "desinteressado"]
+        }, {
+            "id": "A75480",
+            "nome": "Marco Matias Pereira Gonçalves",
+            "idade": 20,
+            "carateristicas": ["insuportável"]
+        }, {
+            "id": "PG42847",
+            "nome": "Pedro Afonso Rodrigues Santos",
+            "idade": 18,
+            "carateristicas": ["dedicado"]
+        }, {
+            "id": "A82238",
+            "nome": "João Pedro Rodrigues Gomes",
+            "idade": 20,
+            "carateristicas": ["introvertido", "inseguro"]
+        }, {
+            "id": "PG42821",
+            "nome": "Daniel José Marques Henriques Pereira",
+            "idade": 18,
+            "carateristicas": ["atento", "responsável", "rigoroso"]
+        }, {
+            "id": "A84475",
+            "nome": "Ana Rita Miranda Rosendo",
+            "idade": 22,
+            "carateristicas": ["negativo", "impulsivo", "participativo"]
+        }, {
+            "id": "A81146",
+            "nome": "Mariana de Oliveira Pereira",
+            "idade": 21,
+            "carateristicas": ["empenhado", "esforçado", "nervoso"]
+        }, {
+            "id": "A85367",
+            "nome": "Luís Francisco Mendes Lopes",
+            "idade": 22,
+            "carateristicas": ["reservado", "inseguro"]
+        }, {
+            "id": "A85400",
+            "nome": "Nuno Azevedo Alves da Cunha",
+            "idade": 19,
+            "carateristicas": ["empenhado"]
+        }, {
+            "id": "A84092",
+            "nome": "Diogo Paulo da Costa Pereira",
+            "idade": 20,
+            "carateristicas": ["esforçado", "irrequieto"]
+        }, {
+            "id": "A74618",
+            "nome": "Bernardo Miguel Teixeira Dias Viseu de Carvalho",
+            "idade": 20,
+            "carateristicas": ["irresponsável", "impulsivo"]
+        }, {
+            "id": "A80749",
+            "nome": "Francisco Braga Urbano Rosa",
+            "idade": 22,
+            "carateristicas": ["curioso", "impulsivo", "participativo", "irrequieto"]
+        }, {
+            "id": "A84193",
+            "nome": "Joana Esteves Dantas",
+            "idade": 19,
+            "carateristicas": ["impaciente", "introvertido"]
+        }, {
+            "id": "A76936",
+            "nome": "Luís Miguel Arrepia Ferreira",
+            "idade": 20,
+            "carateristicas": ["responsável", "expressivo", "participativo", "espontâneo"]
+        }, {
+            "id": "PG37149",
+            "nome": "Diego Porto da Silva",
+            "idade": 21,
+            "carateristicas": [
+                "atento",
+                "assertivo",
+                "empenhado",
+                "esforçado",
+                "expressivo"
+            ]
+        }, {
+            "id": "A85919",
+            "nome": "Pedro Dias Parente",
+            "idade": 20,
+            "carateristicas": ["persistente"]
+        }
+    ],
+    "ensinamentos": [
+        {
+            "recurso": "R1",
+            "conceito": "C10"
+        },
+        {
+            "recurso": "R2",
+            "conceito": "C1"
+        },
+        {
+            "recurso": "R3",
+            "conceito": "C2"
+        },
+        {
+            "recurso": "R3",
+            "conceito": "C3"
+        }, {
+            "recurso": "R3",
+            "conceito": "C4"
+        }, {
+            "recurso": "R3",
+            "conceito": "C5"
+        }, {
+            "recurso": "R3",
+            "conceito": "C6"
+        }, {
+            "recurso": "R3",
+            "conceito": "C7"
+        }, {
+            "recurso": "R3",
+            "conceito": "C8"
+        }, {
+            "recurso": "R3",
+            "conceito": "C9"
+        }, {
+            "recurso": "R3",
+            "conceito": "C10"
+        }, {
+            "recurso": "R4",
+            "conceito": "C1"
+        }, {
+            "recurso": "R5",
+            "conceito": "C2"
+        }, {
+            "recurso": "R6",
+            "conceito": "C4"
+        }, {
+            "recurso": "R7",
+            "conceito": "C3"
+        }, {
+            "recurso": "R7",
+            "conceito": "C4"
+        }, {
+            "recurso": "R7",
+            "conceito": "C5"
+        }, {
+            "recurso": "R7",
+            "conceito": "C6"
+        }, {
+            "recurso": "R7",
+            "conceito": "C7"
+        }, {
+            "recurso": "R8",
+            "conceito": "C6"
+        }, {
+            "recurso": "R8",
+            "conceito": "C8"
+        }, {
+            "recurso": "R9",
+            "conceito": "C5"
+        }, {
+            "recurso": "R9",
+            "conceito": "C6"
+        }, {
+            "recurso": "R9",
+            "conceito": "C8"
+        }, {
+            "recurso": "R10",
+            "conceito": "C2"
+        }, {
+            "recurso": "R10",
+            "conceito": "C3"
+        }, {
+            "recurso": "R10",
+            "conceito": "C4"
+        }, {
+            "recurso": "R10",
+            "conceito": "C5"
+        }, {
+            "recurso": "R10",
+            "conceito": "C6"
+        }, {
+            "recurso": "R11",
+            "conceito": "C1"
+        }, {
+            "recurso": "R12",
+            "conceito": "C5"
+        }, {
+            "recurso": "R13",
+            "conceito": "C3"
+        }, {
+            "recurso": "R13",
+            "conceito": "C4"
+        }, {
+            "recurso": "R13",
+            "conceito": "C5"
+        }, {
+            "recurso": "R13",
+            "conceito": "C6"
+        }, {
+            "recurso": "R13",
+            "conceito": "C7"
+        }, {
+            "recurso": "R13",
+            "conceito": "C8"
+        }, {
+            "recurso": "R14",
+            "conceito": "C1"
+        }, {
+            "recurso": "R15",
+            "conceito": "C2"
+        }, {
+            "recurso": "R15",
+            "conceito": "C6"
+        }, {
+            "recurso": "R16",
+            "conceito": "C9"
+        }, {
+            "recurso": "R17",
+            "conceito": "C8"
+        }, {
+            "recurso": "R18",
+            "conceito": "C1"
+        }, {
+            "recurso": "R18",
+            "conceito": "C2"
+        }, {
+            "recurso": "R18",
+            "conceito": "C3"
+        }, {
+            "recurso": "R18",
+            "conceito": "C4"
+        }, {
+            "recurso": "R19",
+            "conceito": "C2"
+        }, {
+            "recurso": "R19",
+            "conceito": "C3"
+        }, {
+            "recurso": "R19",
+            "conceito": "C4"
+        }, {
+            "recurso": "R19",
+            "conceito": "C5"
+        }, {
+            "recurso": "R19",
+            "conceito": "C6"
+        }, {
+            "recurso": "R20",
+            "conceito": "C3"
+        }, {
+            "recurso": "R20",
+            "conceito": "C4"
+        }, {
+            "recurso": "R20",
+            "conceito": "C5"
+        }, {
+            "recurso": "R20",
+            "conceito": "C6"
+        }, {
+            "recurso": "R20",
+            "conceito": "C8"
+        }, {
+            "recurso": "R20",
+            "conceito": "C9"
+        }, {
+            "recurso": "R21",
+            "conceito": "C4"
+        }, {
+            "recurso": "R21",
+            "conceito": "C6"
+        }, {
+            "recurso": "R21",
+            "conceito": "C8"
+        }, {
+            "recurso": "R21",
+            "conceito": "C10"
+        }, {
+            "recurso": "R22",
+            "conceito": "C4"
+        }, {
+            "recurso": "R22",
+            "conceito": "C5"
+        }, {
+            "recurso": "R22",
+            "conceito": "C8"
+        }, {
+            "recurso": "R23",
+            "conceito": "C4"
+        }, {
+            "recurso": "R23",
+            "conceito": "C5"
+        }, {
+            "recurso": "R23",
+            "conceito": "C6"
+        }, {
+            "recurso": "R23",
+            "conceito": "C8"
+        }, {
+            "recurso": "R24",
+            "conceito": "C4"
+        }, {
+            "recurso": "R24",
+            "conceito": "C5"
+        }, {
+            "recurso": "R24",
+            "conceito": "C6"
+        }, {
+            "recurso": "R24",
+            "conceito": "C7"
+        }, {
+            "recurso": "R24",
+            "conceito": "C8"
+        }, {
+            "recurso": "R25",
+            "conceito": "C10"
+        }
+    ]
+}

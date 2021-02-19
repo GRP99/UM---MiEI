@@ -1,0 +1,176 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Exercícios realizados no dia 20/11/2020
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- 1. Estabeleça a ligação à sua CDB:
+	. Ligando à bash do container oracle:
+		 - Descobriu-se o container-id do Oracle : 
+			[root@localhost ~]$ sudo docker ps -a
+		 - Acedeu-se à linha de comandos do container : 
+			[root@localhost ~]$ sudo docker exec -it 1aeb bash
+		 - Ligou-se à base de dados de root (CDB), como sys as sysdba : 
+			[oracle@1aeb761d5003 /]$ sqlplus sys/Oradoc_db1@localhost:1521/ORCLCDB.localdomain as sysdba
+
+
+
+-- 2. Crie duas novas PDB a partir da PDB seed com denominações à escolha:
+	. Antes de começar foi necessário criar as pastas para acomodar os ficheiros das novas PDB's. Usou-se para isso o filesystem do nosso host:
+		[root@localhost ~]# cd /home/uminho/dockers/data/oracle/u02/app/oracle/oradata/ORCL
+		- Criação das pastas:	
+			[root@localhost ~]# sudo mkdir pdb1
+			[root@localhost ~]# sudo mkdir pdb2
+		- Alteração das permissões:
+			[root@localhost ~]# chown oracle:oinstall pdb1
+			[root@localhost ~]# chown oracle:oinstall pdb2
+	. Usando a bash do container ligou-se à CDB como se fez previamente na questão 1.
+		- Criação das PDB's através da PDB Seed:
+			SQL> create pluggable database pdb1
+        			admin user pdb1_admin identified by pdb1 
+			        roles = (DBA) 
+			        FILE_NAME_CONVERT=('/u02/app/oracle/oradata/ORCL/pdbseed','/u02/app/oracle/oradata/ORCL/pdb1');
+	
+			SQL> create pluggable database pdb2
+			        admin user pdb2_admin identified by pdb2
+			        roles = (DBA) 
+			        FILE_NAME_CONVERT=('/u02/app/oracle/oradata/ORCL/pdbseed','/u02/app/oracle/oradata/ORCL/pdb2');
+
+
+
+-- 3. Verifique que as PDB estão montadas e passíveis de serem utilizadas:
+	. Numa fase inicial, verificou-se o estado das novas PDB's criadas:
+		SQL> select pdb_name, status from cdb_pdbs;
+	. Posteriormente, verificou-se o open_mode da novas PDB's criadas como também analisou-se o Service Name das novas PDB's criadas:
+		SQL> select name, open_mode from v$pdbs;
+		SQL> select name, con_id from v$active_services order by 1;
+	. Seguidamente, foi possível visualizar quais os datafiles criados:
+		SQL> select name from v$datafile where con_id=4;
+		SQL> select name from v$datafile where con_id=6;
+	. Finalmente, para as PDB's estarem passíveis de serem utilizadas foi necessário abrir as mesmas:
+		SQL> alter pluggable database PDB1 open;
+		SQL> alter pluggable database PDB2 open;
+
+
+
+-- 4. Altere o nome da primeira PDB para “sonho” e o nome da segunda pdb para “sclinico”.
+	. De forma a alterar o nome de uma PDB, foi necessário ligar à PDB e colocar em open restrict mode
+		- Fechando a base de dados :
+			SQL> alter pluggable database pdb1 close immediate;
+			SQL> alter pluggable database pdb2 close immediate;
+		- Foi necessário abrir em modo restrito :
+			SQL> alter pluggable database pdb1 open restricted;
+			SQL> alter pluggable database pdb2 open restricted;
+		- Por fim para renomear as PDB's foi necessário estarmos connectados às mesmas:
+			SQL> connect sys/Oradoc_db1@localhost:1521/pdb1.localdomain as sysdba;
+			SQL> alter pluggable database pdb1 rename global_name to sonho;
+			SQL> alter pluggable database close immediate;
+ 			SQL> connect sys/Oradoc_db1@localhost:1521/pdb2.localdomain as sysdba;
+			SQL> alter pluggable database pdb2 rename global_name to sclinico;
+			SQL> alter pluggable database close immediate;
+		- Após fechado as PDB's e de seguida montou-se para voltar para produção:
+			SQL> exit
+			[oracle@1aeb761d5003 /]$ sqlplus sys/Oradoc_db1@localhost:1521/ORCLCDB.localdomain as sysdba
+			SQL> alter pluggable database all open;
+			SQL> select name, open_mode from v$pdbs;
+
+
+
+-- 5. Adicione 2 tablespaces e respetivos datafiles a cada uma das PDB. Um tablespace permanente com 100M e um tablespace temporário; Valide a criação dos tablespaces e datafiles.
+	. Para adicionar 2 tablespaces e respetivos datafiles a cada uma das PDB foi necessário:
+		- Garantir numa primeira fase a Ligação à PDB 1:
+			[oracle@1aeb761d5003 /]$ sqlplus sys/Oradoc_db1 as sysdba;
+			SQL> connect sys/Oradoc_db1@localhost:1521/sonho.localdomain as sysdba;
+			SQL> show con_name;
+		- Criar o tablespace na PDB
+			SQL> create tablespace pdata datafile '/u02/app/oracle/oradata/ORCL/pdb1/pdata01.dbf' SIZE 100M;
+		- Verificar a criação do tablespace e do datafile, respectivamente:
+			SQL> select tablespace_name, con_id from cdb_tablespaces order by con_id;
+			SQL> select file_name, con_id from cdb_data_files order by con_id;
+		- Criar também o tablespace temporário na PDB
+			SQL> create temporary tablespace temp_root tempfile '/u02/app/oracle/oradata/ORCL/pdb1/temproot01.dbf' SIZE 100M;
+		- Verificar a criação do tablespace temporário e do tempfile, respectivamente:
+			SQL> select tablespace_name, con_id from cdb_tablespaces order by con_id;
+			SQL> select tablespace_name, con_id from cdb_tablespaces where contents='TEMPORARY';
+			SQL> exit
+		- Posteriormente, garantir a Ligação à PDB 2:
+			[oracle@1aeb761d5003 /]$ sqlplus sys/Oradoc_db1 as sysdba;
+			SQL> connect sys/Oradoc_db1@localhost:1521/sclinico.localdomain as sysdba;
+			SQL> show con_name;
+		- Criar o tablespace na PDB
+			SQL> create tablespace pdata datafile '/u02/app/oracle/oradata/ORCL/pdb2/pdata01.dbf' SIZE 100M;
+		- Verificar a criação do tablespace e do datafile, respectivamente:
+			SQL> select tablespace_name, con_id from cdb_tablespaces order by con_id;
+			SQL> select file_name, con_id from cdb_data_files order by con_id;
+		- Criar também o tablespace temporário na PDB
+			SQL> create temporary tablespace temp_root tempfile '/u02/app/oracle/oradata/ORCL/pdb2/temproot01.dbf' SIZE 100M;
+		- Verificar a criação do tablespace temporário e do tempfile, respectivamente:
+			SQL> select tablespace_name, con_id from cdb_tablespaces order by con_id;
+			SQL> select tablespace_name, con_id from cdb_tablespaces where contents='TEMPORARY';
+			SQL> exit
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Exercícios realizados no dia 27/11/2020
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- 6. Crie um common user com um nome à sua escolha; Valide a criação do user.
+	. Para criar um common user:
+		- Garantiu-se a Ligação à CDB: 
+			[oracle@718d354ccb1b /]$ sqlplus sys/Oradoc_db1 as sysdba;
+			SQL> create user c##1 identified by oracle container=all;
+		- Verificou-se a criação do user:
+			SQL> select username, common, con_id from cdb_users where username like 'C##%';
+
+-- 7. Crie um local user para cada PDB. Na PDB sonho o utilizador deverá ter o nome de: snh e na PDB sclinico deverá ter o nome de scl.
+	. Para criar os utilizadores local nas PDB:
+		- Estando ligados à CDB, ligou-se a cada uma das PDB's:
+			.. SONHO
+				SQL> connect sys/Oradoc_db1@localhost:1521/sonho.localdomain as sysdba; 
+				SQL> create user snh identified by oracle;
+				SQL> select username, common, con_id  from cdb_users where username ='SNH';
+				SQL> grant create session to snh;
+				SQL> grant create any table to snh;
+				SQL> grant ALL PRIVILEGES to snh;
+				SQL> select grantee, privilege, common, con_id from cdb_sys_privs where privilege='CREATE SESSION' and grantee='SNH';
+				SQL> connect snh/oracle@localhost:1521/sonho.localdomain;
+			.. SCLINICO
+				SQL> connect sys/Oradoc_db1@localhost:1521/sclinico.localdomain as sysdba;
+				SQL> create user scl identified by oracle;
+				SQL> select username, common, con_id  from cdb_users where username ='SCL';
+				SQL> grant create session to scl;
+				SQL> grant create any table to scl;
+				SQL> grant ALL PRIVILEGES to scl;
+				SQL> select grantee, privilege, common, con_id from cdb_sys_privs where privilege='CREATE SESSION' and grantee='SCL';
+				SQL> connect scl/oracle@localhost:1521/sclinico.localdomain;
+
+		- Finalmente criou-se as ligações às novas PDB no SQLDeveloper...
+
+-- 8. Em cada uma das novas PDB criar 1 tabela de acordo com o seguinte: sonho: paciente (idpaciente, nome, datanascimento, sexo, telefone) // sclinico: consulta (idconsulta, dataconsulta, medico, idpaciente)
+	CREATE TABLE paciente(
+		"idpaciente" NUMBER NOT NULL ENABLE,
+		"nome" VARCHAR2(200 byte) NOT NULL ENABLE,
+		"datanascimento" DATE NOT NULL ENABLE,
+		"sexo" NUMBER NOT NULL ENABLE,
+		"telefone" NUMBER NOT NULL ENABLE,
+		CONSTRAINT "SONHO_PK" PRIMARY KEY ("idpaciente")
+	);
+
+	CREATE TABLE consulta(
+		"idconsulta" NUMBER NOT NULL ENABLE,
+		"dataconsulta" DATE NOT NULL ENABLE,
+		"medico" VARCHAR2(200 byte) NOT NULL ENABLE,
+		"idpaciente" NUMBER NOT NULL ENABLE,
+		CONSTRAINT "SCLINICO_PK" PRIMARY KEY ("idconsulta")
+	);
+
+
+-- 9. Insira aleatoriamente valores nas tabelas criadas.
+insert into paciente values (1,'Gertrudes',to_date('24/04/1969','DD/MM/YYYY'),0,911923456);
+insert into paciente values (2,'Tobias',to_date('24-04-1999','DD/MM/YYYY'),1,934567987);
+insert into paciente values (3,'Parente',to_date('24-04-2019','DD/MM/YYYY'),1,961953456);
+
+insert into consulta values (1,to_date('24-04-2020','DD/MM/YYYY'),'Dr. Ranjit',3);
+insert into consulta values (2,to_date('25-04-2020','DD/MM/YYYY'),'Dr. Ranjit',2);
+insert into consulta values (3,to_date('26-04-2020','DD/MM/YYYY'),'Dr. Ranjit',1);
+
+
+-- 10. Demonstre com um comando SQL a criação das tabelas e dados.
+	select * from paciente;
+	select * from consulta;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------

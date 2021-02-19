@@ -1,0 +1,79 @@
+    {
+        {
+            "number_of_sensors",
+            "sensorid": ,
+            "sensornum": ,
+            "type_of_sensor": ,
+            "patient": {
+                "patientid": ,
+                "patientname": ,
+                "patientbirthdate": ,
+                "patientage":
+            },
+            "servicecod": ,
+            "servicedesc": ,
+            "admdate": ,
+            "bed": ,
+            "data": [
+                {
+                    "bodytemp": ,
+                    "bloodpress": {
+                        "systolic": ,
+                        "diastolic":
+                    },
+                    "bpm": ,
+                    "sato2": ,
+                    "timestamp": ,
+                },
+            ...
+            ],
+            "careteam": [
+                {
+                    "id": ,
+                    "nome":
+                },
+            ]
+        }
+        ...
+        {
+            "number_of_sensors": ,
+            "sensorid": ,
+            "sensornum": ,
+            "type_of_sensor": ,
+            "nurseteam": [
+                {
+                    "id": ,
+                    "nome":
+                },
+            ],
+            "careteam": [
+                {
+                    "id": ,
+                    "nome":
+                },
+            ],
+            "patient": {
+                "patientid": ,
+                "patientname": ,
+                "patientbirthdate": ,
+                "patientage":
+            },
+            "servicecod": ,
+            "servicedesc": ,
+            "admdate": ,
+            "bed": ,
+            "data": [
+                {
+                    "bodytemp": ,
+                    "bloodpress": {
+                        "systolic": ,
+                        "diastolic": ,
+                    },
+                    "bpm": ,
+                    "sato2": ,
+                    "timestamp": 
+                },
+                ...
+            ]
+        }
+    }

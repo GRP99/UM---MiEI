@@ -1,0 +1,69 @@
+/* [1] Apresentar os detalhes dos departamentos ordenados pelo nome de forma ascendente */
+db.hr.distinct("department").sort()
+
+/* [2] Apresentar os nomes dos departamentos e os responsaveis por estes */
+db.hr.aggregate([{$group: {_id: null, departments: {$addToSet: {_id:"$department.department_id", department: "$department.name", manager:"$department.manager"}}}}, {$project: {_id:0}}]).pretty()
+
+/* [3] Apresentar os nomes dos departamentos e o numero de funcionarios de cada um */
+db.hr.aggregate([ {$group: {_id: "$department.name", tot_employees: {$sum: 1}}}, {$match: {_id: {$ne: null}}}]).pretty()
+
+/* [4] Apresentar os identificadores dos gestores e o numero de funcionarios geridos por cada um */
+db.hr.aggregate([ {$group: {_id: "$manager_id", tot_employees: {$sum: 1}}}]).pretty()
+
+/* [5] Apresentar os detalhes dos funcionarios cuja percentagem de comissao seja nula, o salario esteja entre 10000 e 15000 e o gestor possua o identificador 101 */
+db.hr.find({$and: [{salary: {$gte: 10000}}, {salary: {$lte: 15000}}, {manager_id: 101}]}).pretty()
+
+/* [6] Apresentar os funcionarios cujo primeiro nome e ultimo nome comecam pela letra G */
+db.hr.find({$and:[{first_name: {$regex: "G"}},{last_name: {$regex: "G"}}]}).pretty()
+
+/* [7] Apresentar todos os funcionarios que entraram para a empresa apos 19 de Dezembro de 2007 */
+db.hr.find({$and: [{hire_date: {$gte: "2007-12-19"}}]}).pretty()
+
+/* [8] Apresentar o nome dos funcionarios que foram contratados em 2008 */
+db.hr.find({$and: [{hire_date: {$gte: "2008-01-01"}}, {hire_date: {$lte: "2008-12-31"}}]},{_id:0, first_name:1, last_name:1, hire_date:1}).pretty()
+db.hr.find( {hire_date: {$regex: /2008/}},{first_name:1,last_name:1,hire_date:1}).pretty()
+
+/* [9] Apresentar quantos funcionarios foram admitidos em cada mes do ano 2008 */
+db.hr.aggregate([{$match: {$and: [{hire_date: {$gte: "2008-01-01"}}, {hire_date: {$lte: "2008-12-31"}}]}}, {$addFields: {mes: {$arrayElemAt: [ { $split: ["$hire_date", "-"]},1]}}}, {$group: {_id: "$mes", funcionarios: {$sum:1}}}]).pretty()
+
+/* [10] Apresentar o nome dos funcionarios que iniciaram funcoes antes do seu gestor */
+-- Teria que percorrer 2x a bd, ou adicionar ao documento a hire_date do manager.
+
+/* [11] Apresentar o cargo, o numero de funcionarios, o somatorio dos salarios e a diferenca entre o maior salario e o menor dos funcionarios desse cargo */
+db.hr.aggregate([{$group:{_id:"$job.title", total_employees: {$sum:1}, tot_salaries: {$sum: "$salary"}, salaries: {$push: "$salary"}}}, {$addFields: {diff_salary: {$subtract: [{$max: "$salaries"},{$min: "$salaries"}]}}}]).pretty() 
+
+/* [12] Apresentar o nome dos funcionarios que ocupam o cargo de Programmer ou President */
+db.hr.find({$or:[{"job.title":"President"},{"job.title":"Programmer"}]},{first_name:1,last_name:1,"job.title":1}).pretty()
+
+/* [13] Apresentar o nome do cargo e a media dos salarios */
+db.hr.aggregate([ { $group: { _id:"$job.title",avgSalary: {$avg: "$salary"}}}]).pretty()
+
+/* [14] Apresentar simultaneamente o primeiro nome do funcionario, o seu cargo e a sua experiencia, ordenando do mais experiente para o menos experiente */
+db.hr.aggregate([{$project:{_id:1, name: {$concat: ["$first_name"," ", "$last_name"]}, hire_date:1}}, {$sort: {hire_date:1}}]).pretty()
+
+/* [15] Apresentar os cargos cujo salario maximo seja menor ou igual que 6000 */
+db.hr.find({"job.max_salary": {$lte: 6000} }).pretty()
+
+/* [16] Apresentar o cargo e a diferenca entre o salario maximo e o salario minimo desse cargo, em que o salario maximo esteja entre 6000 e 10000 */
+db.hr.aggregate([{$match:{$and: [{"job.max_salary": {$gte: 6000}}, {"job.max_salary": {$lte: 10000}}]}}, {$project:{_id:"$job.title", max_salary: "$job.max_salary", min_salary: "$job.min_salary", diff: {$subtract: ["$job.max_salary","$job.min_salary"]}}}]).pretty()
+
+/* [17] Apresentar o identificador dos funcionarios que tiveram mais que um cargo no passado */
+db.hr.find({'history.1':{$exists:true}},{_id:1,first_name:1,last_name:1,history:1}).pretty()
+
+/* [18] Apresentar os detalhes dos cargos que tenham sido executados por funcionarios que atualmente recebem mais que 10000 de salario */
+db.hr.aggregate([ {$match: {salary: {$gte: 10000}}}, {$project: {_id:1, name: {$concat: ["$first_name"," ", "$last_name"]}, salary:1, history:1}}]).pretty() 
+
+/* [19] Apresentar os detalhes dos cargos atuais dos funcionarios que trabalharam como IT_PROG no passado */
+db.hr.find({"history": { $elemMatch: {job_title:"Programmer"}}},{}).pretty()
+
+/* [20] Apresentar os paises e o numero de cidades existentes associadas a cada pais */
+db.hr.aggregate([{ $group:{_id:'$department.country_name', cities: {$addToSet: '$department.city'}}}, {$addFields: {total_cities: {$size: "$cities"}}}]).pretty()
+
+/* [21] Apresentar o nome da regiao, o nome do pais, o nome da cidade, o nome do departamento e do gestor deste, bem como do seu cargo */
+db.hr.find({},{_id:1, first_name:1, last_name:1,"job.title":1, "department.name":1, "department.manager":1, "department.city":1, "department.country_name":1, "department.region_name":1}).pretty()
+
+/* [22] Apresentar o nome do funcionario e o respetivo pais onde se encontra a trabalhar */
+db.hr.find({},{_id:1, first_name:1, last_name:1, "department.country_name":1}).pretty()
+
+/* [23] Apresentar o nome do pais, a cidade e o numero de departamentos que possuem mais de 5 funcionarios */
+db.hr.aggregate([ {$group: {_id: "$department.name", country: {$addToSet: "$department.country_name"}, city: {$addToSet: "$department.city"}, funcionarios: {$sum: 1}}}, {$match: {funcionarios: {$gt:5}}}]).pretty()

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewCity"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+        android:textSize="15dip"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewWeather"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="13dip"
+        android:textSize="15dip"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip"
+        android:textSize="15dip"
+        android:textStyle="bold" >
+    </TextView>
+</LinearLayout>

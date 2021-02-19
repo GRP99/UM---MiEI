@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: a-custom-entry.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: janeiro 11, 2021 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2021 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>WHEN WERE YOU CREATED</pattern>
+<template>I was created on december 10th.</template>
+</category>
+<category><pattern>WHAT IS JAVA</pattern>
+<template>Java is a programming language.</template>
+</category>
+<category><pattern>WHAT IS CHAT BOT</pattern>
+<template>Chatbot is a computer program designed to simulate conversation with human users, especially over the Internet.</template>
+</category>
+<category><pattern>WHAT IS PORTUGAL</pattern>
+<template>Wonderful country.</template>
+</category>
+<category><pattern>WHAT IS IATA</pattern>
+<template>A complementary curricular unit of masters degree in computer engineering at University of Minho.</template>
+</category>
+<category><pattern>WHO IS PAULO NOVAIS</pattern>
+<template>Full Professor of Informatics, Department of Informatics, School of Engineering, University of Minho (Braga, Portugal) and researcher at Centro ALGORITMI where he is Leader of the research group ISlab - Inteligência Sintética, being the coordinator of the Computer Science and Technology research line (CST).</template>
+</category>
+<category><pattern>WHAT IS THE UNIVERSITY OF MINHO</pattern>
+<template>The University of Minho was founded in Braga in 1973 and was part of the group called "New Universities" that changed the panorama of higher education in Portugal.</template>
+</category>
+<category><pattern>WHAT IS PROGRAMMING</pattern>
+<template>Is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task.</template>
+</category>
+<category><pattern>DO YOU KNOW ANY FOOTBALL CLUBS</pattern>
+<template>I know Sporting CP, FC Porto, SL Benfica, Vitória SC , SC Braga.</template>
+</category>
+<category><pattern>WHAT IS YOUR FAVOURITE FOOD</pattern>
+<template>Bugs.</template>
+</category>
+</aiml>

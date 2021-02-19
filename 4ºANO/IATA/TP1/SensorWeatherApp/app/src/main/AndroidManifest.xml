@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sensorweatherapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SensorWeatherApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SensorWeatherApp">
+        <activity android:name=".ForecastWeather"></activity>
+        <activity android:name=".HumidityGraph" />
+        <activity android:name=".UVIGraph" />
+        <activity android:name=".WindGraph" />
+        <activity android:name=".VisibilityGraph" />
+        <activity android:name=".PressureGraph" />
+        <activity android:name=".TemperatureMaxGraph" />
+        <activity android:name=".TemperatureMinGraph" />
+        <activity android:name=".TemperatureGraph" />
+        <activity android:name=".Graph" />
+        <activity android:name=".History" />
+        <activity android:name=".CurrentWeather" />
+        <activity android:name=".MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

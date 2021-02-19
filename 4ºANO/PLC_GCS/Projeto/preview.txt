@@ -1,0 +1,17 @@
+"perfil1" : [ "caracteristica1", "caracteristica2" ] ;
+"perfil2" : [ "caracteristica3"]
+-
+R1 "Tipo1" "Recurso1" [ 18 - 23] [ "perfil1" , "perfil2" ] ;
+R2 "Tipo2" "Recurso2" [ 20 - 21 ] [ "perfil1" ]
+-
+PG11 "Aluno1" 21 [ "caracteristica2" ]
+-
+C1 "Conceito1" ;
+C2 "Conceito2"
+-
+R1 ENSINA C1 ;
+R1 ENSINA C2 ;
+R2 ENSINA C1
+-
+ENSINAR C1 AO PG11 ?
+.

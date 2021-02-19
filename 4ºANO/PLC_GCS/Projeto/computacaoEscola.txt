@@ -1,0 +1,172 @@
+"tímido" : [ "inseguro" , "introvertido" , "reservado" , "envergonhado" ] ;
+"extrovertido" : [ "comunicativo" , "conversador" , "participativo" , "espontâneo" , "impulsivo" , "confiante" , "sociável" ]  ;
+"problemático" : [ "irresponsável" , "desordeiro" , "insuportável" , "impulsivo" , "perturbado" , "complicado" ] ;
+"líder" : [ "confiante" , "otimista" , "responsável" , "assertivo" , "expressivo" , "comunicativo" , "influenciador" , "crítico" ] ;
+"estudioso" : [ "esforçado" , "aplicado" , "atento" , "trabalhador" , "empenhado" , "dedicado" , "responsável" , "conhecedor" , "pró-ativo" , "interessado" ,  "concentrado" ] ;
+"ansioso" : [ "impaciente" , "nervoso" , "irrequieto" , "stressado" , "inseguro" , "apreensivo" , "angustiado" ] ;
+"distraído" : [ "preguiçoso" , "comodista" , "desinteressado" , "desmotivado" , "desatento" ] ;
+"pessimista" : [ "negativo" , "inseguro" , "cauteloso" , "stressado" ] ;
+"perfeccionista" : [ "criterioso" , "rigoroso" , "persistente" ] ;
+"criativo" : [ "imaginativo" , "inovador" , "curioso" ] ;
+"autónomo" : [ "responsável" , "crítico" ,  "independente" , "pró-ativo" ]
+-
+R1 "Tese" "Pedro Rangel Henriques, Atributos e Modularidade na Especificação de Linguagens Formais. PhD thesis, Universidade do Minho, Dec. 1992"  [21-23]  [ "líder"  , "estudioso"  , "perfeccionista" ] ;
+R2 "Livro" "Coding All-in-One For Dummies (For Dummies (Computers)) - 1st Edition - by Nikhil Abraham." [16-23] ["distraído", "pessimista"] ;
+R3 "Site"  " Stack Overflow : https://stackoverflow.com " [16-100] ["tímido" , "extrovertido" , "problemático" , "líder" , "estudioso" , "ansioso" , "distraído" , "pessimista" , "perfeccionista" , "criativo" , "autónomo" ];
+R4 "Livro" "Beginner's Step-by-Step Coding Course: Learn Computer Programming the Easy Way Illustrated Edition by DK."  [16-23] ["tímido", "ansioso" ,  "distraído", "pessimista"] ;
+R5 "Livro" "B. Kerninghan, R. Pike. The Practice of Programming. Addison Wesley, 1999." [18-23] ["líder"  , "estudioso"  , "perfeccionista"] ;
+R6 "Livro" "Ian Sommerville. Software Engineering, 8th Edition, Pearson Education (Addison Wesley), 2006." [18-25] [ "líder" , "criativo"] ;
+R7 "Curso Online"  "BitDegree : https://www.bitdegree.org/tag/coding-and-programming/programming-languages." [16-30] [ "tímido" , "extrovertido" , "problemático" , "ansioso" , "distraído" , "perfeccionista"] ;
+R8 "Livro" "António Manuel Adrego da Rocha, Estruturas de Dados e Algoritmos em C, FCA, 978-972-722-295-7. " [19-21] [ "tímido" ,"estudioso" , "ansioso" , "perfeccionista" , "criativo" , "autónomo" ] ;
+R9 "Livro" "Aho , Sethi , Ullman , Compiler Principles, Techniques and Tools , Addison-Wesley , 1986." [20-21]  [ "tímido" ,"estudioso" , "líder", "perfeccionista" , "criativo" , "autónomo" ] ;
+R10 "Site"  "W3Schools : https://www.w3schools.com/ ." [16-75] ["tímido" , "extrovertido" , "problemático" , "líder" , "ansioso" , "distraído" , "pessimista" , "criativo" , "autónomo" ] ;
+R11 "Livro" "Beginning Programming All-in-One Desk Reference For Dummies 1st Edition by Wallace Wang."  [16-23] ["tímido", "distraído", "pessimista"] ;
+R12 "Livro" "Fundamentos da Computação, Livro II: Programação Funcional. José Manuel Valença e José Bernardo Barros. Universidade Aberta, 1999." [18-20] [ "tímido" , "estudioso" , "ansioso" , "pessimista" , "perfeccionista" , "autónomo" ] ;
+R13 "Curso Online" "Code Academy : https://www.codecademy.com/catalog." [16-30] [ "tímido" , "extrovertido" , "problemático" , "distraído" , "perfeccionista"]  ;
+R14 "Tese"  "O Impacto da Animação e Visualização no Ensino da Programação por Paula Correia Tavares." [13-20] [ "líder"   , "perfeccionista" ] ;
+R15 "Livro" "Ramalho, J.C. e Henriques, P. R. XML & XSL : da teoria à prática. Lisboa : FCA - Editora de Informática, 2002 (Tecnologias de informação). ISBN 972-722-347-8" [19-22] [ "tímido" , "estudioso" , "ansioso" , "pessimista" , "perfeccionista" , "autónomo" ] ;
+R16 "Livro" "Alves Marques et al., Sistemas Operativos, FCA Editora de Informática, 2ª edição, 2012." [19-22] [ "estudioso" , "perfeccionista" , "líder" ] ;
+R17 "Livro" "Computer Systems: A Programmer's Perspective (CS:APP), Randal Bryant and David O'Hallaron, Prentice Hall, 2nd Ed., 2010" [18-23] [ "estudioso" , "criativo"] ;
+R18 "Software" "Criar jogos com Scratch" [10-16] [ "tímido" , "extrovertido" , "problemático" , "ansioso" , "distraído" , "pessimista" , "criativo"  ];
+R19 "Site"  "Tutorialspoint : https://www.tutorialspoint.com/tutorialslibrary.htm." [16-75] ["tímido" , "extrovertido" , "ansioso" , "distraído" , "pessimista"  , "autónomo" ] ;
+R20  "Curso Online"  "Coursera : https://pt.coursera.org/courses?query=programming." [16-30] [ "tímido" , "problemático" , "perfeccionista"]  ;
+R21 "Livro" "JAVA6 e Programação Orientada pelos Objectos F. Mário Martins, Editora FCA, Série Tecnologias de Informação, ISBN-978-972-722-624-5, Julho de 2009." [18-22] ["extrovertido" , "estudioso" , "criativo" , "autónomo"   ] ;
+R22 "Livro" "Donald E. Knuth. The Art of Computer Programming, Volume I: Fundamental Algo- rithms, 2nd Edition. Addison-Wesley, 1973." [19-21] [ "líder"  , "estudioso"  , "perfeccionista" ] ;
+R23 "Livro" "Donald E. Knuth. The Art of Computer Programming, Volume II: Seminumerical Algorithms, 2nd Edition." [19-22] ["estudioso"  , "perfeccionista" ] ;
+R24 "Livro" "Donald E. Knuth. The Art of Computer Programming, Volume III: Sorting and Se- arching. AddisonWesley, 1973." [19-23] [ "perfeccionista"] ;
+R25 "Ficha" "1ª Ficha de Exercícios para as Aulas de GCS - Ano Letivo 2017/18 - Cristiana Araújo & Pedro Rangel Henriques" [21-23] ["tímido" , "extrovertido" , "problemático" , "líder" , "estudioso" , "ansioso" , "distraído" , "pessimista" , "perfeccionista" , "criativo" , "autónomo" ]
+-
+A84775 "João da Cunha e Costa" 21 [ "inseguro" , "preguiçoso" , "irrequieto"  ];
+A83930 "Luís Miguel Arieira Ramos" 19 [ "comodista" , "inseguro"  ];
+A82500 "Helena Poças Martins" 18 [ "curioso" , "impulsivo" , "criterioso"  ];
+A81146 "Mariana de Oliveira Pereira" 21 [ "empenhado" , "esforçado" , "nervoso" ];
+A80580 "Pedro Rafael Bernardo Medeiros" 18 [ "comunicativo" , "esforçado"  ];
+A83631 "Filipa Alves dos Santos" 20 [ "inovador" , "inseguro" , "aplicado" , "trabalhador" , "participativo"  ];
+A84302 "José Ricardo Sousa Mendes da Cunha" 20 [ "esforçado" , "otimista" ];
+A84475 "Ana Rita Miranda Rosendo" 22 [ "negativo" , "impulsivo" , "participativo"  ];
+A83655 "Celso André de Carvalho Rodrigues" 20 [ "negativo" , "stressado" , "dedicado" , "responsável"  ];
+A79751 "Diogo Miguel Alves Rocha" 19 [ "desordeiro" , "comodista"  ];
+A67645 "António Sérgio Costa Gomes" 18 [ "inseguro" , "dedicado"  ];
+PG42821 "Daniel José Marques Henriques Pereira" 18 [ "atento" , "responsável" , "rigoroso"  ];
+A83765 "Rodrigo da Silva Pimentel" 19 [ "otimista" , "atento" , "confiante"  ];
+A85176 "Tânia Filipa Amorim Rocha" 18 [ "responsável" ];
+A76089 "Etienne da Silva Filipe Amado da Costa" 18 [ "comunicativo" , "aplicado" , "otimista" ];
+A71407 "Maurício Zulueta Lima Salgado" 18 [ "irresponsável" , "criterioso" , "imaginativo"  ];
+A60201 "Tiago Filipe Martins Moreira" 20 [ "impulsivo" , "comunicativo"  ];
+A82428 "João Pedro da Costa Gomes" 20 [ "nervoso" , "impulsivo" , "curioso"  ];
+A82238 "João Pedro Rodrigues Gomes" 20 [ "introvertido" , "inseguro"  ];
+A80624 "Sofia Almeida Teixeira" 21 [ "desinteressado" , "negativo" , "irrequieto" ];
+A84092 "Diogo Paulo da Costa Pereira" 20 [ "esforçado" , "irrequieto"  ];
+A83732 "Gonçalo Rodrigues Pinto" 20 [ "rigoroso"  ];
+A85367 "Luís Francisco Mendes Lopes" 22 [ "reservado" , "inseguro"  ];
+A85954 "Luís Mário Macedo Ribeiro" 22 [ "impulsivo"  ];
+A82263 "Moisés Araújo Antunes" 18 [ "empenhado" , "comunicativo"  ];
+A74618 "Bernardo Miguel Teixeira Dias Viseu de Carvalho" 20 [ "irresponsável" , "impulsivo"  ];
+A75480 "Marco Matias Pereira Gonçalves" 20 [ "insuportável"  ];
+A75310 "Renato Jorge Cruzinha da Silva" 20 [ "stressado"  ];
+A70782 "Guilherme Pereira Martins" 22 [ "comodista" , "preguiçoso" , "comunicativo" ];
+PG39292 "Maria Inês Vieira Pinto" 18 [ "dedicado" , "cauteloso"  ];
+A75411 "Ricardo Guerra Leal" 20 [ "otimista" , "expressivo"  ];
+A80749 "Francisco Braga Urbano Rosa" 22 [ "curioso" , "impulsivo" , "participativo" , "irrequieto" ];
+A84193 "Joana Esteves Dantas" 19 [ "impaciente" , "introvertido"  ];
+PG42847 "Pedro Afonso Rodrigues Santos" 18 [ "dedicado" ];
+A85813 "António Alexandre Carvalho Lindo" 22 [ "participativo" , "imaginativo" , "conversador" , "dedicado"  ];
+A85400 "Nuno Azevedo Alves da Cunha" 19 [ "empenhado"  ];
+A85919 "Pedro Dias Parente" 20 [ "persistente" ];
+A37 "Ana Margarida da Rocha Ferreira" 22 [ "irresponsável" , "desinteressado" ];
+A85059 "Diogo Paulo Lopes de Vasconcelos" 18 [ "desordeiro" , "desinteressado" , "nervoso"  ];
+A76936 "Luís Miguel Arrepia Ferreira" 20 [ "responsável" , "expressivo" , "participativo" , "espontâneo"  ];
+PG37149 "Diego Porto da Silva" 21 [ "atento" , "assertivo" , "empenhado" , "esforçado" , "expressivo"  ]
+-
+C1 "Paradigmas" ;
+C2 "Tipos de dados" ;
+C3 "Ciclos" ;
+C4 "Funções" ;
+C5 "Recursividade" ; 
+C6 "Estruturas de dados" ;
+C7 "Gestão de memória" ;
+C8 "Algoritmos";
+C9 "Sistema Operativos" ;
+C10 "Gramática de Atributos" 
+-
+R1 ENSINA C10 ;
+R2 ENSINA C1 ;
+R3 ENSINA C2 ;
+R3 ENSINA C3 ;
+R3 ENSINA C4 ;
+R3 ENSINA C5 ;
+R3 ENSINA C6 ;
+R3 ENSINA C7 ;
+R3 ENSINA C8 ;
+R3 ENSINA C9 ;
+R3 ENSINA C10 ;
+R4 ENSINA C1 ;
+R5 ENSINA C2 ;
+R6 ENSINA C4 ;
+R7 ENSINA C3 ;
+R7 ENSINA C4 ;
+R7 ENSINA C5 ;
+R7 ENSINA C6 ;
+R7 ENSINA C7 ;
+R8 ENSINA C6 ;
+R8 ENSINA C8 ;
+R9 ENSINA C5 ;
+R9 ENSINA C6 ;
+R9 ENSINA C8 ;
+R10 ENSINA C2 ;
+R10 ENSINA C3 ;
+R10 ENSINA C4 ;
+R10 ENSINA C5 ;
+R10 ENSINA C6 ;
+R11 ENSINA C1 ;
+R12 ENSINA C5 ;
+R13 ENSINA C3 ;
+R13 ENSINA C4 ;
+R13 ENSINA C5 ;
+R13 ENSINA C6 ;
+R13 ENSINA C7 ;
+R13 ENSINA C8 ;
+R14 ENSINA C1 ;
+R15 ENSINA C2 ;
+R15 ENSINA C6 ;
+R16 ENSINA C9 ;
+R17 ENSINA C8 ;
+R18 ENSINA C1 ;
+R18 ENSINA C2 ;
+R18 ENSINA C3 ;
+R18 ENSINA C4 ;
+R19 ENSINA C2 ;
+R19 ENSINA C3 ;
+R19 ENSINA C4 ;
+R19 ENSINA C5 ;
+R19 ENSINA C6 ;
+R20 ENSINA C3 ;
+R20 ENSINA C4 ;
+R20 ENSINA C5 ;
+R20 ENSINA C6 ;
+R20 ENSINA C8 ;
+R20 ENSINA C9 ;
+R21 ENSINA C4 ;
+R21 ENSINA C6 ;
+R21 ENSINA C8 ;
+R21 ENSINA C10 ;
+R22 ENSINA C4 ;
+R22 ENSINA C5 ;
+R22 ENSINA C8 ;
+R23 ENSINA C4 ;
+R23 ENSINA C5 ;
+R23 ENSINA C6 ;
+R23 ENSINA C8 ;
+R24 ENSINA C4 ;
+R24 ENSINA C5 ;
+R24 ENSINA C6 ;
+R24 ENSINA C7 ;
+R24 ENSINA C8 ;
+R25 ENSINA C10 
+- 
+ENSINAR C8 AO A84092 ?
+ENSINAR C5 AO A83732 ?
+ENSINAR C4 AO A85367 ?
+ENSINAR C6 AO A85954 ?
+ENSINAR C10 AO A37 ?
+.

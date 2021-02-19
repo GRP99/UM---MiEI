@@ -1,0 +1,39 @@
+########################################################
+MongoDB
+[{
+        "_id": "",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "phone_number": "",
+        "hire_date": "",
+        "salary": "",
+        "commission_pct": "",
+        "job": {
+            "title": "",
+            "min_salary": "",
+            "max_salary": ""
+        },
+        "department": {
+            "department_id":"",
+            "name": "",
+	        "manager_id": "",
+            "manager": "",
+            "street_address": "",
+            "postal_code": "",
+            "city": "",
+            "state_province": "",
+            "country_name": "",
+            "region_name": ""
+        },
+        "history": []
+    }]
+########################################################
+NEO4J
+		EMPLOYYE - [ IS MANAGED ] -> EMPLOYYE
+		EMPLOYEE - [ DOES ] -> JOB 
+		EMPLOYEE - [ DID ] -> JOB -> [ IN ] -> DEPARTMENT
+		EMPLOYEE - [ WORK AT ] -> DEPARTAMENT
+		DEPARTMENT - [ MANAGED BY ] -> EMPLOYEE
+		DEPARTMENT - [ HAVE ] -> LOCATION
+		LOCATION - [CONTAINED_IN] -> COUNTRY

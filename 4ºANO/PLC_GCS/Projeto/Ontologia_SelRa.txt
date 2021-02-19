@@ -1,0 +1,22 @@
+Ontologia SelRa
+
+conceitos  { 	Perfil[nome]
+		Caracteristica[descricao]
+		Recurso[id,tipo,descricao,intervaloidade], 
+		Aluno[id,nome,idade],  
+		Conceito[id,descricao], 
+	  }
+individuos { 
+		>>computacaoEscola.txt<<
+	  }
+relacoes    { 
+		Ensina,
+		Ensinar, 	
+	}
+triplos      { 	
+		recurso = ensina => conceito 
+		conceito = ensinar => aluno
+		perfil = possui => caracteristica
+		recurso = explora => perfil
+		aluno = tem => caracteristica
+ 	}

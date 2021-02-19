@@ -1,0 +1,49 @@
+Criação de uma nova PDB, respetivo schema com tablespaces permanentes e temporários e datafiles associados, de forma a armazenar os dados recolhidos ...
+	- Criação das pastas para acomodar os ficheiros da nova PDB como também efectou-se alteração das permissões:
+		[root@localhost ~]$ cd /home/uminho/dockers/data/oracle/u02/app/oracle/oradata/ORCL
+		[root@localhost ~]$ mkdir DBMONITOR
+		[root@localhost ~]$ chown oracle:oinstall DBMONITOR
+
+	- Usando a bash do container ligou-se à CDB , criação da PDB através da PDB Seed:
+		[root@localhost ~]$ sudo docker ps -a
+		[root@localhost ~]$ sudo docker exec -it <_> bash
+		[oracle@1aeb761d5003 /]$ sqlplus sys/Oradoc_db1@localhost:1521/ORCLCDB.localdomain as sysdba
+	
+		SQL> create pluggable database dbmonitor
+        			admin user dbmonitor_admin identified by dbmonitor
+			roles = (DBA) 
+			FILE_NAME_CONVERT=('/u02/app/oracle/oradata/ORCL/pdbseed','/u02/app/oracle/oradata/ORCL/DBMONITOR');
+
+	- Verificação que a PDB está montadas e passível de ser utilizada:
+		SQL> select pdb_name, status from cdb_pdbs;
+
+	- Para a PDB estar passível de ser utilizada foi necessário abrir as mesma e garantir que fica aberta sempre que a base de dados é ligada:
+		SQL> alter pluggable database DBMONITOR open;
+
+		SQL> create or replace trigger Sys.After_Startup after startup on database
+			begin
+				execute immediate 'alter pluggable database all open';
+			end After_Startup; \
+
+	- Adição dos tablespaces (permanente e temporário) e respetivos datafiles à PDB:
+		SQL> connect sys/Oradoc_db1@localhost:1521/dbmonitor.localdomain as sysdba
+		SQL> create tablespace dbmonitordata datafile '/u02/app/oracle/oradata/ORCL/dbmonitordata01.dbf' SIZE 500M;
+		SQL> create temporary tablespace temp_dbmonitor tempfile '/u02/app/oracle/oradata/ORCL/pdb1/tempdbmonitor01.dbf' SIZE 500M;
+	
+	- Verificar a criação do tablespace e do datafile, respectivamente:
+		SQL> select tablespace_name, con_id from cdb_tablespaces order by con_id;
+		SQL> select file_name, con_id from cdb_data_files order by con_id;
+
+	-  Verificar a criação do tablespace temporário e do tempfile, respectivamente:
+		SQL> select tablespace_name, con_id from cdb_tablespaces order by con_id;
+		SQL> select tablespace_name, con_id from cdb_tablespaces where contents='TEMPORARY';
+
+	- Criação de um local user para a PDB :
+		SQL> connect sys/Oradoc_db1@localhost:1521/dbmonitor.localdomain as sysdba; 
+		SQL> create user monitor identified by database;
+		SQL>  grant all privileges to monitor;
+
+	- Desta forma é possível finalmente abrir uma nova conexão no SQL DEVELOPER  : 
+		utilizador: monitor ; 
+		password : database ;
+		service_name : dbmonitor.localdomain 

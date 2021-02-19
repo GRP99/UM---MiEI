@@ -1,0 +1,5 @@
+feathers
+beak
+paws
+eggs
+wings

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: learnf.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: janeiro 11, 2021 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2021 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>IS INES A GIRL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS JOAO A BOY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS VITORIA DE GUIMARAES A FOOTBALL CLUBE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS BRAGA A AMAZING CITY TO LIVE</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS GONCALO A BOY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS ANA A GIRL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS CHATBOT A COMPUTER PROGRAM DESIGNED TO SIMULATE CONVERSATION WITH HUMAN USERS ESPECIALLY OVER THE INTERNET</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS GUIMARAES A BEAUTIFUL CITY</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS DRAKE A FAMOUS RAPPER</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>IS BIA A GIRL</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>WHAT IS A COMPUTER PROGRAM DESIGNED TO SIMULATE CONVERSATION WITH HUMAN USERS ESPECIALLY OVER THE INTERNET</pattern>
+<template>Chatbot.</template>
+</category>
+<category><pattern>WHAT IS JOAO</pattern>
+<template>A boy.</template>
+</category>
+<category><pattern>WHAT IS VITORIA DE GUIMARAES</pattern>
+<template>A football club.</template>
+</category>
+<category><pattern>WHAT IS BRAGA</pattern>
+<template>An amazing city to live.</template>
+</category>
+<category><pattern>WHAT IS ANA</pattern>
+<template>A girl.</template>
+</category>
+<category><pattern>WHAT IS CHATBOT</pattern>
+<template>A computer program designed to simulate conversation with human users especially over the Internet.</template>
+</category>
+<category><pattern>WHAT IS AN AMAZING CITY TO LIVE</pattern>
+<template>Braga.</template>
+</category>
+<category><pattern>NAME A FOOTBALL CLUB</pattern>
+<template>Vitoria de Guimaraes.</template>
+</category>
+<category><pattern>NAME A BEAUTIFUL CITY</pattern>
+<template>Guimaraes.</template>
+</category>
+<category><pattern>WHO IS A GIRL</pattern>
+<template>Ana.</template>
+</category>
+<category><pattern>WHO IS A BOY</pattern>
+<template>Joao.</template>
+</category>
+</aiml>

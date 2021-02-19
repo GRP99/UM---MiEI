@@ -1,0 +1,3071 @@
+[
+    {
+        "_id": 100,
+        "first_name": "Steven",
+        "last_name": "King",
+        "email": "King",
+        "phone_number": "515.123.4567",
+        "hire_date": "2003-06-17",
+        "salary": 24000,
+        "job": {
+            "title": "President",
+            "min_salary": 20080,
+            "max_salary": 40000
+        },
+        "department": {
+            "department_id": "90",
+            "name": "Executive",
+            "manager_id": "100",
+            "manager": "Steven King",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    },
+    {
+        "_id": 101,
+        "first_name": "Neena",
+        "last_name": "Kochhar",
+        "email": "Kochhar",
+        "phone_number": "515.123.4568",
+        "hire_date": "2005-09-21",
+        "salary": 17000,
+        "job": {
+            "title": "Administration Vice President",
+            "min_salary": 15000,
+            "max_salary": 30000
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "90",
+            "name": "Executive",
+            "manager_id": "100",
+            "manager": "Steven King",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": [
+            {
+                "start_date": "1997-09-21",
+                "end_date": "2001-10-27",
+                "job_title": "Public Accountant",
+                "job_min_salary": 4200,
+                "job_max_salary": 9000,
+                "department_name": "Accounting",
+                "department_manager": 205,
+                "street_address": "2004 Charade Rd",
+                "postal_code": "98199",
+                "city": "Seattle",
+                "state_province": "Washington",
+                "country_name": "United States of America",
+                "region_name": "Americas"
+            }, {
+                "start_date": "2001-10-28",
+                "end_date": "2005-03-15",
+                "job_title": "Accounting Manager",
+                "job_min_salary": 8200,
+                "job_max_salary": 16000,
+                "department_name": "Accounting",
+                "department_manager": 205,
+                "street_address": "2004 Charade Rd",
+                "postal_code": "98199",
+                "city": "Seattle",
+                "state_province": "Washington",
+                "country_name": "United States of America",
+                "region_name": "Americas"
+            }
+        ]
+    },
+    {
+        "_id": 102,
+        "first_name": "Lex",
+        "last_name": "De Haan",
+        "email": "De Haan",
+        "phone_number": "515.123.4569",
+        "hire_date": "2001-01-13",
+        "salary": 17000,
+        "job": {
+            "title": "Administration Vice President",
+            "min_salary": 15000,
+            "max_salary": 30000
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "90",
+            "name": "Executive",
+            "manager_id": "100",
+            "manager": "Steven King",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": [
+            {
+                "start_date": "2001-01-13",
+                "end_date": "2006-07-24",
+                "job_title": "Programmer",
+                "job_min_salary": 4000,
+                "job_max_salary": 10000,
+                "department_name": "IT",
+                "department_manager": 103,
+                "street_address": "2014 Jabberwocky Rd",
+                "postal_code": "26192",
+                "city": "Southlake",
+                "state_province": "Texas",
+                "country_name": "United States of America",
+                "region_name": "Americas"
+            }
+        ]
+    },
+    {
+        "_id": 103,
+        "first_name": "Alexander",
+        "last_name": "Hunold",
+        "email": "Hunold",
+        "phone_number": "590.423.4567",
+        "hire_date": "2006-01-03",
+        "salary": 9000,
+        "job": {
+            "title": "Programmer",
+            "min_salary": 4000,
+            "max_salary": 10000
+        },
+        "manager_id": 102,
+        "department": {
+            "department_id": "60",
+            "name": "IT",
+            "manager_id": "103",
+            "manager": "Alexander Hunold",
+            "street_address": "2014 Jabberwocky Rd",
+            "postal_code": "26192",
+            "city": "Southlake",
+            "state_province": "Texas",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 104,
+        "first_name": "Bruce",
+        "last_name": "Ernst",
+        "email": "Ernst",
+        "phone_number": "590.423.4568",
+        "hire_date": "2007-05-21",
+        "salary": 6000,
+        "job": {
+            "title": "Programmer",
+            "min_salary": 4000,
+            "max_salary": 10000
+        },
+        "manager_id": 103,
+        "department": {
+            "department_id": "60",
+            "name": "IT",
+            "manager_id": "103",
+            "manager": "Alexander Hunold",
+            "street_address": "2014 Jabberwocky Rd",
+            "postal_code": "26192",
+            "city": "Southlake",
+            "state_province": "Texas",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 105,
+        "first_name": "David",
+        "last_name": "Austin",
+        "email": "Austin",
+        "phone_number": "590.423.4569",
+        "hire_date": "2005-06-25",
+        "salary": 4800,
+        "job": {
+            "title": "Programmer",
+            "min_salary": 4000,
+            "max_salary": 10000
+        },
+        "manager_id": 103,
+        "department": {
+            "department_id": "60",
+            "name": "IT",
+            "manager_id": "103",
+            "manager": "Alexander Hunold",
+            "street_address": "2014 Jabberwocky Rd",
+            "postal_code": "26192",
+            "city": "Southlake",
+            "state_province": "Texas",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 106,
+        "first_name": "Valli",
+        "last_name": "Pataballa",
+        "email": "Pataballa",
+        "phone_number": "590.423.4560",
+        "hire_date": "2006-02-05",
+        "salary": 4800,
+        "job": {
+            "title": "Programmer",
+            "min_salary": 4000,
+            "max_salary": 10000
+        },
+        "manager_id": 103,
+        "department": {
+            "department_id": "60",
+            "name": "IT",
+            "manager_id": "103",
+            "manager": "Alexander Hunold",
+            "street_address": "2014 Jabberwocky Rd",
+            "postal_code": "26192",
+            "city": "Southlake",
+            "state_province": "Texas",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 107,
+        "first_name": "Diana",
+        "last_name": "Lorentz",
+        "email": "Lorentz",
+        "phone_number": "590.423.5567",
+        "hire_date": "2007-02-07",
+        "salary": 4200,
+        "job": {
+            "title": "Programmer",
+            "min_salary": 4000,
+            "max_salary": 10000
+        },
+        "manager_id": 103,
+        "department": {
+            "department_id": "60",
+            "name": "IT",
+            "manager_id": "103",
+            "manager": "Alexander Hunold",
+            "street_address": "2014 Jabberwocky Rd",
+            "postal_code": "26192",
+            "city": "Southlake",
+            "state_province": "Texas",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 108,
+        "first_name": "Nancy",
+        "last_name": "Greenberg",
+        "email": "Greenberg",
+        "phone_number": "515.124.4569",
+        "hire_date": "2002-08-17",
+        "salary": 12008,
+        "job": {
+            "title": "Finance Manager",
+            "min_salary": 8200,
+            "max_salary": 16000
+        },
+        "manager_id": 101,
+        "department": {
+            "department_id": "100",
+            "name": "Finance",
+            "manager_id": "108",
+            "manager": "Nancy Greenberg",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 109,
+        "first_name": "Daniel",
+        "last_name": "Faviet",
+        "email": "Faviet",
+        "phone_number": "515.124.4169",
+        "hire_date": "2002-08-16",
+        "salary": 9000,
+        "job": {
+            "title": "Accountant",
+            "min_salary": 4200,
+            "max_salary": 9000
+        },
+        "manager_id": 108,
+        "department": {
+            "department_id": "100",
+            "name": "Finance",
+            "manager_id": "108",
+            "manager": "Nancy Greenberg",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 110,
+        "first_name": "John",
+        "last_name": "Chen",
+        "email": "Chen",
+        "phone_number": "515.124.4269",
+        "hire_date": "2005-09-28",
+        "salary": 8200,
+        "job": {
+            "title": "Accountant",
+            "min_salary": 4200,
+            "max_salary": 9000
+        },
+        "manager_id": 108,
+        "department": {
+            "department_id": "100",
+            "name": "Finance",
+            "manager_id": "108",
+            "manager": "Nancy Greenberg",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 111,
+        "first_name": "Ismael",
+        "last_name": "Sciarra",
+        "email": "Sciarra",
+        "phone_number": "515.124.4369",
+        "hire_date": "2005-09-30",
+        "salary": 7700,
+        "job": {
+            "title": "Accountant",
+            "min_salary": 4200,
+            "max_salary": 9000
+        },
+        "manager_id": 108,
+        "department": {
+            "department_id": "100",
+            "name": "Finance",
+            "manager_id": "108",
+            "manager": "Nancy Greenberg",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 112,
+        "first_name": "Jose Manuel",
+        "last_name": "Urman",
+        "email": "Urman",
+        "phone_number": "515.124.4469",
+        "hire_date": "2006-03-07",
+        "salary": 7800,
+        "job": {
+            "title": "Accountant",
+            "min_salary": 4200,
+            "max_salary": 9000
+        },
+        "manager_id": 108,
+        "department": {
+            "department_id": "100",
+            "name": "Finance",
+            "manager_id": "108",
+            "manager": "Nancy Greenberg",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 113,
+        "first_name": "Luis",
+        "last_name": "Popp",
+        "email": "Popp",
+        "phone_number": "515.124.4567",
+        "hire_date": "2007-12-07",
+        "salary": 6900,
+        "job": {
+            "title": "Accountant",
+            "min_salary": 4200,
+            "max_salary": 9000
+        },
+        "manager_id": 108,
+        "department": {
+            "department_id": "100",
+            "name": "Finance",
+            "manager_id": "108",
+            "manager": "Nancy Greenberg",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 114,
+        "first_name": "Den",
+        "last_name": "Raphaely",
+        "email": "Raphaely",
+        "phone_number": "515.127.4561",
+        "hire_date": "2002-12-07",
+        "salary": 11000,
+        "job": {
+            "title": "Purchasing Manager",
+            "min_salary": 8000,
+            "max_salary": 15000
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "30",
+            "name": "Purchasing",
+            "manager_id": "114",
+            "manager": "Den Raphaely",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": [
+            {
+                "start_date": "2006-03-24",
+                "end_date": "2007-12-31",
+                "job_title": "Stock Clerk",
+                "job_min_salary": 2008,
+                "job_max_salary": 5000,
+                "department_name": "Shipping",
+                "department_manager": 121,
+                "street_address": "2011 Interiors Blvd",
+                "postal_code": "99236",
+                "city": "South San Francisco",
+                "state_province": "California",
+                "country_name": "United States of America",
+                "region_name": "Americas"
+            }
+        ]
+    }, {
+        "_id": 115,
+        "first_name": "Alexander",
+        "last_name": "Khoo",
+        "email": "Khoo",
+        "phone_number": "515.127.4562",
+        "hire_date": "2003-05-18",
+        "salary": 3100,
+        "job": {
+            "title": "Purchasing Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 114,
+        "department": {
+            "department_id": "30",
+            "name": "Purchasing",
+            "manager_id": "114",
+            "manager": "Den Raphaely",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 116,
+        "first_name": "Shelli",
+        "last_name": "Baida",
+        "email": "Baida",
+        "phone_number": "515.127.4563",
+        "hire_date": "2005-12-24",
+        "salary": 2900,
+        "job": {
+            "title": "Purchasing Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 114,
+        "department": {
+            "department_id": "30",
+            "name": "Purchasing",
+            "manager_id": "114",
+            "manager": "Den Raphaely",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 117,
+        "first_name": "Sigal",
+        "last_name": "Tobias",
+        "email": "Tobias",
+        "phone_number": "515.127.4564",
+        "hire_date": "2005-07-24",
+        "salary": 2800,
+        "job": {
+            "title": "Purchasing Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 114,
+        "department": {
+            "department_id": "30",
+            "name": "Purchasing",
+            "manager_id": "114",
+            "manager": "Den Raphaely",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 118,
+        "first_name": "Guy",
+        "last_name": "Himuro",
+        "email": "Himuro",
+        "phone_number": "515.127.4565",
+        "hire_date": "2006-11-15",
+        "salary": 2600,
+        "job": {
+            "title": "Purchasing Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 114,
+        "department": {
+            "department_id": "30",
+            "name": "Purchasing",
+            "manager_id": "114",
+            "manager": "Den Raphaely",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 119,
+        "first_name": "Karen",
+        "last_name": "Colmenares",
+        "email": "Colmenares",
+        "phone_number": "515.127.4566",
+        "hire_date": "2007-08-10",
+        "salary": 2500,
+        "job": {
+            "title": "Purchasing Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 114,
+        "department": {
+            "department_id": "30",
+            "name": "Purchasing",
+            "manager_id": "114",
+            "manager": "Den Raphaely",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 120,
+        "first_name": "Matthew",
+        "last_name": "Weiss",
+        "email": "Weiss",
+        "phone_number": "650.123.1234",
+        "hire_date": "2004-07-18",
+        "salary": 8000,
+        "job": {
+            "title": "Stock Manager",
+            "min_salary": 5500,
+            "max_salary": 8500
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 121,
+        "first_name": "Adam",
+        "last_name": "Fripp",
+        "email": "Fripp",
+        "phone_number": "650.123.2234",
+        "hire_date": "2005-04-10",
+        "salary": 8200,
+        "job": {
+            "title": "Stock Manager",
+            "min_salary": 5500,
+            "max_salary": 8500
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 122,
+        "first_name": "Payam",
+        "last_name": "Kaufling",
+        "email": "Kaufling",
+        "phone_number": "650.123.3234",
+        "hire_date": "2003-05-01",
+        "salary": 7900,
+        "job": {
+            "title": "Stock Manager",
+            "min_salary": 5500,
+            "max_salary": 8500
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": [
+            {
+                "start_date": "2007-01-01",
+                "end_date": "2007-12-31",
+                "job_title": "Stock Clerk",
+                "job_min_salary": 2008,
+                "job_max_salary": 5000,
+                "department_name": "Shipping",
+                "department_manager": 121,
+                "street_address": "2011 Interiors Blvd",
+                "postal_code": "99236",
+                "city": "South San Francisco",
+                "state_province": "California",
+                "country_name": "United States of America",
+                "region_name": "Americas"
+            }
+        ]
+    }, {
+        "_id": 123,
+        "first_name": "Shanta",
+        "last_name": "Vollman",
+        "email": "Vollman",
+        "phone_number": "650.123.4234",
+        "hire_date": "2005-10-10",
+        "salary": 6500,
+        "job": {
+            "title": "Stock Manager",
+            "min_salary": 5500,
+            "max_salary": 8500
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 124,
+        "first_name": "Kevin",
+        "last_name": "Mourgos",
+        "email": "Mourgos",
+        "phone_number": "650.123.5234",
+        "hire_date": "2007-11-16",
+        "salary": 5800,
+        "job": {
+            "title": "Stock Manager",
+            "min_salary": 5500,
+            "max_salary": 8500
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 125,
+        "first_name": "Julia",
+        "last_name": "Nayer",
+        "email": "Nayer",
+        "phone_number": "650.124.1214",
+        "hire_date": "2005-07-16",
+        "salary": 3200,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 120,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 126,
+        "first_name": "Irene",
+        "last_name": "Mikkilineni",
+        "email": "Mikkilineni",
+        "phone_number": "650.124.1224",
+        "hire_date": "2006-09-28",
+        "salary": 2700,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 120,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 127,
+        "first_name": "James",
+        "last_name": "Landry",
+        "email": "Landry",
+        "phone_number": "650.124.1334",
+        "hire_date": "2007-01-14",
+        "salary": 2400,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 120,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 128,
+        "first_name": "Steven",
+        "last_name": "Markle",
+        "email": "Markle",
+        "phone_number": "650.124.1434",
+        "hire_date": "2008-03-08",
+        "salary": 2200,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 120,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 129,
+        "first_name": "Laura",
+        "last_name": "Bissot",
+        "email": "Bissot",
+        "phone_number": "650.124.5234",
+        "hire_date": "2005-08-20",
+        "salary": 3300,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 121,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 130,
+        "first_name": "Mozhe",
+        "last_name": "Atkinson",
+        "email": "Atkinson",
+        "phone_number": "650.124.6234",
+        "hire_date": "2005-10-30",
+        "salary": 2800,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 121,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 131,
+        "first_name": "James",
+        "last_name": "Marlow",
+        "email": "Marlow",
+        "phone_number": "650.124.7234",
+        "hire_date": "2005-02-16",
+        "salary": 2500,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 121,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 132,
+        "first_name": "TJ",
+        "last_name": "Olson",
+        "email": "Olson",
+        "phone_number": "650.124.8234",
+        "hire_date": "2007-04-10",
+        "salary": 2100,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 121,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 133,
+        "first_name": "Jason",
+        "last_name": "Mallin",
+        "email": "Mallin",
+        "phone_number": "650.127.1934",
+        "hire_date": "2004-06-14",
+        "salary": 3300,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 122,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 134,
+        "first_name": "Michael",
+        "last_name": "Rogers",
+        "email": "Rogers",
+        "phone_number": "650.127.1834",
+        "hire_date": "2006-08-26",
+        "salary": 2900,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 122,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 135,
+        "first_name": "Ki",
+        "last_name": "Gee",
+        "email": "Gee",
+        "phone_number": "650.127.1734",
+        "hire_date": "2007-12-12",
+        "salary": 2400,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 122,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 136,
+        "first_name": "Hazel",
+        "last_name": "Philtanker",
+        "email": "Philtanker",
+        "phone_number": "650.127.1634",
+        "hire_date": "2008-02-06",
+        "salary": 2200,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 122,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 137,
+        "first_name": "Renske",
+        "last_name": "Ladwig",
+        "email": "Ladwig",
+        "phone_number": "650.121.1234",
+        "hire_date": "2003-07-14",
+        "salary": 3600,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 123,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 138,
+        "first_name": "Stephen",
+        "last_name": "Stiles",
+        "email": "Stiles",
+        "phone_number": "650.121.2034",
+        "hire_date": "2005-10-26",
+        "salary": 3200,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 123,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 139,
+        "first_name": "John",
+        "last_name": "Seo",
+        "email": "Seo",
+        "phone_number": "650.121.2019",
+        "hire_date": "2006-02-12",
+        "salary": 2700,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 123,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 140,
+        "first_name": "Joshua",
+        "last_name": "Patel",
+        "email": "Patel",
+        "phone_number": "650.121.1834",
+        "hire_date": "2006-04-06",
+        "salary": 2500,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 123,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 141,
+        "first_name": "Trenna",
+        "last_name": "Rajs",
+        "email": "Rajs",
+        "phone_number": "650.121.8009",
+        "hire_date": "2003-10-17",
+        "salary": 3500,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 124,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 142,
+        "first_name": "Curtis",
+        "last_name": "Davies",
+        "email": "Davies",
+        "phone_number": "650.121.2994",
+        "hire_date": "2005-01-29",
+        "salary": 3100,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 124,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 143,
+        "first_name": "Randall",
+        "last_name": "Matos",
+        "email": "Matos",
+        "phone_number": "650.121.2874",
+        "hire_date": "2006-03-15",
+        "salary": 2600,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 124,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 144,
+        "first_name": "Peter",
+        "last_name": "Vargas",
+        "email": "Vargas",
+        "phone_number": "650.121.2004",
+        "hire_date": "2006-07-09",
+        "salary": 2500,
+        "job": {
+            "title": "Stock Clerk",
+            "min_salary": 2008,
+            "max_salary": 5000
+        },
+        "manager_id": 124,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 145,
+        "first_name": "John",
+        "last_name": "Russell",
+        "email": "Russell",
+        "phone_number": "011.44.1344.429268",
+        "hire_date": "2004-10-01",
+        "salary": 14000,
+        "commission_pct": 0.4,
+        "job": {
+            "title": "Sales Manager",
+            "min_salary": 10000,
+            "max_salary": 20080
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 146,
+        "first_name": "Karen",
+        "last_name": "Partners",
+        "email": "Partners",
+        "phone_number": "011.44.1344.467268",
+        "hire_date": "2005-01-05",
+        "salary": 13500,
+        "commission_pct": 0.3,
+        "job": {
+            "title": "Sales Manager",
+            "min_salary": 10000,
+            "max_salary": 20080
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 147,
+        "first_name": "Alberto",
+        "last_name": "Errazuriz",
+        "email": "Errazuriz",
+        "phone_number": "011.44.1344.429278",
+        "hire_date": "2005-03-10",
+        "salary": 12000,
+        "commission_pct": 0.3,
+        "job": {
+            "title": "Sales Manager",
+            "min_salary": 10000,
+            "max_salary": 20080
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 148,
+        "first_name": "Gerald",
+        "last_name": "Cambrault",
+        "email": "Cambrault",
+        "phone_number": "011.44.1344.619268",
+        "hire_date": "2007-10-15",
+        "salary": 11000,
+        "commission_pct": 0.3,
+        "job": {
+            "title": "Sales Manager",
+            "min_salary": 10000,
+            "max_salary": 20080
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 149,
+        "first_name": "Eleni",
+        "last_name": "Zlotkey",
+        "email": "Zlotkey",
+        "phone_number": "011.44.1344.429018",
+        "hire_date": "2008-01-29",
+        "salary": 10500,
+        "commission_pct": 0.2,
+        "job": {
+            "title": "Sales Manager",
+            "min_salary": 10000,
+            "max_salary": 20080
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 150,
+        "first_name": "Peter",
+        "last_name": "Tucker",
+        "email": "Tucker",
+        "phone_number": "011.44.1344.129268",
+        "hire_date": "2005-01-30",
+        "salary": 10000,
+        "commission_pct": 0.3,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 145,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 151,
+        "first_name": "David",
+        "last_name": "Bernstein",
+        "email": "Bernstein",
+        "phone_number": "011.44.1344.345268",
+        "hire_date": "2005-03-24",
+        "salary": 9500,
+        "commission_pct": 0.25,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 145,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 152,
+        "first_name": "Peter",
+        "last_name": "Hall",
+        "email": "Hall",
+        "phone_number": "011.44.1344.478968",
+        "hire_date": "2005-08-20",
+        "salary": 9000,
+        "commission_pct": 0.25,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 145,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 153,
+        "first_name": "Christopher",
+        "last_name": "Olsen",
+        "email": "Olsen",
+        "phone_number": "011.44.1344.498718",
+        "hire_date": "2006-03-30",
+        "salary": 8000,
+        "commission_pct": 0.2,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 145,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 154,
+        "first_name": "Nanette",
+        "last_name": "Cambrault",
+        "email": "Cambrault",
+        "phone_number": "011.44.1344.987668",
+        "hire_date": "2006-12-09",
+        "salary": 7500,
+        "commission_pct": 0.2,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 145,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 155,
+        "first_name": "Oliver",
+        "last_name": "Tuvault",
+        "email": "Tuvault",
+        "phone_number": "011.44.1344.486508",
+        "hire_date": "2007-11-23",
+        "salary": 7000,
+        "commission_pct": 0.15,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 145,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 156,
+        "first_name": "Janette",
+        "last_name": "King",
+        "email": "King",
+        "phone_number": "011.44.1345.429268",
+        "hire_date": "2004-01-30",
+        "salary": 10000,
+        "commission_pct": 0.35,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 146,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 157,
+        "first_name": "Patrick",
+        "last_name": "Sully",
+        "email": "Sully",
+        "phone_number": "011.44.1345.929268",
+        "hire_date": "2004-03-04",
+        "salary": 9500,
+        "commission_pct": 0.35,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 146,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 158,
+        "first_name": "Allan",
+        "last_name": "McEwen",
+        "email": "McEwen",
+        "phone_number": "011.44.1345.829268",
+        "hire_date": "2004-08-01",
+        "salary": 9000,
+        "commission_pct": 0.35,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 146,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 159,
+        "first_name": "Lindsey",
+        "last_name": "Smith",
+        "email": "Smith",
+        "phone_number": "011.44.1345.729268",
+        "hire_date": "2005-03-10",
+        "salary": 8000,
+        "commission_pct": 0.3,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 146,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 160,
+        "first_name": "Louise",
+        "last_name": "Doran",
+        "email": "Doran",
+        "phone_number": "011.44.1345.629268",
+        "hire_date": "2005-12-15",
+        "salary": 7500,
+        "commission_pct": 0.3,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 146,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 161,
+        "first_name": "Sarath",
+        "last_name": "Sewall",
+        "email": "Sewall",
+        "phone_number": "011.44.1345.529268",
+        "hire_date": "2006-11-03",
+        "salary": 7000,
+        "commission_pct": 0.25,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 146,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 162,
+        "first_name": "Clara",
+        "last_name": "Vishney",
+        "email": "Vishney",
+        "phone_number": "011.44.1346.129268",
+        "hire_date": "2005-11-11",
+        "salary": 10500,
+        "commission_pct": 0.25,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 147,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 163,
+        "first_name": "Danielle",
+        "last_name": "Greene",
+        "email": "Greene",
+        "phone_number": "011.44.1346.229268",
+        "hire_date": "2007-03-19",
+        "salary": 9500,
+        "commission_pct": 0.15,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 147,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 164,
+        "first_name": "Mattea",
+        "last_name": "Marvins",
+        "email": "Marvins",
+        "phone_number": "011.44.1346.329268",
+        "hire_date": "2008-01-24",
+        "salary": 7200,
+        "commission_pct": 0.1,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 147,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 165,
+        "first_name": "David",
+        "last_name": "Lee",
+        "email": "Lee",
+        "phone_number": "011.44.1346.529268",
+        "hire_date": "2008-02-23",
+        "salary": 6800,
+        "commission_pct": 0.1,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 147,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 166,
+        "first_name": "Sundar",
+        "last_name": "Ande",
+        "email": "Ande",
+        "phone_number": "011.44.1346.629268",
+        "hire_date": "2008-03-24",
+        "salary": 6400,
+        "commission_pct": 0.1,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 147,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 167,
+        "first_name": "Amit",
+        "last_name": "Banda",
+        "email": "Banda",
+        "phone_number": "011.44.1346.729268",
+        "hire_date": "2008-04-21",
+        "salary": 6200,
+        "commission_pct": 0.1,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 147,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 168,
+        "first_name": "Lisa",
+        "last_name": "Ozer",
+        "email": "Ozer",
+        "phone_number": "011.44.1343.929268",
+        "hire_date": "2005-03-11",
+        "salary": 11500,
+        "commission_pct": 0.25,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 148,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 169,
+        "first_name": "Harrison",
+        "last_name": "Bloom",
+        "email": "Bloom",
+        "phone_number": "011.44.1343.829268",
+        "hire_date": "2006-03-23",
+        "salary": 10000,
+        "commission_pct": 0.2,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 148,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 170,
+        "first_name": "Tayler",
+        "last_name": "Fox",
+        "email": "Fox",
+        "phone_number": "011.44.1343.729268",
+        "hire_date": "2006-01-24",
+        "salary": 9600,
+        "commission_pct": 0.2,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 148,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 171,
+        "first_name": "William",
+        "last_name": "Smith",
+        "email": "Smith",
+        "phone_number": "011.44.1343.629268",
+        "hire_date": "2007-02-23",
+        "salary": 7400,
+        "commission_pct": 0.15,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 148,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 172,
+        "first_name": "Elizabeth",
+        "last_name": "Bates",
+        "email": "Bates",
+        "phone_number": "011.44.1343.529268",
+        "hire_date": "2007-03-24",
+        "salary": 7300,
+        "commission_pct": 0.15,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 148,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 173,
+        "first_name": "Sundita",
+        "last_name": "Kumar",
+        "email": "Kumar",
+        "phone_number": "011.44.1343.329268",
+        "hire_date": "2008-04-21",
+        "salary": 6100,
+        "commission_pct": 0.1,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 148,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 174,
+        "first_name": "Ellen",
+        "last_name": "Abel",
+        "email": "Abel",
+        "phone_number": "011.44.1644.429267",
+        "hire_date": "2004-05-11",
+        "salary": 11000,
+        "commission_pct": 0.3,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 149,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 175,
+        "first_name": "Alyssa",
+        "last_name": "Hutton",
+        "email": "Hutton",
+        "phone_number": "011.44.1644.429266",
+        "hire_date": "2005-03-19",
+        "salary": 8800,
+        "commission_pct": 0.25,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 149,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 176,
+        "first_name": "Jonathon",
+        "last_name": "Taylor",
+        "email": "Taylor",
+        "phone_number": "011.44.1644.429265",
+        "hire_date": "2006-03-24",
+        "salary": 8600,
+        "commission_pct": 0.2,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 149,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": [
+            {
+                "start_date": "2006-03-24",
+                "end_date": "2006-12-31",
+                "job_title": "Sales Representative",
+                "job_min_salary": 6000,
+                "job_max_salary": 12008,
+                "department_name": "Sales",
+                "department_manager": 145,
+                "street_address": "Magdalen Centre, The Oxford Science Park",
+                "postal_code": "OX9 9ZB",
+                "city": "Oxford",
+                "state_province": "Oxford",
+                "country_name": "United Kingdom",
+                "region_name": "Europe"
+            }, {
+                "start_date": "2007-01-01",
+                "end_date": "2007-12-31",
+                "job_title": "Sales Manager",
+                "job_min_salary": 10000,
+                "job_max_salary": 20080,
+                "department_name": "Sales",
+                "department_manager": 145,
+                "street_address": "Magdalen Centre, The Oxford Science Park",
+                "postal_code": "OX9 9ZB",
+                "city": "Oxford",
+                "state_province": "Oxford",
+                "country_name": "United Kingdom",
+                "region_name": "Europe"
+            }
+        ]
+    }, {
+        "_id": 177,
+        "first_name": "Jack",
+        "last_name": "Livingston",
+        "email": "Livingston",
+        "phone_number": "011.44.1644.429264",
+        "hire_date": "2006-04-23",
+        "salary": 8400,
+        "commission_pct": 0.2,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 149,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 178,
+        "first_name": "Kimberely",
+        "last_name": "Grant",
+        "email": "Grant",
+        "phone_number": "011.44.1644.429263",
+        "hire_date": "2007-05-24",
+        "salary": 7000,
+        "commission_pct": 0.15,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 149,
+        "history": []
+    }, {
+        "_id": 179,
+        "first_name": "Charles",
+        "last_name": "Johnson",
+        "email": "Johnson",
+        "phone_number": "011.44.1644.429262",
+        "hire_date": "2008-01-04",
+        "salary": 6200,
+        "commission_pct": 0.1,
+        "job": {
+            "title": "Sales Representative",
+            "min_salary": 6000,
+            "max_salary": 12008
+        },
+        "manager_id": 149,
+        "department": {
+            "department_id": "80",
+            "name": "Sales",
+            "manager_id": "145",
+            "manager": "John Russell",
+            "street_address": "Magdalen Centre, The Oxford Science Park",
+            "postal_code": "OX9 9ZB",
+            "city": "Oxford",
+            "state_province": "Oxford",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 180,
+        "first_name": "Winston",
+        "last_name": "Taylor",
+        "email": "Taylor",
+        "phone_number": "650.507.9876",
+        "hire_date": "2006-01-24",
+        "salary": 3200,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 120,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 181,
+        "first_name": "Jean",
+        "last_name": "Fleaur",
+        "email": "Fleaur",
+        "phone_number": "650.507.9877",
+        "hire_date": "2006-02-23",
+        "salary": 3100,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 120,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 182,
+        "first_name": "Martha",
+        "last_name": "Sullivan",
+        "email": "Sullivan",
+        "phone_number": "650.507.9878",
+        "hire_date": "2007-06-21",
+        "salary": 2500,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 120,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 183,
+        "first_name": "Girard",
+        "last_name": "Geoni",
+        "email": "Geoni",
+        "phone_number": "650.507.9879",
+        "hire_date": "2008-02-03",
+        "salary": 2800,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 120,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 184,
+        "first_name": "Nandita",
+        "last_name": "Sarchand",
+        "email": "Sarchand",
+        "phone_number": "650.509.1876",
+        "hire_date": "2004-01-27",
+        "salary": 4200,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 121,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 185,
+        "first_name": "Alexis",
+        "last_name": "Bull",
+        "email": "Bull",
+        "phone_number": "650.509.2876",
+        "hire_date": "2005-02-20",
+        "salary": 4100,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 121,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 186,
+        "first_name": "Julia",
+        "last_name": "Dellinger",
+        "email": "Dellinger",
+        "phone_number": "650.509.3876",
+        "hire_date": "2006-06-24",
+        "salary": 3400,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 121,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 187,
+        "first_name": "Anthony",
+        "last_name": "Cabrio",
+        "email": "Cabrio",
+        "phone_number": "650.509.4876",
+        "hire_date": "2007-02-07",
+        "salary": 3000,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 121,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 188,
+        "first_name": "Kelly",
+        "last_name": "Chung",
+        "email": "Chung",
+        "phone_number": "650.505.1876",
+        "hire_date": "2005-06-14",
+        "salary": 3800,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 122,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 189,
+        "first_name": "Jennifer",
+        "last_name": "Dilly",
+        "email": "Dilly",
+        "phone_number": "650.505.2876",
+        "hire_date": "2005-08-13",
+        "salary": 3600,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 122,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 190,
+        "first_name": "Timothy",
+        "last_name": "Gates",
+        "email": "Gates",
+        "phone_number": "650.505.3876",
+        "hire_date": "2006-07-11",
+        "salary": 2900,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 122,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 191,
+        "first_name": "Randall",
+        "last_name": "Perkins",
+        "email": "Perkins",
+        "phone_number": "650.505.4876",
+        "hire_date": "2007-12-19",
+        "salary": 2500,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 122,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 192,
+        "first_name": "Sarah",
+        "last_name": "Bell",
+        "email": "Bell",
+        "phone_number": "650.501.1876",
+        "hire_date": "2004-02-04",
+        "salary": 4000,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 123,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 193,
+        "first_name": "Britney",
+        "last_name": "Everett",
+        "email": "Everett",
+        "phone_number": "650.501.2876",
+        "hire_date": "2005-03-03",
+        "salary": 3900,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 123,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 194,
+        "first_name": "Samuel",
+        "last_name": "McCain",
+        "email": "McCain",
+        "phone_number": "650.501.3876",
+        "hire_date": "2006-07-01",
+        "salary": 3200,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 123,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 195,
+        "first_name": "Vance",
+        "last_name": "Jones",
+        "email": "Jones",
+        "phone_number": "650.501.4876",
+        "hire_date": "2007-03-17",
+        "salary": 2800,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 123,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 196,
+        "first_name": "Alana",
+        "last_name": "Walsh",
+        "email": "Walsh",
+        "phone_number": "650.507.9811",
+        "hire_date": "2006-04-24",
+        "salary": 3100,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 124,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 197,
+        "first_name": "Kevin",
+        "last_name": "Feeney",
+        "email": "Feeney",
+        "phone_number": "650.507.9822",
+        "hire_date": "2006-05-23",
+        "salary": 3000,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 124,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 198,
+        "first_name": "Donald",
+        "last_name": "OConnell",
+        "email": "OConnell",
+        "phone_number": "650.507.9833",
+        "hire_date": "2007-06-21",
+        "salary": 2600,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 124,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 199,
+        "first_name": "Douglas",
+        "last_name": "Grant",
+        "email": "Grant",
+        "phone_number": "650.507.9844",
+        "hire_date": "2008-01-13",
+        "salary": 2600,
+        "job": {
+            "title": "Shipping Clerk",
+            "min_salary": 2500,
+            "max_salary": 5500
+        },
+        "manager_id": 124,
+        "department": {
+            "department_id": "50",
+            "name": "Shipping",
+            "manager_id": "121",
+            "manager": "Adam Fripp",
+            "street_address": "2011 Interiors Blvd",
+            "postal_code": "99236",
+            "city": "South San Francisco",
+            "state_province": "California",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 200,
+        "first_name": "Jennifer",
+        "last_name": "Whalen",
+        "email": "Whalen",
+        "phone_number": "515.123.4444",
+        "hire_date": "2003-09-17",
+        "salary": 4400,
+        "job": {
+            "title": "Administration Assistant",
+            "min_salary": 3000,
+            "max_salary": 6000
+        },
+        "manager_id": 101,
+        "department": {
+            "department_id": "10",
+            "name": "Administration",
+            "manager_id": "200",
+            "manager": "Jennifer Whalen",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": [
+            {
+                "start_date": "1995-09-17",
+                "end_date": "2001-06-17",
+                "job_title": "Administration Assistant",
+                "job_min_salary": 3000,
+                "job_max_salary": 6000,
+                "department_name": "Executive",
+                "department_manager": 100,
+                "street_address": "2004 Charade Rd",
+                "postal_code": "98199",
+                "city": "Seattle",
+                "state_province": "Washington",
+                "country_name": "United States of America",
+                "region_name": "Americas"
+            }, {
+                "start_date": "2002-07-01",
+                "end_date": "2006-12-31",
+                "job_title": "Public Accountant",
+                "job_min_salary": 4200,
+                "job_max_salary": 9000,
+                "department_name": "Executive",
+                "department_manager": 100,
+                "street_address": "2004 Charade Rd",
+                "postal_code": "98199",
+                "city": "Seattle",
+                "state_province": "Washington",
+                "country_name": "United States of America",
+                "region_name": "Americas"
+            }
+        ]
+    }, {
+        "_id": 201,
+        "first_name": "Michael",
+        "last_name": "Hartstein",
+        "email": "Hartstein",
+        "phone_number": "515.123.5555",
+        "hire_date": "2004-02-17",
+        "salary": 13000,
+        "job": {
+            "title": "Marketing Manager",
+            "min_salary": 9000,
+            "max_salary": 15000
+        },
+        "manager_id": 100,
+        "department": {
+            "department_id": "20",
+            "name": "Marketing",
+            "manager_id": "201",
+            "manager": "Michael Hartstein",
+            "street_address": "147 Spadina Ave",
+            "postal_code": "M5V 2L7",
+            "city": "Toronto",
+            "state_province": "Ontario",
+            "country_name": "Canada",
+            "region_name": "Americas"
+        },
+        "history": [
+            {
+                "start_date": "2004-02-17",
+                "end_date": "2007-12-19",
+                "job_title": "Marketing Representative",
+                "job_min_salary": 4000,
+                "job_max_salary": 9000,
+                "department_name": "Marketing",
+                "department_manager": 201,
+                "street_address": "147 Spadina Ave",
+                "postal_code": "M5V 2L7",
+                "city": "Toronto",
+                "state_province": "Ontario",
+                "country_name": "Canada",
+                "region_name": "Americas"
+            }
+        ]
+    }, {
+        "_id": 202,
+        "first_name": "Pat",
+        "last_name": "Fay",
+        "email": "Fay",
+        "phone_number": "603.123.6666",
+        "hire_date": "2005-08-17",
+        "salary": 6000,
+        "job": {
+            "title": "Marketing Representative",
+            "min_salary": 4000,
+            "max_salary": 9000
+        },
+        "manager_id": 201,
+        "department": {
+            "department_id": "20",
+            "name": "Marketing",
+            "manager_id": "201",
+            "manager": "Michael Hartstein",
+            "street_address": "147 Spadina Ave",
+            "postal_code": "M5V 2L7",
+            "city": "Toronto",
+            "state_province": "Ontario",
+            "country_name": "Canada",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 203,
+        "first_name": "Susan",
+        "last_name": "Mavris",
+        "email": "Mavris",
+        "phone_number": "515.123.7777",
+        "hire_date": "2002-06-07",
+        "salary": 6500,
+        "job": {
+            "title": "Human Resources Representative",
+            "min_salary": 4000,
+            "max_salary": 9000
+        },
+        "manager_id": 101,
+        "department": {
+            "department_id": "40",
+            "name": "Human Resources",
+            "manager_id": "203",
+            "manager": "Susan Mavris",
+            "street_address": "8204 Arthur St",
+            "postal_code": "null",
+            "city": "London",
+            "state_province": "null",
+            "country_name": "United Kingdom",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 204,
+        "first_name": "Hermann",
+        "last_name": "Baer",
+        "email": "Baer",
+        "phone_number": "515.123.8888",
+        "hire_date": "2002-06-07",
+        "salary": 10000,
+        "job": {
+            "title": "Public Relations Representative",
+            "min_salary": 4500,
+            "max_salary": 10500
+        },
+        "manager_id": 101,
+        "department": {
+            "department_id": "70",
+            "name": "Public Relations",
+            "manager_id": "204",
+            "manager": "Hermann Baer",
+            "street_address": "Schwanthalerstr. 7031",
+            "postal_code": "80925",
+            "city": "Munich",
+            "state_province": "Bavaria",
+            "country_name": "Germany",
+            "region_name": "Europe"
+        },
+        "history": []
+    }, {
+        "_id": 205,
+        "first_name": "Shelley",
+        "last_name": "Higgins",
+        "email": "Higgins",
+        "phone_number": "515.123.8080",
+        "hire_date": "2002-06-07",
+        "salary": 12008,
+        "job": {
+            "title": "Accounting Manager",
+            "min_salary": 8200,
+            "max_salary": 16000
+        },
+        "manager_id": 101,
+        "department": {
+            "department_id": "110",
+            "name": "Accounting",
+            "manager_id": "205",
+            "manager": "Shelley Higgins",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }, {
+        "_id": 206,
+        "first_name": "William",
+        "last_name": "Gietz",
+        "email": "Gietz",
+        "phone_number": "515.123.8181",
+        "hire_date": "2002-06-07",
+        "salary": 8300,
+        "job": {
+            "title": "Public Accountant",
+            "min_salary": 4200,
+            "max_salary": 9000
+        },
+        "manager_id": 205,
+        "department": {
+            "department_id": "110",
+            "name": "Accounting",
+            "manager_id": "205",
+            "manager": "Shelley Higgins",
+            "street_address": "2004 Charade Rd",
+            "postal_code": "98199",
+            "city": "Seattle",
+            "state_province": "Washington",
+            "country_name": "United States of America",
+            "region_name": "Americas"
+        },
+        "history": []
+    }
+]

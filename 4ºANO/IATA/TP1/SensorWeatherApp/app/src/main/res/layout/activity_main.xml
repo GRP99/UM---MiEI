@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="140dp"
+        android:text="Sensor Weather App" />
+
+    <Button
+        android:id="@+id/currentWeather"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="110dp"
+        android:text="Current Weather"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/forecastWeather"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/currentWeather"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="110dp"
+        android:text="Forecast Weather"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/forecastWeather"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="110dp"
+        android:text="History"
+        app:backgroundTint="#D603A9F4" />
+
+    <Button
+        android:id="@+id/graph"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/history"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="110dp"
+        android:text="Graph"
+        app:backgroundTint="#D603A9F4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:background="#007A6069"
+        app:srcCompat="@drawable/meteorologia" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/graph"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="266dp"
+        app:srcCompat="@drawable/quatro" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:layout_alignBottom="@+id/graph"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="91dp"
+        app:srcCompat="@drawable/seis" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/graph"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/sete" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="183dp"
+        app:srcCompat="@drawable/sol_"
+        tools:srcCompat="@drawable/sol_" />
+
+</RelativeLayout>

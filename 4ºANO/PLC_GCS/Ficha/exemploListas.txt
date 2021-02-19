@@ -1,0 +1,3 @@
+LISTA 1 .
+Lista aaa .
+Lista 1, 2, agora, 3, 4, fim, 7, 8.

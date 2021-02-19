@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Graph">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="521dp"
+        android:background="#FFFFFF"
+        android:text="City:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:drawableTint="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="336dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="486dp"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/gtemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="102dp"
+        android:text="Temperature Graph"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/gtemperatureMin"
+        android:layout_width="244dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="101dp"
+        android:text="TemperatureMin Graph"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/gtemperatureMax"
+        android:layout_width="245dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="101dp"
+
+        android:text="TemperatureMax Graph"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/gpressure"
+        android:layout_width="242dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="103dp"
+        android:text="Pressure Graph"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/gvisibility"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="103dp"
+        android:text="Visibility Graph"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/ghumidity"
+        android:layout_width="246dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="403dp"
+        android:layout_marginEnd="103dp"
+        android:text="Humidity Graph"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/gwindSpeed"
+        android:layout_width="252dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="553dp"
+        android:layout_marginEnd="103dp"
+        android:text="WindSpeed Graph"
+        app:backgroundTint="#D403A9F4" />
+
+    <Button
+        android:id="@+id/guvi"
+        android:layout_width="247dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="73dp"
+        android:text="UVI Graph"
+        app:backgroundTint="#D403A9F4" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignBottom="@+id/guvi"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-22dp"
+        android:layout_marginBottom="423dp"
+        app:srcCompat="@drawable/gra" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/gwindSpeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="58dp"
+        app:srcCompat="@drawable/uv_" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="54dp"
+        android:layout_height="38dp"
+        android:layout_alignBottom="@+id/gwindSpeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/win" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="57dp"
+        android:layout_height="37dp"
+        android:layout_alignBottom="@+id/gwindSpeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="104dp"
+        app:srcCompat="@drawable/visi" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="59dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/gwindSpeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="154dp"
+        app:srcCompat="@drawable/humi1" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="38dp"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/gwindSpeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="258dp"
+        app:srcCompat="@drawable/max" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignBottom="@+id/gwindSpeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="317dp"
+        app:srcCompat="@drawable/tmin" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="59dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/gwindSpeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="380dp"
+        app:srcCompat="@drawable/tmp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="59dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/gwindSpeed"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="202dp"
+        app:srcCompat="@drawable/pre" />
+
+</RelativeLayout>
