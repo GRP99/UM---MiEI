@@ -1,0 +1,31 @@
+#ifndef ___SVGRELATE_H___
+#define ___SVGRELATE_H___
+
+/**
+Função para as casas fixas na grelha
+@param e estado do tabuleiro
+@param l linha onde se vai imprimir a casa
+@param c coluna onde se vai imprimir a casa
+*/
+void imprimeCasa (ESTADO e, int l, int c);
+/**
+Função que atualiza a casa com os vários links na grelha
+@param e estado do tabuleiro
+@param l linha onde se vai imprimir a casa
+@param c coluna onde se vai imprimir a casa
+*/
+
+void imprimeCasa_link(ESTADO e, int l , int c);
+/**
+Função que imprime a grelha
+@param e estado do tabuleiro
+*/
+void imprimeGrelha(ESTADO e);
+/**
+Função que remete para os diferentes links
+@param e estado do tabuleiro
+@param c contador da linha do ficheiro
+*/
+void imprimeBotoes(ESTADO e,char *user);
+
+#endif

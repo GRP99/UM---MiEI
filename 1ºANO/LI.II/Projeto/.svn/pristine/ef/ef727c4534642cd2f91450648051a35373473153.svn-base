@@ -1,0 +1,4 @@
+GandGalo - LI2 2017 2018
+NOME-DO-ALUNO-1
+Gonçalo Rodrigues Pinto, A83732-2
+NOME-DO-ALUNO-3

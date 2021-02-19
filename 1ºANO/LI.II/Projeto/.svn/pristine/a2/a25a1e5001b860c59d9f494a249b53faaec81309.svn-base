@@ -1,0 +1,12 @@
+#ifndef ___SVGRELATE_H___
+#define ___SVGRELATE_H___
+
+void imprimeCasa (ESTADO e, int l, int c);
+
+void imprimeCasa_link(ESTADO e, int l , int c);
+
+void imprimeGrelha(ESTADO e);
+
+void imprimeBotoes(ESTADO e,char *user);
+
+#endif

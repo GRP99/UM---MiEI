@@ -1,0 +1,51 @@
+#ifndef ___VALIDA_H___
+#define ___VALIDA_H___
+
+/**
+Função que verifica se a linha do tabuleiro está valida
+@param e Estado atual
+@returns 1 ou 0 dependente da veracidade do tabuleiro
+*/
+int validalinha (ESTADO e);
+
+
+/**
+Função que verifica se a coluna do tabuleiro está valida
+@param e Estado atual
+@returns 1 ou 0 dependente da veracidade do tabuleiro
+*/
+int validacoluna (ESTADO e);
+
+/**
+Função auxiliar que verifica se a diagonal do tabuleiro está valida
+@param e Estado atual
+@param linha atual
+@param coluna atual
+@returns 1 ou 0 dependente da veracidade do tabuleiro
+*/
+int vd1Aux (ESTADO e,int l,int c);
+
+/**
+Função que verifica se a diagonal do tabuleiro está valida
+@param e Estado atual
+@returns 1 ou 0 dependente da veracidade do tabuleiro
+*/
+int validadiagonal1(ESTADO e);
+
+/**
+Função auxiliar que verifica se a diagonal do tabuleiro está valida
+@param e Estado atual
+@param linha atual
+@param coluna atual
+@returns 1 ou 0 dependente da veracidade do tabuleiro
+*/
+int vd2Aux (ESTADO e, int l, int c);
+
+/**
+Função que verifica se a diagonal do tabuleiro está valida
+@param e Estado atual
+@returns 1 ou 0 dependente da veracidade do tabuleiro
+*/
+int validadiagonal2(ESTADO e);
+
+#endif

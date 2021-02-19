@@ -1,0 +1,18 @@
+#ifndef ___GRAVAFUNDO_H___
+#define ___GRAVAFUNDO_H___
+
+void gravar_estado_ficheiro(ESTADO e, char *user);
+
+ESTADO undo(ESTADO e);
+
+void debug(char *teste);
+
+void gravar_undo_ficheiro(ESTADO e);
+
+ESTADO ler_estado_ficheiro(char *filename);
+
+ESTADO ler_ancora_ficheiro(ESTADO e);
+
+void gravar_ancora_ficheiro(ESTADO e);
+
+#endif

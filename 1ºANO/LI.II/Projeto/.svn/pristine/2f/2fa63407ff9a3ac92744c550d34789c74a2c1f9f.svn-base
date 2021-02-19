@@ -1,0 +1,6 @@
+#ifndef ___AJUDAS_H___
+#define ___AJUDAS_H___
+
+ESTADO help (ESTADO e);
+
+#endif
