@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROJECT_RECORD>
+    <META>
+        <KEY_NAME>PRI2020-A83732</KEY_NAME>
+        <TITLE>Example of a project record</TITLE>
+        <BEGIN_DATE>October 2020</BEGIN_DATE>
+        <END_DATE>October 2020</END_DATE>
+        <SUPERVISOR href="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </SUPERVISOR>
+    </META>
+    <WORKTEAM>
+        <MEMBER>
+            <NAME>Gonçalo Rodrigues Pinto</NAME>
+            <EMAIL href="a83732@alunos.uminho.pt">a83732@alunos.uminho.pt</EMAIL>
+            <NUMBER>A83732</NUMBER>
+        </MEMBER>
+    </WORKTEAM>
+    <ABSTRACT>
+        <PARAGRAPH>
+            <TEXT>A <ITALIC>example</ITALIC> of <BOLD>XML file</BOLD> with the <LINKS href="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/Project%20Record.htm?fbclid=IwAR1zuZH1zjgthfV9jh9OKweuGfbunN8Ua8rWm2QZNVvKUht7JIJUhimwvag">project record</LINKS> that was <UNDERLINE>developed</UNDERLINE>.</TEXT>
+        </PARAGRAPH>
+    </ABSTRACT>
+    <DELIVERABLES>
+        <DELIVERABLE href="https://github.com/GRP99/PRI2020/tree/main/TPCs/TPC2/project_record.dtd">project_record.dtd</DELIVERABLE>
+    </DELIVERABLES>
+    <DATE>22-10-2020</DATE>
+</PROJECT_RECORD>

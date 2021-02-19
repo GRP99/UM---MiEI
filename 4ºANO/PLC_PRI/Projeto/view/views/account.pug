@@ -1,0 +1,119 @@
+extends layout
+
+block content
+    link(rel='stylesheet' href='/stylesheets/account.css' media='screen')
+    #df.w3-card-4.modal
+    #display.w3-card-4.modal
+    if alertValue == 1
+        script.
+            if (window.confirm('Your file wasn\'t uploaded because of its format! Please verify your file format again!'))
+            {
+                window.location.href = "http://localhost:3002/users/account"
+            }
+            else
+            {
+                window.location.href = "http://localhost:3002/users/account"
+            }
+            //alert("Your file wanst uploaded because of its format! Please verify your file format again!")
+    section#sec-63c0.u-clearfix.u-section-1
+        .u-clearfix.u-sheet.u-valign-middle.u-sheet-1
+            .u-clearfix.u-expanded-width.u-gutter-0.u-layout-wrap.u-layout-wrap-1
+                .u-layout
+                    .u-layout-row
+                        .u-container-style.u-layout-cell.u-size-46.u-layout-cell-1
+                            .u-border-2.u-border-custom-color-1.u-container-layout.u-container-layout-1
+                                .u-table.u-table-responsive.u-table-1
+                                    h6(style="font-family:Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;font-weight:bold;text-align:center;") Your Uploaded Files
+                                    table.u-table-entity(id="example" style="margin: 22px; font-size:12px;text-align:center;")
+                                        colgroup
+                                            col(width='16.666666%')
+                                            col(width='16.666666%')
+                                            col(width='16.666666%')
+                                            col(width='16.666666%')
+                                            col(width='16.666666%')
+                                            col(width='16.666666%')
+                                        thead.u-custom-color-1.u-table-header.u-table-header-1
+                                            tr(style='height: 30px;')
+                                                th.u-table-cell Date
+                                                th.u-table-cell File Title
+                                                th.u-table-cell Resource Type
+                                                th.u-table-cell Security Mode
+                                                th.u-table-cell
+                                        tbody.u-table-body
+                                            each a in lista
+                                                tr(id=a._id, style='height: 75px;')
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.creationDate
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell= a.title
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.resourceType
+                                                    if a.privacy == 1
+                                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                            b(id="privacy "+a._id) Private 
+                                                            button(id="button "+a._id,onClick="changePrivacy(\""+a._id+"\")" class="fa fa-lock")
+                                                    else
+                                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                            b(id="privacy "+a._id) Public 
+                                                            button(id="button "+a._id,onClick="changePrivacy(\""+a._id+"\")" class="fa fa-unlock")
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                        button(class="button-transparent" onclick="location.href='http://localhost:3001/files/download/"+a.autor+"/"+a._id+"?token="+token+"';")
+                                                            i(class="fa fa-download" style="font-size:20px")
+                                                        b           
+                                                        button(class="button-transparent" onclick="deleteFile(\""+a._id+"\")")
+                                                            i(class="fa fa-trash" style="font-size:20px")        
+                                                        b            
+                                                        button(class="button-transparent" onclick="location.href='http://localhost:3002/files/"+a._id+"'")
+                                                            i(class="fa fa-file" style="font-size:20px")
+                        .u-container-style.u-custom-color-1.u-layout-cell.u-size-14.u-layout-cell-2
+                            .u-border-2.u-border-custom-color-1.u-container-layout.u-valign-middle.u-container-layout-2
+                                h3(style="margin:-60px auto 0 auto;text-align:center;font-family:Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;") ABOUT ME    
+                                if path == 0
+                                    .container
+                                        img.u-image.u-image-circle.u-preserve-proportions.u-image-1(src='https://www.inmosenna.com/wp-content/uploads/2018/07/avatar-user-business-man-399587fe24739d5a-512x512-300x300.png' alt='' data-image-width='300' data-image-height='300')
+                                        .overlay
+                                            i(class="icon-photo fa fa-image" onclick="mudafoto(\"" + user_id + "\",\"" + token +"\");")
+                                else
+                                    .container
+                                        img.u-image.u-image-circle.u-preserve-proportions.u-image-1(src="http://localhost:3001/users/"+user_id+"/profilepic.jpeg?token="+token alt='' data-image-width='300' data-image-height='300')
+                                        .overlay
+                                            i(class="icon-photo fa fa-image" onclick="mudafoto(\"" + user_id + "\",\"" + token +"\");")
+                                div(align="center") 
+                                    #div1.fa( style="font-size:40px" onclick="openUploadModal(\"" + user_id + "\",\"" + token +"\")")
+                                    script.
+                                        function openfolder() {
+                                            var a;
+                                            a = document.getElementById("div1");
+                                            a.innerHTML = "&#xf114;";
+                                            setTimeout(function () {
+                                                a.innerHTML = "&#xf115;";
+                                                }, 1000);
+                                            }
+                                        openfolder();
+                                        setInterval(openfolder, 2000);
+                                
+                                if (user_level=='admin')
+                                    div(align="center")  
+                                        img(align="center" onclick="openWarningModal(\""+user_id+"\")" src="https://media1.giphy.com/media/Ve5vfhwsox2G3bJ44O/giphy.gif?cid=ecf05e477387de0aa0b8bb8fca3f2aa83bc751e13c7750a8&rid=giphy.gif" alt='' width='100' height='100')
+                                
+                                dl(style="font-size:12px")
+                                        dt
+                                            b Your name:
+                                            dd=user_name
+                                        dt
+                                            b Your email:
+                                            dd= user_mail
+                                        dt
+                                            b Your Github:
+                                            dd
+                                                a(href="https://github.com/"+user_github target="_blank")= user_github
+                                        if(user_level!="admin")
+                                            dt
+                                                b Your Role:
+                                            dd= user_role
+                                        dt
+                                            b Your Course:
+                                            dd= user_course
+                                        dt
+                                            b Your Department:
+                                            dd= user_department
+                                button(class="button" style="font-size:12px" onclick="editProfile(\""+user_name+"\",\""+user_github+"\",\"" + user_course + "\",\"" + user_department + "\")") Change your properties
+                                        br
+                                        i(class="fa fa-cogs" style="font-size:15px;")

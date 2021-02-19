@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h3 Tipologia: #{data.base.sigla}
+
+        .w3-container
+            table.w3-table-all.w3-section
+                tr
+                    th Estado
+                        td= data.base.estado
+                tr
+                    th Link
+                        td= data.base.designacao                     
+                           
+    .w3-container.w3-blue
+        footer.w3-container
+            p
+                a(href="/entidade/"+data.ide) Voltar à entidade

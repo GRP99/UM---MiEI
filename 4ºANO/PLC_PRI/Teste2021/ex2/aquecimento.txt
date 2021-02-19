@@ -1,0 +1,17 @@
+Testa a API de dados com o Postman ou diretamente no link da API e dá resposta às seguintes questões:
+
+    1. Quantos processos (nível 3) e quais são (obtem uma lista em JSON; podes concatenar sublistas invocando várias queries), pertencentes à descendência da classe 750?
+    ( http://clav-api.di.uminho.pt/v2/classes?nivel=3 ; CTR+F= "codigo": "750. )
+        R:  Existem 842 processos de nível 3. 
+            Existem 17 processos de nível 3 descendentes de 750.
+
+    
+    2.Quantos subprocessos existem no catálogo inteiro? (classes de nível 4)? ( http://clav-api.di.uminho.pt/v2/classes?nivel=4 )
+        R: Existem 116 subprocessos.
+
+    3. Quantos processos (classes de nível 3) se encontram na descendência de 750.30? ( http://clav-api.di.uminho.pt/v2/classes?nivel=3 ; CTR+F= "codigo": "750.30 )
+        R: Existem 5 subprocessos.
+
+    4. Quantos processos (classes de nível 3) estão relacionados com 750.30.001? 
+        (http://clav-api.di.uminho.pt/v2/classes/c750.30.001/procRel? )
+            R: Com o processo 750.30.001 estão relacionados 6 processos.

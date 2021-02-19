@@ -1,0 +1,89 @@
+extends layout
+
+block content
+    link(rel='stylesheet' href='/stylesheets/library.css' media='screen')
+    section#sec-a877.u-clearfix.u-section-1
+        .u-clearfix.u-sheet.u-sheet-1
+            .u-expanded-width.u-table.u-table-responsive.u-table-1
+                table.u-table-entity(id="example" style="text-align:center")
+                    colgroup
+                        col(width='16%')
+                        col(width='16%')
+                        col(width='16%')
+                        col(width='16%')
+                        col(width='16%')
+                    h5 ALL FILES
+                    thead.u-custom-color-1.u-custom-font.u-font-ubuntu.u-table-header.u-table-header-1
+                        tr(style='height: 30px;')
+                            th.u-table-cell Date
+                            th.u-table-cell File Title
+                            th.u-table-cell Resource Type
+                            th.u-table-cell Author
+                            th.u-table-cell Author Name
+                            th.u-table-cell Privacy 
+                            th.u-table-cell 
+                    tbody.u-custom-font.u-font-ubuntu.u-table-body
+                            each a in files
+                                tr(id=a._id, style='height: 75px;')
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.creationDate
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.title
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.resourceType
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.autor
+                                    each u in users
+                                        if u._id == a.autor
+                                            td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell 
+                                                a(href="http://localhost:3002/users/account/"+u._id)=u.name
+                                    if a.privacy == 0
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell Public
+                                    else
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell Private
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                        button(class="button-transparent" onclick="location.href='http://localhost:3002/files/"+a._id+"'")
+                                            i(class="fa fa-file" style="font-size:20px;")
+                                        b           
+                                        button(class="button-transparent" onclick="deleteFile(\""+a._id+"\")")
+                                            i(class="fa fa-trash" style="font-size:20px;")
+            .u-expanded-width.u-table.u-table-responsive.u-table-1
+                table.u-table-entity(id="example2" style="text-align:center")
+                    colgroup
+                        col(width='14%')
+                        col(width='14%')
+                        col(width='14%')
+                        col(width='14%')
+                        col(width='14%')
+                        col(width='14%')
+                        col(width='14%')
+                    h5 ALL USERS
+                    thead.u-custom-color-1.u-custom-font.u-font-ubuntu.u-table-header.u-table-header-1
+                        tr(style='height: 30px;')
+                            th.u-table-cell Email
+                            th.u-table-cell Name
+                            th.u-table-cell Level
+                            th.u-table-cell Registration Date
+                            th.u-table-cell Git
+                            th.u-table-cell Role - Course
+                            th.u-table-cell Department 
+                            th.u-table-cell
+                    tbody.u-custom-font.u-font-ubuntu.u-table-body
+                        each ul in users
+                            if ul._id != idUser
+                                tr(id=ul._id, style='height: 75px;')
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=ul._id
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                        a(href="http://localhost:3002/users/account/"+ul._id)=ul.name
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=ul.level
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=ul.registrationDate
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=ul.git
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                        t=ul.role
+                                        t  - 
+                                        t=ul.course
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=ul.department
+                                    if ul.level != "admin"
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                            button(class="button-transparent" onclick="deleteUser(\""+ul._id+"\")")
+                                                i(class="fa fa-trash" style="font-size:20px;")
+                                    else
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                            button(class="button-transparent" onclick="alert(\"This is user is an Admin! You can't delete him!\")")
+                                                i(class="fa fa-ban" style="font-size:20px;")

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC8</key>
+        <title>Servidor em Node.js para Upload e Download de ficheiros</title>
+        <bdate>30-11-2020</bdate>
+        <edate>07-12-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Partindo do trabalho desenvolvido na aula pretendeu-se desenvolver a construção do
+            <u>servidor</u> 
+            criado de modo a ser possível fazer o upload de múltiplos ficheiros em vez de um ficheiro de cada vez,
+            para isso o servidor responde a pedidos GET e POST na porta
+            <u>7701</u>,
+            guardando a meta informação num ficheiro 
+            <i>JSON</i> 
+            e os ficheiros em si numa pasta designada "fileStore". 
+        </p>
+        <p> 
+            Para tal ser possível foi necessário percorrer todos os ficheiros que o formulário fornece, 
+            extraindo a meta informação e efectuar a renomeação de pastas (de uploads para fileStore).
+        </p>
+    </abstract>
+    <deliverables>
+            <link url="gficheiros/server.js">Servidor criado</link>
+            <link url="gficheiros/html-templates.js">Templates HTML utilizadas</link>
+            <link url="gficheiros/dbFiles.json">Base de dados para meta-informação</link>
+            <link url="gficheiros/public/imagens.js">Funções auxiliares implementadas para as diversas funcionalidades</link>
+            <link url="pr.dtd">pr.dtd</link>
+            <link url="pr.xml">pr.xml</link>
+            <link url="pr.xslt">pr.xslt</link>
+            <link url="pr.html">pr.html</link>
+    </deliverables>
+</pr>

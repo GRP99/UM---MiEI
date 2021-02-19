@@ -1,0 +1,13 @@
+Expressões XPath que respondem a :
+
+	- Identificação de todos os Arqueossitios de Amares:
+		//ARQELEM[normalize-space(CONCEL)="Amares"]/IDENTI
+	
+	- Identificação de todos os Arquissitios com ligação a micáceo:
+		//ARQELEM[DESARQ/LIGA[@TERMO='micáceo']]/IDENTI
+
+	- Identificação de todos os Arquissitios em Barcelos com evidências de Romanização:
+		//ARQELEM[normalize-space(CONCEL)="Barcelos" and normalize-space(CRONO)="Romanização"]/IDENTI
+
+
+Ficheiro "Arqueossítios do Nordeste Português" : http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml

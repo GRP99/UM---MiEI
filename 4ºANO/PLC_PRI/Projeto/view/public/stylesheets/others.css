@@ -1,0 +1,140 @@
+.rating {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: #999999; /* Personal choice */
+}
+.rating div{
+    display: none;
+}
+.rating span {
+    padding: 0 0.1em;
+    font-size: 1.2rem;
+}
+.rating span:hover,
+.rating span:hover ~ span,
+.rating span:checked + span,
+.rating span:checked + span ~ span {
+    color: #ffc107; /* Personal color choice. Lifted from Bootstrap 4 */
+    padding: 0 0.1em;
+    font-size: 1.2rem;
+}
+.checked{
+    color: #ffc107;
+}
+
+
+/* BUTTON */
+.button-transparent {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.fa-heart.fill {
+    color: red !important;
+}
+
+.fa-heart {
+    color:#999999 !important;
+}
+
+.fa-file {
+    color:grey !important;
+}
+
+.fa-download {
+    color:#33cc33 !important;
+}
+
+.fa-comment {
+    color:#6699cc !important;
+}
+
+.fa-trash, .fa-ban, .fa-close {
+    color:red !important;
+}
+
+.fa-cogs, .fa-user, .fa-image {
+    color:grey !important;
+}
+
+.fa-heart:hover {
+    color:red !important;
+}
+
+.fa-file:hover {
+    color:black !important;
+}
+
+.fa-download:hover {
+    color:#248f24 !important;
+}
+
+.fa-comment:hover {
+    color:#336699 !important;
+}
+
+.fa-trash:hover, .fa-ban:hover, .fa-close:hover {
+    color:#b30000 !important;
+}
+
+.fa-cogs:hover, .fa-user:hover, .fa-image:hover {
+    color:black !important;
+}
+
+
+/* IMAGE CHANGE */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icon-photo.fa {
+    color: white;
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: #eee;
+  }
+
+  /* LINKS */
+  /* 
+  table a:link, a:visited {
+    color:black;
+    text-decoration: underline;
+  } */
+
+  /* FOOTER */
+  .footerF{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+  }

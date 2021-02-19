@@ -1,0 +1,101 @@
+[{
+    "date": "2020-12-01T12:30",
+    "name": "bugs-bunny.jpg",
+    "mimetype": "image/jpeg",
+    "size": 67755
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "coyotte.png",
+    "mimetype": "image/png",
+    "size": 243362
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "duffy-duck.png",
+    "mimetype": "image/png",
+    "size": 292968
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "elmer-fudd.png",
+    "mimetype": "image/png",
+    "size": 206963
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "porky-pig.jpg",
+    "mimetype": "image/jpeg",
+    "size": 103832
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "road-runner.png",
+    "mimetype": "image/png",
+    "size": 143490
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "speedy.png",
+    "mimetype": "image/png",
+    "size": 505127
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "sylvester.png",
+    "mimetype": "image/png",
+    "size": 240557
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "tasmanian-devil.jpg",
+    "mimetype": "image/jpeg",
+    "size": 248401
+}, {
+    "date": "2020-12-01T12:30",
+    "name": "yosemite-sam.png",
+    "mimetype": "image/png",
+    "size": 271582
+}, {
+    "date": "2020-12-03T12:04",
+    "name": "626_Stitch.png",
+    "mimetype": "image/png",
+    "size": 41348
+}, {
+    "date": "2020-12-03T12:04",
+    "name": "513_-_Richter.png",
+    "mimetype": "image/png",
+    "size": 86711
+}, {
+    "date": "2020-12-03T12:04",
+    "name": "375_Phantasmo.png",
+    "mimetype": "image/png",
+    "size": 67913
+}, {
+    "date": "2020-12-03T12:04",
+    "name": "177_-_Clip.png",
+    "mimetype": "image/png",
+    "size": 74463
+}, {
+    "date": "2020-12-03T12:04",
+    "name": "254_Mr_Stenchy.jpg",
+    "mimetype": "image/jpeg",
+    "size": 12212
+}, {
+    "date": "2020-12-03T12:04",
+    "name": "300_-_Spooky.png",
+    "mimetype": "image/png",
+    "size": 80115
+}, {
+    "date": "2020-12-03T12:23",
+    "name": "pr.dtd",
+    "mimetype": "application/xml-dtd",
+    "size": 786
+}, {
+    "date": "2020-12-03T12:23",
+    "name": "pr.xslt",
+    "mimetype": "text/xml",
+    "size": 3374
+}, {
+    "date": "2020-12-03T12:23",
+    "name": "pr.xml",
+    "mimetype": "text/xml",
+    "size": 1899
+}, {
+    "date": "2020-12-03T12:23",
+    "name": "pr.html",
+    "mimetype": "text/html",
+    "size": 2585
+}]

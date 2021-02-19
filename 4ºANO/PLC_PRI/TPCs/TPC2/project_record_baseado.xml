@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PROJECT_RECORD>
+    <META>
+        <KEY_NAME>PED_MICEI2002_TESES</KEY_NAME>
+        <TITLE>Schema e Stylesheet para tratamento de teses em XML</TITLE>
+        <SUBTITLE>Relatório inserido nos trabalhos práticos da cadeira de PED do MICEI 2001/02</SUBTITLE>
+        <BEGIN_DATE>Setembro 2002</BEGIN_DATE>
+        <END_DATE>Setembro 2002</END_DATE>
+        <SUPERVISOR href="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </SUPERVISOR>
+    </META>
+    <WORKTEAM>
+        <MEMBER>
+            <NAME>Guilherme António Teixeira</NAME>
+            <EMAIL href="guilherme.teixeira@neoplastica.com"> guilherme.teixeira@neoplastica.com </EMAIL>
+            <NUMBER>AXXXXX</NUMBER>
+        </MEMBER>
+    </WORKTEAM>
+    <ABSTRACT>
+        <PARAGRAPH>
+            <TEXT>
+                O XML, validado pelo schema, juntamente com o potente processamento via XSLT, permite dispor de 
+                <ITALIC>facilidades acrescidas</ITALIC>
+                no tratamento de informação de uma forma 
+                <BOLD> standard e partilhável. </BOLD>
+                Estas são, além de outras evidentes vantagens, as que abrem caminho a uma mais que provável evolução desta tecnologia nos círculos comerciais e de investigação. Outro facto importante, diz respeito à substituição de interfaces EDI por XML em aplicações bussiness oriented.</TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>
+                O trabalho apresentado contempla um
+                <BOLD>schema, uma stylesheet, e a instância do schema</BOLD>
+                em XML. A instância é o próprio relatório.
+            </TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>O trabalho pretende definir uma 
+                <ITALIC> estrutura expedita e funcional, </ITALIC> 
+                passível de ser aplicada a um trabalho descritivo, como por exemplo uma tese. Não é objectivo do trabalho criar uma implementação sistemática de todos os objectos possíveis, mas sim criar algumas utilizações mais comuns para exemplificar a potência destas linguagens.</TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>Ficam neste trabalho em aberto algumas ideias, a serem aplicadas mais tarde a quando da escrita da tese, ou pré-tese, porque na verdade o facto de manter o documento num formato exportável para vários formatos, para várias plataformas, e anotado, garante qualquer tratamento no futuro, constituindo uma vantagem muito importante a ter em conta.</TEXT>
+        </PARAGRAPH>
+    </ABSTRACT>
+    <DELIVERABLES>
+        <DELIVERABLE href="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/ped_micei2002.html">Report (HTML version)</DELIVERABLE>
+        <DELIVERABLE href="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/ped_micei2002.xml">Report (XML version)</DELIVERABLE>
+        <DELIVERABLE href="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/ped_micei2002.xsd">XML Schema Definition (XSD)</DELIVERABLE>
+        <DELIVERABLE href="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/schema_doc.html">XML Schema Documentation (HTML)</DELIVERABLE>
+        <DELIVERABLE href="ped_micei2002.xslt">XSLT StyleSheet file (XSLT)</DELIVERABLE>
+        <DELIVERABLE href="ped_micei2002.spp">XmlSpy Project Definitions (XML)</DELIVERABLE>
+    </DELIVERABLES>
+    <DATE>09-09-2002</DATE>
+</PROJECT_RECORD>

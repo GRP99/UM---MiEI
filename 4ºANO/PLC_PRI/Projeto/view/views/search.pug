@@ -1,0 +1,140 @@
+extends layout
+
+block content
+    link(rel='stylesheet' href='/stylesheets/library.css' media='screen')
+    if autor == 1
+        section#sec-a877.u-clearfix.u-section-1
+            .u-clearfix.u-sheet.u-sheet-1
+                .u-expanded-width.u-table.u-table-responsive.u-table-1
+                    table.u-table-entity(id="example", style="text-align:center")
+                        colgroup
+                            col(width='25%')
+                            col(width='37.5%')
+                            col(width='37.5%')
+                        thead.u-custom-color-1.u-custom-font.u-font-ubuntu.u-table-header.u-table-header-1
+                            tr(style='height: 30px;')
+                                th.u-table-cell
+                                th.u-table-cell Name
+                                th.u-table-cell Git
+                        tbody.u-custom-font.u-font-ubuntu.u-table-body
+                            each a in lista
+                                tr(style='height: 75px;')
+                                    if a.profilepic == 0
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell(align="center")
+                                            .container
+                                                img.u-image.u-image-circle.u-preserve-proportions.u-image-1(src='https://www.inmosenna.com/wp-content/uploads/2018/07/avatar-user-business-man-399587fe24739d5a-512x512-300x300.png' alt='' width="75" height="75")
+                                                .overlay
+                                                    a.icon(href="http://localhost:3002/users/account/"+a._id title='User Profile')
+                                                        i(class="icon-photo fa fa-user")
+                                    else
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell(align="center")
+                                            .container
+                                                img.u-image.u-image-circle.u-preserve-proportions.u-image-1(src="http://localhost:3001/users/"+a._id+"/profilepic.jpeg?token="+token alt='' width="75" height="75")
+                                                .overlay
+                                                    a.icon(href="http://localhost:3002/users/account/"+a._id title='User Profile')
+                                                        i(class="icon-photo fa fa-user")
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell(onclick="showProfile(\""+a._id+"\",\""+ a.level +"\",\""+a.registrationDate+"\",\""+a.lastAccessDate+"\",\""+a.role+"\",\""+a.course+"\",\""+a.department+"\");")=a.name
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell 
+                                        a(href="https://github.com/"+a.git target="_blank")= a.git
+    else                                
+      section#sec-a877.u-clearfix.u-section-1
+        .u-clearfix.u-sheet.u-sheet-1
+            .u-expanded-width.u-table.u-table-responsive.u-table-1
+                table.u-table-entity(id="example" style="text-align:center ")
+                    colgroup
+                        col(width='20%')
+                        col(width='20%')
+                        col(width='20%')
+                        col(width='20%')
+                        col(width='20%')
+                    thead.u-custom-color-1.u-custom-font.u-font-ubuntu.u-table-header.u-table-header-1
+                        tr(style='height: 30px;')
+                            th.u-table-cell Date
+                            th.u-table-cell File Title
+                            th.u-table-cell Resource Type
+                            th.u-table-cell Average Classification 
+                            th.u-table-cell Your Classification
+                            th.u-table-cell Author 
+                            th.u-table-cell
+                            th.u-table-cell
+                            th.u-table-cell  
+                    tbody.u-custom-font.u-font-ubuntu.u-table-body
+                        each a in lista
+                            if a.privacy==0
+                                tr(style='height: 75px;')
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.creationDate
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.title
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.resourceType
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                        if (a.estrelas.numero >= 4.0)
+                                            b(style="color: green")= a.estrelas.numero
+                                        if (a.estrelas.numero < 4.0 && a.estrelas.numero >= 2.0)
+                                            b(style="color: orange")= a.estrelas.numero
+                                        if (a.estrelas.numero < 2.0 && a.estrelas.numero > 0)
+                                            b(style="color: red")= a.estrelas.numero
+                                        if (a.estrelas.numero == 0)
+                                            b --
+                                    - var found = 0
+                                    - var match = idUser + "[?][;][0-9]"
+                                    - var temp = ""
+                                    each autoresClassificados in a.estrelas.autores
+                                        if autoresClassificados.match(match)
+                                            - found = 1
+                                            - temp = autoresClassificados
+                                    if found == 1
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                            div(class="rating")
+                                                if temp == idUser+"?;5"
+                                                    span(class="fa fa-star checked" onclick="classificar(5,\""+temp+"\",\""+a._id+"\")") 
+                                                else 
+                                                    span(class="fa fa-star" onclick="classificar(5,\""+temp+"\",\""+a._id+"\")")
+                                                if (temp == idUser+"?;5" || temp == idUser+"?;4") 
+                                                    span(class="fa fa-star checked" onclick="classificar(4,\""+temp+"\",\""+a._id+"\")")
+                                                else 
+                                                    span(class="fa fa-star" onclick="classificar(4,\""+temp+"\",\""+a._id+"\")")
+                                                if (temp == idUser+"?;5" || temp == idUser+"?;4" || temp == idUser+"?;3") 
+                                                    span(class="fa fa-star checked" onclick="classificar(3,\""+temp+"\",\""+a._id+"\")")
+                                                else 
+                                                    span(class="fa fa-star" onclick="classificar(3,\""+temp+"\",\""+a._id+"\")")
+                                                if (temp == idUser+"?;5" || temp == idUser+"?;4" || temp == idUser+"?;3" || temp == idUser+"?;2") 
+                                                    span(class="fa fa-star checked" onclick="classificar(2,\""+temp+"\",\""+a._id+"\")")
+                                                else 
+                                                    span(class="fa fa-star" onclick="classificar(2,\""+temp+"\",\""+a._id+"\")")
+                                                if (temp == idUser+"?;5" || temp == idUser+"?;4" || temp == idUser+"?;3" || temp == idUser+"?;2" || temp == idUser+"?;1") 
+                                                    span(class="fa fa-star checked" onclick="classificar(1,\""+temp+"\",\""+a._id+"\")")
+                                                else 
+                                                    span(class="fa fa-star" onclick="classificar(1,\""+temp+"\",\""+a._id+"\")")
+                                    else
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                            div(class="rating")
+                                                span(class="fa fa-star" onclick="classificar(5,\"?;0\",\""+a._id+"\")")
+                                                span(class="fa fa-star" onclick="classificar(4,\"?;0\",\""+a._id+"\")")
+                                                span(class="fa fa-star" onclick="classificar(3,\"?;0\",\""+a._id+"\")")     
+                                                span(class="fa fa-star" onclick="classificar(2,\"?;0\",\""+a._id+"\")")
+                                                span(class="fa fa-star" onclick="classificar(1,\"?;0\",\""+a._id+"\")")
+                                    each u in users
+                                        if u._id == a.autor
+                                            td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                a(href="http://localhost:3002/users/account/"+u._id)=u.name
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                        button(class="button-transparent" onclick="location.href='http://localhost:3001/files/download/"+a.autor+"/"+a._id+"?token="+token+"';")
+                                            i(class="fa fa-download" style="font-size:20px;") 
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell         
+                                        button(class="button-transparent" onclick="location.href='http://localhost:3002/files/"+a._id+"'")
+                                            i(class="fa fa-file" style="font-size:20px;")
+                                    // if favoritos contains user
+                                    - var foundFavoritos = 0
+                                    each fav in a.favoritos
+                                        // idUser is req.user._id
+                                        if fav == idUser
+                                            - foundFavoritos = 1
+                                    if foundFavoritos == 1    
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                            button(class="button-transparent" onclick="addremoveFavourite(\""+a._id+"\");")
+                                                i(id="fav "+a._id class="fa fa-heart fill" style="font-size:20px;")
+                                    else  
+                                        td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                            button(class="button-transparent" onclick="addremoveFavourite(\""+a._id+"\");")
+                                                i(id="fav "+a._id class="fa fa-heart" style="font-size:20px;")
+    div(id='display')
+    div(id="displayProfile")                                        

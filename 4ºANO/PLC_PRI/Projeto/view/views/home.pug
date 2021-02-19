@@ -1,0 +1,116 @@
+extends layout
+
+block content
+    link(rel='stylesheet' href='/stylesheets/homepage.css' media='screen')
+    section#sec-63c0.u-clearfix.u-section-1
+        .u-clearfix.u-sheet.u-valign-middle.u-sheet-1
+            .u-clearfix.u-expanded-width.u-gutter-0.u-layout-wrap.u-layout-wrap-1
+                .u-layout
+                    .u-layout-row
+                        .u-container-style.u-layout-cell.u-size-46.u-layout-cell-1
+                            .u-border-2.u-border-custom-color-1.u-container-layout.u-container-layout-1
+                                .u-expanded-width.u-table.u-table-responsive.u-table-1
+                                    h6(style="font-family:Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;font-weight:bold;text-align:center;") Top 3 Most Classified
+                                    table.u-table-entity(style="text-align:center")
+                                        colgroup
+                                            col(width='20%')
+                                            col(width='20%')
+                                            col(width='20%')
+                                            col(width='20%')
+                                        thead.u-custom-color-1.u-custom-font.u-font-ubuntu.u-table-header.u-table-header-1
+                                            tr(style='height: 15px;')
+                                                th.u-table-cell(style="font-weight:bold") Date
+                                                th.u-table-cell(style="font-weight:bold") File Title
+                                                th.u-table-cell(style="font-weight:bold") Average Classification 
+                                                th.u-table-cell(style="font-weight:bold") Author
+                                                th.u-table-cell(style="font-weight:bold") 
+                                        tbody.u-custom-font.u-font-ubuntu.u-table-body
+                                            each c in classified
+                                                tr(style='height: 50px;')
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=c.creationDate
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell= c.title
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                        if (c.estrelas.numero >= 4.0)
+                                                            b(style="color: green")= c.estrelas.numero
+                                                        if (c.estrelas.numero < 4.0 && c.estrelas.numero >= 2.0)
+                                                            b(style="color: orange")= c.estrelas.numero
+                                                        if (c.estrelas.numero < 2.0 && c.estrelas.numero > 0)
+                                                            b(style="color: red")= c.estrelas.numero
+                                                        if (c.estrelas.numero == 0)
+                                                            b No classification
+                                                    each u in users
+                                                        if u._id == c.autor
+                                                            td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                                a(href="http://localhost:3002/users/account/"+u._id)=u.name
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                        button(class="button-transparent" onclick="location.href='http://localhost:3002/files/"+c._id+"'")
+                                                            i(class="fa fa-file" style="font-size:20px;")
+                                .u-expanded-width.u-table.u-table-responsive.u-table-1(style="margin-top:80px")    
+                                    h6(style="font-family:Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;font-weight:bold;text-align:center;") Top 3 Favourites
+                                    table.u-table-entity(style="text-align:center")
+                                        colgroup
+                                            col(width='20%')
+                                            col(width='20%')
+                                            col(width='20%')
+                                            col(width='20%')
+                                        thead.u-custom-color-1.u-custom-font.u-font-ubuntu.u-table-header.u-table-header-1
+                                            tr(style='height: 15px;')
+                                                th.u-table-cell(style="font-weight:bold") Date
+                                                th.u-table-cell(style="font-weight:bold") File Title
+                                                th.u-table-cell(style="font-weight:bold") Number of Favourites
+                                                th.u-table-cell(style="font-weight:bold") Author
+                                                th.u-table-cell(style="font-weight:bold")
+                                        tbody.u-custom-font.u-font-ubuntu.u-table-body
+                                            each f in favourites
+                                                tr(style='height: 50px;')
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=f.creationDate
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell= f.title
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=f.nmrFavs
+                                                    each u in users
+                                                        if u._id == f.autor
+                                                            td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell 
+                                                                a(href="http://localhost:3002/users/account/"+u._id)=u.name
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                        button(class="button-transparent" onclick="location.href='http://localhost:3002/files/"+f._id+"'")
+                                                            i(class="fa fa-file" style="font-size:20px;")
+                                .u-expanded-width.u-table.u-table-responsive.u-table-1(style="margin-top:80px")  
+                                    h6(style="font-family:Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;font-weight:bold;text-align:center;") Top 3 Authors
+                                    table.u-table-entity(style="text-align:center")
+                                        colgroup
+                                            col(width='20%')
+                                            col(width='20%')
+                                            col(width='20%')
+                                            col(width='20%')
+                                        thead.u-custom-color-1.u-custom-font.u-font-ubuntu.u-table-header.u-table-header-1
+                                            tr(style='height: 15px;')
+                                                th.u-table-cell(style="font-weight:bold") Author
+                                                th.u-table-cell(style="font-weight:bold") Number of Uploads
+                                            tbody.u-custom-font.u-font-ubuntu.u-table-body
+                                                each a in authors
+                                                    tr(style='height: 50px;')
+                                                        each u in users
+                                                            if u._id == a._id
+                                                                td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell 
+                                                                    a(href="http://localhost:3002/users/account/"+u._id)=u.name
+                                                                td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell=a.nmrUploads
+                        .u-container-style.u-custom-color-1.u-layout-cell.u-size-14.u-layout-cell-2
+                            .u-border-2.u-border-custom-color-1.u-container-layout.u-valign-middle.u-container-layout-2
+                                h3(style="margin:auto;font-family: Copperplate, Papyrus, fantasy;") News
+                                .u-align-center.u-clearfix.u-custom-html.u-custom-html-1
+                                    div
+                                        div
+                                            each not in noticias
+                                                    div(style="font-size:11px")
+                                                        p
+                                                            i(class="fa fa-newspaper-o")
+                                                            b       
+                                                            t= not.descricao
+                                                        if(not.type != "Warning")
+                                                            p
+                                                                b
+                                                                    a(href="http://localhost:3002/files/"+not.file)         Check this!
+                                                        p=not.date
+                                                        p -------
+        footer(class="footerF") 
+            p @Copyright Marrecos de PRI
+

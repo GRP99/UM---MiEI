@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>P.R.I 2020</key>
+        <title>Teste de Processamento e Representação de Informação</title>
+        <bdate>18-01-2021</bdate>
+        <edate>18-01-2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            De forma a testar os conhecimentos obtidos durante as aulas no processamento e representação de informação,
+            foi proposto a resolução de um teste que consistiu no desenvolvimento de dois exercícios práticos.
+        </p>
+        <p>
+           No primeiro exercício, foi estabelecido como objectivo a criação de um servidor <i>nodejs</i> (porta 54321) que deu suporte a uma API de dados sobre 
+           um dataset disponibilizado que contém informação a respeito sobre casamentos .
+           Antes do processo de implementação foi necessário substituir o nome do campo <b>ref</b> por <b>_id</b> para tal foi efectuado <i>find all por todos ref:</i> e <i>replace all por "_id":</i> no editor, posteriormente
+           substitui-se as '/' por '_' e mais uma vez com auxílio do editor foi substituido linha a linha.
+           De forma a garantir a persistência dos dados foi criado um documento com a respectiva coleccção numa base de dados orientada a documentos, <u>MongoDB</u>, para isso foi necessário efectuar 
+           o seguinte comando no terminal: <b>  mongoimport --db TestePRI2021 --collection casamentos --drop --file casamentos.json --jsonArray </b>, que permitiu efectuar o carregamento
+           do ficheiro disponibilizado para a base de dados, para esse efeito também foi necessário realizar a conexão dentro do servidor com a base de dados criada previamente
+           para tal utilizou-se o objecto <i>mongoose</i>. De forma a tornar o processo de criação da API mais rápido e ágil foi utilizado a <i>framework <b>Express</b> do nodejs</i>, 
+           desta forma foi criado dois ficheiros <i>javascripts</i> com o nome da coleccção criada, um presente na pasta <u>models</u> que traduz os parâmetros de um objecto do dataset fornecido e outro na
+           pasta <u>controllers</u> que efectua as <i>queries</i> à base de dados de forma a obter os dados pretendidos, esta última é utilizada pelo ficheiro das rotas criadas. 
+        </p>
+        <p> 
+            No segundo exercício, foi proposto a implementação de uma aplicação em <i>nodejs</i> (porta 54321) que permita navegar sobre a API de dados, CLAV que visa a classificação e a avaliação de toda a documentação circulante na administração pública portuguesa.
+            A face visível do projeto implementado foi sobre classes.
+            De forma a construção desta aplicação foi efectuado pedidos à <link url="http://clav-api.di.uminho.pt/v2/docs/">API</link>, com uma chave atribuída para o efeito de forma à sua obtenção foi efectuado um pedido <b>POST</b> com o software <i>Postamn</i> com as credencias fornecidas, o token foi armazenado numa variável para posterior uso. 
+            Numa primeira fase foi testado a API de dados com o <i>Postman</i> de forma a perceber melhor a face a qual foi desenvolvido para tal foi respondido algumas questões:
+        </p>
+            <p>
+                <b>1. Quantos processos (nível 3) e quais são (obtem uma lista em JSON; podes concatenar sublistas invocando várias queries), pertencentes à descendência da classe 750? </b>
+                <u>R: Existem 842 processos de nível 3. Existem 17 processos de nível 3 descendentes de 750. </u>
+            </p>
+            <p>
+                <b>2. Quantos subprocessos existem no catálogo inteiro? (classes de nível 4)? </b>
+                <u>R: Existem 116 subprocessos. </u>
+            </p>
+            <p>
+                <b>3. Quantos processos (classes de nível 3) se encontram na descendência de 750.30? </b>
+                <u>R: Existem 5 subprocessos. </u>
+            </p>
+            <p>
+                <b>4. Quantos processos (classes de nível 3) estão relacionados com 750.30.001? </b>
+                <u>R: Com o processo 750.30.001 estão relacionados 6 processos. </u>
+            </p>
+        <p>
+            Na página inicial, é possível encontrar um título e outra informação de contexto, sobre as classes nível 1. 
+            Ao clicar numa linha da tabela o utilizador é dirigido para a página individual desta classe.
+            Nesta página individual é visualizada a informação base da classe e lista de classes descendentes, sendo cada código um link para uma página sobre a classe e assim sucessivamente até à classe 3 .
+            Na página individual de uma classe nível 3 é exibido ainda além das outras informações bases apresentadas, uma lista dos processos relacionados (cada um destes dirige para um link para o respetivo processo), apenas foi contemplado as relações: eCruzadoCom, eComplementarDe, eSuplementoDe e eSuplementoPara.
+        </p>
+    </abstract>
+    <deliverables>
+            <link url="../ex1/casamentos.json">Dataset disponibilizado  - exercício 1</link>
+            <link url="../ex1/controllers/casamentos.js">Funções para retirar informação da base de dados - exercício 1</link>
+            <link url="../ex1/models/casamentos.js">Modelo de um objecto do dataset - exercício 1</link>
+            <link url="../ex1/routes/index.js">Rotas implementadas - exercício 1</link>
+            <link url="../ex2/aquecimento.txt">Respostas às questões - exercício 2</link>
+            <link url="../ex2/routes/index.js">Rotas implementadas - exercício 2</link>
+            <link url="pr.dtd">pr.dtd</link>
+            <link url="pr.xml">pr.xml</link>
+            <link url="pr.xslt">pr.xslt</link>
+            <link url="pr.html">pr.html</link>
+    </deliverables>
+</pr>

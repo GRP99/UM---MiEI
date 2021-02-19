@@ -1,0 +1,206 @@
+[
+    {
+        "nome": "Especial_PRI-DAW2020",
+        "exercicio1": {
+            "tema": "Filmes americanos",
+            "base de dados": "db.json",
+            "requisitos": "preparação do dataset = transformar os id",
+            "perguntas": [
+                "GET /api/filmes - Devolve a lista de filmes apenas com os campos \"title\", e \"year\"",
+                "GET /api/filmes/:id - Devolve a informação completa de um filme (considere para id o id que geraste)",
+                "GET /api/atores - Devolve apenas uma lista com os nomes dos atores, sem repetições e ordenada alfabeticamente;",
+                "GET /api/filmes?by=ator - Devolve a lista de obras agrupadas por ator, ou seja, devolve uma lista de atores em que a cada ator está associada uma lista de filmes (coloque apenas o id e o título do filme);",
+                "GET /api/filmes?by=genero - Devolve a lista de filmes agrupadas por género, ou seja, devolve uma lista de géneros em que a cada género está associada uma lista de filmes (coloque apenas o id e o título do filme);",
+                "GET /api/filmesQuantAtor - Devolve uma lista de filmes com os seguintes campos: id, titulo, número de atores participantes."
+            ]
+        },
+        "exercicio2": {
+            "tema": "CLAV",
+            "estruturas navegadas": [
+                "tipologias", "entidades"
+            ],
+            "queries navegadas": [
+                "GET http://clav-api.dglab.gov.pt/v2/tipologias - Devolve a lista de tipologias com várias opções de configuração;",
+                "GET http://clav-api.dglab.gov.pt/v2/tipologias/{id} - Devolve a informação de uma tipologia com identificador igual a id;",
+                "GET http://clav-api.dglab.gov.pt/v2/tipologias/{id}/elementos - Devolve a lista de entidades pertencentes à tipologia;",
+                "GET http://clav-api.dglab.gov.pt/v2/tipologias/{id}/intervencao/dono - Devolve a lista de processos de que a tipologia é dona;",
+                "GET http://clav-api.dglab.gov.pt/v2/entidades/{id} - Devolve toda a informação de uma entidade;",
+                "GET http://clav-api.dglab.gov.pt/v2/entidades/{id}/tipologias - Devolve as tipologias a que uma entidade pertence"
+            ]
+        }
+    },
+    {
+        "nome": "Exame_PRI-DAW2020",
+        "exercicio1": {
+            "tema": "Arquivo de Música Digital",
+            "base de dados": "arquivo-musica-digital.json",
+            "requisitos": "xml para json",
+            "perguntas": [
+                "GET /api/obras - Devolve a lista de obras musicais apenas com os campos \"id\", \titulo\", \"tipo\" e \"compositor\";",
+                "GET /api/obras/:id - Devolve a informação completa de uma obra ;",
+                "GET /api/compositores - Devolve apenas uma lista com os nomes dos compositores, sem repetições e ordenada alfabeticamente;",
+                "GET /api/obras?by=compositor - Devolve a lista de obras agrupadas por compositor, ou seja, devolve uma lista de compositores em que a cada compositor está associada uma lista de obras (coloque apenas o id e o título da obra);",
+                "GET /api/obras?by=instrumento - Devolve a lista de obras agrupadas por instrumento, ou seja, devolve uma lista de instrumentos em que a cada instrumento está associada uma lista de obras (coloque apenas o id e o título da obra);",
+                "GET /api/obrasQuant - Devolve uma lista de obras musicais com os seguintes campos: id, titulo, partituras (número de partituras disponíveis);"
+            ]
+        },
+        "exercicio2": {
+            "tema": "CLAV",
+            "estruturas navegadas": [
+                "legislacao", "entidades", "processos"
+            ],
+            "queries navegadas": ["GET http://clav-api.dglab.gov.pt/api/legislacao - Devolve a lista dos diplomas legislativos com várias opções de configuração, consulte a interface swagger disponibilizada em cima para mais informações;", "GET http://clav-api.dglab.gov.pt/api/legislacao/{id} - Devolve a informação de um diploma com identificador igual a id;", "GET http://clav-api.dglab.gov.pt/api/legislacao/{id}/processos - Devolve a lista dos processos regulados pelo diploma com identificador id."]
+        }
+    },
+    {
+        "nome": "Teste_DAW2020",
+        "exercicio1": {
+            "tema": "Arquivo de Música Digital",
+            "base de dados": "arquivo-musica-digital.json",
+            "requisitos": "xml para json",
+            "perguntas": [
+                "GET /api/obras - Devolve a lista de obras musicais apenas com os campos \"id\", \"titulo\", \"tipo\" e \"compositor\";",
+                "GET /api/obras/:id - Devolve a informação completa de uma obra;",
+                "GET /api/tipos - Devolve a lista de tipos, sem repetições;",
+                "GET /api/obras?compositor=XXX - Devolve a lista de obras que tenham o campo \"compositor\" com o valor \"XXX\";",
+                "GET /api/obras?instrumento=III - Devolve a lista de obras que tenham uma ou mais partituras para o instrumento III;",
+                "GET /api/obrasQuant - Devolve uma lista de obras musicais com os seguintes campos: id, titulo, partituras (número de partituras disponíveis)"
+            ]
+        },
+        "exercicio2": {
+            "tema": "CLAV",
+            "estruturas navegadas": [
+                "entidades", "tipologias", "processo"
+            ],
+            "queries navegadas": [
+                "GET http://clav-api.dglab.gov.pt/api/entidades - Devolve a lista de entidades com várias opções de configuração;",
+                "GET http://clav-api.dglab.gov.pt/api/entidades/{id} - Devolve a informação de uma entidade com identificador igual a id;",
+                "GET http://clav-api.dglab.gov.pt/api/entidades/{id}/tipologias - Devolve a lista de tipologias a que a entidade id pertence;",
+                "GET http://clav-api.dglab.gov.pt/api/entidades/{id}/intervencao/dono - Devolve a lista de processos de que a entidade é dona;",
+                "GET http://clav-api.dglab.gov.pt/api/entidades/{id}/intervencao/participante - Devolve a lista de processos de que a entidade é participante"
+            ]
+
+        }
+    },
+    {
+        "nome": "Teste_PRI2020",
+        "exercicio1": {
+            "tema": "Prémios Nobel",
+            "base de dados": "jcrpubs.json",
+            "requisitos": "dar um ligeiro fix ao ficheiro",
+            "perguntas": [
+                "GET /api/pubs - Devolve a lista de publicações apenas com os campos \"id\", \"title\", \"year\" e \"type\";",
+                "GET /api/pubs/:id - Devolve a informação completa de uma publicação;",
+                "GET /api/types - Devolve a lista de tipos, sem repetições;",
+                "GET /api/pubs?type=YYY - Devolve a lista de publicações que tenham o campo \"type\" com o valor \"YYY\";",
+                "GET /api/pubs?type=YYY&year=AAAA - Devolve a lista de publicações que tenham o campo \"type\" com o valor \"YYY\" e o campo \"year\" com um valor superior a \"AAAA\";",
+                "GET /api/autores - Devolve uma lista ordenada alfabeticamente com os nome dos autores ;",
+                "GET /api/pubs?autor=AAA - Devolve uma lista com as publicações do autor.",
+                "EXTRA => Devolve o numero de autores de cada publicacao"
+            ]
+        },
+        "exercicio2": {
+            "tema": "CLAV",
+            "estruturas navegadas": ["tipologias"],
+            "queries navegadas": [
+                "GET http://clav-api.dglab.gov.pt/api/tipologias - Devolve a lista de tipologias com várias opções de configuração;",
+                "GET http://clav-api.dglab.gov.pt/api/tipologias/{id} - Devolve a informação de uma tipologia com identificador igual a id;",
+                "GET http://clav-api.dglab.gov.pt/api/tipologias/{id}/elementos - Devolve a lista de entidades pertencentes à tipologia;",
+                "GET http://clav-api.dglab.gov.pt/api/tipologias/{id}/intervencao/dono - Devolve a lista de processos de que a tipologia é dona;",
+                "GET http://clav-api.dglab.gov.pt/api/entidades/{id} - Devolve toda a informação de uma entidade;",
+                "GET http://clav-api.dglab.gov.pt/api/entidades/{id}/tipologias - Devolve as tipologias a que uma entidade pertence."
+            ]
+        }
+    },{
+        "nome": "Exame_DAW2019",
+        "exercicio1": {
+            "tema": "Prémios Nobel",
+            "base de dados": "prize.json",
+            "perguntas": [
+                "GET /api/premios - Devolve a lista de prémios apenas com os campos \"year\" e \"category\";",
+                "GET /api/premios/:id - Devolve a informação completa de um prémio;",
+                "GET /api/categorias - Devolve a lista de categorias, sem repetições;",
+                "GET /api/premios?categoria=YYY - Devolve a lista de prémios que tenham o campo \"category\" com o valor \"YYY\";",
+                "GET /api/premios?categoria=YYY&data=AAAA - Devolve a lista de prémios que tenham o campo \"category\" com o valor \"YYY\" e o campo \"year\" com um valor superior a \"AAAA\";",
+                "GET /api/laureados - Devolve uma lista ordenada alfabeticamente por nome dos laureados com os campos correspondentes ao nome, ano do prémio e categoria."
+            ]
+        },
+        "exercicio2": {
+            "tema": "CLAV",
+            "estruturas navegadas": ["classes"],
+            "queries navegadas": [
+                "GET http://clav-test.di.uminho.pt/api/classes - Devolve uma estratura hierárquica em JSON com a informação base de todas as classes/processos da Lista Consolidada. Note que, os processos correspondem a classes de nível 3 e 4, os níveis 1 e 2 existem para arrumar a case e facilitar o acesso aos processo;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/3 - Devolve uma lista em JSON com a informação base de todos os processos;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/1 - Devolve uma lista em JSON dos primeiros níveis;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/2 - Devolve uma lista em JSON dos segundos níveis;",
+                "GET http://clav-test.di.uminho.pt/api/classes/lista - Devolve uma lista em JSON de todas as classes (linearização da árvore inicial);",
+                "GET http://clav-test.di.uminho.pt/api/classes/c100.10.001 - Devolve em JSON a informação base da classe com código: c100.10.001;",
+                "GET http://clav-test.di.uminho.pt/api/classes/c100.20/descendencia - Devolve uma lista em JSON das classes filhas da classe passada no pedido, neste caso, C100.20;",
+                "GET http://clav-test.di.uminho.pt/api/classes/c150.10.702/procRel - Uma classe de nível 3 pode ter relações com outra classe de nível 3. Este pedido devolve uma lista dos processos (classes de nível 3) que têm relações com o processo 150.10.702. São devolvidos: o identificador, o código, o título e o código da relação (deste é possível extrair a designação da relação, a sua parte final)"
+            ]
+        }
+    }
+    , {
+        "nome": "Exame_PRI2019",
+        "exercicio1": {
+            "tema": "Vamos ao cinema",
+            "base de dados": "db.json",
+            "requisitos": "preparação do dataset = transformar os id",
+            "perguntas": [
+                "GET /api/filmes - Devolve a lista de filmes apenas com os campos \"title\", e \"year\"",
+                "GET /api/filmes/:id - Devolve a informação completa de um filme identificado no pedido pelo seu identificador;",
+                "GET /api/generos - Devolve a lista de generos em que os filmes se encontram classificados, sem repetições;",
+                "GET /api/filmes?genro=Action - Devolve a lista de filmes cujo campo \"genres\" contem o valor \"Action\";",
+                "GET /api/filmes?categoria=Action&data=AAAA - Devolve a lista de prémios cujo campo \"genres\" contenha o valor \"Action\" e o campo \"year\" com um valor superior a \"AAAA\";",
+                "GET /api/atores - Devolve uma lista ordenada alfabeticamente por nome dos atores."
+            ]
+        },
+        "exercicio2": {
+            "tema": "CLAV",
+            "estruturas navegadas": ["classes"],
+            "queries navegadas": [
+                "GET http://clav-test.di.uminho.pt/api/classes - Devolve uma estratura hierárquica em JSON com a informação base de todas as classes/processos da Lista Consolidada. Note que, os processos correspondem a classes de nível 3 e 4, os níveis 1 e 2 existem para arrumar a case e facilitar o acesso aos processo;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/3 - Devolve uma lista em JSON com a informação base de todos os processos;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/1 - Devolve uma lista em JSON dos primeiros níveis;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/2 - Devolve uma lista em JSON dos segundos níveis;",
+                "GET http://clav-test.di.uminho.pt/api/classes/lista - Devolve uma lista em JSON de todas as classes (linearização da árvore inicial);",
+                "GET http://clav-test.di.uminho.pt/api/classes/c100.10.001 - Devolve em JSON a informação base da classe com código: c100.10.001;",
+                "GET http://clav-test.di.uminho.pt/api/classes/c100.20/descendencia - Devolve uma lista em JSON das classes filhas da classe passada no pedido, neste caso, C100.20;",
+                "GET http://clav-test.di.uminho.pt/api/classes/c150.10.702/procRel - Uma classe de nível 3 pode ter relações com outra classe de nível 3. Este pedido devolve uma lista dos processos (classes de nível 3) que têm relações com o processo 150.10.702. São devolvidos: o identificador, o código, o título e o código da relação (deste é possível extrair a designação da relação, a sua parte final)"
+            ]
+        }
+    }, {
+        "nome": "Teste_DAW2019",
+        "exercicio1": {
+            "tema": "Compositores Musicais",
+            "base de dados": "compositores.json",
+            "requisitos": "xml to json",
+            "perguntas": ["GET /api/compositores - Devolve a lista de compositores com os seguintes campos: id, nome, data-nascimento (se esta existir);", "GET /api/compositores/:id - Devolve a informação completa de um compositor;", "GET /api/compositores?periodo=XXXXX - Devolve a lista de compositores que tenham o campo período com o valor \"XXXXX\";", "GET /api/compositores?data=AAAA-MM-DD&periodo=XXXXX - Devolve a lista de compositores que tenham o campo período com o valor \"XXXXX\" e cuja data de nascimento seja superior à data indicada no fitro data."]
+        },
+        "exercicio2": {
+            "tema": "CLAV",
+            "estruturas navegadas": ["classes"],
+            "queries navegadas": [
+                "GET http://clav-test.di.uminho.pt/api/classes - Devolve uma estratura hierárquica em JSON com a informação base de todas as classes/processos da Lista Consolidada. Note que, os processos correspondem a classes de nível 3 e 4, os níveis 1 e 2 existem para arrumar a case e facilitar o acesso aos processo;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/3 - Devolve uma lista em JSON com a informação base de todos os processos;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/1 - Devolve uma lista em JSON dos primeiros níveis;",
+                "GET http://clav-test.di.uminho.pt/api/classes/nivel/2 - Devolve uma lista em JSON dos segundos níveis;",
+                "GET http://clav-test.di.uminho.pt/api/classes/lista - Devolve uma lista em JSON de todas as classes (linearização da árvore inicial);",
+                "GET http://clav-test.di.uminho.pt/api/classes/c100.10.001 - Devolve em JSON a informação base da classe com código: c100.10.001;",
+                "GET http://clav-test.di.uminho.pt/api/classes/c100.20/descendencia - Devolve uma lista em JSON das classes filhas da classe passada no pedido, neste caso, C100.20;"
+            ]
+        }
+    }, {
+        "nome": "Teste_PRI2019",
+        "exercicio1": {
+            "tema": "MyTwitter",
+            "desenvolvido": ["Form que adiciona tweets a uma base de dados", "Form que fica vazio ao adicionar", "Página inicial já tem tweets da base de dados", "Possibilidade de gostos"]
+        },
+        "exercicio2": {
+            "tema": "My Sport records",
+            "base de dados": "mySports.json",
+            "requisitos": "correr o servidor para ter um dataset",
+            "perguntas": ["GET /api/atividades - lista as atividades no dataset com os seguintes campos: data, tipo de atividade, distância em Km e tempo;", "GET /api/atividades/:tipo - lista as atividades que pertencem ao tipo indicado;", "GET /api/atividades?filtro=maislonga - devolve a atividade com a duração mais longa;", "GET /api/atividades/:tipo?filtro=maislonga - devolve a atividade mais longa do tipo indicado"]
+        }
+    }
+]

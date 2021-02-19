@@ -1,0 +1,22 @@
+{
+    "ficheiros": [
+        {
+            "titulo": "...",
+            "tipo": "..."
+        }
+    ],
+    "pastas": [
+        {
+            "titulo": "...",
+            "conteudo": {
+                "ficheiros": [
+                    {
+                        "titulo": "...",
+                        "tipo": "..."
+                    }
+                ],
+                "pastas": []
+            }
+        }
+    ]
+}

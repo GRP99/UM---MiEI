@@ -1,0 +1,40 @@
+doctype html
+head
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta(charset='utf-8')
+    title File Manager
+    link(rel='stylesheet' href='/stylesheets/nicepage.css' media='screen')
+    link(rel='stylesheet' href='/stylesheets/login.css' media='screen')
+    script.u-script(type='text/javascript' src='/javascripts/jquery.js' defer='')
+    script.u-script(type='text/javascript' src='/javascripts/login.js' defer='')
+    script.u-script(type='text/javascript' src='/javascripts/scripts.js' defer='')
+    link#u-theme-google-font(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i')
+    link#u-page-google-font(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i')
+section#sec-9820.u-clearfix.u-section-1
+    .u-clearfix.u-expanded-width.u-gutter-0.u-layout-wrap.u-layout-wrap-1
+        .u-layout(style='')
+            .u-layout-row(style='')
+                .u-align-left.u-container-style.u-custom-color-1.u-layout-cell.u-left-cell.u-size-30.u-size-xs-60.u-layout-cell-1(src='')
+                    .u-container-layout.u-valign-bottom.u-container-layout-1(src='')
+                        h1.u-align-center.u-text.u-text-custom-color-2.u-text-default.u-title.u-text-1
+                            | School File&nbsp;
+                            br
+                            | Manager
+                        img.u-image.u-image-default.u-preserve-proportions.u-image-1(src='/images/login.png' alt='' data-image-width='434' data-image-height='434')
+                        p.u-custom-font.u-font-ubuntu.u-text.u-text-custom-color-2.u-text-2 @Copyright Marrecos de PRI
+                .u-align-left.u-container-style.u-layout-cell.u-right-cell.u-size-30.u-size-xs-60.u-layout-cell-2
+                    .u-container-layout.u-container-layout-2
+                        a.u-border-1.u-border-active-palette-2-base.u-border-hover-palette-1-base.u-btn.u-button-style.u-none.u-text-custom-color-3.u-btn-1(href='/users/signup') Sign Up
+                        p.u-active-none.u-border-7.u-border-active-palette-2-dark-1.u-border-custom-color-2.u-border-hover-palette-2-base.u-btn.u-button-style.u-hover-none.u-none.u-text-custom-color-2.u-text-hover-palette-2-base.u-btn-2 &nbsp; Login &nbsp;
+                        .u-form.u-form-1
+                            form.u-clearfix.u-form-spacing-21.u-form-vertical.u-inner-form(action='/users/login' method='POST' style='padding: 10px' source='custom' name='form' onLoad='preventBack()')
+                                input#siteId(type='hidden' name='siteId' value='49076823')
+                                input#pageId(type='hidden' name='pageId' value='60818745')
+                                .u-form-group.u-form-name
+                                    label.u-label(for='name-a8ce') Email:
+                                    input#name-a8ce.u-border-1.u-border-grey-30.u-input.u-input-rectangle.u-radius-50.u-white(type='email' name='_id' required='true')
+                                .u-form-email.u-form-group
+                                    label.u-label(for='email-a8ce') Password:
+                                    input#email-a8ce.u-border-1.u-border-grey-30.u-input.u-input-rectangle.u-radius-50.u-white(type='password' name='password' required='true')
+                                .u-align-center.u-form-group.u-form-submit
+                                    input.u-btn.u-btn-round.u-btn-submit.u-button-style.u-radius-50.u-btn-3(type='submit' value='Login')

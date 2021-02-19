@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PROJECT_RECORD>
+    <META>
+        <KEY_NAME></KEY_NAME>
+        <TITLE></TITLE>
+        <SUBTITLE></SUBTITLE>
+        <BEGIN_DATE></BEGIN_DATE>
+        <END_DATE></END_DATE>
+        <SUPERVISOR href=""></SUPERVISOR>
+    </META>
+    <WORKTEAM>
+        <MEMBER>
+            <NAME></NAME>
+            <EMAIL href=""></EMAIL>
+            <NUMBER></NUMBER>
+        </MEMBER>
+    </WORKTEAM>
+    <ABSTRACT>
+        <PARAGRAPH>
+            <TEXT></TEXT>
+        </PARAGRAPH>
+    </ABSTRACT>
+    <DELIVERABLES>
+        <DELIVERABLE href=""></DELIVERABLE>
+    </DELIVERABLES>
+    <DATE></DATE>
+</PROJECT_RECORD>

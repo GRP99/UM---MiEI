@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC5</key>
+        <title>Node.js and JSON-Server</title>
+        <bdate>09-11-2020</bdate>
+        <edate>16-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Partindo do JSON sobre uma 
+            <link url="https://epl.di.uminho.pt/~jcr/TRANSF/db.json"> Escola de música </link> 
+            onde é nos apresentado 3 tipos de objectos :
+            <u> alunos </u> , 
+            <u> cursos </u> ,
+            <u> instrumentos </u> ,
+            com auxílio da biblioteca
+            <b> JSON-Server </b>
+            configurou-se uma 
+            <i> API REST </i> com operações 
+            <i> CRUD </i> 
+            (Create, Read, Update and Delete).  
+        </p>
+        <p>
+            Este trabalho consistiu na construção de um
+            <u>servidor</u> 
+            desenvolvido em
+            <i>Node.js</i>
+            capaz de responder a pedidos de GET assente no JSON previamente referido
+            sobre um determinado objecto para tal este tem de efectuar o pedido através do browser. 
+        </p>
+        <p>
+            Este servidor foi construído de forma a responder a pedidos na porta 
+            <u> 3001 </u> .
+            Considerou-se um pedido válido:
+            <b>localhost:3001</b> 
+            , onde é apresentado um link 
+            <b>localhost:3001/OX</b> 
+            que remete para cada lista de objectos (OX pode ser alunos, cursos ou instrumentos).
+            Em cada uma destas listas podemos observar os membros que fazem parte no caso dos 
+            <u> cursos e alunos (OX) </u>
+            cada membro possui um link 
+            <b>localhost:3001/OX/XXXXX</b> 
+            , correspondendo a apresentar a informação do membro XXXXX do objecto OX. 
+            No caso do membro pertencer ao objecto dos alunos temos a referência ao identificador do curso que este aluno frequenta e nesta referência encaminha para outro link
+            <b>localhost:3001/alunos/XXXXX/curso/YYYYY</b>, 
+            desta forma é apresentado o curso YYYYY à qual o aluno XXXXX está inscrito.
+            Por outro lado quando pretende-se ver a informação de um membro do tipo curso é possível observar a lista de alunos que fazem parte através do link 
+            <b>localhost:3001/cursos/YYYYY/listaalunos</b> 
+            nesta lista é apenas possível observar o identificador, o nome e o ano do curso.
+        </p>
+        <p>
+            Em cada resposta HTML temos a possibilidade de voltar à resposta anterior, ou seja, podemos voltar ao link previamente carregado.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="escola.js">escola.js</link>
+        <link url="pr.dtd">pr.dtd</link>
+        <link url="pr.xml">pr.xml</link>
+        <link url="pr.xslt">pr.xslt</link>
+        <link url="pr.html">pr.html</link>
+    </deliverables>
+</pr>

@@ -1,0 +1,42 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h3 Processo #{data.base.codigo} relacionado com #{data.processo3}
+
+        .w3-container
+            table.w3-table-all.w3-section
+                tr
+                    th Nível
+                        td= data.base.nivel
+                tr
+                    th Título
+                        td= data.base.titulo
+                tr
+                    th Descrição
+                        td= data.base.descricao
+                tr
+                    th Status
+                        td= data.base.status 
+                tr  
+                    th Processos Relacionados
+                        td
+                            table.w3-table-all.w3-section
+                                tr
+                                    td IDRelação
+                                    td Código
+                                    td Título
+                                    td Status
+                                each p in data.base.processosRelacionados
+                                    tr
+                                        if((p.codigo != data.processo3))
+                                            if((p.idRel=="eCruzadoCom") || (p.idRel=="eComplementarDe") || (p.idRel=="eSuplementoDe") || (p.idRel=="eSuplementoPara"))
+                                                td= p.idRel
+                                                td= p.codigo
+                                                td= p.titulo  
+                                                td= p.status
+    .w3-container.w3-blue
+        footer.w3-container
+            p
+                a(href="http://localhost:54321/classes/"+data.classe1+"/"+data.classe2+"/"+data.classe3) Voltar à classe de nível 3

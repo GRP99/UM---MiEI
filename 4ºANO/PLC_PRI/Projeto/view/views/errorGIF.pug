@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    link(rel='stylesheet' href='/stylesheets/error.css' media='screen')
+    section.page_404
+        .row
+        .col-sm-12
+        .col-sm-10.col-sm-offset-1.text-center
+        .four_zero_four_bg
+            h1.text-center Error
+            h3.h2 Look like you're lost,
+                p the page you are looking for not avaible!
+                p 
+                    i ... débrouillez-vous ...
+                a.link_404(href='/homepage?') Go to Home

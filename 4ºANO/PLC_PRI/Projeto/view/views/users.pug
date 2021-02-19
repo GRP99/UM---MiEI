@@ -1,0 +1,38 @@
+extends layout
+
+block content
+    link(rel='stylesheet' href='/stylesheets/library.css' media='screen')
+    section#sec-a877.u-clearfix.u-section-1
+        .u-clearfix.u-sheet.u-sheet-1
+            .u-expanded-width.u-table.u-table-responsive.u-table-1
+                table.u-table-entity(id="example", style="text-align:center")
+                    colgroup
+                        col(width='20%')
+                        col(width='40%')
+                        col(width='40%')
+                    thead.u-custom-color-1.u-custom-font.u-font-ubuntu.u-table-header.u-table-header-1
+                        tr(style='height: 30px;')
+                            th.u-table-cell 
+                            th.u-table-cell Name
+                            th.u-table-cell Git
+                    tbody.u-custom-font.u-font-ubuntu.u-table-body
+                        each u in users
+                            tr(style='height: 75px;')
+                                if u.profilepic == 0
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell(align="center")
+                                        .container
+                                            img.u-image.u-image-circle.u-preserve-proportions.u-image-1(src='https://www.inmosenna.com/wp-content/uploads/2018/07/avatar-user-business-man-399587fe24739d5a-512x512-300x300.png' alt='' width="75" height="75")
+                                            .overlay
+                                                a.icon(href="http://localhost:3002/users/account/"+u._id title='User Profile')
+                                                    i(class="icon-photo fa fa-user")
+                                else
+                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell(align="center")
+                                        .container
+                                            img.u-image.u-image-circle.u-preserve-proportions.u-image-1(src="http://localhost:3001/users/"+u._id+"/profilepic.jpeg?token="+token alt='' width="75" height="75")
+                                            .overlay
+                                                a.icon(href="http://localhost:3002/users/account/"+u._id title='User Profile')
+                                                    i(class="icon-photo fa fa-user")                            
+                                td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell= u.name
+                                td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                    a(href="https://github.com/"+u.git target="_blank")= u.git
+        div(id="displayProfile")

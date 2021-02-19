@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROJECT_RECORD>
+    <META>
+        <KEY_NAME>TPC3</KEY_NAME>
+        <TITLE>XLS</TITLE>
+        <BEGIN_DATE>26-10-2020</BEGIN_DATE>
+        <END_DATE>02-10-2020</END_DATE>
+        <SUPERVISOR href="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </SUPERVISOR>
+    </META>
+    <WORKTEAM>
+        <MEMBER>
+            <NAME>Gonçalo Rodrigues Pinto</NAME>
+            <EMAIL href="a83732@alunos.uminho.pt"> a83732@alunos.uminho.pt</EMAIL>
+            <NUMBER>A83732</NUMBER>
+        </MEMBER>
+    </WORKTEAM>
+    <ABSTRACT>
+        <PARAGRAPH>
+            <TEXT>Documentos criados foram baseados no seguinte <LINKS href="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml">XML</LINKS> tal como foi indicado.</TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>
+                <BOLD>1º ETAPA -> DTD</BOLD>
+            </TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>Tal como foi solicitado criou-se um ficheiro <UNDERLINE>DTD</UNDERLINE>
+                <ITALIC>( Document Type Definition )</ITALIC>  para caracterizar a estrutura, os elementos e atributos do documento XML.</TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>
+                <BOLD>2º ETAPA -> XSLT</BOLD>
+            </TEXT>
+        </PARAGRAPH>
+        <PARAGRAPH>
+            <TEXT>Com auxílio do Oxygen XML Editor (IDE) criou-se o ficheiro <UNDERLINE>XSLT</UNDERLINE>
+                <ITALIC> (eXtensible Stylesheet Language)</ITALIC> presente de forma a gerar um Website.</TEXT>
+        </PARAGRAPH>
+    </ABSTRACT>
+    <DELIVERABLES>
+        <DELIVERABLE href="project_record.dtd">project_record.dtd</DELIVERABLE>
+        <DELIVERABLE href="project_record.xml">project_record.xml</DELIVERABLE>
+        <DELIVERABLE href="project_record.xslt">project_record.xslt</DELIVERABLE>
+        <DELIVERABLE href="project_record.html">project_record.html</DELIVERABLE>
+        <DELIVERABLE href="arq.xml">arq.xml</DELIVERABLE>
+        <DELIVERABLE href="arq.dtd">arq.dtd</DELIVERABLE>
+        <DELIVERABLE href="arq_gerado.xml">arq_gerado.xml</DELIVERABLE>
+        <DELIVERABLE href="arq.xsl">arq.xsl</DELIVERABLE>
+        <DELIVERABLE href="arq-Website/tableofcontents.html">arq-Website</DELIVERABLE>
+    </DELIVERABLES>
+    <DATE>29-10-2020</DATE>
+</PROJECT_RECORD>

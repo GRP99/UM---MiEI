@@ -1,0 +1,9 @@
+Testa a API de dados com o Postman ou diretamente no link da API e dá resposta às seguintes questões:
+
+    1. Quantos processos (nível 3) e quais são (obtem uma lista em JSON; podes concatenar sublistas invocando várias queries), existem na descendência da classe 700.10?
+
+    2. Quantos subprocessos existem? (classes de nível 4) na descendência de 750.10?
+
+    3. Quantas subfunções (classes de nível 2) tem a função 700 e quais são os seus títulos/designações?
+
+    4. Quantos e quais são os donos de 750.10.002?

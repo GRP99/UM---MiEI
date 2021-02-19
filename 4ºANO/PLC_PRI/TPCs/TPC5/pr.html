@@ -1,0 +1,99 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title> Project Record </title>
+   </head>
+   <body>
+      <h1 align="center">Project Record</h1>
+      <hr>
+      
+      <table width="100%" border="0">
+         <tr>
+            <td width="50%"><b>KEY NAME: </b><font color="#000080">TPC5</font></td>
+            <td width="50%"><b>BEGIN DATE: </b><font color="#000080">09-11-2020</font></td>
+         </tr>
+         <tr>
+            <td width="50%"><b>TITLE: </b><font color="#000080">Node.js and JSON-Server</font></td>
+            <td width="50%"><b>END DATE: </b><font color="#000080">16-11-2020</font></td>
+         </tr>
+         <tr>
+            <td width="50%"><b>SUPERVISOR: </b><font color="#000080"><a href="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</a></font></td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      
+      <h3>WorkTeam: </h3>
+      <ol>A83732
+         .
+         Gonçalo Rodrigues Pinto
+         -
+         <a href="mailto:a83732@alunos.uminho.pt">a83732@alunos.uminho.pt</a></ol>
+      <hr>
+      <hr>
+      
+      <h3>ABSTRACT:</h3>
+      <p>
+         Partindo do JSON sobre uma 
+         <a href="https://epl.di.uminho.pt/~jcr/TRANSF/db.json"> Escola de música </a> 
+         onde é nos apresentado 3 tipos de objectos :
+         <u> alunos </u> , 
+         <u> cursos </u> ,
+         <u> instrumentos </u> ,
+         com auxílio da biblioteca
+         <b> JSON-Server </b>
+         configurou-se uma 
+         <i> API REST </i> com operações 
+         <i> CRUD </i> 
+         (Create, Read, Update and Delete).  
+         </p>
+      <p>
+         Este trabalho consistiu na construção de um
+         <u>servidor</u> 
+         desenvolvido em
+         <i>Node.js</i>
+         capaz de responder a pedidos de GET assente no JSON previamente referido
+         sobre um determinado objecto para tal este tem de efectuar o pedido através do browser.
+         
+         </p>
+      <p>
+         Este servidor foi construído de forma a responder a pedidos na porta 
+         <u> 3001 </u> .
+         Considerou-se um pedido válido:
+         <b>localhost:3001</b> 
+         , onde é apresentado um link 
+         <b>localhost:3001/OX</b> 
+         que remete para cada lista de objectos (OX pode ser alunos, cursos ou instrumentos).
+         Em cada uma destas listas podemos observar os membros que fazem parte no caso dos
+         
+         <u> cursos e alunos (OX) </u>
+         cada membro possui um link 
+         <b>localhost:3001/OX/XXXXX</b> 
+         , correspondendo a apresentar a informação do membro XXXXX do objecto OX. 
+         No caso do membro pertencer ao objecto dos alunos temos a referência ao identificador
+         do curso que este aluno frequenta e nesta referência encaminha para outro link
+         <b>localhost:3001/alunos/XXXXX/curso/YYYYY</b>, 
+         desta forma é apresentado o curso YYYYY à qual o aluno XXXXX está inscrito.
+         Por outro lado quando pretende-se ver a informação de um membro do tipo curso é possível
+         observar a lista de alunos que fazem parte através do link 
+         <b>localhost:3001/cursos/YYYYY/listaalunos</b> 
+         nesta lista é apenas possível observar o identificador, o nome e o ano do curso.
+         </p>
+      <p>
+         Em cada resposta HTML temos a possibilidade de voltar à resposta anterior, ou seja,
+         podemos voltar ao link previamente carregado.
+         </p>
+      <hr>
+      <hr>
+      
+      <h3>Deliverables: </h3>
+      <ul>
+         <li><a href="escola.js">escola.js</a></li>
+         <li><a href="pr.dtd">pr.dtd</a></li>
+         <li><a href="pr.xml">pr.xml</a></li>
+         <li><a href="pr.xslt">pr.xslt</a></li>
+         <li><a href="pr.html">pr.html</a></li>
+      </ul>
+      <hr>
+      </body>
+</html>

@@ -1,0 +1,18 @@
+Single-Page Application (SPA) : ToDoList
+
+#################################################
+Nova Tarefa: 
+	Descricao : __________
+	Responsavel : __________ 
+	Data Limite : __________         
+                                |Registar|
+#################################################
+Lista de Tarefas Pendentes :
+    Data Limite(sort1_asc)  Responsavel(sort2)  Descricao       
+        ...                    ...                 ...          |check|    |uncheck|
+
+#################################################
+Resolvidas/Canceladas
+                    ....
+                    
+#################################################

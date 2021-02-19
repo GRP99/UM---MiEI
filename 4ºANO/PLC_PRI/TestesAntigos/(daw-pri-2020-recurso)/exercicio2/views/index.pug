@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+    header.w3-container
+        h3 Exercício Nº 2: Classificação e Avaliação da Informação Pública
+        h3.w3-left Lista de Legislações
+
+        if(legislacao.length > 0)
+            .w3-container
+                table.w3-table.w3-bordered
+                    tr
+                            th Data
+                            th Tipo
+                            th Número
+                            th Sumario
+                    each l in legislacao
+                        tr
+                            td= l.data
+                            td= l.tipo
+                            td 
+                                a(href="http://localhost:7777/legislacao/" + l.id)= l.numero
+                            td= l.sumario
+                                
+        else
+            .w3-container
+                p Ainda não há legislações.
+
+    footer(class="w3-container w3-center")
+        p Autor : Gonçalo Rodrigues Pinto
+        p MiEI - 4ºAno - 1ºSemestre - PRI 20/21
+        p <a href="mailto:a83732@alunos.uminho.pt">a83732@alunos.uminho.pt</a>
+        p <a href="https://github.com/GRP99/PRI2020" target="_blank" ><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="Github" style="width:100px;height:50px;"></img></a>

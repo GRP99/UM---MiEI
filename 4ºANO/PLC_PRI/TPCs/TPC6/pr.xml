@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC6</key>
+        <title>Node.js, JSON-Server e SPA</title>
+        <bdate>16-11-2020</bdate>
+        <edate>23-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho consistiu na construção de um
+            <u>servidor</u> 
+            desenvolvido em
+            <b>Node.js</b>
+            capaz de responder a pedidos de GET e POST na porta 
+            <u> 7777 </u>
+            utilizando uma 
+            <i> API REST </i>
+            configurada através do 
+            <b> JSON-Server </b>. 
+        </p>
+        <p> Para tal foi construida uma <b>SPA</b> 
+            <i> (Single Page Application) </i> 
+            capaz de submeter tarefas com uma descrição, responsável e uma data limite
+            posteriormente essas são apresentadas numa tabela de tarefas pendentes ordenadas por data limite de forma ascendente e pelo responsável.
+            Nesta tabela também é possível marcar cada tarefa como realizada ou cancelada, onde esta é
+            retirada da presente tabela e é introduzida numa outra que possui todas as tarefas realizadas e canceladas também ordenadas pelos mesmos critérios.
+        </p>.
+        <p>
+            Estes dados são armazenados num ficheiro <i>JSON</i> criado para o efeito.
+        </p>
+        <p>
+            Além disso, o servidor é capaz detetar pedidos que não suporta dando como resposta uma página html de erro.
+        </p>
+        </abstract>
+        <deliverables>
+            <link url="esboco.txt">esboço das tabelas</link>
+            <link url="server-spa-todolist.js">server</link>
+            <link url="db.json">database</link>
+            <link url="functions.js">functions</link>
+            <link url="static.js">recurso estático</link>
+            <link url="pr.dtd">pr.dtd</link>
+            <link url="pr.xml">pr.xml</link>
+            <link url="pr.xslt">pr.xslt</link>
+            <link url="pr.html">pr.html</link>
+        </deliverables>
+    </pr>

@@ -1,0 +1,39 @@
+{
+  "tarefas": [
+    {
+      "descricao": "Estudar HTML Forms, Static resources, request body processing",
+      "responsavel": "Gonçalo Pinto",
+      "datalimite": "2020-11-19",
+      "estado": "realizada",
+      "id": 1
+    },
+    {
+      "descricao": "Trabalho Prático de IATA",
+      "responsavel": "Gonçalo Pinto",
+      "datalimite": "2020-11-17",
+      "estado": "realizada",
+      "id": 2
+    },
+    {
+      "descricao": "Projeto 1 de GCS",
+      "responsavel": "Grupo 10",
+      "datalimite": "2020-11-23",
+      "estado": "arealizar",
+      "id": 3
+    },
+    {
+      "descricao": "FE04 - BDNSQL",
+      "responsavel": "GR01",
+      "datalimite": "2020-11-25",
+      "estado": "cancelada",
+      "id": 4
+    },
+    {
+      "descricao": "TPC6 de PRI",
+      "responsavel": "Gonçalo Pinto",
+      "datalimite": "2020-11-23",
+      "estado": "realizada",
+      "id": 5
+    }
+  ]
+}

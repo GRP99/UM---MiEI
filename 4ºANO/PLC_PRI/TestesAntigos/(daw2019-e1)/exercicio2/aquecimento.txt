@@ -1,0 +1,10 @@
+Testa a API de dados com o Postman ou diretamente no link da API e dá resposta às seguintes questões:
+
+    1. Quantos processos (nível 3) e quais são, existem na descendência da classe 200? ( )
+        R:  
+    
+    2. Quantos subprocessos existem? (classes de nível 4)? ( )
+        R: 
+
+    3. Quantos processos (classes de nível 3) se encontram subdivididos em níveis 4 ? ( )
+        R: 

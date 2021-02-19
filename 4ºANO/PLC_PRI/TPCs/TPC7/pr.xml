@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC7</key>
+        <title>Node.js, Express.js e MongoDB</title>
+        <bdate>23-11-2020</bdate>
+        <edate>30-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho consistiu na construção de um
+            <u>servidor</u> 
+            capaz de responder a pedidos de GET, POST, PUT, DELETE na porta 
+            <u>7700</u>,
+            direcionado a uma base de dados de alunos da unidade curricular presente. 
+        </p>
+        <p> 
+            Para tal utilizou-se um ficheiro 
+            <i>JSON</i> 
+            para ser a base da nossa base de dados em 
+            <b>Mongo</b>
+            , onde este posteriormente foi importado.            
+        </p>
+        <p>
+            Com o auxílio de uma framework para 
+            <b>Node.js</b>, 
+            <b>Express.js</b>, 
+            desenvolveu-se uma aplicação Web de uma forma muito simples, que permite listar todos os alunos armazenados na base de dados e também visualizar mais detalhadamente cada aluno.
+            Além de que é possível registar, editar e eliminar alunos. Ainda é possível adicionar e eliminar TPC's após a criação do aluno.
+        </p>
+
+        <p>
+            As páginas HTML são geradas a partir de ficheiros 
+            <i>pug</i>.
+        </p>
+    </abstract>
+    <deliverables>
+            <link url="students-express/views/aluno.pug">Página usada para visualizar um aluno (PUG)</link>
+            <link url="students-express/views/atualizar.pug">Página usada para atualizar um aluno(PUG)</link>
+            <link url="students-express/views/error.pug">Página de erro (PUG)</link>
+            <link url="students-express/views/form.pug">Página usada para registar um aluno(PUG)</link>
+            <link url="students-express/views/index.pug">Página inicial da aplicação (PUG)</link>
+            <link url="students-express/views/layout.pug">Layout de todas as páginas (PUG)</link>
+            <link url="students-express/routes/index.js">Rotas da aplicação (JS) </link>
+            <link url="students-express/public/javascripts/funcoes.js">Funções auxiliares implementadas para as diversas funcionalidades</link>
+            <link url="students-express/models/aluno.js">Esquema de um aluno</link>
+            <link url="students-express/controllers/aluno.js">Funções de manipulação dos dados</link>
+            <link url="pr.dtd">pr.dtd</link>
+            <link url="pr.xml">pr.xml</link>
+            <link url="pr.xslt">pr.xslt</link>
+            <link url="pr.html">pr.html</link>
+    </deliverables>
+</pr>

@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h2 Registo de Aluno
+        form.w3-container(action='/alunos' method='POST')
+            label.w3-text-blue
+                b Nome
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='Nome')
+            label.w3-text-blue
+                b Número / Identificador
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='Número')
+            label.w3-text-blue
+                b Link para o repositório no Git
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='Git')
+            br
+            input.w3-btn.w3-blue-bluew3-btn.w3-border.w3-margin-bottom.w3-left.w3-blue(type='submit' value='Registar')
+            input.w3-btn.w3-border.w3-margin-bottom.w3-right.w3-blue(type='reset' value='Limpar valores')
+    .w3-container.w3-blue
+        footer.w3-container
+            p
+                a(href="/") Voltar à página principal

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h2 Atualizar Aluno
+        .w3-container
+            input.w3-input.w3-border.w3-light-grey(id="Número" type="text" name="Número" value=aluno.Número)
+            input.w3-input.w3-border.w3-light-grey(id="Nome" type="text" name="Nome" value=aluno.Nome)
+            input.w3-input.w3-border.w3-light-grey(id="Git" type="text" name="Git" value=aluno.Git)
+            button.w3-btn.w3-border.w3-margin-bottom.w3-right.w3-blue(onclick="atualizar('" + aluno._id + "')") Atualizar
+
+    .w3-container.w3-blue
+        footer.w3-container
+            p
+                a(href="/") Voltar à página principal

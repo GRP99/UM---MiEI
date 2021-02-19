@@ -1,0 +1,5 @@
+1. cd C:\Program Files\MongoDB\Tools\100\bin
+
+2. <copiar ficheiro json para a directoria a cima 
+
+3. mongoimport --db TesteDAW2019 --collection compositores --drop --file compositores.json --jsonArray 

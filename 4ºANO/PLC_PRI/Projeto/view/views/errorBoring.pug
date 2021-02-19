@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    .w3-container.w3-section
+        .w3-card-4
+            header.w3-container.w3-red
+                h1= error.name
+            .w3-container
+                h2= error.status
+                pre #{error.stack}
+        .w3-container.w3-red
+            footer.w3-container
+                p
+                    a(href='/homepage') Back

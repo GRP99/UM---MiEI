@@ -1,0 +1,37 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h3 Ficha Aluno: #{aluno.Nome}
+        .w3-container
+            table.w3-table-all.w3-section
+                tr
+                    th Número
+                        td=aluno.Número
+                tr
+                    th Nome
+                        td=aluno.Nome
+                tr
+                    th Git
+                        td
+                            a(href=aluno.Git)= aluno.Git
+                tr  
+                    th TPC
+                        button.w3-btn(onclick="adicionarTPC('" + aluno._id + "')" class='fa fa-plus') 
+                        button.w3-btn(onclick="removerTPC('" + aluno._id + "')" class='fa fa-minus')  
+                        td 
+                            ul
+                                - var n = 1;
+                                each c in aluno.tpc
+                                    li TPC  #{n++}
+                tr
+                    th Operações
+                        td  
+                            button.w3-btn(onclick="eliminar('" + aluno._id + "')" class='fa fa-trash-o')
+                            button.w3-btn(onclick="window.location.assign('/alunos/editar/" + aluno._id + "')" class='fa fa-edit')
+                                    
+    .w3-container.w3-blue
+            footer.w3-container
+                p
+                    a(href="/") Voltar à página principal

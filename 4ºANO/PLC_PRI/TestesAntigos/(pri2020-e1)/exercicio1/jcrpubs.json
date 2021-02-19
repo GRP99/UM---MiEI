@@ -1,0 +1,1887 @@
+[
+    {
+        "type": "inproceedings",
+        "id": "cisti2017",
+        "authors": [
+
+            "José Carlos Ramalho", "André Pereira", "Miguel Ferreira", "Luis Faria"
+
+        ],
+        "title": "RODA-in: A generic tool for the mass creation of Submission Information Packages",
+        "booktitle": "CISTI'2017 - 12ª Conferência Ibérica de Sistemas e Tecnologias de Informação",
+        "address": "ISCTE, Lisboa, Portugal",
+        "year": "2017",
+        "month": "06.24",
+        "doi": "http://hdl.handle.net/1822/46093"
+
+    },
+    {
+        "type": "inproceedings",
+        "id": "iPRES2016",
+        "authors": [
+
+            "Bruno Ferreira", "Luis Faria", "José Carlos Ramalho", "Miguel Ferreira"
+
+        ],
+        "title": "Database Preservation Toolkit: A relational database conversion and normalization tool",
+        "booktitle": "iPRES: 13th International Conference on Digital Preservation",
+        "address": "Bern, Switzerland",
+        "year": "2016",
+        "month": "10.04",
+        "doi": "http://hdl.handle.net/1822/43479"
+
+    },
+    {
+        "type": "inproceedings",
+        "id": "bad2015b",
+        "authors": [
+
+            "André Santos",
+            "José Carlos Ramalho",
+            "Miguel Ferreira",
+            "Hélder Silva",
+            "Luis Faria",
+            "João Moreira",
+            "Eloy Rodrigues",
+            "José Carvalho"
+
+        ],
+
+        "title": "PT-CRIS: Um miradouro sobre o universo científico nacional",
+        "booktitle": "12º Congresso Nacional BAD",
+        "address": "Universidade de Évora, Portugal",
+        "year": "2015",
+        "month": "10.21",
+        "doi": "http://hdl.handle.net/1822/37856"
+
+    },
+    {
+        "type": "inproceedings",
+        "id": "bad2015a",
+        "authors": [
+
+            "Alexandra Lourenço", "José Carlos Ramalho", "Pedro Penteado"
+
+        ],
+
+        "title": "Uma ontologia para os processos de negócio da Administração",
+        "booktitle": "12º Congresso Nacional BAD",
+        "address": "Universidade de Évora, Portugal",
+        "year": "2015",
+        "month": "10.21",
+        "doi": "http://hdl.handle.net/1822/38497"
+
+    }, {
+        "type": "inproceedings",
+        "id": "edicic2015",
+        "authors": [
+
+            "Alexandra Lourenço", "José Carlos Ramalho", "Pedro Penteado"
+
+        ],
+
+        "title": "Da gestão da informação à gestão do conhecimento: uma proposta para a e-Administração em Portugal",
+        "booktitle": "VII Encuentro Ibérico EDICIC 2015",
+        "address": "Madrid, Espanha",
+        "year": "2015",
+        "month": "11.16",
+        "doi": "http://hdl.handle.net/1822/38496"
+
+    }, {
+        "type": "inproceedings",
+        "id": "dlm2014",
+        "authors": [
+
+            "José Carlos Ramalho", "Luis Faria", "Hélder Silva"
+
+        ],
+
+        "title": "Database Preservation Toolkit: a flexible tool to normalize and give access to databases",
+        "booktitle": "DLM Forum – 7th Triennial Conference: Making the Information Governance Landscape in Europe",
+        "address": "Lisbon, Portugal",
+        "year": "2014",
+        "month": "11.12",
+        "doi": "http://hdl.handle.net/1822/35183"
+
+    }, {
+        "type": "inbook",
+        "id": "IGI2013",
+        "authors": [
+
+            "Ricardo Freitas", "José Carlos Ramalho"
+
+        ],
+
+        "editors": [
+
+            "José Carlos Ramalho", "Alberto Simões", "Ricardo Queirós"
+
+        ],
+
+        "title": "Innovations in XML Applications and Metadata Management: Advancing Technologies",
+        "chapter": "New Dimension in Relational Database Preservation: Using Ontologies",
+        "pages": "160-173",
+        "publisher": "IGI Global",
+        "year": "2013",
+        "month": "06",
+        "doi": "10.4018/978-1-4666-2669-0.ch009"
+
+    }, {
+        "type": "inproceedings",
+        "id": "ipres2013",
+        "authors": [
+
+            "Luis Faria",
+            "Alan Akbik",
+            "Barbara Sierman",
+            "Marcel Ras",
+            "Miguel Ferreira",
+            "José Carlos Ramalho"
+
+        ],
+
+        "title": "Automatic preservation watch using information extraction on the Web : a case study on semantic extraction of natural language for digital preservation",
+        "booktitle": "iPRES 2013 - 10th International Conference on Preservation of Digital Objects",
+        "address": "Lisbon, Portugal",
+        "year": "2013",
+        "month": "09.20",
+        "doi": "http://hdl.handle.net/1822/25214"
+
+    }, {
+        "type": "inproceedings",
+        "id": "or2013",
+        "authors": [
+
+            "Luis Faria",
+            "Christoph Becker",
+            "Kresimir Duretec ",
+            "Miguel Ferreira",
+            "José Carlos Ramalho"
+
+        ],
+
+        "title": "Supporting the preservation lifecycle in repositories",
+        "booktitle": "Open Repositories 2013",
+        "address": "Charlottetown, Canada",
+        "year": "2013",
+        "month": "07.08",
+        "doi": " http://hdl.handle.net/1822/25101"
+
+    }, {
+        "type": "inproceedings",
+        "id": "archiving2013",
+        "authors": [
+
+            "Miguel Ferreira", "José Carlos Ramalho", "Luis Faria"
+
+        ],
+
+        "title": "Guidelines for legacy repository migration",
+        "booktitle": "IS&T Archiving 2013",
+        "address": "Washington DC, Estados Unidos",
+        "year": "2013",
+        "month": "04.02-05",
+        "doi": "http://hdl.handle.net/1822/23978"
+
+    }, {
+        "type": "inproceedings",
+        "id": "guimaramus2012",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "MuseCode: à procura da linearidade na música tonal",
+        "booktitle": "Pensar a Música",
+        "address": "Palácio Vila Flor, Guimarães",
+        "year": "2012",
+        "month": "03.23",
+        "doi": "http://hdl.handle.net/1822/21660"
+
+    }, {
+        "type": "inproceedings",
+        "id": "bad2012",
+        "authors": [
+
+            "José Carlos Ramalho", "Miguel Ferreira", "Luis Faria"
+
+        ],
+
+        "title": "Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE",
+        "booktitle": "11º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas",
+        "address": "Fundação Calouste Gulbenkian, Lisboa",
+        "year": "2012",
+        "month": "10.20",
+        "doi": "http://hdl.handle.net/1822/21611"
+
+    }, {
+        "type": "inproceedings",
+        "id": "icadl2012",
+        "authors": [
+
+            "Luis Faria",
+            "Petar Petrov",
+            "Kresimir Duretec ",
+            "Christoph Becker",
+            "Miguel Ferreira",
+            "José Carlos Ramalho"
+
+        ],
+
+        "title": "Design and architecture of a novel preservation watch system",
+        "booktitle": "14th International Conference on Asia-Pacific Digital Libraries, ICADL 2012",
+        "address": "Taipei, Taiwan",
+        "year": "2012",
+        "month": "11.12",
+        "doi": "http://hdl.handle.net/1822/21447"
+
+    }, {
+        "type": "inproceedings",
+        "id": "ipres2012",
+        "authors": [
+
+            "Christoph Becker",
+            "Kresimir Duretec ",
+            "Petar Petrov",
+            "Luis Faria",
+            "Miguel Ferreira",
+            "José Carlos Ramalho"
+
+        ],
+
+        "title": "Preservation watch : what to monitor and how",
+        "booktitle": "iPRES 2012 - 9th International Conference on Preservation of Digital Objects",
+        "address": "Toronto, Canada",
+        "year": "2012",
+        "month": "11.01",
+        "doi": "http://hdl.handle.net/1822/20666"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR11e",
+        "authors": [
+
+            "Ricardo Freitas", "José Carlos Ramalho"
+
+        ],
+
+        "title": "New dimension in relational database preservation: raising the abstraction level",
+        "booktitle": "iPRES 2011 - 8th International Conference on Preservation of Digital Objects",
+        "address": "Singapore",
+        "month": "11.04",
+        "year": "2011",
+        "doi": "http://hdl.handle.net/1822/15859"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR11d",
+        "authors": [
+
+            "Ricardo Freitas", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Relational Databases Conceptual Preservation",
+        "booktitle": "VLDL2011 - Fourth Workshop on Very Large Digital Libraries (In conjunction with the International Conference on Theory and Practice of Digital Libraries (TPDL2011))",
+        "address": "Berlin, Germany",
+        "month": "09.29",
+        "year": "2011",
+        "doi": "http://hdl.handle.net/1822/16019"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR11c",
+        "authors": [
+
+            "Ricardo Freitas", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Using Ontologies to Abstract Relational Databases Conceptual Model",
+        "booktitle": "EPIA2011 - 15th Portuguese Conference on Artificial Intelligence",
+        "address": "Lisboa, Portugal",
+        "month": "10.10",
+        "year": "2011",
+        "doi": "http://hdl.handle.net/1822/16113"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR11b",
+        "authors": [
+
+            "Ricardo Freitas", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Preservation of Relational Databases",
+        "booktitle": "MSKE2011- International Conference on Managing Services in the Knowledge Economy",
+        "address": "Universidade Lusíada, Vila Nova de Famalicão, Portugal",
+        "month": "07.13",
+        "year": "2011",
+        "doi": "http://hdl.handle.net/1822/13704"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR11",
+        "authors": [
+
+            "Ricardo Freitas", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Using Ontologies in Database Preservation",
+        "booktitle": "9th Conference on XML: Aplicações e Tecnologias Associadas, XATA 2011",
+        "address": "ESEIG -IPP, Vila do Conde - Portugal",
+        "month": "06.01",
+        "year": "2011",
+        "doi": "http://hdl.handle.net/1822/13703"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR10",
+        "authors": [
+
+            "Ricardo Freitas", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Significant Properties in the Preservation of Relational Databases",
+        "booktitle": "Research and Advanced Technology for Digital Libraries, 14th European Conference, ECDL2010",
+        "address": "Glasgow, UK",
+        "month": "09.06",
+        "year": "2010",
+        "isbn": "978-3-642-15463-8",
+        "doi": "http://hdl.handle.net/1822/13702"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RQR10",
+        "authors": [
+
+            "Maria Jesus Colmenero Ruiz", "Miguel Ángel Marzal Garcia-Quismondo", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa",
+        "booktitle": "10º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas",
+        "address": "Guimarães, Portugal",
+        "month": "04.08",
+        "year": "2010",
+        "isbn": "978-972-9067-39-6",
+        "doi": "http://hdl.handle.net/1822/11081"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FFR10",
+        "authors": [
+
+            "Miguel Ferreira", "Luis Miguel Ferros", "José Carlos Ramalho"
+
+        ],
+
+        "title": "DigitArq e o novo módulo de interoperabilidade OAI-PMH",
+        "booktitle": "10º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS",
+        "address": "Guimarães, Portugal",
+        "month": "04.08",
+        "year": "2010",
+        "doi": "http://hdl.handle.net/1822/10532"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR09",
+        "authors": [
+
+            "Ricardo Freitas", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Relational databases digital preservation",
+        "booktitle": "INFORUM : SIMPÓSIO DE INFORMÁTICA, Lisboa, 2009",
+        "year": "2009",
+        "address": "Lisboa - Portugal",
+        "month": "11.09",
+        "isbn": "978-972-9348-18-1",
+        "doi": "http://hdl.handle.net/1822/9740"
+
+    }, {
+        "type": "article",
+        "id": "GARH09",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "Renato Preigschadt de Azevedo", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Topic maps constraint languages : understanding and comparing",
+        "journal": "International Journal of Reasoning-based Intelligent Systems",
+        "publisher": "Inderscience",
+        "issn": "1755-0556. 1:3-4 (2009) 173 - 181",
+        "year": "2009",
+        "doi": "http://hdl.handle.net/1822/9741"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRHGT08",
+        "authors": [
+
+            "Giovani Rubert Librelotto",
+            "José Carlos Ramalho",
+            "Pedro Rangel Henriques",
+            "Jonas Gassen",
+            "Rogério Correa Turchetti"
+
+        ],
+
+        "title": "A Framework to specify, extract and manage Topic Maps driven by ontologies",
+        "booktitle": "SIGDOC'08 -- 26th ACM International Conference on Design of Communication",
+        "year": "2008",
+        "month": "09-23",
+        "address": "Lisboa, Portugal",
+        "doi": "http://hdl.handle.net/1822/8236"
+
+    }, {
+        "type": "inproceedings",
+        "id": "BKRFBR08",
+        "authors": [
+
+            "Christoph Becker",
+            "Michael Kraxner",
+            "Andreas Rauber",
+            "Miguel Ferreira",
+            "Ana Alice Baptista",
+            "José Carlos Ramalho"
+
+        ],
+
+        "title": "Distributed Preservation Services: Integrating Planning and Actions",
+        "booktitle": "ECDL2008 - European Conference on Research and Advanced Technology for Digital Libraries",
+        "year": "2008",
+        "month": "09",
+        "address": "Aarhus, Danmark",
+        "doi": "http://hdl.handle.net/1822/8239"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RFFCBC08",
+        "authors": [
+
+            "José Carlos Ramalho",
+            "Miguel Ferreira",
+            "Luis Faria",
+            "Rui Castro",
+            "Francisco Barbedo",
+            "Luis Carriço"
+
+        ],
+
+        "title": "RODA and Crib: A Service-Oriented Digital Repository",
+        "booktitle": "iPRES 2008: The Fifth International Conference on Preservation of Digital Objects",
+        "year": "2008",
+        "month": "09",
+        "address": "London, England",
+        "doi": "http://hdl.handle.net/1822/8226"
+
+    }, {
+        "type": "proceedings",
+        "id": "RLA08",
+        "authors": [],
+
+        "editors": [
+
+            "José Carlos Ramalho", "João Correia Lopes", "Salvador Abreu"
+
+        ],
+
+        "title": "XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+        "year": "2008",
+        "address": "Departamento de Informática da Universidade de Évora, Évora - Portugal",
+        "month": "02.14",
+        "doi": "http://hdl.handle.net/1822/7708",
+        "isbn": "978-972-99166-5-6"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LMMVRH08-XATA",
+        "authors": [
+
+            "Giovani Rubert Librelotto",
+            "Mirkos Martins",
+            "Henrique Machado",
+            "Juliana Vizzotto",
+            "José Carlos Ramalho",
+            "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Generating a Semantic Network for PubMed",
+        "booktitle": "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)",
+        "year": "2008",
+        "address": "Évora - Portugal",
+        "month": "02.14"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FRF-XATA",
+        "authors": [
+
+            "Luis Miguel Ferros", "José Carlos Ramalho", "Miguel Ferreira"
+
+        ],
+
+        "title": "Creating a National Federation of Archives using OAI-PMH",
+        "booktitle": "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)",
+        "year": "2008",
+        "address": "Évora - Portugal",
+        "month": "02.14",
+        "doi": "http://hdl.handle.net/1822/7821"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LGRH07-CLEI",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "Jonas Gassen", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Using Web Services to put Metamorphosis on the Web",
+        "booktitle": "XXXIII Conferencia Latinoamericana de Informática (CLEI2007)",
+        "year": "2007",
+        "address": "San José - Costa Rica",
+        "doi": "http://hdl.handle.net/1822/7354"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LATRH07-CLEI",
+        "authors": [
+
+            "Giovani Rubert Librelotto",
+            "Renato Preigschadt de Azevedo",
+            "Rogério Correa Turchetti",
+            "José Carlos Ramalho",
+            "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Implementing TMCL: XTche - a topic map schema and constraint specification language",
+        "booktitle": "XXXIII Conferencia Latinoamericana de Informática (CLEI2007)",
+        "year": "2007",
+        "address": "San José - Costa Rica",
+        "doi": "http://hdl.handle.net/1822/7364"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LARH07-EPIA",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "Renato Preigschadt de Azevedo", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Topic Maps Constraint Languages: understanding and comparing",
+        "booktitle": "Portuguese Conference on Artificial Intelligence (EPIA2007)",
+        "year": "2007",
+        "address": "Guimarães - Portugal",
+        "doi": "http://hdl.handle.net/1822/7368"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LMMFRH07-TMRA",
+        "authors": [
+
+            "Giovani Rubert Librelotto",
+            "H. T. Machado",
+            "M. O. Martins",
+            "P. G. D. Ferreira",
+            "José Carlos Ramalho",
+            "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Comparing Topic Maps Constraint Specification Languages",
+        "booktitle": "International Conference on Topic Maps Research and Applications (TMRA2007)",
+        "year": "2007",
+        "address": "Leipzig - Germany",
+        "doi": "http://hdl.handle.net/1822/7399"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH06-SBSI06",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Metamorphosis: An Environment to Achieve Semantic Interoperability with Topic Maps",
+        "booktitle": "III Simpósio Brasileiro de Sistemas de Informação",
+        "year": "2006",
+        "address": "Curitiba, Paraná - Brasil",
+        "doi": "http://hdl.handle.net/1822/7359"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH07-SEMINFO",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Estruturando o conhecimento com a norma ISO 13250 Topic Maps",
+        "booktitle": "VI Seminário de Informática - SEMINFO, 2007, Torres, RS, Brasil.",
+        "year": "2007",
+        "address": "Torres, RS - Brasil"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RFFC07-EML",
+        "authors": [
+
+            "José Carlos Ramalho", "Miguel Ferreira", "Luis Faria", "Rui Castro"
+
+        ],
+
+        "title": "Relational database preservation through XML modelling",
+        "booktitle": "Extreme Markup Languages 2007, Montréal - Canada, August 2007.",
+        "year": "2007",
+        "address": "Montréal - Canada",
+        "month": "08",
+        "doi": "http://hdl.handle.net/1822/7120"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RLH07-EML",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "Renato Preigschadt de Azevedo", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Topic Maps applied to PubMed",
+        "booktitle": "Extreme Markup Languages 2007, Montréal - Canada, August 2007.",
+        "year": "2007",
+        "address": "Montréal - Canada",
+        "month": "08",
+        "doi": "http://hdl.handle.net/1822/7330"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LPRH07-XATA",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "Renato Preigschadt de Azevedo", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Navegando na Rede Semântica dos Topic Maps com o Ulisses",
+        "booktitle": "XATA 2007 -  XML: Aplicações e Tecnologias Associadas (5ª Conferência Nacional)",
+        "year": "2007",
+        "address": "Lisboa - Portugal",
+        "month": "02.14",
+        "doi": "http://hdl.handle.net/1822/6482"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LPRH07-TM",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "Renato Preigschadt de Azevedo", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche",
+        "booktitle": "Topic Maps 2007 -  The First International Topic Maps User Conference",
+        "year": "2007",
+        "address": "Oslo - Norway",
+        "month": "03.21",
+        "doi": "http://hdl.handle.net/1822/6474"
+
+    }, {
+        "type": "article",
+        "id": "FBR07-IJDL",
+        "authors": [
+
+            "Miguel Ferreira", "Ana Alice Baptista", "José Carlos Ramalho"
+
+        ],
+
+        "title": "An intelligent decision support system for digital preservation",
+        "journal": "International Journal on Digital Libraries",
+        "publisher": "Springer Berlin / Heidelberg",
+        "issn": "1432-5012 (Print) 1432-1300 (Online)",
+        "month": "05",
+        "year": "2007",
+        "doi": "http://hdl.handle.net/1822/6648"
+
+    }, {
+        "type": "misc",
+        "id": "RFCFBC06",
+        "authors": [
+
+            "José Carlos Ramalho",
+            "Miguel Ferreira",
+            "Rui Castro",
+            "Luis Faria",
+            "Francisco Barbedo",
+            "Luis Corujo"
+
+        ],
+
+        "title": "RODA - Desenvolvimento de uma plataforma tecnológica para suporte de Arquivos Digitais",
+        "howpublished": "Apresentação efectuada no Encontro Sofware Livre na Administração Pública, Torre do Tombo, Lisboa - Portugal, em 29 de Novembro de 2006.",
+        "year": "2006",
+        "doi": "http://hdl.handle.net/1822/6420"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FCRBCF07",
+        "authors": [
+
+            "Miguel Ferreira",
+            "Rui Castro",
+            "José Carlos Ramalho",
+            "Francisco Barbedo",
+            "Luis Corujo",
+            "Luis Faria"
+
+        ],
+
+        "title": "RODA : Repositório de Objectos Digitais Autênticos",
+        "booktitle": "9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS",
+        "address": "Ponta Delgada, Açores, Portugal",
+        "month": "03.29",
+        "year": "2007",
+        "doi": "http://hdl.handle.net/1822/6330"
+
+    }, {
+        "type": "inproceedings",
+        "id": "SFRL07",
+        "authors": [
+
+            "António Sousa", "Luis Miguel Ferros", "José Carlos Ramalho", "Maria João Pires Lima"
+
+        ],
+
+        "title": "Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo",
+        "booktitle": "9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS",
+        "address": "Ponta Delgada, Açores, Portugal",
+        "month": "03.29",
+        "year": "2007",
+        "doi": "http://hdl.handle.net/1822/6432"
+    }, {
+        "type": "inproceedings",
+        "id": "RFCFBC07",
+        "authors": [
+
+            "José Carlos Ramalho",
+            "Miguel Ferreira",
+            "Rui Castro",
+            "Luis Faria",
+            "Francisco Barbedo",
+            "Luis Corujo"
+
+        ],
+
+        "title": "XML e preservação digital",
+        "booktitle": "XATA2007 : XML : aplicações e tecnologias associadas : actas da Conferência Nacional",
+        "address": "Lisboa, Portugal",
+        "month": "02.15",
+        "year": "2007",
+        "doi": "http://hdl.handle.net/1822/6224"
+
+    }, {
+        "type": "proceedings",
+        "id": "RLC07",
+        "authors": [],
+
+        "editors": [
+
+            "José Carlos Ramalho", "João Correia Lopes", "Luis Carriço"
+
+        ],
+
+        "title": "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+        "year": "2007",
+        "address": "Faculdade de Ciências - Universidade de Lisboa, Lisboa - Portugal",
+        "month": "02.14-15",
+        "doi": "http://hdl.handle.net/1822/6234",
+        "isbn": "978-972-99166-4-9"
+
+    }, {
+        "type": "misc",
+        "id": "FBR07",
+        "authors": [
+
+            "Miguel Ferreira", "Ana Alice Baptista", "José Carlos Ramalho"
+
+        ],
+
+        "title": "CRiB : preservation services for Digital Repositories",
+        "howpublished": "Apresentação efectuada na International Conference Open Repositories, 2, San Antonio, Texas, United States of America,2007.",
+        "year": "2007",
+        "doi": "http://hdl.handle.net/1822/6195"
+
+    }, {
+        "type": "proceedings",
+        "id": "RLS06",
+        "authors": [],
+
+        "editors": [
+
+            "José Carlos Ramalho", "João Correia Lopes", "Alberto Simões"
+
+        ],
+
+        "title": "XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+        "year": "2006",
+        "address": "Instituto Politécnico de Portalegre, Portalegre - Portugal",
+        "month": "02.09-10",
+        "doi": "http://hdl.handle.net/1822/4744",
+        "isbn": "972-99166-2-4"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RFFLS06",
+        "authors": [
+
+            "José Carlos Ramalho",
+            "Miguel Ferreira",
+            "Luis Miguel Ferros",
+            "Maria João Pires Lima",
+            "António Sousa"
+
+        ],
+
+        "title": "Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos",
+        "booktitle": "2ª Conferência Internacional de Arquivos Empresariais",
+        "address": "Seixal, Portugal",
+        "month": "11.27",
+        "year": "2006",
+        "doi": "http://hdl.handle.net/1822/6038"
+
+    }, {
+        "type": "article",
+        "id": "FBR06-Ariadne",
+        "authors": [
+
+            "Miguel Ferreira", "Ana Alice Baptista", "José Carlos Ramalho"
+
+        ],
+
+        "title": "A foundation for automatic digital preservation",
+        "journal": "Ariadne",
+        "issn": "1361-3200",
+        "doi": "http://hdl.handle.net/1822/5571",
+        "month": "July",
+        "year": "2006"
+
+    }, {
+        "type": "book",
+        "id": "RH2002",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "XML e XSL: da teoria à prática",
+        "publisher": "Colecção Tecnologias da Informação",
+        "year": "2002",
+        "address": "FCA - Editora de Informática",
+        "month": "11"
+    }, {
+        "type": "phdthesis",
+        "id": "Ram2000",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "Anotação Estrutural de Documentos e sua Semântica",
+        "school": "Tese de Doutoramento",
+        "year": "2000",
+        "address": "Universidade do Minho",
+        "month": "07",
+        "doi": " http://hdl.handle.net/1822/5625"
+
+    }, {
+        "type": "article",
+        "id": "RAH1998",
+        "authors": [
+
+            "José Carlos Ramalho", "José João Almeida", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Algebraic Specification of Documents",
+        "journal": "Theoretical Computer Science journal, volume 199",
+        "year": "1998",
+        "volume": "Elsevier",
+        "month": "06"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RS2003",
+        "authors": [
+
+            "José Carlos Ramalho", "José Luis Santos"
+
+        ],
+
+        "title": "Electronic Publishing of ADB editions",
+        "booktitle": "Electronic Publishing 2003: From information to knowledge",
+        "year": "2003",
+        "address": "Universidade do Minho - Guimarães - Portugal",
+        "month": "06.25"
+    }, {
+        "type": "inproceedings",
+        "id": "RLH2003",
+        "authors": [
+
+            "José Carlos Ramalho", "Giovani Rubert Librelotto", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Ontology driven Websites - Metamorphosis: a framework to specify and manage ontology driven websites",
+        "booktitle": "Electronic Publishing 2003: From information to knowledge",
+        "year": "2003",
+        "address": "Universidade do Minho - Guimarães - Portugal",
+        "month": "06.25"
+    }, {
+        "type": "article",
+        "id": "RARH98",
+        "authors": [
+
+            "José Carlos Ramalho", "José João Almeida", "J. G. Rocha", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "SGML Documents: Where does quality go?",
+        "journal": "Markup Languages: theory and practice ",
+        "year": "1999",
+        "volume": "journal, num. 1 vol. 1, MIT Press",
+        "month": "01",
+        "issn": "1099-6621"
+    }, {
+        "type": "article",
+        "id": "RH98",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Qualidade na Publicação Electrónica: como controlá-la?",
+        "journal": "Sistemas de Informação",
+        "year": "1998",
+        "volume": "journal, num. 9, pg 69-83, Associação Portuguesa de Sistemas de Informação"
+
+    }, {
+        "type": "inproceedings",
+        "id": "Ram01",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "Constraining Content: specification and processing",
+        "booktitle": "XML Europe'01",
+        "year": "2001",
+        "address": "Berlin - Germany",
+        "month": "05"
+    }, {
+        "type": "inproceedings",
+        "id": "Ram99",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "Recovering Old Paper Historical Documents Through SGML/XML Modelling",
+        "booktitle": "Digital Resources for the Humanities - DRH99",
+        "year": "1999",
+        "address": "London - England"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RH99",
+        "authors": [
+
+            "José Carlos Ramalho", "José João Almeida"
+
+        ],
+
+        "title": "XML::DT - a Perl Down Translation Module",
+        "booktitle": "XML Europe'99",
+        "year": "1999",
+        "address": "Granada - Espanha"
+    }, {
+        "type": "inproceedings",
+        "id": "RLH98",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques", "A. R. Lopes"
+
+        ],
+
+        "title": "Generating SGML specific editors: from DTDs to Attribute Grammars",
+        "booktitle": "Markup Technologies'98",
+        "year": "1998",
+        "address": "Chicago - USA",
+        "month": "12"
+    }, {
+        "type": "inproceedings",
+        "id": "RHb98",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Beyond DTDs: Constraining Data Content",
+        "booktitle": "SGML Europe 98 Conference",
+        "year": "1998",
+        "address": "Paris - France",
+        "month": "05"
+    }, {
+        "type": "inproceedings",
+        "id": "RHHRAF98",
+        "authors": [
+
+            "J. G. Rocha",
+            "M. R. Henriques",
+            "Pedro Rangel Henriques",
+            "José Carlos Ramalho",
+            "José João Almeida",
+            "J. L. Faria"
+
+        ],
+
+        "title": "Adapting Museum Structures for the Web: No Changes Needed!",
+        "booktitle": "Museums and the Web: An International Conference",
+        "year": "1998",
+        "address": "Toronto, Canada",
+        "month": "04.22"
+    }, {
+        "type": "inproceedings",
+        "id": "LRH97",
+        "authors": [
+
+            "A. R. Lopes", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "INES, an Environment for Structured Editions of SGML Documents",
+        "booktitle": "II Brasilian Symposium on Programming Languages (SBLP'97)",
+        "year": "1997",
+        "address": "Campinas-SP -- Brasil",
+        "month": "09"
+    }, {
+        "type": "inproceedings",
+        "id": "RAH96",
+        "authors": [
+
+            "José Carlos Ramalho", "José João Almeida", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Document Semantics: two approaches",
+        "booktitle": "SGML96",
+        "year": "1996",
+        "address": "Boston - USA",
+        "month": "12"
+    }, {
+        "type": "inproceedings",
+        "id": "JLRH02",
+        "authors": [
+
+            "M. H.  Jacinto", "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "XCSL: XML Constraint Specification Language",
+        "booktitle": "CLEI'02",
+        "year": "2002",
+        "address": "Montevideo, Uruguai,",
+        "month": "11"
+    }, {
+        "type": "inproceedings",
+        "id": "JLRHb02",
+        "authors": [
+
+            "M. H.  Jacinto", "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Bidirectional Conversion between XML Documents and Relational Data Bases",
+        "booktitle": "7th International Conference on CSCW in  Design",
+        "year": "2002",
+        "address": "Rio de Janeiro - Brasil",
+        "month": "09.25"
+    }, {
+        "type": "inproceedings",
+        "id": "JHR00",
+        "authors": [
+
+            "M. H.  Jacinto", "Pedro Rangel Henriques", "José Carlos Ramalho"
+
+        ],
+
+        "title": "XML and Semantic Validation",
+        "booktitle": "Logic, Language and Information: Proceedings of the First Workshop on Logic and Language",
+        "year": "2000",
+        "address": "Instituto de Lógica, Lenguaje e Información, Universidad de Sevilla, Espanha",
+        "month": "11.29"
+    }, {
+        "type": "inproceedings",
+        "id": "JLRHc02",
+        "authors": [
+
+            "M. H.  Jacinto", "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Constraint Specification Languages: comparing XCSL, Schematron and XML-Schema",
+        "booktitle": "XML Europe'02",
+        "year": "2002",
+        "address": "Barcelona - Espanha",
+        "month": "05.20"
+    }, {
+        "type": "inproceedings",
+        "id": "RH94",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Uma experiência de utilização da Internet na gestão pedagógica e sua formalização",
+        "booktitle": "I Conferência Nacional WWW,    Informação Multimédia na Internet",
+        "year": "1995",
+        "address": "Universidade do Minho",
+        "month": "07"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RAH95",
+        "authors": [
+
+            "José Carlos Ramalho", "José João Almeida", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "DAVID, Algebraic Specification of Documents",
+        "booktitle": "Algebraic Methods in Language Processing",
+        "year": "1995",
+        "address": "Twente - Holanda",
+        "month": "12",
+        "issn": "0929-0672"
+
+    }, {
+        "type": "inproceedings",
+        "id": "Ram96",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "DSSSL: basic topics",
+        "booktitle": "Workshop: Document    Processing and SGML",
+        "year": "1996",
+        "address": "Universidade do Minho",
+        "month": "09"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RRAH97",
+        "authors": [
+
+            "José Carlos Ramalho", "J. G. Rocha", "José João Almeida", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "SGML Documents: Where Does Quality Go?",
+        "booktitle": "SGML/XML'97",
+        "year": "1997",
+        "address": "Washinton - USA",
+        "month": "12.08"
+    }, {
+        "type": "article",
+        "id": "RLH03",
+        "authors": [
+
+            "José Carlos Ramalho", "Giovani Rubert Librelotto", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Ontology driven websites with Topic Maps",
+        "journal": "III International Conference on Web Engineering (ICWE)",
+        "year": "2003",
+        "volume": "Oviedo - Espanha",
+        "month": "07.15"
+    }, {
+        "type": "article",
+        "id": "JLRH03",
+        "authors": [
+
+            "M. H.  Jacinto", "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "XCSL: XML Constraint Specification Language",
+        "journal": "CLEI Electronic Journal,  ISSN 0717-5000. 2003. ",
+        "year": "2003",
+        "volume": "Best papers of XXVIII Conferencia Latinoamericana de Informática - CLEI, 2002"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH03",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "XML Topic Map Builder: Specification and Generation",
+        "booktitle": "XATA 2003 - XML, Aplicações e Tecnologias Associadas",
+        "year": "2003",
+        "address": "Braga - Portugal",
+        "month": "02.13"
+    }, {
+        "type": "inproceedings",
+        "id": "Ram03",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "O XML nos curriculae das licenciaturas em informática",
+        "booktitle": "XATA 2003 - XML, Aplicações e Tecnologias Associadas",
+        "year": "2003",
+        "address": "Braga - Portugal",
+        "month": "02.13"
+    }, {
+        "type": "article",
+        "id": "SRFP95",
+        "authors": [
+
+            "H. Santos", "José Carlos Ramalho", "J. M. Fernandes", "A. J. Proença"
+
+        ],
+
+        "title": "A Heterogeneous Computer Vision Architecture: Implementation Issues",
+        "journal": "Computing Systems in Engineering",
+        "year": "1995",
+        "volume": "volume 6, número 4/5, páginas 401-408"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH03b",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "TM-Builder: Um Construtor de Ontologias baseado em Topic Maps",
+        "booktitle": "CLEI'03",
+        "year": "2003",
+        "address": "La Paz, Bolívia",
+        "month": "09.29"
+    }, {
+        "type": "inproceedings",
+        "id": "LRH03c",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Geração automática de interfaces Web para sistemas de informação: Metamorphosis",
+        "booktitle": "COOPMedia 2003",
+        "year": "2003",
+        "address": "ISEP, Porto, Portugal",
+        "month": "10.08"
+    }, {
+        "type": "inproceedings",
+        "id": "SMR03",
+        "authors": [
+
+            "Daniel Edgar Pinto Soares", "Maria da Conceição Vieira Mota", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Xexam: uma linguagem de suporte para exames online (e-learning)",
+        "booktitle": "XATA2003 - XML: Aplicações e Tecnologias Associadas",
+        "year": "2003",
+        "address": "Vila Verde - Portugal",
+        "month": "02.13-14"
+    }, {
+        "type": "inproceedings",
+        "id": "JRH03",
+        "authors": [
+
+            "M. H.  Jacinto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de Especificação de Restrições ",
+        "booktitle": "XATA2003 - XML: Aplicações e Tecnologias Associadas",
+        "year": "2003",
+        "address": "Vila Verde - Portugal",
+        "month": "02.13-14"
+    }, {
+        "type": "proceedings",
+        "id": "RHLA03",
+        "authors": [],
+
+        "editors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques", "Giovani Rubert Librelotto", "Gustavo V. Arnold"
+
+        ],
+
+        "title": "XATA2003 - XML: Aplicações e Tecnologias Associadas",
+        "year": "2003",
+        "address": "Vila Verde - Portugal",
+        "month": "02.13-14"
+    }, {
+        "type": "inbook",
+        "id": "Ram99b",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação",
+        "chapter": "Extensible Markup Language (XML)- A promessa e a esperança?...",
+        "pages": "49-76",
+        "publisher": "Sociedade Brasileira de Computação (SBC)",
+        "year": "1999",
+        "month": "11.23-26"
+
+    }, {
+        "type": "masterthesis",
+        "id": "Ram93",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "Um Compilador para o GLiTCH",
+        "school": "Escola de Engenharia - Universidade do Minho",
+        "year": "1993",
+        "month": "10"
+
+    }, {
+        "type": "inproceedings",
+        "id": "VECPAR93",
+        "authors": [
+
+            "H. Santos", "José Carlos Ramalho", "J. M. Fernandes", "A. J. Proença"
+
+        ],
+
+        "title": "A Heterogeneous Computer Vision Architecture: Implementation Issues",
+        "booktitle": "1st International Meeting on Vector and Paralell Processing",
+        "year": "1993"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RH98b",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Qualidade na Publicação Electrónica: como controlá-la?",
+        "booktitle": "Quatic 98: III Encontro Nacional para a Qualidade nas Tecnologias da Informação e Comunicação ",
+        "year": "1998",
+        "address": "Guimarães - Portugal"
+    }, {
+        "type": "inproceedings",
+        "id": "RH98c",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Informatics and Archives: a present needed symbiosis",
+        "booktitle": "Workshop internacional Informação e documentos de arquivo em ambientes digitais",
+        "year": "1998",
+        "address": "Porto - Portugal"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RH98d",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Os desafios colocados pela informação estruturada no contexto dos arquivos: o arquivo distrital de Braga",
+        "booktitle": "IX encontro nacional de Museus e Autarquias",
+        "year": "1998",
+        "address": "Loures - Portugal "
+
+    }, {
+        "type": "misc",
+        "id": "Ram98",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?",
+        "howpublished": "tutorial at Terceiro Encontro Nacional para a Qualidade nas tecnologias de informação e comunicação, Guimarães - Portugal ",
+        "year": "1998"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RLH03b",
+        "authors": [
+
+            "José Carlos Ramalho", "Giovani Rubert Librelotto", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Adrian: a platform for E-Learning Content Prodution",
+        "booktitle": "Second International Conference on Multimedia and ICTs in Education",
+        "year": "2003",
+        "address": "Badajoz - Espanha",
+        "month": "12.04"
+    }, {
+        "type": "inproceedings",
+        "id": "LR04",
+        "authors": [
+
+            "Carlos J. Feijó Lopes", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Web Services: Metodologias de Desenvolvimento",
+        "booktitle": "XML: Aplicações e Tecnologias Associadas (XATA 2004)",
+        "year": "2004",
+        "address": "Faculdade de Engenharia da Universidade do Porto - Porto",
+        "month": "02.12",
+        "isbn": "972-99166-0-8"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR04",
+        "authors": [
+
+            "Miguel Ferreira", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Aquisição e Armazenamento de Metainformação no Contexto de um Arquivo",
+        "booktitle": "XML: Aplicações e Tecnologias Associadas (XATA 2004)",
+        "year": "2004",
+        "address": "Faculdade de Engenharia da Universidade do Porto - Porto",
+        "month": "02.12",
+        "isbn": "972-99166-0-8"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH04",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Um Extractor de Topic Maps a partir de Recursos Heterogéneos de Informação",
+        "booktitle": "XML: Aplicações e Tecnologias Associadas (XATA 2004)",
+        "year": "2004",
+        "address": "Faculdade de Engenharia da Universidade do Porto - Porto",
+        "month": "02.12",
+        "isbn": "972-99166-0-8"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RTFR04",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Taveira", "Ricardo Freitas", "Vasco Rocha"
+
+        ],
+
+        "title": "Gerador de Web Services para cadeias de transformações de documentos XML",
+        "booktitle": "XML: Aplicações e Tecnologias Associadas (XATA 2004)",
+        "year": "2004",
+        "address": "Faculdade de Engenharia da Universidade do Porto - Porto",
+        "month": "02.12",
+        "isbn": "972-99166-0-8"
+
+    }, {
+        "type": "inproceedings",
+        "id": "MRH04",
+        "authors": [
+
+            "Ricardo Martins", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Comparação de Linguagens para descrição de Interfaces baseadas em XML",
+        "booktitle": "XML: Aplicações e Tecnologias Associadas (XATA 2004)",
+        "year": "2004",
+        "address": "Faculdade de Engenharia da Universidade do Porto - Porto",
+        "month": "02.12",
+        "isbn": "972-99166-0-8"
+
+    }, {
+        "type": "proceedings",
+        "id": "RS04",
+        "authors": [],
+
+        "editors": [
+
+            "José Carlos Ramalho", "Alberto Simões"
+
+        ],
+
+        "title": "XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+        "year": "2004",
+        "address": "Faculdade de Engenharia do Porto - Portugal",
+        "month": "02.12-13",
+        "isbn": "972-99166-0-8"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR04b",
+        "authors": [
+
+            "José Carlos Ramalho", "Miguel Ferreira"
+
+        ],
+
+        "title": "DIGITARQ - CREATING AND MANAGING A DIGITAL ARCHIVE",
+        "booktitle": "Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science",
+        "address": "Department of Information and Documentation Science at the University of Brasilia, in Brazil",
+        "year": "2004",
+        "month": "06.23-26",
+        "isbn": "85-88130-02-05"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RLH04",
+        "authors": [
+
+            "José Carlos Ramalho", "Giovani Rubert Librelotto", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Adrian - E-Learning Content Production (creating online exams)",
+        "booktitle": "Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science",
+        "address": "Department of Information and Documentation Science at the University of Brasilia, in Brazil",
+        "year": "2004",
+        "month": "06.23-26",
+        "isbn": "85-88130-02-05"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LSRH04",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "Weber Souza", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Using the Ontology Paradigm to integrate Information Systems",
+        "booktitle": "International Conference on Knowledge Engineering and Decision Support",
+        "address": "Porto - Portugal",
+        "year": "2004",
+        "month": "07.21-23"
+    }, {
+        "type": "article",
+        "id": "JLRH02b",
+        "authors": [
+
+            "M. H.  Jacinto", "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "XCSL tutorial",
+        "journal": "ACM Crossroads",
+        "volume": "8.5",
+        "year": "2002",
+        "publisher": "ACM Press"
+    }, {
+        "type": "inproceedings",
+        "id": "LRH04-Clei",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "editors": ["Mauricio Solar and David Fernández-Baca and Ernesto Cuadros-Vargas"],
+
+        "title": "Extração de Topic Maps no Oveia: Especificação e Processamento",
+        "booktitle": "30ma Conferencia Latinoamericana de Informática(CLEI2004)",
+        "year": "2004",
+        "address": "Sociedad Peruana de Computación, Peru",
+        "month": "Sept.",
+        "isbn": "9972-9876-2-0"
+    }, {
+        "type": "inproceedings",
+        "id": "RHL04-eLes",
+        "authors": [
+
+            "José Carlos Ramalho", "Pedro Rangel Henriques", "Giovani Rubert Librelotto"
+
+        ],
+
+        "title": "ADRIAN: Sistema de Suporte à Produção de Conteúdos",
+        "booktitle": "Conferência eLes'04 - E-Learning no Ensino Superior",
+        "year": "2004",
+        "address": "Universidade de Aveiro, Portugal",
+        "month": "Outubro",
+        "isbn": "972-789-134-9"
+
+    }, {
+        "type": "inproceedings",
+        "id": "FR04-capsi",
+        "authors": [
+
+            "Miguel Ferreira", "José Carlos Ramalho"
+
+        ],
+
+        "title": "DigitArq: Creating a Historical Digital Archive",
+        "booktitle": "5ª Conferência da APSI - Associação Portuguesa dos Sistemas de Informação",
+        "year": "2004",
+        "address": "Instituto Superior Técnico, Lisboa, Portugal",
+        "month": "11.03"
+    }, {
+        "type": "inproceedings",
+        "id": "LRH04-XMLw",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "XTche - A Language for Topic Maps Schema and Constraints",
+        "booktitle": "XML Conference and Exhibition 2004 Proceedings",
+        "year": "2004",
+        "month": "12",
+        "address": "Washington, USA"
+    }, {
+        "type": "proceedings",
+        "id": "RSL05",
+        "authors": [],
+
+        "editors": [
+
+            "José Carlos Ramalho", "Alberto Simões", "João Correia Lopes"
+
+        ],
+
+        "title": "XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas",
+        "year": "2005",
+        "address": "Casa da Torre, Vila Verde - Portugal",
+        "month": "02.10-11",
+        "isbn": "972-99166-1-6"
+
+    }, {
+        "type": "inproceedings",
+        "id": "Ram05",
+        "authors": ["José Carlos Ramalho"],
+
+        "title": "Document Composer: uma aplicação XML para extracção de informação de repositórios XML",
+        "booktitle": "XML: Aplicações e Tecnologias Associadas (XATA 2005)",
+        "year": "2005",
+        "address": "Braga",
+        "month": "02.10",
+        "isbn": "972-99166-1-6"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH05",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Obtendo Interoperabilidade Semântica em Sistemas Heterogéneos de Informação com Metamorphosis",
+        "booktitle": "XML: Aplicações e Tecnologias Associadas (XATA 2005)",
+        "year": "2005",
+        "address": "Braga",
+        "month": "02.10",
+        "isbn": "972-99166-1-6"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH05b",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Constraining XML Topic Maps with XTche",
+        "booktitle": "XML: Aplicações e Tecnologias Associadas (XATA 2005)",
+        "year": "2005",
+        "address": "Braga",
+        "month": "02.10",
+        "isbn": "972-99166-1-6"
+
+    }, {
+        "type": "book",
+        "id": "RL05",
+        "authors": [
+
+            "José Carlos Ramalho", "Carlos J. Feijó Lopes"
+
+        ],
+
+        "title": "Web Services: Aplicações Distribuídas sobre Protocolos Internet",
+        "publisher": "Colecção Web Pro",
+        "year": "2005",
+        "address": "FCA - Editora de Informática",
+        "month": "03",
+        "isbn": "972-722-421-0"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH04-WWS",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps",
+        "booktitle": "I  Workshop de Web Semântica (WWS2004)",
+        "year": "2004",
+        "address": "Brasília, Brasil",
+        "month": "10.22"
+    }, {
+        "type": "inproceedings",
+        "id": "RLH05",
+        "authors": [
+
+            "José Carlos Ramalho", "Giovani Rubert Librelotto", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Constraining Topic Maps: A TMCL declarative implementation",
+        "booktitle": "Extreme Markup Languages 2005, Montréal - Canada, 1-5 August 2005.",
+        "year": "2005",
+        "address": "Montréal - Canada",
+        "month": "08.04"
+    }, {
+        "type": "inbook",
+        "id": "RLH06",
+        "authors": [
+
+            "José Carlos Ramalho", "Giovani Rubert Librelotto", "Pedro Rangel Henriques"
+
+        ],
+
+        "editors": [
+
+            "Lutz Maicher", "Jack Park"
+
+        ],
+
+        "title": "Lecture Notes in Computer Science",
+        "chapter": "Metamorphosis - A Topic Maps Based Environment to Handle Heterogeneous Information Resources",
+        "pages": "14-25",
+        "publisher": "Springer-Verlag GmbH",
+        "year": "2006",
+        "month": "02",
+        "volume": "3873 / 2006",
+        "isbn": "3-540-32527-1",
+        "doi": "10.1007/11676904_2"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RLH05b",
+        "authors": [
+
+            "José Carlos Ramalho", "Giovani Rubert Librelotto", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources",
+        "booktitle": "TMRA'05 - International Workshop on  Topic Map Research and Applications ",
+        "year": "2005",
+        "address": "Leipzig - Germany",
+        "month": "10.06"
+    }, {
+        "type": "inproceedings",
+        "id": "FBR05-CAPSI",
+        "authors": [
+
+            "Miguel Ferreira", "Ana Alice Baptista", "José Carlos Ramalho"
+
+        ],
+
+        "title": "Avaliação Automática de Migração em Redes Distribuídas de Conversores ",
+        "booktitle": "6ª Conferência da Associação Portuguesa de Sistemas de Informação",
+        "year": "2005",
+        "address": "Bragança - Portugal",
+        "month": "10.26"
+    }, {
+        "type": "article",
+        "id": "RLH05-revAPSI17",
+        "authors": [
+
+            "José Carlos Ramalho", "Giovani Rubert Librelotto", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Geração automática de interfaces Web para Sistemas de Informação: Metamorphosis ",
+        "journal": "Revista da Associação Portuguesa de Sistemas de Informação",
+        "volume": "17",
+        "year": "2005",
+        "publisher": "APSI",
+        "issn": "0872-7031"
+    }, {
+        "type": "inproceedings",
+        "id": "LRH05-CLEI",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Ulisses: Um Navegador Conceptual para Topic Maps",
+        "booktitle": "XXXI Conferência Latinoamericana de Informática",
+        "year": "2005",
+        "address": "Santiago de Cali - Colombia",
+        "month": "10.10",
+        "isbn": "958-670-422-X"
+    }, {
+        "type": "inproceedings",
+        "id": "FBR06-XATA",
+        "authors": [
+
+            "Miguel Ferreira", "Ana Alice Baptista", "José Carlos Ramalho"
+
+        ],
+
+        "title": "CRIB : a service oriented architecture for digital preservation outsourcing",
+        "booktitle": "XATA - XML: Aplicações e Tecnologias Associadas",
+        "year": "2006",
+        "address": "Portalegre - Portugal",
+        "month": "02.09",
+        "isbn": "972-99166-2-4",
+        "doi": "http://hdl.handle.net/1822/4457"
+
+    }, {
+        "type": "inproceedings",
+        "id": "RD06-XATA",
+        "authors": [
+
+            "José Carlos Ramalho", "Luis Miguel Alves Domingues"
+
+        ],
+
+        "title": "Especificação e Geração Automática de Navegadores para Redes Semânticas Baseados em Interfaces Web",
+        "booktitle": "XATA - XML: Aplicações e Tecnologias Associadas",
+        "year": "2006",
+        "address": "Portalegre - Portugal",
+        "month": "02.09",
+        "isbn": "972-99166-2-4",
+        "doi": "http://hdl.handle.net/1822/4576"
+
+    }, {
+        "type": "inproceedings",
+        "id": "LRH06-XATA",
+        "authors": [
+
+            "Giovani Rubert Librelotto", "José Carlos Ramalho", "Pedro Rangel Henriques"
+
+        ],
+
+        "title": "Topic Maps Aplicados ao Sistema de Informação do Museu da Emigração",
+        "booktitle": "XATA - XML: Aplicações e Tecnologias Associadas",
+        "year": "2006",
+        "address": "Portalegre - Portugal",
+        "month": "02.09",
+        "isbn": "972-99166-2-4",
+        "doi": "http://hdl.handle.net/1822/4910"
+    }
+]

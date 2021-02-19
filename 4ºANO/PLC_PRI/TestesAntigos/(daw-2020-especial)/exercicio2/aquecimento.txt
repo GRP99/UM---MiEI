@@ -1,0 +1,13 @@
+Testa a API de dados com o Postman ou diretamente no link da API e dá resposta às seguintes questões:
+
+    1. Quantos Tipologias estão catalogadas? ( http://clav-api.di.uminho.pt/v2/tipologias )
+        R: 69
+    
+    2. Quantos Entidades pertencem à Tipologia tip_FSS? ( http://clav-api.di.uminho.pt/v2/tipologias/tip_FSS/elementos )
+        R: 5
+
+    3. Em que processos a tipologia tip_FA participa como Comunicador? (  )
+        R: 
+
+    4. A que tipologias pertence a entidade ent_SEF? ( http://clav-api.di.uminho.pt/v2/entidades/ent_SEF/tipologia )
+        R: tip_ACE ; tip_AP ; tip_FSS ; tip_OPC

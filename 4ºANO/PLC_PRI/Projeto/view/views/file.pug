@@ -1,0 +1,153 @@
+extends layout
+
+block content
+    link(rel='stylesheet' href='/stylesheets/file.css' media='screen')
+    section#sec-63c0.u-clearfix.u-section-1
+        .u-clearfix.u-sheet.u-valign-middle.u-sheet-1
+            .u-clearfix.u-expanded-width.u-gutter-0.u-layout-wrap.u-layout-wrap-1
+                .u-layout
+                    .u-layout-row
+                        .u-container-style.u-layout-cell.u-size-46.u-layout-cell-1
+                            .u-border-2.u-border-custom-color-1.u-container-layout.u-container-layout-1
+                                .u-expanded-width.u-table.u-table-responsive.u-table-1
+                                    h6(style="font-family:Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;font-weight:bold;text-align:center;") User's Comments
+                                    table.u-table-entity(id="example", style="font-size:12px;text-align:center;")
+                                        colgroup
+                                            col(width='15%')
+                                            col(width='20%')
+                                            col(width='45%')
+                                            col(width='10%')
+                                            col(width='10%')
+                                        thead.u-align-center.u-custom-color-1.u-table-header.u-table-header-1
+                                            tr(style='height: 30px;')
+                                                th.u-table-cell  
+                                                th.u-table-cell User 
+                                                th.u-table-cell Comment 
+                                                th.u-table-cell Date 
+                                                th.u-table-cell 
+                                        tbody.u-align-center.u-table-body
+                                            each c in fich.comentarios 
+                                                tr(id=c._id, style='height: 75px;')
+                                                    - var nome = ""
+                                                    each u in users
+                                                        if u._id == c.autor
+                                                            - nome = u.name
+                                                            if u.profilepic == 0
+                                                                td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell(align="center")
+                                                                    img.u-image.u-image-circle.u-preserve-proportions.u-image-1(src='https://www.inmosenna.com/wp-content/uploads/2018/07/avatar-user-business-man-399587fe24739d5a-512x512-300x300.png' alt='' width="75" height="75") 
+                                                            else
+                                                                td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                                    img.u-image.u-image-circle.u-preserve-proportions.u-image-1(src="http://localhost:3001/users/"+u._id+"/profilepic.jpeg?token="+token alt='' width="75" height="75")
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                        a(href="http://localhost:3002/users/account/"+c.autor)=nome
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                        textarea(style="resize: none;" rows="3" cols="37" readonly)= c.descricao
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell= c.data
+                                                    td.u-border-1.u-border-grey-40.u-border-no-left.u-border-no-right.u-table-cell
+                                                        if (c.autor == idUser || idUser == fich.autor)
+                                                            button(class="button-transparent" onclick="deleteComment(\""+c._id+"\",\""+ fich._id +"\")")
+                                                                i(class="fa fa-trash" style="font-size:20px;") 
+                        .u-container-style.u-custom-color-1.u-layout-cell.u-size-14.u-layout-cell-2
+                            .u-border-2.u-border-custom-color-1.u-container-layout.u-valign-middle.u-container-layout-2
+                                h4(style="text-align:center;margin:-60px auto 0 auto; font-family: Copperplate, Papyrus, fantasy;")= fich.title
+                                    div(style="margin:auto; text-align:center")
+                                        button(class="button-transparent" onclick="showComments(\""+fich._id+"\",\""+idUser+"\")")
+                                            i(class="fa fa-comment" style="font-size:20px;")
+                                        button(class="button-transparent" onclick="location.href='http://localhost:3001/files/download/"+fich.autor+"/"+fich._id+"?token="+token+"';")
+                                            i(class="fa fa-download" style="font-size:20px;")
+                                        - var foundFavoritos = 0
+                                        each fav in fich.favoritos
+                                            // idUser is req.user._id
+                                            if fav == idUser
+                                                - foundFavoritos = 1
+                                        if foundFavoritos == 1    
+                                            button(class="button-transparent" onclick="addremoveFavourite(\""+fich._id+"\");")
+                                                i(id="fav "+fich._id class="fa fa-heart fill" style="font-size:20px;")
+                                        else  
+                                            button(class="button-transparent" onclick="addremoveFavourite(\""+fich._id+"\");")
+                                                i(id="fav "+fich._id class="fa fa-heart" style="font-size:20px;")
+                                
+                                dl(style="font-size:12px")
+                                        dt
+                                            b Subtitle:
+                                        if fich.subtitle == ""
+                                            dd No subtitle defined.
+                                        else
+                                            dd=fich.subtitle
+                                        dt
+                                            b Resource Type:
+                                        dd= fich.resourceType
+                                        dt
+                                            b Type:
+                                        dd= fich.mimetype
+                                        dt
+                                            b Author:
+                                        dd
+                                            each ul in users
+                                                if ul._id == fich.autor
+                                                    a(href="http://localhost:3002/users/account/"+fich.autor)=ul.name
+                                        dt
+                                            b Description:
+                                        if fich.descricao == ""
+                                            dd No description on this file.
+                                        else
+                                            textarea(style="resize: none;" rows="3" cols="27" readonly)= fich.descricao
+                                        dt
+                                            b Size:
+                                        dd #{fich.size} bytes
+                                        dt
+                                            b Date:
+                                        dd= fich.creationDate
+                                        dt
+                                            b Classification:
+                                        dd= fich.estrelas.numero
+                                        dt
+                                            b Comments No:
+                                        dd= fich.comentarios.length
+                                        dt
+                                            b Your Classification:
+                                        - var found = 0
+                                        - var match = idUser + "[?][;][0-9]"
+                                        - var temp = ""
+                                        each autoresClassificados in fich.estrelas.autores
+                                            if autoresClassificados.match(match)
+                                                - found = 1
+                                                - temp = autoresClassificados
+                                        if found == 1
+                                            dd
+                                                div(class="rating")
+                                                    if temp == idUser+"?;5"
+                                                        span(class="fa fa-star checked" onclick="classificar(5,\""+temp+"\",\""+fich._id+"\")") 
+                                                    else 
+                                                        span(class="fa fa-star" onclick="classificar(5,\""+temp+"\",\""+fich._id+"\")")
+                                                    if (temp == idUser+"?;5" || temp == idUser+"?;4") 
+                                                        span(class="fa fa-star checked" onclick="classificar(4,\""+temp+"\",\""+fich._id+"\")") 
+                                                    else 
+                                                        span(class="fa fa-star" onclick="classificar(4,\""+temp+"\",\""+fich._id+"\")")
+                                                    if (temp == idUser+"?;5" || temp == idUser+"?;4" || temp == idUser+"?;3") 
+                                                        span(class="fa fa-star checked" onclick="classificar(3,\""+temp+"\",\""+fich._id+"\")")
+                                                    else 
+                                                        span(class="fa fa-star" onclick="classificar(3,\""+temp+"\",\""+fich._id+"\")")
+                                                    if (temp == idUser+"?;5" || temp == idUser+"?;4" || temp == idUser+"?;3" || temp == idUser+"?;2") 
+                                                        span(class="fa fa-star checked" onclick="classificar(2,\""+temp+"\",\""+fich._id+"\")") 
+                                                    else 
+                                                        span(class="fa fa-star" onclick="classificar(2,\""+temp+"\",\""+fich._id+"\")")
+                                                    if (temp == idUser+"?;5" || temp == idUser+"?;4" || temp == idUser+"?;3" || temp == idUser+"?;2" || temp == idUser+"?;1") 
+                                                        span(class="fa fa-star checked" onclick="classificar(1,\""+temp+"\",\""+fich._id+"\")") 
+                                                    else 
+                                                        span(class="fa fa-star" onclick="classificar(1,\""+temp+"\",\""+fich._id+"\")")
+                                        else
+                                            dd
+                                                div(class="rating")
+                                                    span(class="fa fa-star" onclick="classificar(5,\"?;0\",\""+fich._id+"\")")
+                                                    span(class="fa fa-star" onclick="classificar(4,\"?;0\",\""+fich._id+"\")")
+                                                    span(class="fa fa-star" onclick="classificar(3,\"?;0\",\""+fich._id+"\")")     
+                                                    span(class="fa fa-star" onclick="classificar(2,\"?;0\",\""+fich._id+"\")")
+                                                    span(class="fa fa-star" onclick="classificar(1,\"?;0\",\""+fich._id+"\")")
+                                if(fich.autor == idUser)
+                                        button(class="button" style="font-size:12px" onclick="editFile(\""+fich._id+"\",\""+fich.title+"\",\""+fich.subtitle+"\",\"" + fich.descricao + "\")") Change file properties
+                                            br
+                                            i(class="fa fa-cogs" style="font-size:15px;")
+        div(id="displayComments")
+        div(id="display")
+

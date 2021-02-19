@@ -1,0 +1,13 @@
+Testa a API de dados com o Postman ou diretamente no link da API e dá resposta às seguintes questões:
+
+    1. Quantos Diplomas Legislativos estão catalogados? (pista: na API há uma rota que dá este número diretamente) ( http://clav-api.di.uminho.pt/v2/legislacao )
+        R: 1645
+    
+    2. Quantos diplomas do tipo "Portaria" estão catalogados? ( http://clav-api.di.uminho.pt/v2/legislacao/tip_FSS/elementos )
+        R: 325
+
+    3. Que processos são regulados pelo diploma "Lei 9/2009"? (  )
+        R: 
+
+    4. Que diplomas legislativos estão associados ao processo "c300.10.005"? (  )
+        R: 

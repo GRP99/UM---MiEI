@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC4</key>
+        <title>XSLT and Node.js</title>
+        <bdate>02-11-2020</bdate>
+        <edate>09-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p> <b> Tarefa 1 </b> </p>
+        <p>
+            Partindo do XML sobre os 
+            <link url="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/arq.xml"> Arqueossítios do Nordeste Português </link> 
+            realizou-se um XSLT 
+            <i>(eXtensible Stylesheet Language)</i>
+            que permitisse processar este XML num website gerando para o efeito um ficheiro por cada arqueossítio registado, estes ficheiros encontram-se numerados sequencialmente.
+            Este website apresenta um índice agrupado e ordenado inicialmente por 
+            <u>concelhos</u> 
+            no qual é listado os arqueossítios, em que cada um tem associado um link que remete à página de cada arqueossítio com a informação fornecida.
+        </p>
+        <p> <b> Tarefa 2 </b> </p>
+        <p>
+            Assente no website gerado na tarefa anterior pretendeu-se implementar um
+            <u>servidor</u> 
+            desenvolvido em
+            <i>Node.js</i>
+            que permita devolver ao utilizador a página 
+            <i>html</i>
+            sobre um determinado arqueossítio para tal este tem de efectuar o pedido através do browser . 
+            Este servidor foi construído de forma a responder a pedidos na porta 
+            <u> 7777 </u> .
+            Considerou-se um pedido válido :
+            <b>localhost:7777/arqs/XXX</b> 
+            , onde XXX corresponde ao número do ficheiro arqXXX.html criado na tarefa anterior. Tem-se em consideração como correcto também o seguinte pedido :
+            <b>localhost:7777/arqs/*</b>
+            , correspondendo a apresentar o índice ao utilizador. Qualquer outro pedido além dos referidos é considerado inválido.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="arq.xml">arq.xml</link>
+        <link url="arq.xslt">arq.xslt</link>
+        <link url="arqWeb/index.html">Website dos Arqueossítios</link>
+        <link url="server.js">server.js</link>
+        <link url="pr.dtd">pr.dtd</link>
+        <link url="pr.xml">pr.xml</link>
+        <link url="pr.xslt">pr.xslt</link>
+        <link url="pr.html">pr.html</link>
+    </deliverables>
+</pr>
