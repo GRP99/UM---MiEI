@@ -3,7 +3,7 @@ U.C. de Sistemas Distribuídos (2019/20)
 
 Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
 
-* Gonçalo Rodrigues Pinto
+* Gonçalo Pinto
 * [João Parente]
 * [José Nuno Costa]
 

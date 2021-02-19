@@ -1,5 +1,5 @@
 # LI III
-Trabalho prático da U.C. de Laboratórios de Informática III (2018/19)
+Trabalhos práticos da U.C. de Laboratórios de Informática III (2018/19)
 
 Mestrado Integrado em Eng. Informática - 2º ano - Universidade do Minho
 

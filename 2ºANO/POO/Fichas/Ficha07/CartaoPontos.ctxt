@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CartaoPontos
+comment1.params=pontos
+comment1.target=void\ setPontos(int)
+comment2.params=
+comment2.target=int\ getPontos()
+numComments=3

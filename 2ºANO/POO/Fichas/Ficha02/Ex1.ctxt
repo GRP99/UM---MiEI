@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Ex1
+comment1.params=lista
+comment1.target=int\ minimo(int[])
+comment2.params=lista\ i1\ i2
+comment2.target=int[]\ arrayEntre(int[],\ int,\ int)
+comment3.params=l1\ l2\ m
+comment3.target=int[]\ comuns(int[],\ int[],\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ex5
+comment1.params=palavras
+comment1.target=java.lang.String[]\ semrepeticoes(java.lang.String[])
+comment2.params=palavras
+comment2.target=java.lang.String\ maiorString(java.lang.String[])
+comment3.params=palavras
+comment3.target=java.lang.String[]\ repetidas(java.lang.String[])
+comment4.params=palavra\ palavras
+comment4.target=int\ procura(java.lang.String,\ java.lang.String[])
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

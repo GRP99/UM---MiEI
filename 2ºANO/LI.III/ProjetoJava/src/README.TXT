@@ -10,5 +10,4 @@ OBJETIVO DO PROJETO: Consolidação experimental dos conhecimentos teóricos e p
     
 COMO INICIAR O PROJETO: GestVendasAppMVC -> void main(String [] args).
 
-AUTORES: Gonçalo Pinto - A83732
 

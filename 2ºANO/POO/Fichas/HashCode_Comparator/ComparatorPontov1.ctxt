@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ComparatorPontov1
+comment1.params=p1\ p2
+comment1.target=int\ compare(Ponto,\ Ponto)
+comment1.text=\ \n\ Implementa\u00E7\u00E3o\ do\ m\u00E9todo\ compare\ de\ Ponto.\n\ \n\ Nota\:\ a\ implementa\u00E7\u00E3o\ utilizada\ \u00E9\ apenas\ uma\ das\ v\u00E1rias\n\ formas\ que\ poderiamos\ ter\ de\ comparar\ Ponto.\n\ \n
+numComments=2

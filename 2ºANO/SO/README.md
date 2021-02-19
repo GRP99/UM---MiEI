@@ -1,5 +1,5 @@
 # SOO
-Trabalho prático da U.C. de Sistemas Operativos (2018/19)
+U.C. de Sistemas Operativos (2018/19)
 
 Mestrado Integrado em Eng. Informática - 2º ano - Universidade do Minho
 

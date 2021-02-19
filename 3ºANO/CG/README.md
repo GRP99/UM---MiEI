@@ -1,5 +1,5 @@
 # CG
-Trabalhos práticos da U.C. de Computação Gráfica (2019/20)
+U.C. de Computação Gráfica (2019/20)
 
 Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
 

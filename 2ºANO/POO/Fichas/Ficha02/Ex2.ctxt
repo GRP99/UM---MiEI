@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Ex2
+comment1.params=aluno\ uc\ novaNota\ notasTurma
+comment1.target=int[][]\ atualizaNota(int,\ int,\ int,\ int[][])
+comment10.params=args
+comment10.target=void\ main(java.lang.String[])
+comment2.params=uc\ notasTurma
+comment2.target=int\ somaNotas(int,\ int[][])
+comment3.params=aluno\ notasTurma
+comment3.target=float\ mediaAluno(int,\ int[][])
+comment4.params=uc\ notasTurma
+comment4.target=float\ mediaUC(int,\ int[][])
+comment5.params=notasTurma
+comment5.target=int\ notaMaisalta(int[][])
+comment6.params=notasTurma
+comment6.target=int\ notaMaisbaixa(int[][])
+comment7.params=valor\ notasTurma
+comment7.target=int[]\ acima(int,\ int[][])
+comment8.params=notasTurma
+comment8.target=java.lang.String\ geraString(int[][])
+comment9.params=notasTurma
+comment9.target=int\ mediaUCalta(int[][])
+numComments=11

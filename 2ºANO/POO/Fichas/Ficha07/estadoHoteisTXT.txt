@@ -1,0 +1,6 @@
+Standard,ha,Hotel BragaCentro,Braga,45.0,100,4,false
+Standard,hb,Hotel BragaUM,Braga,25.0,150,3,false
+Premium,hc,Hotel Falperra,Braga,75.0,120,4,60.0
+Premium,hd,Hotel RioEste,Braga,95.0,90,5,83.0
+Discount,he,Hotel Avenida,Porto,50.0,50,4,50.0
+Discount,hf,Hotel Alameda,Porto,60.0,75,4,50.0

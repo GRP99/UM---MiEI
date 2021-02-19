@@ -4,7 +4,7 @@ Trabalhos práticos da U.C. de Modelos Determinísticos de Investigação Operac
 Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
 
 * Diogo Vasconcelos
-* Gonçalo Rodrigues Pinto
+* Gonçalo Pinto
 * [João Parente]
 * [José Nuno Costa]
 

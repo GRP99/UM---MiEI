@@ -1,2 +1,1 @@
-Como utilizamos o IDE "intellij" e a opção para dar argumentos ao programa do IDE,
-não sabemos então como correr isto de forma correta sem o IDE.
+Como utilizamos o IDE "intellij" e a opção para dar argumentos ao programa do IDE, não sabemos então como correr isto de forma correta sem o IDE.

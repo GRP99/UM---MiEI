@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ComparatorCirculov1
+comment1.params=c1\ c2
+comment1.target=int\ compare(Circulo,\ Circulo)
+comment1.text=\ \r\n\ Implementa\u00C3\u00A7\u00C3\u00A3o\ do\ m\u00C3\u00A9todo\ compare\ de\ Circulo.\r\n\ \r\n\ Nota\:\ a\ implementa\u00C3\u00A7\u00C3\u00A3o\ utilizada\ \u00C3\u00A9\ apenas\ uma\ das\ v\u00C3\u00A1rias\r\n\ formas\ que\ poderiamos\ ter\ de\ comparar\ Circulo.\r\n\ Um\ circulo\ \u00C3\u00A9\ maior\ do\ que\ outro\ se\ o\ raio\ for\ maior\!\!\r\n\ \r\n
+numComments=2
