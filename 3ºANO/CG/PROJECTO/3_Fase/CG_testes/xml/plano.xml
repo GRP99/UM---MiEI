@@ -1,0 +1,8 @@
+<scene>
+   <group>
+      <translate X="300" Z="300" />
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/plane.3d" />
+      </models>
+   </group>
+</scene>

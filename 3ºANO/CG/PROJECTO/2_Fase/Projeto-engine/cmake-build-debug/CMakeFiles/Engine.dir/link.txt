@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Engine.dir/main.cpp.o CMakeFiles/Engine.dir/tinyxml2.cpp.o CMakeFiles/Engine.dir/OurXml.cpp.o CMakeFiles/Engine.dir/Our3d.cpp.o  -o Engine  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so /usr/lib/x86_64-linux-gnu/libXmu.so /usr/lib/x86_64-linux-gnu/libXi.so 

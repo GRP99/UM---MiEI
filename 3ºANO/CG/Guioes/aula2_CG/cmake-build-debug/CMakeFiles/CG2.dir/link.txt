@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CG2.dir/main.cpp.o  -o CG2 /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglut.so /usr/lib/x86_64-linux-gnu/libXmu.so /usr/lib/x86_64-linux-gnu/libXi.so 

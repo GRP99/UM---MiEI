@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Genetor2" targetName="Genetor" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4986533-f985-4498-9287-a667d9a034c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Projeto-engine/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto-engine/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto-engine/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto-engine/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Genetor.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Genetor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Genetor.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cone.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Y5MzJb8no8siAT7GPmjQy2NmEL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="CMake Application.Teapot">
+    <configuration name="Caixa" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="box 20 20 20 10 $PROJECT_DIR$/../CG_testes/3d/box.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Genetor2" TARGET_NAME="Genetor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Genetor2" RUN_TARGET_NAME="Genetor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="cone 10 20 30 30 $PROJECT_DIR$/../CG_testes/3d/cone.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Genetor2" TARGET_NAME="Genetor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Genetor2" RUN_TARGET_NAME="Genetor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Esfera" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sphere 10 30 30 $PROJECT_DIR$/../CG_testes/3d/sphere.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Genetor2" TARGET_NAME="Genetor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Genetor2" RUN_TARGET_NAME="Genetor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plano" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="plane 20 $PROJECT_DIR$/../CG_testes/3d/plane.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Genetor2" TARGET_NAME="Genetor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Genetor2" RUN_TARGET_NAME="Genetor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teapot" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="bezier $PROJECT_DIR$/../CG_testes/patch/teapot 20 $PROJECT_DIR$/../CG_testes/3d/tea.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Genetor2" TARGET_NAME="Genetor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Genetor2" RUN_TARGET_NAME="Genetor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Caixa" />
+      <item itemvalue="CMake Application.Cone" />
+      <item itemvalue="CMake Application.Esfera" />
+      <item itemvalue="CMake Application.Plano" />
+      <item itemvalue="CMake Application.Teapot" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4986533-f985-4498-9287-a667d9a034c4" name="Default Changelist" comment="" />
+      <created>1582228262205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582228262205</updated>
+      <workItem from="1582228263800" duration="4737000" />
+      <workItem from="1582361640427" duration="641000" />
+      <workItem from="1582542671340" duration="5445000" />
+      <workItem from="1582549952867" duration="7867000" />
+      <workItem from="1582571527200" duration="8590000" />
+      <workItem from="1582581658677" duration="326000" />
+      <workItem from="1582617480991" duration="38000" />
+      <workItem from="1582617606124" duration="6000" />
+      <workItem from="1582617633997" duration="2000" />
+      <workItem from="1582619407791" duration="162000" />
+      <workItem from="1582708042738" duration="295000" />
+      <workItem from="1582711561338" duration="720000" />
+      <workItem from="1582724324452" duration="5543000" />
+      <workItem from="1582731872805" duration="398000" />
+      <workItem from="1582737930300" duration="2482000" />
+      <workItem from="1582744127793" duration="16000" />
+      <workItem from="1582744986416" duration="58000" />
+      <workItem from="1582751147651" duration="1761000" />
+      <workItem from="1582811996808" duration="267000" />
+      <workItem from="1582819181571" duration="4621000" />
+      <workItem from="1582837172766" duration="1642000" />
+      <workItem from="1582838887230" duration="567000" />
+      <workItem from="1583238175717" duration="50000" />
+      <workItem from="1586598840170" duration="1196000" />
+      <workItem from="1586606782909" duration="3924000" />
+      <workItem from="1586681842749" duration="4605000" />
+      <workItem from="1586689163381" duration="933000" />
+      <workItem from="1586850878398" duration="5999000" />
+      <workItem from="1586867023083" duration="3963000" />
+      <workItem from="1586959585346" duration="599000" />
+      <workItem from="1587128785914" duration="3000" />
+      <workItem from="1587132428067" duration="3240000" />
+      <workItem from="1587455488120" duration="20000" />
+      <workItem from="1587462535466" duration="1621000" />
+      <workItem from="1592468715732" duration="3005000" />
+      <workItem from="1592558244702" duration="85000" />
+      <workItem from="1592558359559" duration="416000" />
+      <workItem from="1592558832142" duration="47000" />
+      <workItem from="1592559119008" duration="4000" />
+      <workItem from="1592560439611" duration="140000" />
+      <workItem from="1592573062891" duration="201000" />
+      <workItem from="1592660818860" duration="3000" />
+      <workItem from="1592732317773" duration="199000" />
+      <workItem from="1592849733951" duration="92000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="329" y="109" width="1084" height="975" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592560577193">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="329" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1592560577193" />
+    <state x="514" y="51" width="1084" height="975" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1920.1048@0.32.1920.1048" timestamp="1587463544051" />
+    <state x="705" y="361" width="499" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586867027864">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="705" y="361" width="499" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.32.1920.1048@0.32.1920.1048" timestamp="1586867027864" />
+    <state x="737" y="303" width="424" height="519" key="FileChooserDialogImpl" timestamp="1586873140192">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="737" y="303" width="424" height="519" key="FileChooserDialogImpl/0.32.1920.1048@0.32.1920.1048" timestamp="1586873140192" />
+    <state width="1920" height="285" key="GridCell.Tab.0.bottom" timestamp="1592558878386">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1592558878386" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1587463552162" />
+    <state width="1920" height="285" key="GridCell.Tab.0.center" timestamp="1592558878383">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="285" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1592558878383" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.32.1920.1048@0.32.1920.1048" timestamp="1587463552161" />
+    <state width="1920" height="285" key="GridCell.Tab.0.left" timestamp="1592558878382">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="285" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1592558878382" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.32.1920.1048@0.32.1920.1048" timestamp="1587463552161" />
+    <state width="1920" height="285" key="GridCell.Tab.0.right" timestamp="1592558878385">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="285" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1592558878385" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.32.1920.1048@0.32.1920.1048" timestamp="1587463552161" />
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom" timestamp="1587144036043">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1587144036043" />
+    <state width="1878" height="340" key="GridCell.Tab.1.center" timestamp="1587144036042">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.center/0.32.1920.1048@0.32.1920.1048" timestamp="1587144036042" />
+    <state width="1878" height="340" key="GridCell.Tab.1.left" timestamp="1587144036042">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.left/0.32.1920.1048@0.32.1920.1048" timestamp="1587144036042" />
+    <state width="1878" height="340" key="GridCell.Tab.1.right" timestamp="1587144036042">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1878" height="340" key="GridCell.Tab.1.right/0.32.1920.1048@0.32.1920.1048" timestamp="1587144036042" />
+    <state x="639" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1587455488363">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="639" y="383" key="com.intellij.ide.util.TipDialog/0.32.1920.1048@0.32.1920.1048" timestamp="1587455488362" />
+    <state x="624" y="253" key="run.anything.popup" timestamp="1586607429528">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="624" y="253" key="run.anything.popup/0.32.1920.1048@0.32.1920.1048" timestamp="1586607429528" />
+    <state x="623" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1586607058126">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="623" y="262" width="672" height="678" key="search.everywhere.popup/0.32.1920.1048@0.32.1920.1048" timestamp="1586607058126" />
+  </component>
+</project>

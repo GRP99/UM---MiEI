@@ -1,0 +1,9 @@
+<scene>
+   <group>
+      <scale X="10" Y="10" Z="10" />
+      <translate X="10" Z="10" />
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/2_Fase/CG_testes/3d/box.3d" />
+      </models>
+   </group>
+</scene>

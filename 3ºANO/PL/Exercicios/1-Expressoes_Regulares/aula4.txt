@@ -1,0 +1,8 @@
+Eu: Olá bom dia, como está?
+Ele: Bem, obrigado. E o meu caro?
+Eu: Então qual é o seu nome?
+Ele: Eu chamo-me Marcelo Fernandes.
+Eu: Ah! Mas então não é o Marcelo Rebelo de Sousa?
+ele: É verdade, esqueci-me dizer que ele hoje não pode vir, e mandou-me a mim.
+eu: Bem, espero que saiba responder por ele.
+ELE: Esperemos que sim!

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-generator/main.cpp
+GLUT/glut.h
+-
+GL/glut.h
+-
+stdio.h
+-
+math.h
+-
+cstring
+-
+

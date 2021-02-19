@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/goncalo/Documentos/3ANO/CG/Guioes/aula12_CG/main.cpp
+math.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+string
+-
+

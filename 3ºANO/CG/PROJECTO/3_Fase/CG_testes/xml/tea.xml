@@ -1,0 +1,8 @@
+<scene>
+   <group>
+      <scale X="100" Y="100" Z="100" />
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/tea.3d" />
+      </models>
+   </group>
+</scene>

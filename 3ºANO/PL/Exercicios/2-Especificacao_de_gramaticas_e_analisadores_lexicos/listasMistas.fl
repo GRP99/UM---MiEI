@@ -1,0 +1,13 @@
+%{
+%}
+
+%option noyywrap
+
+%%
+[,] 			{ yylval.n=strdup(yytext); return(VIRG); }
+(?i:inicio) 	{ yylval.n=strdup(yytext); return(INICIO); }
+(?i:fim) 		{ yylval.n=strdup(yytext); return(FIM); }
+[a-zA-Z]+ 		{ yylval.n=strdup(yytext); return(pal); }
+[0-9]+ 			{ yylval.n=strdup(yytext); return(num); }
+.|\n 			{ ; }
+%%

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/goncalo/Documentos/3ANO/CG/Guioes/aula8_CG/catmull-rom.cpp
+stdlib.h
+-
+math.h
+-
+GL/glut.h
+-
+

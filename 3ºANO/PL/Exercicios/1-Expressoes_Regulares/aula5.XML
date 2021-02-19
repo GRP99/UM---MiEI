@@ -1,0 +1,13 @@
+<REGISTO NUM="BRG202010" DATA="20200312">
+Este Registo foi lavrado em Braga no mês de março a pedido do Pai.
+	<Nome>
+		<NProp>Rui</NProp><Apel>Costa e Sousa</Apel>
+	</Nome>
+Identificada a criança, assenta-se o local e hora do nascimento.
+	<Nascim>
+		O bebé nasceu de parto natural em
+			<NLoc>Hospital de St. Maria, Porto</NLoc> às <NHora>12:14</NHora> horas.
+	</Nascim>
+Nada mais havendo a registar, encerra-se o registo,
+<ASSINA Funcao="Escrivao"> <nome>Bento de Lancastre</nome></ASSINA>
+</REGISTO>

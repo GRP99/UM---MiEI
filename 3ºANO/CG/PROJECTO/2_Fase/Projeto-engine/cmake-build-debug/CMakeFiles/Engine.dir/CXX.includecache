@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/2_Fase/Projeto-engine/Our3d.h
+
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/2_Fase/Projeto-engine/OurXml.h
+Our3d.h
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/2_Fase/Projeto-engine/Our3d.h
+
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/2_Fase/Projeto-engine/main.cpp
+GL/glut.h
+-
+cstdio
+-
+OurXml.h
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/2_Fase/Projeto-engine/OurXml.h
+Our3d.h
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/2_Fase/Projeto-engine/Our3d.h
+

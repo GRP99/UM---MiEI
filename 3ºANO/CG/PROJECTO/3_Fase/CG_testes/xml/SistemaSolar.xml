@@ -1,0 +1,376 @@
+<scene>
+   <group>
+      <scale X="10" Y="10" Z="10" />
+      <group>
+         <group>
+            <!--Sol-->
+            <color R="255" G="255" />
+            <rotate time="100" axisY="1" />
+            <models>
+               <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+            </models>
+         </group>
+         <group>
+            <color B="255" />
+            <translate time="3.9">
+               <point X="100" />
+               <point Z="200" />
+               <point X="-50" />
+               <point Z="-30" />
+            </translate>
+            <models>
+               <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/tea.3d" />
+            </models>
+         </group>
+         <group>
+            <translate X="15" />
+            <group>
+               <!--Mercurio-->
+               <color G="255" />
+               <translate time="3.9">
+               <point X="100" />
+               <point Z="200" />
+               <point X="-50" />
+               <point Z="-30" />
+            </translate>
+               <scale X="0.035" Y="0.035" Z="0.035" />
+               <group>
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="30" Y="30" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="30" Y="-30" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+            </group>
+            <group>
+               <!--Venus-->
+               <translate X="20" />
+               <scale X="0.08" Y="0.08" Z="0.08" />
+               <group>
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="25" Y="25" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="25" Y="-25" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="20" Y="" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="-23" Y="-23" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+            </group>
+            <group>
+               <!--Terra-->
+               <color B="250" />
+               <translate X="30" />
+               <scale X="0.09" Y="0.09" Z="0.09" />
+               <models>
+                  <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+               </models>
+               <!--lua-->
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="30" Y="30" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+            </group>
+            <group>
+               <!--Marte-->
+               <color R="250" />
+               <translate X="40" />
+               <scale X="0.05" Y="0.05" Z="0.05" />
+               <models>
+                  <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+               </models>
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="-30" Y="30" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <color R="255" G="250" B="250" />
+                  <translate X="-30" Y="-30" />
+                  <scale X="0.10" Y="0.10" Z="0.10" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+            </group>
+            <group>
+               <!--Jupiter-->
+               <color R="201" G="144" B="57" />
+               <translate X="50" />
+               <scale X="0.2" Y="0.2" Z="0.2" />
+               <group>
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <scale X="0.02" Y="0.020" Z="0.020" />
+                  <color R="255" G="250" B="250" />
+                  <group>
+                     <translate X="-1000" Y="-1000" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-900" Y="-900" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-800" Y="-800" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-700" Y="-700" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-700" Y="-650" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-800" Y="-750" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-700" Y="-813" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="+850" Y="-900" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-900" Y="999" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-1000" Y="-890" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+               </group>
+            </group>
+            <group>
+               <!--Saturno-->
+               <translate X="60" />
+               <scale X="0.1" Y="0.1" Z="0.1" />
+               <group>
+                  <color R="165" G="91" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                  </models>
+               </group>
+               <group>
+                  <color R="255" B="255" />
+                  <models>
+                     <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/cone.3d" />
+                  </models>
+               </group>
+               <group>
+                  <scale X="0.02" Y="0.020" Z="0.020" />
+                  <color R="255" G="250" B="250" />
+                  <group>
+                     <translate X="-1000" Y="1000" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="+900" Y="-900" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-800" Y="+800" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="+700" Y="-700" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-700" Y="+650" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="+800" Y="-750" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-700" Y="-813" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-850" Y="-900" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-900" Y="-999" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="+1000" Y="-890" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+               </group>
+            </group>
+            <group>
+               <!--Urano-->
+               <translate X="69" />
+               <scale X="0.04" Y="0.04" Z="0.04" />
+               <models>
+                  <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+               </models>
+               <group>
+                  <scale X="0.02" Y="0.020" Z="0.020" />
+                  <color R="255" G="250" B="250" />
+                  <group>
+                     <translate X="-1000" Y="-1000" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-900" Y="-900" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-800" Y="-800" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-700" Y="-700" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+               </group>
+            </group>
+            <group>
+               <!--Neptuno-->
+               <translate X="75" />
+               <scale X="0.04" Y="0.04" Z="0.04" />
+               <color R="255" G="0" B="255" />
+               <models>
+                  <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+               </models>
+               <group>
+                  <scale X="0.018" Y="0.0180" Z="0.018" />
+                  <color R="255" G="250" B="250" />
+                  <group>
+                     <translate X="+1000" Y="-1000" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="+900" Y="-900" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-800" Y="+800" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+                  <group>
+                     <translate X="-700" Y="+700" />
+                     <models>
+                        <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+                     </models>
+                  </group>
+               </group>
+            </group>
+         </group>
+      </group>
+   </group>
+</scene>

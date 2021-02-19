@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Generator" targetName="Generator" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4986533-f985-4498-9287-a667d9a034c4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Y5MzJb8no8siAT7GPmjQy2NmEL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../3_Fase/Projeto-generator" />
+  </component>
+  <component name="RunManager" selected="CMake Application.Esfera">
+    <configuration name="Caixa" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="box 20 20 20 10 $PROJECT_DIR$/../box.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Generator" TARGET_NAME="Generator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Generator" RUN_TARGET_NAME="Generator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cone" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="cone 10 20 30 30 $PROJECT_DIR$/../cone.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Generator" TARGET_NAME="Generator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Generator" RUN_TARGET_NAME="Generator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Esfera" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sphere 10 30 30 $PROJECT_DIR$/../sphere.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Generator" TARGET_NAME="Generator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Generator" RUN_TARGET_NAME="Generator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plano" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="plane 20 $PROJECT_DIR$/../plane.3d" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Generator" TARGET_NAME="Generator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Generator" RUN_TARGET_NAME="Generator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Caixa" />
+      <item itemvalue="CMake Application.Cone" />
+      <item itemvalue="CMake Application.Esfera" />
+      <item itemvalue="CMake Application.Plano" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4986533-f985-4498-9287-a667d9a034c4" name="Default Changelist" comment="" />
+      <created>1582228262205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582228262205</updated>
+      <workItem from="1582228263800" duration="4737000" />
+      <workItem from="1582361640427" duration="641000" />
+      <workItem from="1582542671340" duration="5445000" />
+      <workItem from="1582549952867" duration="7867000" />
+      <workItem from="1582571527200" duration="8590000" />
+      <workItem from="1582581658677" duration="326000" />
+      <workItem from="1582617480991" duration="38000" />
+      <workItem from="1582617606124" duration="6000" />
+      <workItem from="1582617633997" duration="2000" />
+      <workItem from="1582619407791" duration="162000" />
+      <workItem from="1582708042738" duration="295000" />
+      <workItem from="1582711561338" duration="720000" />
+      <workItem from="1582724324452" duration="5543000" />
+      <workItem from="1582731872805" duration="398000" />
+      <workItem from="1582737930300" duration="2482000" />
+      <workItem from="1582744127793" duration="16000" />
+      <workItem from="1582744986416" duration="58000" />
+      <workItem from="1582751147651" duration="1761000" />
+      <workItem from="1582811996808" duration="267000" />
+      <workItem from="1582819181571" duration="4621000" />
+      <workItem from="1582837172766" duration="1642000" />
+      <workItem from="1582838887230" duration="567000" />
+      <workItem from="1583238175717" duration="50000" />
+      <workItem from="1583505610997" duration="67000" />
+      <workItem from="1585146348696" duration="129000" />
+      <workItem from="1592295929810" duration="2975000" />
+      <workItem from="1592382128958" duration="72000" />
+      <workItem from="1592556769859" duration="339000" />
+      <workItem from="1592557112676" duration="7000" />
+      <workItem from="1592557421141" duration="8000" />
+      <workItem from="1592557469865" duration="22000" />
+      <workItem from="1592557881669" duration="7000" />
+      <workItem from="1592558219354" duration="4000" />
+      <workItem from="1592558336361" duration="397000" />
+      <workItem from="1592558790406" duration="4000" />
+      <workItem from="1592559070707" duration="18000" />
+      <workItem from="1592572521749" duration="85000" />
+      <workItem from="1592731593619" duration="219000" />
+      <workItem from="1592849059217" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="698" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592558730112">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="698" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1053@0.0.1920.1053" timestamp="1592558730112" />
+    <state x="488" y="948" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.900.1920.1080/243.0.1440.900@243.0.1440.900" timestamp="1585146458026" />
+    <state x="743" y="283" width="424" height="483" key="FileChooserDialogImpl" timestamp="1592558357321">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state x="743" y="283" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.1053@0.0.1920.1053" timestamp="1592558357321" />
+    <state width="1920" height="285" key="GridCell.Tab.0.bottom" timestamp="1592849136568">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1592849136568" />
+    <state width="1440" height="235" key="GridCell.Tab.0.bottom/0.900.1920.1080/243.0.1440.900@243.0.1440.900" timestamp="1585146477408" />
+    <state width="1920" height="285" key="GridCell.Tab.0.center" timestamp="1592849136568">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="285" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1592849136568" />
+    <state width="1440" height="235" key="GridCell.Tab.0.center/0.900.1920.1080/243.0.1440.900@243.0.1440.900" timestamp="1585146477408" />
+    <state width="1920" height="285" key="GridCell.Tab.0.left" timestamp="1592849136567">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="285" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1592849136567" />
+    <state width="1440" height="235" key="GridCell.Tab.0.left/0.900.1920.1080/243.0.1440.900@243.0.1440.900" timestamp="1585146477407" />
+    <state width="1920" height="285" key="GridCell.Tab.0.right" timestamp="1592849136568">
+      <screen x="0" y="0" width="1920" height="1053" />
+    </state>
+    <state width="1920" height="285" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1592849136568" />
+    <state width="1440" height="235" key="GridCell.Tab.0.right/0.900.1920.1080/243.0.1440.900@243.0.1440.900" timestamp="1585146477408" />
+  </component>
+</project>

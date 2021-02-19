@@ -1,0 +1,7 @@
+Famílias
+Henriques 4
+Nunes 3
+Pereira 1
+Fernandes 8
+Rodrigues 6
+Maia 4

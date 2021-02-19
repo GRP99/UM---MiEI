@@ -1,0 +1,17 @@
+<scene>
+   <lights>
+      <light type="POINT" posY="100" />
+      <light type="POINT" posY="-100" />
+      <light type="POINT" posX="100" />
+      <light type="POINT" posX="-100" />
+      <light type="POINT" posZ="100" />
+      <light type="POINT" posZ="-100" />
+   </lights>
+   <group>
+      <scale X="0.1" Z="0.1" Y="0.1" />
+      <rotate angle="90" axisX="1" />
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/4_Fase/CG_testes/3d/plane.3d" />
+      </models>
+   </group>
+</scene>

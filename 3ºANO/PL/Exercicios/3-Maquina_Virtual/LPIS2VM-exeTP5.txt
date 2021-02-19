@@ -1,0 +1,49 @@
+VAR A, B : INTEIRO;
+C[10] : INTEIRO;
+D : INTEIRO;
+
+BEGIN
+
+A = 2;
+B = 3 + 5;
+D = B - A;
+D!
+
+END
+
+
+
+----------------------------
+Tabela de Identificadores
+
+A -> 0
+B -> 1
+C -> 2 (+10)
+D -> 12
+
+
+PUSHI 0			// Apenas para sabermos A
+PUSHI 0			// Apenas para sabermos B
+PUSHN 10		// Apenas para sabermos C
+PUSHI 0			// Apenas para sabermos D
+
+START			// Fixar o stack pointer e frame pointer depois da posição 12
+
+PUSHI 2			// A = 2;
+STOREG 0		// Guardar (2) no endereço de A (0)
+
+PUSHI 3			// Guardar o 3
+PUSHI 5			// Guardar o 5
+ADD 			// Efetua a soma (faz pop dos operandos e push do resultado)
+STOREG 1		// Guardar o resultado da soma em B (1)
+
+PUSHG 1			// Vai buscar ao endereço de B (1) o valor que lá está
+PUSHG 0			// Vai buscar ao endereço de A (0) o valor que lá está
+SUB				// Efetua a subtração
+STOREG 12		// Guarda o resultado da subtração em D (12)
+
+PUSHG 12		// Vai buscar ao endereço de D (12) o valor que lá está
+WRITEI 			// Imprime o inteiro que está contido na variável D
+
+STOP
+

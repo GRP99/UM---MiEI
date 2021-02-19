@@ -1,0 +1,16 @@
+<scene>
+   <lights>
+      <light type="SPOT" posX="0" posY="0" posZ="-10" />
+   </lights>
+   <group>
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/4_Fase/CG_testes/3d/box.3d" />
+      </models>
+   </group>
+   <group>
+      <translate X="20" />
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/4_Fase/CG_testes/3d/box.3d" texture="/home/goncalo/Documentos/3ANO/CG/PROJECTO/4_Fase/CG_testes/textures/white.png" />
+      </models>
+   </group>
+</scene>

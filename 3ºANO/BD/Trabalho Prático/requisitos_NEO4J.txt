@@ -1,0 +1,68 @@
+#r0 - Saber a idade de um atleta ou médico
+match (a {nome : "Nome_Atleta/Medico"}) return duration.between(date(a.dataNascimento),date()).years;
+
+#req1 - A partir de uma equipa conseguir saber quais os testes marcados pelos atletas entre duas datas
+match (e:Equipa{nome:"Nome_Equipa"})<-[:ATLETA_DO]-(a:Atleta)-[tc:E_TESTADO_POR]->(:Medico) where (tc.data>="Data_Inicial" and tc.data<="Data_Final") and tc.agendado=true return a.nome as nome, tc.data as data, tc.descricao as descricao
+
+#req2 - A partir de uma especialidade saber o total faturado dos testes dessa
+match(:Atleta)-[tc:E_TESTADO_POR]->(:Medico)-[:ESPECIALISTA_EM]->(:Especialidade{designacao:"Nome_Especialidade"}) where tc.agendado=false return sum(tc.preco)
+
+#req3 - A partir de uma especialidade saber quais os atletas que não efetuaram qualquer teste
+match (a:Atleta) where not (a)-[:E_TESTADO_POR]-(:Medico)-[:ESPECIALISTA_EM]->(:Especialidade{designacao:"Nome_Especialidade"}) return a
+
+#req4 - Ver o quanto foi gasto por cada atleta e ordenar estes
+match(n:Atleta)-[tc:E_TESTADO_POR]->(:Medico) where tc.agendado=false return n.nome as nome, sum(tc.preco) as total order by total desc
+
+#req5 - A partir de uma especialidade, uma data e um intervalo de horas ver quais os médicos disponíveis
+match (m:Medico) where not (:Atleta)-[:E_TESTADO_POR{data:"Data_Teste_AMarcar"}]->(m)-[:ESPECIALISTA_EM]->(:Especialidade{designacao:"Nome_Especialidade"}) and (m)-[:ESPECIALISTA_EM]->(:Especialidade{designacao:"Nome_Especialidade"}) return m
+
+#req6 -	Ver o total gasto por cada modalidade em testes clínicos
+match(m:Modalidade)<-[:PRATICA]-(:Atleta)-[tc:E_TESTADO_POR]->(:Medico) where tc.agendado=false return m.designacao as designacao, sum(tc.preco) as total order by total desc
+
+#req7 -	A partir de uma equipa mostrar todos os atletas dessa equipa e a sua respetiva localidade
+match (cp:CodigoPostal)<-[:RESIDE]-(a:Atleta)-[:ATLETA_DO]->(:Equipa{nome:"Nome_Equipa"}) return cp.localidade as localidade, a.nome as nome
+
+#req8 - Mostrar os 5 atletas que mais testes clínicos realizaram
+match (a:Atleta)-[tc:E_TESTADO_POR]->(:Medico) where tc.agendado=false return a.nome as nome, count(tc) as consultas order by consultas desc limit 5
+
+#req9 - Mostrar os 5 médicos e a respetiva especialidade que mais testes clínicos realizaram
+match ()-[tc:E_TESTADO_POR]->(m:Medico)-[:ESPECIALISTA_EM]->(e:Especialidade) where tc.agendado=false return m.nome as nome,e.designacao as especialidade,count(tc) as consultas order by consultas desc limit 5
+
+#req10 - Determinar a média de idades dos atletas por equipa
+match (a:Atleta)-[:ATLETA_DO]->(e:Equipa) return e.nome, avg(duration.between(date(a.dataNascimento),date()).years);
+
+#req11 - Saber o total gasto por género dos atletas
+match(a:Atleta)-[tc:E_TESTADO_POR]->(:Medico) where tc.agendado=false return a.genero as Genero, sum(tc.preco) as total order by Genero
+
+#req12 - Saber quais as especialidades com menos médicos
+match (m:Medico)-[ee:ESPECIALISTA_EM]->(e:Especialidade) return e.designacao as Especialidade, count(ee) as total order by total
+
+#req13 - Saber quais as especialidades com mais testes
+match (a:Atleta)-[tc:E_TESTADO_POR]-(m:Medico)-[ee:ESPECIALISTA_EM]->(e:Especialidade) where tc.agendado=false return e.designacao as Especialidade, count(tc) as total order by total desc
+
+#req14 - Dado um id de um médico saber os testes que ainda atualizou
+match (:Atleta)-[tc:E_TESTADO_POR]->(:Medico{nome:"Nome_Medico"}) where tc.agendado=true return tc
+
+#req15 - Um médico feito um teste seu pode atualizar o registo dela
+match (:Atleta)-[tc:E_TESTADO_POR{agendado:true,data:"Data_Teste"}]->(:Medico{nome:"Nome_Medico"}) SET tc.agendado=false,tc.preco="_", tc.faltou="_" return tc
+
+#req16 - Determinar o número de testes em que cada atleta faltou
+match (a:Atleta)-[tc:E_TESTADO_POR]->(:Medico) where tc.faltou=-1 return a.nome, count(tc)
+
+#req17 - Determinar o número de testes em que cada médico faltou
+match (:Atleta)-[tc:E_TESTADO_POR]->(m:Medico) where tc.faltou=1 return m.nome, count(tc)
+
+#req18 - Dado um id de um médico saber os testes que fez
+match (a:Atleta)-[tc:E_TESTADO_POR]->(m:Medico{nome:"Nome_Medico"}) where tc.agendado=false return a.nome as nome,tc as teste_clinico
+
+#req19 - Saber para cada médico o valor total faturado num determinado ano
+match (:Atleta)-[tc:E_TESTADO_POR]->(m:Medico) where tc.agendado=false and tc.data starts with "ANO" return m.nome, sum(tc.preco)
+
+#req20 - Saber quais as categorias distintas de cada modalidade.
+match (:Atleta)-[p:PRATICA]-(m:Modalidade) return distinct m.designacao as designacao, collect(distinct p.categoria) as categoria order by m.designacao
+
+#req21 - Dado um nif de um atleta apresentar todos os testes realizados
+match (:Atleta{nif:"MyNIF"})-[t:E_TESTADO_POR]-(m:Medico) where t.agendado=false return t,m.nome as Medico
+
+#req22 - Ficar a conhecer quanto os atletas de uma dada equipa gastaram
+match (:Equipa{nome:"NomeEquipa"})<-[:ATLETA_DO]-(n:Atleta)-[tc:E_TESTADO_POR]->(:Medico) where tc.agendado=false return n.nome as nome, sum(tc.preco) as total order by total desc

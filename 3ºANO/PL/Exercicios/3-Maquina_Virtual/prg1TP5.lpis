@@ -1,0 +1,12 @@
+VAR
+X,Y,Z : INTEGER;
+V[100] : INTEGER;
+A, B : INTEGER;
+C[10] : INTEGER;
+D : INTEGER;
+
+
+BEGIN
+X!;
+3!;
+END

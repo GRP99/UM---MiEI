@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/class12.dir/main.cpp.o  -o class12  -lGL -lGLU -lglut -lXmu -lXi 

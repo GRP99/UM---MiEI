@@ -1,0 +1,15 @@
+<scene>
+   <group>
+      <color B="255" />
+      <translate time="3.9">
+         <point X="100" />
+         <point Z="200" />
+         <point X="-50" />
+         <point Z="-30" />
+      </translate>
+      <scale X="5" Y="5" Z="5" />
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/tea.3d" />
+      </models>
+   </group>
+</scene>

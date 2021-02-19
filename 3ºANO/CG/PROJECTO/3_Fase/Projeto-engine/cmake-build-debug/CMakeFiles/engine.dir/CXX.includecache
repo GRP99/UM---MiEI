@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-engine/CatmullRom.h
+
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-engine/Our3d.h
+GL/glew.h
+-
+
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-engine/OurXml.h
+Our3d.h
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-engine/Our3d.h
+
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-engine/main.cpp
+stdlib.h
+-
+GL/glew.h
+-
+GL/glut.h
+-
+math.h
+-
+CatmullRom.h
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-engine/CatmullRom.h
+OurXml.h
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-engine/OurXml.h
+Our3d.h
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-engine/Our3d.h
+

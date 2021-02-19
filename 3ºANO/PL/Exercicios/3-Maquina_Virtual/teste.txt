@@ -1,0 +1,14 @@
+VAR A, B : INTEGER;
+C[10] : INTEGER;
+D : INTEGER;
+
+BEGIN
+
+A = 2;
+B = ?;
+D = B - A;
+D!;
+( 4 + 2) * D!;
+IF A == B THEN A!; ELSE B!; FI;
+
+END

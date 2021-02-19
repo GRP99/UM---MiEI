@@ -1,0 +1,9 @@
+<scene>
+   <group>
+      <translate X="100" Z="100" />
+      <scale X="10" Y="10" Z="10" />
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/CG_testes/3d/sphere.3d" />
+      </models>
+   </group>
+</scene>

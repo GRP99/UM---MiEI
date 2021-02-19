@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="class10"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class10">
+				<Option output="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/class10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/IL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 class10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class10/fast">
+				<Option output="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/class10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/IL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 class10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jpedro/Documentos/MIEI/Miei\ MEU/3\ Ano/2\ Semestre/Computação\ Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/CatmullRom.cpp">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/CatmullRom.h">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/Our3d.cpp">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/Our3d.h">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/OurXml.cpp">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/OurXml.h">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/main.cpp">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/tinyxml2.cpp">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/tinyxml2.h">
+			<Option target="class10"/>
+		</Unit>
+		<Unit filename="/home/jpedro/Documentos/MIEI/Miei MEU/3 Ano/2 Semestre/Computação Gráfica/versaoLocal/4_Fase/CG_Fase3_Grupo47/Projeto-engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

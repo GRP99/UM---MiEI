@@ -1,0 +1,3 @@
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-generator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-generator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/goncalo/Documentos/3ANO/CG/PROJECTO/3_Fase/Projeto-generator/cmake-build-debug/CMakeFiles/Genetor.dir

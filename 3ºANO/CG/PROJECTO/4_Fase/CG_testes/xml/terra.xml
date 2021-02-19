@@ -1,0 +1,15 @@
+<scene>
+   <lights>
+      <light type="POINT" posY="100" />
+      <light type="POINT" posY="-100" />
+      <light type="POINT" posX="100" />
+      <light type="POINT" posX="-100" />
+      <light type="POINT" posZ="100" />
+      <light type="POINT" posZ="-100" />
+   </lights>
+   <group>
+      <models>
+         <model file="/home/goncalo/Documentos/3ANO/CG/PROJECTO/4_Fase/CG_testes/3d/sphere.3d" texture="/home/goncalo/Documentos/3ANO/CG/PROJECTO/4_Fase/CG_testes/textures/earthmap1k.jpg" />
+      </models>
+   </group>
+</scene>
