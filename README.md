@@ -18,3 +18,16 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
   * [Laboratórios de Informática III](2ºANO/LI.III)
   * [Programação Orientada aos Objetos](2ºANO/POO)
   * [Sistemas Operativos](2ºANO/SO)
+
+## 3.º ano
+  * [Bases de Dados](3ºANO/BD)
+  * [Desenvolvimento de Sistemas Software](3ºANO/DSS)
+  * [Modelos Determinísticos de Investigação Operacional](3ºANO/MDIO)
+  * [Redes de Computadores](3ºANO/RC)
+  * [Sistemas Distribuídos](3ºANO/SD)
+  * [Computação Gráfica](3ºANO/CG)
+  * [Comunicações por Computador](3ºANO/CC)
+  * [Laboratórios de Informática IV](4ºANO/LI.IV)
+  * [Modelos Estocásticos de Investigação Operacional](4ºANO/MEIO)
+  * [Processamento de Linguagens](4ºANO/PL)
+  * [Sistemas de Representação de Conhecimento e Raciocínio](4ºANO/SRCR)
