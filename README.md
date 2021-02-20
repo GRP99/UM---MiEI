@@ -3,9 +3,9 @@
 	<h1><strong>UM---MiEI</strong></h1>
 </div>
 
-No decorrer do Mestrado Integrado em Engenharia Informática na Universidade do Minho nas unidades curriculares a seguir apresentadas foi exigido a concretização de projetos. Assim, encontra-se a lista dessas UC.
+No decorrer do Mestrado Integrado em Engenharia Informática na Universidade do Minho nas unidades curriculares a seguir apresentadas foi exigido a concretização de projetos. Assim, encontra-se a lista dessas UC's.
 
-Para além disso, em algumas das unidades curriculares estão também anexados exercícios práticos realizados bem como os colaboradores que contribuíram para a realização dos mesmos.
+Para além disso, em algumas das UC's estão também anexados exercícios práticos realizados bem como os colaboradores que contribuíram para a realização dos projetos.
 
 ## 1.º ano
   * [Programação Funcional](1ºANO/PF)
@@ -31,3 +31,12 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
   * [Modelos Estocásticos de Investigação Operacional](3ºANO/MEIO)
   * [Processamento de Linguagens](3ºANO/PL)
   * [Sistemas de Representação de Conhecimento e Raciocínio](3ºANO/SRCR)
+  
+## 4.º ano
+**Perfis: Engenharia do Conhecimento(EC) & Processamento de Linguagens e Conhecimento(PLC)**
+  * [Base de Dados NoSQL](4ºANO/BDNSQL)
+  * [Inteligência Ambiente-Tecnologias e Aplicações](4ºANO/IATA)
+  * [EC - Análise de Dados](4ºANO/EC_AD)
+  * [EC - Administração e Exploração de Bases de Dados](4ºANO/EC_AEBD)
+  * [PLC - Gramáticas na Compreensão de Software](4ºANO/PLC_GCS)
+  * [PLC - Processamento e Representação de Informação](4ºANO/PLC_PRI)
