@@ -12,3 +12,9 @@ Para além disso, em algumas das unidades curriculares estão também anexados e
   * [Laboratórios de Informática I](1ºANO/LI.I)
   * [Laboratórios de Informática II](1ºANO/LI.II)
   * [Programação Imperativa](1ºANO/PI)
+
+## 2.º ano
+  * [Cálculo de Programas](2ºANO/CP)
+  * [Laboratórios de Informática III](2ºANO/LI.III)
+  * [Programação Orientada aos Objetos](2ºANO/POO)
+  * [Sistemas Operativos](2ºANO/SO)
