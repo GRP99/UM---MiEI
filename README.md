@@ -1,4 +1,5 @@
 <div align="center">
+	<img src="http://www4.di.uminho.pt/~jmf/IMAGES/um_eeng.gif" width="256" height="256">
 	<h1><strong>UM---MiEI</strong></h1>
 </div>
 
