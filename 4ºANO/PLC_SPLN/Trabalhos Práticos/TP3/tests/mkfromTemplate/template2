@@ -1,0 +1,29 @@
+=== meta
+email: grupo02@di.uminho.pt
+author: Grupo02
+
+
+=== tree
+{%name%}/
+- testes/
+
+-- a/
+--- testea1
+--- testea2
+--- testea3
+
+-- b/
+--- certo
+
+-- c/
+--- falso
+
+
+=== falso
+ficheiro do {%author%}
+
+=== certo 
+email é {%email%}
+
+=== testea2
+um de 3 testes

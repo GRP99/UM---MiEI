@@ -1,0 +1,91 @@
+extends layout
+
+block content
+	script(src='/javascripts/prevent_back.js')
+
+	if alert == 1
+		script.
+			if (window.confirm('The location with the id: #{id_removed} was successfully removed.'))
+			{
+				history.pushState(null, "", location.href.split("?")[0]);
+			}
+			else
+			{
+				history.pushState(null, "", location.href.split("?")[0]);
+			}
+
+	if inserted == 1
+		script.
+			if (window.confirm('A new location was successfully inserted.'))
+			{
+				history.pushState(null, "", location.href.split("?")[0]);
+			}
+			else
+			{
+				history.pushState(null, "", location.href.split("?")[0]);
+			}
+
+	#content
+		header
+			.container-fluid
+				.row
+					.col-md-3
+						.full
+							a.logo(href='/homepage')
+								img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+					.col-md-9
+						.full
+							div(class='right_header_info')
+								ul
+									li 
+										button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/manage';")
+											i(class = "fa fa-home" style="color:white;font-size:25px;")
+									li
+										button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/logout';")
+											i(class = "fa fa-sign-out" style="color:white;font-size:25px;")
+
+		about
+			.container
+				.row
+					.col-md-12
+						.title(style='margin-top: 150px')
+							i(class="fa fa-user-secret" style="font-size:32px; color:#191918;")
+							h2 Admin room
+							span(style="color:orange") Locations
+
+				.row
+					.col-md-12
+						table(id="admin2" style="text-align:center")
+
+							button(class="btn btn-light" onclick="location.href='/admin/manage/admin_location_insert/'") Add more   
+								i(class="fa fa-plus-square" style="font-size:18px;")
+							thead
+								tr
+									th
+									th Location ID
+									th Location
+									th Number of Cocktails
+									th
+									th
+							tbody
+								each l in locations
+									if l.idLocation != 'withoutlocation'
+										tr(id=l.idLocation)
+											td
+												img(src="/images/icons/placeholder.png")
+											td=l.idLocation
+											td
+												a(href="/admin/manage/locations/" + l.idLocation)=l.strLocation
+											td=l.totalOfCocktails
+											td
+												button(class="button-transparent" onclick="deleteLocation(\""+l.idLocation+"\")")
+													i(class="fa fa-trash" style="font-size:18px;")
+
+											td
+												button(class="button-transparent" onclick="location.href='/admin/manage/locations/" + l.idLocation + "'")
+													i(class="fa fa-info-circle" style="font-size:18px;")
+		footer
+			.copyright
+				.container
+					p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+	.overlay

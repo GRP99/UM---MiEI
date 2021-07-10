@@ -1,0 +1,25 @@
+=== DIÁRIO DE BORDO :: AULA 12 [17 de Maio DE 2021]
+
+    + Intervenientes:
+        * Diario de Bordo: João Gomes
+
+    + Aula
+        1. Continuação das apresentações dos TP2.
+                1.1 Primeiro grupo apresentou o modulos: BeautifulSoup e LXML.
+                1.2 Segundo grupo apresentou o modulos de GUI: Tkinter, PySimpleGUI e PyGame.
+                1.3 Terceiro grupo apresentou o modulo de Pickle.
+
+        2. Web Scraping exemplos:
+                - obter informação sobre o mercado financeiro;
+                - obter informações sobre ofertas de emprego;
+
+        3. WebScrape do URL: jonsay.co.uk
+
+
+    + Para a próxima aula:
+
+        - Preparar o enunciado para o TP3
+            - arranjar uma ideia de um projeto que consuma dados em formato de texto e faça uso dos vários modulos que foram apresentados para o TP2.
+            - apresentar na próxima aula a ideia para o tp3 em espécie de brainstorming 
+        
+

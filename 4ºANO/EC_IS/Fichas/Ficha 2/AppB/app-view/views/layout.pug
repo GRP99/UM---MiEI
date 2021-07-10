@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		title Aplicação B
+		link(rel='stylesheet' href='/stylesheets/tables.css')
+		link(rel='stylesheet' href='/stylesheets/mystyle.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+		script(src='/javascripts/script.js')
+	body
+		.navbar
+			a(href="/")
+				img(src="/images/logo.jpg" alt="home" style="width:100px; height:40px;")
+			a(href='/relatorio') Publicar Relatório
+			.dropdown
+				button(class="dropbtn") Pedidos 
+					i(class="fa fa-angle-down" aria-hidden="true")
+				.dropdown-content
+					a(href='/pedidos?estado=Por_Realizar') Por Realizar
+					a(href='/pedidos?estado=Cancelados') Cancelados
+					a(href='/pedidos?estado=Finalizados') Finalizados
+			a(href='/episodios') Episódios
+		.main
+			block content 

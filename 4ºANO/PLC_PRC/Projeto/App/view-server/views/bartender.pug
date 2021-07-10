@@ -1,0 +1,287 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/profile.css')
+    if comment != 0
+        if comment == 1
+            script.
+                if (window.confirm('The comment was sucessfully added.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+
+        if comment == 2
+            script.
+                if (window.confirm('The comment was sucessfully removed.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    if level == 'none'
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/login') Login
+                                            a.button(href='http://localhost:7301/users/register') Register
+                                    else
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/myprofile') My profile
+                                            a.button(href='http://localhost:7301/users/logout') Log out
+                                    li
+                                        form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+                                            input(type='search' name='search' value='' placeholder='Search')
+                                    li
+                                        button#sidebarCollapse(type='button')
+                                            img(src='/images/menu_icon.png' alt='#')
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px') #{name}
+                            span(style="color:orange") #{tipo} Info
+
+                            span(style='margin-top: 20px')
+                                if level == 'none'
+                                    button.btn(style='margin-right:10px;color: #AAA;' onclick="location.href='http://localhost:7301/users/login';")
+                                        i(aria-hidden='true' class='fa fa-thumbs-up')
+                                        t   #{mongo.likes.count}
+                                    button.btn(style='color: #AAA;'  onclick="location.href='http://localhost:7301/users/login';")
+                                        i(aria-hidden='true' class='fa fa-thumbs-down')
+                                        t   #{mongo.dislikes.count}
+                                else 
+                                    button.btn(style='margin-right:10px; color: #AAA;' onclick='likeBartender("' + bartender.idBartender + '")')
+                                        - var found_likes = 0
+                                        for a in mongo.likes.authors
+                                            if a == user_id
+                                                - found_likes = 1
+                                        if found_likes == 1
+                                            i(aria-hidden='true' id='like' class='fa fa-thumbs-up fill')
+                                        else 
+                                            i(aria-hidden='true' id='like' class='fa fa-thumbs-up')
+
+                                        t   
+                                        t(id='count_like') #{mongo.likes.count}
+
+                                    button.btn(style='color: #AAA;' onclick='dislikeBartender("' + bartender.idBartender + '")')
+                                        - var found_dislikes = 0
+                                        for a in mongo.dislikes.authors 
+                                            if a == user_id 
+                                                - found_dislikes = 1
+                                        if found_dislikes == 1
+                                            i(aria-hidden='true' id='dislike' class='fa fa-thumbs-down fill')
+                                        else    
+                                            i(aria-hidden='true' id='dislike' class='fa fa-thumbs-down')
+
+                                        t   
+                                        t(id='count_dislike') #{mongo.dislikes.count}
+
+                                span(style='margin-top: 20px')
+                                    a(href='#comment_section')
+                                        i
+                                            img(src='/images/icons/comments.png')
+
+
+                .row
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                .d-flex.flex-column.align-items-center.text-center
+                                    img(src="/images/" + image + ".png" alt="Avatar" width="320" height="320")
+                                    .mt-3
+                                        h4 #{name}
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    t(style="color:goldenrod") Cocktails 
+                                    t associated
+                                table(id="individual" style="text-align:center")
+                                    thead
+                                        tr
+                                            th Cocktail
+                                            th
+                                    tbody
+                                        each cc in bartender.Cocktails
+                                            tr 
+                                                td=cc.strDrink
+                                                td
+                                                    button(type="button" class="btn btn-secondary btn-sm" onclick="location.href='/cocktails/" + cc.idDrink + "'") Find More
+
+
+                .row(style="margin-top:50px" id='comment_section')
+                    .col-md-12
+                        .title
+                            i
+                                img(src='/images/icons/comments.png')
+                            h3(style="font-size: 28px") Review Section
+
+                            if level != 'none'
+                                button(class="btn btn-light" onclick='openComment()') Add review 
+                                    i(class="fa fa-plus-square" style="font-size:18px;")
+
+                // comments
+                .card
+                    .card-body(style='background-color:#F8F8F8')
+                        #commentSection
+                            if first_review == 'none'
+                                textsecundary No reviews found for this bartender
+                            else
+                                - var c = 1
+                                #carouselReviews.carousel.slide(data-interval="false")
+                                    .carousel-inner
+                                        .carousel-item.active
+                                            for r in first_review
+                                                h5(style='margin: 0px; padding:0px') 
+                                                    b #{r.author} 
+                                                    t commented:
+                                                span(style='margin:0px')
+                                                    span(style='margin:0px')
+                                                        if r.classification >= 1
+                                                            span(class="fa fa-star checked") 
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 2
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 3
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 4
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 5
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                    t(style='float:right')=r.publication_date
+
+                                                div(class="container-comment")
+                                                    p(style='color:black')=r.review
+
+                                                        if user_id == r.author
+                                                            button(style='float:right' class="button-transparent" onclick="deleteReviewBartender(\""+r._id+"\",\"" + bartender.idBartender + "\")")
+                                                                i(class="fa fa-trash" style="font-size:18px;")
+
+                                        for list in reviews
+                                            .carousel-item
+                                                for r in list
+                                                    h5(style='margin: 0px; padding:0px')
+                                                        b #{r.author} 
+                                                        t commented:
+                                                    span(style='margin:0px')
+                                                        span(style='margin:0px')
+                                                            if r.classification >= 1
+                                                                span(class="fa fa-star checked") 
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 2
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 3
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 4
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 5
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                        t(style='float:right')=r.publication_date
+
+                                                    div(class="container-comment")
+                                                        p(style='color:black')=r.review
+
+
+                                                            if user_id == r.author
+
+                                                                button(style='float:right' class="button-transparent" onclick="deleteReviewBartender(\""+r._id+"\",\"" + bartender.idBartender + "\")")
+                                                                    i(class="fa fa-trash" style="font-size:18px;")
+
+
+                                    h3.text-secundary(style="text-align:center")
+                                        button(href='#carouselReviews' class="button-transparent" role='button' data-slide='prev' style='float:left')
+                                            i(class = "fa fa-arrow-left")    
+                                        button(href='#carouselReviews' class="button-transparent" role='button' data-slide='next' style='float:right')
+                                            i(class = "fa fa-arrow-right")
+
+                            //
+                                h5 User Commented:
+                                div(class="container-comment")
+                                    pre Sweet! So, what do you wanna do today?
+                                h5 User Commented:
+                                div(class="container-comment")
+                                    pre Sweet! So, what do you wanna do today?
+
+                        #formComment(style='display:none')
+                            form(onsubmit="return confirm(&quot;Do you want to leave this review ?&quot;)" action='http://localhost:7300/dbbartenders/reviews/' + bartender.idBartender + '?token=' + token, method='POST')
+                                h4 Add review
+                                label(class="form-label") Rating 
+                                .rating-comment
+                                    input#rating-5(type='radio' name='classification' value='5')
+                                    label(for='rating-5')
+                                        i(class="fa fa-star")
+                                    input#rating-4(type='radio' name='classification' value='4' checked='')
+                                    label(for='rating-4')
+                                        i(class="fa fa-star")
+                                    input#rating-3(type='radio' name='classification' value='3')
+                                    label(for='rating-3')
+                                        i(class="fa fa-star")
+                                    input#rating-2(type='radio' name='classification' value='2')
+                                    label(for='rating-2')
+                                        i(class="fa fa-star")
+                                    input#rating-1(type='radio' name='classification' value='1')
+                                    label(for='rating-1')
+                                        i(class="fa fa-star")
+
+                                label(class="form-label") Review     
+                                textarea.form-control(name='review' rows="3" cols="50" style="resize:none")
+
+
+
+                                p
+                                    button(style="float:right; margin-left:10px" class="btn btn-primary btn-sm" type="submit") Submit
+                                    btn(style='float:right' class='btn btn-secondary btn-sm' type='button' onclick="removeComment()") Cancel
+
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+        // end footer
+        // end footer
+    .overlay

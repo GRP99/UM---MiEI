@@ -1,0 +1,44 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+    header.w3-container.w3-blue
+        h3.w3-center Lista de Trabalho
+
+    if(dados.length > 0)
+        .w3-container
+            table.w3-table.w3-bordered(style="width: 100%; border: 1px solid black;")
+                tr(style="border: 1px solid black;")
+                    th(style="border: 1px solid black;text-align:center") ID_Pedido
+                    th(style="border: 1px solid black;text-align:center") ID_Exame
+                    th(style="border: 1px solid black;text-align:center") ID_Paciente
+                    th(style="border: 1px solid black;text-align:center") Data_Hora
+                    th(style="border: 1px solid black;text-align:center") Episódio
+                    th(style="border: 1px solid black;text-align:center") Estado
+                    th(style="text-align:center") Cancelar Pedido
+                each d in dados
+                    tr(style="border: 1px solid black;")
+                        td(style="border: 1px solid black;text-align:center")= d.idpedido
+                        td(style="border: 1px solid black;text-align:center")
+                            a(href='/exame/'+d.fk_exame)= d.fk_exame
+                        td(style="border: 1px solid black;text-align:center")
+                            a(href='/paciente/'+d.fk_paciente)= d.fk_paciente
+                        td(style="border: 1px solid black;text-align:center")= d.data_hora
+                        td(style="border: 1px solid black;text-align:center")
+                            a(href='/episodio/'+d.fk_episodio)= d.fk_episodio
+                        td(style="border: 1px solid black;text-align:center")= d.estado
+                        if(d.estado != "Cancelado")
+                            td(style="text-align:center")
+                                form(action='/cancelarpedido' method='POST')
+                                    input(type='hidden' name='id_pedido' value=d.fk_pedido)
+                                    input(type='hidden' name='idlistatrabalho' value=d.idlistatrabalho)
+                                    input.w3-button.w3-red.w3-circle(type='submit' value='X')
+                        else
+                            td(style="text-align:center")
+
+    else
+        .w3-container
+            p Ainda não há pedidos por realizar...
+
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/") Voltar à página principal

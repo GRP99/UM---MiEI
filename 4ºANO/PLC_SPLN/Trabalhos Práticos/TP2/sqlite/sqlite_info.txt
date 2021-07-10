@@ -1,0 +1,21 @@
+Context:
+	SQLite is a self-contained, file-based SQL database. SQLite comes bundled with Python and can be used in any of your Python applications without having to install any additional software.
+	SQLite is often the technology of choice for small applications, particularly those of embedded systems and devices like phones and tablets, smart appliances, and instruments.
+	Provides a lightweight disk-based database that doesn’t require a separate server process and allows accessing the database using a nonstandard variant of the SQL query language.
+Install:
+	You don't need to install sqlite3 module. It is included in the standard library (since Python 2.5).
+	You can also check the documentation by executing $ pydoc sqlite3
+Import:
+	import sqlite3
+Connection and Cursors over Connections:
+	con = sqlite3.connect('teste.db')
+	
+We can also use sqlite3 as command interpreter. As well for storing data without python -> Create Tables.
+Pros - Ease of use
+     - Good for IOT projects and local/offline projects
+     - Brings data consistency and structure
+     - Advantages of SQL are implicit here (SQL language pe)
+Cons
+     - BIG projects and BIG data 
+     
+	

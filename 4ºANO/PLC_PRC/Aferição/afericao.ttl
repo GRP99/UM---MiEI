@@ -1,0 +1,661 @@
+@prefix : <http://www.di.uminho.pt/prc2021/afericao#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/afericao> .
+
+<http://www.di.uminho.pt/prc2021/afericao> rdf:type owl:Ontology ;
+                                            rdfs:comment "Ontologia OWL para modelar o universo da gestão de condomónios" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/afericao#arredentario
+:arredentario rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#originaDespesa
+:originaDespesa rdf:type owl:ObjectProperty ;
+                rdfs:domain :Fornecedor ;
+                rdfs:range :Despesa .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#originaReceita
+:originaReceita rdf:type owl:ObjectProperty ;
+                rdfs:domain :Fracao ;
+                rdfs:range :Receita .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#pagamento
+:pagamento rdf:type owl:ObjectProperty ;
+           rdfs:domain :Fracao ;
+           rdfs:range :Mes .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#proprietario
+:proprietario rdf:type owl:ObjectProperty ;
+              rdfs:domain :Pessoa ;
+              rdfs:range :Fracao .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/afericao#data
+:data rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#descricao
+:descricao rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#email
+:email rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#mensalidade
+:mensalidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#permilagem
+:permilagem rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#telefone
+:telefone rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#tipo
+:tipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#valor
+:valor rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/afericao#Despesa
+:Despesa rdf:type owl:Class ;
+         rdfs:subClassOf :Livro .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Fornecedor
+:Fornecedor rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Fracao
+:Fracao rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Livro
+:Livro rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Mes
+:Mes rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Receita
+:Receita rdf:type owl:Class ;
+         rdfs:subClassOf :Livro .
+
+#################################################################
+#    Individuals
+#################################################################
+###  http://www.di.uminho.pt/prc2021/afericao#Jan
+:Jan rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Fev
+:Fev rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Mar
+:Mar rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Abr
+:Abr rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Mai
+:Mai rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Jun
+:Jun rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Jul
+:Jul rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Ago
+:Ago rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Set 
+:Set  rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Out
+:Out rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Nov
+:Nov rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Dez
+:Dez rdf:type owl:NamedIndividual ,
+              :Mes . 
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D001
+:D001 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-01-04" ;
+   :valor 7.28 ;
+   :descricao "Manutenção da conta" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R002
+:R002 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-01-06" ;
+   :valor 64.00 ;
+   :descricao "Janeiro" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R003
+:R003 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-01-06" ;
+   :valor 406.62 ;
+   :descricao "Abril a Dezembro de 2019" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D004
+:D004 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-01-08" ;
+   :valor 222.65 ;
+   :descricao "Luz" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R005
+:R005 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-01-16" ;
+   :valor 45.18 ;
+   :descricao "Janeiro" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D006
+:D006 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-02-01" ;
+   :valor 7.28 ;
+   :descricao "Manutenção da conta" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R007
+:R007 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-02-04" ;
+   :valor 64.00 ;
+   :descricao "Fevereiro" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R008
+:R008 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-02-06" ;
+   :valor 64.00 ;
+   :descricao "Fevereiro" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D009
+:D009 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-01-20" ;
+   :valor 439.77 ;
+   :descricao "Manutenção dos elevadores: 1º trimestre" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R010
+:R010 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-02-12" ;
+   :valor 384.00 ;
+   :descricao "Janeiro, Fevereiro e Março" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R011
+:R011 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-02-20" ;
+   :valor 45.18 ;
+   :descricao "Fevereiro" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D012
+:D012 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-02-24" ;
+   :valor 20.00 ;
+   :descricao "Concerto do trinco da porta" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D013
+:D013 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-02-24" ;
+   :valor 174.30 ;
+   :descricao "Inspeção dos elevadores" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R014
+:R014 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-02-24" ;
+   :valor 194.30 ;
+   :descricao "Acertos: Janeiro, Fevereiro, Março, Abril e 13.58 de Maio" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R015
+:R015 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-03-11" ;
+   :valor 271.08 ;
+   :descricao "Janeiro a Junho" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D016
+:D016 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-03-11" ;
+   :valor 1655.00 ;
+   :descricao "Reparação das fachadas" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R017
+:R017 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-02-26" ;
+   :valor 64.00 ;
+   :descricao "Março" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R018
+:R018 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-02-29" ;
+   :valor 542.16 ;
+   :descricao "Janeiro a Dezembro" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D019
+:D019 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-03-04" ;
+   :valor 236.59 ;
+   :descricao "Luz" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R020
+:R020 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-03-06" ;
+   :valor 64.00 ;
+   :descricao "Março" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D021
+:D021 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-03-07" ;
+   :valor 7.28 ;
+   :descricao "Manutenção da conta" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R022
+:R022 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-03-15" ;
+   :valor 45.18 ;
+   :descricao "Março" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R023
+:R023 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-03-30" ;
+   :valor 64.00 ;
+   :descricao "Abril " .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D024
+:D024 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-04-04" ;
+   :valor 7.28 ;
+   :descricao "Manutenção da conta" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R025
+:R025 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-04-06" ;
+   :valor 64.00 ;
+   :descricao "Abril" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R026
+:R026 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-04-07" ;
+   :valor 225.90 ;
+   :descricao "Abril a Agosto" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R027
+:R027 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-04-14" ;
+   :valor 45.18 ;
+   :descricao "Abril" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D028
+:D028 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-04-15" ;
+   :valor 207.98 ;
+   :descricao "Luz Comum" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D029
+:D029 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-04-15" ;
+   :valor 1080.00 ;
+   :descricao "Limpeza 2020" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R030
+:R030 rdf:type owl:NamedIndividual ,
+            :Receita ;
+   :data "2020-04-15" ;
+   :valor 542.16 ;
+   :descricao "Janeiro a Dezembro" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#D031
+:D031 rdf:type owl:NamedIndividual ,
+            :Despesa ;
+   :data "2020-04-01" ;
+   :valor 439.77 ;
+   :descricao "Manutenção dos elevadores: 2º trimestre" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#A
+:A rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :descricao "Loja" ;
+   :permilagem 50 ;
+   :mensalidade "6.06" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#F
+:F rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ,
+              :Abr ;
+   :originaReceita :R014 ;
+   :descricao "1º Dto" ;
+   :permilagem 24 ;
+   :mensalidade "36.45" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#G
+:G rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ;
+   :descricao "1º Esq" ;
+   :permilagem 34 ;
+   :mensalidade "51.63" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#H
+:H rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :originaReceita :R003 ;
+   :descricao "2º Dto" ;
+   :permilagem 24 ;
+   :mensalidade "36.45" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#I
+:I rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ,
+              :Abr ,
+              :Mai ,
+              :Jun ,
+              :Jul ,
+              :Ago ,
+              :Set ,
+              :Out ,
+              :Nov ,
+              :Dez ;
+   :originaReceita :R018 ;
+   :descricao "3º Dto" ;
+   :permilagem 24 ;
+   :mensalidade "36.45" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#J
+:J rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ;
+   :descricao "3º Esq" ;
+   :permilagem 34 ;
+   :mensalidade "51.63" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#L
+:L rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ,
+              :Abr ,
+              :Mai ,
+              :Jun ,
+              :Jul ,
+              :Ago ,
+              :Set ,
+              :Out ,
+              :Nov ,
+              :Dez ;
+   :originaReceita :R030 ;
+   :descricao "4º Dto" ;
+   :permilagem 24 ;
+   :mensalidade "36.45" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#M
+:M rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ,
+              :Abr ,
+              :Mai ,
+              :Jun ;
+   :originaReceita :R015 ;
+   :descricao "5º Dto" ;
+   :permilagem 24 ;
+   :mensalidade "36.45" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#N
+:N rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ,
+              :Abr ;
+   :originaReceita :R007 ,
+              :R017 ,
+              :R023 ;
+   :descricao "5º Esq" ;
+   :permilagem 34 ;
+   :mensalidade "51.63" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#O
+:O rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ,
+              :Abr ,
+              :Mai ,
+              :Jun ,
+              :Jul ,
+              :Ago ;
+   :originaReceita :R026 ;
+   :descricao "6º Dto" ;
+   :permilagem 24 ;
+   :mensalidade "36.45" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#P
+:P rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ,
+              :Abr ;
+   :originaReceita :R005 ,
+              :R011 ,
+              :R022 ,
+              :R027 ;
+   :descricao "7º Dto" ;
+   :permilagem 24 ;
+   :mensalidade "36.45" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Q
+:Q rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :pagamento :Jan ,
+              :Fev ,
+              :Mar ,
+              :Abr ;
+   :originaReceita :R002 ,
+              :R008 ,
+              :R020 ,
+              :R025 ;
+   :descricao "7º Esq" ;
+   :permilagem 34 ;
+   :mensalidade "51.63" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#R
+:R rdf:type owl:NamedIndividual ,
+            :Fracao ;
+   :descricao "8º Dto" ;
+   :permilagem 24 ;
+   :mensalidade "36.45" .
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#CGD
+:CGD rdf:type owl:NamedIndividual ,
+                  :Fornecedor ;
+         :originaDespesa :D001,
+           :D006,
+           :D021,
+           :D024.
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#EDP
+:EDP rdf:type owl:NamedIndividual ,
+                  :Fornecedor ;
+         :originaDespesa :D004,
+           :D019.
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Kone
+:Kone rdf:type owl:NamedIndividual ,
+                  :Fornecedor ;
+         :originaDespesa :D009,
+           :D031.
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Serralheiro
+:Serralheiro rdf:type owl:NamedIndividual ,
+                  :Fornecedor ;
+         :originaDespesa :D012.
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#CMB
+:CMB rdf:type owl:NamedIndividual ,
+                  :Fornecedor ;
+         :originaDespesa :D013.
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#PluriRapel
+:PluriRapel rdf:type owl:NamedIndividual ,
+                  :Fornecedor ;
+         :originaDespesa :D016.
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Vizinhos
+:Vizinhos rdf:type owl:NamedIndividual ,
+                  :Fornecedor ;
+         :originaDespesa :D028.
+
+
+###  http://www.di.uminho.pt/prc2021/afericao#Limpeza
+:Limpeza rdf:type owl:NamedIndividual ,
+                  :Fornecedor ;
+         :originaDespesa :D029.
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

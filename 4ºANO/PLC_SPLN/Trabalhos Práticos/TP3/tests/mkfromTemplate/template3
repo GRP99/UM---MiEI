@@ -1,0 +1,147 @@
+=== meta
+email: grupo02@di.uminho.pt
+author: Grupo02
+description: Parsing noticias mais recentes
+url: https://github.com/Barca88/SPLN2021
+
+
+=== tree
+{%name%}/
+- {%name%}/
+-- __init__.py
+-- __main__.py
+-- config.txt
+-- extract.py
+-- viewer.py
+- tests/
+-- test_extract.py
+-- test_viewer.py
+- setup.py
+- LICENSE
+- README.md
+- .gitignore
+
+
+=== __init__.py
+__version__ = "1.0.0"
+
+
+=== __main__.py
+import {%name%}
+from {%name%} import extract
+from {%name%} import viewer
+
+def main():
+    viewer.show(extract.get_articles("https://feeds.feedburner.com/PublicoRSS"))
+
+if __name__ == "__main__":
+    main()
+
+
+=== extract.py
+import requests as reqs
+from bs4 import BeautifulSoup
+
+def get_articles(url):
+    list_articles = []
+    noticias = BeautifulSoup(reqs.get(url).text, 'html.parser').find_all('title')[1:]
+    for noticia in noticias :
+        list_articles.append(noticia.text)
+    return list_articles
+
+
+=== viewer.py
+def show(articles):  
+    print(articles)
+
+
+=== test_extract.py
+from {%name%} import extract
+
+
+=== test_viewer.py
+from {%name%} import viewer
+
+
+=== LICENSE
+MIT License
+
+Copyright (c) 2021 {%author%}
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+=== .gitignore
+__pycache__/
+
+
+=== setup.py
+"""Setup script for {%name%}"""
+
+import os.path
+from setuptools import setup
+
+# The directory containing this file
+HERE = os.path.abspath(os.path.dirname(__file__))
+
+# The text of the README file
+with open(os.path.join(HERE, "README.md")) as fid:
+    README = fid.read()
+
+# This call to setup() does all the work
+setup(
+    name="{%name%}",
+    version="1.0.0",
+    description="{%description%}",
+    long_description=README,
+    long_description_content_type="text/markdown",
+    url="{%url%}",
+    author="{%author%}",
+    author_email="{%email%}",
+    license="MIT",
+    classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+    ],
+    packages=["{%name%}"],
+    include_package_data=True,
+    install_requires=[
+        "requests", "bs4"
+    ],
+    entry_points={"console_scripts": ["{%name%}={%name%}.__main__:main"]},
+)
+
+=== README.md
+# {%name%}
+
+The {%name%} is a ...
+
+For more information see the ...
+
+## Installation
+
+You can install the {%name%} from [PyPI](https://pypi.org/project/{%name%}/):
+
+    pip install 
+
+The {%name%} is supported on Python 
+
+## How to use
+
+The {%name%} is a ...

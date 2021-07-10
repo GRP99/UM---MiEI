@@ -1,0 +1,57 @@
+Sobre a ontologia criada, especifica queries SPARQL que respondam às seguintes questões:
+
+    1. Que entidades (receitas e despesas) estão referenciadas na ontologia?
+        PREFIX : <http://www.di.uminho.pt/prc2021/afericao#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+        SELECT ?e ?tipo ?data ?valor ?descricao WHERE {
+            ?tipo rdfs:subClassOf :Livro .
+            ?e rdf:type ?tipo .
+            ?e :data ?data .
+            ?e :valor ?valor .
+            ?e :descricao ?descricao .
+        }
+
+    2. Que frações não pagaram o mês de Abril de 2020?
+        PREFIX : <http://www.di.uminho.pt/prc2021/afericao#>
+
+        SELECT ?f ?descricao WHERE {
+            ?f a :Fracao .
+            MINUS {
+                ?f :pagamento :Abr .
+            }
+            ?f :descricao ?descricao .
+        }
+
+    3. Para as despesas, qual o montante por entidade já dispendido?
+        PREFIX : <http://www.di.uminho.pt/prc2021/afericao#>
+
+        SELECT ?fornecedor (SUM(?valor) AS ?montante) WHERE {
+            ?d a :Despesa .
+            ?d :valor ?valor .
+            ?fornecedor :originaDespesa ?d
+        } GROUP BY ?fornecedor
+
+    4. Qual a receita líquida que se pode concluir do mapa de pagamento (contando apenas as mensalidades pagas)?
+        PREFIX : <http://www.di.uminho.pt/prc2021/afericao#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+        SELECT (SUM(?montante) AS ?receita) WHERE {
+            SELECT ?f (xsd:float(COUNT(?mes))*xsd:float(?mensalidade) AS ?montante) WHERE{
+                ?f a :Fracao .
+                ?f :mensalidade ?mensalidade .
+                ?f :pagamento ?mes .
+            } GROUP BY ?f ?mensalidade
+        }
+
+    5. Do mapa de pagamento, qual o montante pago por cada uma das frações?
+        PREFIX : <http://www.di.uminho.pt/prc2021/afericao#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+        SELECT ?f (xsd:float(COUNT(?mes))*xsd:float(?mensalidade) AS ?montante) WHERE{
+            ?f a :Fracao .
+            ?f :mensalidade ?mensalidade .
+            ?f :pagamento ?mes .
+        } GROUP BY ?f ?mensalidade
+

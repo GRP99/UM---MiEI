@@ -1,0 +1,419 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/profile.css')
+    script(src='/javascripts/prevent_back.js')
+
+    if alert_edited == 'true'
+        script.
+            if (window.confirm('This cocktail was sucessfully edited.'))
+            {
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+            else
+            {
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+
+    if changed_photo == 'true'
+        script.
+            if (window.confirm('The drink thumb (cocktail picture) was sucessfully changed.'))
+            {
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+            else
+            {
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+
+    if alert_garnsih != ''
+        if alert_garnish == '1'
+            script.
+                if (window.confirm('The garnish ingredient was sucessfully added.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+
+        if alert_garnish == '2'
+            script.
+                if (window.confirm('The garnish ingredient was sucessfully removed.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+
+
+    if alert_ingredient != ''
+        if alert_ingredient == '1'
+            script.
+                if (window.confirm('The ingredient was sucessfully added.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+
+        if alert_ingredient == '2'
+            script.
+                if (window.confirm('The ingredient was sucessfully removed.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+
+    if comment == 1
+        script.
+            if (window.confirm('The comment was sucessfully removed.'))
+            {
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+            else
+            {
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/manage';")
+                                            i(class = "fa fa-home" style="color:white;font-size:25px;")
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/logout';")
+                                            i(class = "fa fa-sign-out" style="color:white;font-size:25px;")
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px') #{cocktail.strDrink}
+                            span
+                                t(style="color:orange") Cocktail Info 
+                            span(style='margin-top: 20px')
+                                button(class="button-transparent" style='margin-right:10px' onclick="deleteCocktail(\""+cocktail.idDrink+"\")")
+                                    i(class="fa fa-trash" style="font-size:20px;")
+                                button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/manage/admin_cocktail_edit/" + cocktail.idDrink + "';")
+                                    i(class="fa fa-pencil" style="font-size:20px;")
+                            span(style='margin-top: 20px')
+                                a(href='#comment_section')
+                                    i
+                                        img(src='/images/icons/comments.png')
+                .row
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                #photo.d-flex.flex-column.align-items-center.text-center
+                                    if cocktail.drinkThumb == ''
+                                        #pd.container-photo
+                                            img(src="/images/cocktail_bg.png" alt="Avatar" width="320" height="320")
+                                            .overlay-photo
+                                                i(class="icon-photo fa fa-pencil" onclick="mudafoto(\"" + cocktail.idDrink + "\");")
+                                    else
+                                        #pd.container-photo
+                                            img(src=cocktail.drinkThumb alt="Avatar" width="320" height="320")
+                                            .overlay-photo
+                                                i(class="icon-photo fa fa-pencil" onclick="mudafoto(\"" + cocktail.idDrink + "\");")
+                                    .mt-3
+                                        h4 #{cocktail.strDrink}
+                                        if cocktail.notes != ''
+                                            p.text-secondary.mb-1=cocktail.notes
+                                        else
+                                            p.text-secondary.mb-1 This cocktail has no notes
+
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    img(src="/images/icons/lemon.png")
+                                    t     Garnish with
+                                    button(type='button' style="float:right" class="button-transparent" onclick='addGarnish()')
+                                        i(class="fa fa-plus-square" style="font-size:20px;")
+
+                                #formGarnish(style='display:none')
+                                    form(onsubmit="return confirm(&quot;Do you want to add this Ingredient as garnish?&quot;)" action='http://localhost:7300/cocktails/' + cocktail.idDrink + '/addGarnish?token=' + token, method='POST')
+                                        h4 Add Garnish Ingredient
+                                        div(class='row')
+                                            div(class='col')
+                                                select.form-control(name='ingredient')
+                                                    for i in garnish
+                                                        option(value=i.idIngredient)=i.strIngredient
+
+
+                                        p
+                                            button(style="float:right; margin-left:10px" class="btn btn-primary btn-sm" type="submit") Submit
+                                            btn(style='float:right' class='btn btn-secondary btn-sm' type='button' onclick="removeChildGarnish()") Cancel
+
+                                #tableGarnish
+                                    table(id="example3" style="text-align:center")
+                                        thead
+                                            tr
+                                                th Ingredient
+                                                th
+                                        tbody
+                                            each ig in cocktail.GarnishWith
+                                                tr 
+                                                    td=ig.strIngredient
+                                                    td
+                                                        button(class="button-transparent" onclick="deleteGarnish(\""+cocktail.idDrink+"\", \""+ig.idIngredient+"\")")
+                                                            i(class="fa fa-trash" style="font-size:18px;")
+
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                .row
+                                    .col-sm-3
+                                        h5.mb-0 Alcoholic
+                                    if cocktail.Alcoholic == ''
+                                        t.text-secondary
+                                            i(class="fa fa-times" style="font-size:20px; color:red;")
+                                    else
+                                        t.text-secondary
+                                            i(class="fa fa-check" style="font-size:20px; color:green;") 
+                                hr
+                                .row
+                                    .col-sm-3
+                                        h5.mb-0 Category
+                                    if cocktail.Category.strCategory == ''
+                                        t.text-secondary No Category associated
+                                    else
+                                        a.text-secondary(href="/admin/manage/categories/" + cocktail.Category.idCategory)=cocktail.Category.strCategory
+                                hr
+                                .row
+                                    .col-sm-3
+                                        h5.mb-0 Bartender
+                                    if cocktail.Bartender.strBartender == ''
+                                        t.text-secondary No Bartender associated
+                                    else
+                                        a.text-secondary(href="/admin/manage/bartenders/" + cocktail.Bartender.idBartender)=cocktail.Bartender.strBartender
+                                hr
+                                .row
+                                    .col-sm-3
+                                        h5.mb-0 Bar
+                                    if cocktail.Bar_Company.strBar == ''
+                                        t.text-secondary No Bar associated
+                                    else
+                                        a.text-secondary(href="/admin/manage/bars/" + cocktail.Bar_Company.idBar)=cocktail.Bar_Company.strBar
+                                hr
+                                .row
+                                    .col-sm-3
+                                        h5.mb-0 Glassware
+                                    if cocktail.Glassware.strGlass == ''
+                                        t.text-secondary No Glassware associated
+                                    else
+                                        a.text-secondary(href="/admin/manage/glasswares/" + cocktail.Glassware.idGlass)=cocktail.Glassware.strGlass
+                                hr
+                                .row
+                                    .col-sm-3
+                                        h5.mb-0 Location
+                                    if cocktail.Location.strLocation == ''
+                                        t.text-secondary No Location associated
+                                    else
+                                        a.text-secondary(href="/admin/manage/locations/" + cocktail.Location.idLocation)=cocktail.Location.strLocation
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    img(src="/images/icons/fruits.png")
+                                    t     Ingredients - 
+                                    t(style="color:red")=cocktail.totIngredients
+                                    t  total
+                                    button(type='button' style="float:right" class="button-transparent" onclick='addIngredient()')
+                                        i(class="fa fa-plus-square" style="font-size:20px;")
+
+                                #formIngredients(style='display:none')
+                                    form(onsubmit="return confirm(&quot;Do you want to add this Ingredient?&quot;)" action='http://localhost:7300/cocktails/' + cocktail.idDrink + '/addIngredient?token=' + token, method='POST')
+                                        h4 Add Ingredient
+                                        div(class='row')
+                                            div(class='col')
+                                                label(class="form-label") Ingredient 
+                                                select.form-control(name='ingredient')
+                                                    for i in ingredients
+                                                        option(value=i.idIngredient)=i.strIngredient
+
+                                            div(class='col')
+                                                label(class="form-label") Quantity
+                                                input.form-control(type='num' name='quantity')
+
+                                            div(class='col')
+                                                label(class="form-label") Measure 
+                                                input.form-control(type='text' name='measure')
+
+                                        p
+                                            button(style="float:right; margin-left:10px" class="btn btn-primary btn-sm" type="submit") Submit
+                                            btn(style='float:right' class='btn btn-secondary btn-sm' type='button' onclick="removeChildIngredient()") Cancel
+
+                                #tableIngredients
+                                    table(id="example2" style="text-align:center")
+                                        thead
+                                            tr
+                                                th Ingredient
+                                                th Quantity - Measure
+                                                th
+                                        tbody
+                                            each i in cocktail.Ingredients
+                                                tr 
+                                                    td=i.strIngredient
+                                                    td #{i.quantity} - #{i.measure}
+                                                    td
+                                                        button(class="button-transparent" onclick="deleteIngredient(\""+cocktail.idDrink+"\", \"" + i.idIngredient + "\")")
+                                                            i(class="fa fa-trash" style="font-size:18px;")
+                .row(style="margin-top:50px")
+                    .col-md-12
+                        .title
+                            i
+                                img(src='/images/icons/book.png')
+                            h3(style="font-size: 28px") Preparation
+                            if cocktail.preparationEN == '' && cocktail.preparationDE == '' && cocktail.preparationIT == ''
+                                textsecundary No Preparations found for this cocktail
+                if cocktail.preparationEN != '' || cocktail.preparationDE != '' || cocktail.preparationIT != ''
+                    .row
+                        if cocktail.preparationEN != ''
+                            .col-xl-4.col-lg-4.col-md-4.col-sm-12.mar_bottom
+                                div(class="blog_box")
+                                    h4(style='text-align:center') Preparation English 
+                                    p=cocktail.preparationEN
+                        if cocktail.preparationDE != ''
+                            .col-xl-4.col-lg-4.col-md-4.col-sm-12.mar_bottom
+                                div(class="blog_box")
+                                    h4(style='text-align:center') Preparation Deutsh 
+                                    p=cocktail.preparationDE
+                        if cocktail.preparationIT != ''
+                            .col-xl-4.col-lg-4.col-md-4.col-sm-12.mar_bottom
+                                div(class="blog_box")
+                                    h4(style='text-align:center') Preparation Italian
+                                    p=cocktail.preparationIT
+
+
+                // Comment section
+                .row(style="margin-top:50px" id='comment_section')
+                    .col-md-12
+                        .title
+                            i
+                                img(src='/images/icons/comments.png')
+                            h3(style="font-size: 28px") Review Section
+
+
+                // comments
+                .card
+                    .card-body(style='background-color:#F8F8F8')
+                        #commentSection
+                            if first_review == 'none'
+                                textsecundary No reviews found for this cocktail
+                            else
+                                - var c = 1
+                                #carouselReviews.carousel.slide(data-interval="false")
+                                    .carousel-inner
+                                        .carousel-item.active
+                                            for r in first_review
+                                                h5(style='margin:0px; padding:0px') 
+                                                    b #{r.author} 
+                                                    t commented:
+                                                span(style='margin:0px')
+                                                    span(style='margin:0px')
+                                                        if r.classification >= 1
+                                                            span(class="fa fa-star checked") 
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 2
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 3
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 4
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 5
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                    t(style='float:right')=r.publication_date
+
+                                                div(class="container-comment")
+                                                    p(style='color:black')=r.review
+
+                                                        button(style='float:right;' class="button-transparent" onclick="deleteAdminReview(\""+r._id+"\",\"" + cocktail.idDrink + "\")")
+                                                            i(class="fa fa-trash" style="font-size:18px;")
+
+                                        for list in reviews
+                                            .carousel-item
+                                                for r in list
+                                                    h5(style='margin:0px; padding:0px')
+                                                        b #{r.author} 
+                                                        t commented:
+                                                    span(style='margin:0px')
+                                                        span(style='margin:0px')
+                                                            if r.classification >= 1
+                                                                span(class="fa fa-star checked") 
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 2
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 3
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 4
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 5
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                        t(style='float:right')=r.publication_date
+
+                                                    div(class="container-comment")
+                                                        p(style='color:black')=r.review
+
+                                                            button(style='float:right;' class="button-transparent" onclick="deleteAdminReview(\""+r._id+"\",\"" + cocktail.idDrink + "\")")
+                                                                i(class="fa fa-trash" style="font-size:18px;")
+
+
+                                    h3.text-secundary(style="text-align:center")
+                                        button(href='#carouselReviews' class="button-transparent" role='button' data-slide='prev' style='float:left')
+                                            i(class = "fa fa-arrow-left")    
+                                        button(href='#carouselReviews' class="button-transparent" role='button' data-slide='next' style='float:right')
+                                            i(class = "fa fa-arrow-right")
+
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+        // end footer
+        // end footer
+    .overlay

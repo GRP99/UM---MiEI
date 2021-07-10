@@ -1,0 +1,234 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/profile.css')
+    script(src='/javascripts/prevent_back.js')
+    if alert_cocktail != ''
+        if alert_cocktail == '1'
+            script.
+                if (window.confirm('The cocktail was sucessfully added to this bartender.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+
+        if alert_cocktail == '2'
+            script.
+                if (window.confirm('The cocktail was sucessfully removed from this bartender.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+
+    if comment != 0
+        if comment == 1
+            script.
+                if (window.confirm('The comment was sucessfully removed.'))
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+                else
+                {
+                    history.pushState(null, "", location.href.split("?")[0]);
+                }
+
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/manage';")
+                                            i(class = "fa fa-home" style="color:white;font-size:25px;")
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/logout';")
+                                            i(class = "fa fa-sign-out" style="color:white;font-size:25px;")
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px') #{name}
+                            span
+                                t(style="color:orange") Bartender Info
+                            span(style='margin-top: 20px')
+                                button(class="button-transparent" onclick="deleteBartender(\""+bartender.idBartender+"\")")
+                                    i(class="fa fa-trash" style="font-size:20px;") 
+                .row
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                .d-flex.flex-column.align-items-center.text-center
+                                    img(src="/images/bartender.png" alt="Avatar" width="320" height="320")
+                                    .mt-3
+                                        h4 #{name}
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    t(style="color:goldenrod") Cocktails 
+                                    t associated
+                                    button(type='button' style="float:right" class="button-transparent" onclick='addCocktail()')
+                                        i(class="fa fa-plus-square" style="font-size:20px;")
+
+                                #formCocktail(style='display:none')
+                                    form(onsubmit="return confirm(&quot;Do you want to add this Cocktail?&quot;)" action='http://localhost:7300/bartenders/' + bartender.idBartender + '/addCocktail?token=' + token, method='POST')
+                                        h4 Add Cocktail
+                                        div(class='row')
+                                            div(class='col')
+                                                select.form-control(name='cocktail')
+                                                    option(value='false') Select a non-owner Cocktail
+                                                    for c in cocktails
+                                                        if c.Bartender.idBartender == ''
+                                                            option(value=c.idDrink)=c.strDrink
+
+                                        p
+                                            button(style="float:right; margin-left:10px" class="btn btn-primary btn-sm" type="submit") Submit
+                                            btn(style='float:right' class='btn btn-secondary btn-sm' type='button' onclick="removeChildCocktail()") Cancel
+
+                                #tableCocktails
+                                    table(id="individual" style="text-align:center")
+                                        thead
+                                            tr
+                                                th Cocktail
+                                                th
+                                                th
+                                        tbody
+                                            each cc in bartender.Cocktails
+                                                tr 
+                                                    td=cc.strDrink
+                                                    td
+                                                        button(type="button" class="btn btn-secondary btn-sm" onclick="location.href='/admin/manage/cocktails/" + cc.idDrink + "'") Find More
+                                                    td
+                                                        button(class="button-transparent" onclick="deleteCocktailBartender(\""+bartender.idBartender+"\", \"" + cc.idDrink + "\")")
+                                                            i(class="fa fa-trash" style="font-size:18px;")
+
+
+                .row(style="margin-top:50px" id='comment_section')
+                    .col-md-12
+                        .title
+                            i
+                                img(src='/images/icons/comments.png')
+                            h3(style="font-size: 28px") Review Section
+
+
+                // comments
+                .card
+                    .card-body(style='background-color:#F8F8F8')
+                        #commentSection
+                            if first_review == 'none'
+                                textsecundary No reviews found for this bartender
+                            else
+                                - var c = 1
+                                #carouselReviews.carousel.slide(data-interval="false")
+                                    .carousel-inner
+                                        .carousel-item.active
+                                            for r in first_review
+                                                h5(style='margin: 0px; padding:0px') 
+                                                    b #{r.author} 
+                                                    t commented:
+                                                span(style='margin:0px')
+                                                    span(style='margin:0px')
+                                                        if r.classification >= 1
+                                                            span(class="fa fa-star checked") 
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 2
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 3
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 4
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                        if r.classification >= 5
+                                                            span(class="fa fa-star checked")
+                                                        else 
+                                                            span(class="fa fa-star")
+
+                                                    t(style='float:right')=r.publication_date
+
+                                                div(class="container-comment")
+                                                    p(style='color:black')=r.review
+
+                                                        button(style='float:right;' class="button-transparent" onclick="deleteAdminBartenderReview(\""+r._id+"\",\"" + bartender.idBartender + "\")")
+                                                            i(class="fa fa-trash" style="font-size:18px;")
+
+                                        for list in reviews
+                                            .carousel-item
+                                                for r in list
+                                                    h5(style='margin:0px; padding:0px')
+                                                        b #{r.author} 
+                                                        t commented:
+                                                    span(style='margin:0px')
+                                                        span(style='margin:0px')
+                                                            if r.classification >= 1
+                                                                span(class="fa fa-star checked") 
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 2
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 3
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 4
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                            if r.classification >= 5
+                                                                span(class="fa fa-star checked")
+                                                            else 
+                                                                span(class="fa fa-star")
+
+                                                        t(style='float:right')=r.publication_date
+
+                                                    div(class="container-comment")
+                                                        p(style='color:black')=r.review
+
+                                                            button(style='float:right' class="button-transparent" onclick="deleteAdminBartenderReview(\""+r._id+"\",\"" + bartender.idBartender + "\")")
+                                                                i(class="fa fa-trash" style="font-size:18px;")
+
+
+                                    h3.text-secundary(style="text-align:center")
+                                        button(href='#carouselReviews' class="button-transparent" role='button' data-slide='prev' style='float:left')
+                                            i(class = "fa fa-arrow-left")    
+                                        button(href='#carouselReviews' class="button-transparent" role='button' data-slide='next' style='float:right')
+                                            i(class = "fa fa-arrow-right")
+
+
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+        // end footer
+        // end footer
+    .overlay

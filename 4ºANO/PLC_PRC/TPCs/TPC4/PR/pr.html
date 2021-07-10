@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> Project Record </title>
+</head>
+
+<body>
+    <h1 align="center">Project Record</h1>
+    <hr>
+
+    <table width="100%" border="0">
+        <tr>
+            <td width="50%"><b>KEY NAME: </b>
+                <font color="#000080">TPC4</font>
+            </td>
+            <td width="50%"><b>BEGIN DATE: </b>
+                <font color="#000080">15-03-2021</font>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%"><b>TITLE: </b>
+                <font color="#000080">SPARQL</font>
+            </td>
+            <td width="50%"><b>END DATE: </b>
+                <font color="#000080">22-03-2021</font>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%"><b>SUPERVISOR: </b>
+                <font color="#000080"><a href="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</a></font>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <hr>
+
+    <h3>WorkTeam: </h3>
+    <ol>A83732
+        .
+        Gonçalo Rodrigues Pinto
+        -
+        <a href="mailto:a83732@alunos.uminho.pt">a83732@alunos.uminho.pt</a>
+    </ol>
+    <hr>
+    <hr>
+
+    <h3>ABSTRACT:</h3>
+    <p>
+        No presente trabalho pretendeu-se desenvolver uma aplicação WEB de forma a consultar a
+        informação sobre os elementos, grupos e períodos presentes numa ontologia disponibilizada
+        acerca da tabela periódica, para tal foi necessário previamente criar um repositório no
+        <b>GraphDB</b> e posteriormente efetuar o carregamento da ontologia para o sistema.
+        Esta aplicação WEB foi desenvolvida com recurso à <i>framework Express</i>.
+    </p>
+    <p>
+        Na página inicial desta aplicação é apresentado uma breve explicação da aplicação do que esta é, 
+        além de que na parte superior encontra-se sempre disponíveis ligações para consultar a lista 
+        individual de todos os elementos, grupos e períodos que foram importados para o sistema utilizado.
+    </p>
+    <p>
+        Em cada uma destas listas recorreu-se às <i>Datatables</i> do <i>jQuery</i> 
+        pois permite apresentar a informação ordenada conforme a preferência do utilizador, 
+        permite que a tabela se torne mais compacta e ainda permite efetuar uma pesquisa sobre 
+        um determinado campo presente na tabela.
+    </p>
+    <p>
+        Em cada linha da tabela é apresentado um botão que remete para a página individual de cada 
+        indivíduo, onde nesta é possível observar mais informações sobre este e visualizar quais as 
+        relações entre eles (por exemplo, os elementos de um grupo ou período) existindo a possibilidade 
+        de consultar a informação individualizada do individuo em causa. 
+    </p>
+    <hr>
+    <hr>
+
+    <h3>Deliverables: </h3>
+    <ul>
+        <li><a href="../appPeriodicTable/routes/index.js">Rotas criadas;</a></li>
+        <li><a href="../appPeriodicTable/views/index.pug">Página inicial da aplicação;</a></li>
+        <li><a href="pr.dtd">pr.dtd;</a></li>
+        <li><a href="pr.xml">pr.xml;</a></li>
+        <li><a href="pr.xslt">pr.xslt;</a></li>
+        <li><a href="pr.html">pr.html.</a></li>
+    </ul>
+    <hr>
+</body>
+
+</html>

@@ -1,0 +1,2864 @@
+Pessoas:
+- Casamentos:
+  - data: ''
+    idParceiro: '1087000'
+    local: ''
+    parceiro: Catarina Ferreira
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1086995'
+    nome: Santos Ferreira
+  Nascimento:
+    data: ''
+    local: Guimarães, Gondomar, Lugar do Carvalho
+  Nome: Affonso Gonçalves
+  Pais: []
+  _id: '1086999'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 18.12.1890
+    local: Braga, São Lázaro, Rua dos Congregados
+  Nome: Alberto Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076286'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 01.12.1874
+    local: Guimarães, Briteiros (Salvador)
+  Nome: Ana Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076276'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079211'
+    local: ''
+    parceiro: António José de Amorim Machado de Araujo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079210'
+    nome: Maria Narcisa da Silva Soares de Azevedo
+  Nascimento:
+    data: ''
+    local: Vila Verde - Prado -S. Miguel
+  Nome: Ana de Jesus Soares de Azevedo
+  Pais: []
+  _id: '1079212'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 14.05.1757
+    local: Guimarães, Donim
+  Nome: Ana Francisco
+  Pais:
+  - Pai:
+      id: '1075781'
+      nome: Domingos Francisco Martins
+  - Mãe:
+      id: '1075782'
+      nome: Úrsula de Macedo
+  _id: '1076013'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076124'
+    local: ''
+    parceiro: Paulo Alexandre Pires Ribeiro Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077960'
+    nome: José Pedro Ferreira da Cunha Antunes Guimarães
+  Nascimento:
+    data: 12.05.1974
+    local: Braga
+  Nome: Ana Isabel Ferrera da Cunha
+  Pais: []
+  _id: '1077961'
+- Casamentos:
+  - data: 02.08.1795
+    idParceiro: '1076014'
+    local: Guimarães, Briteiros (Salvador)
+    parceiro: Manoel José Francisco
+  Documentos: {}
+  Falecimento:
+    data: 06.03.1860
+    local: Guimarães, Donim, Casa de Sande
+  Filhos:
+  - id: '1076073'
+    nome: Domingos
+  - id: '1076074'
+    nome: Domingos
+  - id: '1076075'
+    nome: Francisco
+  - id: '1076103'
+    nome: José Antunes Guimarães
+  - id: '1076106'
+    nome: Francisco Antunes Guimarães
+  - id: '1076110'
+    nome: João Antunes Guimarães
+  Nascimento: {}
+  Nome: Ana Maria Antunes
+  Pais:
+  - Pai:
+      id: '1076020'
+      nome: José Antunes
+  - Mãe:
+      id: '1076021'
+      nome: Maria Teixeira
+  _id: '1076019'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 16.05.1963
+    local: Braga, São João do Souto
+  Nome: Ana Maria Pais dos Santos Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1075942'
+      nome: Justino Feio Vale Antunes Guimarães
+  - Mãe:
+      id: '1075944'
+      nome: Maria Adelaide Rodrigues Pais dos Santos
+  _id: '1075943'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076120'
+    local: ''
+    parceiro: Miguel Pedro Pires Ribeiro Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento: {}
+  Nome: Andreia Mendes
+  Pais: []
+  _id: '1077957'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 22.02.1912
+    local: Braga, São Lázaro
+  Filhos: []
+  Nascimento:
+    data: 30.05.1883
+    local: Guimarães, Briteiros (Salvador)
+  Nome: António Antunes Guimarães
+  Notas:
+  - Assassinado pelo alferes Baptista (Infantaria 29)
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076282'
+- Casamentos:
+  - data: 07.09.1876
+    idParceiro: '1078573'
+    local: Vila Verde, Soutelo
+    parceiro: Maria da Glória Fernandes Dias
+  Documentos: {}
+  Falecimento:
+    data: c. 1894
+    local: ''
+  Filhos:
+  - id: '1077247'
+    nome: Palmira da Glória Fernandes dias de Amorim
+  Nascimento:
+    data: 28.09.1850
+    local: Amares, Dornelas
+  Nome: António Candido Soares de Azevedo da Silva Amorim
+  Pais:
+  - Pai:
+      id: '1079209'
+      nome: Bento José da Silva
+  - Mãe:
+      id: '1079210'
+      nome: Maria Narcisa da Silva Soares de Azevedo
+  _id: '1078572'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079212'
+    local: ''
+    parceiro: Ana de Jesus Soares de Azevedo
+  Documentos: {}
+  Falecimento:
+    data: 16.12.1823
+    local: ''
+  Filhos:
+  - id: '1079210'
+    nome: Maria Narcisa da Silva Soares de Azevedo
+  Nascimento:
+    data: ''
+    local: Amares - Dornelas
+  Nome: António José de Amorim Machado de Araujo
+  Pais: []
+  _id: '1079211'
+- Casamentos:
+  - data: ''
+    idParceiro: '1087001'
+    local: ''
+    parceiro: Jerónimo Rodrigues
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1086996'
+    nome: Catarina Rodrigues
+  Nascimento: {}
+  Nome: Benta Fernandes
+  Pais: []
+  _id: '1087002'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079210'
+    local: ''
+    parceiro: Maria Narcisa da Silva Soares de Azevedo
+  Documentos: {}
+  Falecimento:
+    data: 17.01.1878
+    local: ''
+  Filhos:
+  - id: '1078572'
+    nome: António Candido Soares de Azevedo da Silva Amorim
+  Nascimento:
+    data: 24.11.1796
+    local: Sequiade
+  Nome: Bento José da Silva
+  Pais:
+  - Pai:
+      id: '1079213'
+      nome: Francisco José da Silva
+  - Mãe:
+      id: '1079214'
+      nome: Mria Josefa Francisca
+  _id: '1079209'
+- Casamentos:
+  - data: ''
+    idParceiro: '1077256'
+    local: ''
+    parceiro: Mariana Ezequiel Feyo de Figueiredo Correia
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077254'
+    nome: Francisco Pereira Rebelo Feio
+  Nascimento:
+    data: ''
+    local: Granja de Alijó
+  Nome: Bernardo Pereira Rebello
+  Pais: []
+  _id: '1078336'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 03.06.1995
+    local: ''
+  Nome: Carolina Represas Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076119'
+      nome: José Luís Pires Ribeiro Antunes Guimarães
+  - Mãe:
+      id: '1076848'
+      nome: Sara Augusta Miranda Represas
+  _id: '1076852'
+- Casamentos:
+  - data: 20.07.1749
+    idParceiro: '1079225'
+    local: Guimarães, Gondomar
+    parceiro: Prudencia Rodrigues
+  Documentos: {}
+  Falecimento:
+    data: 24.08.1787
+    local: Guimarães, Gondomar
+  Filhos:
+  - id: '1079218'
+    nome: Custódia Maria Rodrigues Ferreira
+  Nascimento: {}
+  Nome: Cassamiro José Ferreira
+  Pais:
+  - Pai:
+      id: '1086995'
+      nome: Santos Ferreira
+  - Mãe:
+      id: '1086996'
+      nome: Catarina Rodrigues
+  _id: '1079224'
+- Casamentos:
+  - data: ''
+    idParceiro: '1086999'
+    local: ''
+    parceiro: Affonso Gonçalves
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1086995'
+    nome: Santos Ferreira
+  Nascimento: {}
+  Nome: Catarina Ferreira
+  Pais: []
+  _id: '1087000'
+- Casamentos:
+  - data: ''
+    idParceiro: '1075773'
+    local: ''
+    parceiro: Domingos Francisco o Velho
+  Documentos: {}
+  Falecimento:
+    data: '1744'
+    local: Guimarães, Donim, lugar de Requeixo
+  Filhos:
+  - id: '1075781'
+    nome: Domingos Francisco Martins
+  Nascimento: {}
+  Nome: Catarina Martins
+  Pais: []
+  _id: '1075780'
+- Casamentos:
+  - data: ''
+    idParceiro: '1086995'
+    local: ''
+    parceiro: Santos Ferreira
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079224'
+    nome: Cassamiro José Ferreira
+  Nascimento: {}
+  Nome: Catarina Rodrigues
+  Pais:
+  - Pai:
+      id: '1087001'
+      nome: Jerónimo Rodrigues
+  - Mãe:
+      id: '1087002'
+      nome: Benta Fernandes
+  _id: '1086996'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 03.06.1889
+    local: Braga, São Lázaro, Ruados Congregados
+  Nome: Constança Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076285'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076103'
+    local: ''
+    parceiro: José Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: ''
+    local: Brazil, Pernambuco
+  Nome: D. Constança Maria Pereira
+  Pais: []
+  _id: '1076104'
+- Casamentos:
+  - data: 20.08.1761
+    idParceiro: '1075981'
+    local: Guimarães, Sande (São Martinho)
+    parceiro: Domingos Francisco de Macedo
+  Documentos: {}
+  Falecimento:
+    data: 18.10.1794
+    local: Guimarães, Sande (São Martinho)
+  Filhos:
+  - id: '1076014'
+    nome: Manoel José Francisco
+  Nascimento:
+    data: 13.08.1735
+    local: Guimarães, Sande (São Martinho), Casal da Ribeira
+  Nome: Custódia Maria Alvares
+  Pais:
+  - Pai:
+      id: '1075984'
+      nome: Manoel Alvares
+  - Mãe:
+      id: '1075985'
+      nome: Eulália Cardoso
+  _id: '1075983'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078765'
+    local: ''
+    parceiro: José Alves de Sousa
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076111'
+    nome: Maria Joaquina Alves Pereira de Sousa
+  Nascimento: {}
+  Nome: Custódia Maria Pereira
+  Pais: []
+  _id: '1078766'
+- Casamentos:
+  - data: 18.07.1782
+    idParceiro: '1079217'
+    local: Guimarães, Gondomar, Lugar da Lage
+    parceiro: Custódio José Fernandes
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077241'
+    nome: Jerónimo José Fernandes
+  Nascimento:
+    data: ''
+    local: Guimarães, Gondomar
+  Nome: Custódia Maria Rodrigues Ferreira
+  Pais:
+  - Pai:
+      id: '1079224'
+      nome: Cassamiro José Ferreira
+  - Mãe:
+      id: '1079225'
+      nome: Prudencia Rodrigues
+  _id: '1079218'
+- Casamentos:
+  - data: ''
+    idParceiro: '1086997'
+    local: ''
+    parceiro: Marcos Fernandes
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079225'
+    nome: Prudencia Rodrigues
+  Nascimento: {}
+  Nome: Custódia Rodrigues
+  Pais: []
+  _id: '1086998'
+- Casamentos:
+  - Casamento I:
+      data: 30.11.1775
+      idParceiro: '1079221'
+      local: Guimarães, Gondomar, Lugar da Lage
+      parceiro: Rosa Maria Ferreira
+  - Casamento II:
+      data: 18.07.1782
+      idParceiro: '1079218'
+      local: Guimarães, Gondomar, Lugar da Lage
+      parceiro: Custódia Maria Rodrigues Ferreira
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - Filhos do Casamento II:
+    - id: '1077241'
+      nome: Jerónimo José Fernandes
+  Nascimento:
+    data: 04.09.1759
+    local: Guimarães, Gondomar, Lugar da Lage
+  Nome: Custódio José Fernandes
+  Pais:
+  - Pai:
+      id: '1079219'
+      nome: Felis Fernandes
+  - Mãe:
+      id: '1079220'
+      nome: Marcelina Fernandes
+  _id: '1079217'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079228'
+    local: ''
+    parceiro: Francisco Gonçalves
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079220'
+    nome: Marcelina Fernandes
+  Nascimento: {}
+  Nome: Domingas Fernandes
+  Pais: []
+  _id: '1079229'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 26.05.1796
+    local: ''
+  Filhos: []
+  Nascimento:
+    data: 10.05.1796
+    local: ''
+  Nome: Domingos
+  Pais:
+  - Pai:
+      id: '1076014'
+      nome: Manoel José Francisco
+  - Mãe:
+      id: '1076019'
+      nome: Ana Maria Antunes
+  _id: '1076073'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 21.11.1805
+    local: ''
+  Filhos: []
+  Nascimento:
+    data: 23.01.1798
+    local: ''
+  Nome: Domingos
+  Pais:
+  - Pai:
+      id: '1076014'
+      nome: Manoel José Francisco
+  - Mãe:
+      id: '1076019'
+      nome: Ana Maria Antunes
+  _id: '1076074'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078350'
+    local: ''
+    parceiro: Luísa Teixeira Camelo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1078345'
+    nome: Luís António Feyo
+  Nascimento: {}
+  Nome: Domingos Alves Feyo
+  Pais:
+  - Pai:
+      id: '1078351'
+      nome: Domingos Jorge Feyo
+  - Mãe:
+      id: '1078352'
+      nome: Maria de Carvalho
+  _id: '1078349'
+- Casamentos:
+  - data: ''
+    idParceiro: '1093196'
+    local: ''
+    parceiro: Maria de Macedo
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Casal da Bouça-Souto(Sª. Maria)
+  Filhos:
+  - id: '1076011'
+    nome: Manuel da Costa de Macedo
+  Nascimento: {}
+  Nome: Domingos da Costa
+  Pais: []
+  _id: '1093195'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 15.03.1728
+    local: Guimarães, Donim
+  Filhos: []
+  Nascimento:
+    data: 28.02.1728
+    local: Guimarães, Donim
+  Nome: Domingos Francisco
+  Pais:
+  - Pai:
+      id: '1075781'
+      nome: Domingos Francisco Martins
+  - Mãe:
+      id: '1075782'
+      nome: Úrsula de Macedo
+  _id: '1075901'
+- Casamentos:
+  - data: 20.08.1761
+    idParceiro: '1075983'
+    local: Guimarães, Sande (São Martinho)
+    parceiro: Custódia Maria Alvares
+  Documentos: {}
+  Falecimento:
+    data: 18.07.1790
+    local: Guimarães, Sande (São Martinho)
+  Filhos:
+  - id: '1076014'
+    nome: Manoel José Francisco
+  Nascimento:
+    data: 10.04.1733
+    local: Guimarães, Donim
+  Nome: Domingos Francisco de Macedo
+  Pais:
+  - Pai:
+      id: '1075781'
+      nome: Domingos Francisco Martins
+  - Mãe:
+      id: '1075782'
+      nome: Úrsula de Macedo
+  _id: '1075981'
+- Casamentos:
+  - data: 24.09.1724
+    idParceiro: '1075782'
+    local: Guimarães, Souto (Santa Maria)
+    parceiro: Úrsula de Macedo
+  Documentos: {}
+  Falecimento:
+    data: 31.07.1736
+    local: Guimarães, Donim, Casa de Sande
+  Filhos:
+  - id: '1076013'
+    nome: Ana Francisco
+  - id: '1075901'
+    nome: Domingos Francisco
+  - id: '1075981'
+    nome: Domingos Francisco de Macedo
+  Nascimento:
+    data: 16.01.1698
+    local: Guimarães, Donim
+  Nome: Domingos Francisco Martins
+  Pais:
+  - Pai:
+      id: '1075773'
+      nome: Domingos Francisco o Velho
+  - Mãe:
+      id: '1075780'
+      nome: Catarina Martins
+  _id: '1075781'
+- Casamentos:
+  - data: ''
+    idParceiro: '1075780'
+    local: ''
+    parceiro: Catarina Martins
+  Documentos: {}
+  Falecimento:
+    data: 14.12.1731
+    local: Guimarães, Donim, lugar de Requeixo
+  Filhos:
+  - id: '1075781'
+    nome: Domingos Francisco Martins
+  Nascimento: {}
+  Nome: Domingos Francisco o Velho
+  Pais: []
+  _id: '1075773'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078352'
+    local: ''
+    parceiro: Maria de Carvalho
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1078349'
+    nome: Domingos Alves Feyo
+  Nascimento: {}
+  Nome: Domingos Jorge Feyo
+  Pais: []
+  _id: '1078351'
+- Casamentos:
+  - data: 19.08.1840
+    idParceiro: '1076344'
+    local: Guimarães, Souto (São Salvador)
+    parceiro: Maria Antónia da Conceição de Macedo e Lima de Freitas
+  Documentos: {}
+  Falecimento:
+    data: 09.07.1865
+    local: Guimarães, Gondomar
+  Filhos:
+  - id: '1076116'
+    nome: Rita Isabel de Freitas Fernandes
+  Nascimento:
+    data: 25.12.1807
+    local: Guimarães, Gondomar, Casa da Lage
+  Nome: Domingos José Fernandes Guimarães
+  Pais:
+  - Pai:
+      id: '1077241'
+      nome: Jerónimo José Fernandes
+  - Mãe:
+      id: '1077242'
+      nome: Joana Teresa Rodrigues de Barros
+  _id: '1076343'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079226'
+    local: ''
+    parceiro: Miguel Fernandes
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079219'
+    nome: Felis Fernandes
+  Nascimento: {}
+  Nome: Esperança do Vale
+  Pais: []
+  _id: '1079227'
+- Casamentos:
+  - data: 08.07.1732
+    idParceiro: '1075984'
+    local: Guimarães, São Torcato, Casal do Monte
+    parceiro: Manoel Alvares
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Guimarães, Sande (São Martinho)
+  Filhos:
+  - id: '1075983'
+    nome: Custódia Maria Alvares
+  Nascimento:
+    data: 16.08.1700
+    local: Guimarães, Sande (São Martinho), Casal do Monte
+  Nome: Eulália Cardoso
+  Pais: []
+  _id: '1075985'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078028'
+    local: ''
+    parceiro: João José Rodrigues de Feitas
+  Documentos: {}
+  Falecimento:
+    data: 12.10.1859
+    local: Guimarães, Souto (Santa Maria), lugar do Barral
+  Filhos:
+  - id: '1076344'
+    nome: Maria Antónia da Conceição de Macedo e Lima de Freitas
+  Nascimento:
+    data: 15.11.1781
+    local: ''
+  Nome: Fancisca Margarida da Encarnação de Macedo e Lima
+  Pais: []
+  _id: '1078029'
+- Casamentos:
+  - data: 09.08.1754
+    idParceiro: '1079220'
+    local: Guimarães, Gondomar
+    parceiro: Marcelina Fernandes
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079217'
+    nome: Custódio José Fernandes
+  Nascimento:
+    data: 23.03.1722
+    local: Guimarães, Gondomar
+  Nome: Felis Fernandes
+  Pais:
+  - Pai:
+      id: '1079226'
+      nome: Miguel Fernandes
+  - Mãe:
+      id: '1079227'
+      nome: Esperança do Vale
+  _id: '1079219'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078242'
+    local: ''
+    parceiro: Miguel da Cunha Velho de Vilhena Sotomaior
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Braga
+  Filhos: []
+  Nascimento:
+    data: 02.08.1872
+    local: Guimarães, Donim
+  Nome: Francisca Carolina Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1078238'
+      nome: Manuel José Lopes Guimarães
+  - Mãe:
+      id: '1078241'
+      nome: Francisca Carolina Antunes Rodrigues Guimarães
+  _id: '1078239'
+- Casamentos:
+  - Casamento I:
+      data: 03.02.1872
+      idParceiro: '1078238'
+      local: Donim - Guimarães, Casa de Sande
+      parceiro: Manuel José Lopes Guimarães
+  - Casamento II:
+      data: 05.03.1882
+      idParceiro: '1078243'
+      local: Braga, Braga
+      parceiro: Lourenço da Cunha Velho Sotomaior
+  Documentos: {}
+  Falecimento:
+    data: d. 1911
+    local: Dume - Braga, Quinta da Ordem
+  Filhos:
+  - Filhos do Casamento I:
+    - id: '1078239'
+      nome: Francisca Carolina Antunes Guimarães
+    - id: '1078240'
+      nome: Maria da Conceição Antunes Guimarães
+  - Filhos do Casamento II:
+    - id: '1078246'
+      nome: João da Cunha Velho Sotomaior
+  Nascimento:
+    data: '1842'
+    local: América do Sul, Brasil
+  Nome: Francisca Carolina Antunes Rodrigues Guimarães
+  Pais:
+  - Pai:
+      id: '1076106'
+      nome: Francisco Antunes Guimarães
+  - Mãe:
+      id: '1076107'
+      nome: D. Francisca Eulália Rodrigues de Araújo
+  _id: '1078241'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076106'
+    local: Brasil, Rio Grande do Sul, Pelotas
+    parceiro: Francisco Antunes Guimarães
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Brasil
+  Filhos:
+  - id: '1076112'
+    nome: Francisco Antunes Guimarães
+  - id: '1076113'
+    nome: Piedade
+  - id: '1076115'
+    nome: Serafim Antunes Rodrigues Guimarães
+  - id: '1078241'
+    nome: Francisca Carolina Antunes Rodrigues Guimarães
+  Nascimento:
+    data: ''
+    local: Brasil
+  Nome: D. Francisca Eulália Rodrigues de Araújo
+  Pais:
+  - Pai:
+      id: '1076108'
+      nome: Serafim José Rodrigues de Araújo
+  - Mãe:
+      id: '1076109'
+      nome: D. Inácia da Silva Araújo
+  _id: '1076107'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 15.10.1799
+    local: ''
+  Filhos: []
+  Nascimento:
+    data: 29.09.1799
+    local: ''
+  Nome: Francisco
+  Pais:
+  - Pai:
+      id: '1076014'
+      nome: Manoel José Francisco
+  - Mãe:
+      id: '1076019'
+      nome: Ana Maria Antunes
+  _id: '1076075'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: ''
+    local: América do Sul, Brasil, Pelotas
+  Nome: Francisco Antunes Guimarães
+  Notas:
+  - Advogado em Pelotas
+  Pais:
+  - Pai:
+      id: '1076106'
+      nome: Francisco Antunes Guimarães
+  - Mãe:
+      id: '1076107'
+      nome: D. Francisca Eulália Rodrigues de Araújo
+  _id: '1076112'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076107'
+    local: Brasil, Rio Grande do Sul, Pelotas
+    parceiro: D. Francisca Eulália Rodrigues de Araújo
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: América do Sul, Brasil, Pelotas
+  Filhos:
+  - id: '1076112'
+    nome: Francisco Antunes Guimarães
+  - id: '1076113'
+    nome: Piedade
+  - id: '1076115'
+    nome: Serafim Antunes Rodrigues Guimarães
+  - id: '1078241'
+    nome: Francisca Carolina Antunes Rodrigues Guimarães
+  Nascimento:
+    data: 13.02.1806
+    local: Guimarães, Donim, Casa de Sande
+  Nome: Francisco Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076014'
+      nome: Manoel José Francisco
+  - Mãe:
+      id: '1076019'
+      nome: Ana Maria Antunes
+  _id: '1076106'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 16.01.1890
+    local: Braga, Braga
+  Filhos: []
+  Nascimento:
+    data: 04.03.1887
+    local: Braga, Braga
+  Nome: Francisco Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1087737'
+- Casamentos:
+  - data: 21.09.1908
+    idParceiro: '1077247'
+    local: Braga, Braga
+    parceiro: Palmira da Glória Fernandes dias de Amorim
+  Documentos: {}
+  Falecimento:
+    data: 07.04.1961
+    local: Braga, Braga
+  Filhos:
+  - id: '1075918'
+    nome: Maria Fernanda de Amorim Feio Vale
+  Nascimento:
+    data: 12.03.1881
+    local: Santarém, Abrantes
+  Nome: Francisco Feio Vale
+  Pais:
+  - Pai:
+      id: '1077253'
+      nome: Luís Cândido Fernandez Vale
+  - Mãe:
+      id: '1077251'
+      nome: Maria Emilia Rebelo Feio
+  _id: '1077246'
+- Casamentos:
+  - data: 13.06.1796
+    idParceiro: '1078342'
+    local: Vila Real, Vila Real
+    parceiro: Josefa Joaquina Correia de Carvalho
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077256'
+    nome: Mariana Ezequiel Feyo de Figueiredo Correia
+  Nascimento:
+    data: 28.02.1747
+    local: Vila Real, Vila Real
+  Nome: Francisco Feyo de Figueiredo Correia
+  Pais:
+  - Pai:
+      id: '1078345'
+      nome: Luís António Feyo
+  - Mãe:
+      id: '1078346'
+      nome: Maria Teresa de Figueiredo
+  _id: '1078341'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079229'
+    local: ''
+    parceiro: Domingas Fernandes
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079220'
+    nome: Marcelina Fernandes
+  Nascimento: {}
+  Nome: Francisco Gonçalves
+  Pais: []
+  _id: '1079228'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079214'
+    local: ''
+    parceiro: Mria Josefa Francisca
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079209'
+    nome: Bento José da Silva
+  Nascimento: {}
+  Nome: Francisco José da Silva
+  Pais: []
+  _id: '1079213'
+- Casamentos:
+  - data: ''
+    idParceiro: '1077255'
+    local: ''
+    parceiro: Maria Lúcia Adelaide de Azevedo Taveira
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077251'
+    nome: Maria Emilia Rebelo Feio
+  Nascimento:
+    data: ''
+    local: Peso da Régua, Peso da Régua, Granja do Douro
+  Nome: Francisco Pereira Rebelo Feio
+  Pais:
+  - Pai:
+      id: '1078336'
+      nome: Bernardo Pereira Rebello
+  - Mãe:
+      id: '1077256'
+      nome: Mariana Ezequiel Feyo de Figueiredo Correia
+  _id: '1077254'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 02.05.2002
+    local: Braga
+  Nome: Guilherme Santos Barreiro Aguiar Branco
+  Pais:
+  - Pai:
+      id: '1076126'
+      nome: Maria Manuela Antunes Guimarães dos Santos Barreiro
+  - Mãe:
+      id: '1077966'
+      nome: Vitor Aguiar Branco Sampaio
+  _id: '1077967'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076108'
+    local: ''
+    parceiro: Serafim José Rodrigues de Araújo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076107'
+    nome: D. Francisca Eulália Rodrigues de Araújo
+  Nascimento: {}
+  Nome: D. Inácia da Silva Araújo
+  Pais: []
+  _id: '1076109'
+- Casamentos:
+  - data: 18.12.1999
+    idParceiro: '1076124'
+    local: ''
+    parceiro: Paulo Alexandre Pires Ribeiro Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento: {}
+  Nome: Isabel Cristina Silva Peres Samões
+  Pais: []
+  _id: '1077964'
+- Casamentos:
+  - data: ''
+    idParceiro: '1093201'
+    local: ''
+    parceiro: Salvador Francisco de Abreu
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1093199'
+    nome: Simão Francisco de Macedo
+  Nascimento:
+    data: ''
+    local: Quinta da Granja-Souto (Salvador)
+  Nome: Isabel de Macedo
+  Pais:
+  - Pai:
+      id: '1093203'
+      nome: Valentim Gonçalves
+  - Mãe:
+      id: '1093204'
+      nome: Simoa de Macedo
+  _id: '1093202'
+- Casamentos:
+  - data: ''
+    idParceiro: '1093197'
+    local: ''
+    parceiro: Pedro de Macedo
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Casal da Bouça - Souto (Sª. Maria)
+  Filhos:
+  - id: '1093196'
+    nome: Maria de Macedo
+  Nascimento: {}
+  Nome: Isabel Lopes de Barros
+  Pais: []
+  _id: '1093198'
+- Casamentos:
+  - data: ''
+    idParceiro: '1077242'
+    local: ''
+    parceiro: Joana Teresa Rodrigues de Barros
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076343'
+    nome: Domingos José Fernandes Guimarães
+  Nascimento:
+    data: 10.11.1783
+    local: Guimarães, Gondomar, Lugar da Lage
+  Nome: Jerónimo José Fernandes
+  Pais:
+  - Pai:
+      id: '1079217'
+      nome: Custódio José Fernandes
+  - Mãe:
+      id: '1079218'
+      nome: Custódia Maria Rodrigues Ferreira
+  _id: '1077241'
+- Casamentos:
+  - data: ''
+    idParceiro: '1087002'
+    local: ''
+    parceiro: Benta Fernandes
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1086996'
+    nome: Catarina Rodrigues
+  Nascimento: {}
+  Nome: Jerónimo Rodrigues
+  Pais: []
+  _id: '1087001'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 04.02.1996
+    local: Braga
+  Nome: Joana Antunes Guimarães Ferreira Soares
+  Pais:
+  - Pai:
+      id: '1076855'
+      nome: João Hélio Ferreira Soares
+  - Mãe:
+      id: '1076856'
+      nome: Maria Fernanda Pires Ribeiro Antunes Guimarães
+  _id: '1076857'
+- Casamentos:
+  - data: ''
+    idParceiro: '1077241'
+    local: ''
+    parceiro: Jerónimo José Fernandes
+  Documentos: {}
+  Falecimento:
+    data: 31.12.1865
+    local: Guimarães, Gondomar, Casa da Lage
+  Filhos:
+  - id: '1076343'
+    nome: Domingos José Fernandes Guimarães
+  Nascimento:
+    data: 19.07.1785
+    local: Póvoa de Lanhoso, Garfe
+  Nome: Joana Teresa Rodrigues de Barros
+  Notas:
+  - "Padrinhos: Martinho Leite de Azevedo de Menezes (por procuração) (de Guimarães).\
+    \ Tocou a criança Jerónimo do Vale\r"
+  - Nossa Senhora
+  Pais: []
+  _id: '1077242'
+- Casamentos:
+  - data: 27.01.1858
+    idParceiro: '1076111'
+    local: Fafe, Moreira de Rei
+    parceiro: Maria Joaquina Alves Pereira de Sousa
+  Documentos: {}
+  Falecimento:
+    data: 02.02.1891
+    local: Guimarães, Donim, Casa de Sande
+  Filhos: []
+  Nascimento:
+    data: 13.11.1808
+    local: Guimarães, Donim, Casa de Sande
+  Nome: João Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076014'
+      nome: Manoel José Francisco
+  - Mãe:
+      id: '1076019'
+      nome: Ana Maria Antunes
+  _id: '1076110'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 16.02.1877
+    local: Guimarães, Briteiros (Salvador)
+  Nome: João Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076278'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento: {}
+  Nome: João da Cunha Velho Sotomaior
+  Pais:
+  - Pai:
+      id: '1078243'
+      nome: Lourenço da Cunha Velho Sotomaior
+  - Mãe:
+      id: '1078241'
+      nome: Francisca Carolina Antunes Rodrigues Guimarães
+  _id: '1078246'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078764'
+    local: ''
+    parceiro: Maria Joaquina de Oliveira Martins
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076211'
+    nome: Rosa Martins de Oliveira
+  Nascimento: {}
+  Nome: João Fernandes Pereira
+  Pais: []
+  _id: '1078763'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076856'
+    local: Braga, Braga
+    parceiro: Maria Fernanda Pires Ribeiro Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076857'
+    nome: Joana Antunes Guimarães Ferreira Soares
+  Nascimento:
+    data: 01.04.1959
+    local: ''
+  Nome: João Hélio Ferreira Soares
+  Pais: []
+  _id: '1076855'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078029'
+    local: ''
+    parceiro: Fancisca Margarida da Encarnação de Macedo e Lima
+  Documentos: {}
+  Falecimento:
+    data: 07.01.1861
+    local: Guimarães, Souto (São Salvador), Lugar do Barral
+  Filhos:
+  - id: '1076344'
+    nome: Maria Antónia da Conceição de Macedo e Lima de Freitas
+  Nascimento:
+    data: 24.06.1787
+    local: Guimarães, Souto (São Salvador), Lugar do Barral
+  Nome: João José Rodrigues de Feitas
+  Pais: []
+  _id: '1078028'
+- Casamentos:
+  - data: 18.11.1940
+    idParceiro: '1078853'
+    local: Guimarães, Donim
+    parceiro: Rosa dos Santos Rodrigues Viana
+  Documentos: {}
+  Falecimento:
+    data: 26.04.1957
+    local: Braga, Braga, Sé
+  Filhos: []
+  Nascimento:
+    data: 19.02.1907
+    local: Braga, São João do Souto
+  Nome: João Martins de Oliveira Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076210'
+      nome: Justino Antunes Guimarães
+  - Mãe:
+      id: '1076211'
+      nome: Rosa Martins de Oliveira
+  _id: '1078852'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078766'
+    local: ''
+    parceiro: Custódia Maria Pereira
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076111'
+    nome: Maria Joaquina Alves Pereira de Sousa
+  Nascimento: {}
+  Nome: José Alves de Sousa
+  Pais: []
+  _id: '1078765'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076021'
+    local: ''
+    parceiro: Maria Teixeira
+  Documentos: {}
+  Falecimento:
+    data: 29.09.1837
+    local: Guimarães, Donim, Casa de Sande
+  Filhos:
+  - id: '1076019'
+    nome: Ana Maria Antunes
+  Nascimento:
+    data: ''
+    local: Guimarães, Briteiros (Salvador)
+  Nome: José Antunes
+  Pais: []
+  _id: '1076020'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076104'
+    local: ''
+    parceiro: D. Constança Maria Pereira
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Brazil
+  Filhos: []
+  Nascimento:
+    data: 25.10.1803
+    local: Guimarães, Donim, Casa de Sande
+  Nome: José Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076014'
+      nome: Manoel José Francisco
+  - Mãe:
+      id: '1076019'
+      nome: Ana Maria Antunes
+  _id: '1076103'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079216'
+    local: ''
+    parceiro: Maria Rita da Silva
+  Documentos: {}
+  Falecimento:
+    data: 05.01.1875
+    local: Braga
+  Filhos:
+  - id: '1078573'
+    nome: Maria da Glória Fernandes Dias
+  Nascimento:
+    data: 15.11.1813
+    local: Vila Verde Lage
+  Nome: José Germano Fernandes Dias
+  Pais: []
+  _id: '1079215'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076848'
+    local: Braga, Braga
+    parceiro: Sara Augusta Miranda Represas
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076852'
+    nome: Carolina Represas Antunes Guimarães
+  - id: '1076853'
+    nome: Luís Represas Antunes Guimarães
+  Nascimento:
+    data: 19.06.1961
+    local: Braga, Cividade, Casa da Cutelaria
+  Nome: José Luís Pires Ribeiro Antunes Guimarães
+  Notas:
+  - casamento dissolvido por divórcio
+  Pais:
+  - Pai:
+      id: '1076051'
+      nome: José Luís Vale Antunes Guimarães
+  - Mãe:
+      id: '1076053'
+      nome: Maria Teresa Pires Ribeiro Antunes Guimarães
+  _id: '1076119'
+- Casamentos:
+  - data: 25.07.1959
+    idParceiro: '1076053'
+    local: braga, sameiro
+    parceiro: Maria Teresa Pires Ribeiro Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076119'
+    nome: José Luís Pires Ribeiro Antunes Guimarães
+  - id: '1076120'
+    nome: Miguel Pedro Pires Ribeiro Antunes Guimarães
+  - id: '1076124'
+    nome: Paulo Alexandre Pires Ribeiro Antunes Guimarães
+  - id: '1076856'
+    nome: Maria Fernanda Pires Ribeiro Antunes Guimarães
+  Nascimento:
+    data: 25.09.1934
+    local: Braga, Cividade
+  Nome: José Luís Vale Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1075916'
+      nome: José Martins de Oliveira Antunes Guimarães
+  - Mãe:
+      id: '1075918'
+      nome: Maria Fernanda de Amorim Feio Vale
+  _id: '1076051'
+- Casamentos:
+  - data: 04.08.1932
+    idParceiro: '1075918'
+    local: Braga
+    parceiro: Maria Fernanda de Amorim Feio Vale
+  Documentos: {}
+  Falecimento:
+    data: 14.04.1948
+    local: Braga, Cividade, Casa da Cutelaria
+  Filhos:
+  - id: '1075942'
+    nome: Justino Feio Vale Antunes Guimarães
+  - id: '1076051'
+    nome: José Luís Vale Antunes Guimarães
+  - id: '1076054'
+    nome: Maria Manuela Feio Antunes Guimarães
+  Nascimento:
+    data: 27.04.1904
+    local: Braga, Braga
+  Nome: José Martins de Oliveira Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076210'
+      nome: Justino Antunes Guimarães
+  - Mãe:
+      id: '1076211'
+      nome: Rosa Martins de Oliveira
+  _id: '1075916'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 17.02.1992
+    local: Braga, Braga
+  Nome: José Pedro Ferreira da Cunha Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076124'
+      nome: Paulo Alexandre Pires Ribeiro Antunes Guimarães
+  - Mãe:
+      id: '1077961'
+      nome: Ana Isabel Ferrera da Cunha
+  _id: '1077960'
+- Casamentos:
+  - data: 13.06.1796
+    idParceiro: '1078341'
+    local: Vila Real, Vila Real
+    parceiro: Francisco Feyo de Figueiredo Correia
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077256'
+    nome: Mariana Ezequiel Feyo de Figueiredo Correia
+  Nascimento: {}
+  Nome: Josefa Joaquina Correia de Carvalho
+  Pais: []
+  _id: '1078342'
+- Casamentos:
+  - data: '07.1932'
+    idParceiro: '1076211'
+    local: Braga
+    parceiro: Rosa Martins de Oliveira
+  Documentos: {}
+  Falecimento:
+    data: 24.07.1957
+    local: Braga, Braga
+  Filhos:
+  - id: '1075916'
+    nome: José Martins de Oliveira Antunes Guimarães
+  - id: '1078841'
+    nome: Maria Martins de Oliveira Antunes Guimarães
+  - id: '1078852'
+    nome: João Martins de Oliveira Antunes Guimarães
+  Nascimento:
+    data: 30.09.1878
+    local: Guimarães, Briteiros (Salvador)
+  Nome: Justino Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076210'
+- Casamentos:
+  - Casamento I:
+      data: ''
+      idParceiro: '1075944'
+      local: ''
+      parceiro: Maria Adelaide Rodrigues Pais dos Santos
+  - Casamento II:
+      data: 19.01.1979
+      idParceiro: '1076050'
+      local: Braga, Cividade
+      parceiro: Maria Clotilde Miranda Cardoso do Vale
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - Filhos do Casamento I:
+    - id: '1075943'
+      nome: Ana Maria Pais dos Santos Antunes Guimarães
+  Nascimento:
+    data: 10.03.1933
+    local: Guimarães, Donim, Casa de Sande
+  Nome: Justino Feio Vale Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1075916'
+      nome: José Martins de Oliveira Antunes Guimarães
+  - Mãe:
+      id: '1075918'
+      nome: Maria Fernanda de Amorim Feio Vale
+  _id: '1075942'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 01.11.1890
+    local: Braga, São Lázaro
+  Filhos: []
+  Nascimento:
+    data: 14.04.1881
+    local: Guimarães, Briteiros (Salvador)
+  Nome: Leonor Antunes Guimarães
+  Notas:
+  - Sepultada no jazigo de Donim
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076281'
+- Casamentos:
+  - data: 05.03.1882
+    idParceiro: '1078241'
+    local: Braga, Braga
+    parceiro: Francisca Carolina Antunes Rodrigues Guimarães
+  Documentos: {}
+  Falecimento:
+    data: 01.08.1911
+    local: Quinta da Ordem - Dume - Braga
+  Filhos:
+  - id: '1078246'
+    nome: João da Cunha Velho Sotomaior
+  Nascimento:
+    data: '1840'
+    local: ''
+  Nome: Lourenço da Cunha Velho Sotomaior
+  Pais: []
+  _id: '1078243'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078346'
+    local: ''
+    parceiro: Maria Teresa de Figueiredo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1078341'
+    nome: Francisco Feyo de Figueiredo Correia
+  Nascimento:
+    data: 26.12.1719
+    local: São Pedro - Vila Real
+  Nome: Luís António Feyo
+  Pais:
+  - Pai:
+      id: '1078349'
+      nome: Domingos Alves Feyo
+  - Mãe:
+      id: '1078350'
+      nome: Luísa Teixeira Camelo
+  _id: '1078345'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 13.01.1880
+    local: Guimarães, Briteiros (Salvador)
+  Nome: Luís Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076279'
+- Casamentos:
+  - data: ''
+    idParceiro: '1077251'
+    local: ''
+    parceiro: Maria Emilia Rebelo Feio
+  Documentos: {}
+  Falecimento:
+    data: 26.10.1897
+    local: Braga, Braga, Rua das Aguas, 55
+  Filhos:
+  - id: '1077246'
+    nome: Francisco Feio Vale
+  Nascimento:
+    data: 22.10.1854
+    local: Viana do Castelo, Valença
+  Nome: Luís Cândido Fernandez Vale
+  Pais: []
+  _id: '1077253'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 05.07.2000
+    local: ''
+  Nome: Luís Represas Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076119'
+      nome: José Luís Pires Ribeiro Antunes Guimarães
+  - Mãe:
+      id: '1076848'
+      nome: Sara Augusta Miranda Represas
+  _id: '1076853'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078349'
+    local: ''
+    parceiro: Domingos Alves Feyo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1078345'
+    nome: Luís António Feyo
+  Nascimento: {}
+  Nome: Luísa Teixeira Camelo
+  Pais: []
+  _id: '1078350'
+- Casamentos:
+  - data: 08.07.1732
+    idParceiro: '1075985'
+    local: Guimarães, São Torcato, Casal do Monte
+    parceiro: Eulália Cardoso
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Guimarães, Sande (São Martinho)
+  Filhos:
+  - id: '1075983'
+    nome: Custódia Maria Alvares
+  Nascimento:
+    data: ''
+    local: Guimarães, Sande (São Martinho), Casa da Ribeiral
+  Nome: Manoel Alvares
+  Pais: []
+  _id: '1075984'
+- Casamentos:
+  - data: 02.08.1795
+    idParceiro: '1076019'
+    local: Guimarães, Briteiros (Salvador)
+    parceiro: Ana Maria Antunes
+  Documentos: {}
+  Falecimento:
+    data: 21.06.1811
+    local: Viana do Castelo, Valença, Hospital de Valença
+  Filhos:
+  - id: '1076073'
+    nome: Domingos
+  - id: '1076074'
+    nome: Domingos
+  - id: '1076075'
+    nome: Francisco
+  - id: '1076103'
+    nome: José Antunes Guimarães
+  - id: '1076106'
+    nome: Francisco Antunes Guimarães
+  - id: '1076110'
+    nome: João Antunes Guimarães
+  Nascimento:
+    data: 12.09.1765
+    local: Guimarães, Sande (São Martinho), Lugar da Ribeira
+  Nome: Manoel José Francisco
+  Pais:
+  - Pai:
+      id: '1075981'
+      nome: Domingos Francisco de Macedo
+  - Mãe:
+      id: '1075983'
+      nome: Custódia Maria Alvares
+  _id: '1076014'
+- Casamentos:
+  - data: 16.04.1694
+    idParceiro: '1076012'
+    local: Guimarães, Souto (Santa Maria)
+    parceiro: Úrsula Francisca
+  Documentos: {}
+  Falecimento:
+    data: 13.12.1719
+    local: Guimarães, Souto (Santa Maria), Casal da Bouça
+  Filhos:
+  - id: '1075782'
+    nome: Úrsula de Macedo
+  Nascimento:
+    data: 16.05.1673
+    local: Guimarães, Souto (Santa Maria)
+  Nome: Manuel da Costa de Macedo
+  Pais:
+  - Pai:
+      id: '1093195'
+      nome: Domingos da Costa
+  - Mãe:
+      id: '1093196'
+      nome: Maria de Macedo
+  _id: '1076011'
+- Casamentos:
+  - data: 03.02.1872
+    idParceiro: '1078241'
+    local: Donim - Guimarães, Casa de Sande
+    parceiro: Francisca Carolina Antunes Rodrigues Guimarães
+  Documentos: {}
+  Falecimento:
+    data: 08.01.1875
+    local: Donim Guimarães
+  Filhos:
+  - id: '1078239'
+    nome: Francisca Carolina Antunes Guimarães
+  - id: '1078240'
+    nome: Maria da Conceição Antunes Guimarães
+  Nascimento:
+    data: 01.02.1828
+    local: Donim - Guimarães
+  Nome: Manuel José Lopes Guimarães
+  Pais: []
+  _id: '1078238'
+- Casamentos:
+  - data: 09.08.1754
+    idParceiro: '1079219'
+    local: Guimarães, Gondomar
+    parceiro: Felis Fernandes
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079217'
+    nome: Custódio José Fernandes
+  Nascimento:
+    data: 07.03.1729
+    local: Guimarães, Gondomar, Lugar da Lage
+  Nome: Marcelina Fernandes
+  Pais:
+  - Pai:
+      id: '1079228'
+      nome: Francisco Gonçalves
+  - Mãe:
+      id: '1079229'
+      nome: Domingas Fernandes
+  _id: '1079220'
+- Casamentos:
+  - data: ''
+    idParceiro: '1086998'
+    local: ''
+    parceiro: Custódia Rodrigues
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079225'
+    nome: Prudencia Rodrigues
+  Nascimento:
+    data: ''
+    local: Guimarães, Gondomar, Lugar do Covo
+  Nome: Marcos Fernandes
+  Pais: []
+  _id: '1086997'
+- Casamentos:
+  - data: ''
+    idParceiro: '1075942'
+    local: ''
+    parceiro: Justino Feio Vale Antunes Guimarães
+  Documentos: {}
+  Falecimento:
+    data: '1996'
+    local: Braga, São Vitor
+  Filhos:
+  - id: '1075943'
+    nome: Ana Maria Pais dos Santos Antunes Guimarães
+  Nascimento:
+    data: 14.05.1943
+    local: Horta - Matriz
+  Nome: Maria Adelaide Rodrigues Pais dos Santos
+  Pais: []
+  _id: '1075944'
+- Casamentos:
+  - data: 19.08.1840
+    idParceiro: '1076343'
+    local: Guimarães, Souto (São Salvador)
+    parceiro: Domingos José Fernandes Guimarães
+  Documentos: {}
+  Falecimento:
+    data: 24.08.1908
+    local: Guimarães, Gondomar, Casa da lage
+  Filhos:
+  - id: '1076116'
+    nome: Rita Isabel de Freitas Fernandes
+  Nascimento:
+    data: 25.05.1819
+    local: Guimarães, Souto (São Salvador), Lugar do Barral
+  Nome: Maria Antónia da Conceição de Macedo e Lima de Freitas
+  Pais:
+  - Pai:
+      id: '1078028'
+      nome: João José Rodrigues de Feitas
+  - Mãe:
+      id: '1078029'
+      nome: Fancisca Margarida da Encarnação de Macedo e Lima
+  _id: '1076344'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 26.03.1979
+    local: ''
+  Filhos: []
+  Nascimento:
+    data: 03.01.1885
+    local: Guimarães, Briteiros (Salvador)
+  Nome: Maria Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076284'
+- Casamentos:
+  - data: 19.01.1979
+    idParceiro: '1075942'
+    local: Braga, Cividade
+    parceiro: Justino Feio Vale Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 19.01.1940
+    local: Guimarães, Creixomil, Quinta do Robalo
+  Nome: Maria Clotilde Miranda Cardoso do Vale
+  Pais: []
+  _id: '1076050'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: a. 19.12.1880
+    local: Guimarães, Donim, Lugar da Devesa
+  Filhos: []
+  Nascimento:
+    data: 08.09.1874
+    local: Guimarães, Donim
+  Nome: Maria da Conceição Antunes Guimarães
+  Notas:
+  - Foi sepultada "pomposamente" na igreja mas mais tarde trasladada para o jazigo
+    de João Antunes Guimarães, em Donim, por vontade deste, expressa em testamento.
+  Pais:
+  - Pai:
+      id: '1078238'
+      nome: Manuel José Lopes Guimarães
+  - Mãe:
+      id: '1078241'
+      nome: Francisca Carolina Antunes Rodrigues Guimarães
+  _id: '1078240'
+- Casamentos:
+  - data: 07.09.1876
+    idParceiro: '1078572'
+    local: Vila Verde, Soutelo
+    parceiro: António Candido Soares de Azevedo da Silva Amorim
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077247'
+    nome: Palmira da Glória Fernandes dias de Amorim
+  Nascimento:
+    data: 04.12.1849
+    local: Braga, São João do Souto
+  Nome: Maria da Glória Fernandes Dias
+  Pais:
+  - Pai:
+      id: '1079215'
+      nome: José Germano Fernandes Dias
+  - Mãe:
+      id: '1079216'
+      nome: Maria Rita da Silva
+  _id: '1078573'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078351'
+    local: ''
+    parceiro: Domingos Jorge Feyo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1078349'
+    nome: Domingos Alves Feyo
+  Nascimento: {}
+  Nome: Maria de Carvalho
+  Pais: []
+  _id: '1078352'
+- Casamentos:
+  - data: ''
+    idParceiro: '1093195'
+    local: ''
+    parceiro: Domingos da Costa
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Casal da Bouça- Souto (Sª. Maria)
+  Filhos:
+  - id: '1076011'
+    nome: Manuel da Costa de Macedo
+  Nascimento:
+    data: ''
+    local: Casal da Bouça -Souto (S.ª Maria)
+  Nome: Maria de Macedo
+  Pais:
+  - Pai:
+      id: '1093197'
+      nome: Pedro de Macedo
+  - Mãe:
+      id: '1093198'
+      nome: Isabel Lopes de Barros
+  _id: '1093196'
+- Casamentos:
+  - data: ''
+    idParceiro: '1077253'
+    local: ''
+    parceiro: Luís Cândido Fernandez Vale
+  Documentos: {}
+  Falecimento:
+    data: 07.12.1955
+    local: Braga, Braga
+  Filhos:
+  - id: '1077246'
+    nome: Francisco Feio Vale
+  Nascimento:
+    data: 27.09.1854
+    local: Vila Real, Vila Real
+  Nome: Maria Emilia Rebelo Feio
+  Pais:
+  - Pai:
+      id: '1077254'
+      nome: Francisco Pereira Rebelo Feio
+  - Mãe:
+      id: '1077255'
+      nome: Maria Lúcia Adelaide de Azevedo Taveira
+  _id: '1077251'
+- Casamentos:
+  - data: 04.08.1932
+    idParceiro: '1075916'
+    local: Braga
+    parceiro: José Martins de Oliveira Antunes Guimarães
+  Documentos: {}
+  Falecimento:
+    data: 09.12.1945
+    local: Braga, São Vítor
+  Filhos:
+  - id: '1075942'
+    nome: Justino Feio Vale Antunes Guimarães
+  - id: '1076051'
+    nome: José Luís Vale Antunes Guimarães
+  - id: '1076054'
+    nome: Maria Manuela Feio Antunes Guimarães
+  Nascimento:
+    data: 04.09.1912
+    local: Vila Verde, Soutelo
+  Nome: Maria Fernanda de Amorim Feio Vale
+  Pais:
+  - Pai:
+      id: '1077246'
+      nome: Francisco Feio Vale
+  - Mãe:
+      id: '1077247'
+      nome: Palmira da Glória Fernandes dias de Amorim
+  _id: '1075918'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076855'
+    local: Braga, Braga
+    parceiro: João Hélio Ferreira Soares
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076857'
+    nome: Joana Antunes Guimarães Ferreira Soares
+  Nascimento:
+    data: 22.07.1962
+    local: Braga, Braga
+  Nome: Maria Fernanda Pires Ribeiro Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076051'
+      nome: José Luís Vale Antunes Guimarães
+  - Mãe:
+      id: '1076053'
+      nome: Maria Teresa Pires Ribeiro Antunes Guimarães
+  _id: '1076856'
+- Casamentos:
+  - data: 27.01.1858
+    idParceiro: '1076110'
+    local: Fafe, Moreira de Rei
+    parceiro: João Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 22.07.1812
+    local: Fafe, Moreira de Rei, Lugar de Barbosa
+  Nome: Maria Joaquina Alves Pereira de Sousa
+  Pais:
+  - Pai:
+      id: '1078765'
+      nome: José Alves de Sousa
+  - Mãe:
+      id: '1078766'
+      nome: Custódia Maria Pereira
+  _id: '1076111'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078763'
+    local: ''
+    parceiro: João Fernandes Pereira
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Braga
+  Filhos:
+  - id: '1076211'
+    nome: Rosa Martins de Oliveira
+  Nascimento: {}
+  Nome: Maria Joaquina de Oliveira Martins
+  Pais: []
+  _id: '1078764'
+- Casamentos:
+  - data: ''
+    idParceiro: '1077254'
+    local: ''
+    parceiro: Francisco Pereira Rebelo Feio
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077251'
+    nome: Maria Emilia Rebelo Feio
+  Nascimento: {}
+  Nome: Maria Lúcia Adelaide de Azevedo Taveira
+  Pais: []
+  _id: '1077255'
+- Casamentos:
+  - data: ''
+    idParceiro: '1077966'
+    local: ''
+    parceiro: Vitor Aguiar Branco Sampaio
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077967'
+    nome: Guilherme Santos Barreiro Aguiar Branco
+  Nascimento:
+    data: 11.06.1963
+    local: Braga
+  Nome: Maria Manuela Antunes Guimarães dos Santos Barreiro
+  Pais:
+  - Pai:
+      id: '1076055'
+      nome: Mario Alberto da Hora Santos Barreiro
+  - Mãe:
+      id: '1076054'
+      nome: Maria Manuela Feio Antunes Guimarães
+  _id: '1076126'
+- Casamentos:
+  - data: 08.12.1958
+    idParceiro: '1076055'
+    local: Braga, São Vítor
+    parceiro: Mario Alberto da Hora Santos Barreiro
+  Documentos: {}
+  Falecimento:
+    data: 19.06.2007
+    local: Braga
+  Filhos:
+  - id: '1076125'
+    nome: Mário Manuel Antunes Guimarâes dos Santos Barreiro
+  - id: '1076126'
+    nome: Maria Manuela Antunes Guimarães dos Santos Barreiro
+  Nascimento:
+    data: 23.10.1935
+    local: Braga, Cividade
+  Nome: Maria Manuela Feio Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1075916'
+      nome: José Martins de Oliveira Antunes Guimarães
+  - Mãe:
+      id: '1075918'
+      nome: Maria Fernanda de Amorim Feio Vale
+  _id: '1076054'
+- Casamentos: []
+  Documentos: {}
+  Falecimento:
+    data: 30.12.1946
+    local: Braga, São Lázaro
+  Filhos: []
+  Nascimento:
+    data: 20.10.1905
+    local: Braga, São Vítor
+  Nome: Maria Martins de Oliveira Antunes Guimarães
+  Notas:
+  - Foi sempre chamada Maria do Céu
+  Pais:
+  - Pai:
+      id: '1076210'
+      nome: Justino Antunes Guimarães
+  - Mãe:
+      id: '1076211'
+      nome: Rosa Martins de Oliveira
+  _id: '1078841'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079209'
+    local: ''
+    parceiro: Bento José da Silva
+  Documentos: {}
+  Falecimento:
+    data: 20.03.1889
+    local: Braga - Amares
+  Filhos:
+  - id: '1078572'
+    nome: António Candido Soares de Azevedo da Silva Amorim
+  Nascimento:
+    data: 30.10.1809
+    local: Braga - Amares
+  Nome: Maria Narcisa da Silva Soares de Azevedo
+  Pais:
+  - Pai:
+      id: '1079211'
+      nome: António José de Amorim Machado de Araujo
+  - Mãe:
+      id: '1079212'
+      nome: Ana de Jesus Soares de Azevedo
+  _id: '1079210'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079215'
+    local: ''
+    parceiro: José Germano Fernandes Dias
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1078573'
+    nome: Maria da Glória Fernandes Dias
+  Nascimento:
+    data: 04.01.1822
+    local: Olivença
+  Nome: Maria Rita da Silva
+  Pais: []
+  _id: '1079216'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076020'
+    local: ''
+    parceiro: José Antunes
+  Documentos: {}
+  Falecimento:
+    data: 20.08.1814
+    local: Guimarães, Briteiros, Lugar do Agro
+  Filhos:
+  - id: '1076019'
+    nome: Ana Maria Antunes
+  Nascimento:
+    data: ''
+    local: Salvador de Briteiros
+  Nome: Maria Teixeira
+  Pais: []
+  _id: '1076021'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078345'
+    local: ''
+    parceiro: Luís António Feyo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1078341'
+    nome: Francisco Feyo de Figueiredo Correia
+  Nascimento: {}
+  Nome: Maria Teresa de Figueiredo
+  Pais: []
+  _id: '1078346'
+- Casamentos:
+  - data: 25.07.1959
+    idParceiro: '1076051'
+    local: braga, sameiro
+    parceiro: José Luís Vale Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076119'
+    nome: José Luís Pires Ribeiro Antunes Guimarães
+  - id: '1076120'
+    nome: Miguel Pedro Pires Ribeiro Antunes Guimarães
+  - id: '1076124'
+    nome: Paulo Alexandre Pires Ribeiro Antunes Guimarães
+  - id: '1076856'
+    nome: Maria Fernanda Pires Ribeiro Antunes Guimarães
+  Nascimento:
+    data: 31.03.1940
+    local: Braga, Maximinos
+  Nome: Maria Teresa Pires Ribeiro Antunes Guimarães
+  Pais: []
+  _id: '1076053'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078336'
+    local: ''
+    parceiro: Bernardo Pereira Rebello
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077254'
+    nome: Francisco Pereira Rebelo Feio
+  Nascimento:
+    data: 07.11.1801
+    local: Vila Real, Vila Real
+  Nome: Mariana Ezequiel Feyo de Figueiredo Correia
+  Pais:
+  - Pai:
+      id: '1078341'
+      nome: Francisco Feyo de Figueiredo Correia
+  - Mãe:
+      id: '1078342'
+      nome: Josefa Joaquina Correia de Carvalho
+  _id: '1077256'
+- Casamentos:
+  - data: 08.12.1958
+    idParceiro: '1076054'
+    local: Braga, São Vítor
+    parceiro: Maria Manuela Feio Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076125'
+    nome: Mário Manuel Antunes Guimarâes dos Santos Barreiro
+  - id: '1076126'
+    nome: Maria Manuela Antunes Guimarães dos Santos Barreiro
+  Nascimento:
+    data: 12.11.1930
+    local: Braga, Braga
+  Nome: Mario Alberto da Hora Santos Barreiro
+  Pais: []
+  _id: '1076055'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 08.12.1959
+    local: Braga
+  Nome: Mário Manuel Antunes Guimarâes dos Santos Barreiro
+  Pais:
+  - Pai:
+      id: '1076055'
+      nome: Mario Alberto da Hora Santos Barreiro
+  - Mãe:
+      id: '1076054'
+      nome: Maria Manuela Feio Antunes Guimarães
+  _id: '1076125'
+- Casamentos:
+  - data: ''
+    idParceiro: '1093199'
+    local: ''
+    parceiro: Simão Francisco de Macedo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1093197'
+    nome: Pedro de Macedo
+  Nascimento:
+    data: ''
+    local: Casal da Bouça- Souto (Sª. Maria)
+  Nome: Marta Gonçalves
+  Pais: []
+  _id: '1093200'
+- Casamentos:
+  - data: ''
+    idParceiro: '1078239'
+    local: ''
+    parceiro: Francisca Carolina Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento: {}
+  Nome: Miguel da Cunha Velho de Vilhena Sotomaior
+  Pais: []
+  _id: '1078242'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079227'
+    local: ''
+    parceiro: Esperança do Vale
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079219'
+    nome: Felis Fernandes
+  Nascimento: {}
+  Nome: Miguel Fernandes
+  Pais: []
+  _id: '1079226'
+- Casamentos:
+  - Casamento I:
+      data: ''
+      idParceiro: '1077955'
+      local: ''
+      parceiro: Sandra Moura
+  - Casamento I:
+      data: ''
+      idParceiro: '1077957'
+      local: ''
+      parceiro: Andreia Mendes
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 19.09.1965
+    local: Braga, Maximinos
+  Nome: Miguel Pedro Pires Ribeiro Antunes Guimarães
+  Notas:
+  - Casamentos dissolvidos por divórcio
+  Pais:
+  - Pai:
+      id: '1076051'
+      nome: José Luís Vale Antunes Guimarães
+  - Mãe:
+      id: '1076053'
+      nome: Maria Teresa Pires Ribeiro Antunes Guimarães
+  _id: '1076120'
+- Casamentos:
+  - data: ''
+    idParceiro: '1079213'
+    local: ''
+    parceiro: Francisco José da Silva
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079209'
+    nome: Bento José da Silva
+  Nascimento: {}
+  Nome: Mria Josefa Francisca
+  Pais: []
+  _id: '1079214'
+- Casamentos:
+  - data: 21.09.1908
+    idParceiro: '1077246'
+    local: Braga, Braga
+    parceiro: Francisco Feio Vale
+  Documentos: {}
+  Falecimento:
+    data: 30.07.1976
+    local: ''
+  Filhos:
+  - id: '1075918'
+    nome: Maria Fernanda de Amorim Feio Vale
+  Nascimento:
+    data: 07.03.1879
+    local: Braga, Braga
+  Nome: Palmira da Glória Fernandes dias de Amorim
+  Pais:
+  - Pai:
+      id: '1078572'
+      nome: António Candido Soares de Azevedo da Silva Amorim
+  - Mãe:
+      id: '1078573'
+      nome: Maria da Glória Fernandes Dias
+  _id: '1077247'
+- Casamentos:
+  - Casamento I:
+      data: 18.12.1999
+      idParceiro: '1077964'
+      local: ''
+      parceiro: Isabel Cristina Silva Peres Samões
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - 'Filhos de  Ana Isabel Ferrera da Cunha (1077961) ':
+    - id: '1077960'
+      nome: José Pedro Ferreira da Cunha Antunes Guimarães
+  Nascimento:
+    data: 23.08.1974
+    local: Braga
+  Nome: Paulo Alexandre Pires Ribeiro Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076051'
+      nome: José Luís Vale Antunes Guimarães
+  - Mãe:
+      id: '1076053'
+      nome: Maria Teresa Pires Ribeiro Antunes Guimarães
+  _id: '1076124'
+- Casamentos:
+  - data: ''
+    idParceiro: '1093198'
+    local: ''
+    parceiro: Isabel Lopes de Barros
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1093196'
+    nome: Maria de Macedo
+  Nascimento:
+    data: ''
+    local: Casal da Bouça-Souto (Sª. Maria)
+  Nome: Pedro de Macedo
+  Pais:
+  - Pai:
+      id: '1093199'
+      nome: Simão Francisco de Macedo
+  - Mãe:
+      id: '1093200'
+      nome: Marta Gonçalves
+  _id: '1093197'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: ''
+    local: América do Sul, Brasil, Pelotas
+  Nome: Piedade
+  Pais:
+  - Pai:
+      id: '1076106'
+      nome: Francisco Antunes Guimarães
+  - Mãe:
+      id: '1076107'
+      nome: D. Francisca Eulália Rodrigues de Araújo
+  _id: '1076113'
+- Casamentos:
+  - data: 20.07.1749
+    idParceiro: '1079224'
+    local: Guimarães, Gondomar
+    parceiro: Cassamiro José Ferreira
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079218'
+    nome: Custódia Maria Rodrigues Ferreira
+  Nascimento: {}
+  Nome: Prudencia Rodrigues
+  Pais:
+  - Pai:
+      id: '1086997'
+      nome: Marcos Fernandes
+  - Mãe:
+      id: '1086998'
+      nome: Custódia Rodrigues
+  _id: '1079225'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076115'
+    local: ''
+    parceiro: Serafim Antunes Rodrigues Guimarães
+  Documentos: {}
+  Falecimento:
+    data: 28.11.1894
+    local: Lisboa, Encarnação, Rua de São Pedro de Alcantara
+  Filhos:
+  - id: '1076276'
+    nome: Ana Antunes Guimarães
+  - id: '1076277'
+    nome: Serafim Antunes Guimarães
+  - id: '1076278'
+    nome: João Antunes Guimarães
+  - id: '1076210'
+    nome: Justino Antunes Guimarães
+  - id: '1076279'
+    nome: Luís Antunes Guimarães
+  - id: '1076281'
+    nome: Leonor Antunes Guimarães
+  - id: '1076282'
+    nome: António Antunes Guimarães
+  - id: '1076284'
+    nome: Maria Antunes Guimarães
+  - id: '1087737'
+    nome: Francisco Antunes Guimarães
+  - id: '1076285'
+    nome: Constança Antunes Guimarães
+  - id: '1076286'
+    nome: Alberto Antunes Guimarães
+  Nascimento:
+    data: 05.08.1855
+    local: Guimarães, Gondomar, Casa da Lage
+  Nome: Rita Isabel de Freitas Fernandes
+  Notas:
+  - Causa da morte:"doença orgânica do coração (mitral)
+  Pais:
+  - Pai:
+      id: '1076343'
+      nome: Domingos José Fernandes Guimarães
+  - Mãe:
+      id: '1076344'
+      nome: Maria Antónia da Conceição de Macedo e Lima de Freitas
+  _id: '1076116'
+- Casamentos:
+  - data: 18.11.1940
+    idParceiro: '1078852'
+    local: Guimarães, Donim
+    parceiro: João Martins de Oliveira Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento: {}
+  Nome: Rosa dos Santos Rodrigues Viana
+  Pais: []
+  _id: '1078853'
+- Casamentos:
+  - data: 30.11.1775
+    idParceiro: '1079217'
+    local: Guimarães, Gondomar, Lugar da Lage
+    parceiro: Custódio José Fernandes
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento: {}
+  Nome: Rosa Maria Ferreira
+  Pais: []
+  _id: '1079221'
+- Casamentos:
+  - data: '07.1932'
+    idParceiro: '1076210'
+    local: Braga
+    parceiro: Justino Antunes Guimarães
+  Documentos: {}
+  Falecimento:
+    data: 07.02.1968
+    local: Braga, Cividade, Sé
+  Filhos:
+  - id: '1075916'
+    nome: José Martins de Oliveira Antunes Guimarães
+  - id: '1078841'
+    nome: Maria Martins de Oliveira Antunes Guimarães
+  - id: '1078852'
+    nome: João Martins de Oliveira Antunes Guimarães
+  Nascimento:
+    data: 16.11.1884
+    local: Vila Verde, Escariz (São Martinho)
+  Nome: Rosa Martins de Oliveira
+  Pais:
+  - Pai:
+      id: '1078763'
+      nome: João Fernandes Pereira
+  - Mãe:
+      id: '1078764'
+      nome: Maria Joaquina de Oliveira Martins
+  _id: '1076211'
+- Casamentos:
+  - data: ''
+    idParceiro: '1093202'
+    local: ''
+    parceiro: Isabel de Macedo
+  Documentos: {}
+  Falecimento:
+    data: 23.10.1618
+    local: Quinta da Granja- Souto (Salvador)
+  Filhos:
+  - id: '1093199'
+    nome: Simão Francisco de Macedo
+  Nascimento: {}
+  Nome: Salvador Francisco de Abreu
+  Pais: []
+  _id: '1093201'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076120'
+    local: ''
+    parceiro: Miguel Pedro Pires Ribeiro Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento: {}
+  Nome: Sandra Moura
+  Pais: []
+  _id: '1077955'
+- Casamentos:
+  - data: ''
+    idParceiro: '1086996'
+    local: ''
+    parceiro: Catarina Rodrigues
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1079224'
+    nome: Cassamiro José Ferreira
+  Nascimento: {}
+  Nome: Santos Ferreira
+  Pais:
+  - Pai:
+      id: '1086999'
+      nome: Affonso Gonçalves
+  - Mãe:
+      id: '1087000'
+      nome: Catarina Ferreira
+  _id: '1086995'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076119'
+    local: Braga, Braga
+    parceiro: José Luís Pires Ribeiro Antunes Guimarães
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076852'
+    nome: Carolina Represas Antunes Guimarães
+  - id: '1076853'
+    nome: Luís Represas Antunes Guimarães
+  Nascimento:
+    data: 02.01.1972
+    local: ''
+  Nome: Sara Augusta Miranda Represas
+  Pais: []
+  _id: '1076848'
+- Casamentos: []
+  Documentos: {}
+  Falecimento: {}
+  Filhos: []
+  Nascimento:
+    data: 06.09.1875
+    local: Guimarães, Briteiros (Salvador)
+  Nome: Serafim Antunes Guimarães
+  Pais:
+  - Pai:
+      id: '1076115'
+      nome: Serafim Antunes Rodrigues Guimarães
+  - Mãe:
+      id: '1076116'
+      nome: Rita Isabel de Freitas Fernandes
+  _id: '1076277'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076116'
+    local: ''
+    parceiro: Rita Isabel de Freitas Fernandes
+  Documentos: {}
+  Falecimento:
+    data: 25.11.1930
+    local: Guimarães, Briteiros (Salvador)
+  Filhos:
+  - id: '1076276'
+    nome: Ana Antunes Guimarães
+  - id: '1076277'
+    nome: Serafim Antunes Guimarães
+  - id: '1076278'
+    nome: João Antunes Guimarães
+  - id: '1076210'
+    nome: Justino Antunes Guimarães
+  - id: '1076279'
+    nome: Luís Antunes Guimarães
+  - id: '1076281'
+    nome: Leonor Antunes Guimarães
+  - id: '1076282'
+    nome: António Antunes Guimarães
+  - id: '1076284'
+    nome: Maria Antunes Guimarães
+  - id: '1087737'
+    nome: Francisco Antunes Guimarães
+  - id: '1076285'
+    nome: Constança Antunes Guimarães
+  - id: '1076286'
+    nome: Alberto Antunes Guimarães
+  Nascimento:
+    data: '1847'
+    local: América do Sul, Brasil, Pelotas
+  Nome: Serafim Antunes Rodrigues Guimarães
+  Notas:
+  - 'Causa da morte: nefrite'
+  Pais:
+  - Pai:
+      id: '1076106'
+      nome: Francisco Antunes Guimarães
+  - Mãe:
+      id: '1076107'
+      nome: D. Francisca Eulália Rodrigues de Araújo
+  _id: '1076115'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076109'
+    local: ''
+    parceiro: D. Inácia da Silva Araújo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1076107'
+    nome: D. Francisca Eulália Rodrigues de Araújo
+  Nascimento: {}
+  Nome: Serafim José Rodrigues de Araújo
+  Pais: []
+  _id: '1076108'
+- Casamentos:
+  - data: ''
+    idParceiro: '1093200'
+    local: ''
+    parceiro: Marta Gonçalves
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Casal da Bouça- Souto (Sª. Maria)
+  Filhos:
+  - id: '1093197'
+    nome: Pedro de Macedo
+  Nascimento:
+    data: b. 17.05.1573
+    local: Guimarães, Souto (São Salvador)
+  Nome: Simão Francisco de Macedo
+  Pais:
+  - Pai:
+      id: '1093201'
+      nome: Salvador Francisco de Abreu
+  - Mãe:
+      id: '1093202'
+      nome: Isabel de Macedo
+  _id: '1093199'
+- Casamentos:
+  - data: '1540'
+    idParceiro: '1093203'
+    local: ''
+    parceiro: Valentim Gonçalves
+  Documentos: {}
+  Falecimento:
+    data: ''
+    local: Quinta da Granja -Souto (Salvador)
+  Filhos:
+  - id: '1093202'
+    nome: Isabel de Macedo
+  Nascimento:
+    data: ''
+    local: Quinta da Granja-Souto (Salvador)
+  Nome: Simoa de Macedo
+  Pais: []
+  _id: '1093204'
+- Casamentos:
+  - data: 24.09.1724
+    idParceiro: '1075781'
+    local: Guimarães, Souto (Santa Maria)
+    parceiro: Domingos Francisco Martins
+  Documentos: {}
+  Falecimento:
+    data: 23.02.1791
+    local: Guimarães, Donim, Casa de Sande
+  Filhos:
+  - id: '1076013'
+    nome: Ana Francisco
+  - id: '1075901'
+    nome: Domingos Francisco
+  - id: '1075981'
+    nome: Domingos Francisco de Macedo
+  Nascimento:
+    data: 08.02.1705
+    local: Guimarães, Souto (Santa Maria), Casal das Bouças
+  Nome: Úrsula de Macedo
+  Pais:
+  - Pai:
+      id: '1076011'
+      nome: Manuel da Costa de Macedo
+  - Mãe:
+      id: '1076012'
+      nome: Úrsula Francisca
+  _id: '1075782'
+- Casamentos:
+  - data: 16.04.1694
+    idParceiro: '1076011'
+    local: Guimarães, Souto (Santa Maria)
+    parceiro: Manuel da Costa de Macedo
+  Documentos: {}
+  Falecimento:
+    data: 13.12.1730
+    local: Guimarães, Souto (Santa Maria)
+  Filhos:
+  - id: '1075782'
+    nome: Úrsula de Macedo
+  Nascimento:
+    data: ''
+    local: Guimarães, Souto (Santa Maria)
+  Nome: Úrsula Francisca
+  Notas:
+  - Os irmãos usavam o apelido "Ribeiro Guimarães)
+  Pais: []
+  _id: '1076012'
+- Casamentos:
+  - data: '1540'
+    idParceiro: '1093204'
+    local: ''
+    parceiro: Simoa de Macedo
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1093202'
+    nome: Isabel de Macedo
+  Nascimento: {}
+  Nome: Valentim Gonçalves
+  Pais: []
+  _id: '1093203'
+- Casamentos:
+  - data: ''
+    idParceiro: '1076126'
+    local: ''
+    parceiro: Maria Manuela Antunes Guimarães dos Santos Barreiro
+  Documentos: {}
+  Falecimento: {}
+  Filhos:
+  - id: '1077967'
+    nome: Guilherme Santos Barreiro Aguiar Branco
+  Nascimento: {}
+  Nome: Vitor Aguiar Branco Sampaio
+  Pais: []
+  _id: '1077966'

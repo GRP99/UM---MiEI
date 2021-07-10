@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container.w3-blue
+            h3 Introduza o novo pedido:
+        form.w3-container(action='/pedido' method='POST')
+            p
+            label Tipo de Exame:
+            select(name='tipoexame' required='required')
+                each t in tiposexames
+                    option(value=t.idtipoExame) #{t.descricao} (#{t.sigla})
+            p
+            label Descrição :
+            input.w3-input(type="text" name="descricao" required='required')
+            p
+            label Paciente :
+            select(name='paciente' required='required')
+                each p in pacientes
+                    option(value=p.idpaciente) #{p.nome} : #{p.numUtente}
+            p
+            label Data :
+            input.w3-input(type="datetime-local" name="data_hora" required='required')
+            p
+            label Episódio :
+            select(name='episodio' required='required')
+                each e in episodios
+                    option(value=e.idepisodio) #{e.idepisodio} : #{e.caracterizacao}
+            hr
+            input.w3-btn.w3-blue(type="submit" value="Registar")
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/") Voltar

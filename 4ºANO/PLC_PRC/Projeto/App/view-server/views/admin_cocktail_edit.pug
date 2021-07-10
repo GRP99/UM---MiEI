@@ -1,0 +1,142 @@
+extends layout
+
+block content
+    script(src='/javascripts/prevent_back.js')
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/manage';")
+                                            i(class = "fa fa-home" style="color:white;font-size:25px;")
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/logout';")
+                                            i(class = "fa fa-sign-out" style="color:white;font-size:25px;")
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px')
+                .row
+                    .col-md-12
+                        h3(style="font-size: 24px") Edit Cocktail 
+                            t(style="color: orange")=cocktail.strDrink
+                        .card.mb-3(style='background-color:#F8F8F8')
+                            .card-body
+                                form(name="Cocktails" action='http://localhost:7300/cocktails/edit?token=' + token, method='POST')
+                                    .form-group
+                                        label(class="form-label") Name      
+                                        input.form-control(type='text' id='name' name='name' required='required' value=cocktail.strDrink readonly)
+                                        input(type='hidden' name='idDrink' value=cocktail.idDrink)
+
+                                    .form-group
+                                        div(class='row')
+                                            div(class='col')
+                                                label(class="form-label") Alcoholic      
+                                                select.form-control(name='alcoholic' type='num')
+                                                    if cocktail.Alcoholic == ''
+                                                        option(value='Non alcoholic' selected) No
+                                                        option(value='Alcoholic') Yes
+                                                    else
+                                                        option(value='Non alcoholic') No
+                                                        option(value='Alcoholic' selected) Yes
+
+                                            div(class='col') 
+                                                label(class="form-label") Glassware
+                                                select.form-control(name='glassware')
+                                                    if cocktail.Glassware.strGlass == ''
+                                                        option(value='false') Select a Glassware
+                                                        for g in glasswares
+                                                            option(value=g.idGlass)=g.strGlass
+                                                    else
+                                                        for g in glasswares
+                                                            if g.strGlass == cocktail.Glassware.strGlass
+                                                                option(value=g.idGlass selected)=g.strGlass
+                                                            else
+                                                                option(value=g.idGlass)=g.strGlass
+
+                                            div(class='col')
+                                                label(class="form-label") Category      
+                                                select.form-control(name='category')
+                                                    if cocktail.Category.strCategory == ''
+                                                        option(value='false') Select a Category
+                                                        for c in categories
+                                                            option(value=c.idCategory)=c.strCategory
+                                                    else
+                                                        for c in categories
+                                                            if cocktail.Category.strCategory == c.strCategory
+                                                                option(value=c.idCategory selected)=c.strCategory
+                                                            else
+                                                                option(value=c.idCategory)=c.strCategory
+
+                                    div(class='row')
+                                        div(class='col') 
+                                            label(class="form-label") Bartender      
+                                            select.form-control(name='bartender')
+                                                if cocktail.Bartender.strBartender == ''
+                                                    option(value='false') Select a Bartender
+                                                    for b in bartenders
+                                                        option(value=b.idBartender)=b.strBartender
+                                                else 
+                                                    for b in bartenders
+                                                        if cocktail.Bartender.strBartender == b.strBartender
+                                                            option(value=b.idBartender selected)=b.strBartender
+                                                        else
+                                                            option(value=b.idBartender)=b.strBartender
+
+                                        div(class='col')
+                                            label(class="form-label") Location      
+                                            select.form-control(name='location')
+                                                if cocktail.Location.strLocation == ''
+                                                    option(value='false') Select a Location
+                                                    for l in locations
+                                                        option(value=l.idLocation)=l.strLocation
+                                                else
+                                                    for l in locations
+                                                        if cocktail.Location.strLocation == l.strLocation
+                                                            option(value=l.idLocation selected)=l.strLocation
+                                                        else    
+                                                            option(value=l.idLocation)=l.strLocation
+
+                                        div(class='col')
+                                            label(class="form-label") Bar      
+                                            select.form-control(name='bar')
+                                                if cocktail.Bar_Company.strBar == ''
+                                                    option(value='false') Select a Bar
+                                                    for b in bars
+                                                        option(value=b.idBar)=b.strBar
+                                                else 
+                                                    for b in bars
+                                                        if cocktail.Bar_Company.strBar == b.strBar
+                                                            option(value=b.idBar selected)=b.strBar
+                                                        else
+                                                            option(value=b.idBar)=b.strBar
+
+                                    div(class='row')
+                                        div(class='col')
+                                            label(class="form-label") Notes      
+                                            textarea.form-control(name='notes' rows="3" cols="50" style="resize:none")=cocktail.notes
+
+                                        div(class='col')
+                                            label(class="form-label") Preparation (English)      
+                                            textarea.form-control(name='preparation' rows="3" cols="50" style="resize:none")=cocktail.preparationEN
+
+                                    p The ingredients can be added after the creation of the cocktail
+                                    p
+                                        button(style="float:right; margin-left:10px" class="btn btn-primary btn-sm" type="submit") Submit
+                                        btn(style='float:right' class='btn btn-secondary btn-sm' type='button' onclick="location.href='http://localhost:7301/admin/manage/cocktails/" + cocktail.idDrink + "';") Cancel
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+    .overlay

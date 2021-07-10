@@ -1,0 +1,57 @@
+=== DIÁRIO DE BORDO :: AULA 9 [26 DE ABRIL DE 2021]
+
+    + Intrevenientes:
+        * Piloto de testes: Ricardo Leal
+        * Diario de Bordo: Nuno Cunha
+
+    + Aula
+        1. Criação do modulo usando código criado na aula 5
+
+        2. Instalação do package Flit
+            - Criação modulo com Flit e adicionar requires
+            - Flit build / pip install . para gerar o modulo
+
+        3. Apresentação da plataforma Pypi
+            - Criação de conta 
+            - Preenchimento do ficheiro pypirc com token
+            - Flit publish para o respositório testpypi
+            - Adiconar distutils
+
+        4. Criação do programa test-pai para confirmar output da função do pacote
+            - Testes usando pytest
+
+        5. Escolha de modulos para apresentação pro grupos
+
+    + Modulos para TP2
+        1. Rdflib (escolhido)
+        2. Owlready2 (escolhido)
+        3. nltk (escolhido)
+            - spacey
+            - also check pyfreeling
+        4. ply (DSL)
+        5. lark-parser (DSL) (escolhido)
+        6. Flask (escolhido)
+        7. Modulo de templates
+            -Jinja2 (escolhido)
+        8. Pickle (escolhido)
+            - também JSON & YAML
+        9. shelve
+        10. Modulos interface BD
+            - pyMongo (escolhido)
+            - sqlite3 (escolhido)
+        11. pyTersseract (escolhido)
+        12. Modulos ML
+            - tensorflow (escolhido)
+            - pytorch 
+            - scikit
+        13. BeautifulSoup4 (escolhido)
+        14. lxml (escolhido)
+        15. watchdog
+        16. Interfaces gráficas
+            - TKinter (escolhido)
+            - PyGame (escolhido)
+        17. Modulo text to speech
+            - gtts (escolhido)
+        18. numPy
+===
+

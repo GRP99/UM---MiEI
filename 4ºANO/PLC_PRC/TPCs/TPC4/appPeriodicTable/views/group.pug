@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    .w3-container.w3-section
+        header.w3-container.w3-grey
+            h2 Group 
+                i  #{number}
+            h3(style="text-align:right") Name
+                i  #{name}
+    .w3-container
+        h4 List of elements that are part of this group
+        p
+        table(id='example' class='display' style='width:100%')
+            thead
+                tr
+                    th Symbol
+                    th About
+            tbody
+                each g in group 
+                    if (g.o)
+                        if (g.p == 'element')
+                            tr
+                                td(style="text-align:center")=g.o
+                                td(style="text-align:center")
+                                    button(class="button-transparent" onclick="location.href='http://localhost:7201/element/"+g.o+"'")
+                                        i(class="fa fa-info-circle" aria-hidden="true")

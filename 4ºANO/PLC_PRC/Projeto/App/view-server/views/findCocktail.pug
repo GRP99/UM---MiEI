@@ -1,0 +1,141 @@
+extends layout
+
+block content
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    if level == 'none'
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/login') Login
+                                            a.button(href='http://localhost:7301/users/register') Register
+                                    else
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/myprofile') My profile
+                                            a.button(href='http://localhost:7301/users/logout') Log out
+                                    li
+                                        form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+                                            input(type='search' name='search' value='' placeholder='Search')
+                                    li
+                                        button#sidebarCollapse(type='button')
+                                            img(src='/images/menu_icon.png' alt='#')
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title(style='margin-top: 150px')
+                            i
+                                img(src='/images/icons/engineering.png')
+                            h2 Find your 
+                                t(style="color:orange") Cocktail
+
+                            span Gather some Ingredients to help us find your desired Cocktail.
+
+                .row
+                    .col-md-12
+                        h3(style="font-size: 24px") Choose your 
+                            t(style="color:goldenrod") Ingredients
+                        .card.mb-3
+                            .card-body(style="text-align:center")
+                                form(onsubmit="return validateIngredientForm()" name="ChooseIngredients" action='http://localhost:7301/buildCocktail', method='POST')
+                                    h4 Ingredient number 1
+                                    select.form-select(name='i1' id="i1")
+                                        option(value='false') Select an Ingredient
+                                        for i in ingredients
+                                            if i.strIngredient == i1 && i1 != 'false'
+                                                option(value=i.idIngredient selected)=i.strIngredient
+                                            else
+                                                option(value=i.idIngredient)=i.strIngredient
+
+
+                                    h4(style='margin-top: 25px') Ingredient number 2
+                                    select.form-select(name='i2' id="i2")
+                                        option(value='false') Select an Ingredient
+                                        for i in ingredients
+                                            if i.strIngredient == i2 && i2 != 'false'
+                                                option(value=i.idIngredient selected)=i.strIngredient
+                                            else
+                                                option(value=i.idIngredient)=i.strIngredient
+
+
+                                    h4(style='margin-top: 25px') Ingredient number 3
+                                    select.form-select(name='i3' id="i3")
+                                        option(value='false') Select an Ingredient
+                                        for i in ingredients
+                                            if i.strIngredient == i3 && i3 != 'false'
+                                                option(value=i.idIngredient selected)=i.strIngredient
+                                            else
+                                                option(value=i.idIngredient)=i.strIngredient
+
+                                    p
+                                        button(style="float:right" class="btn btn-primary btn-sm" type="submit") Build
+
+                if build == true
+                    .row(style='margin-top:50px')
+                        .col-md-12
+                            .title
+                                i
+                                    img(src='/images/icons/cocktail.png')
+                                h3(style="font-size: 28px") Cocktails found
+
+                            if cocktails.length != 0
+                                textsecundary Cocktails found that use the following ingredients: 
+                                    if i1 != 'false'  
+                                        t(style="color:orange") #{i1}
+                                    if i2 != 'false'  
+                                        if i1 != 'false' && i3 == 'false'
+                                            t  and 
+                                        if i1 != 'false' && i3 != 'false'
+                                            t , 
+                                        t(style="color:orange") #{i2}
+                                    if i3 != 'false' 
+                                        if i1 != 'false' || i2 != 'false'
+                                            t  and 
+                                        t(style="color:orange") #{i3}
+                                table(id="example" style="text-align:center")
+                                    thead
+                                        tr
+                                            th
+                                            th Cocktail
+                                            th 
+                                    tbody
+                                        each c in cocktails
+                                            tr
+                                                td
+                                                    img(src="/images/icons/cocktail.png")
+                                                td
+                                                    a(href="/cocktails/" + c.idDrink)=c.strDrink
+                                                td
+                                                    button(type="button" class="btn btn-secondary btn-sm" onclick="location.href='/cocktails/" + c.idDrink + "'") Find More
+
+
+                            else
+                                textsecundary No Cocktail found that use the following ingredients: 
+                                    if i1 != 'false' 
+                                        t(style="color:orange") #{i1}
+                                    if i2 != 'false' 
+                                        if i1 != 'false' && i3 == 'false'
+                                            t  and 
+                                        if i1 != 'false' && i3 != 'false'
+                                            t ,  
+                                        t(style="color:orange") #{i2}
+                                    if i3 != 'false'
+                                        if i1 != 'false' || i2 != 'false'
+                                            t  and 
+                                        t(style="color:orange") #{i3}
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+        // end footer
+        // end footer
+    .overlay

@@ -1,0 +1,25 @@
+by:Luis Miguel Ferreira
+
+TPC1
+    Começar com um Python quick reference (PQR)
+    Exemplos:
+        operações aritméticas com inteiros, //, %, divmod
+        operações sobre strings
+        sintaxe sobre strings (monolinha, multilinha)
+        raw mode, f strings
+        métodos de strings
+        None
+        Estruturas de control(if, elif, else, for)
+        funções
+
+Primeiro script em Python 'Viva os Salgueiros'
+
+Script de word count
+
+Biblioteca re
+    Uso do findall para contagem de ocorrências de palavras
+
+Função de pretty print de um dicionário
+
+função sorted
+

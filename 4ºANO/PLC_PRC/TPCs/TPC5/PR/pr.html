@@ -1,0 +1,73 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title> Project Record </title>
+   </head>
+   <body>
+      <h1 align="center">Project Record</h1>
+      <hr>
+      
+      <table width="100%" border="0">
+         <tr>
+            <td width="50%"><b>KEY NAME: </b><font color="#000080">TPC5</font></td>
+            <td width="50%"><b>BEGIN DATE: </b><font color="#000080">22-03-2021</font></td>
+         </tr>
+         <tr>
+            <td width="50%"><b>TITLE: </b><font color="#000080">jcrpubs</font></td>
+            <td width="50%"><b>END DATE: </b><font color="#000080">29-03-2021</font></td>
+         </tr>
+         <tr>
+            <td width="50%"><b>SUPERVISOR: </b><font color="#000080"><a href="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</a></font></td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      
+      <h3>WorkTeam: </h3>
+      <ol>A83732
+         .
+         Gonçalo Rodrigues Pinto
+         -
+         <a href="mailto:a83732@alunos.uminho.pt">a83732@alunos.uminho.pt</a></ol>
+      <hr>
+      <hr>
+      
+      <h3>ABSTRACT:</h3>
+      <p> Numa primeira fase pretendeu-se analisar o dataset das pubs do jcr, para isso com
+         o
+         auxílio do editor <i>Oxygen XML Editor</i> gerei um DTD de forma aperceber a estrutura
+         deste dataset. </p>
+      <p> De seguida foi usado o <i>Protégé</i> para construir a parte estrutural da ontologia e
+         criar alguns indivíduos para servirem de modelo à próxima fase. </p>
+      <p> Posteriormente, criei uma script em <b>Python</b> para povoar a ontologia com os
+         indivíduos do dataset, após gerado o ficheiro de texto acrescentei à ontologia que
+         serviu de base os indivíduos e inferi com o Reasoner disponibilizado mais alguma
+         informação de forma a tornar a ontologia o mais completa possível. </p>
+      <p> Em seguida carreguei a ontologia no Ontobud, para isso criou-se um repositório de
+         nome
+         <b>A83732-TP5</b> e importou-se o ficheiro inferido gerado previamente. </p>
+      <p> Por fim, criou-se uma API de dados com as funcionalidades de CRUD sobre o modelo
+         criado,
+         isto é, inclui as seguintes rotas: <i> GET /pubs </i>, <i> GET /pubs?type= </i>, <i> GET
+            /pubs/{id} </i>, <i> GET /authors </i> e <i> GET /authors/{id} </i> . 
+         </p>
+      <hr>
+      <hr>
+      
+      <h3>Deliverables: </h3>
+      <ul>
+         <li><a href="../jcrpubs.xml">Dataset</a></li>
+         <li><a href="../jcrpubs.dtd">Análise do dataset</a></li>
+         <li><a href="../jcrpubs-base.ttl">Parte estrutural da ontologia</a></li>
+         <li><a href="../XMLtoTTL.py">Script de povoamento</a></li>
+         <li><a href="../jcrpubs.ttl">Ontologia</a></li>
+         <li><a href="../jcrpubs-inf.ttl">Ontologia inferida</a></li>
+         <li><a href="../api-server/routes/index.js">Rotas criadas;</a></li>
+         <li><a href="pr.dtd">pr.dtd;</a></li>
+         <li><a href="pr.xml">pr.xml;</a></li>
+         <li><a href="pr.xslt">pr.xslt;</a></li>
+         <li><a href="pr.html">pr.html.</a></li>
+      </ul>
+      <hr>
+      </body>
+</html>

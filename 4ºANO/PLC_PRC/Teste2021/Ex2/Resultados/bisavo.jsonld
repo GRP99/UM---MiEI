@@ -1,0 +1,45 @@
+[ {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#bisavo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_dos_Santos_Ramalho_"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo",
+  "http://prc.di.uminho.pt/2021/myfamily#bisavo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866",
+  "http://prc.di.uminho.pt/2021/myfamily#bisavo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite",
+  "http://prc.di.uminho.pt/2021/myfamily#bisavo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Teresa_Maria_Ribeiro_Leite_1985"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968"
+  } ]
+} ]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+	<meta>
+		<key>TPC7</key>
+		<title>Povoamento de uma Ontologia</title>
+		<bdate>26-04-2021</bdate>
+		<edate>03-05-2021</edate>
+		<supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+	</meta>
+	<workteam>
+		<worker num="A83732">
+			<name>Gonçalo Rodrigues Pinto</name>
+			<email>a83732@alunos.uminho.pt</email>
+		</worker>
+	</workteam>
+	<abstract>
+		<p>No presente trabalho foi usado o software <b>Protégé</b> para criar a parte estrutural da ontologia sobre um <i>dataset</i> disponibilizado acerca de cidades e suas ligações.</p>
+		<p>De seguida com recurso a um script em <b>Python</b> efetuou-se o processamento do <i>dataset</i> gerando um ficheiro dos indivíduos presentes na sintaxe TTL, que posteriormente foi adicionada à ontologia base criada.</p>
+	</abstract>
+	<deliverables>
+		<link url="../cidades.json">Dataset</link>
+		<link url="../cidades-simples.ttl">Ontologia base</link>
+		<link url="../geraIndividuos.py">Script de povoamento</link>
+		<link url="../individuos.txt">Individuos</link>
+		<link url="../cidades.ttl">Ontologia</link>
+		<link url="pr.dtd">pr.dtd;</link>
+		<link url="pr.xml">pr.xml;</link>
+		<link url="pr.xslt">pr.xslt;</link>
+		<link url="pr.html">pr.html.</link>
+	</deliverables>
+</pr>

@@ -1,0 +1,84 @@
+extends layout
+
+block content
+	#content
+		header
+			.container-fluid
+				.row
+					.col-md-3
+						.full
+							a.logo(href='/homepage')
+								img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+					.col-md-9
+						.full
+							div(class='right_header_info')
+								ul
+									if level == 'none'
+										li.button_user
+											a.button.active(href='http://localhost:7301/users/login') Login
+											a.button(href='http://localhost:7301/users/register') Register
+									else
+										li.button_user
+											a.button.active(href='http://localhost:7301/users/myprofile') My profile
+											a.button(href='http://localhost:7301/users/logout') Log out
+									li
+										form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+											input(type='search' name='search' value='' placeholder='Search')
+									li
+										button#sidebarCollapse(type='button')
+											img(src='/images/menu_icon.png' alt='#')
+		about
+			.container
+				.row
+					.col-md-12
+						.title
+							h2(style='margin-top: 150px') Cocktails
+							span Here are the list of every Cocktail
+						table(id="example" style="text-align:center ")
+							thead
+								tr
+									th
+									th Cocktail
+									th Category
+									th Type of Glassware
+									th Bartender
+									th Alcoholic
+							tbody
+								each c in cocktails
+									tr
+										td
+											img(src="/images/icons/cocktail.png")
+										td
+											a(href="/cocktails/" + c.idDrink)=c.strDrink
+										if c.Category.idCategory == ''
+											td No Category
+										else 
+											td 
+												a(href="/categories/" + c.Category.idCategory)=c.Category.strCategory
+
+										if c.Glassware.idGlass == ''
+											td No Glassware
+										else 
+											td 
+												a(href="/glasswares/" + c.Glassware.idGlass)=c.Glassware.strGlass 
+
+										if c.Bartender.idBartender == ''
+											td No Bartender
+										else 
+											td 
+												a(href="/bartenders/" + c.Bartender.idBartender)=c.Bartender.strBartender                                       
+										// td= c.totIngredients
+
+										if c.strAlcoholic == ''
+											td
+												i(class="fa fa-times" style="font-size:20px; color:red;")
+										else
+											td
+												i(class="fa fa-check" style="font-size:20px; color:green;")  
+		footer
+			.copyright
+				.container
+					p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+		// end footer
+		// end footer
+	.overlay

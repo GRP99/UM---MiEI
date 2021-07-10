@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+    header.w3-container.w3-blue
+        h1.w3-center Ver estado dos pedidos
+    .w3-container       
+        ul
+            li
+                h2 
+                    a(href='/listatrabalho?estado=Por_Realizar') Por Realizar
+            li
+                h2
+                    a(href='/listatrabalho?estado=Cancelados') Cancelados
+            li
+                h2
+                    a(href='/listatrabalho?estado=Finalizados') Finalizados                    
+
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/") Voltar à página principal

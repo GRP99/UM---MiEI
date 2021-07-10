@@ -1,0 +1,219 @@
+/* Template */
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* ********* */
+
+/* Input form */
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+#demo-2 input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 3px center;
+	border: solid 1px #ccc;
+    margin-top : -3px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #eca50a;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+/* ********* */
+
+.rating {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: #999999; /* Personal choice */
+}
+.rating div{
+    display: none;
+}
+.rating span {
+    padding: 0 0.1em;
+    font-size: 1.2rem;
+}
+.rating span:hover,
+.rating span:hover ~ span,
+.rating span:checked + span,
+.rating span:checked + span ~ span {
+    color: #ffc107; /* Personal color choice. Lifted from Bootstrap 4 */
+    padding: 0 0.1em;
+    font-size: 1.2rem;
+}
+.checked{
+    color: #ffc107;
+}
+
+
+/* BUTTON */
+.button-transparent {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.fa-heart.fill {
+    color: red !important;
+}
+
+.fa-pencil, .fa-image {
+	color: gold !important;
+}
+
+.fa-pencil:hover, .fa-image:hover {
+	color: goldenrod !important;
+}
+
+.fa-heart, .fa-thumb-tack, .fa-thumbs-up, .fa-thumbs-down {
+    color:#999999 !important;
+}
+
+.fa-file {
+    color:grey !important;
+}
+
+.fa-download, .fa-plus-square {
+    color:#33cc33 !important;
+}
+
+.fa-comment {
+    color:#6699cc !important;
+}
+
+.fa-trash, .fa-ban, .fa-close {
+    color:red !important;
+}
+
+.fa-info-circle, .fa-cogs, .fa-user {
+    color:grey !important;
+}
+
+
+.fa-heart:hover {
+    color:red !important;
+}
+
+.fa-file:hover {
+    color:black !important;
+}
+
+.fa-download:hover, .fa-plus-square:hover {
+    color:#248f24 !important;
+}
+
+.fa-comment:hover {
+    color:#336699 !important;
+}
+
+.fa-trash:hover, .fa-ban:hover, .fa-close:hover {
+    color:#b30000 !important;
+}
+
+.fa-info-circle:hover, .fa-cogs:hover, .fa-user:hover {
+    color:black !important;
+}
+
+.fa-user:hover {
+    color: #eee;
+  }
+
+/* like e dislike */
+
+.fa-thumbs-down.fill {
+    color: red !important;
+}
+
+.fa-thumbs-up.fill {
+    color: green !important;
+}
+
+.fa-thumb-tack.fill {
+	color: orange !important;
+}
+
+/* comment */
+
+.container-comment {
+    border: 2px solid #a2a1a1; border-radius: 5px; padding: 10px; margin-bottom: 30px;
+}
+
+.rating-comment {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	color: #ddd; /* Personal choice */
+}
+.rating-comment input {
+	display: none;
+}
+.rating-comment label:hover,
+.rating-comment label:hover ~ label,
+.rating-comment input:checked + label,
+.rating-comment input:checked + label ~ label {
+	color: #ffc107; /* Personal color choice. Lifted from Bootstrap 4 */
+}
+

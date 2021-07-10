@@ -1,0 +1,372 @@
+@prefix : <http://prc.di.uminho.pt/2021/myfamily#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://prc.di.uminho.pt/2021/myfamily> .
+
+<http://prc.di.uminho.pt/2021/myfamily> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://prc.di.uminho.pt/2021/myfamily#eMaeDe
+:eMaeDe rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :eProgenitorDe ;
+        owl:inverseOf :temMae .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#ePaide
+:ePaide rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :eProgenitorDe ;
+        owl:inverseOf :temPai .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#eProgenitorDe
+:eProgenitorDe rdf:type owl:ObjectProperty ;
+               owl:inverseOf :temProgenitor .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#temMae
+:temMae rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :temProgenitor ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:domain :Pessoa .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#temPai
+:temPai rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf :temProgenitor ;
+        rdfs:domain :Pessoa .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#temProgenitor
+:temProgenitor rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Pessoa ;
+               rdfs:range :Pessoa .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://prc.di.uminho.pt/2021/myfamily#Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://prc.di.uminho.pt/2021/myfamily#Abílio_da_Silva_Ramalho
+:Abílio_da_Silva_Ramalho rdf:type owl:NamedIndividual ;
+                         :temMae :Custódia_Azevedo_1867 ;
+                         :temPai :Manuel_da_Silva_Ramalho_1866 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Albina_Esteves_de_Araújo_1910
+:Albina_Esteves_de_Araújo_1910 rdf:type owl:NamedIndividual ;
+                               :temMae :Maria_Araújo_1884 ;
+                               :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980
+:Ana_Margarida_Ribeiro_Leite_1980 rdf:type owl:NamedIndividual ;
+                                  :temMae :Maria_Margarida_Ribeiro_1954 ;
+                                  :temPai :Rui_Alberto_Araújo_Leite_1948 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Ana_da_Silva_Ramalho
+:Ana_da_Silva_Ramalho rdf:type owl:NamedIndividual ;
+                      :temMae :Custódia_Azevedo_1867 ;
+                      :temPai :Manuel_da_Silva_Ramalho_1866 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho
+:António_da_Silva_Ramalho rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904
+:António_da_Silva_Ramalho_1904 rdf:type owl:NamedIndividual ;
+                               :temMae :Custódia_Azevedo_1867 ;
+                               :temPai :Manuel_da_Silva_Ramalho_1866 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Arminda_da_Silva_Ramalho
+:Arminda_da_Silva_Ramalho rdf:type owl:NamedIndividual ;
+                          :temMae :Custódia_Azevedo_1867 ;
+                          :temPai :Manuel_da_Silva_Ramalho_1866 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879
+:Christina_Rosa_Silva_Santos_1879 rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867
+:Custódia_Azevedo_1867 rdf:type owl:NamedIndividual ;
+                       :temMae :Maria_Gonçalves_de_Azevedo ;
+                       :temPai :José_Francisco_Ramos_Mouco .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Domingos_Couto_Leite
+:Domingos_Couto_Leite rdf:type owl:NamedIndividual ;
+                      :temMae :Flora_Castilho_do_Couto_Leite ;
+                      :temPai :Marçal_da_Costa_Leite .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves
+:Emília_Esteves rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves_de_Araújo_1908
+:Emília_Esteves_de_Araújo_1908 rdf:type owl:NamedIndividual ;
+                               :temMae :Maria_Araújo_1884 ;
+                               :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Ezequiel_da_Silva_Ramalho
+:Ezequiel_da_Silva_Ramalho rdf:type owl:NamedIndividual ;
+                           :temMae :Custódia_Azevedo_1867 ;
+                           :temPai :Manuel_da_Silva_Ramalho_1866 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Filomena_Esteves_de_Araújo_1927
+:Filomena_Esteves_de_Araújo_1927 rdf:type owl:NamedIndividual ;
+                                 :temMae :Maria_Araújo_1884 ;
+                                 :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite
+:Flora_Castilho_do_Couto_Leite rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Florinda_Alves_dos_Santos
+:Florinda_Alves_dos_Santos rdf:type owl:NamedIndividual ;
+                           :temMae :Christina_Rosa_Silva_Santos_1879 ;
+                           :temPai :Jozé_da_Silva_Santos_1879 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Generosa_da_Silva_Ramalho
+:Generosa_da_Silva_Ramalho rdf:type owl:NamedIndividual ;
+                           :temMae :Custódia_Azevedo_1867 ;
+                           :temPai :Manuel_da_Silva_Ramalho_1866 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Gilberto_Couto_Leite
+:Gilberto_Couto_Leite rdf:type owl:NamedIndividual ;
+                      :temMae :Flora_Castilho_do_Couto_Leite ;
+                      :temPai :Marçal_da_Costa_Leite .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Helena_Couto_Leite
+:Helena_Couto_Leite rdf:type owl:NamedIndividual ;
+                    :temMae :Flora_Castilho_do_Couto_Leite ;
+                    :temPai :Marçal_da_Costa_Leite .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867
+:Henrique_Luiz_de_Araújo_1867 rdf:type owl:NamedIndividual ;
+                              :temMae :Maria_das_Dores_Fernandes_de_Brito ;
+                              :temPai :José_Emílio_de_Araújo .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Henrique_Luís_Esteves_de_Araújo_1924
+:Henrique_Luís_Esteves_de_Araújo_1924 rdf:type owl:NamedIndividual ;
+                                      :temMae :Maria_Araújo_1884 ;
+                                      :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943
+:Henrique_Marçal_Araújo_Leite_1943 rdf:type owl:NamedIndividual ;
+                                   :temMae :Maria_Esteves_de_Araújo_1912 ;
+                                   :temPai :Marçal_Aristides_Costa_Leite_1909 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971
+:Henrique_Miguel_Cabrita_de_Araújo_Leite_1971 rdf:type owl:NamedIndividual ;
+                                              :temMae :Maria_Otília_Araújo_Leite_1944 ;
+                                              :temPai :Henrique_Marçal_Araújo_Leite_1943 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949
+:Ilda_dos_Santos_Ramalho_1949 rdf:type owl:NamedIndividual ;
+                              :temMae :Maria_Alves_dos_Santos_1906 ;
+                              :temPai :António_da_Silva_Ramalho_1904 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971
+:Isabel_Maria_Cabrita_de_Araújo_Leite_1971 rdf:type owl:NamedIndividual ;
+                                           :temMae :Maria_Otília_Araújo_Leite_1944 ;
+                                           :temPai :Henrique_Marçal_Araújo_Leite_1943 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967
+:José_Carlos_Leite_Ramalho_1967 rdf:type owl:NamedIndividual ;
+                                :temMae :Maria_Flora_Araújo_Leite_1941 ;
+                                :temPai :José_dos_Santos_Ramalho_1942 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#José_Emílio_Esteves_de_Araújo_1916
+:José_Emílio_Esteves_de_Araújo_1916 rdf:type owl:NamedIndividual ;
+                                    :temMae :Maria_Araújo_1884 ;
+                                    :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo
+:José_Emílio_de_Araújo rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco
+:José_Francisco_Ramos_Mouco rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves
+:José_Maria_Esteves rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942
+:José_dos_Santos_Ramalho_1942 rdf:type owl:NamedIndividual ;
+                              :temMae :Maria_Alves_dos_Santos_1906 ;
+                              :temPai :António_da_Silva_Ramalho_1904 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879
+:Jozé_da_Silva_Santos_1879 rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#João_Bernardo_Couto_Leite_1916
+:João_Bernardo_Couto_Leite_1916 rdf:type owl:NamedIndividual ;
+                                :temMae :Flora_Castilho_do_Couto_Leite ;
+                                :temPai :Marçal_da_Costa_Leite .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Luís_Esteves_de_Araújo_1918
+:Luís_Esteves_de_Araújo_1918 rdf:type owl:NamedIndividual ;
+                             :temMae :Maria_Araújo_1884 ;
+                             :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho
+:Manuel_Carlos_dos_Santos_Ramalho rdf:type owl:NamedIndividual ;
+                                  :temMae :Maria_Alves_dos_Santos_1906 ;
+                                  :temPai :António_da_Silva_Ramalho_1904 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho
+:Manuel_Fernando_dos_Santos_Ramalho rdf:type owl:NamedIndividual ;
+                                    :temMae :Maria_Alves_dos_Santos_1906 ;
+                                    :temPai :António_da_Silva_Ramalho_1904 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866
+:Manuel_da_Silva_Ramalho_1866 rdf:type owl:NamedIndividual ;
+                              :temMae :Maria_Dias_dos_Reis ;
+                              :temPai :António_da_Silva_Ramalho .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906
+:Maria_Alves_dos_Santos_1906 rdf:type owl:NamedIndividual ;
+                             :temMae :Christina_Rosa_Silva_Santos_1879 ;
+                             :temPai :Jozé_da_Silva_Santos_1879 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884
+:Maria_Araújo_1884 rdf:type owl:NamedIndividual ;
+                   :temMae :Emília_Esteves ;
+                   :temPai :José_Maria_Esteves .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis
+:Maria_Dias_dos_Reis rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912
+:Maria_Esteves_de_Araújo_1912 rdf:type owl:NamedIndividual ;
+                              :temMae :Maria_Araújo_1884 ;
+                              :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941
+:Maria_Flora_Araújo_Leite_1941 rdf:type owl:NamedIndividual ;
+                               :temMae :Maria_Esteves_de_Araújo_1912 ;
+                               :temPai :Marçal_Aristides_Costa_Leite_1909 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_dos_Santos_Ramalho_
+:Maria_Flora_dos_Santos_Ramalho_ rdf:type owl:NamedIndividual ;
+                                 :temMae :Maria_Alves_dos_Santos_1906 ;
+                                 :temPai :António_da_Silva_Ramalho_1904 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo
+:Maria_Gonçalves_de_Azevedo rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968
+:Maria_Helena_Leite_Ramalho_1968 rdf:type owl:NamedIndividual ;
+                                 :temMae :Maria_Flora_Araújo_Leite_1941 ;
+                                 :temPai :José_dos_Santos_Ramalho_1942 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954
+:Maria_Margarida_Ribeiro_1954 rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_Otília_Araújo_Leite_1944
+:Maria_Otília_Araújo_Leite_1944 rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito
+:Maria_das_Dores_Fernandes_de_Brito rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909
+:Marçal_Aristides_Costa_Leite_1909 rdf:type owl:NamedIndividual ;
+                                   :temMae :Flora_Castilho_do_Couto_Leite ;
+                                   :temPai :Marçal_da_Costa_Leite .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite
+:Marçal_da_Costa_Leite rdf:type owl:NamedIndividual .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Orlando_Couto_Leite
+:Orlando_Couto_Leite rdf:type owl:NamedIndividual ;
+                     :temMae :Flora_Castilho_do_Couto_Leite ;
+                     :temPai :Marçal_da_Costa_Leite .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Rosa_Couto_Leite
+:Rosa_Couto_Leite rdf:type owl:NamedIndividual ;
+                  :temMae :Flora_Castilho_do_Couto_Leite ;
+                  :temPai :Marçal_da_Costa_Leite .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948
+:Rui_Alberto_Araújo_Leite_1948 rdf:type owl:NamedIndividual ;
+                               :temMae :Maria_Esteves_de_Araújo_1912 ;
+                               :temPai :Marçal_Aristides_Costa_Leite_1909 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Sara_Esteves_de_Araújo_1914
+:Sara_Esteves_de_Araújo_1914 rdf:type owl:NamedIndividual ;
+                             :temMae :Maria_Araújo_1884 ;
+                             :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Teresa_Maria_Ribeiro_Leite_1985
+:Teresa_Maria_Ribeiro_Leite_1985 rdf:type owl:NamedIndividual ;
+                                 :temMae :Maria_Margarida_Ribeiro_1954 ;
+                                 :temPai :Rui_Alberto_Araújo_Leite_1948 .
+
+
+###  http://prc.di.uminho.pt/2021/myfamily#Virgínia_Esteves_de_Araújo_1921
+:Virgínia_Esteves_de_Araújo_1921 rdf:type owl:NamedIndividual ;
+                                 :temMae :Maria_Araújo_1884 ;
+                                 :temPai :Henrique_Luiz_de_Araújo_1867 .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

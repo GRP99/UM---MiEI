@@ -1,0 +1,35 @@
+=== DIÁRIO DE BORDO :: AULA 13 [24 DE MAIO DE 2021]
+
+	+ Intervenientes:
+		* Autor : Gonçalo Pinto, a83732.
+
+	+ Plano da Aula:
+		1. Temas para o Trabalho Prático 3 --- entrega ? 21 ou 28 de Junho ? :
+			- Kit para Ontologias:
+				- a partir de "pandoc markdown" e/ou ficheiros deste tipo, gerar uma ontologia (ttl)
+				- a partir de padrão (por exemplo, JSON que segue algo do gênero { nome:  { id: [x] } }, gerar uma ontologia (ttl)
+				- a partir de uma tabela, gerar uma ontologia
+
+			- Visualizador de Ontologias:
+				- a partir de uma ontologia, gerar um xdf
+				- a partir de uma ontologia, gerar um html "estático"
+			
+			- Gerador de ficheiro(s):
+				- a partir de um ficheiro com metadados, descrição da árvore de ficheiros a criar e descrição de cada ficheiro, gerar os templates dos ficheiros pretendidos
+			
+			- Criar uma Base Documental
+				- a partir dos RSS dos jornais construir uma base documental para posterior consulta
+				- extrair informação das "Ted Talks"
+			
+			- Construir uma DSL para geração de um formulário
+				- a partir de um ficheiro escrito na DSL definida, gerar um form com Flask
+			
+			- Construir um template web para a apresentar informação variando o tipo de query 
+
+			- Extrator de blocos JSON das páginas Web
+
+			- Construir template que permite apresentar um JSON numa página web
+
+			- Utilizando Spacy a partir de um texto identificar local, datas, pessoas, profissões, posteriormente criar um classificador
+			
+===

@@ -1,0 +1,97 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT bibliography (article|book|inbook|inproceedings|masterthesis                          |misc|phdthesis|proceedings)+>
+<!ATTLIST bibliography    xmlns CDATA #FIXED ''    xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'    xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT article ((author|author-ref|title)+,journal,number?,                     (doi|issn|month|publisher|uri|volume|year)+,                     deliverables?)>
+<!ATTLIST article    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT book ((author-ref+|author+),title,publisher,year,address,                  month,isbn?)>
+<!ATTLIST book    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT inbook (author-ref+,editor-ref*,editor*,title,chapter,pages,                    publisher,year,month,(volume,isbn)?,doi?)>
+<!ATTLIST inbook    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT inproceedings ((author|author-ref|title)+,booktitle,                           (address|month|year)+,(editor,uri)?,                           deliverables?,(doi|isbn)*,issn?)>
+<!ATTLIST inproceedings    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT masterthesis (author-ref,title,school,year,month)>
+<!ATTLIST masterthesis    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT misc (author-ref+,title,howpublished,year,doi?)>
+<!ATTLIST misc    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT phdthesis (author-ref,title,school,year,address,month,doi)>
+<!ATTLIST phdthesis    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT proceedings (title,year,editor-ref+,editor?,address,month,doi,                         isbn?)>
+<!ATTLIST proceedings    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT journal (#PCDATA)>
+<!ATTLIST journal    xmlns CDATA #FIXED ''>
+
+<!ELEMENT number (#PCDATA)>
+<!ATTLIST number    xmlns CDATA #FIXED ''>
+
+<!ELEMENT chapter (#PCDATA)>
+<!ATTLIST chapter    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pages (#PCDATA)>
+<!ATTLIST pages    xmlns CDATA #FIXED ''>
+
+<!ELEMENT booktitle (#PCDATA)>
+<!ATTLIST booktitle    xmlns CDATA #FIXED ''>
+
+<!ELEMENT howpublished (#PCDATA)>
+<!ATTLIST howpublished    xmlns CDATA #FIXED ''>
+
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT author-ref EMPTY>
+<!ATTLIST author-ref    xmlns CDATA #FIXED ''    authorid NMTOKEN #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title    xmlns CDATA #FIXED ''>
+
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year    xmlns CDATA #FIXED ''>
+
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address    xmlns CDATA #FIXED ''>
+
+<!ELEMENT month (#PCDATA)>
+<!ATTLIST month    xmlns CDATA #FIXED ''>
+
+<!ELEMENT editor (#PCDATA)>
+<!ATTLIST editor    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT uri (#PCDATA)>
+<!ATTLIST uri    xmlns CDATA #FIXED ''>
+
+<!ELEMENT deliverables (pdf)>
+<!ATTLIST deliverables    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pdf EMPTY>
+<!ATTLIST pdf    xmlns CDATA #FIXED ''    url CDATA #REQUIRED>
+
+<!ELEMENT isbn (#PCDATA)>
+<!ATTLIST isbn    xmlns CDATA #FIXED ''>
+
+<!ELEMENT doi (#PCDATA)>
+<!ATTLIST doi    xmlns CDATA #FIXED ''>
+
+<!ELEMENT issn (#PCDATA)>
+<!ATTLIST issn    xmlns CDATA #FIXED ''>
+
+<!ELEMENT publisher (#PCDATA)>
+<!ATTLIST publisher    xmlns CDATA #FIXED ''>
+
+<!ELEMENT school (#PCDATA)>
+<!ATTLIST school    xmlns CDATA #FIXED ''>
+
+<!ELEMENT volume (#PCDATA)>
+<!ATTLIST volume    xmlns CDATA #FIXED ''>
+
+<!ELEMENT editor-ref EMPTY>
+<!ATTLIST editor-ref    xmlns CDATA #FIXED ''    authorid NMTOKEN #REQUIRED>

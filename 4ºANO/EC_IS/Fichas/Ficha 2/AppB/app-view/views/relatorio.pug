@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container
+            h4(class="w3-container w3-center") Introduza o novo relatório:
+        form.w3-container(action='/relatorio' method='POST')
+            p
+            label Pedido:    
+            select(name='pedido' required='required')
+                each p in pedidos
+                    option(value= p.idpedido) #{p.data_hora} - #{p.explicacao} :: #{p.sigla} :: #{p.caracterizacao}(#{p.idepisodio}) :: #{p.nome}(#{p.num_utente})
+            p
+            label Relatório:
+            p
+                textarea(name='relatorio' rows='5' cols='50')
+            p
+            p
+            input.w3-btn.w3-grey(type="submit" value="Publicar")
+            p

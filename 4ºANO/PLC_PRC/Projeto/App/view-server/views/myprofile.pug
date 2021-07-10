@@ -1,0 +1,161 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/profile.css')
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    if level == 'none'
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/login') Login
+                                            a.button(href='http://localhost:7301/users/register') Register
+                                    else
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/myprofile') My profile
+                                            a.button(href='http://localhost:7301/users/logout') Log out
+                                    li
+                                        form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+                                            input(type='search' name='search' value='' placeholder='Search')
+                                    li
+                                        button#sidebarCollapse(type='button')
+                                            img(src='/images/menu_icon.png' alt='#')
+
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px') #{dados.username}
+                            span
+                                t.text-secondary.mb-1=dados._id
+                            span(style='margin-top:20px')
+                                t(style="color:orange") My Profile
+
+                .row
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    img(src="/images/icons/cocktail.png")
+                                    t     Favourite 
+                                        t(style='color:goldenrod') cocktails
+
+
+                                table(id="individual" style="text-align:center")
+                                    thead
+                                        tr
+                                            th Cocktail
+                                            th
+                                            th
+                                    tbody
+                                        each c in cocktails
+                                            tr 
+                                                td=c.name
+
+                                                td                      
+                                                    button(class="button-transparent" onclick="like_cocktail(\""+c._id+"\")")
+                                                        i(id=c._id class="fa fa-thumbs-up fill" style="font-size:18px;")
+
+                                                td
+                                                    button(class="button-transparent" onclick="location.href='/cocktails/" + c._id + "'")
+                                                        i(class="fa fa-info-circle" style="font-size:18px;")
+
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    img(src="/images/icons/bartender.png")
+                                    t     Favourite 
+                                        t(style='color:darkblue') bartenders
+
+
+                                table(id="individual1" style="text-align:center")
+                                    thead
+                                        tr
+                                            th Bartender
+                                            th
+                                            th
+                                    tbody
+                                        each b in bartenders
+                                            tr 
+                                                td=b.name
+
+                                                td                      
+                                                    button(class="button-transparent" onclick="like_bartender(\""+b._id+"\")")
+                                                        i(id=b._id class="fa fa-thumbs-up fill" style="font-size:18px;")
+
+                                                td
+                                                    button(class="button-transparent" onclick="location.href='/bartenders/" + b._id + "'")
+                                                        i(class="fa fa-info-circle" style="font-size:18px;")
+
+
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    img(src="/images/icons/placeholder.png")
+                                    t     Visited 
+                                        t(style='color:red') locations
+
+
+                                table(id="individual2" style="text-align:center")
+                                    thead
+                                        tr
+                                            th Location
+                                            th
+                                            th
+                                    tbody
+                                        each l in locations
+                                            tr 
+                                                td=l.name
+
+                                                td                      
+                                                    button(class="button-transparent" onclick="visit_location(\""+l._id+"\")")
+                                                        i(id=l._id class="fa fa-thumb-tack fill" style="font-size:18px;")
+
+                                                td
+                                                    button(class="button-transparent" onclick="location.href='/locations/" + l._id + "'")
+                                                        i(class="fa fa-info-circle" style="font-size:18px;")
+
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    img(src="/images/icons/bar.png")
+                                    t     Visited 
+                                        t(style='color:thistle') bars
+
+
+                                table(id="individual3" style="text-align:center")
+                                    thead
+                                        tr
+                                            th Bar
+                                            th
+                                            th
+                                    tbody
+                                        each b in bars
+                                            tr 
+                                                td=b.name
+
+                                                td                      
+                                                    button(class="button-transparent" onclick="visit_bar(\""+b._id+"\")")
+                                                        i(id=b._id class="fa fa-thumb-tack fill" style="font-size:18px;")
+
+                                                td
+                                                    button(class="button-transparent" onclick="location.href='/bars/" + b._id + "'")
+                                                        i(class="fa fa-info-circle" style="font-size:18px;")
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+        // end footer
+        // end footer
+    .overlay

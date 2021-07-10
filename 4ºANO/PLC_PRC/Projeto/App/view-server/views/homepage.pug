@@ -1,0 +1,172 @@
+extends layout
+
+block content
+	#content
+		header
+			.container-fluid
+				.row
+					.col-md-3
+						.full
+							a.logo(href='/homepage')
+								img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+					.col-md-9
+						.full
+							div(class='right_header_info')
+								ul
+									if level == 'none'
+										li.button_user
+											a.button.active(href='http://localhost:7301/users/login') Login
+											a.button(href='http://localhost:7301/users/register') Register
+									else
+										li.button_user
+											a.button.active(href='http://localhost:7301/users/myprofile') My profile
+											a.button(href='http://localhost:7301/users/logout') Log out
+
+									li
+										form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+											input(type='search' name='search' value='' placeholder='Search')
+									li
+										button#sidebarCollapse(type='button')
+											img(src='/images/menu_icon.png' alt='#')
+		// end header
+		// start slider section
+		div(class='slider_section')
+			.container
+				.row
+					.col-md-12
+						.full
+							.carousel.vert.slide(id='main_slider' data-ride='carousel' data-interval='5000')
+								.carousel-inner
+									.carousel-item.active
+										.row
+											.col-md-5
+												div(class='slider_cont')
+													h3 Find all about
+														br
+														t(style='color:yellow') Cocktails
+													p Here you can find every Cocktail.
+													a(class='main_bt_border' href='/cocktails') See here
+											.col-md-7
+												div(class='slider_image full text_align_center')
+													img.img-responsive(style='width: 81%;' src='/images/cocktails_bg.png' alt='#')
+									.carousel-item
+										.row
+											.col-md-5
+												div(class='slider_cont')
+													h3
+														t(style='color:orange') Ingredients
+														br
+														| into 
+														t(style='color:yellow') Cocktails
+													p Gather some Ingredients to help us find your desired Cocktail.
+													a(class='main_bt_border' href='/buildCocktail') See here
+											div(class='col-md-7 full text_align_center')
+												div(class='slider_image')
+													img.img-responsive(style='width: 37.2%;' src='/images/bartender.png' alt='#')
+									.carousel-item
+										.row
+											.col-md-5
+												div(class='slider_cont')
+													h3 Find all about
+														br
+														t(style='color:orange') Ingredients
+													p Here you can find every Ingredient.
+													a(class='main_bt_border' href='/ingredients') See here
+											div(class='col-md-7 full text_align_center')
+												div(class='slider_image')
+													img.img-responsive(style='width: 40.5%;' src='/images/ingredients.png' alt='#')
+								a.carousel-control-prev(href='#main_slider' role='button' data-slide='prev')
+									i.fa.fa-angle-up
+								a.carousel-control-next(style='margin-top: 10px;' href='#main_slider' role='button' data-slide='next')
+									i.fa.fa-angle-down
+		// end slider section
+		// section
+		section(class='resip_section')
+			.container
+				.row
+					.col-md-12
+						.ourheading
+							h2 Most known Cocktails
+					.container
+						.row
+							.col-md-12
+								.owl-carousel.homepage.owl-theme
+									.item
+										div(class='product_blog_img')
+											img(src='/images/cosmopolitan.png' alt='#')
+										div(class='product_blog_cont')
+											h3 Cosmopolitan
+											h4
+												a(class='theme_color' href='/cocktails/cosmopolitan') Find more
+									.item
+										div(class='product_blog_img')
+											img(src='/images/mojito.png' alt='#')
+										div(class='product_blog_cont')
+											h3 Mojito
+											h4
+												a(class='theme_color' href='/cocktails/mojito') Find more
+									.item
+										div(class='product_blog_img')
+											img(src='/images/margarita.png' alt='#')
+										div(class='product_blog_cont')
+											h3 Margarita
+											h4
+												a(class='theme_color' href='/cocktails/margarita') Find more
+									.item
+										div(class='product_blog_img')
+											img(src='/images/mint_julep.png' alt='#')
+										div(class='product_blog_cont')
+											h3 Mint Julep
+											h4
+												a(class='theme_color' href='/cocktails/mintjulep') Find more
+									.item
+										div(class='product_blog_img')
+											img(src='/images/caipirinha.png' alt='#')
+										div(class='product_blog_cont')
+											h3 Caipirinha
+											h4
+												a(class='theme_color' href='/cocktails/caipirinha') Find more
+		// about
+		.about
+			.container
+				.row
+					.col-md-12
+						.title
+							i
+								img(src='/images/title.png' alt='#')
+							h2 About Us
+							span
+								| 
+								| As students of Universidade do Minho, we developed this project with the aim of providing information about every cocktail found.
+				.row
+					.col-xl-6.col-lg-6.col-md-12.col-sm-12
+						div(class='about_box')
+							h3 Gonçalo Pinto
+							p Student of Universidade do Minho
+							a(href="mailto:a83732@alunos.uminho.pt")
+								img(style='margin-right: 15px;' src='/images/mail_icon.png' alt='#')
+							a(href="https://github.com/GRP99/" target="_blank")
+								img(style='margin-right: 15px;' src='/images/github2.png' alt='#')
+							a(href="https://www.linkedin.com/in/gon%C3%A7alo-pinto99/" target="_blank")
+								img(style='margin-right: 15px;' src='/images/linkedin.png' alt='#')
+							a(href='#')
+					.col-xl-6.col-lg-6.col-md-12.col-sm-12
+						div(class='about_box')
+							h3 Luís Ribeiro
+							p Student of Universidade do Minho
+							a(href="mailto:a85954@alunos.uminho.pt")
+								img(style='margin-right: 15px;' src='/images/mail_icon.png' alt='#')
+							a(href="https://github.com/luis1ribeiro/" target="_blank")
+								img(style='margin-right: 15px;' src='/images/github2.png' alt='#')
+							a(href="https://www.linkedin.com/in/lu%C3%ADs-ribeiro-3494121b0/" target="_blank")
+								img(style='margin-right: 15px;' src='/images/linkedin.png' alt='#')
+							a(href='#')
+		// end about
+		// footer
+		footer
+			.copyright
+				.container
+					p © Gonçalo Pinto and Luís Ribeiro
+		// end footer
+	.overlay
+	// Javascript files

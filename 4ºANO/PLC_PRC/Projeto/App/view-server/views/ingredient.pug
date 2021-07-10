@@ -1,0 +1,86 @@
+extends layout
+
+block content
+    link(rel='stylesheet', href='/stylesheets/profile.css')
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    if level == 'none'
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/login') Login
+                                            a.button(href='http://localhost:7301/users/register') Register
+                                    else
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/myprofile') My profile
+                                            a.button(href='http://localhost:7301/users/logout') Log out
+                                    li
+                                        form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+                                            input(type='search' name='search' value='' placeholder='Search')
+                                    li
+                                        button#sidebarCollapse(type='button')
+                                            img(src='/images/menu_icon.png' alt='#')
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px') #{ingredient.strIngredient}
+                            span(style="color:orange") Ingredient Info
+                .row
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                .d-flex.flex-column.align-items-center.text-center
+                                    img(src="/images/ingredient.png" alt="Avatar" width="320" height="320")
+                                    .mt-3
+                                        h4 #{ingredient.strIngredient}
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    t(style="color:goldenrod") Cocktails 
+                                    t associated
+                                table(id="example2" style="text-align:center")
+                                    thead
+                                        tr
+                                            th Cocktail
+                                            th
+                                    tbody
+                                        each cc in ingredient.Cocktails
+                                            tr 
+                                                td=cc.strDrink
+                                                td
+                                                    button(type="button" class="btn btn-secondary btn-sm" onclick="location.href='/cocktails/" + cc.idDrink + "'") Find More
+                        .card.mb-3
+                            .card-body
+                                h4
+                                    img(src="/images/icons/lemon.png")
+                                    t     Garnish with
+                                table(id="example3" style="text-align:center")
+                                    thead
+                                        tr
+                                            th Cocktail
+                                            th
+                                    tbody
+                                        each c in ingredient.Garnish
+                                            tr
+                                                td=c.strDrink
+                                                td
+                                                    button(type="button" class="btn btn-secondary btn-sm" onclick="location.href='/cocktails/" + c.idDrink + "'") Find More
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+        // end footer
+        // end footer
+    .overlay

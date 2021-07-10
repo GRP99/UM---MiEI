@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> Project Record </title>
+</head>
+
+<body>
+    <h1 align="center">Project Record</h1>
+    <hr>
+
+    <table width="100%" border="0">
+        <tr>
+            <td width="50%"><b>KEY NAME: </b>
+                <font color="#000080">TPC2</font>
+            </td>
+            <td width="50%"><b>BEGIN DATE: </b>
+                <font color="#000080">01-03-2021</font>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%"><b>TITLE: </b>
+                <font color="#000080">Criação de entidades utilizando XSLT</font>
+            </td>
+            <td width="50%"><b>END DATE: </b>
+                <font color="#000080">08-03-2021</font>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%"><b>SUPERVISOR: </b>
+                <font color="#000080"><a href="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</a></font>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <hr>
+
+    <h3>WorkTeam: </h3>
+    <ol>A83732
+        .
+        Gonçalo Rodrigues Pinto
+        -
+        <a href="mailto:a83732@alunos.uminho.pt">a83732@alunos.uminho.pt</a>
+    </ol>
+    <hr>
+    <hr>
+
+    <h3>ABSTRACT:</h3>
+    <p>
+        No presente trabalho pretendeu-se criar uma Ontologia baseada num 
+        <i>dataset</i> 
+        disponibilizado em 
+        <i>XML</i>
+        sobre música.
+    </p>
+    <p>
+        Assim, numa primeira fase foi analisado o
+        <i>dataset</i>
+        gerando para o efeito um ficheiro 
+        <i>DTD</i>
+        com auxílio da ferramenta 
+        <b>Oxygen XML Editor</b>, 
+        desta forma foi possível conhecer quais as entidades presentes no dataset bem como a sua hierarquia.
+    </p>
+    <p>
+        De seguida foi criado a estrutura base da Ontologia com a ferramenta 
+        <b>Protégé</b>,
+        ou seja, foi definido as classes neste caso foi criado a classe Compositor, Inf-relacionada, Instrumento, Obra, Partitura e Vídeo (sub-classe de Inf-relacionada) além disso foi criado também as 
+        <i>Object Properties</i> e 
+        <i>Data properties</i> respetivas.
+        Para exemplificação foi criado indivíduos de cada uma dessas classes com os respetivos atributos bem como as suas relações.
+    </p>
+    <p>
+        Posteriormente foi criado um ficheiro XSLT na ferramenta
+        <b>Oxygen XML Editor</b>
+        que processa o XML do
+        <i>dataset</i>
+        considerado, transformando o conteúdo presente na sintaxe TTL utilizada para construir a Ontologia.
+        Nesta conversão é testado quais os parâmetros presentes numa determinada Obra, como também é percorrido todos os Instrumentos e Partituras que fazem parte da Obra e ainda é tido em conta o conteúdo de cada campo (vírgulas e espaços entre palavras). 
+        A informação gerada é acrescentada à Ontologia base.
+    </p>
+    <p>
+        Por fim, foi inferido informação a partir da Ontologia povoada com o 
+        <i>Reasoner HermiT</i>,
+        assim a Ontologia tornou-se mais completa.
+    </p>
+    <hr>
+    <hr>
+
+    <h3>Deliverables: </h3>
+    <ul>
+        <li><a href="../arquivo-musica-digital.xml">Dataset utilizado;</a></li>
+        <li><a href="../amd.dtd">Ficheiro DTD gerado de forma a conhecer a estrutura do dataset utilizado;</a></li>
+        <li><a href="../xml2ttl.xsl">Ficheiro XSLT que efetua a conversão;</a></li>
+        <li><a href="../amd-gerado.txt">Ficheiro gerado pelo ficheiro XSLT;</a></li>
+        <li><a href="../amd-base.ttl">Ontologia base criada;</a></li>
+        <li><a href="../amd.ttl">Ontologia com todos os indivíduos gerados;</a></li>
+        <li><a href="../amd-inf.ttl">Ontologia após inferência;</a></li>
+        <li><a href="pr.dtd">pr.dtd;</a></li>
+        <li><a href="pr.xml">pr.xml;</a></li>
+        <li><a href="pr.xslt">pr.xslt;</a></li>
+        <li><a href="pr.html">pr.html.</a></li>
+    </ul>
+    <hr>
+</body>
+</html>

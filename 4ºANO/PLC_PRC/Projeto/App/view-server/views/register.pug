@@ -1,0 +1,72 @@
+extends layout
+
+block content
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    if level == 'none'
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/login') Login
+                                            a.button(href='http://localhost:7301/users/register') Register
+                                    else
+                                        li.button_user
+                                            a.button(href='http://localhost:7301/users/logout') Log out
+                                    li
+                                        form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+                                            input(type='search' name='search' value='' placeholder='Search')
+                                    li
+                                        button#sidebarCollapse(type='button')
+                                            img(src='/images/menu_icon.png' alt='#')
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px') Register
+                .row
+                    .col-md-12
+                        .card.mb-3(style='background-color:#F8F8F8')
+                            .card-body
+                                form(onsubmit='validate()' name="register" action='http://localhost:7301/users/register', method='POST')
+                                    .form-group
+                                        label(class="form-label") Username      
+                                        input.form-control(type='text' name='username' required='required' maxlength='10')
+
+                                    .form-group
+                                        div(class='row')
+                                            div(class='col')
+                                                label(class="form-label") Email
+                                                input.form-control(type='mail' name='_id' required='required')
+
+                                            div(class='col') 
+                                                label(class="form-label") Confirm Email
+                                                input.form-control(type='mail' name='confirm_id' required='required')
+
+
+                                    div(class='row')
+                                        div(class='col') 
+                                            label(class="form-label") Password
+                                            input.form-control(type='password' name='password' required='required')
+
+                                        div(class='col')
+                                            label(class="form-label") Confirm Password
+                                            input.form-control(type='password' name='confirm_password' required='required')
+
+                                    p
+                                        button(style="float:right; margin-left:10px" class="btn btn-primary btn-sm" type="submit") Sign up
+                                        btn(style='float:right' class='btn btn-secondary btn-sm' type='button' onclick="location.href='http://localhost:7301/homepage';") Cancel
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+    .overlay

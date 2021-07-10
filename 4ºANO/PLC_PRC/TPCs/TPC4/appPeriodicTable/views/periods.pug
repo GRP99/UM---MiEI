@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    table(id='example' class='display' style='width:100%')
+        thead
+            tr
+                th Period
+                th About
+        tbody
+            each p in periods 
+                tr
+                    td(style="text-align:center")=p.number
+                    td(style="text-align:center")
+                        button(class="button-transparent" onclick="location.href='http://localhost:7201/period/"+p.id+"'")
+                            i(class="fa fa-info-circle" aria-hidden="true")

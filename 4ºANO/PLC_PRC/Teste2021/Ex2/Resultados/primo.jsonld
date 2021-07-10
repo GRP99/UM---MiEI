@@ -1,0 +1,67 @@
+[ {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980",
+  "http://prc.di.uminho.pt/2021/myfamily#primo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971",
+  "http://prc.di.uminho.pt/2021/myfamily#primo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Teresa_Maria_Ribeiro_Leite_1985"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971",
+  "http://prc.di.uminho.pt/2021/myfamily#primo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Teresa_Maria_Ribeiro_Leite_1985"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967",
+  "http://prc.di.uminho.pt/2021/myfamily#primo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Teresa_Maria_Ribeiro_Leite_1985"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968",
+  "http://prc.di.uminho.pt/2021/myfamily#primo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Teresa_Maria_Ribeiro_Leite_1985"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Teresa_Maria_Ribeiro_Leite_1985",
+  "http://prc.di.uminho.pt/2021/myfamily#primo" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968"
+  } ]
+} ]

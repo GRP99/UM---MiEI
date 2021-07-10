@@ -1,0 +1,11 @@
+>>> DIA 4 F: <<<
+    > Almoço <
+        - Sopa :  Sopa juliana
+        - Prato :  Massa carbonara
+        - Acompanhamento 1 :  -
+        - Acompanhamento 2 :  Salada de tomate
+    > Jantar <
+        - Sopa :  Sopa de feijão vermelho
+        - Prato :  Atum grelhado
+        - Acompanhamento 1 :  Batata cozida
+        - Acompanhamento 2 :  Alho francês, cenoura e couve branca salteada

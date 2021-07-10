@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC3</key>
+        <title>GraphDB</title>
+        <bdate>08-03-2021</bdate>
+        <edate>15-03-2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            No presente trabalho pretendeu-se desenvolver um 
+            <i>Front-End Web</i> 
+            de forma a apresentar a informação presente na base de dados
+            <b>GraphDB</b>. De forma a atingir esse objetivo foi criado uma aplicação WEB com recurso à framework 
+            <i>Express</i>.
+        </p>
+        <p>
+            Assim, na página inicial é apresentado a lista dos repositórios disponíveis, em cada item desta lista ao ser clicado o utilizador é dirigido para a página desse repositório.
+        </p>
+        <p>
+            Na página de cada repositório é possível encontrar o tamanho deste, bem como, as classes que fazem parte do mesmo. Cada classe apresenta leva ao utilizador a visualizar a lista dos indivíduos da classe que selecionou.
+        </p>
+        <p>
+            Por fim, clicando num determinado indivíduo é mostrado as propriedades desse indivíduo.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="../appGraphDB/routes/index.js">Rotas criadas;</link>
+        <link url="../appGraphDB/views/index.pug">Página inicial da aplicação;</link>
+        <link url="pr.dtd">pr.dtd;</link>
+        <link url="pr.xml">pr.xml;</link>
+        <link url="pr.xslt">pr.xslt;</link>
+        <link url="pr.html">pr.html.</link>
+    </deliverables>
+</pr>

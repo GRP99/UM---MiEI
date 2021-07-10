@@ -1,0 +1,45 @@
+extends layout
+
+block content
+    .w3-container.w3-section
+        each e in element
+            header.w3-container.w3-grey
+                h3 Element 
+                    i  #{id}
+            .w3-container
+                table.w3-table-all.w3-section
+                    tr
+                        th Atomic Number 
+                            td= e.anumber
+                    tr                            
+                        th Atomic Weight
+                            td= e.aweight
+                    tr
+                        th Block 
+                            td= e.block
+                    tr
+                        th Chemical Abstracts Service (CAS) related information
+                            td= e.casregid
+                    tr
+                        th Classification
+                            td= e.classi
+                    tr 
+                        th Color
+                            td= e.color
+                    tr
+                        th Group
+                            td
+                                a(href='/group/'+e.group)= e.group
+                    tr
+                        th Name
+                            td= e.name
+                    tr
+                        th Period
+                            td
+                                a(href='/period/'+e.period)= e.period
+                    tr
+                        th Standard State
+                            td= e.stastate 
+                    tr
+                        th Symbol
+                            td= e.symbol

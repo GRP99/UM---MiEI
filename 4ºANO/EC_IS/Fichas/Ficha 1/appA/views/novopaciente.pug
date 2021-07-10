@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container.w3-blue
+            h3 Introduza o novo paciente:
+        form.w3-container(action='/paciente' method='POST')
+            p
+            label Nome:
+            input.w3-input(type="text" name="nome" required='required')
+            p
+            label Telefone:
+            input.w3-input(type="text" name="telefone" required='required')
+            p
+            label Número Utente:
+            input.w3-input(type="text" name="numUtente" required='required')
+            p
+            label Morada:
+            input.w3-input(type="text" name="morada" required='required')
+            p
+            label Género:
+            select(name='genero' required='required')
+                option(value='M') Masculino
+                option(value='F') Feminino
+                option(value='O') Outro
+            hr
+            input.w3-btn.w3-blue(type="submit" value="Registar")
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/") Voltar

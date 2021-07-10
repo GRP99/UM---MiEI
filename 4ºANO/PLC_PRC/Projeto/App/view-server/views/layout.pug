@@ -1,0 +1,85 @@
+doctype html
+html(lang='en')
+	head
+		// basic
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible' content='IE=edge')
+		// mobile metas
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		meta(name='viewport' content='initial-scale=1, maximum-scale=1')
+		// site metas
+		title Cocktail DB
+		// bootstrap css
+		link(rel='stylesheet' href='/stylesheets/bootstrap.min.css')
+		// owl css
+		link(rel='stylesheet' href='/stylesheets/owl.carousel.min.css')
+		// style css
+		link(rel='stylesheet' href='/stylesheets/style.css')
+		link(rel='stylesheet' href='/stylesheets/responsive.css')
+		link(rel='stylesheet' href='/stylesheets/others.css')
+		link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+		script(src='/javascripts/jquery.min.js')
+		script(src='/javascripts/popper.min.js')
+		script(src='/javascripts/bootstrap.bundle.min.js')
+		script(src='/javascripts/owl.carousel.min.js')
+		script(src='/javascripts/custom.js')
+		script(src='/javascripts/jquery.mCustomScrollbar.concat.min.js')
+		script(src='/javascripts/jquery-3.0.0.min.js')
+		script(src='/javascripts/others.js')
+
+		// DataTables
+		script(type='text/javascript' charset='utf8' src='http://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js')
+		link(rel='stylesheet' href='http://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css')
+
+	// body
+	body.main-layout
+		// loader
+		div(class='loader_bg')
+			.loader
+				// img(src='/images/loading.gif' alt='') 
+
+		.wrapper
+			.sidebar
+				// Sidebar
+				nav#sidebar
+					#dismiss
+						i.fa.fa-arrow-left
+					ul.list-unstyled.components
+						li
+							a(href='/homepage')
+								img(src='/images/icons/home.png')
+								t     Home
+						li
+							a(href='/bars')
+								img(src='/images/icons/bar.png')
+								t     Bars
+						li
+							a(href='/bartenders')
+								img(src='/images/icons/bartender.png')
+								t     Bartenders
+						li
+							a(href='/categories')
+								img(src='/images/icons/category.png')
+								t     Categories
+						li
+							a(href='/cocktails')
+								img(src='/images/icons/cocktail.png')
+								t     Cocktails
+						li
+							a(href='/buildCocktail')
+								img(src='/images/icons/engineering.png')
+								t     Find a Cocktail
+						li
+							a(href='/glasswares')
+								img(src='/images/icons/glasses.png')
+								t     Glasswares
+						li
+							a(href='/ingredients')
+								img(src='/images/icons/fruits.png')
+								t     Ingredients
+						li
+							a(href='/locations')
+								img(src='/images/icons/placeholder.png')
+								t     Locations
+
+block content

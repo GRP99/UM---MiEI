@@ -1,0 +1,49 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+    header.w3-container.w3-blue
+        h3.w3-center Lista dos repositórios disponíveis
+
+    if(repositorios.length > 0)
+        .w3-container
+            table.w3-table.w3-bordered(style="width: 100%; border: 1px solid black;")
+                tr(style="border: 1px solid black;")
+                    th(style="border: 1px solid black;text-align:center") ID
+                    th(style="border: 1px solid black;text-align:center") Título
+                    th(style="border: 1px solid black;text-align:center") Tipo
+                    th(style="border: 1px solid black;text-align:center") Local
+                    th(style="border: 1px solid black;text-align:center") Acesso
+                    th(style="border: 1px solid black;text-align:center") State
+                each r in repositorios
+                    tr(style="border: 1px solid black;")
+                        td(style="border: 1px solid black;text-align:center")
+                            a(href='/repositorio/'+r.id)= r.id
+                        td(style="border: 1px solid black;text-align:center")= r.title
+                        td(style="border: 1px solid black;text-align:center")= r.type
+                        if(r.local == true)
+                            td(style="border: 1px solid black;text-align:center")
+                                i(class="fa fa-check")
+                        else
+                            td(style="border: 1px solid black;text-align:center")
+                                i(class="fa fa-times")
+                        if(r.readable == true)
+                            if(r.writable == true)
+                                td(style="border: 1px solid black;text-align:center") Leitura / Escrita
+                            else
+                                td(style="border: 1px solid black;text-align:center") Leitura / Não de Escrita
+                        else
+                            if(r.writable == true)
+                                td(style="border: 1px solid black;text-align:center") Não de Leitura / Escrita
+                            else
+                                td(style="border: 1px solid black;text-align:center") Não de Leitura / Não de Escrita
+                        td(style="border: 1px solid black;text-align:center")= r.state
+    else
+        .w3-container
+            p Não existe repositórios disponíveis ...
+
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        p Autor : Gonçalo Rodrigues Pinto
+        p MiEI - 4ºAno - 2ºSemestre - PRC 20/21
+        p <a href="mailto:a83732@alunos.uminho.pt">a83732@alunos.uminho.pt</a>
+        p <a href="https://github.com/GRP99/PRC2021" target="_blank" ><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="Github" style="width:100px;height:50px;"></img></a>

@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container
+            h4(class="w3-container w3-center") Introduza o novo tipo de exame:
+        form.w3-container(action='/tipoexame' method='POST')
+            p
+            label Sigla:
+            input.w3-input(type="text" name="sigla" required='required')
+            p
+            label Descrição:
+            input.w3-input(type="text" name="descricao" required='required')
+            p
+            p
+            input.w3-btn.w3-grey(type="submit" value="Registar")
+            p

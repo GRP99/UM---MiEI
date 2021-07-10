@@ -1,0 +1,66 @@
+extends layout
+
+block content
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    if level == 'none'
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/login') Login
+                                            a.button(href='http://localhost:7301/users/register') Register
+                                    else
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/myprofile') My profile
+                                            a.button(href='http://localhost:7301/users/logout') Log out
+                                    li
+                                        form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+                                            input(type='search' name='search' value='' placeholder='Search')
+                                    li
+                                        button#sidebarCollapse(type='button')
+                                            img(src='/images/menu_icon.png' alt='#')
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px') Glasswares
+                            span Since some Cocktails have to be served in a particular Glassware, here are the list of every Glassware
+                        table(id="example" style="text-align:center ")
+                            thead
+                                tr
+                                    th
+                                    th Type of Glassware
+                                    th Number of Cocktails
+                            tbody
+                                each glass in glasswares
+                                    if glass.idGlass != 'withoutglass'
+                                        tr
+                                            td
+                                                img(src="/images/icons/glasses.png")
+                                            td
+                                                a(href="/glasswares/" + glass.idGlass)=glass.strGlass
+                                            td=glass.totalOfCocktails
+                .row
+                    .col-xl-6.col-lg-6.col-md-12.col-sm-12
+                        .textarea
+                            i(class="fa fa-warning")
+                            t        
+                            t There are 
+                                b(style="color:red;")= no_glassware.totalOfCocktails 
+                                t  cocktails with no particular glassware associated.
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+        // end footer
+        // end footer
+    .overlay

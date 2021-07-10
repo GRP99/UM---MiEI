@@ -1,0 +1,48 @@
+[
+    {
+        "_id": "a85954@alunos.uminho.pt",
+        "username": "mariolasjr",
+        "password": "$2b$10$MKooVwu4NK/HRhjP5itga.3o6nKGaLn/GaLuCn9jsajpglw0fHBdy",
+        "level": "user",
+        "__v": {
+            "$numberInt": "0"
+        }
+    },
+    {
+        "_id": "a83732@alunos.uminho.pt",
+        "username": "grp",
+        "password": "$2b$10$TqAg7xHNGqPeVbOuMLM8HeKv4RxWkkx6VrnJjWpu19Y436eQ/SeBC",
+        "level": "user",
+        "__v": {
+            "$numberInt": "0"
+        }
+    },
+    {
+        "_id": "jcr@di.uminho.pt",
+        "username": "jcr",
+        "password": "$2b$10$HGzUS1EhrbENBp1mYnioouUTrWOvZHMHoyci86KBHdTLXrHiXZ4Z6",
+        "level": "user",
+        "__v": {
+            "$numberInt": "0"
+        }
+    },
+    {
+        "_id": "jj@di.uminho.pt",
+        "username": "zeca",
+        "password": "$2b$10$obKQYXkmOMOX3561rDtmWOX0MNOhVqeS31shKAcWZspyCz6KbyqyK",
+        "level": "user",
+        "__v": {
+            "$numberInt": "0"
+        }
+    },
+    {
+        "_id": "prh@di.uminho.pt",
+        "username": "prh",
+        "password": "$2b$10$PB18Q839VabHtIMcQ7p1a.fLmZFdXBMyH8lf.TNBRTP6exXls93q.",
+        "level": "user",
+        "__v": {
+            "$numberInt": "0"
+        }
+    }
+
+]

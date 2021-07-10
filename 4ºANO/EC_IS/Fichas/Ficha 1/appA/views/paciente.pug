@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        each d in dados
+            header.w3-container.w3-blue
+                h3 Paciente: #{d.numUtente}
+
+            .w3-container
+                table.w3-table-all.w3-section
+                    tr
+                        th Nome
+                            td= d.nome
+                    tr
+                        th Telefone
+                            td= d.telefone
+                    tr
+                        th Número Utente
+                            td= d.numUtente
+                    tr
+                        th Morada
+                            td= d.morada                            
+                    tr
+                        th Género
+                            td= d.genero
+                        
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/listatrabalho") Voltar à lista de trabalho

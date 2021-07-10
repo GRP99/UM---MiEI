@@ -1,0 +1,115 @@
+extends layout
+
+block content
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    if level == 'none'
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/login') Login
+                                            a.button(href='http://localhost:7301/users/register') Register
+                                    else
+                                        li.button_user
+                                            a.button.active(href='http://localhost:7301/users/myprofile') My profile
+                                            a.button(href='http://localhost:7301/users/logout') Log out
+                                    li
+                                        form#demo-2(onsubmit="return validateSearchForm()" name="SearchForm" action='http://localhost:7301/search', method='POST')
+                                            input(type='search' name='search' value='' placeholder='Search')
+                                    li
+                                        button#sidebarCollapse(type='button')
+                                            img(src='/images/menu_icon.png' alt='#')
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px') Search
+                // Cocktails
+                .row
+                    .col-md-12
+                        h3(style="font-size: 24px") Cocktails
+                        .card.mb-3
+                            .card-body
+                                if cocktails_vazio == false
+                                    .title
+                                        span Here are the list of every 
+                                            b Cocktail 
+                                            t found for the input 
+                                            t(style="color:orange") #{input}
+                                    .owl-carousel.cocktail.owl-theme
+                                        for c in cocktails
+                                            .item
+                                                div(class='product_blog_img')
+                                                    if c.drinkThumb == ''
+                                                        img(src='/images/cocktails.png')
+                                                    else
+                                                    img(src=c.drinkThumb) 
+                                                div(class='product_blog_cont')
+                                                    p.text-secundary=c.strDrink
+                                                    h4
+                                                        a(class='theme_color' href='/cocktails/'+c.idDrink) Find more
+                                    h3.text-secundary(style="text-align:center")
+                                        button(class="prev-button-cocktail button-transparent")
+                                            i(class = "fa fa-arrow-left")
+                                        t   
+                                        t(class = "current") 
+                                        t  of 
+                                        t(class = "allitems")
+                                        t   
+                                        button(class="next-button-cocktail button-transparent")
+                                            i(class = "fa fa-arrow-right")
+                                else
+                                    .title
+                                        span No matches found for the input 
+                                            t(style="color:orange") #{input}
+                // Bartenders
+                .row(style='margin-top: 50px')
+                    .col-md-12
+                        h3(style="font-size: 24px") Bartenders
+                        .card.mb-3
+                            .card-body
+                                if bartenders_vazio == false
+                                    .title
+                                        span Here are the list of every 
+                                            b Bartender 
+                                            t found for the input 
+                                            t(style="color:orange") #{input}
+                                    .owl-carousel.bartender.owl-theme
+                                        for b in bartenders
+                                            .item
+                                                div(class='product_blog_img')
+                                                    img(src='/images/bartender2.png')
+                                                div(class='product_blog_cont')
+                                                    p.text-secundary=b.strBartender
+                                                    h4
+                                                        a(class='theme_color' href='/bartenders/'+b.idBartender) Find more
+                                    h3.text-secundary(style="text-align:center;")
+                                        button(class="prev-button-bartender button-transparent")
+                                            i(class = "fa fa-arrow-left")
+                                        t   
+                                        t(class = "current-bartender") 
+                                        t  of 
+                                        t(class = "allitems-bartender")
+                                        t   
+                                        button(class="next-button-bartender button-transparent")
+                                            i(class = "fa fa-arrow-right")
+                                else
+                                    .title
+                                        span No matches found for the input 
+                                            t(style="color:orange") #{input}
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+        // end footer
+        // end footer
+    .overlay

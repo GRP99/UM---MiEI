@@ -1,0 +1,111 @@
+[
+    {
+        "name": "episodes",
+        "items": [
+            {
+                "namespace": "local",
+                "type": "ITEM",
+                "id": {
+                    "value": "episode1"
+                }
+            }
+        ],
+        "folders": [
+            {
+                "name": "a",
+                "items": [
+                    {
+                        "namespace": "local",
+                        "type": "ITEM",
+                        "id": {
+                            "value": "a1"
+                        }
+                    }
+                ],
+                "folders": []
+            }
+        ]
+    },
+    {
+        "name": "episodes",
+        "items": [
+            {
+                "namespace": "local",
+                "type": "ITEM",
+                "id": {
+                    "value": "episode1"
+                }
+            }
+        ],
+        "folders": [
+            {
+                "name": "a",
+                "items": [
+                    {
+                        "namespace": "local",
+                        "type": "ITEM",
+                        "id": {
+                            "value": "a1"
+                        }
+                    }
+                ],
+                "folders": [
+                    {
+                        "name": "b",
+                        "items": [
+                            {
+                                "namespace": "local",
+                                "type": "ITEM",
+                                "id": {
+                                    "value": "b1"
+                                }
+                            },
+                            {
+                                "namespace": "local",
+                                "type": "ITEM",
+                                "id": {
+                                    "value": "b2"
+                                }
+                            }
+                        ],
+                        "folders": [
+                            {
+                                "name": "c",
+                                "items": [
+                                    {
+                                        "namespace": "local",
+                                        "type": "ITEM",
+                                        "id": {
+                                            "value": "c1"
+                                        }
+                                    },
+                                    {
+                                        "namespace": "local",
+                                        "type": "ITEM",
+                                        "id": {
+                                            "value": "c2"
+                                        }
+                                    }
+                                ],
+                                "folders": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "bb",
+                        "items": [
+                            {
+                                "namespace": "local",
+                                "type": "ITEM",
+                                "id": {
+                                    "value": "bb"
+                                }
+                            }
+                        ],
+                        "folders": []
+                    }
+                ]
+            }
+        ]
+    }
+]

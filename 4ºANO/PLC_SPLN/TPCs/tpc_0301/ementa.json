@@ -1,0 +1,72 @@
+{
+    "2F": {
+        "Almoço": {
+            "Acompanhamento 1": "Arroz branco",
+            "Acompanhamento 2": "-",
+            "Prato": "Feijoada de marisco",
+            "Sopa": "Sopa de feijão vermelho com feijão verde"
+        },
+        "Jantar": {
+            "Acompanhamento 1": "Esparguete à Italiana",
+            "Acompanhamento 2": "Salada de alface e couve roxa",
+            "Prato": "Bife de peru grelhado",
+            "Sopa": "Sopa de curgete"
+        }
+    },
+    "3F": {
+        "Almoço": {
+            "Acompanhamento 1": "Arroz branco",
+            "Acompanhamento 2": "-",
+            "Prato": "Feijoada de marisco",
+            "Sopa": "Sopa de feijão vermelho com feijão verde"
+        },
+        "Jantar": {
+            "Acompanhamento 1": "Esparguete à Italiana",
+            "Acompanhamento 2": "Salada de alface e couve roxa",
+            "Prato": "Bife de peru grelhado",
+            "Sopa": "Sopa de curgete"
+        }
+    },
+    "4F": {
+        "Almoço": {
+            "Acompanhamento 1": "Arroz branco",
+            "Acompanhamento 2": "-",
+            "Prato": "Feijoada de marisco",
+            "Sopa": "Sopa de feijão vermelho com feijão verde"
+        },
+        "Jantar": {
+            "Acompanhamento 1": "Esparguete à Italiana",
+            "Acompanhamento 2": "Salada de alface e couve roxa",
+            "Prato": "Bife de peru grelhado",
+            "Sopa": "Sopa de curgete"
+        }
+    },
+    "5F": {
+        "Almoço": {
+            "Acompanhamento 1": "Arroz branco",
+            "Acompanhamento 2": "-",
+            "Prato": "Feijoada de marisco",
+            "Sopa": "Sopa de feijão vermelho com feijão verde"
+        },
+        "Jantar": {
+            "Acompanhamento 1": "Esparguete à Italiana",
+            "Acompanhamento 2": "Salada de alface e couve roxa",
+            "Prato": "Bife de peru grelhado",
+            "Sopa": "Sopa de curgete"
+        }
+    },
+    "6F": {
+        "Almoço": {
+            "Acompanhamento 1": "Arroz branco",
+            "Acompanhamento 2": "-",
+            "Prato": "Feijoada de marisco",
+            "Sopa": "Sopa de feijão vermelho com feijão verde"
+        },
+        "Jantar": {
+            "Acompanhamento 1": "Esparguete à Italiana",
+            "Acompanhamento 2": "Salada de alface e couve roxa",
+            "Prato": "Bife de peru grelhado",
+            "Sopa": "Sopa de curgete"
+        }
+    }
+}

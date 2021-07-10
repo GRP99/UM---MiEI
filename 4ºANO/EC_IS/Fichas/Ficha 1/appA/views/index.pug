@@ -1,0 +1,30 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+    header.w3-container.w3-blue
+        h1.w3-center Operações
+    .w3-container       
+        ul
+            li
+                h2 
+                    a(href='/registarepisodio') Registar Novo Episódio
+            li
+                h2 
+                    a(href='/registartipodeexame') Registar Novo Tipo de Exame
+            li
+                h2 
+                    a(href='/registarpaciente') Registar Novo Paciente
+            li
+                h2 
+                    a(href='/registarpedido') Registar Novo Pedido
+            li
+                h2
+                    a(href='/listatrabalho') Ver Lista de Trabalho
+            li
+                h2
+                    a(href='/listaepisodios') Ver Lista de Episódios                    
+
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        p Autor : Grupo 01
+        p MiEI - 4ºAno - 2ºSemestre - IS 20/21

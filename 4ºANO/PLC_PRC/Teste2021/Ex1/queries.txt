@@ -1,0 +1,44 @@
+Exercício Nº 1: Gestão de EMDs
+
+    PREFIX : <http://www.di.uminho.pt/prc2021/exames_medicos#>
+
+    3. Sobre a ontologia especifica as queries SPARQL capazes de gerar os seguintes resultados:
+        Quantos exames estão registados?
+            SELECT (COUNT(?emd) AS ?tot_emds) WHERE { 
+                ?emd a :EMD . 
+            }
+
+        Quantos exames tiveram um resultado válido?
+            SELECT (COUNT(?emd) AS ?tot_resultados_validos) WHERE { 
+                ?emd a :EMD .
+                ?emd :resultado "True".
+            }
+
+        Qual a distribuição dos exames por género?
+            SELECT ?genero (COUNT(?emd) AS ?tot_emds) WHERE { 
+                ?atleta :efetuaEMD ?emd .
+    			?atleta :genero ?genero .
+            } GROUP BY ?genero
+
+        Qual a distribuição dos exames por modalidade?
+            SELECT ?designacao (COUNT(?emd) AS ?tot_emds) WHERE { 
+                ?atleta :efetuaEMD ?emd .    			
+                ?atleta :praticaModalidade ?modalidade .
+                ?modalidade :designacao ?designacao .
+            } GROUP BY ?designacao
+
+        Quantos atletas federados do "GDGoma" fizeram EMD?
+            SELECT (COUNT(?emd) AS ?tot_atletas_federados_gdgoma) WHERE { 
+                ?atleta :federado "True" .    			
+    			?atleta :temClube ?clube .
+    			?clube :designacao "GDGoma" .
+    			?atleta :efetuaEMD ?emd .
+            }
+        
+        Quantos atletas do género feminino que praticam Triatlo fizeram EMD?
+            SELECT (COUNT(?emd) AS ?tot_atletas_f_triatlo) WHERE { 
+                ?atleta :genero "F" .    			
+				?atleta :praticaModalidade ?modalidade .
+				?modalidade :designacao "Triatlo" .
+    			?atleta :efetuaEMD ?emd .
+            }

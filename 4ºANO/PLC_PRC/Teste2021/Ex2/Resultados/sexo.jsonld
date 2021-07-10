@@ -1,0 +1,131 @@
+[ {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Otília_Araújo_Leite_1944",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Feminino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948",
+  "http://prc.di.uminho.pt/2021/myfamily#sexo" : [ {
+    "@value" : "Masculino"
+  } ]
+} ]

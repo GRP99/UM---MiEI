@@ -1,0 +1,3078 @@
+@prefix : <http://www.di.uminho.pt/prc2021/A83732-TP5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/A83732-TP5> .
+
+<http://www.di.uminho.pt/prc2021/A83732-TP5> rdf:type owl:Ontology ;
+                                              rdfs:comment "Ontologia para as publicações do jcr." .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#edit
+:edit rdf:type owl:ObjectProperty ;
+      owl:inverseOf :wasEdit ;
+      rdfs:domain :Editor ;
+      rdfs:range :Bibliography .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#have
+:have rdf:type owl:ObjectProperty ;
+      rdfs:domain :Bibliography ;
+      rdfs:range :PDF .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#wasEdit
+:wasEdit rdf:type owl:ObjectProperty ;
+         rdfs:domain :Bibliography ;
+         rdfs:range :Editor .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#wasWritten
+:wasWritten rdf:type owl:ObjectProperty ;
+            owl:inverseOf :write ;
+            rdfs:domain :Bibliography ;
+            rdfs:range :Author .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#write
+:write rdf:type owl:ObjectProperty ;
+       rdfs:domain :Author ;
+       rdfs:range :Bibliography .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#address
+:address rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#booktitle
+:booktitle rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#chapter
+:chapter rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#doi
+:doi rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#howpublished
+:howpublished rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#isbn
+:isbn rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#issn
+:issn rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#journal
+:journal rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#month
+:month rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#number
+:number rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#pages
+:pages rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#publisher
+:publisher rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#school
+:school rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#title
+:title rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#uri
+:uri rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#url
+:url rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#volume
+:volume rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#year
+:year rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Article
+:Article rdf:type owl:Class ;
+         rdfs:subClassOf :Bibliography ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :journal ;
+                           owl:someValuesFrom xsd:string
+                         ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Author
+:Author rdf:type owl:Class ;
+        owl:equivalentClass [ owl:intersectionOf ( :Person
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :write ;
+                                                     owl:someValuesFrom :Bibliography
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] ;
+        rdfs:subClassOf :Person ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :nome ;
+                          owl:someValuesFrom xsd:string
+                        ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Bibliography
+:Bibliography rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Book
+:Book rdf:type owl:Class ;
+      rdfs:subClassOf :Bibliography ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :address ;
+                        owl:someValuesFrom xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :month ;
+                        owl:someValuesFrom xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :publisher ;
+                        owl:someValuesFrom xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :title ;
+                        owl:someValuesFrom xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :year ;
+                        owl:someValuesFrom xsd:string
+                      ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Deliverables
+:Deliverables rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Editor
+:Editor rdf:type owl:Class ;
+        owl:equivalentClass [ owl:intersectionOf ( :Person
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty :edit ;
+                                                     owl:someValuesFrom :Bibliography
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] ;
+        rdfs:subClassOf :Person ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :nome ;
+                          owl:someValuesFrom xsd:string
+                        ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Inbook
+:Inbook rdf:type owl:Class ;
+        rdfs:subClassOf :Bibliography ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :chapter ;
+                          owl:someValuesFrom xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :month ;
+                          owl:someValuesFrom xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :pages ;
+                          owl:someValuesFrom xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :publisher ;
+                          owl:someValuesFrom xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :title ;
+                          owl:someValuesFrom xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :year ;
+                          owl:someValuesFrom xsd:string
+                        ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Inproceedings
+:Inproceedings rdf:type owl:Class ;
+               rdfs:subClassOf :Bibliography ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :booktitle ;
+                                 owl:someValuesFrom xsd:string
+                               ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Masterthesis
+:Masterthesis rdf:type owl:Class ;
+              rdfs:subClassOf :Bibliography ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :month ;
+                                owl:someValuesFrom xsd:string
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :school ;
+                                owl:someValuesFrom xsd:string
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :title ;
+                                owl:someValuesFrom xsd:string
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :year ;
+                                owl:someValuesFrom xsd:string
+                              ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Misc
+:Misc rdf:type owl:Class ;
+      rdfs:subClassOf :Bibliography ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :howpublished ;
+                        owl:someValuesFrom xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :title ;
+                        owl:someValuesFrom xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :year ;
+                        owl:someValuesFrom xsd:string
+                      ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#PDF
+:PDF rdf:type owl:Class ;
+     rdfs:subClassOf :Deliverables ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :url ;
+                       owl:someValuesFrom xsd:string
+                     ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Person
+:Person rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Phdthesis
+:Phdthesis rdf:type owl:Class ;
+           rdfs:subClassOf :Bibliography ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :address ;
+                             owl:someValuesFrom xsd:string
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :doi ;
+                             owl:someValuesFrom xsd:string
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :month ;
+                             owl:someValuesFrom xsd:string
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :school ;
+                             owl:someValuesFrom xsd:string
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :title ;
+                             owl:someValuesFrom xsd:string
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :year ;
+                             owl:someValuesFrom xsd:string
+                           ] .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Proceedings
+:Proceedings rdf:type owl:Class ;
+             rdfs:subClassOf :Bibliography ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :address ;
+                               owl:someValuesFrom xsd:string
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :title ;
+                               owl:someValuesFrom xsd:string
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :year ;
+                               owl:someValuesFrom xsd:string
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :doi ;
+                               owl:allValuesFrom xsd:string
+                             ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#BKRFBR08
+:BKRFBR08 rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :aab ,
+                      :ar ,
+                      :cb ,
+                      :jcr ,
+                      :mf ,
+                      :mk ;
+          :address "Aarhus, Danmark"^^xsd:string ;
+          :booktitle "ECDL2008 - European Conference on Research and Advanced Technology for Digital Libraries"^^xsd:string ;
+          :doi "http://hdl.handle.net/1822/8239"^^xsd:string ;
+          :month "09"^^xsd:string ;
+          :title "Distributed Preservation Services: Integrating Planning and Actions"^^xsd:string ;
+          :year "2008"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FBR05-CAPSI
+:FBR05-CAPSI rdf:type owl:NamedIndividual ,
+                      :Bibliography ,
+                      :Inproceedings ;
+             :wasWritten :aab ,
+                         :jcr ,
+                         :mf ;
+             :address "Bragança - Portugal"^^xsd:string ;
+             :booktitle "6ª Conferência da Associação Portuguesa de Sistemas de Informação"^^xsd:string ;
+             :doi "http://hdl.handle.net/1822/3616"^^xsd:string ;
+             :month "10.26"^^xsd:string ;
+             :title """Avaliação Automática de Migração em Redes Distribuídas de
+Conversores"""^^xsd:string ;
+             :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FBR06-Ariadne
+:FBR06-Ariadne rdf:type owl:NamedIndividual ,
+                        :Article ,
+                        :Bibliography ;
+               :wasWritten :aab ,
+                           :jcr ,
+                           :mf ;
+               :doi "http://hdl.handle.net/1822/5571"^^xsd:string ;
+               :issn "1361-3200"^^xsd:string ;
+               :journal "Ariadne"^^xsd:string ;
+               :month "July"^^xsd:string ;
+               :number "48"^^xsd:string ;
+               :title "A foundation for automatic digital preservation"^^xsd:string ;
+               :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FBR06-XATA
+:FBR06-XATA rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasWritten :aab ,
+                        :jcr ,
+                        :mf ;
+            :address "Portalegre - Portugal"^^xsd:string ;
+            :booktitle "XATA - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/4457"^^xsd:string ;
+            :isbn "972-99166-2-4"^^xsd:string ;
+            :month "02.09"^^xsd:string ;
+            :title "CRIB : a service oriented architecture for digital preservation outsourcing"^^xsd:string ;
+            :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FBR07
+:FBR07 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Misc ;
+       :wasWritten :aab ,
+                   :jcr ,
+                   :mf ;
+       :doi "http://hdl.handle.net/1822/6195"^^xsd:string ;
+       :howpublished """Apresentação efectuada na International Conference Open Repositories, 2, San
+		Antonio, Texas, United States of America, 2007."""^^xsd:string ;
+       :title "CRiB : preservation services for Digital Repositories"^^xsd:string ;
+       :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FBR07-IJDL
+:FBR07-IJDL rdf:type owl:NamedIndividual ,
+                     :Article ,
+                     :Bibliography ;
+            :wasWritten :aab ,
+                        :jcr ,
+                        :mf ;
+            :doi "http://hdl.handle.net/1822/6648"^^xsd:string ;
+            :issn "1432-5012 (Print) 1432-1300 (Online)"^^xsd:string ;
+            :journal "International Journal on Digital Libraries"^^xsd:string ;
+            :month "05"^^xsd:string ;
+            :publisher "Springer Berlin / Heidelberg"^^xsd:string ;
+            :title "An intelligent decision support system for digital preservation"^^xsd:string ;
+            :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FCRBCF07
+:FCRBCF07 rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :fb ,
+                      :jcr ,
+                      :lcor ,
+                      :lf ,
+                      :mf ,
+                      :rc ;
+          :address "Ponta Delgada, Açores, Portugal"^^xsd:string ;
+          :booktitle "9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS"^^xsd:string ;
+          :doi "http://hdl.handle.net/1822/6330"^^xsd:string ;
+          :month "03.29"^^xsd:string ;
+          :title "RODA : Repositório de Objectos Digitais Autênticos"^^xsd:string ;
+          :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FFR10
+:FFR10 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :lmf ,
+                   :mf ;
+       :address "Guimarães, Portugal"^^xsd:string ;
+       :booktitle "10º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/10532"^^xsd:string ;
+       :month "04.08"^^xsd:string ;
+       :title "DigitArq e o novo módulo de interoperabilidade OAI-PMH"^^xsd:string ;
+       :year "2010"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR04
+:FR04 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Inproceedings ;
+      :wasWritten :jcr ,
+                  :mf ;
+      :address "Faculdade de Engenharia da Universidade do Porto - Porto"^^xsd:string ;
+      :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)"^^xsd:string ;
+      :doi "http://hdl.handle.net/1822/614"^^xsd:string ;
+      :isbn "972-99166-0-8"^^xsd:string ;
+      :month "02.12"^^xsd:string ;
+      :title "Aquisição e Armazenamento de Metainformação no Contexto de um Arquivo"^^xsd:string ;
+      :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR04-capsi
+:FR04-capsi rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasWritten :jcr ,
+                        :mf ;
+            :address "Instituto Superior Técnico, Lisboa, Portugal"^^xsd:string ;
+            :booktitle "5ª Conferência da APSI - Associação Portuguesa dos Sistemas de Informação"^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/718"^^xsd:string ;
+            :month "11.03"^^xsd:string ;
+            :title "DigitArq: Creating a Historical Digital Archive"^^xsd:string ;
+            :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR04b
+:FR04b rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :mf ;
+       :address "Department of Information and Documentation Science at the University of Brasilia, in Brazil"^^xsd:string ;
+       :booktitle "Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/615"^^xsd:string ;
+       :isbn "85-88130-02-05"^^xsd:string ;
+       :month "06.23-26"^^xsd:string ;
+       :title "DIGITARQ - CREATING AND MANAGING A DIGITAL ARCHIVE"^^xsd:string ;
+       :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR09
+:FR09 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Inproceedings ;
+      :wasWritten :jcr ,
+                  :rf ;
+      :address "Lisboa - Portugal"^^xsd:string ;
+      :booktitle "INFORUM : SIMPÓSIO DE INFORMÁTICA, Lisboa, 2009"^^xsd:string ;
+      :doi "http://hdl.handle.net/1822/9740"^^xsd:string ;
+      :isbn "978-972-9348-18-1"^^xsd:string ;
+      :month "11.09"^^xsd:string ;
+      :title "Relational databases digital preservation"^^xsd:string ;
+      :year "2009"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR10
+:FR10 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Inproceedings ;
+      :wasWritten :jcr ,
+                  :rf ;
+      :address "Glasgow, UK"^^xsd:string ;
+      :booktitle "Research and Advanced Technology for Digital Libraries, 14th European Conference, ECDL2010"^^xsd:string ;
+      :doi "http://hdl.handle.net/1822/13702"^^xsd:string ;
+      :isbn "978-3-642-15463-8"^^xsd:string ;
+      :month "09.06"^^xsd:string ;
+      :title "Significant Properties in the Preservation of Relational Databases"^^xsd:string ;
+      :year "2010"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR11
+:FR11 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Inproceedings ;
+      :wasWritten :jcr ,
+                  :rf ;
+      :address "ESEIG -IPP, Vila do Conde - Portugal"^^xsd:string ;
+      :booktitle "9th Conference on XML: Aplicações e Tecnologias Associadas, XATA 2011"^^xsd:string ;
+      :doi "http://hdl.handle.net/1822/13703"^^xsd:string ;
+      :month "06.01"^^xsd:string ;
+      :title "Using Ontologies in Database Preservation"^^xsd:string ;
+      :year "2011"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR11b
+:FR11b rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :rf ;
+       :address "Universidade Lusíada, Vila Nova de Famalicão, Portugal"^^xsd:string ;
+       :booktitle "MSKE2011- International Conference on Managing Services in the Knowledge Economy"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/13704"^^xsd:string ;
+       :month "07.13"^^xsd:string ;
+       :title "Preservation of Relational Databases"^^xsd:string ;
+       :year "2011"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR11c
+:FR11c rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :rf ;
+       :address "Lisboa, Portugal"^^xsd:string ;
+       :booktitle "EPIA2011 - 15th Portuguese Conference on Artificial Intelligence"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/16113"^^xsd:string ;
+       :month "10.10"^^xsd:string ;
+       :title "Using Ontologies to Abstract Relational Databases Conceptual Model"^^xsd:string ;
+       :year "2011"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR11d
+:FR11d rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :rf ;
+       :address "Berlin, Germany"^^xsd:string ;
+       :booktitle "VLDL2011 - Fourth Workshop on Very Large Digital Libraries (In conjunction with the International Conference on Theory and Practice of Digital Libraries (TPDL2011))"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/16019"^^xsd:string ;
+       :month "09.29"^^xsd:string ;
+       :title "Relational Databases Conceptual Preservation"^^xsd:string ;
+       :year "2011"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FR11e
+:FR11e rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :rf ;
+       :address "Singapore"^^xsd:string ;
+       :booktitle "iPRES 2011 - 8th International Conference on Preservation of Digital Objects"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/15859"^^xsd:string ;
+       :month "11.04"^^xsd:string ;
+       :title "New dimension in relational database preservation: raising the abstraction level"^^xsd:string ;
+       :year "2011"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#FRF-XATA
+:FRF-XATA rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :jcr ,
+                      :lmf ,
+                      :mf ;
+          :address "Évora - Portugal"^^xsd:string ;
+          :booktitle "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)"^^xsd:string ;
+          :doi "http://hdl.handle.net/1822/7821"^^xsd:string ;
+          :month "02.14"^^xsd:string ;
+          :title "Creating a National Federation of Archives using OAI-PMH"^^xsd:string ;
+          :year "2008"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#GARH09
+:GARH09 rdf:type owl:NamedIndividual ,
+                 :Article ,
+                 :Bibliography ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :prh ,
+                    :rpa ;
+        :doi "http://hdl.handle.net/1822/9741"^^xsd:string ;
+        :issn "1755-0556. 1:3-4 (2009) 173 - 181"^^xsd:string ;
+        :journal "International Journal of Reasoning-based Intelligent Systems"^^xsd:string ;
+        :publisher "Inderscience"^^xsd:string ;
+        :title "Topic maps constraint languages : understanding and comparing"^^xsd:string ;
+        :year "2009"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#IGI2013
+:IGI2013 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Inbook ;
+         :wasEdit :albie ,
+                  :jcr ,
+                  :rq ;
+         :wasWritten :jcr ,
+                     :rf ;
+         :chapter "New Dimension in Relational Database Preservation: Using Ontologies"^^xsd:string ;
+         :doi "10.4018/978-1-4666-2669-0.ch009"^^xsd:string ;
+         :month "06"^^xsd:string ;
+         :pages "160-173"^^xsd:string ;
+         :publisher "IGI Global"^^xsd:string ;
+         :title "Innovations in XML Applications and Metadata Management: Advancing Technologies"^^xsd:string ;
+         :year "2013"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#JHR00
+:JHR00 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :mhj ,
+                   :prh ;
+       :address "Instituto de Lógica, Lenguaje e Información, Universidad de Sevilla, Espanha"^^xsd:string ;
+       :booktitle "Logic, Language and Information: Proceedings of the First Workshop on Logic and Language"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/597"^^xsd:string ;
+       :month "11.29"^^xsd:string ;
+       :title "XML and Semantic Validation"^^xsd:string ;
+       :year "2000"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#JLRH02
+:JLRH02 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :mhj ,
+                    :prh ;
+        :address "Montevideo, Uruguai,"^^xsd:string ;
+        :booktitle "CLEI'02"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/612"^^xsd:string ;
+        :month "11"^^xsd:string ;
+        :title "XCSL: XML Constraint Specification Language"^^xsd:string ;
+        :year "2002"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#JLRH02b
+:JLRH02b rdf:type owl:NamedIndividual ,
+                  :Article ,
+                  :Bibliography ;
+         :wasWritten :grl ,
+                     :jcr ,
+                     :mhj ,
+                     :prh ;
+         :doi "http://hdl.handle.net/1822/610"^^xsd:string ;
+         :journal "ACM Crossroads"^^xsd:string ;
+         :publisher "ACM Press"^^xsd:string ;
+         :title "XCSL tutorial"^^xsd:string ;
+         :uri "http://doi.acm.org/10.1145/991118.991122"^^xsd:string ;
+         :volume "8.5"^^xsd:string ;
+         :year "2002"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#JLRH03
+:JLRH03 rdf:type owl:NamedIndividual ,
+                 :Article ,
+                 :Bibliography ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :mhj ,
+                    :prh ;
+        :journal "CLEI Electronic Journal,  ISSN 0717-5000. 2003."^^xsd:string ;
+        :title "XCSL: XML Constraint Specification Language"^^xsd:string ;
+        :volume "Best papers of XXVIII Conferencia Latinoamericana de Informática - CLEI, 2002"^^xsd:string ;
+        :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#JLRHb02
+:JLRHb02 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Inproceedings ;
+         :wasWritten :grl ,
+                     :jcr ,
+                     :mhj ,
+                     :prh ;
+         :address "Rio de Janeiro - Brasil"^^xsd:string ;
+         :booktitle "7th International Conference on CSCW in  Design"^^xsd:string ;
+         :doi "http://hdl.handle.net/1822/601"^^xsd:string ;
+         :month "09.25"^^xsd:string ;
+         :title "Bidirectional Conversion between XML Documents and Relational Data Bases"^^xsd:string ;
+         :year "2002"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#JLRHc02
+:JLRHc02 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Inproceedings ;
+         :wasWritten :grl ,
+                     :jcr ,
+                     :mhj ,
+                     :prh ;
+         :address "Barcelona - Espanha"^^xsd:string ;
+         :booktitle "XML Europe'02"^^xsd:string ;
+         :doi "http://hdl.handle.net/1822/619"^^xsd:string ;
+         :month "05.20"^^xsd:string ;
+         :title "Constraint Specification Languages: comparing XCSL, Schematron and XML-Schema"^^xsd:string ;
+         :year "2002"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#JRH03
+:JRH03 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :mhj ,
+                   :prh ;
+       :address "Vila Verde - Portugal"^^xsd:string ;
+       :booktitle "XATA2003 - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/4911"^^xsd:string ;
+       :month "02.13-14"^^xsd:string ;
+       :title """XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de
+			Especificação de Restrições"""^^xsd:string ;
+       :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LARH07-EPIA
+:LARH07-EPIA rdf:type owl:NamedIndividual ,
+                      :Bibliography ,
+                      :Inproceedings ;
+             :wasWritten :grl ,
+                         :jcr ,
+                         :prh ,
+                         :rpa ;
+             :address "Guimarães - Portugal"^^xsd:string ;
+             :booktitle "Portuguese Conference on Artificial Intelligence (EPIA2007)"^^xsd:string ;
+             :doi "http://hdl.handle.net/1822/7368"^^xsd:string ;
+             :title "Topic Maps Constraint Languages: understanding and comparing"^^xsd:string ;
+             :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LATRH07-CLEI
+:LATRH07-CLEI rdf:type owl:NamedIndividual ,
+                       :Bibliography ,
+                       :Inproceedings ;
+              :wasWritten :grl ,
+                          :jcr ,
+                          :prh ,
+                          :rct ,
+                          :rpa ;
+              :address "San José - Costa Rica"^^xsd:string ;
+              :booktitle "XXXIII Conferencia Latinoamericana de Informática (CLEI2007)"^^xsd:string ;
+              :doi "http://hdl.handle.net/1822/7364"^^xsd:string ;
+              :title "Implementing TMCL: XTche - a topic map schema and constraint specification language"^^xsd:string ;
+              :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LGRH07-CLEI
+:LGRH07-CLEI rdf:type owl:NamedIndividual ,
+                      :Bibliography ,
+                      :Inproceedings ;
+             :wasWritten :grl ,
+                         :jcr ,
+                         :jg ,
+                         :prh ;
+             :address "San José - Costa Rica"^^xsd:string ;
+             :booktitle "XXXIII Conferencia Latinoamericana de Informática (CLEI2007)"^^xsd:string ;
+             :doi "http://hdl.handle.net/1822/7354"^^xsd:string ;
+             :title "Using Web Services to put Metamorphosis on the Web"^^xsd:string ;
+             :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LMMFRH07-TMRA
+:LMMFRH07-TMRA rdf:type owl:NamedIndividual ,
+                        :Bibliography ,
+                        :Inproceedings ;
+               :wasWritten :grl ,
+                           :htm ,
+                           :jcr ,
+                           :mom ,
+                           :pgf ,
+                           :prh ;
+               :address "Leipzig - Germany"^^xsd:string ;
+               :booktitle "International Conference on Topic Maps Research and Applications (TMRA2007)"^^xsd:string ;
+               :doi "http://hdl.handle.net/1822/7399"^^xsd:string ;
+               :title "Comparing Topic Maps Constraint Specification Languages"^^xsd:string ;
+               :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LMMVRH08-XATA
+:LMMVRH08-XATA rdf:type owl:NamedIndividual ,
+                        :Bibliography ,
+                        :Inproceedings ;
+               :wasWritten :grl ,
+                           :hm ,
+                           :jcr ,
+                           :jv ,
+                           :mm ,
+                           :prh ;
+               :address "Évora - Portugal"^^xsd:string ;
+               :booktitle "XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)"^^xsd:string ;
+               :month "02.14"^^xsd:string ;
+               :title "Generating a Semantic Network for PubMed"^^xsd:string ;
+               :year "2008"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LPRH07-TM
+:LPRH07-TM rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :wasWritten :grl ,
+                       :jcr ,
+                       :prh ,
+                       :rpa ;
+           :address "Oslo - Norway"^^xsd:string ;
+           :booktitle "Topic Maps 2007 -  The First International Topic Maps User Conference"^^xsd:string ;
+           :doi "http://hdl.handle.net/1822/6474"^^xsd:string ;
+           :month "03.21"^^xsd:string ;
+           :title "Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche"^^xsd:string ;
+           :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LPRH07-XATA
+:LPRH07-XATA rdf:type owl:NamedIndividual ,
+                      :Bibliography ,
+                      :Inproceedings ;
+             :wasWritten :grl ,
+                         :jcr ,
+                         :prh ,
+                         :rpa ;
+             :address "Lisboa - Portugal"^^xsd:string ;
+             :booktitle "XATA 2007 -  XML: Aplicações e Tecnologias Associadas (5ª Conferência Nacional)"^^xsd:string ;
+             :doi "http://hdl.handle.net/1822/6482"^^xsd:string ;
+             :month "02.14"^^xsd:string ;
+             :title "Navegando na Rede Semântica dos Topic Maps com o Ulisses"^^xsd:string ;
+             :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LR04
+:LR04 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Inproceedings ;
+      :wasWritten :cajo ,
+                  :jcr ;
+      :address "Faculdade de Engenharia da Universidade do Porto - Porto"^^xsd:string ;
+      :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)"^^xsd:string ;
+      :doi "http://hdl.handle.net/1822/559"^^xsd:string ;
+      :isbn "972-99166-0-8"^^xsd:string ;
+      :month "02.12"^^xsd:string ;
+      :title "Web Services: Metodologias de Desenvolvimento"^^xsd:string ;
+      :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH03
+:LRH03 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :grl ,
+                   :jcr ,
+                   :prh ;
+       :address "Braga - Portugal"^^xsd:string ;
+       :booktitle "XATA 2003 - XML, Aplicações e Tecnologias Associadas"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/620"^^xsd:string ;
+       :month "02.13"^^xsd:string ;
+       :title "XML Topic Map Builder: Specification and Generation"^^xsd:string ;
+       :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH03b
+:LRH03b rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :prh ;
+        :address "La Paz, Bolívia"^^xsd:string ;
+        :booktitle "CLEI'03"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/555"^^xsd:string ;
+        :month "09.29"^^xsd:string ;
+        :title "TM-Builder: Um Construtor de Ontologias baseado em Topic Maps"^^xsd:string ;
+        :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH03c
+:LRH03c rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :prh ;
+        :address "ISEP, Porto, Portugal"^^xsd:string ;
+        :booktitle "COOPMedia 2003"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/556"^^xsd:string ;
+        :month "10.08"^^xsd:string ;
+        :title "Geração automática de interfaces Web para sistemas de informação: Metamorphosis"^^xsd:string ;
+        :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH04
+:LRH04 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :grl ,
+                   :jcr ,
+                   :prh ;
+       :address "Faculdade de Engenharia da Universidade do Porto - Porto"^^xsd:string ;
+       :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/613"^^xsd:string ;
+       :isbn "972-99166-0-8"^^xsd:string ;
+       :month "02.12"^^xsd:string ;
+       :title "Um Extractor de Topic Maps a partir de Recursos Heterogéneos de Informação"^^xsd:string ;
+       :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH04-Clei
+:LRH04-Clei rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasEdit :clei04 ;
+            :wasWritten :grl ,
+                        :jcr ,
+                        :prh ;
+            :address "Sociedad Peruana de Computación, Peru"^^xsd:string ;
+            :booktitle """30ma Conferencia Latinoamericana de
+Informática (CLEI2004)"""^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/594"^^xsd:string ;
+            :isbn "9972-9876-2-0"^^xsd:string ;
+            :month "Sept."^^xsd:string ;
+            :title "Extração de Topic Maps no Oveia: Especificação e Processamento"^^xsd:string ;
+            :uri "http://clei2004.spc.org.pe/es/html/pdfs/140.pdf"^^xsd:string ;
+            :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH04-WWS
+:LRH04-WWS rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :have :pdfLRH04-WWS ;
+           :wasWritten :grl ,
+                       :jcr ,
+                       :prh ;
+           :address "Brasília, Brasil"^^xsd:string ;
+           :booktitle "I  Workshop de Web Semântica (WWS2004)"^^xsd:string ;
+           :month "10.22"^^xsd:string ;
+           :title "Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps"^^xsd:string ;
+           :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH04-XMLw
+:LRH04-XMLw rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasWritten :grl ,
+                        :jcr ,
+                        :prh ;
+            :address "Washington, USA"^^xsd:string ;
+            :booktitle "XML Conference and Exhibition 2004 Proceedings"^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/681"^^xsd:string ;
+            :month "12"^^xsd:string ;
+            :title "XTche - A Language for Topic Maps Schema and Constraints"^^xsd:string ;
+            :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH05
+:LRH05 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :grl ,
+                   :jcr ,
+                   :prh ;
+       :address "Braga"^^xsd:string ;
+       :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/1020"^^xsd:string ;
+       :isbn "972-99166-1-6"^^xsd:string ;
+       :month "02.10"^^xsd:string ;
+       :title "Obtendo Interoperabilidade Semântica em Sistemas Heterogéneos de Informação com Metamorphosis"^^xsd:string ;
+       :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH05-CLEI
+:LRH05-CLEI rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasWritten :grl ,
+                        :jcr ,
+                        :prh ;
+            :address "Santiago de Cali - Colombia"^^xsd:string ;
+            :booktitle "XXXI Conferência Latinoamericana de Informática"^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/3532"^^xsd:string ;
+            :isbn "958-670-422-X"^^xsd:string ;
+            :month "10.10"^^xsd:string ;
+            :title "Ulisses: Um Navegador Conceptual para Topic Maps"^^xsd:string ;
+            :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH05b
+:LRH05b rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :prh ;
+        :address "Braga"^^xsd:string ;
+        :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/994"^^xsd:string ;
+        :isbn "972-99166-1-6"^^xsd:string ;
+        :month "02.10"^^xsd:string ;
+        :title "Constraining XML Topic Maps with XTche"^^xsd:string ;
+        :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH06-SBSI06
+:LRH06-SBSI06 rdf:type owl:NamedIndividual ,
+                       :Bibliography ,
+                       :Inproceedings ;
+              :wasWritten :grl ,
+                          :jcr ,
+                          :prh ;
+              :address "Curitiba, Paraná - Brasil"^^xsd:string ;
+              :booktitle "III Simpósio Brasileiro de Sistemas de Informação"^^xsd:string ;
+              :doi "http://hdl.handle.net/1822/7359"^^xsd:string ;
+              :title "Metamorphosis: An Environment to Achieve Semantic Interoperability with Topic Maps"^^xsd:string ;
+              :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH06-XATA
+:LRH06-XATA rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasWritten :grl ,
+                        :jcr ,
+                        :prh ;
+            :address "Portalegre - Portugal"^^xsd:string ;
+            :booktitle "XATA - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/4910"^^xsd:string ;
+            :isbn "972-99166-2-4"^^xsd:string ;
+            :month "02.09"^^xsd:string ;
+            :title "Topic Maps Aplicados ao Sistema de Informação do Museu da Emigração"^^xsd:string ;
+            :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH07-SEMINFO
+:LRH07-SEMINFO rdf:type owl:NamedIndividual ,
+                        :Bibliography ,
+                        :Inproceedings ;
+               :wasWritten :grl ,
+                           :jcr ,
+                           :prh ;
+               :address "Torres, RS - Brasil"^^xsd:string ;
+               :booktitle "VI Seminário de Informática - SEMINFO, 2007, Torres, RS, Brasil."^^xsd:string ;
+               :title "Estruturando o conhecimento com a norma ISO 13250 Topic Maps"^^xsd:string ;
+               :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRH97
+:LRH97 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :arl ,
+                   :jcr ,
+                   :prh ;
+       :address "Campinas-SP -- Brasil"^^xsd:string ;
+       :booktitle "II Brasilian Symposium on Programming Languages (SBLP'97)"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/616"^^xsd:string ;
+       :month "09"^^xsd:string ;
+       :title "INES, an Environment for Structured Editions of SGML Documents"^^xsd:string ;
+       :year "1997"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LRHGT08
+:LRHGT08 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Inproceedings ;
+         :wasWritten :grl ,
+                     :jcr ,
+                     :jg ,
+                     :prh ,
+                     :rct ;
+         :address "Lisboa, Portugal"^^xsd:string ;
+         :booktitle "SIGDOC'08 -- 26th ACM International Conference on Design of Communication"^^xsd:string ;
+         :doi "http://hdl.handle.net/1822/8236"^^xsd:string ;
+         :month "09-23"^^xsd:string ;
+         :title "A Framework to specify, extract and manage Topic Maps driven by ontologies"^^xsd:string ;
+         :year "2008"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#LSRH04
+:LSRH04 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :prh ,
+                    :ws ;
+        :address "Porto - Portugal"^^xsd:string ;
+        :booktitle "International Conference on Knowledge Engineering and Decision Support"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/584"^^xsd:string ;
+        :month "07.21-23"^^xsd:string ;
+        :title "Using the Ontology Paradigm to integrate Information Systems"^^xsd:string ;
+        :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#MRH04
+:MRH04 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :prh ,
+                   :ram ;
+       :address "Faculdade de Engenharia da Universidade do Porto - Porto"^^xsd:string ;
+       :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/562"^^xsd:string ;
+       :isbn "972-99166-0-8"^^xsd:string ;
+       :month "02.12"^^xsd:string ;
+       :title "Comparação de Linguagens para descrição de Interfaces baseadas em XML"^^xsd:string ;
+       :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RAH1998
+:RAH1998 rdf:type owl:NamedIndividual ,
+                  :Article ,
+                  :Bibliography ;
+         :wasWritten :jcr ,
+                     :jj ,
+                     :prh ;
+         :journal "Theoretical Computer Science journal, volume 199"^^xsd:string ;
+         :month "06"^^xsd:string ;
+         :title "Algebraic Specification of Documents"^^xsd:string ;
+         :volume "Elsevier"^^xsd:string ;
+         :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RAH95
+:RAH95 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :jj ,
+                   :prh ;
+       :address "Twente - Holanda"^^xsd:string ;
+       :booktitle "Algebraic Methods in Language Processing"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/618"^^xsd:string ;
+       :issn "0929-0672"^^xsd:string ;
+       :month "12"^^xsd:string ;
+       :title "DAVID, Algebraic Specification of Documents"^^xsd:string ;
+       :year "1995"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RAH96
+:RAH96 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :jj ,
+                   :prh ;
+       :address "Boston - USA"^^xsd:string ;
+       :booktitle "SGML96"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/622"^^xsd:string ;
+       :month "12"^^xsd:string ;
+       :title "Document Semantics: two approaches"^^xsd:string ;
+       :year "1996"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RARH98
+:RARH98 rdf:type owl:NamedIndividual ,
+                 :Article ,
+                 :Bibliography ;
+        :wasWritten :jcr ,
+                    :jgr ,
+                    :jj ,
+                    :prh ;
+        :doi "http://hdl.handle.net/1822/644"^^xsd:string ;
+        :issn "1099-6621"^^xsd:string ;
+        :journal "Markup Languages: theory and practice"^^xsd:string ;
+        :month "01"^^xsd:string ;
+        :title "SGML Documents: Where does quality go?"^^xsd:string ;
+        :volume "journal, num. 1 vol. 1, MIT Press"^^xsd:string ;
+        :year "1999"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RD06-XATA
+:RD06-XATA rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :wasWritten :jcr ,
+                       :migaldo ;
+           :address "Portalegre - Portugal"^^xsd:string ;
+           :booktitle "XATA - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+           :doi "http://hdl.handle.net/1822/4576"^^xsd:string ;
+           :isbn "972-99166-2-4"^^xsd:string ;
+           :month "02.09"^^xsd:string ;
+           :title "Especificação e Geração Automática de Navegadores para Redes Semânticas Baseados em Interfaces Web"^^xsd:string ;
+           :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RFCFBC06
+:RFCFBC06 rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Misc ;
+          :wasWritten :fb ,
+                      :jcr ,
+                      :lcor ,
+                      :lf ,
+                      :mf ,
+                      :rc ;
+          :doi "http://hdl.handle.net/1822/6420"^^xsd:string ;
+          :howpublished "Apresentação efectuada no Encontro Sofware Livre na Administração Pública, Torre do Tombo, Lisboa - Portugal, em 29 de Novembro de 2006."^^xsd:string ;
+          :title "RODA - Desenvolvimento de uma plataforma tecnológica para suporte de Arquivos Digitais"^^xsd:string ;
+          :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RFCFBC07
+:RFCFBC07 rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :fb ,
+                      :jcr ,
+                      :lcor ,
+                      :lf ,
+                      :mf ,
+                      :rc ;
+          :address "Lisboa, Portugal"^^xsd:string ;
+          :booktitle "XATA2007 : XML : aplicações e tecnologias associadas : actas da Conferência Nacional"^^xsd:string ;
+          :doi "http://hdl.handle.net/1822/6224"^^xsd:string ;
+          :month "02.15"^^xsd:string ;
+          :title "XML e preservação digital"^^xsd:string ;
+          :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RFFC07-EML
+:RFFC07-EML rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasWritten :jcr ,
+                        :lf ,
+                        :mf ,
+                        :rc ;
+            :address "Montréal - Canada"^^xsd:string ;
+            :booktitle "Extreme Markup Languages 2007, Montréal - Canada, August 2007."^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/7120"^^xsd:string ;
+            :month "08"^^xsd:string ;
+            :title "Relational database preservation through XML modelling"^^xsd:string ;
+            :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RFFCBC08
+:RFFCBC08 rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :fb ,
+                      :jcr ,
+                      :lc ,
+                      :lf ,
+                      :mf ,
+                      :rc ;
+          :address "London, England"^^xsd:string ;
+          :booktitle "iPRES 2008: The Fifth International Conference on Preservation of Digital Objects"^^xsd:string ;
+          :doi "http://hdl.handle.net/1822/8226"^^xsd:string ;
+          :month "09"^^xsd:string ;
+          :title "RODA and Crib: A Service-Oriented Digital Repository"^^xsd:string ;
+          :year "2008"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RFFLS06
+:RFFLS06 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Inproceedings ;
+         :wasWritten :as ,
+                     :jcr ,
+                     :lmf ,
+                     :mf ,
+                     :mjpl ;
+         :address "Seixal, Portugal"^^xsd:string ;
+         :booktitle "2ª Conferência Internacional de Arquivos Empresariais"^^xsd:string ;
+         :doi "http://hdl.handle.net/1822/6038"^^xsd:string ;
+         :month "11.27"^^xsd:string ;
+         :title "Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos"^^xsd:string ;
+         :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RH2002
+:RH2002 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Book ;
+        :wasWritten :jcr ,
+                    :prh ;
+        :address "FCA - Editora de Informática"^^xsd:string ;
+        :month "11"^^xsd:string ;
+        :publisher "Colecção Tecnologias da Informação"^^xsd:string ;
+        :title "XML e XSL: da teoria à prática"^^xsd:string ;
+        :year "2002"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RH94
+:RH94 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Inproceedings ;
+      :wasWritten :jcr ,
+                  :prh ;
+      :address "Universidade do Minho"^^xsd:string ;
+      :booktitle "I Conferência Nacional WWW,    Informação Multimédia na Internet"^^xsd:string ;
+      :month "07"^^xsd:string ;
+      :title "Uma experiência de utilização da Internet na gestão pedagógica e sua formalização"^^xsd:string ;
+      :year "1995"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RH98
+:RH98 rdf:type owl:NamedIndividual ,
+               :Article ,
+               :Bibliography ;
+      :wasWritten :jcr ,
+                  :prh ;
+      :journal "Sistemas de Informação"^^xsd:string ;
+      :title "Qualidade na Publicação Electrónica: como controlá-la?"^^xsd:string ;
+      :volume "journal, num. 9, pg 69-83, Associação Portuguesa de Sistemas de Informação"^^xsd:string ;
+      :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RH98b
+:RH98b rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :prh ;
+       :address "Guimarães - Portugal"^^xsd:string ;
+       :booktitle """Quatic 98: III Encontro Nacional para a Qualidade nas Tecnologias da Informação e
+			Comunicação"""^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/621"^^xsd:string ;
+       :title "Qualidade na Publicação Electrónica: como controlá-la?"^^xsd:string ;
+       :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RH98c
+:RH98c rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :prh ;
+       :address "Porto - Portugal"^^xsd:string ;
+       :booktitle "Workshop internacional Informação e documentos de arquivo em ambientes digitais"^^xsd:string ;
+       :title "Informatics and Archives: a present needed symbiosis"^^xsd:string ;
+       :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RH98d
+:RH98d rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :prh ;
+       :address "Loures - Portugal"^^xsd:string ;
+       :booktitle "IX encontro nacional de Museus e Autarquias"^^xsd:string ;
+       :title "Os desafios colocados pela informação estruturada no contexto dos arquivos: o arquivo distrital de Braga"^^xsd:string ;
+       :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RH99
+:RH99 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Inproceedings ;
+      :wasWritten :jcr ,
+                  :jj ;
+      :address "Granada - Espanha"^^xsd:string ;
+      :booktitle "XML Europe'99"^^xsd:string ;
+      :doi "http://hdl.handle.net/1822/632"^^xsd:string ;
+      :title "XML::DT - a Perl Down Translation Module"^^xsd:string ;
+      :year "1999"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RHHRAF98
+:RHHRAF98 rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :jcr ,
+                      :jgr ,
+                      :jj ,
+                      :jlf ,
+                      :mrh ,
+                      :prh ;
+          :address "Toronto, Canada"^^xsd:string ;
+          :booktitle "Museums and the Web: An International Conference"^^xsd:string ;
+          :doi "http://hdl.handle.net/1822/624"^^xsd:string ;
+          :month "04.22"^^xsd:string ;
+          :title "Adapting Museum Structures for the Web: No Changes Needed!"^^xsd:string ;
+          :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RHL04-eLes
+:RHL04-eLes rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasWritten :grl ,
+                        :jcr ,
+                        :prh ;
+            :address "Universidade de Aveiro, Portugal"^^xsd:string ;
+            :booktitle "Conferência eLes'04 - E-Learning no Ensino Superior"^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/733"^^xsd:string ;
+            :isbn "972-789-134-9"^^xsd:string ;
+            :month "Outubro"^^xsd:string ;
+            :title "ADRIAN: Sistema de Suporte à Produção de Conteúdos"^^xsd:string ;
+            :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RHLA03
+:RHLA03 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Proceedings ;
+        :wasEdit :grl ,
+                 :gva ,
+                 :jcr ,
+                 :prh ;
+        :address "Vila Verde - Portugal"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/607"^^xsd:string ;
+        :month "02.13-14"^^xsd:string ;
+        :title "XATA2003 - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+        :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RHb98
+:RHb98 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :prh ;
+       :address "Paris - France"^^xsd:string ;
+       :booktitle "SGML Europe 98 Conference"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/636"^^xsd:string ;
+       :month "05"^^xsd:string ;
+       :title "Beyond DTDs: Constraining Data Content"^^xsd:string ;
+       :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RL05
+:RL05 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Book ;
+      :wasWritten :cajo ,
+                  :jcr ;
+      :address "FCA - Editora de Informática"^^xsd:string ;
+      :isbn "972-722-421-0"^^xsd:string ;
+      :month "03"^^xsd:string ;
+      :publisher "Colecção Web Pro"^^xsd:string ;
+      :title "Web Services: Aplicações Distribuídas sobre Protocolos Internet"^^xsd:string ;
+      :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLA08
+:RLA08 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Proceedings ;
+       :wasEdit :jcl ,
+                :jcr ,
+                :sa ;
+       :address "Departamento de Informática da Universidade de Évora, Évora - Portugal"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/7708"^^xsd:string ;
+       :isbn "978-972-99166-5-6"^^xsd:string ;
+       :month "02.14"^^xsd:string ;
+       :title "XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+       :year "2008"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLC07
+:RLC07 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Proceedings ;
+       :wasEdit :jcl ,
+                :jcr ,
+                :lc ;
+       :address "Faculdade de Ciências - Universidade de Lisboa, Lisboa - Portugal"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/6234"^^xsd:string ;
+       :isbn "978-972-99166-4-9"^^xsd:string ;
+       :month "02.14-15"^^xsd:string ;
+       :title "XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+       :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH03
+:RLH03 rdf:type owl:NamedIndividual ,
+                :Article ,
+                :Bibliography ;
+       :have :pdfRLH03 ;
+       :wasWritten :grl ,
+                   :jcr ,
+                   :prh ;
+       :journal "III International Conference on Web Engineering (ICWE)"^^xsd:string ;
+       :month "07.15"^^xsd:string ;
+       :title "Ontology driven websites with Topic Maps"^^xsd:string ;
+       :volume "Oviedo - Espanha"^^xsd:string ;
+       :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH03b
+:RLH03b rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :prh ;
+        :address "Badajoz - Espanha"^^xsd:string ;
+        :booktitle "Second International Conference on Multimedia and ICTs in Education"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/558"^^xsd:string ;
+        :month "12.04"^^xsd:string ;
+        :title "Adrian: a platform for E-Learning Content Prodution"^^xsd:string ;
+        :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH04
+:RLH04 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :grl ,
+                   :jcr ,
+                   :prh ;
+       :address "Department of Information and Documentation Science at the University of Brasilia, in Brazil"^^xsd:string ;
+       :booktitle "Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/608"^^xsd:string ;
+       :isbn "85-88130-02-05"^^xsd:string ;
+       :month "06.23-26"^^xsd:string ;
+       :title "Adrian - E-Learning Content Production (creating online exams)"^^xsd:string ;
+       :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH05
+:RLH05 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :grl ,
+                   :jcr ,
+                   :prh ;
+       :address "Montréal - Canada"^^xsd:string ;
+       :booktitle "Extreme Markup Languages 2005, Montréal - Canada, 1-5 August 2005."^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/3117"^^xsd:string ;
+       :month "08.04"^^xsd:string ;
+       :title "Constraining Topic Maps: A TMCL declarative implementation"^^xsd:string ;
+       :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH05-revAPSI17
+:RLH05-revAPSI17 rdf:type owl:NamedIndividual ,
+                          :Article ,
+                          :Bibliography ;
+                 :wasWritten :grl ,
+                             :jcr ,
+                             :prh ;
+                 :doi "http://hdl.handle.net/1822/4365"^^xsd:string ;
+                 :issn "0872-7031"^^xsd:string ;
+                 :journal "Revista da Associação Portuguesa de Sistemas de Informação"^^xsd:string ;
+                 :publisher "APSI"^^xsd:string ;
+                 :title """Geração automática de interfaces Web para Sistemas de Informação:
+Metamorphosis"""^^xsd:string ;
+                 :volume "17"^^xsd:string ;
+                 :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH05b
+:RLH05b rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :have :pdfRLH05b ;
+        :wasWritten :grl ,
+                    :jcr ,
+                    :prh ;
+        :address "Leipzig - Germany"^^xsd:string ;
+        :booktitle "TMRA'05 - International Workshop on  Topic Map Research and Applications"^^xsd:string ;
+        :month "10.06"^^xsd:string ;
+        :title "Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources"^^xsd:string ;
+        :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH06
+:RLH06 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inbook ;
+       :wasEdit :lutz ,
+                :park ;
+       :wasWritten :grl ,
+                   :jcr ,
+                   :prh ;
+       :chapter "Metamorphosis - A Topic Maps Based Environment to Handle Heterogeneous Information Resources"^^xsd:string ;
+       :doi "10.1007/11676904_2"^^xsd:string ;
+       :isbn "3-540-32527-1"^^xsd:string ;
+       :month "02"^^xsd:string ;
+       :pages "14-25"^^xsd:string ;
+       :publisher "Springer-Verlag GmbH"^^xsd:string ;
+       :title "Lecture Notes in Computer Science"^^xsd:string ;
+       :volume "3873 / 2006"^^xsd:string ;
+       :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH07-EML
+:RLH07-EML rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :wasWritten :grl ,
+                       :jcr ,
+                       :prh ,
+                       :rpa ;
+           :address "Montréal - Canada"^^xsd:string ;
+           :booktitle "Extreme Markup Languages 2007, Montréal - Canada, August 2007."^^xsd:string ;
+           :doi "http://hdl.handle.net/1822/7330"^^xsd:string ;
+           :month "08"^^xsd:string ;
+           :title "Topic Maps applied to PubMed"^^xsd:string ;
+           :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH2003
+:RLH2003 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Inproceedings ;
+         :wasWritten :grl ,
+                     :jcr ,
+                     :prh ;
+         :address "Universidade do Minho - Guimarães - Portugal"^^xsd:string ;
+         :booktitle "Electronic Publishing 2003: From information to knowledge"^^xsd:string ;
+         :doi "http://hdl.handle.net/1822/553"^^xsd:string ;
+         :month "06.25"^^xsd:string ;
+         :title "Ontology driven Websites - Metamorphosis: a framework to specify and manage ontology driven websites"^^xsd:string ;
+         :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLH98
+:RLH98 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :arl ,
+                   :jcr ,
+                   :prh ;
+       :address "Chicago - USA"^^xsd:string ;
+       :booktitle "Markup Technologies'98"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/637"^^xsd:string ;
+       :month "12"^^xsd:string ;
+       :title "Generating SGML specific editors: from DTDs to Attribute Grammars"^^xsd:string ;
+       :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RLS06
+:RLS06 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Proceedings ;
+       :wasEdit :albie ,
+                :jcl ,
+                :jcr ;
+       :address "Instituto Politécnico de Portalegre, Portalegre - Portugal"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/4744"^^xsd:string ;
+       :isbn "972-99166-2-4"^^xsd:string ;
+       :month "02.09-10"^^xsd:string ;
+       :title "XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+       :year "2006"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RQR10
+:RQR10 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ,
+                   :mam ,
+                   :mjc ;
+       :address "Guimarães, Portugal"^^xsd:string ;
+       :booktitle "10º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/11081"^^xsd:string ;
+       :isbn "978-972-9067-39-6"^^xsd:string ;
+       :month "04.08"^^xsd:string ;
+       :title "Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa"^^xsd:string ;
+       :year "2010"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RRAH97
+:RRAH97 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :jcr ,
+                    :jgr ,
+                    :jj ,
+                    :prh ;
+        :address "Washinton - USA"^^xsd:string ;
+        :booktitle "SGML/XML'97"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/617"^^xsd:string ;
+        :month "12.08"^^xsd:string ;
+        :title "SGML Documents: Where Does Quality Go?"^^xsd:string ;
+        :year "1997"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RS04
+:RS04 rdf:type owl:NamedIndividual ,
+               :Bibliography ,
+               :Proceedings ;
+      :wasEdit :albie ,
+               :jcr ;
+      :address "Faculdade de Engenharia do Porto - Portugal"^^xsd:string ;
+      :doi "http://hdl.handle.net/1822/602"^^xsd:string ;
+      :isbn "972-99166-0-8"^^xsd:string ;
+      :month "02.12-13"^^xsd:string ;
+      :title "XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+      :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RS2003
+:RS2003 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :jcr ,
+                    :jls ;
+        :address "Universidade do Minho - Guimarães - Portugal"^^xsd:string ;
+        :booktitle "Electronic Publishing 2003: From information to knowledge"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/552"^^xsd:string ;
+        :month "06.25"^^xsd:string ;
+        :title "Electronic Publishing of ADB editions"^^xsd:string ;
+        :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RSL05
+:RSL05 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Proceedings ;
+       :wasEdit :albie ,
+                :jcl ,
+                :jcr ;
+       :address "Casa da Torre, Vila Verde - Portugal"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/865"^^xsd:string ;
+       :isbn "972-99166-1-6"^^xsd:string ;
+       :month "02.10-11"^^xsd:string ;
+       :title "XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+       :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#RTFR04
+:RTFR04 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :jcr ,
+                    :pt ,
+                    :rf ,
+                    :vr ;
+        :address "Faculdade de Engenharia da Universidade do Porto - Porto"^^xsd:string ;
+        :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2004)"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/561"^^xsd:string ;
+        :isbn "972-99166-0-8"^^xsd:string ;
+        :month "02.12"^^xsd:string ;
+        :title "Gerador de Web Services para cadeias de transformações de documentos XML"^^xsd:string ;
+        :year "2004"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram01
+:Ram01 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ;
+       :address "Berlin - Germany"^^xsd:string ;
+       :booktitle "XML Europe'01"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/623"^^xsd:string ;
+       :month "05"^^xsd:string ;
+       :title "Constraining Content: specification and processing"^^xsd:string ;
+       :year "2001"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram03
+:Ram03 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ;
+       :address "Braga - Portugal"^^xsd:string ;
+       :booktitle "XATA 2003 - XML, Aplicações e Tecnologias Associadas"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/554"^^xsd:string ;
+       :month "02.13"^^xsd:string ;
+       :title "O XML nos curriculae das licenciaturas em informática"^^xsd:string ;
+       :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram05
+:Ram05 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ;
+       :address "Braga"^^xsd:string ;
+       :booktitle "XML: Aplicações e Tecnologias Associadas (XATA 2005)"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/884"^^xsd:string ;
+       :isbn "972-99166-1-6"^^xsd:string ;
+       :month "02.10"^^xsd:string ;
+       :title "Document Composer: uma aplicação XML para extracção de informação de repositórios XML"^^xsd:string ;
+       :year "2005"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram2000
+:Ram2000 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Phdthesis ;
+         :wasWritten :jcr ;
+         :address "Universidade do Minho"^^xsd:string ;
+         :doi "http://hdl.handle.net/1822/5625"^^xsd:string ;
+         :month "07"^^xsd:string ;
+         :school "Tese de Doutoramento"^^xsd:string ;
+         :title "Anotação Estrutural de Documentos e sua Semântica"^^xsd:string ;
+         :year "2000"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram93
+:Ram93 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Masterthesis ;
+       :wasWritten :jcr ;
+       :month "10"^^xsd:string ;
+       :school "Escola de Engenharia - Universidade do Minho"^^xsd:string ;
+       :title "Um Compilador para o GLiTCH"^^xsd:string ;
+       :year "1993"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram96
+:Ram96 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ;
+       :address "Universidade do Minho"^^xsd:string ;
+       :booktitle "Workshop: Document    Processing and SGML"^^xsd:string ;
+       :month "09"^^xsd:string ;
+       :title "DSSSL: basic topics"^^xsd:string ;
+       :year "1996"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram98
+:Ram98 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Misc ;
+       :wasWritten :jcr ;
+       :howpublished """tutorial at Terceiro Encontro Nacional para a Qualidade nas tecnologias de
+			informação e comunicação, Guimarães - Portugal"""^^xsd:string ;
+       :title "Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?"^^xsd:string ;
+       :year "1998"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram99
+:Ram99 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :jcr ;
+       :address "London - England"^^xsd:string ;
+       :booktitle "Digital Resources for the Humanities - DRH99"^^xsd:string ;
+       :title "Recovering Old Paper Historical Documents Through SGML/XML Modelling"^^xsd:string ;
+       :year "1999"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#Ram99b
+:Ram99b rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inbook ;
+        :wasWritten :jcr ;
+        :chapter "Extensible Markup Language (XML)- A promessa e a esperança?..."^^xsd:string ;
+        :month "11.23-26"^^xsd:string ;
+        :pages "49-76"^^xsd:string ;
+        :publisher "Sociedade Brasileira de Computação (SBC)"^^xsd:string ;
+        :title "EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação"^^xsd:string ;
+        :year "1999"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#SFRL07
+:SFRL07 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :as ,
+                    :jcr ,
+                    :lmf ,
+                    :mjpl ;
+        :address "Ponta Delgada, Açores, Portugal"^^xsd:string ;
+        :booktitle "9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/6432"^^xsd:string ;
+        :month "03.29"^^xsd:string ;
+        :title "Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo"^^xsd:string ;
+        :year "2007"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#SMR03
+:SMR03 rdf:type owl:NamedIndividual ,
+                :Bibliography ,
+                :Inproceedings ;
+       :wasWritten :des ,
+                   :jcr ,
+                   :mcm ;
+       :address "Vila Verde - Portugal"^^xsd:string ;
+       :booktitle "XATA2003 - XML: Aplicações e Tecnologias Associadas"^^xsd:string ;
+       :doi "http://hdl.handle.net/1822/557"^^xsd:string ;
+       :month "02.13-14"^^xsd:string ;
+       :title "Xexam: uma linguagem de suporte para exames online (e-learning)"^^xsd:string ;
+       :year "2003"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#SRFP95
+:SRFP95 rdf:type owl:NamedIndividual ,
+                 :Article ,
+                 :Bibliography ;
+        :wasWritten :ajp ,
+                    :hs ,
+                    :jcr ,
+                    :jmf ;
+        :journal "Computing Systems in Engineering"^^xsd:string ;
+        :title "A Heterogeneous Computer Vision Architecture: Implementation Issues"^^xsd:string ;
+        :volume "volume 6, número 4/5, páginas 401-408"^^xsd:string ;
+        :year "1995"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#VECPAR93
+:VECPAR93 rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :ajp ,
+                      :hs ,
+                      :jcr ,
+                      :jmf ;
+          :booktitle "1st International Meeting on Vector and Paralell Processing"^^xsd:string ;
+          :title "A Heterogeneous Computer Vision Architecture: Implementation Issues"^^xsd:string ;
+          :year "1993"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#aa
+:aa rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :ipres2013 ;
+    :nome "Alan Akbik"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#aab
+:aab rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :BKRFBR08 ,
+            :FBR05-CAPSI ,
+            :FBR06-Ariadne ,
+            :FBR06-XATA ,
+            :FBR07 ,
+            :FBR07-IJDL ;
+     :nome "Ana Alice Baptista"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#ajp
+:ajp rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :SRFP95 ,
+            :VECPAR93 ;
+     :nome "A. J. Proença"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#albie
+:albie rdf:type owl:NamedIndividual ,
+                :Author ,
+                :Editor ,
+                :Person ;
+       :edit :IGI2013 ,
+             :RLS06 ,
+             :RS04 ,
+             :RSL05 ;
+       :nome "Alberto Simões"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#alexandra
+:alexandra rdf:type owl:NamedIndividual ,
+                    :Author ,
+                    :Person ;
+           :write :bad2015a ,
+                  :edicic2015 ;
+           :nome "Alexandra Lourenço"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#ap
+:ap rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :cisti2017 ;
+    :nome "André Pereira"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#ar
+:ar rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :BKRFBR08 ;
+    :nome "Andreas Rauber"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#archiving2013
+:archiving2013 rdf:type owl:NamedIndividual ,
+                        :Bibliography ,
+                        :Inproceedings ;
+               :wasWritten :jcr ,
+                           :lf ,
+                           :mf ;
+               :address "Washington DC, Estados Unidos"^^xsd:string ;
+               :booktitle "IS&T Archiving 2013"^^xsd:string ;
+               :doi "http://hdl.handle.net/1822/23978"^^xsd:string ;
+               :month "04.02-05"^^xsd:string ;
+               :title "Guidelines for legacy repository migration"^^xsd:string ;
+               :year "2013"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#arl
+:arl rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :LRH97 ,
+            :RLH98 ;
+     :nome "A. R. Lopes"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#as
+:as rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :RFFLS06 ,
+           :SFRL07 ;
+    :nome "António Sousa"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#asantos
+:asantos rdf:type owl:NamedIndividual ,
+                  :Author ,
+                  :Person ;
+         :write :bad2015b ;
+         :nome "André Santos"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#bad2012
+:bad2012 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Inproceedings ;
+         :wasWritten :jcr ,
+                     :lf ,
+                     :mf ;
+         :address "Fundação Calouste Gulbenkian, Lisboa"^^xsd:string ;
+         :booktitle "11º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas"^^xsd:string ;
+         :doi "http://hdl.handle.net/1822/21611"^^xsd:string ;
+         :month "10.20"^^xsd:string ;
+         :title "Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE"^^xsd:string ;
+         :year "2012"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#bad2015a
+:bad2015a rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :alexandra ,
+                      :jcr ,
+                      :penteado ;
+          :address "Universidade de Évora, Portugal"^^xsd:string ;
+          :booktitle "12º Congresso Nacional BAD"^^xsd:string ;
+          :doi "http://hdl.handle.net/1822/38497"^^xsd:string ;
+          :month "10.21"^^xsd:string ;
+          :title "Uma ontologia para os processos de negócio da Administração"^^xsd:string ;
+          :year "2015"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#bad2015b
+:bad2015b rdf:type owl:NamedIndividual ,
+                   :Bibliography ,
+                   :Inproceedings ;
+          :wasWritten :asantos ,
+                      :eloy ,
+                      :hsilva ,
+                      :jcarvalho ,
+                      :jcr ,
+                      :jmoreira ,
+                      :lf ,
+                      :mf ;
+          :address "Universidade de Évora, Portugal"^^xsd:string ;
+          :booktitle "12º Congresso Nacional BAD"^^xsd:string ;
+          :doi "http://hdl.handle.net/1822/37856"^^xsd:string ;
+          :month "10.21"^^xsd:string ;
+          :title "PT-CRIS: Um miradouro sobre o universo científico nacional"^^xsd:string ;
+          :year "2015"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#bf
+:bf rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :iPRES2016 ;
+    :nome "Bruno Ferreira"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#bs
+:bs rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :ipres2013 ;
+    :nome "Barbara Sierman"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#cajo
+:cajo rdf:type owl:NamedIndividual ,
+               :Author ,
+               :Person ;
+      :write :LR04 ,
+             :RL05 ;
+      :nome "Carlos J. Feijó Lopes"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#cb
+:cb rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :BKRFBR08 ,
+           :icadl2012 ,
+           :ipres2012 ,
+           :or2013 ;
+    :nome "Christoph Becker"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#cisti2017
+:cisti2017 rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :wasWritten :ap ,
+                       :jcr ,
+                       :lf ,
+                       :mf ;
+           :address "ISCTE, Lisboa, Portugal"^^xsd:string ;
+           :booktitle "12th Iberian Conference on Information Systems and Technologies (CISTI),"^^xsd:string ;
+           :doi "http://hdl.handle.net/1822/46093"^^xsd:string ;
+           :month "06.24"^^xsd:string ;
+           :title "RODA-in: A generic tool for the mass creation of Submission Information Packages"^^xsd:string ;
+           :year "2017"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#clei04
+:clei04 rdf:type owl:NamedIndividual ,
+                 :Author ,
+                 :Editor ,
+                 :Person ;
+        :edit :LRH04-Clei ;
+        :nome "Mauricio Solar and David Fernández-Baca and Ernesto Cuadros-Vargas"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#des
+:des rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :SMR03 ;
+     :nome "Daniel Edgar Pinto Soares"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#dlm2014
+:dlm2014 rdf:type owl:NamedIndividual ,
+                  :Bibliography ,
+                  :Inproceedings ;
+         :wasWritten :hsilva ,
+                     :jcr ,
+                     :lf ;
+         :address "Lisbon, Portugal"^^xsd:string ;
+         :booktitle "DLM Forum – 7th Triennial Conference: Making the Information Governance Landscape in Europe"^^xsd:string ;
+         :doi "http://hdl.handle.net/1822/35183"^^xsd:string ;
+         :month "11.12"^^xsd:string ;
+         :title "Database Preservation Toolkit: a flexible tool to normalize and give access to databases"^^xsd:string ;
+         :year "2014"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#edicic2015
+:edicic2015 rdf:type owl:NamedIndividual ,
+                     :Bibliography ,
+                     :Inproceedings ;
+            :wasWritten :alexandra ,
+                        :jcr ,
+                        :penteado ;
+            :address "Madrid, Espanha"^^xsd:string ;
+            :booktitle "VII Encuentro Ibérico EDICIC 2015"^^xsd:string ;
+            :doi "http://hdl.handle.net/1822/38496"^^xsd:string ;
+            :month "11.16"^^xsd:string ;
+            :title "Da gestão da informação à gestão do conhecimento: uma proposta para a e-Administração em Portugal"^^xsd:string ;
+            :year "2015"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#eloy
+:eloy rdf:type owl:NamedIndividual ,
+               :Author ,
+               :Person ;
+      :write :bad2015b ;
+      :nome "Eloy Rodrigues"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#fb
+:fb rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :FCRBCF07 ,
+           :RFCFBC06 ,
+           :RFCFBC07 ,
+           :RFFCBC08 ;
+    :nome "Francisco Barbedo"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#grl
+:grl rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Editor ,
+              :Person ;
+     :edit :RHLA03 ;
+     :write :GARH09 ,
+            :JLRH02 ,
+            :JLRH02b ,
+            :JLRH03 ,
+            :JLRHb02 ,
+            :JLRHc02 ,
+            :LARH07-EPIA ,
+            :LATRH07-CLEI ,
+            :LGRH07-CLEI ,
+            :LMMFRH07-TMRA ,
+            :LMMVRH08-XATA ,
+            :LPRH07-TM ,
+            :LPRH07-XATA ,
+            :LRH03 ,
+            :LRH03b ,
+            :LRH03c ,
+            :LRH04 ,
+            :LRH04-Clei ,
+            :LRH04-WWS ,
+            :LRH04-XMLw ,
+            :LRH05 ,
+            :LRH05-CLEI ,
+            :LRH05b ,
+            :LRH06-SBSI06 ,
+            :LRH06-XATA ,
+            :LRH07-SEMINFO ,
+            :LRHGT08 ,
+            :LSRH04 ,
+            :RHL04-eLes ,
+            :RLH03 ,
+            :RLH03b ,
+            :RLH04 ,
+            :RLH05 ,
+            :RLH05-revAPSI17 ,
+            :RLH05b ,
+            :RLH06 ,
+            :RLH07-EML ,
+            :RLH2003 ;
+     :nome "Giovani Rubert Librelotto"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#guimaramus2012
+:guimaramus2012 rdf:type owl:NamedIndividual ,
+                         :Bibliography ,
+                         :Inproceedings ;
+                :wasWritten :jcr ;
+                :address "Palácio Vila Flor, Guimarães"^^xsd:string ;
+                :booktitle "Pensar a Música"^^xsd:string ;
+                :doi "http://hdl.handle.net/1822/21660"^^xsd:string ;
+                :month "03.23"^^xsd:string ;
+                :title "MuseCode: à procura da linearidade na música tonal"^^xsd:string ;
+                :year "2012"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#gva
+:gva rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Editor ,
+              :Person ;
+     :edit :RHLA03 ;
+     :nome "Gustavo V. Arnold"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#hm
+:hm rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :LMMVRH08-XATA ;
+    :nome "Henrique Machado"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#hs
+:hs rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :SRFP95 ,
+           :VECPAR93 ;
+    :nome "H. Santos"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#hsilva
+:hsilva rdf:type owl:NamedIndividual ,
+                 :Author ,
+                 :Person ;
+        :write :bad2015b ,
+               :dlm2014 ;
+        :nome "Hélder Silva"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#htm
+:htm rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :LMMFRH07-TMRA ;
+     :nome "H. T. Machado"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#iPRES2016
+:iPRES2016 rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :wasWritten :bf ,
+                       :jcr ,
+                       :lf ,
+                       :mf ;
+           :address "Bern, Switzerland"^^xsd:string ;
+           :booktitle "iPRES: 13th International Conference on Digital Preservation"^^xsd:string ;
+           :doi "http://hdl.handle.net/1822/43479"^^xsd:string ;
+           :month "10.04"^^xsd:string ;
+           :title "Database Preservation Toolkit: A relational database conversion and normalization tool"^^xsd:string ;
+           :year "2016"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#icadl2012
+:icadl2012 rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :wasWritten :cb ,
+                       :jcr ,
+                       :kd ,
+                       :lf ,
+                       :mf ,
+                       :pp ;
+           :address "Taipei, Taiwan"^^xsd:string ;
+           :booktitle "14th International Conference on Asia-Pacific Digital Libraries, ICADL 2012"^^xsd:string ;
+           :doi "http://hdl.handle.net/1822/21447"^^xsd:string ;
+           :month "11.12"^^xsd:string ;
+           :title "Design and architecture of a novel preservation watch system"^^xsd:string ;
+           :year "2012"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#ipres2012
+:ipres2012 rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :wasWritten :cb ,
+                       :jcr ,
+                       :kd ,
+                       :lf ,
+                       :mf ,
+                       :pp ;
+           :address "Toronto, Canada"^^xsd:string ;
+           :booktitle "iPRES 2012 - 9th International Conference on Preservation of Digital Objects"^^xsd:string ;
+           :doi "http://hdl.handle.net/1822/20666"^^xsd:string ;
+           :month "11.01"^^xsd:string ;
+           :title "Preservation watch : what to monitor and how"^^xsd:string ;
+           :year "2012"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#ipres2013
+:ipres2013 rdf:type owl:NamedIndividual ,
+                    :Bibliography ,
+                    :Inproceedings ;
+           :wasWritten :aa ,
+                       :bs ,
+                       :jcr ,
+                       :lf ,
+                       :mf ,
+                       :mr ;
+           :address "Lisbon, Portugal"^^xsd:string ;
+           :booktitle "iPRES 2013 - 10th International Conference on Preservation of Digital Objects"^^xsd:string ;
+           :doi "http://hdl.handle.net/1822/25214"^^xsd:string ;
+           :month "09.20"^^xsd:string ;
+           :title "Automatic preservation watch using information extraction on the Web : a case study on semantic extraction of natural language for digital preservation"^^xsd:string ;
+           :year "2013"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jcarvalho
+:jcarvalho rdf:type owl:NamedIndividual ,
+                    :Author ,
+                    :Person ;
+           :write :bad2015b ;
+           :nome "José Carvalho"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jcl
+:jcl rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Editor ,
+              :Person ;
+     :edit :RLA08 ,
+           :RLC07 ,
+           :RLS06 ,
+           :RSL05 ;
+     :nome "João Correia Lopes"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jcr
+:jcr rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Editor ,
+              :Person ;
+     :edit :IGI2013 ,
+           :RHLA03 ,
+           :RLA08 ,
+           :RLC07 ,
+           :RLS06 ,
+           :RS04 ,
+           :RSL05 ;
+     :write :BKRFBR08 ,
+            :FBR05-CAPSI ,
+            :FBR06-Ariadne ,
+            :FBR06-XATA ,
+            :FBR07 ,
+            :FBR07-IJDL ,
+            :FCRBCF07 ,
+            :FFR10 ,
+            :FR04 ,
+            :FR04-capsi ,
+            :FR04b ,
+            :FR09 ,
+            :FR10 ,
+            :FR11 ,
+            :FR11b ,
+            :FR11c ,
+            :FR11d ,
+            :FR11e ,
+            :FRF-XATA ,
+            :GARH09 ,
+            :IGI2013 ,
+            :JHR00 ,
+            :JLRH02 ,
+            :JLRH02b ,
+            :JLRH03 ,
+            :JLRHb02 ,
+            :JLRHc02 ,
+            :JRH03 ,
+            :LARH07-EPIA ,
+            :LATRH07-CLEI ,
+            :LGRH07-CLEI ,
+            :LMMFRH07-TMRA ,
+            :LMMVRH08-XATA ,
+            :LPRH07-TM ,
+            :LPRH07-XATA ,
+            :LR04 ,
+            :LRH03 ,
+            :LRH03b ,
+            :LRH03c ,
+            :LRH04 ,
+            :LRH04-Clei ,
+            :LRH04-WWS ,
+            :LRH04-XMLw ,
+            :LRH05 ,
+            :LRH05-CLEI ,
+            :LRH05b ,
+            :LRH06-SBSI06 ,
+            :LRH06-XATA ,
+            :LRH07-SEMINFO ,
+            :LRH97 ,
+            :LRHGT08 ,
+            :LSRH04 ,
+            :MRH04 ,
+            :RAH1998 ,
+            :RAH95 ,
+            :RAH96 ,
+            :RARH98 ,
+            :RD06-XATA ,
+            :RFCFBC06 ,
+            :RFCFBC07 ,
+            :RFFC07-EML ,
+            :RFFCBC08 ,
+            :RFFLS06 ,
+            :RH2002 ,
+            :RH94 ,
+            :RH98 ,
+            :RH98b ,
+            :RH98c ,
+            :RH98d ,
+            :RH99 ,
+            :RHHRAF98 ,
+            :RHL04-eLes ,
+            :RHb98 ,
+            :RL05 ,
+            :RLH03 ,
+            :RLH03b ,
+            :RLH04 ,
+            :RLH05 ,
+            :RLH05-revAPSI17 ,
+            :RLH05b ,
+            :RLH06 ,
+            :RLH07-EML ,
+            :RLH2003 ,
+            :RLH98 ,
+            :RQR10 ,
+            :RRAH97 ,
+            :RS2003 ,
+            :RTFR04 ,
+            :Ram01 ,
+            :Ram03 ,
+            :Ram05 ,
+            :Ram2000 ,
+            :Ram93 ,
+            :Ram96 ,
+            :Ram98 ,
+            :Ram99 ,
+            :Ram99b ,
+            :SFRL07 ,
+            :SMR03 ,
+            :SRFP95 ,
+            :VECPAR93 ,
+            :archiving2013 ,
+            :bad2012 ,
+            :bad2015a ,
+            :bad2015b ,
+            :cisti2017 ,
+            :dlm2014 ,
+            :edicic2015 ,
+            :guimaramus2012 ,
+            :iPRES2016 ,
+            :icadl2012 ,
+            :ipres2012 ,
+            :ipres2013 ,
+            :or2013 ;
+     :nome "José Carlos Ramalho"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jg
+:jg rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :LGRH07-CLEI ,
+           :LRHGT08 ;
+    :nome "Jonas Gassen"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jgr
+:jgr rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :RARH98 ,
+            :RHHRAF98 ,
+            :RRAH97 ;
+     :nome "J. G. Rocha"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jj
+:jj rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :RAH1998 ,
+           :RAH95 ,
+           :RAH96 ,
+           :RARH98 ,
+           :RH99 ,
+           :RHHRAF98 ,
+           :RRAH97 ;
+    :nome "José João Almeida"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jlf
+:jlf rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :RHHRAF98 ;
+     :nome "J. L. Faria"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jls
+:jls rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :RS2003 ;
+     :nome "José Luis Santos"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jmf
+:jmf rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :SRFP95 ,
+            :VECPAR93 ;
+     :nome "J. M. Fernandes"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jmoreira
+:jmoreira rdf:type owl:NamedIndividual ,
+                   :Author ,
+                   :Person ;
+          :write :bad2015b ;
+          :nome "João Moreira"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#jv
+:jv rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :LMMVRH08-XATA ;
+    :nome "Juliana Vizzotto"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#kd
+:kd rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :icadl2012 ,
+           :ipres2012 ,
+           :or2013 ;
+    :nome "Kresimir Duretec "^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#lc
+:lc rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Editor ,
+             :Person ;
+    :edit :RLC07 ;
+    :write :RFFCBC08 ;
+    :nome "Luis Carriço"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#lcor
+:lcor rdf:type owl:NamedIndividual ,
+               :Author ,
+               :Person ;
+      :write :FCRBCF07 ,
+             :RFCFBC06 ,
+             :RFCFBC07 ;
+      :nome "Luis Corujo"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#lf
+:lf rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :FCRBCF07 ,
+           :RFCFBC06 ,
+           :RFCFBC07 ,
+           :RFFC07-EML ,
+           :RFFCBC08 ,
+           :archiving2013 ,
+           :bad2012 ,
+           :bad2015b ,
+           :cisti2017 ,
+           :dlm2014 ,
+           :iPRES2016 ,
+           :icadl2012 ,
+           :ipres2012 ,
+           :ipres2013 ,
+           :or2013 ;
+    :nome "Luis Faria"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#lmf
+:lmf rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :FFR10 ,
+            :FRF-XATA ,
+            :RFFLS06 ,
+            :SFRL07 ;
+     :nome "Luis Miguel Ferros"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#lutz
+:lutz rdf:type owl:NamedIndividual ,
+               :Author ,
+               :Editor ,
+               :Person ;
+      :edit :RLH06 ;
+      :nome "Lutz Maicher"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mam
+:mam rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :RQR10 ;
+     :nome "Miguel Ángel Marzal Garcia-Quismondo"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mcm
+:mcm rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :SMR03 ;
+     :nome "Maria da Conceição Vieira Mota"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mf
+:mf rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :BKRFBR08 ,
+           :FBR05-CAPSI ,
+           :FBR06-Ariadne ,
+           :FBR06-XATA ,
+           :FBR07 ,
+           :FBR07-IJDL ,
+           :FCRBCF07 ,
+           :FFR10 ,
+           :FR04 ,
+           :FR04-capsi ,
+           :FR04b ,
+           :FRF-XATA ,
+           :RFCFBC06 ,
+           :RFCFBC07 ,
+           :RFFC07-EML ,
+           :RFFCBC08 ,
+           :RFFLS06 ,
+           :archiving2013 ,
+           :bad2012 ,
+           :bad2015b ,
+           :cisti2017 ,
+           :iPRES2016 ,
+           :icadl2012 ,
+           :ipres2012 ,
+           :ipres2013 ,
+           :or2013 ;
+    :nome "Miguel Ferreira"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mhj
+:mhj rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :JHR00 ,
+            :JLRH02 ,
+            :JLRH02b ,
+            :JLRH03 ,
+            :JLRHb02 ,
+            :JLRHc02 ,
+            :JRH03 ;
+     :nome "M. H.  Jacinto"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#migaldo
+:migaldo rdf:type owl:NamedIndividual ,
+                  :Author ,
+                  :Person ;
+         :write :RD06-XATA ;
+         :nome "Luis Miguel Alves Domingues"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mjc
+:mjc rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :RQR10 ;
+     :nome "Maria Jesus Colmenero Ruiz"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mjpl
+:mjpl rdf:type owl:NamedIndividual ,
+               :Author ,
+               :Person ;
+      :write :RFFLS06 ,
+             :SFRL07 ;
+      :nome "Maria João Pires Lima"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mk
+:mk rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :BKRFBR08 ;
+    :nome "Michael Kraxner"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mm
+:mm rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :LMMVRH08-XATA ;
+    :nome "Mirkos Martins"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mom
+:mom rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :LMMFRH07-TMRA ;
+     :nome "M. O. Martins"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mr
+:mr rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :ipres2013 ;
+    :nome "Marcel Ras"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#mrh
+:mrh rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :RHHRAF98 ;
+     :nome "M. R. Henriques"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#or2013
+:or2013 rdf:type owl:NamedIndividual ,
+                 :Bibliography ,
+                 :Inproceedings ;
+        :wasWritten :cb ,
+                    :jcr ,
+                    :kd ,
+                    :lf ,
+                    :mf ;
+        :address "Charlottetown, Canada"^^xsd:string ;
+        :booktitle "Open Repositories 2013"^^xsd:string ;
+        :doi "http://hdl.handle.net/1822/25101"^^xsd:string ;
+        :month "07.08"^^xsd:string ;
+        :title "Supporting the preservation lifecycle in repositories"^^xsd:string ;
+        :year "2013"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#park
+:park rdf:type owl:NamedIndividual ,
+               :Author ,
+               :Editor ,
+               :Person ;
+      :edit :RLH06 ;
+      :nome "Jack Park"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#pdfLRH04-WWS
+:pdfLRH04-WWS rdf:type owl:NamedIndividual ,
+                       :Deliverables ,
+                       :PDF ;
+              :url "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2004/LRH04-WWS.pdf"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#pdfRLH03
+:pdfRLH03 rdf:type owl:NamedIndividual ,
+                   :Deliverables ,
+                   :PDF ;
+          :url "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2003/icwe.pdf"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#pdfRLH05b
+:pdfRLH05b rdf:type owl:NamedIndividual ,
+                    :Deliverables ,
+                    :PDF ;
+           :url "http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2005/RLH05-TMRA.pdf"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#penteado
+:penteado rdf:type owl:NamedIndividual ,
+                   :Author ,
+                   :Person ;
+          :write :bad2015a ,
+                 :edicic2015 ;
+          :nome "Pedro Penteado"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#pgf
+:pgf rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :LMMFRH07-TMRA ;
+     :nome "P. G. D. Ferreira"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#pp
+:pp rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :icadl2012 ,
+           :ipres2012 ;
+    :nome "Petar Petrov"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#prh
+:prh rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Editor ,
+              :Person ;
+     :edit :RHLA03 ;
+     :write :GARH09 ,
+            :JHR00 ,
+            :JLRH02 ,
+            :JLRH02b ,
+            :JLRH03 ,
+            :JLRHb02 ,
+            :JLRHc02 ,
+            :JRH03 ,
+            :LARH07-EPIA ,
+            :LATRH07-CLEI ,
+            :LGRH07-CLEI ,
+            :LMMFRH07-TMRA ,
+            :LMMVRH08-XATA ,
+            :LPRH07-TM ,
+            :LPRH07-XATA ,
+            :LRH03 ,
+            :LRH03b ,
+            :LRH03c ,
+            :LRH04 ,
+            :LRH04-Clei ,
+            :LRH04-WWS ,
+            :LRH04-XMLw ,
+            :LRH05 ,
+            :LRH05-CLEI ,
+            :LRH05b ,
+            :LRH06-SBSI06 ,
+            :LRH06-XATA ,
+            :LRH07-SEMINFO ,
+            :LRH97 ,
+            :LRHGT08 ,
+            :LSRH04 ,
+            :MRH04 ,
+            :RAH1998 ,
+            :RAH95 ,
+            :RAH96 ,
+            :RARH98 ,
+            :RH2002 ,
+            :RH94 ,
+            :RH98 ,
+            :RH98b ,
+            :RH98c ,
+            :RH98d ,
+            :RHHRAF98 ,
+            :RHL04-eLes ,
+            :RHb98 ,
+            :RLH03 ,
+            :RLH03b ,
+            :RLH04 ,
+            :RLH05 ,
+            :RLH05-revAPSI17 ,
+            :RLH05b ,
+            :RLH06 ,
+            :RLH07-EML ,
+            :RLH2003 ,
+            :RLH98 ,
+            :RRAH97 ;
+     :nome "Pedro Rangel Henriques"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#pt
+:pt rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :RTFR04 ;
+    :nome "Pedro Taveira"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#ram
+:ram rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :MRH04 ;
+     :nome "Ricardo Martins"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#rc
+:rc rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :FCRBCF07 ,
+           :RFCFBC06 ,
+           :RFCFBC07 ,
+           :RFFC07-EML ,
+           :RFFCBC08 ;
+    :nome "Rui Castro"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#rct
+:rct rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :LATRH07-CLEI ,
+            :LRHGT08 ;
+     :nome "Rogério Correa Turchetti"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#rf
+:rf rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :FR09 ,
+           :FR10 ,
+           :FR11 ,
+           :FR11b ,
+           :FR11c ,
+           :FR11d ,
+           :FR11e ,
+           :IGI2013 ,
+           :RTFR04 ;
+    :nome "Ricardo Freitas"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#rpa
+:rpa rdf:type owl:NamedIndividual ,
+              :Author ,
+              :Person ;
+     :write :GARH09 ,
+            :LARH07-EPIA ,
+            :LATRH07-CLEI ,
+            :LPRH07-TM ,
+            :LPRH07-XATA ,
+            :RLH07-EML ;
+     :nome "Renato Preigschadt de Azevedo"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#rq
+:rq rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Editor ,
+             :Person ;
+    :edit :IGI2013 ;
+    :nome "Ricardo Queirós"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#sa
+:sa rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Editor ,
+             :Person ;
+    :edit :RLA08 ;
+    :nome "Salvador Abreu"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#vr
+:vr rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :RTFR04 ;
+    :nome "Vasco Rocha"^^xsd:string .
+
+
+###  http://www.di.uminho.pt/prc2021/A83732-TP5#ws
+:ws rdf:type owl:NamedIndividual ,
+             :Author ,
+             :Person ;
+    :write :LSRH04 ;
+    :nome "Weber Souza"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

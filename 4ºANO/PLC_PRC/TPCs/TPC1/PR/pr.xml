@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC1</key>
+        <title>Gerar um dataset em TTL</title>
+        <bdate>22-02-2021</bdate>
+        <edate>29-02-2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Numa primeira fase foi gerado um dataset em JSON de acordo 
+            com os requisitos estabelecidos (para a criação dos alunos foi utilizado um 
+            <link url="https://next.json-generator.com/">Gerador de JSON</link>).
+        </p>
+        <p>
+            Numa segunda fase foi criado um conversor, em <b>Java</b>, de JSON para TTL de acordo com a ontologia
+            definida na aula para esse efeito utilizou-se a ferramenta 
+           <i>JSON.simple</i> que fornece ferramentas simples baseado na linguagem utilizada para JSON, 
+           assim com esta biblioteca foi possível codificar ou decodificar dados do dataset.
+        </p>
+    </abstract>
+    <deliverables>
+            <link url="../dataset.json">Dataset gerado</link>
+            <link url="../uc-con.ttl">Ficheiro TTL gerado</link>
+            <link url="../uc-con-inf.ttl">Ficheiro TTL gerado após inferência com a ferramenta Protégé</link>
+            <link url="../ConverterJSONtoTTL/src/main/java/Main.java">Conversor criado</link>
+            <link url="pr.dtd">pr.dtd</link>
+            <link url="pr.xml">pr.xml</link>
+            <link url="pr.xslt">pr.xslt</link>
+            <link url="pr.html">pr.html</link>
+    </deliverables>
+</pr>

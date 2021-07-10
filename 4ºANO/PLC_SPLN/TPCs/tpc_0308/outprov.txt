@@ -1,0 +1,84 @@
+$for a in {1..100}; do python3 script-proverbios.py; done | sort | uniq -c > outprov.txt      
+      1 A esperança é a última que morre. 
+      1 A fé move montanhas, mas os apressados sempre preferem dinamite. 
+      1 Águas passadas, já passaram. 
+      3 Alegria de pobre é impossível. 
+      1 Amigos, amigos, negócios à parte. 
+      1 Antes só, do que com dois maricas do lado. 
+      1 Antes tarde do que mais tarde. 
+      1 Boca fechada não fala. 
+      1 Cada macaco com sua macaca. 
+      2 Como se costuma dizer... À beira de um precipício só há uma maneira de andar para a frente: é dar um passo atrás. 
+      1 Como se costuma dizer... A fé move montanhas, mas os apressados sempre preferem dinamite. 
+      1 Como se costuma dizer... Água mole em pedra dura, tanto bate que acaba a água. 
+      2 Como se costuma dizer... Águas passadas, já passaram. 
+      1 Como se costuma dizer... Águas passadas não movem moinho. 
+      1 Como se costuma dizer... À noite, todos os gatos são pardos. 
+      1 Como se costuma dizer... As árvores morrem na posição que estiverem. 
+      1 Como se costuma dizer... Casa roubada ficou sem nada. 
+      1 Como se costuma dizer... De boas intenções o inferno está cheio. 
+      1 Como se costuma dizer... De grão em grão a galinha enche o saco. 
+      1 Como se costuma dizer... Depois da tempestade, vem a gripe. 
+      1 Como se costuma dizer... Deus tem mais para dar do que o diabo para tirar. 
+      1 Como se costuma dizer... Devagar nunca chega. 
+      1 Como se costuma dizer... Devagar nunca se chega. 
+      1 Como se costuma dizer... Diz-me com quem andas, que te direi se vou contigo. 
+      1 Como se costuma dizer... Em casa de ferreiro o espeto é de pau. 
+      1 Como se costuma dizer... Em terra de cego quem tem um olho é mirolho. 
+      2 Como se costuma dizer... Em terra de cego quem tem um olho é rei. 
+      2 Como se costuma dizer... Errar é humano. Colocar a culpa em alguém, então, nem se fala. 
+      1 Como se costuma dizer... Errar é humano, persistir no erro é americano, acertar no alvo é muçulmano. 
+      1 Como se costuma dizer... Família que reza unida, é religiosa pra caramba. 
+      1 Como se costuma dizer... Filhos criados, trabalhos dobrados. 
+      1 Como se costuma dizer... Há males que vêm para pior. 
+      1 Como se costuma dizer... Não adianta chorar sobre leite derramado. 
+      1 Como se costuma dizer... Não adianta lamentar a morte da bezerra. 
+      1 Como se costuma dizer... Nem tudo que balança, está no parque. 
+      1 Como se costuma dizer... Nem tudo que dá luz, reluz. 
+      1 Como se costuma dizer... O importante não é ganhar, mas fazer o outro perder. 
+      1 Como se costuma dizer... O pior cego é aquele que não quer ver. 
+      1 Como se costuma dizer... O preguiçoso trabalha dobrado. 
+      1 Como se costuma dizer... O saber ocupa estantes. 
+      2 Como se costuma dizer... Os cães ladram e os gatos miam. (e depois?) 
+      1 Como se costuma dizer... O trabalho é sagrado, não lhe toques. 
+      1 Como se costuma dizer... Plantar verde para colher maduro. 
+      1 Como se costuma dizer... Príncipe Encantado só há um e casou-se com a Cinderela. 
+      1 Como se costuma dizer... Qualquer idiota é capaz de pintar um quadro, mas somente um génio é capaz de vendê-lo. 
+      2 Como se costuma dizer... Quando um não quer o outro vira do lado. 
+      1 Como se costuma dizer... Quem casa, se arrepende. 
+      1 Como se costuma dizer... Quem dá aos pobres ainda tem que pagar o motel. 
+      2 Como se costuma dizer... Quem espera, sempre cansa. 
+      1 Como se costuma dizer... Quem feio ama, cego é. 
+      1 Como se costuma dizer... Quem ri hoje, já riu. 
+      1 Como se costuma dizer... Quem ri por último é de raciocínio lento. 
+      1 Como se costuma dizer... Quem ri por último é retardado. 
+      1 Como se costuma dizer... Quem tem boca vai ao dentista. 
+      1 Como se costuma dizer... Quem tem cú , caga, quem não tem, caga como pode. 
+      1 Como se costuma dizer... Quem tudo quer, tudo tem. 
+      1 Como se costuma dizer... Se ferradura trouxesse sorte, burro não puxava carroça. 
+      1 Como se costuma dizer... Se o trabalho dá saúde, que trabalhem os doentes. 
+      1 Como se costuma dizer... Se tens pressa, arranja um Ferrari. 
+      1 Como se costuma dizer... Tire o cavalo da chuva, senão molha-se. 
+      1 Como se costuma dizer... Tudo é relativo. O tempo que dura um minuto depende de que lado da porta do wc está. 
+      2 Deitar cedo e cedo erguer é custa muito mas tem de ser. 
+      1 Deitar cedo e cedo erguer só se tiver mesmo de ser. 
+      2 Depois da tempestade, vem a gripe. 
+      2 Diz-me com quem andas, que te direi se vou contigo. 
+      1 Eu cavo, tu cavas, ele cava, nós cavamos, vós cavais, eles cavam. Não é um pensamento particularmente bonito, mas é profundo. 
+      1 Há males que vem pra pior. 
+      1 Na cadeia e no hospital não queremos estar. 
+      2 Não adianta chorar sobre leite derramado. 
+      1 O mais nobre dos cachorros é o cachorro-quente: alimenta a mão que o morde. 
+      2 Os cães ladram e os gatos miam. (e depois?) 
+      1 Os últimos serão os primeiros. 
+      2 O trabalho é sagrado, não lhe toques. 
+      1 Quem casa, se estrepa. 
+      1 Quem não deve, não deve. 
+      1 Quem semeia ventos, fica despenteado. 
+      1 Quem tem cú , caga, quem não tem, caga como pode. 
+      2 Quem tudo quer, tudo tem. 
+      1 Quem vê a cara, não vê o resto. 
+      2 Se Maomé não vai à montanha, então vai à praia. 
+      1 Se o trabalho dá saúde, que trabalhem os doentes. 
+      1 Sol e chuva vou sair de guarda-chuva. 
+      1 Um dia da caça, outro do caçador. 

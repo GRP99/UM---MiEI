@@ -1,0 +1,278 @@
+{
+    "Familias": [
+        {
+            "id": "3759",
+            "individuos": [
+                {
+                    "id": "1076286",
+                    "nome": " Alberto Antunes Guimarães"
+                },
+                {
+                    "id": "1076276",
+                    "nome": " Ana Antunes Guimarães"
+                },
+                {
+                    "id": "1076019",
+                    "nome": " Ana Maria Antunes"
+                },
+                {
+                    "id": "1075943",
+                    "nome": " Ana Maria Pais dos Santos Antunes Guimarães"
+                }, {
+                    "id": "1076282",
+                    "nome": " António Antunes Guimarães"
+                }, {
+                    "id": "1076852",
+                    "nome": " Carolina Represas Antunes Guimarães"
+                }, {
+                    "id": "1075780",
+                    "nome": " Catarina Martins"
+                }, {
+                    "id": "1076285",
+                    "nome": " Constança Antunes Guimarães"
+                }, {
+                    "id": "1075983",
+                    "nome": " Custódia Maria Alvares"
+                }, {
+                    "id": "1076073",
+                    "nome": " Domingos"
+                }, {
+                    "id": "1076074",
+                    "nome": " Domingos"
+                }, {
+                    "id": "1075901",
+                    "nome": " Domingos Francisco"
+                }, {
+                    "id": "1075981",
+                    "nome": " Domingos Francisco de Macedo"
+                }, {
+                    "id": "1075781",
+                    "nome": " Domingos Francisco Martins"
+                }, {
+                    "id": "1075773",
+                    "nome": " Domingos Francisco o Velho"
+                }, {
+                    "id": "1078239",
+                    "nome": " Francisca Carolina Antunes Guimarães"
+                }, {
+                    "id": "1078241",
+                    "nome": " Francisca Carolina Antunes Rodrigues Guimarães"
+                }, {
+                    "id": "1076075",
+                    "nome": " Francisco"
+                }, {
+                    "id": "1076112",
+                    "nome": " Francisco Antunes Guimarães"
+                }, {
+                    "id": "1076106",
+                    "nome": " Francisco Antunes Guimarães"
+                }, {
+                    "id": "1076110",
+                    "nome": " João Antunes Guimarães"
+                }, {
+                    "id": "1076278",
+                    "nome": " João Antunes Guimarães"
+                }, {
+                    "id": "1078852",
+                    "nome": " João Martins de Oliveira Antunes Guimarães"
+                }, {
+                    "id": "1076103",
+                    "nome": " José Antunes Guimarães"
+                }, {
+                    "id": "1076119",
+                    "nome": " José Luís Pires Ribeiro Antunes Guimarães"
+                }, {
+                    "id": "1076051",
+                    "nome": " José Luís Vale Antunes Guimarães"
+                }, {
+                    "id": "1075916",
+                    "nome": " José Martins de Oliveira Antunes Guimarães"
+                }, {
+                    "id": "1077960",
+                    "nome": " José Pedro Ferreira da Cunha Antunes Guimarães"
+                }, {
+                    "id": "1076210",
+                    "nome": " Justino Antunes Guimarães"
+                }, {
+                    "id": "1075942",
+                    "nome": " Justino Feio Vale Antunes Guimarães"
+                }, {
+                    "id": "1076281",
+                    "nome": " Leonor Antunes Guimarães"
+                }, {
+                    "id": "1076279",
+                    "nome": " Luís Antunes Guimarães"
+                }, {
+                    "id": "1076853",
+                    "nome": " Luís Represas Antunes Guimarães"
+                }, {
+                    "id": "1076014",
+                    "nome": " Manoel José Francisco"
+                }, {
+                    "id": "1076284",
+                    "nome": " Maria Antunes Guimarães"
+                }, {
+                    "id": "1076856",
+                    "nome": " Maria Fernanda Pires Ribeiro Antunes Guimarães"
+                }, {
+                    "id": "1076111",
+                    "nome": " Maria Joaquina Alves Pereira de Sousa"
+                }, {
+                    "id": "1078841",
+                    "nome": " Maria Martins de Oliveira Antunes Guimarães"
+                }, {
+                    "id": "1076120",
+                    "nome": " Miguel Pedro Pires Ribeiro Antunes Guimarães"
+                }, {
+                    "id": "1076124",
+                    "nome": " Paulo Alexandre Pires Ribeiro Antunes Guimarães"
+                }, {
+                    "id": "1076113",
+                    "nome": " Piedade"
+                }, {
+                    "id": "1076116",
+                    "nome": " Rita Isabel de Freitas Fernandes"
+                }, {
+                    "id": "1076211",
+                    "nome": " Rosa Martins de Oliveira"
+                }, {
+                    "id": "1076277",
+                    "nome": " Serafim Antunes Guimarães"
+                }, {
+                    "id": "1076115",
+                    "nome": " Serafim Antunes Rodrigues Guimarães"
+                }, {
+                    "id": "1075782",
+                    "nome": " Úrsula de Macedo"
+                }
+            ],
+            "nome": "Antunes Guimarães"
+        },
+        {
+            "id": "3784",
+            "individuos": [
+                {
+                    "id": "1076050",
+                    "nome": " Maria Clotilde Miranda Cardoso do Vale"
+                }
+            ],
+            "nome": "Cardoso do Vale"
+        },
+        {
+            "id": "3762",
+            "individuos": [
+                {
+                    "id": "1078572",
+                    "nome": " António Candido Soares de Azevedo da Silva Amorim"
+                },
+                {
+                    "id": "1077246",
+                    "nome": " Francisco Feio Vale"
+                },
+                {
+                    "id": "1078341",
+                    "nome": " Francisco Feyo de Figueiredo Correia"
+                },
+                {
+                    "id": "1077254",
+                    "nome": " Francisco Pereira Rebelo Feio"
+                }, {
+                    "id": "1077253",
+                    "nome": " Luís Cândido Fernandez Vale"
+                }, {
+                    "id": "1077251",
+                    "nome": " Maria Emilia Rebelo Feio"
+                }, {
+                    "id": "1075918",
+                    "nome": " Maria Fernanda de Amorim Feio Vale"
+                }, {
+                    "id": "1077255",
+                    "nome": " Maria Lúcia Adelaide de Azevedo Taveira"
+                }, {
+                    "id": "1077256",
+                    "nome": " Mariana Ezequiel Feyo de Figueiredo Correia"
+                }, {
+                    "id": "1077247",
+                    "nome": " Palmira da Glória Fernandes dias de Amorim"
+                }
+            ],
+            "nome": "Feio Vale"
+        },
+        {
+            "id": "3787",
+            "individuos": [
+                {
+                    "id": "1079224",
+                    "nome": " Cassamiro José Ferreira"
+                },
+                {
+                    "id": "1079217",
+                    "nome": " Custódio José Fernandes"
+                },
+                {
+                    "id": "1076343",
+                    "nome": " Domingos José Fernandes Guimarães"
+                },
+                {
+                    "id": "1077241",
+                    "nome": " Jerónimo José Fernandes"
+                }, {
+                    "id": "1077242",
+                    "nome": " Joana Teresa Rodrigues de Barros"
+                }, {
+                    "id": "1079220",
+                    "nome": " Marcelina Fernandes"
+                }
+            ],
+            "nome": "Fernandes Guimarães"
+        }, {
+            "id": "3783",
+            "individuos": [
+                {
+                    "id": "1075944",
+                    "nome": " Maria Adelaide Rodrigues Pais dos Santos"
+                }
+            ],
+            "nome": "Pais dos Santos"
+        }, {
+            "id": "3781",
+            "individuos": [
+                {
+                    "id": "1076053",
+                    "nome": " Maria Teresa Pires Ribeiro Antunes Guimarães"
+                }
+            ],
+            "nome": "Pires Ribeiro"
+        }, {
+            "id": "3782",
+            "individuos": [
+                {
+                    "id": "1076857",
+                    "nome": " Joana Antunes Guimarães Ferreira Soares"
+                }, {
+                    "id": "1076855",
+                    "nome": " João Hélio Ferreira Soares"
+                }
+            ],
+            "nome": "Reis Soares"
+        }, {
+            "id": "3780",
+            "individuos": [
+                {
+                    "id": "1076126",
+                    "nome": " Maria Manuela Antunes Guimarães dos Santos Barreiro"
+                }, {
+                    "id": "1076054",
+                    "nome": " Maria Manuela Feio Antunes Guimarães"
+                }, {
+                    "id": "1076055",
+                    "nome": " Mario Alberto da Hora Santos Barreiro"
+                }, {
+                    "id": "1076125",
+                    "nome": " Mário Manuel Antunes Guimarâes dos Santos Barreiro"
+                }
+            ],
+            "nome": "Santos Barreiro"
+        }
+    ]
+}

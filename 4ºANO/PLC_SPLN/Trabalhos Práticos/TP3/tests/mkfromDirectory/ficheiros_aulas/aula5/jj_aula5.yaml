@@ -1,0 +1,41 @@
+---
+
+Ijj: 
+    nome : José João
+    pais : Fpjj
+    casa : [ Fjj ]
+    doc : [ Dh1 ]
+
+Iduarte:
+    nome : Duarte PDA
+    nasc : 1922
+    casa : [ Fpjj ]
+
+Fpjj:
+    pai: Iduarte
+    mae: Iisabel
+    filhos : [Ijj, Ifil, Idl, Iap, IIm]
+
+Iisabel:
+    nome : Maria Isabel AGVP
+    casa : [Fpjj]
+    nasc : 1929    
+
+Fjj:
+    pai : Ijj
+    mae : Iluisa
+    filhos : [Im, Il, Ij]
+
+Il:
+    nome : Ana Luísa
+    pais : Fjj
+
+Im:
+    nome : Mariana
+    pais : Fjj
+
+Dh1: 
+    txt : |
+      Passagem clandestina para Grécia
+      durante uma viagem ....
+    year : 1990

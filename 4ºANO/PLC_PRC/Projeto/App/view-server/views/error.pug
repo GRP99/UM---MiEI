@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    link(rel='stylesheet' href='/stylesheets/error.css' media='screen')
+    section.page_404
+        .row
+        .col-sm-12
+        .col-sm-10.col-sm-offset-1.text-center
+        .four_zero_four_bg
+            h1.text-center #{error}
+            h3.h2= text
+                p 
+                    i ... débrouillez-vous ...
+                a.link_404(href='/homepage') Homepage

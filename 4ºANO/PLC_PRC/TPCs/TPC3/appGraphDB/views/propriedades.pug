@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h3 Indivíduo: #{individuo}
+
+        .w3-container
+            h2 Lista de Propriedades
+            table.w3-table-all.w3-section
+                each p in propriedades
+                    if (p.o)
+                        if (p.o != 'NamedIndividual')
+                            tr
+                                th= p.p
+                                    td= p.o
+
+    footer(class="w3-container w3-center" style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;")
+            a(href="/repositorio/"+repositorio+"/classe/"+classe+"?p="+prefixo) Voltar à página dos indivíduos

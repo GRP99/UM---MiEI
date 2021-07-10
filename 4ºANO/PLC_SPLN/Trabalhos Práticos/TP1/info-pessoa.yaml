@@ -1,0 +1,34 @@
+- Fp10761061076107:
+    filhos:
+    - I1076115
+    mae: D. Francisca Eulália Rodrigues de Araújo
+    pai: Francisco Antunes Guimarães
+- F10761151076116:
+    filhos:
+    - Ana Antunes Guimarães
+    - Serafim Antunes Guimarães
+    - João Antunes Guimarães
+    - Justino Antunes Guimarães
+    - Luís Antunes Guimarães
+    - Leonor Antunes Guimarães
+    - António Antunes Guimarães
+    - Maria Antunes Guimarães
+    - Francisco Antunes Guimarães
+    - Constança Antunes Guimarães
+    - Alberto Antunes Guimarães
+    parceiro(a): Rita Isabel de Freitas Fernandes
+    pessoa: I1076115
+- Dh11076115:
+    txt: 'Causa da morte: nefrite'
+- I1076115:
+    casa: F10761151076116
+    doc:
+    - Dh11076115
+    fale:
+      data: 25.11.1930
+      local: Guimarães, Briteiros (Salvador)
+    nasc:
+      data: '1847'
+      local: América do Sul, Brasil, Pelotas
+    nome: Serafim Antunes Rodrigues Guimarães
+    pais: Fp10761061076107

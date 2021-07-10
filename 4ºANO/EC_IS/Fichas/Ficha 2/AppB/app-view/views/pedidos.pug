@@ -1,0 +1,41 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container
+            h4(class="w3-container w3-center") Pedidos #{estado}
+        if pedidos.length > 0
+            .w3-container
+                input(type="text" id="myInput" onkeyup="myFunction()" placeholder="Procura por data...")
+                table(id="myTable")
+                    tr(class="header")
+                        th(style="width:15%;text-align:center") Pedido
+                        th(style="width:25%;text-align:center") DataTHora
+                        th(style="width:20%;text-align:center") Tipo de Exame    
+                        th(style="width:10%;text-align:center") Paciente
+                        th(style="width:10%;text-align:center") Episódio
+                        if estado == 'por realizar'
+                            th(style="width:10%;text-align:center")
+                            th(style="width:10%;text-align:center")
+                        else
+                            th(style="width:20%;text-align:center")
+                    each p in pedidos
+                        tr
+                            td(style="text-align:center")= p.idpedido
+                            td(style="text-align:center")= p.data_hora                            
+                            td(style="text-align:center")= p.sigla
+                            td(style="text-align:center")= p.num_utente
+                            td(style="text-align:center")= p.fk_episodio
+                            td(style="text-align:center")
+                                button(class="button-transparent" onclick="location.href='http://localhost:4001/pedido/" + p.idpedido + "'")
+                                    i(class="fa fa-info-circle" aria-hidden="true")
+                            if estado == 'por realizar'
+                                td(style="text-align:center")
+                                    form(action='/cancelar' method='POST')
+                                        input(type='hidden' name='idpedido' value=p.idpedido)
+                                        button(class="button-transparent" type="submit")
+                                            i(class="fa fa-times" aria-hidden="true")
+                p
+        else
+            .w3-container
+                h5(class="w3-container w3-center") Ainda não há pedidos #{estado} ...

@@ -1,0 +1,1408 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bibliography xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bibtex.xsd">
+
+	<inproceedings id="cisti2017">
+		<title>RODA-in: A generic tool for the mass creation of Submission Information Packages</title>
+		<author-ref authorid="jcr"/>
+		<author id="ap">André Pereira</author>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="lf"/>
+		<booktitle>12th Iberian Conference on Information Systems and Technologies (CISTI),</booktitle>
+		<address>ISCTE, Lisboa, Portugal</address>
+		<year>2017</year>
+		<month>06.24</month>
+		<doi>http://hdl.handle.net/1822/46093</doi>
+	</inproceedings>
+
+	<inproceedings id="iPRES2016">
+		<title>Database Preservation Toolkit: A relational database conversion and normalization tool</title>
+		<author id="bf">Bruno Ferreira</author>
+		<author-ref authorid="lf"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<booktitle>iPRES: 13th International Conference on Digital Preservation</booktitle>
+		<address>Bern, Switzerland</address>
+		<year>2016</year>
+		<month>10.04</month>
+		<doi>http://hdl.handle.net/1822/43479</doi>
+	</inproceedings>
+
+	<inproceedings id="bad2015b">
+		<title>PT-CRIS: Um miradouro sobre o universo científico nacional</title>
+		<author id="asantos">André Santos</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="hsilva"/>
+		<author-ref authorid="lf"/>
+		<author id="jmoreira">João Moreira</author>
+		<author id="eloy">Eloy Rodrigues</author>
+		<author id="jcarvalho">José Carvalho</author>
+		<booktitle>12º Congresso Nacional BAD</booktitle>
+		<address>Universidade de Évora, Portugal</address>
+		<year>2015</year>
+		<month>10.21</month>
+		<doi>http://hdl.handle.net/1822/37856</doi>
+	</inproceedings>
+
+	<inproceedings id="bad2015a">
+		<title>Uma ontologia para os processos de negócio da Administração</title>
+		<author-ref authorid="alexandra"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="penteado"/>
+		<booktitle>12º Congresso Nacional BAD</booktitle>
+		<address>Universidade de Évora, Portugal</address>
+		<year>2015</year>
+		<month>10.21</month>
+		<doi>http://hdl.handle.net/1822/38497</doi>
+	</inproceedings>
+
+	<inproceedings id="edicic2015">
+		<title>Da gestão da informação à gestão do conhecimento: uma proposta para a e-Administração em Portugal</title>
+		<author id="alexandra">Alexandra Lourenço</author>
+		<author-ref authorid="jcr"/>
+		<author id="penteado">Pedro Penteado</author>
+		<booktitle>VII Encuentro Ibérico EDICIC 2015</booktitle>
+		<address>Madrid, Espanha</address>
+		<year>2015</year>
+		<month>11.16</month>
+		<doi>http://hdl.handle.net/1822/38496</doi>
+	</inproceedings>
+
+	<inproceedings id="dlm2014">
+		<title>Database Preservation Toolkit: a flexible tool to normalize and give access to databases</title>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="lf"/>
+		<author id="hsilva">Hélder Silva</author>
+		<booktitle>DLM Forum – 7th Triennial Conference: Making the Information Governance Landscape in Europe</booktitle>
+		<address>Lisbon, Portugal</address>
+		<year>2014</year>
+		<month>11.12</month>
+		<doi>http://hdl.handle.net/1822/35183</doi>
+	</inproceedings>
+
+	<inbook id="IGI2013">
+		<author-ref authorid="rf"/>
+		<author-ref authorid="jcr"/>
+		<editor-ref authorid="jcr"/>
+		<editor-ref authorid="albie"/>
+		<editor id="rq">Ricardo Queirós</editor>
+		<title>Innovations in XML Applications and Metadata Management: Advancing Technologies</title>
+		<chapter>New Dimension in Relational Database Preservation: Using Ontologies</chapter>
+		<pages>160-173</pages>
+		<publisher>IGI Global</publisher>
+		<year>2013</year>
+		<month>06</month>
+		<doi>10.4018/978-1-4666-2669-0.ch009</doi>
+	</inbook>
+
+	<inproceedings id="ipres2013">
+		<title>Automatic preservation watch using information extraction on the Web : a case study on semantic extraction of natural language for digital preservation</title>
+		<author-ref authorid="lf"/>
+		<author id="aa">Alan Akbik</author>
+		<author id="bs">Barbara Sierman</author>
+		<author id="mr">Marcel Ras</author>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>iPRES 2013 - 10th International Conference on Preservation of Digital Objects</booktitle>
+		<address>Lisbon, Portugal</address>
+		<year>2013</year>
+		<month>09.20</month>
+		<doi>http://hdl.handle.net/1822/25214</doi>
+	</inproceedings>
+
+	<inproceedings id="or2013">
+		<title>Supporting the preservation lifecycle in repositories</title>
+		<author-ref authorid="lf"/>
+		<author-ref authorid="cb"/>
+		<author-ref authorid="kd"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>Open Repositories 2013</booktitle>
+		<address>Charlottetown, Canada</address>
+		<year>2013</year>
+		<month>07.08</month>
+		<doi> http://hdl.handle.net/1822/25101</doi>
+	</inproceedings>
+
+	<inproceedings id="archiving2013">
+		<title>	Guidelines for legacy repository migration</title>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="lf"/>
+		<booktitle>IS&amp;T Archiving 2013</booktitle>
+		<address>Washington DC, Estados Unidos</address>
+		<year>2013</year>
+		<month>04.02-05</month>
+		<doi>http://hdl.handle.net/1822/23978</doi>
+	</inproceedings>
+
+	<inproceedings id="guimaramus2012">
+		<title>	MuseCode: à procura da linearidade na música tonal</title>
+		<author-ref authorid="jcr"/>
+		<booktitle>Pensar a Música</booktitle>
+		<address>Palácio Vila Flor, Guimarães</address>
+		<year>2012</year>
+		<month>03.23</month>
+		<doi>http://hdl.handle.net/1822/21660</doi>
+	</inproceedings>
+
+	<inproceedings id="bad2012">
+		<title>Boas Práticas na Migração de Repositórios: lições aprendidas com o CALM e o ARQBASE</title>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="lf"/>
+		<booktitle>11º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas</booktitle>
+		<address>Fundação Calouste Gulbenkian, Lisboa</address>
+		<year>2012</year>
+		<month>10.20</month>
+		<doi>http://hdl.handle.net/1822/21611</doi>
+	</inproceedings>
+
+	<inproceedings id="icadl2012">
+		<title>Design and architecture of a novel preservation watch system</title>
+		<author-ref authorid="lf"/>
+		<author-ref authorid="pp"/>
+		<author-ref authorid="kd"/>
+		<author-ref authorid="cb"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>14th International Conference on Asia-Pacific Digital Libraries, ICADL 2012</booktitle>
+		<address>Taipei, Taiwan</address>
+		<year>2012</year>
+		<month>11.12</month>
+		<doi>http://hdl.handle.net/1822/21447</doi>
+	</inproceedings>
+
+	<inproceedings id="ipres2012">
+		<title>Preservation watch : what to monitor and how</title>
+		<author id="cb">Christoph Becker</author>
+		<author id="kd">Kresimir Duretec </author>
+		<author id="pp">Petar Petrov</author>
+		<author-ref authorid="lf"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>iPRES 2012 - 9th International Conference on Preservation of Digital Objects</booktitle>
+		<address>Toronto, Canada</address>
+		<year>2012</year>
+		<month>11.01</month>
+		<doi>http://hdl.handle.net/1822/20666</doi>
+	</inproceedings>
+
+	<inproceedings id="FR11e">
+		<title>New dimension in relational database preservation: raising the abstraction level</title>
+		<author-ref authorid="rf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>iPRES 2011 - 8th International Conference on Preservation of Digital Objects</booktitle>
+		<address>Singapore</address>
+		<month>11.04</month>
+		<year>2011</year>
+		<doi>http://hdl.handle.net/1822/15859</doi>
+	</inproceedings>
+
+	<inproceedings id="FR11d">
+		<title>Relational Databases Conceptual Preservation</title>
+		<author-ref authorid="rf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>VLDL2011 - Fourth Workshop on Very Large Digital Libraries (In conjunction with the International Conference on Theory and Practice of Digital Libraries (TPDL2011))</booktitle>
+		<address>Berlin, Germany</address>
+		<month>09.29</month>
+		<year>2011</year>
+		<doi>http://hdl.handle.net/1822/16019</doi>
+	</inproceedings>
+
+	<inproceedings id="FR11c">
+		<title>Using Ontologies to Abstract Relational Databases Conceptual Model</title>
+		<author-ref authorid="rf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>EPIA2011 - 15th Portuguese Conference on Artificial Intelligence</booktitle>
+		<address>Lisboa, Portugal</address>
+		<month>10.10</month>
+		<year>2011</year>
+		<doi>http://hdl.handle.net/1822/16113</doi>
+	</inproceedings>
+
+	<inproceedings id="FR11b">
+		<title>Preservation of Relational Databases</title>
+		<author-ref authorid="rf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>MSKE2011- International Conference on Managing Services in the Knowledge Economy</booktitle>
+		<address>Universidade Lusíada, Vila Nova de Famalicão, Portugal</address>
+		<month>07.13</month>
+		<year>2011</year>
+		<doi>http://hdl.handle.net/1822/13704</doi>
+	</inproceedings>
+
+	<inproceedings id="FR11">
+		<title>Using Ontologies in Database Preservation</title>
+		<author-ref authorid="rf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>9th Conference on XML: Aplicações e Tecnologias Associadas, XATA 2011</booktitle>
+		<address>ESEIG -IPP, Vila do Conde - Portugal</address>
+		<month>06.01</month>
+		<year>2011</year>
+		<doi>http://hdl.handle.net/1822/13703</doi>
+	</inproceedings>
+
+	<inproceedings id="FR10">
+		<title>Significant Properties in the Preservation of Relational Databases</title>
+		<author-ref authorid="rf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>Research and Advanced Technology for Digital Libraries, 14th European Conference, ECDL2010</booktitle>
+		<address>Glasgow, UK</address>
+		<month>09.06</month>
+		<year>2010</year>
+		<isbn>978-3-642-15463-8</isbn>
+		<doi>http://hdl.handle.net/1822/13702</doi>
+	</inproceedings>
+
+	<inproceedings id="RQR10">
+		<title>Criação e Aplicação de um modelo baseado em Topic Maps à Documentação Educativa</title>
+		<author id="mjc">Maria Jesus Colmenero Ruiz</author>
+		<author id="mam">Miguel Ángel Marzal Garcia-Quismondo</author>
+		<author-ref authorid="jcr"/>
+		<booktitle>10º Congresso Nacional de Bibliotecários, Arquivistas e Documentalistas</booktitle>
+		<address>Guimarães, Portugal</address>
+		<month>04.08</month>
+		<year>2010</year>
+		<isbn>978-972-9067-39-6</isbn>
+		<doi>http://hdl.handle.net/1822/11081</doi>
+	</inproceedings>
+
+	<inproceedings id="FFR10">
+		<title>DigitArq e o novo módulo de interoperabilidade OAI-PMH</title>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="lmf"/>
+		<author-ref authorid="jcr"/>
+		<booktitle>10º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS</booktitle>
+		<address>Guimarães, Portugal</address>
+		<month>04.08</month>
+		<year>2010</year>
+		<doi>http://hdl.handle.net/1822/10532</doi>
+	</inproceedings>
+
+	<inproceedings id="FR09">
+		<author id="rf">Ricardo Freitas</author>
+		<author-ref authorid="jcr"/>
+		<title>Relational databases digital preservation</title>
+		<booktitle>INFORUM : SIMPÓSIO DE INFORMÁTICA, Lisboa, 2009</booktitle>
+		<year>2009</year>
+		<address>Lisboa - Portugal</address>
+		<month>11.09</month>
+		<isbn>978-972-9348-18-1</isbn>
+		<doi>http://hdl.handle.net/1822/9740</doi>
+	</inproceedings>
+
+	<article id="GARH09">
+		<title>Topic maps constraint languages : understanding and comparing</title>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="rpa"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<journal>International Journal of Reasoning-based Intelligent Systems</journal>
+		<publisher>Inderscience</publisher>
+		<issn>1755-0556. 1:3-4 (2009) 173 - 181</issn>
+		<year>2009</year>
+		<doi>http://hdl.handle.net/1822/9741</doi>
+	</article>
+
+	<inproceedings id="LRHGT08">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<author-ref authorid="jg"/>
+		<author-ref authorid="rct"/>
+		<title>A Framework to specify, extract and manage Topic Maps driven by ontologies</title>
+		<booktitle>SIGDOC'08 -- 26th ACM International Conference on Design of Communication</booktitle>
+		<year>2008</year>
+		<month>09-23</month>
+		<address>Lisboa, Portugal</address>
+		<doi>http://hdl.handle.net/1822/8236</doi>
+	</inproceedings>
+
+	<inproceedings id="BKRFBR08">
+		<author-ref authorid="cb"/>
+		<author id="mk">Michael Kraxner</author>
+		<author id="ar">Andreas Rauber</author>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="aab"/>
+		<author-ref authorid="jcr"/>
+		<title>Distributed Preservation Services: Integrating Planning and Actions</title>
+		<booktitle>ECDL2008 - European Conference on Research and Advanced Technology for Digital Libraries</booktitle>
+		<year>2008</year>
+		<month>09</month>
+		<address>Aarhus, Danmark</address>
+		<doi>http://hdl.handle.net/1822/8239</doi>
+	</inproceedings>
+
+	<inproceedings id="RFFCBC08">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="lf"/>
+		<author-ref authorid="rc"/>
+		<author-ref authorid="fb"/>
+		<author-ref authorid="lc"/>
+		<title>RODA and Crib: A Service-Oriented Digital Repository</title>
+		<booktitle>iPRES 2008: The Fifth International Conference on Preservation of Digital Objects</booktitle>
+		<year>2008</year>
+		<month>09</month>
+		<address>London, England</address>
+		<doi>http://hdl.handle.net/1822/8226</doi>
+	</inproceedings>
+
+	<proceedings id="RLA08">
+		<title>XATA2008 (6ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas</title>
+		<year>2008</year>
+		<editor-ref authorid="jcr"/>
+		<editor-ref authorid="jcl"/>
+		<editor id="sa">Salvador Abreu</editor>
+		<address>Departamento de Informática da Universidade de Évora, Évora - Portugal</address>
+		<month>02.14</month>
+		<doi>http://hdl.handle.net/1822/7708</doi>
+		<isbn>978-972-99166-5-6</isbn>
+	</proceedings>
+
+	<inproceedings id="LMMVRH08-XATA">
+		<author-ref authorid="grl"/>
+		<author id="mm">Mirkos Martins</author>
+		<author id="hm">Henrique Machado</author>
+		<author id="jv">Juliana Vizzotto</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Generating a Semantic Network for PubMed</title>
+		<booktitle>XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)</booktitle>
+		<year>2008</year>
+		<address>Évora - Portugal</address>
+		<month>02.14</month>
+	</inproceedings>
+
+	<inproceedings id="FRF-XATA">
+		<author id="lmf">Luis Miguel Ferros</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<title>Creating a National Federation of Archives using OAI-PMH</title>
+		<booktitle>XATA 2008 -  XML: Aplicações e Tecnologias Associadas (6ª Conferência Nacional)</booktitle>
+		<year>2008</year>
+		<address>Évora - Portugal</address>
+		<month>02.14</month>
+		<doi>http://hdl.handle.net/1822/7821</doi>
+	</inproceedings>
+
+	<inproceedings id="LGRH07-CLEI">
+		<author-ref authorid="grl"/>
+		<author id="jg">Jonas Gassen</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Using Web Services to put Metamorphosis on the Web</title>
+		<booktitle>XXXIII Conferencia Latinoamericana de Informática (CLEI2007)</booktitle>
+		<year>2007</year>
+		<address>San José - Costa Rica</address>
+		<doi>http://hdl.handle.net/1822/7354</doi>
+	</inproceedings>
+
+	<inproceedings id="LATRH07-CLEI">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="rpa"/>
+		<author id="rct">Rogério Correa Turchetti</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Implementing TMCL: XTche - a topic map schema and constraint specification language</title>
+		<booktitle>XXXIII Conferencia Latinoamericana de Informática (CLEI2007)</booktitle>
+		<year>2007</year>
+		<address>San José - Costa Rica</address>
+		<doi>http://hdl.handle.net/1822/7364</doi>
+	</inproceedings>
+
+	<inproceedings id="LARH07-EPIA">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="rpa"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Topic Maps Constraint Languages: understanding and comparing</title>
+		<booktitle>Portuguese Conference on Artificial Intelligence (EPIA2007)</booktitle>
+		<year>2007</year>
+		<address>Guimarães - Portugal</address>
+		<doi>http://hdl.handle.net/1822/7368</doi>
+	</inproceedings>
+
+	<inproceedings id="LMMFRH07-TMRA">
+		<author-ref authorid="grl"/>
+		<author id="htm">H. T. Machado</author>
+		<author id="mom">M. O. Martins</author>
+		<author id="pgf">P. G. D. Ferreira</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Comparing Topic Maps Constraint Specification Languages</title>
+		<booktitle>International Conference on Topic Maps Research and Applications (TMRA2007)</booktitle>
+		<year>2007</year>
+		<address>Leipzig - Germany</address>
+		<doi>http://hdl.handle.net/1822/7399</doi>
+	</inproceedings>
+
+	<inproceedings id="LRH06-SBSI06">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Metamorphosis: An Environment to Achieve Semantic Interoperability with Topic Maps</title>
+		<booktitle>III Simpósio Brasileiro de Sistemas de Informação</booktitle>
+		<year>2006</year>
+		<address>Curitiba, Paraná - Brasil</address>
+		<doi>http://hdl.handle.net/1822/7359</doi>
+	</inproceedings>
+
+	<inproceedings id="LRH07-SEMINFO">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Estruturando o conhecimento com a norma ISO 13250 Topic Maps</title>
+		<booktitle>VI Seminário de Informática - SEMINFO, 2007, Torres, RS, Brasil.</booktitle>
+		<year>2007</year>
+		<address>Torres, RS - Brasil</address>
+	</inproceedings>
+
+	<inproceedings id="RFFC07-EML">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="lf"/>
+		<author-ref authorid="rc"/>
+		<title>Relational database preservation through XML modelling</title>
+		<booktitle>Extreme Markup Languages 2007, Montréal - Canada, August 2007.</booktitle>
+		<year>2007</year>
+		<address>Montréal - Canada</address>
+		<month>08</month>
+		<doi>http://hdl.handle.net/1822/7120</doi>
+	</inproceedings>
+
+	<inproceedings id="RLH07-EML">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="rpa"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Topic Maps applied to PubMed</title>
+		<booktitle>Extreme Markup Languages 2007, Montréal - Canada, August 2007.</booktitle>
+		<year>2007</year>
+		<address>Montréal - Canada</address>
+		<month>08</month>
+		<doi>http://hdl.handle.net/1822/7330</doi>
+	</inproceedings>
+
+	<inproceedings id="LPRH07-XATA">
+		<author-ref authorid="grl"/>
+		<author id="rpa">Renato Preigschadt de Azevedo</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Navegando na Rede Semântica dos Topic Maps com o Ulisses</title>
+		<booktitle>XATA 2007 -  XML: Aplicações e Tecnologias Associadas (5ª Conferência Nacional)</booktitle>
+		<year>2007</year>
+		<address>Lisboa - Portugal</address>
+		<month>02.14</month>
+		<doi>http://hdl.handle.net/1822/6482</doi>
+	</inproceedings>
+
+	<inproceedings id="LPRH07-TM">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="rpa"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Topic Maps Constraint Specification Languages: comparing AsTMa!, OSL, and XTche</title>
+		<booktitle>Topic Maps 2007 -  The First International Topic Maps User Conference</booktitle>
+		<year>2007</year>
+		<address>Oslo - Norway</address>
+		<month>03.21</month>
+		<doi>http://hdl.handle.net/1822/6474</doi>
+	</inproceedings>
+
+	<article id="FBR07-IJDL">
+		<title>An intelligent decision support system for digital preservation</title>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="aab"/>
+		<author-ref authorid="jcr"/>
+		<journal>International Journal on Digital Libraries</journal>
+		<publisher>Springer Berlin / Heidelberg</publisher>
+		<issn>1432-5012 (Print) 1432-1300 (Online)</issn>
+		<month>05</month>
+		<year>2007</year>
+		<doi>http://hdl.handle.net/1822/6648</doi>
+	</article>
+
+	<misc id="RFCFBC06">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="rc"/>
+		<author-ref authorid="lf"/>
+		<author-ref authorid="fb"/>
+		<author-ref authorid="lcor"/>
+		<title>RODA - Desenvolvimento de uma plataforma tecnológica para suporte de Arquivos Digitais</title>
+		<howpublished>Apresentação efectuada no Encontro Sofware Livre na Administração Pública, Torre do Tombo, Lisboa - Portugal, em 29 de Novembro de 2006.</howpublished>
+		<year>2006</year>
+		<doi>http://hdl.handle.net/1822/6420</doi>
+	</misc>
+
+	<inproceedings id="FCRBCF07">
+		<title>RODA : Repositório de Objectos Digitais Autênticos</title>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="rc"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="fb"/>
+		<author-ref authorid="lcor"/>
+		<author-ref authorid="lf"/>
+		<booktitle>9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS</booktitle>
+		<address>Ponta Delgada, Açores, Portugal</address>
+		<month>03.29</month>
+		<year>2007</year>
+		<doi>http://hdl.handle.net/1822/6330</doi>
+	</inproceedings>
+	<inproceedings id="SFRL07">
+		<title>Consulta Real em Ambiente Virtual: implementação de uma sala de referência e leitura virtual num arquivo</title>
+		<author-ref authorid="as"/>
+		<author-ref authorid="lmf"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mjpl"/>
+		<booktitle>9º CONGRESSO NACIONAL DE BIBLIOTECÁRIOS, ARQUIVISTAS E DOCUMENTALISTAS</booktitle>
+		<address>Ponta Delgada, Açores, Portugal</address>
+		<month>03.29</month>
+		<year>2007</year>
+		<doi>http://hdl.handle.net/1822/6432</doi>
+	</inproceedings>
+	<inproceedings id="RFCFBC07">
+		<title>XML e preservação digital</title>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<author id="rc">Rui Castro</author>
+		<author id="lf">Luis Faria</author>
+		<author id="fb">Francisco Barbedo</author>
+		<author id="lcor">Luis Corujo</author>
+		<booktitle>XATA2007 : XML : aplicações e tecnologias associadas : actas da Conferência Nacional</booktitle>
+		<address>Lisboa, Portugal</address>
+		<month>02.15</month>
+		<year>2007</year>
+		<doi>http://hdl.handle.net/1822/6224</doi>
+	</inproceedings>
+	<proceedings id="RLC07">
+		<title>XATA2007 (5ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas</title>
+		<year>2007</year>
+		<editor-ref authorid="jcr"/>
+		<editor-ref authorid="jcl"/>
+		<editor id="lc">Luis Carriço</editor>
+		<address>Faculdade de Ciências - Universidade de Lisboa, Lisboa - Portugal</address>
+		<month>02.14-15</month>
+		<doi>http://hdl.handle.net/1822/6234</doi>
+		<isbn>978-972-99166-4-9</isbn>
+	</proceedings>
+	<misc id="FBR07">
+		<author-ref authorid="mf"/>
+		<author-ref authorid="aab"/>
+		<author-ref authorid="jcr"/>
+		<title>CRiB : preservation services for Digital Repositories</title>
+		<howpublished>Apresentação efectuada na International Conference Open Repositories, 2, San
+		Antonio, Texas, United States of America, 2007.</howpublished>
+		<year>2007</year>
+		<doi>http://hdl.handle.net/1822/6195</doi>
+	</misc>
+
+	<proceedings id="RLS06">
+		<title>XATA2006 (4ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas</title>
+		<year>2006</year>
+		<editor-ref authorid="jcr"/>
+		<editor-ref authorid="jcl"/>
+		<editor-ref authorid="albie"/>
+		<address>Instituto Politécnico de Portalegre, Portalegre - Portugal</address>
+		<month>02.09-10</month>
+		<doi>http://hdl.handle.net/1822/4744</doi>
+		<isbn>972-99166-2-4</isbn>
+	</proceedings>
+	<inproceedings id="RFFLS06">
+		<title>Digitarq2 : nova arquitectura aplicacional para gestão de Arquivos Definitivos</title>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="lmf"/>
+		<author id="mjpl">Maria João Pires Lima</author>
+		<author id="as">António Sousa</author>
+		<booktitle>2ª Conferência Internacional de Arquivos Empresariais</booktitle>
+		<address>Seixal, Portugal</address>
+		<month>11.27</month>
+		<year>2006</year>
+		<doi>http://hdl.handle.net/1822/6038</doi>
+	</inproceedings>
+	<article id="FBR06-Ariadne">
+		<title>A foundation for automatic digital preservation</title>
+		<author-ref authorid="mf"/>
+		<author-ref authorid="aab"/>
+		<author-ref authorid="jcr"/>
+		<journal>Ariadne</journal>
+		<number>48</number>
+		<issn>1361-3200</issn>
+		<doi>http://hdl.handle.net/1822/5571</doi>
+		<month>July</month>
+		<year>2006</year>
+	</article>
+	<book id="RH2002">
+		<author id="jcr">José Carlos Ramalho</author>
+		<author id="prh">Pedro Rangel Henriques</author>
+		<title>XML e XSL: da teoria à prática</title>
+		<publisher>Colecção Tecnologias da Informação</publisher>
+		<year>2002</year>
+		<address>FCA - Editora de Informática</address>
+		<month>11</month>
+	</book>
+	<phdthesis id="Ram2000">
+		<author-ref authorid="jcr"/>
+		<title>Anotação Estrutural de Documentos e sua Semântica</title>
+		<school>Tese de Doutoramento</school>
+		<year>2000</year>
+		<address>Universidade do Minho</address>
+		<month>07</month>
+		<doi>http://hdl.handle.net/1822/5625</doi>
+	</phdthesis>
+	<article id="RAH1998">
+		<author-ref authorid="jcr"/>
+		<author id="jj">José João Almeida</author>
+		<author-ref authorid="prh"/>
+		<title>Algebraic Specification of Documents</title>
+		<journal>Theoretical Computer Science journal, volume 199</journal>
+		<year>1998</year>
+		<volume>Elsevier</volume>
+		<month>06</month>
+	</article>
+	<inproceedings id="RS2003">
+		<author-ref authorid="jcr"/>
+		<author id="jls">José Luis Santos</author>
+		<title>Electronic Publishing of ADB editions</title>
+		<booktitle>Electronic Publishing 2003: From information to knowledge</booktitle>
+		<year>2003</year>
+		<address>Universidade do Minho - Guimarães - Portugal</address>
+		<month>06.25</month>
+		<doi>http://hdl.handle.net/1822/552</doi>
+	</inproceedings>
+	<inproceedings id="RLH2003">
+		<author-ref authorid="jcr"/>
+		<author id="grl">Giovani Rubert Librelotto</author>
+		<author-ref authorid="prh"/>
+		<title>Ontology driven Websites - Metamorphosis: a framework to specify and manage ontology driven websites</title>
+		<booktitle>Electronic Publishing 2003: From information to knowledge</booktitle>
+		<year>2003</year>
+		<address>Universidade do Minho - Guimarães - Portugal</address>
+		<month>06.25</month>
+		<doi>http://hdl.handle.net/1822/553</doi>
+	</inproceedings>
+	<article id="RARH98">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="jj"/>
+		<author id="jgr">J. G. Rocha</author>
+		<author-ref authorid="prh"/>
+		<title>SGML Documents: Where does quality go?</title>
+		<journal>Markup Languages: theory and practice </journal>
+		<year>1999</year>
+		<volume>journal, num. 1 vol. 1, MIT Press</volume>
+		<month>01</month>
+		<issn>1099-6621</issn>
+		<doi>http://hdl.handle.net/1822/644</doi>
+	</article>
+	<article id="RH98">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Qualidade na Publicação Electrónica: como controlá-la?</title>
+		<journal>Sistemas de Informação</journal>
+		<year>1998</year>
+		<volume>journal, num. 9, pg 69-83, Associação Portuguesa de Sistemas de Informação</volume>
+	</article>
+	<inproceedings id="Ram01">
+		<author-ref authorid="jcr"/>
+		<title>Constraining Content: specification and processing</title>
+		<booktitle>XML Europe'01</booktitle>
+		<year>2001</year>
+		<address>Berlin - Germany</address>
+		<month>05</month>
+		<doi>http://hdl.handle.net/1822/623</doi>
+	</inproceedings>
+	<inproceedings id="Ram99">
+		<author-ref authorid="jcr"/>
+		<title>Recovering Old Paper Historical Documents Through SGML/XML Modelling</title>
+		<booktitle>Digital Resources for the Humanities - DRH99</booktitle>
+		<year>1999</year>
+		<address>London - England</address>
+	</inproceedings>
+	<inproceedings id="RH99">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="jj"/>
+		<title>XML::DT - a Perl Down Translation Module</title>
+		<booktitle>XML Europe'99</booktitle>
+		<year>1999</year>
+		<address>Granada - Espanha</address>
+		<doi>http://hdl.handle.net/1822/632</doi>
+	</inproceedings>
+	<inproceedings id="RLH98">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<author id="arl">A. R. Lopes</author>
+		<title>Generating SGML specific editors: from DTDs to Attribute Grammars</title>
+		<booktitle>Markup Technologies'98</booktitle>
+		<year>1998</year>
+		<address>Chicago - USA</address>
+		<month>12</month>
+		<doi>http://hdl.handle.net/1822/637</doi>
+	</inproceedings>
+	<inproceedings id="RHb98">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Beyond DTDs: Constraining Data Content</title>
+		<booktitle>SGML Europe 98 Conference</booktitle>
+		<year>1998</year>
+		<address>Paris - France</address>
+		<month>05</month>
+		<doi>http://hdl.handle.net/1822/636</doi>
+	</inproceedings>
+	<inproceedings id="RHHRAF98">
+		<author-ref authorid="jgr"/>
+		<author id="mrh">M. R. Henriques</author>
+		<author-ref authorid="prh"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="jj"/>
+		<author id="jlf">J. L. Faria</author>
+		<title>Adapting Museum Structures for the Web: No Changes Needed!</title>
+		<booktitle>Museums and the Web: An International Conference</booktitle>
+		<year>1998</year>
+		<address>Toronto, Canada</address>
+		<month>04.22</month>
+		<doi>http://hdl.handle.net/1822/624</doi>
+	</inproceedings>
+	<inproceedings id="LRH97">
+		<author-ref authorid="arl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>INES, an Environment for Structured Editions of SGML Documents</title>
+		<booktitle>II Brasilian Symposium on Programming Languages (SBLP'97)</booktitle>
+		<year>1997</year>
+		<address>Campinas-SP -- Brasil</address>
+		<month>09</month>
+		<doi>http://hdl.handle.net/1822/616</doi>
+	</inproceedings>
+	<inproceedings id="RAH96">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="jj"/>
+		<author-ref authorid="prh"/>
+		<title>Document Semantics: two approaches</title>
+		<booktitle>SGML96</booktitle>
+		<year>1996</year>
+		<address>Boston - USA</address>
+		<month>12</month>
+		<doi>http://hdl.handle.net/1822/622</doi>
+	</inproceedings>
+	<inproceedings id="JLRH02">
+		<author id="mhj">M. H.  Jacinto</author>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>XCSL: XML Constraint Specification Language</title>
+		<booktitle>CLEI'02</booktitle>
+		<year>2002</year>
+		<address>Montevideo, Uruguai,</address>
+		<month>11</month>
+		<doi>http://hdl.handle.net/1822/612</doi>
+	</inproceedings>
+	<inproceedings id="JLRHb02">
+		<author-ref authorid="mhj"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Bidirectional Conversion between XML Documents and Relational Data Bases</title>
+		<booktitle>7th International Conference on CSCW in  Design</booktitle>
+		<year>2002</year>
+		<address>Rio de Janeiro - Brasil</address>
+		<month>09.25</month>
+		<doi>http://hdl.handle.net/1822/601</doi>
+	</inproceedings>
+	<inproceedings id="JHR00">
+		<author-ref authorid="mhj"/>
+		<author-ref authorid="prh"/>
+		<author-ref authorid="jcr"/>
+		<title>XML and Semantic Validation</title>
+		<booktitle>Logic, Language and Information: Proceedings of the First Workshop on Logic and Language</booktitle>
+		<year>2000</year>
+		<address>Instituto de Lógica, Lenguaje e Información, Universidad de Sevilla, Espanha</address>
+		<month>11.29</month>
+		<doi>http://hdl.handle.net/1822/597</doi>
+	</inproceedings>
+	<inproceedings id="JLRHc02">
+		<author-ref authorid="mhj"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Constraint Specification Languages: comparing XCSL, Schematron and XML-Schema</title>
+		<booktitle>XML Europe'02</booktitle>
+		<year>2002</year>
+		<address>Barcelona - Espanha</address>
+		<month>05.20</month>
+		<doi>http://hdl.handle.net/1822/619</doi>
+	</inproceedings>
+	<inproceedings id="RH94">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Uma experiência de utilização da Internet na gestão pedagógica e sua formalização</title>
+		<booktitle>I Conferência Nacional WWW,    Informação Multimédia na Internet</booktitle>
+		<year>1995</year>
+		<address>Universidade do Minho</address>
+		<month>07</month>
+	</inproceedings>
+	<inproceedings id="RAH95">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="jj"/>
+		<author-ref authorid="prh"/>
+		<title>DAVID, Algebraic Specification of Documents</title>
+		<booktitle>Algebraic Methods in Language Processing</booktitle>
+		<year>1995</year>
+		<address>Twente - Holanda</address>
+		<month>12</month>
+		<doi>http://hdl.handle.net/1822/618</doi>
+		<issn>0929-0672</issn>
+	</inproceedings>
+	<inproceedings id="Ram96">
+		<author-ref authorid="jcr"/>
+		<title>DSSSL: basic topics</title>
+		<booktitle>Workshop: Document    Processing and SGML</booktitle>
+		<year>1996</year>
+		<address>Universidade do Minho</address>
+		<month>09</month>
+	</inproceedings>
+	<inproceedings id="RRAH97">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="jgr"/>
+		<author-ref authorid="jj"/>
+		<author-ref authorid="prh"/>
+		<title>SGML Documents: Where Does Quality Go?</title>
+		<booktitle>SGML/XML'97</booktitle>
+		<year>1997</year>
+		<address>Washinton - USA</address>
+		<month>12.08</month>
+		<doi>http://hdl.handle.net/1822/617</doi>
+	</inproceedings>
+	<article id="RLH03">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="prh"/>
+		<title>Ontology driven websites with Topic Maps</title>
+		<journal>III International Conference on Web Engineering (ICWE)</journal>
+		<year>2003</year>
+		<volume>Oviedo - Espanha</volume>
+		<month>07.15</month>
+		<deliverables>
+			<pdf url="http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2003/icwe.pdf"/>
+		</deliverables>
+	</article>
+	<article id="JLRH03">
+		<author-ref authorid="mhj"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>XCSL: XML Constraint Specification Language</title>
+		<journal>CLEI Electronic Journal,  ISSN 0717-5000. 2003. </journal>
+		<year>2003</year>
+		<volume>Best papers of XXVIII Conferencia Latinoamericana de Informática - CLEI, 2002</volume>
+	</article>
+	<inproceedings id="LRH03">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>XML Topic Map Builder: Specification and Generation</title>
+		<booktitle>XATA 2003 - XML, Aplicações e Tecnologias Associadas</booktitle>
+		<year>2003</year>
+		<address>Braga - Portugal</address>
+		<month>02.13</month>
+		<doi>http://hdl.handle.net/1822/620</doi>
+	</inproceedings>
+	<inproceedings id="Ram03">
+		<author-ref authorid="jcr"/>
+		<title>O XML nos curriculae das licenciaturas em informática</title>
+		<booktitle>XATA 2003 - XML, Aplicações e Tecnologias Associadas</booktitle>
+		<year>2003</year>
+		<address>Braga - Portugal</address>
+		<month>02.13</month>
+		<doi>http://hdl.handle.net/1822/554</doi>
+	</inproceedings>
+	<article id="SRFP95">
+		<author id="hs">H. Santos</author>
+		<author-ref authorid="jcr"/>
+		<author id="jmf">J. M. Fernandes</author>
+		<author id="ajp">A. J. Proença</author>
+		<title>A Heterogeneous Computer Vision Architecture: Implementation Issues</title>
+		<journal>Computing Systems in Engineering</journal>
+		<year>1995</year>
+		<volume>volume 6, número 4/5, páginas 401-408</volume>
+	</article>
+	<inproceedings id="LRH03b">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>TM-Builder: Um Construtor de Ontologias baseado em Topic Maps</title>
+		<booktitle>CLEI'03</booktitle>
+		<year>2003</year>
+		<address>La Paz, Bolívia</address>
+		<month>09.29</month>
+		<doi>http://hdl.handle.net/1822/555</doi>
+	</inproceedings>
+	<inproceedings id="LRH03c">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Geração automática de interfaces Web para sistemas de informação: Metamorphosis</title>
+		<booktitle>COOPMedia 2003</booktitle>
+		<year>2003</year>
+		<address>ISEP, Porto, Portugal</address>
+		<month>10.08</month>
+		<doi>http://hdl.handle.net/1822/556</doi>
+	</inproceedings>
+	<inproceedings id="SMR03">
+		<author id="des">Daniel Edgar Pinto Soares</author>
+		<author id="mcm">Maria da Conceição Vieira Mota</author>
+		<author-ref authorid="jcr"/>
+		<title>Xexam: uma linguagem de suporte para exames online (e-learning)</title>
+		<booktitle>XATA2003 - XML: Aplicações e Tecnologias Associadas</booktitle>
+		<year>2003</year>
+		<address>Vila Verde - Portugal</address>
+		<month>02.13-14</month>
+		<doi>http://hdl.handle.net/1822/557</doi>
+	</inproceedings>
+	<inproceedings id="JRH03">
+		<author-ref authorid="mhj"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>XML Templates for Constraints (XTC), Um Nível de Abstracção para Linguagens de
+			Especificação de Restrições</title>
+		<booktitle>XATA2003 - XML: Aplicações e Tecnologias Associadas</booktitle>
+		<year>2003</year>
+		<address>Vila Verde - Portugal</address>
+		<month>02.13-14</month>
+		<doi>http://hdl.handle.net/1822/4911</doi>
+	</inproceedings>
+	<proceedings id="RHLA03">
+		<title>XATA2003 - XML: Aplicações e Tecnologias Associadas</title>
+		<year>2003</year>
+		<editor-ref authorid="jcr"/>
+		<editor-ref authorid="prh"/>
+		<editor-ref authorid="grl"/>
+		<editor id="gva">Gustavo V. Arnold</editor>
+		<address>Vila Verde - Portugal</address>
+		<month>02.13-14</month>
+		<doi>http://hdl.handle.net/1822/607</doi>
+	</proceedings>
+	<inbook id="Ram99b">
+		<author-ref authorid="jcr"/>
+		<title>EINE'99 - II Escola de Informática da Sociedade Brasileira de Computação</title>
+		<chapter>Extensible Markup Language (XML)- A promessa e a esperança?...</chapter>
+		<pages>49-76</pages>
+		<publisher>Sociedade Brasileira de Computação (SBC)</publisher>
+		<year>1999</year>
+		<month>11.23-26</month>
+	</inbook>
+	<masterthesis id="Ram93">
+		<author-ref authorid="jcr"/>
+		<title>Um Compilador para o GLiTCH</title>
+		<school>Escola de Engenharia - Universidade do Minho</school>
+		<year>1993</year>
+		<month>10</month>
+	</masterthesis>
+	<inproceedings id="VECPAR93">
+		<author-ref authorid="hs"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="jmf"/>
+		<author-ref authorid="ajp"/>
+		<title>A Heterogeneous Computer Vision Architecture: Implementation Issues</title>
+		<booktitle>1st International Meeting on Vector and Paralell Processing</booktitle>
+		<year>1993</year>
+	</inproceedings>
+	<inproceedings id="RH98b">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Qualidade na Publicação Electrónica: como controlá-la?</title>
+		<booktitle>Quatic 98: III Encontro Nacional para a Qualidade nas Tecnologias da Informação e
+			Comunicação</booktitle>
+		<year>1998</year>
+		<address>Guimarães - Portugal</address>
+		<doi>http://hdl.handle.net/1822/621</doi>
+	</inproceedings>
+	<inproceedings id="RH98c">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Informatics and Archives: a present needed symbiosis</title>
+		<booktitle>Workshop internacional Informação e documentos de arquivo em ambientes digitais</booktitle>
+		<year>1998</year>
+		<address>Porto - Portugal</address>
+	</inproceedings>
+	<inproceedings id="RH98d">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Os desafios colocados pela informação estruturada no contexto dos arquivos: o arquivo distrital de Braga</title>
+		<booktitle>IX encontro nacional de Museus e Autarquias</booktitle>
+		<year>1998</year>
+		<address>Loures - Portugal </address>
+	</inproceedings>
+	<misc id="Ram98">
+		<author-ref authorid="jcr"/>
+		<title>Tutorial: Documentação Estruturada - Será que a minha empresa deve migrar para uma tecnologia baseada em SGML?</title>
+		<howpublished>tutorial at Terceiro Encontro Nacional para a Qualidade nas tecnologias de
+			informação e comunicação, Guimarães - Portugal</howpublished>
+		<year>1998</year>
+	</misc>
+	<inproceedings id="RLH03b">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="prh"/>
+		<title>Adrian: a platform for E-Learning Content Prodution</title>
+		<booktitle>Second International Conference on Multimedia and ICTs in Education</booktitle>
+		<year>2003</year>
+		<address>Badajoz - Espanha</address>
+		<month>12.04</month>
+		<doi>http://hdl.handle.net/1822/558</doi>
+	</inproceedings>
+	<inproceedings id="LR04">
+		<author id="cajo">Carlos J. Feijó Lopes</author>
+		<author-ref authorid="jcr"/>
+		<title>Web Services: Metodologias de Desenvolvimento</title>
+		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2004)</booktitle>
+		<year>2004</year>
+		<address>Faculdade de Engenharia da Universidade do Porto - Porto</address>
+		<month>02.12</month>
+		<doi>http://hdl.handle.net/1822/559</doi>
+		<isbn>972-99166-0-8</isbn>
+	</inproceedings>
+	<inproceedings id="FR04">
+		<author id="mf">Miguel Ferreira</author>
+		<author-ref authorid="jcr"/>
+		<title>Aquisição e Armazenamento de Metainformação no Contexto de um Arquivo</title>
+		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2004)</booktitle>
+		<year>2004</year>
+		<address>Faculdade de Engenharia da Universidade do Porto - Porto</address>
+		<month>02.12</month>
+		<doi>http://hdl.handle.net/1822/614</doi>
+		<isbn>972-99166-0-8</isbn>
+	</inproceedings>
+	<inproceedings id="LRH04">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Um Extractor de Topic Maps a partir de Recursos Heterogéneos de Informação</title>
+		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2004)</booktitle>
+		<year>2004</year>
+		<address>Faculdade de Engenharia da Universidade do Porto - Porto</address>
+		<month>02.12</month>
+		<doi>http://hdl.handle.net/1822/613</doi>
+		<isbn>972-99166-0-8</isbn>
+	</inproceedings>
+	<inproceedings id="RTFR04">
+		<author-ref authorid="jcr"/>
+		<author id="pt">Pedro Taveira</author>
+		<author-ref authorid="rf"/>
+		<author id="vr">Vasco Rocha</author>
+		<title>Gerador de Web Services para cadeias de transformações de documentos XML</title>
+		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2004)</booktitle>
+		<year>2004</year>
+		<address>Faculdade de Engenharia da Universidade do Porto - Porto</address>
+		<month>02.12</month>
+		<doi>http://hdl.handle.net/1822/561</doi>
+		<isbn>972-99166-0-8</isbn>
+	</inproceedings>
+	<inproceedings id="MRH04">
+		<author id="ram">Ricardo Martins</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Comparação de Linguagens para descrição de Interfaces baseadas em XML</title>
+		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2004)</booktitle>
+		<year>2004</year>
+		<address>Faculdade de Engenharia da Universidade do Porto - Porto</address>
+		<month>02.12</month>
+		<doi>http://hdl.handle.net/1822/562</doi>
+		<isbn>972-99166-0-8</isbn>
+	</inproceedings>
+	<proceedings id="RS04">
+		<title>XATA2004 (1ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas</title>
+		<year>2004</year>
+		<editor-ref authorid="jcr"/>
+		<editor id="albie">Alberto Simões</editor>
+		<address>Faculdade de Engenharia do Porto - Portugal</address>
+		<month>02.12-13</month>
+		<doi>http://hdl.handle.net/1822/602</doi>
+		<isbn>972-99166-0-8</isbn>
+	</proceedings>
+	<inproceedings id="FR04b">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="mf"/>
+		<title>DIGITARQ - CREATING AND MANAGING A DIGITAL ARCHIVE</title>
+		<booktitle>Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science</booktitle>
+		<address>Department of Information and Documentation Science at the University of Brasilia, in Brazil</address>
+		<year>2004</year>
+		<month>06.23-26</month>
+		<doi>http://hdl.handle.net/1822/615</doi>
+		<isbn>85-88130-02-05</isbn>
+	</inproceedings>
+	<inproceedings id="RLH04">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="prh"/>
+		<title>Adrian - E-Learning Content Production (creating online exams)</title>
+		<booktitle>Electronic Publishing 2004 - Building Digital Bridges: linking cultures, commerce and science</booktitle>
+		<address>Department of Information and Documentation Science at the University of Brasilia, in Brazil</address>
+		<year>2004</year>
+		<month>06.23-26</month>
+		<doi>http://hdl.handle.net/1822/608</doi>
+		<isbn>85-88130-02-05</isbn>
+	</inproceedings>
+	<inproceedings id="LSRH04">
+		<author-ref authorid="grl"/>
+		<author id="ws">Weber Souza</author>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Using the Ontology Paradigm to integrate Information Systems</title>
+		<booktitle>International Conference on Knowledge Engineering and Decision Support</booktitle>
+		<address>Porto - Portugal</address>
+		<year>2004</year>
+		<month>07.21-23</month>
+		<doi>http://hdl.handle.net/1822/584</doi>
+	</inproceedings>
+	<article id="JLRH02b">
+		<author-ref authorid="mhj"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>XCSL tutorial</title>
+		<journal>ACM Crossroads</journal>
+		<volume>8.5</volume>
+		<year>2002</year>
+		<uri>http://doi.acm.org/10.1145/991118.991122</uri>
+		<publisher>ACM Press</publisher>
+		<doi>http://hdl.handle.net/1822/610</doi>
+	</article>
+	<inproceedings id="LRH04-Clei">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Extração de Topic Maps no Oveia: Especificação e Processamento</title>
+		<booktitle>30ma Conferencia Latinoamericana de
+Informática (CLEI2004)</booktitle>
+		<year>2004</year>
+		<address>Sociedad Peruana de Computación, Peru</address>
+		<month>Sept.</month>
+		<editor id="clei04">Mauricio Solar and David Fernández-Baca and Ernesto Cuadros-Vargas</editor>
+		<uri>http://clei2004.spc.org.pe/es/html/pdfs/140.pdf</uri>
+		<isbn>9972-9876-2-0</isbn>
+		<doi>http://hdl.handle.net/1822/594</doi>
+	</inproceedings>
+	<inproceedings id="RHL04-eLes">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<author-ref authorid="grl"/>
+		<title>ADRIAN: Sistema de Suporte à Produção de Conteúdos</title>
+		<booktitle>Conferência eLes'04 - E-Learning no Ensino Superior</booktitle>
+		<year>2004</year>
+		<address>Universidade de Aveiro, Portugal</address>
+		<month>Outubro</month>
+		<doi>http://hdl.handle.net/1822/733</doi>
+		<isbn>972-789-134-9</isbn>
+	</inproceedings>
+	<inproceedings id="FR04-capsi">
+		<author-ref authorid="mf"/>
+		<author-ref authorid="jcr"/>
+		<title>DigitArq: Creating a Historical Digital Archive</title>
+		<booktitle>5ª Conferência da APSI - Associação Portuguesa dos Sistemas de Informação</booktitle>
+		<year>2004</year>
+		<address>Instituto Superior Técnico, Lisboa, Portugal</address>
+		<month>11.03</month>
+		<doi>http://hdl.handle.net/1822/718</doi>
+	</inproceedings>
+	<inproceedings id="LRH04-XMLw">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>XTche - A Language for Topic Maps Schema and Constraints</title>
+		<booktitle>XML Conference and Exhibition 2004 Proceedings</booktitle>
+		<year>2004</year>
+		<month>12</month>
+		<address>Washington, USA</address>
+		<doi>http://hdl.handle.net/1822/681</doi>
+	</inproceedings>
+	<proceedings id="RSL05">
+		<title>XATA2005 (3ª Conferência Nacional) - XML: Aplicações e Tecnologias Associadas</title>
+		<year>2005</year>
+		<editor-ref authorid="jcr"/>
+		<editor-ref authorid="albie"/>
+		<editor id="jcl">João Correia Lopes</editor>
+		<address>Casa da Torre, Vila Verde - Portugal</address>
+		<month>02.10-11</month>
+		<doi>http://hdl.handle.net/1822/865</doi>
+		<isbn>972-99166-1-6</isbn>
+	</proceedings>
+	<inproceedings id="Ram05">
+		<author-ref authorid="jcr"/>
+		<title>Document Composer: uma aplicação XML para extracção de informação de repositórios XML</title>
+		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2005)</booktitle>
+		<year>2005</year>
+		<address>Braga</address>
+		<month>02.10</month>
+		<doi>http://hdl.handle.net/1822/884</doi>
+		<isbn>972-99166-1-6</isbn>
+	</inproceedings>
+	<inproceedings id="LRH05">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Obtendo Interoperabilidade Semântica em Sistemas Heterogéneos de Informação com Metamorphosis</title>
+		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2005)</booktitle>
+		<year>2005</year>
+		<address>Braga</address>
+		<month>02.10</month>
+		<doi>http://hdl.handle.net/1822/1020</doi>
+		<isbn>972-99166-1-6</isbn>
+	</inproceedings>
+	<inproceedings id="LRH05b">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Constraining XML Topic Maps with XTche</title>
+		<booktitle>XML: Aplicações e Tecnologias Associadas (XATA 2005)</booktitle>
+		<year>2005</year>
+		<address>Braga</address>
+		<month>02.10</month>
+		<doi>http://hdl.handle.net/1822/994</doi>
+		<isbn>972-99166-1-6</isbn>
+	</inproceedings>
+	<book id="RL05">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="cajo"/>
+		<title>Web Services: Aplicações Distribuídas sobre Protocolos Internet</title>
+		<publisher>Colecção Web Pro</publisher>
+		<year>2005</year>
+		<address>FCA - Editora de Informática</address>
+		<month>03</month>
+		<isbn>972-722-421-0</isbn>
+	</book>
+	<inproceedings id="LRH04-WWS">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Achieving Semantic Interoperability in Heterogeneous Information Systems with Topic Maps</title>
+		<booktitle>I  Workshop de Web Semântica (WWS2004)</booktitle>
+		<year>2004</year>
+		<address>Brasília, Brasil</address>
+		<month>10.22</month>
+		<deliverables>
+			<pdf url="http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2004/LRH04-WWS.pdf"/>
+		</deliverables>
+	</inproceedings>
+	<inproceedings id="RLH05">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="prh"/>
+		<title>Constraining Topic Maps: A TMCL declarative implementation</title>
+		<booktitle>Extreme Markup Languages 2005, Montréal - Canada, 1-5 August 2005.</booktitle>
+		<year>2005</year>
+		<address>Montréal - Canada</address>
+		<month>08.04</month>
+		<doi>http://hdl.handle.net/1822/3117</doi>
+	</inproceedings>
+
+	<inbook id="RLH06">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="prh"/>
+		<editor id="lutz">Lutz Maicher</editor>
+		<editor id="park">Jack Park</editor>
+		<title>Lecture Notes in Computer Science</title>
+		<chapter>Metamorphosis - A Topic Maps Based Environment to Handle Heterogeneous Information Resources</chapter>
+		<pages>14-25</pages>
+		<publisher>Springer-Verlag GmbH</publisher>
+		<year>2006</year>
+		<month>02</month>
+		<volume>3873 / 2006</volume>
+		<isbn>3-540-32527-1</isbn>
+		<doi>10.1007/11676904_2</doi>
+	</inbook>
+
+	<inproceedings id="RLH05b">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="prh"/>
+		<title>Metamorphosis - a Topic Maps based Environment to Handle Heterogeneous Information Resources</title>
+		<booktitle>TMRA'05 - International Workshop on  Topic Map Research and Applications </booktitle>
+		<year>2005</year>
+		<address>Leipzig - Germany</address>
+		<month>10.06</month>
+		<deliverables>
+			<pdf url="http://www.di.uminho.pt/~jcr/XML/publicacoes/artigos/2005/RLH05-TMRA.pdf"/>
+		</deliverables>
+	</inproceedings>
+	<inproceedings id="FBR05-CAPSI">
+		<author-ref authorid="mf"/>
+		<author id="aab">Ana Alice Baptista</author>
+		<author-ref authorid="jcr"/>
+		<title>Avaliação Automática de Migração em Redes Distribuídas de
+Conversores</title>
+		<booktitle>6ª Conferência da Associação Portuguesa de Sistemas de Informação</booktitle>
+		<year>2005</year>
+		<address>Bragança - Portugal</address>
+		<month>10.26</month>
+		<doi>http://hdl.handle.net/1822/3616</doi>
+	</inproceedings>
+	<article id="RLH05-revAPSI17">
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="grl"/>
+		<author-ref authorid="prh"/>
+		<title>Geração automática de interfaces Web para Sistemas de Informação:
+Metamorphosis</title>
+		<journal>Revista da Associação Portuguesa de Sistemas de Informação</journal>
+		<volume>17</volume>
+		<year>2005</year>
+		<publisher>APSI</publisher>
+		<issn>0872-7031</issn>
+		<doi>http://hdl.handle.net/1822/4365</doi>
+	</article>
+	<inproceedings id="LRH05-CLEI">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Ulisses: Um Navegador Conceptual para Topic Maps</title>
+		<booktitle>XXXI Conferência Latinoamericana de Informática</booktitle>
+		<year>2005</year>
+		<address>Santiago de Cali - Colombia</address>
+		<month>10.10</month>
+		<isbn>958-670-422-X</isbn>
+		<doi>http://hdl.handle.net/1822/3532</doi>
+	</inproceedings>
+
+	<inproceedings id="FBR06-XATA">
+		<author-ref authorid="mf"/>
+		<author-ref authorid="aab"/>
+		<author-ref authorid="jcr"/>
+		<title>CRIB : a service oriented architecture for digital preservation outsourcing</title>
+		<booktitle>XATA - XML: Aplicações e Tecnologias Associadas</booktitle>
+		<year>2006</year>
+		<address>Portalegre - Portugal</address>
+		<month>02.09</month>
+		<isbn>972-99166-2-4</isbn>
+		<doi>http://hdl.handle.net/1822/4457</doi>
+	</inproceedings>
+
+	<inproceedings id="RD06-XATA">
+		<author-ref authorid="jcr"/>
+		<author id="migaldo">Luis Miguel Alves Domingues</author>
+		<title>Especificação e Geração Automática de Navegadores para Redes Semânticas Baseados em Interfaces Web</title>
+		<booktitle>XATA - XML: Aplicações e Tecnologias Associadas</booktitle>
+		<year>2006</year>
+		<address>Portalegre - Portugal</address>
+		<month>02.09</month>
+		<isbn>972-99166-2-4</isbn>
+		<doi>http://hdl.handle.net/1822/4576</doi>
+	</inproceedings>
+
+	<inproceedings id="LRH06-XATA">
+		<author-ref authorid="grl"/>
+		<author-ref authorid="jcr"/>
+		<author-ref authorid="prh"/>
+		<title>Topic Maps Aplicados ao Sistema de Informação do Museu da Emigração</title>
+		<booktitle>XATA - XML: Aplicações e Tecnologias Associadas</booktitle>
+		<year>2006</year>
+		<address>Portalegre - Portugal</address>
+		<month>02.09</month>
+		<isbn>972-99166-2-4</isbn>
+		<doi>http://hdl.handle.net/1822/4910</doi>
+	</inproceedings>
+
+
+</bibliography>

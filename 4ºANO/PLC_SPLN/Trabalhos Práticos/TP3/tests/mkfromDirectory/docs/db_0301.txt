@@ -1,0 +1,16 @@
+Diário de bordo 01/03/2021
+Antonio Carvalho
+
+- Exploração da biblioteca jjcli;
+- Criação de um programa em Python que escolhe de forma aleatória um aluno de uma lista de alunos (utilizando a biblioteca random);
+- Alteração do programa para que passe a ler a lista de alunos de um ficheiro com o nome da UC (utilizando a biblioteca os e sys);
+- Exploração de funções como readlines, open, read, strip;
+- Exemplificação de mais características semânticas de Python no w3schools;
+- Exemplificação de operadores RE Greedy e não Greedy e outras funcionalidades, utilizando um script que atuava sobre a ementa da cantina;
+
+TPC: 
+- ver modulo json;
+- script:
+	ementa 2f -> mostra ementa de segunda feira
+	ementa2json -> cria ficheiro json com a ementa 
+

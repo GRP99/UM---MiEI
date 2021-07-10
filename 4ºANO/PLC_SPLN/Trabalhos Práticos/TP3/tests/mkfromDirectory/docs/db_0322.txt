@@ -1,0 +1,29 @@
+Diario de bordo - Aula 5
+
+autor: Luís Ribeiro, a85954
+
+. Inicialmente, discutiu-se o trabalho prático 0 (TP0) sobre a sua estruturação.
+    - Noção de Ontologia e de Base de dados.
+    - Qual a informação sobre um indivíduo a guardar, e como a vamos guardar (Dicionário de Pessoa, como chave o seu identificador).
+      → Noção de nome e casos especiais: Prefixos de nome (como "Dr"), "Junior", alcunhas e troca de nomes após Casamento.
+      → Dados opcionais como a data de Nascimento e de Óbito.
+      → Filhos de Casamentos diferentes. Possibilidade de filhos fora do casamento.
+      → Apontadores para códigos da família. (#F)
+      → Notas e apontador para documentos (como histórias, fotografias...).
+    - Informação sobre Família e respetivo código.
+      → Pai: #I, Mãe: #I, Filhos: #I*, DataCasamento... Sendo #I um apontador para um indivíduo.
+      → Notas e apontador para documentos (como histórias, fotografias...).
+    - Documento = #Doc -→ IdDoc
+      → IdDoc = .txt
+                .metadados
+    - Pesquisa organizada: Indíces → Procura e Navegação.
+    - Dicionário global com Documentos, Famílias e Indíviduos.
+      → I[id] => dados Indivíduo
+      → F[id] => dados Família
+      → D[id] => dados Documento
+
+. Introdução ao Yaml e à sua sintaxe. (> pip3 install pyyaml)
+  - Criação de uma script, usando como exemplo um ficheiro yaml representativo de uma genealogia.
+  - Leitura do yaml usando a biblioteca pyyaml, e tratamento da informação lida.
+    → Pretty Prints.
+    → Interpretador de Queries.

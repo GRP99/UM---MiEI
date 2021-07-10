@@ -1,0 +1,41 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container
+            h4(class="w3-container w3-center") Paciente #{idpaciente}
+        if info.length > 0
+            .w3-container
+                table.w3-table-all.w3-section
+                    each i in info
+                        tr
+                            th Data de Nascimento
+                                td= i.data_nascimento
+                                td
+                        tr
+                            th Email
+                                td= i.email
+                                td
+                        tr            
+                            th Morada
+                                td= i.morada
+                                td
+                        tr
+                            th Nome
+                                td= i.nome
+                                td
+                        tr
+                            th Número Utente
+                                td= i.num_utente
+                                td
+                        tr
+                            th Sexo
+                                td= i.sexo
+                                td
+                        tr
+                            th Telemóvel
+                                td= i.telemovel
+                                td
+        else
+            .w3-container
+                h5(class="w3-container w3-center") Não foi possível obter informação do paciente em causa ...

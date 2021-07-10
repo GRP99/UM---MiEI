@@ -1,0 +1,354 @@
+@prefix : <http://www.di.uminho.pt/prc2021/projeto#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/projeto> .
+
+<http://www.di.uminho.pt/prc2021/projeto> rdf:type owl:Ontology ;
+                                           rdfs:comment "A simple vocabulary to describe cocktails, their ingredients, their preparations and their creators." ;
+                                           rdfs:label "Cocktails Ontology" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/projeto#asGarnishCocktail
+:asGarnishCocktail rdf:type owl:ObjectProperty ;
+                   owl:inverseOf :garnishWithIngredient ;
+                   rdfs:domain :Ingredient ;
+                   rdfs:range :Cocktail ;
+                   rdfs:comment "Ingredient as garnish a Cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#associatedWithBar
+:associatedWithBar rdf:type owl:ObjectProperty ;
+                   owl:inverseOf :isAssociatedToCocktail ;
+                   rdfs:domain :Cocktail ;
+                   rdfs:range :Bar_Company ;
+                   rdfs:comment "Cocktail associated with a Bar or Company" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#createCocktail
+:createCocktail rdf:type owl:ObjectProperty ;
+                owl:inverseOf :createdByBartender ;
+                rdfs:domain :Bartender ;
+                rdfs:range :Cocktail ;
+                rdfs:comment "Bartender create a Cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#createdByBartender
+:createdByBartender rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Cocktail ;
+                    rdfs:range :Bartender ;
+                    rdfs:comment "Cocktail created by a Bartender" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#createdInLocation
+:createdInLocation rdf:type owl:ObjectProperty ;
+                   owl:inverseOf :originOfCocktail ;
+                   rdfs:domain :Cocktail ;
+                   rdfs:range :Location ;
+                   rdfs:comment "Cocktail created in Location" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#garnishWithIngredient
+:garnishWithIngredient rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Cocktail ;
+                       rdfs:range :Ingredient ;
+                       rdfs:comment "Cocktail garnish with a Ingredient" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#hasCategory
+:hasCategory rdf:type owl:ObjectProperty ;
+             owl:inverseOf :haveCocktail ;
+             rdfs:domain :Cocktail ;
+             rdfs:range :Category ;
+             rdfs:comment "Cocktail has a Category" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#haveCocktail
+:haveCocktail rdf:type owl:ObjectProperty ;
+              rdfs:domain :Category ;
+              rdfs:range :Cocktail ;
+              rdfs:comment "Category have a Cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#haveQuantity
+:haveQuantity rdf:type owl:ObjectProperty ;
+              owl:inverseOf :useIngredient ;
+              rdfs:domain :Ingredient ;
+              rdfs:range :QuantityOfIngredient ;
+              rdfs:comment "Ingredient have a Quantity Of Ingredient" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#isAssociatedToCocktail
+:isAssociatedToCocktail rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Bar_Company ;
+                        rdfs:range :Cocktail ;
+                        rdfs:comment "Bar or Company is associated to a Cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#isUsedCocktail
+:isUsedCocktail rdf:type owl:ObjectProperty ;
+                owl:inverseOf :needQuantity ;
+                rdfs:domain :QuantityOfIngredient ;
+                rdfs:range :Cocktail ;
+                rdfs:comment "Quantity of Ingredient is used a Cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#needQuantity
+:needQuantity rdf:type owl:ObjectProperty ;
+              rdfs:domain :Cocktail ;
+              rdfs:range :QuantityOfIngredient ;
+              rdfs:comment "Cocktail need a Quantity of ingredient" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#originOfCocktail
+:originOfCocktail rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Location ;
+                  rdfs:range :Cocktail ;
+                  rdfs:comment "Location origin of a Cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#serveCocktail
+:serveCocktail rdf:type owl:ObjectProperty ;
+               owl:inverseOf :serveInGlassware ;
+               rdfs:domain :Glassware ;
+               rdfs:range :Cocktail ;
+               rdfs:comment "Glassware serve a Cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#serveInGlassware
+:serveInGlassware rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Cocktail ;
+                  rdfs:range :Glassware ;
+                  rdfs:comment "Cocktail serve in a Glassware" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#useIngredient
+:useIngredient rdf:type owl:ObjectProperty ;
+               rdfs:domain :QuantityOfIngredient ;
+               rdfs:range :Ingredient ;
+               rdfs:comment "Quantity of Ingredient use a Ingredient" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/projeto#alcoholic
+:alcoholic rdf:type owl:DatatypeProperty ;
+           rdfs:comment "if cocktail is alcoholic or not" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#drinkName
+:drinkName rdf:type owl:DatatypeProperty ;
+           rdfs:comment "Cocktail name" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#drinkThumb
+:drinkThumb rdf:type owl:DatatypeProperty ;
+            rdfs:comment "URL to image of cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#measure
+:measure rdf:type owl:DatatypeProperty ;
+         rdfs:comment "Measure of Quantity of Ingredient" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#notes
+:notes rdf:type owl:DatatypeProperty ;
+       rdfs:comment "Free text notes" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#preparationDE
+:preparationDE rdf:type owl:DatatypeProperty ;
+               rdfs:comment "Instructions for preparing cocktail in German" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#preparationEN
+:preparationEN rdf:type owl:DatatypeProperty ;
+               rdfs:comment "Instructions for preparing cocktail in English" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#preparationIT
+:preparationIT rdf:type owl:DatatypeProperty ;
+               rdfs:comment "Instructions for preparing cocktail in Italian" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#quantity
+:quantity rdf:type owl:DatatypeProperty ;
+          rdfs:comment "Quantity of Ingredient" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#strBar
+:strBar rdf:type owl:DatatypeProperty ;
+        rdfs:comment "Bar or Company name" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#strBartender
+:strBartender rdf:type owl:DatatypeProperty ;
+              rdfs:comment "Bartender name" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#strCategory
+:strCategory rdf:type owl:DatatypeProperty ;
+             rdfs:comment "Category name" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#strGlass
+:strGlass rdf:type owl:DatatypeProperty ;
+          rdfs:comment "Name of type of serving glass" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#strIngredient
+:strIngredient rdf:type owl:DatatypeProperty ;
+               rdfs:comment "Ingredient name" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#strLocation
+:strLocation rdf:type owl:DatatypeProperty ;
+             rdfs:comment "Location name" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/projeto#Bar_Company
+:Bar_Company rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :isAssociatedToCocktail ;
+                                   owl:someValuesFrom :Cocktail
+                                 ] ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :strBar ;
+                               owl:someValuesFrom xsd:string
+                             ] ;
+             rdfs:comment "Bar or company the bartender is associated with" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#Bartender
+:Bartender rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :createCocktail ;
+                                 owl:someValuesFrom :Cocktail
+                               ] ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :strBartender ;
+                             owl:someValuesFrom xsd:string
+                           ] ;
+           rdfs:comment "Bartender who created the cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#Category
+:Category rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :haveCocktail ;
+                                owl:someValuesFrom :Cocktail
+                              ] ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :strCategory ;
+                            owl:someValuesFrom xsd:string
+                          ] ;
+          rdfs:comment "Category of cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#Cocktail
+:Cocktail rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :associatedWithBar ;
+                                                       owl:someValuesFrom :Bar_Company
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :createdByBartender ;
+                                                       owl:someValuesFrom :Bartender
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :createdInLocation ;
+                                                       owl:someValuesFrom :Location
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :hasCategory ;
+                                                       owl:someValuesFrom :Category
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :needQuantity ;
+                                                       owl:someValuesFrom :QuantityOfIngredient
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :serveInGlassware ;
+                                                       owl:someValuesFrom :Glassware
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :drinkName ;
+                                                   owl:someValuesFrom xsd:string
+                                                 ]
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :preparationEN ;
+                                                   owl:someValuesFrom xsd:string
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] ;
+          rdfs:comment "Cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#Glassware
+:Glassware rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :serveCocktail ;
+                                 owl:someValuesFrom :Cocktail
+                               ] ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :strGlass ;
+                             owl:someValuesFrom xsd:string
+                           ] ;
+           rdfs:comment "Type of serving glass" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#Ingredient
+:Ingredient rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                  owl:onProperty :asGarnishCocktail ;
+                                  owl:someValuesFrom :Cocktail
+                                ] ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :strIngredient ;
+                              owl:someValuesFrom xsd:string
+                            ] ;
+            rdfs:comment "Ingredient used in cocktail" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#Location
+:Location rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty :originOfCocktail ;
+                                owl:someValuesFrom :Cocktail
+                              ] ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :strLocation ;
+                            owl:someValuesFrom xsd:string
+                          ] ;
+          rdfs:comment "Location of the company" .
+
+
+###  http://www.di.uminho.pt/prc2021/projeto#QuantityOfIngredient
+:QuantityOfIngredient rdf:type owl:Class ;
+                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                            owl:onProperty :useIngredient ;
+                                            owl:someValuesFrom :Ingredient
+                                          ] ;
+                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                        owl:onProperty :quantity ;
+                                        owl:someValuesFrom xsd:string
+                                      ] ;
+                      rdfs:comment "Ingredients and quantities" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

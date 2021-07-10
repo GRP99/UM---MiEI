@@ -1,0 +1,34 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        each e in episodio
+            header.w3-container.w3-blue
+                h3 Episódio: #{e.idepisodio}
+            .w3-container
+                table.w3-table-all.w3-section
+                    tr
+                        th Caracterização
+                            td= e.caracterizacao                  
+                    tr  
+                        th Pedidos Existentes
+                            td
+                                table.w3-table.w3-bordered(style="width: 100%; border: 1px solid black;")
+                                    tr(style="border: 1px solid black;")
+                                        th(style="border: 1px solid black;text-align:center") ID_Pedido
+                                        th(style="border: 1px solid black;text-align:center") Data_Hora
+                                        th(style="border: 1px solid black;text-align:center") Estado
+                                        th(style="text-align:center") Ver exame
+                                    each p in pedidos
+                                        tr(style="border: 1px solid black;")
+                                            td(style="border: 1px solid black;text-align:center")= p.idpedido
+                                            td(style="border: 1px solid black;text-align:center")= p.data_hora
+                                            td(style="border: 1px solid black;text-align:center")= p.estado
+                                            td(style="text-align:center")
+                                                form(action='/exame/'+p.fk_exame method='GET')
+                                                    input.w3-button.w3-grey.w3-circle(type='submit' value='+')
+
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/listaepisodios") Voltar à lista de episódios
+        p
+        a(href="/listatrabalho") Voltar à lista de trabalho

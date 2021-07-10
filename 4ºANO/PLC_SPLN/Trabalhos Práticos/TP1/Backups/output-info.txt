@@ -1,0 +1,65 @@
+{
+    "Nascimento": {
+        "local": "América do Sul, Brasil",
+        "dia": "1842"
+    },
+    "Falecimento": {
+        "local": "Dume - Braga, Quinta da Ordem",
+        "dia": "d. 1911"
+    },
+    "nome": "Francisca Carolina Antunes Rodrigues Guimarães",
+    "Casamentos": [
+        {
+            "Casamento I": {
+                "id_parceiro": "1078238",
+                "parceiro": "Manuel José Lopes Guimarães",
+                "local": "Donim - Guimarães, Casa de Sande",
+                "data": "03.02.1872"
+            }
+        },
+        {
+            "Casamento II": {
+                "id_parceiro": "1078243",
+                "parceiro": "Lourenço da Cunha Velho Sotomaior",
+                "local": "Braga, Braga",
+                "data": "05.03.1882"
+            }
+        }
+    ],
+    "Filhos": [
+        {
+            "Filhos do Casamento I": [
+                {
+                    "id": "1078239",
+                    "nome": "Francisca Carolina Antunes Guimarães"
+                },
+                {
+                    "id": "1078240",
+                    "nome": "Maria da Conceição Antunes Guimarães"
+                }
+            ]
+        },
+        {
+            "Filhos do Casamento II": [
+                {
+                    "id": "1078246",
+                    "nome": "João da Cunha Velho Sotomaior"
+                }
+            ]
+        }
+    ],
+    "Pais": [
+        {
+            "Pai": {
+                "id": "1076106",
+                "nome": "Francisco Antunes Guimarães"
+            }
+        },
+        {
+            "Mãe": {
+                "id": "1076107",
+                "nome": "D. Francisca Eulália Rodrigues de Araújo"
+            }
+        }
+    ]
+}

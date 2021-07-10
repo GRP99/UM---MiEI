@@ -1,0 +1,75 @@
+Exercício Nº 2: Relações familiares - Parte 1
+
+    PREFIX : <http://prc.di.uminho.pt/2021/myfamily#>
+
+    1. Constrói os triplos da relação Irmão;
+        CONSTRUCT {
+            ?a :irmao ?b .
+        } WHERE {
+            ?a :temProgenitor ?p1 .
+            ?b :temProgenitor ?p1 .
+            FILTER ( 
+                ?a != ?b &&
+                ?a != ?p1 &&
+                ?b != ?p1
+            )
+        }
+
+    2. Constrói os triplos da relação Bisavô;
+        CONSTRUCT {
+            ?a :bisavo ?b .
+        } WHERE {
+            ?a :ePaide ?p1 .
+            ?p1 :ePaide ?p2 .
+            ?p2 :eProgenitorDe ?b .
+            FILTER (
+                ?a != ?b &&
+                ?a != ?p1 &&
+                ?p1 != ?p2 &&
+                ?p2 != ?b
+            )
+        }
+
+    3. Constrói os triplos da relação Descendentes;
+        CONSTRUCT {
+            ?a :descendente ?b .
+        } WHERE {
+            ?b :eProgenitorDe+ ?a .
+        }
+
+    4. Constrói os triplos da relação Primo;
+        CONSTRUCT {
+            ?a :primo ?b .
+        } WHERE {
+            ?a :temProgenitor ?prog_a . 
+            ?prog_a :temProgenitor ?prog_prog_a .
+            ?prog_b :temProgenitor ?prog_prog_a .
+            ?b :temProgenitor ?prog_b .
+            FILTER(
+                ?a != ?b && 
+                ?a != ?prog_a &&
+                ?a != ?prog_prog_a &&
+                ?a != ?prog_b &&
+                ?prog_a != ?prog_prog_a &&
+                ?prog_a != ?prog_b &&
+                ?prog_a != ?b &&
+                ?prog_b != ?prog_prog_a &&
+                ?b != ?prog_b
+            )
+        }
+
+    5. Acrescenta o atributo sexo à tua ontologia, há várias formas de o fazer, escolhe a que entenderes. Constrói os triplos relacionados com esta propriedade usando as propriedades existentes: temPai e temMae;
+        CONSTRUCT {
+            ?mae :sexo "Feminino" . 
+            ?pai :sexo "Masculino" .
+        } WHERE {
+            ?pessoa1 :temMae ?mae .
+            ?pessoa2 :temPai ?pai .
+        }
+
+    6. Constrói os triplos das pessoas relacionadas com "José_Carlos_Leite_Ramalho_1967", diretamente ou indiretamente, ou seja, para todas as pessoas com caminho no grafo até ao indivíduo em questão constrói o triplo: :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom :indivíduoX .
+        CONSTRUCT {
+            :José_Carlos_Leite_Ramalho_1967 :temRelacaoCom ?individuoX .
+        } WHERE {
+            ?individuoX (:temProgenitor|:eProgenitorDe)+ :José_Carlos_Leite_Ramalho_1967 .
+        }

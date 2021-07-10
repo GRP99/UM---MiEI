@@ -1,0 +1,6 @@
+>>> DIA 6F : <<<
+    >  Almoço  <
+        - Sopa :  Sopa de feijão vermelho com feijão verde
+        - Prato :  Feijoada de marisco
+        - Acompanhamento 1 :  Arroz branco
+        - Acompanhamento 2 :  -

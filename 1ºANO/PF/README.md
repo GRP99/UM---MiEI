@@ -1,6 +1,6 @@
 # PF
-U.C. de Programação Funcional (2017/18)
 
-Mestrado Integrado em Eng. Informática - 1º ano - Universidade do Minho
+### Fichas & Questões de Programação Funcional (2017/18)
 
-* Gonçalo Pinto
+<div dir="rtl"> 
+realizado por <i>Gonçalo Pinto</i>

@@ -1,0 +1,8 @@
+compras : "INICIO" lista "FIM"
+
+lista : elem
+	  | elem "," cauda
+
+cauda : lista
+
+elem : "(" !compras.txt "-" $num ")"

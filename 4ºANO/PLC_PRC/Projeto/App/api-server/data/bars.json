@@ -1,0 +1,1322 @@
+[
+    {
+        "_id": "na",
+        "name": "N/A",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "forgeryverso",
+        "name": "Forgery & Verso",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "backbar",
+        "name": "Backbar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "pacificcocktailhaven",
+        "name": "Pacific Cocktail Haven",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "americanoak",
+        "name": "American Oak",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "amkkitchenbar",
+        "name": "AMK Kitchen Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "misterjius",
+        "name": "Mister Jiu's",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "theforgery",
+        "name": "The Forgery",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "driftfishhouseoysterbar",
+        "name": "Drift Fish House & Oyster Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "blackbird",
+        "name": "Blackbird",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "osha",
+        "name": "Osha",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "tonyspizzanapoletana",
+        "name": "Tony's Pizza Napoletana",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "easternstandard",
+        "name": "Eastern Standard",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thebonvivants",
+        "name": "The Bon Vivants",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "bestintentions",
+        "name": "Best Intentions",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "whiteoaktavern",
+        "name": "White Oak Tavern",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "padrecito",
+        "name": "Padrecito",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "tipplinghall",
+        "name": "Tippling Hall",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "harperrye",
+        "name": "Harper & Rye",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "theoldebar",
+        "name": "The Olde Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "walterfoods",
+        "name": "Walter Foods",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "theginroom",
+        "name": "The Gin Room",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "pdt",
+        "name": "PDT",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "dirtyhabit",
+        "name": "Dirty Habit",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "bonvivants",
+        "name": "Bon Vivants",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "wildhawk",
+        "name": "Wildhawk",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "presidiosocialclub",
+        "name": "Presidio Social Club",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "hotelmonteleone",
+        "name": "Hotel Monteleone",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "tinroofdrinkcommunity",
+        "name": "Tin Roof Drink Community",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "jupiterolympus",
+        "name": "Jupiter Olympus",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "pouringribbons",
+        "name": "Pouring Ribbons",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "gastronomistacom",
+        "name": "Gastronomista.com",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "ancestralgardenbarrestaurant",
+        "name": "Ancestral Garden Bar & Restaurant",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "smallvictory",
+        "name": "Small Victory",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "julietristorante",
+        "name": "Juliet Ristorante",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "localedition",
+        "name": "Local Edition",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thecedarssocial",
+        "name": "The Cedars Social",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "turnkey",
+        "name": "Turnkey",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "idaclaire",
+        "name": "Ida Claire",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "snakeoilcompany",
+        "name": "Snake Oil Company",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "benjamincooper",
+        "name": "Benjamin Cooper",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "shadyladysaloon",
+        "name": "Shady Lady Saloon",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "tradition",
+        "name": "Tradition",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "mourad",
+        "name": "Mourad",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "aq",
+        "name": "AQ",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "treo",
+        "name": "Treo",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "trickdog",
+        "name": "Trick Dog",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "lamarcebicheriaperuana",
+        "name": "La Mar Cebicheria Peruana",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "alembic",
+        "name": "Alembic",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "lolinda",
+        "name": "Lolinda",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "altaca",
+        "name": "Alta CA",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "rickhouse",
+        "name": "Rickhouse",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "fifthfloor",
+        "name": "Fifth Floor",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "unlimitedliabilities",
+        "name": "Unlimited Liabilities",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "stookeysclubmoderne",
+        "name": "Stookey's Club Moderne",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "rye",
+        "name": "Rye",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "parktavern",
+        "name": "Park Tavern",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thegladly",
+        "name": "The Gladly",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thebywater",
+        "name": "The Bywater",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "whitechapel",
+        "name": "Whitechapel",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "bryantscocktaillounge",
+        "name": "Bryant's Cocktail Lounge",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "onesixtyblue",
+        "name": "One Sixty Blue",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "miles",
+        "name": "Miles",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "artusi",
+        "name": "Artusi",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "palizzisocialclub",
+        "name": "Palizzi Social Club",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "saxonparole",
+        "name": "Saxon & Parole",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "michaelminarestaurantgroup",
+        "name": "Michael Mina Restaurant Group",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "nitecap",
+        "name": "Nitecap",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "partender",
+        "name": "Partender",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thecommissary",
+        "name": "The Commissary",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "spitfirebar",
+        "name": "Spitfire Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "henri",
+        "name": "Henri",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "dragocentro",
+        "name": "Drago Centro",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "putnamspubcooker",
+        "name": "Putnam's Pub & Cooker",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "deathco",
+        "name": "Death & Co.",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "ziryab",
+        "name": "Ziryab",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "sprigspirit",
+        "name": "Sprig & Spirit",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "matador",
+        "name": "Matador",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "fogharborfishhouse",
+        "name": "Fog Harbor Fish House",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "burrittroom",
+        "name": "Burritt Room",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "caporestaurant",
+        "name": "Capo Restaurant",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "rationdram",
+        "name": "Ration & Dram",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "bonneville",
+        "name": "Bonneville",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "ajapanesekirikata",
+        "name": "A Japanese Kirikata",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "japonais",
+        "name": "Japonais",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "amoryamargo",
+        "name": "Amor y Amargo",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "houseofbluesanaheim",
+        "name": "House of Blues Anaheim",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "southsidespirithouse",
+        "name": "Southside Spirit House",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "cocteleria",
+        "name": "Cocteleria",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "drink",
+        "name": "Drink",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "pabu",
+        "name": "Pabu",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "grimaldispizzeria",
+        "name": "Grimaldi's Pizzeria",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "surfcomber",
+        "name": "Surfcomber",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "robroythehideout",
+        "name": "Rob Roy, The Hideout",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "momofuku",
+        "name": "Momofuku",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "landandwaterco",
+        "name": "Land and Water Co.",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thedevilsacre",
+        "name": "The Devil's Acre",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "cala",
+        "name": "Cala",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "jazzkitchen",
+        "name": "Jazz Kitchen",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "maven",
+        "name": "Maven",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thetreasury",
+        "name": "The Treasury",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "theedison",
+        "name": "The Edison",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "oliveoak",
+        "name": "Olive & Oak",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "farina",
+        "name": "Farina",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "acme",
+        "name": "ACME",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "flatironlounge",
+        "name": "Flatiron Lounge",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "cherryblossompub",
+        "name": "Cherry Blossom PUB",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "neat",
+        "name": "NEAT",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "biltongbar",
+        "name": "Biltong Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "abv",
+        "name": "ABV",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "theusual",
+        "name": "The Usual",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "arthurave",
+        "name": "Arthur Ave.",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "savorgastropub",
+        "name": "Savor Gastropub",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thehawthorne",
+        "name": "The Hawthorne",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "tookeralley",
+        "name": "Tooker Alley",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thebendliquorlounge",
+        "name": "The Bend Liquor Lounge",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "coldglasscom",
+        "name": "Cold-Glass.com",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thesipologist",
+        "name": "The Sipologist",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "urchinbistrot",
+        "name": "Urchin Bistrot",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "comstocksaloon",
+        "name": "Comstock Saloon",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "beretta",
+        "name": "Beretta",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "theginjoint",
+        "name": "The Gin Joint",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "acehotel",
+        "name": "Ace Hotel",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "unionlodgeno1",
+        "name": "Union Lodge No.1",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "mizuizakaya",
+        "name": "Mizu Izakaya",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "departure",
+        "name": "Departure",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "larkonthepark",
+        "name": "LARK on the Park",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "skyfalllounge",
+        "name": "Skyfall Lounge",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "elevenmadisonpark",
+        "name": "Eleven Madison Park",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "highlands",
+        "name": "Highlands",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thecavalier",
+        "name": "The Cavalier",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "barstella",
+        "name": "Bar Stella",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "themust",
+        "name": "The Must",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "theviolethour",
+        "name": "The Violet Hour",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thelongislandbar",
+        "name": "The Long Island Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "expatriate",
+        "name": "Expatriate",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thedawson",
+        "name": "The Dawson",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "bonmarch",
+        "name": "Bon March\u00e9",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "burritttavern",
+        "name": "Burritt Tavern",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "hogislandoysterco",
+        "name": "Hog Island Oyster Co.",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "horsefeather",
+        "name": "Horsefeather",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "trounormand",
+        "name": "Trou Normand",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "americanexpresscenturionlounge",
+        "name": "American Express Centurion Lounge",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "hideoutatdalva",
+        "name": "Hideout at Dalva",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "elixir",
+        "name": "Elixir",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "absinthebrasseriebar",
+        "name": "Absinthe Brasserie & Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "imperial",
+        "name": "Imperial",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "greenriver",
+        "name": "GreenRiver",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "bdkrestaurantbar",
+        "name": "BDK Restaurant & Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "novela",
+        "name": "Novela",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "morabarkitchen",
+        "name": "Mora Bar & Kitchen",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "honeycut",
+        "name": "Honeycut",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "caffedante",
+        "name": "Caffe Dante",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "republicstreetbar",
+        "name": "Republic Street Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thespareroom",
+        "name": "The Spare Room",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "fivestar",
+        "name": "Five Star",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thesoignegroup",
+        "name": "The Soigne Group",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "thesailingbar",
+        "name": "The Sailing Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "bargoto",
+        "name": "Bar Goto",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "wingtip",
+        "name": "Wingtip",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "wishbar",
+        "name": "Wish Bar",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "novorestaurantlounge",
+        "name": "Novo Restaurant Lounge",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "barsiena",
+        "name": "Bar Siena",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "sienatavern",
+        "name": "Siena Tavern",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "henriettared",
+        "name": "Henrietta Red",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    }
+]

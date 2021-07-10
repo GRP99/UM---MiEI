@@ -1,0 +1,26 @@
+doctype html
+html
+	head
+		title Aplicação A
+		link(rel='stylesheet' href='/stylesheets/tables.css')
+		link(rel='stylesheet' href='/stylesheets/mystyle.css')
+		link(rel='stylesheet' href='/stylesheets/style.css')
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+		script(src='/javascripts/script.js')
+	body
+		.navbar
+			a(href="/")
+				img(src="/images/logo.jpg" alt="home" style="width:100px;height:40px;")
+			.dropdown
+				button(class="dropbtn") Registar           
+					i(class="fa fa-caret-down" aria-hidden="true")
+				.dropdown-content
+					a(href='/registarepisodio') Episódio
+					a(href='/registartipodeexame') Tipo de Exame
+					a(href='/registarpaciente') Paciente
+					a(href='/registarpedido') Pedido
+			a(href='/pedidos') Pedidos
+			a(href='/episodios') Episódios  
+		.main
+			block content

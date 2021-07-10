@@ -1,0 +1,20 @@
+doctype html
+html
+    head
+        title appPeriodicTable
+        link(rel='stylesheet' href='/stylesheets/mystyle.css')
+        link(rel='stylesheet' href='/stylesheets/style.css')
+        link(rel='stylesheet' href='https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css')
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+        script(type='text/javascript' src="https://code.jquery.com/jquery-3.5.1.js")
+        script(type='text/javascript' src='https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js')
+        script(type='text/javascript' src='/javascripts/scripts.js')
+    body
+        .navbar
+            a(href="/appPeriodicTable") 
+                img(src="/images/periodic-table.png" alt="home" style="width:30px;height:30px;")
+            a(href='/elements') Elements
+            a(href='/groups') Groups
+            a(href='/periods') Periods
+        .main
+            block content

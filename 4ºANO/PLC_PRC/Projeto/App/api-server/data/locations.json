@@ -1,0 +1,330 @@
+[
+    {
+        "_id": "boston",
+        "name": "Boston",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "sanfrancisco",
+        "name": "San Francisco",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "somerville",
+        "name": "Somerville",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "seattle",
+        "name": "Seattle",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "alameda",
+        "name": "Alameda",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "chicago",
+        "name": "Chicago",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "na",
+        "name": "N/A",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "neworleans",
+        "name": "New Orleans",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "atlanta",
+        "name": "Atlanta",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "houston",
+        "name": "Houston",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "newyork",
+        "name": "New York",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "philadelphia",
+        "name": "Philadelphia",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "brooklyn",
+        "name": "Brooklyn",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "stlouis",
+        "name": "St. Louis",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "newzealand",
+        "name": "New Zealand",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "austin",
+        "name": "Austin",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "dallas",
+        "name": "Dallas",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "sandiego",
+        "name": "San Diego",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "pacifica",
+        "name": "Pacifica",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "sacramento",
+        "name": "Sacramento",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "phoenix",
+        "name": "Phoenix",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "losgatos",
+        "name": "Los Gatos",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "milwaukee",
+        "name": "Milwaukee",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "washingtondc",
+        "name": "Washington DC",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "chicagoill",
+        "name": "Chicago, Ill",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "unitedkingdom",
+        "name": "United Kingdom",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "miami",
+        "name": "Miami",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "losangeles",
+        "name": "Los Angeles",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "spain",
+        "name": "Spain",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "anaheim",
+        "name": "Anaheim",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "london",
+        "name": "London",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "carlsbad",
+        "name": "Carlsbad",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "westport",
+        "name": "Westport",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "fortworth",
+        "name": "Fort Worth",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "charleston",
+        "name": "Charleston",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "denver",
+        "name": "Denver",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "lasvegas",
+        "name": "Las Vegas",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "portland",
+        "name": "Portland",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "japan",
+        "name": "Japan",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "sanluisobispo",
+        "name": "San Luis Obispo",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    },
+    {
+        "_id": "nashville",
+        "name": "Nashville",
+        "visits": {
+            "count": 0,
+            "authors": []
+        }
+    }
+]

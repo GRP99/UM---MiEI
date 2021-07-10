@@ -1,0 +1,703 @@
+[ {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Abílio_da_Silva_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Albina_Esteves_de_Araújo_1910",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ana_Margarida_Ribeiro_Leite_1980",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ana_da_Silva_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Arminda_da_Silva_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Domingos_Couto_Leite",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves_de_Araújo_1908",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ezequiel_da_Silva_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Filomena_Esteves_de_Araújo_1927",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Florinda_Alves_dos_Santos",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Generosa_da_Silva_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Gilberto_Couto_Leite",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Helena_Couto_Leite",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luís_Esteves_de_Araújo_1924",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Miguel_Cabrita_de_Araújo_Leite_1971",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Otília_Araújo_Leite_1944"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Ilda_dos_Santos_Ramalho_1949",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Isabel_Maria_Cabrita_de_Araújo_Leite_1971",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Marçal_Araújo_Leite_1943"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Otília_Araújo_Leite_1944"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Carlos_Leite_Ramalho_1967",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_Esteves_de_Araújo_1916",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#João_Bernardo_Couto_Leite_1916",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Luís_Esteves_de_Araújo_1918",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_Carlos_dos_Santos_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_Fernando_dos_Santos_Ramalho",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_dos_Santos_Ramalho_",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Helena_Leite_Ramalho_1968",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Flora_Araújo_Leite_1941"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_dos_Santos_Ramalho_1942"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho_1904"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Alves_dos_Santos_1906"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Custódia_Azevedo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Manuel_da_Silva_Ramalho_1866"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Christina_Rosa_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Jozé_da_Silva_Santos_1879"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#António_da_Silva_Ramalho"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Gonçalves_de_Azevedo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Francisco_Ramos_Mouco"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Dias_dos_Reis"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Orlando_Couto_Leite",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Rosa_Couto_Leite",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Sara_Esteves_de_Araújo_1914",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Teresa_Maria_Ribeiro_Leite_1985",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Margarida_Ribeiro_1954"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Rui_Alberto_Araújo_Leite_1948"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Esteves_de_Araújo_1912"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_Aristides_Costa_Leite_1909"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Flora_Castilho_do_Couto_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Marçal_da_Costa_Leite"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+}, {
+  "@id" : "http://prc.di.uminho.pt/2021/myfamily#Virgínia_Esteves_de_Araújo_1921",
+  "http://prc.di.uminho.pt/2021/myfamily#descendente" : [ {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_Araújo_1884"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Henrique_Luiz_de_Araújo_1867"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Emília_Esteves"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#Maria_das_Dores_Fernandes_de_Brito"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Emílio_de_Araújo"
+  }, {
+    "@id" : "http://prc.di.uminho.pt/2021/myfamily#José_Maria_Esteves"
+  } ]
+} ]

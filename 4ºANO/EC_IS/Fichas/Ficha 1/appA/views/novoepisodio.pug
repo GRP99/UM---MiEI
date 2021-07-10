@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container.w3-blue
+            h3 Introduza o novo episódio:
+        form.w3-container(action='/episodio' method='POST')
+            p
+            label Caracterização:
+            input.w3-input(type="text" name="caracterizacao" required='required')
+            hr
+            input.w3-btn.w3-blue(type="submit" value="Registar")
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/") Voltar

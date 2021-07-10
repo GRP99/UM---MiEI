@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    .w3-container.w3-section
+        header.w3-container.w3-grey
+            h2 Period 
+                i  #{id}
+    .w3-container
+        h4 List of elements that are part of this period
+        p
+        table(id='example' class='display' style='width:100%')
+            thead
+                tr
+                    th Symbol
+                    th About
+            tbody
+                each p in period 
+                    tr
+                        td(style="text-align:center")=p.element
+                        td(style="text-align:center")
+                            button(class="button-transparent" onclick="location.href='http://localhost:7201/element/"+p.element+"'")
+                                i(class="fa fa-info-circle" aria-hidden="true")

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+	<meta>
+		<key>TPC6</key>
+		<title>Aplicação WEB com Vue.js</title>
+		<bdate>12-03-2021</bdate>
+		<edate>19-03-2021</edate>
+		<supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+	</meta>
+	<workteam>
+		<worker num="A83732">
+			<name>Gonçalo Rodrigues Pinto</name>
+			<email>a83732@alunos.uminho.pt</email>
+		</worker>
+	</workteam>
+	<abstract>
+		<p> No presente trabalho pretendeu-se desenvolver uma aplicação Web com            			
+			<i>Vue.js</i>            para consumir uma API de dados sobre as publicações do professor JCR.				
+		</p>
+		<p> Partindo da API de dados previamente construída que fornece algumas funcionalidades de CRUD sobre uma ontologia            das publicações            armazenada na plataforma Ontobud, apenas criei uma aplicação com a 			
+			<i>framework Vue.js</i>.				
+		</p>
+		<p> Nesta aplicação é possível visualizar a lista de publicações, bem como a lista de autores que contribuiram para as             mesmas. Em cada elemento da lista é possível aceder à página individual da entidade em causa.</p>
+	</abstract>
+	<deliverables>
+		<link url="../jcrpubs.xml">Dataset</link>
+		<link url="../jcrpubs-inf.ttl">Ontologia utilizada</link>
+		<link url="../api-server/routes/index.js">API de dados desenvolvida</link>
+		<link url="../app-pubs/src/router/index.js">Rotas da Aplicação WEB desenvolvida</link>
+		<link url="pr.dtd">pr.dtd;</link>
+		<link url="pr.xml">pr.xml;</link>
+		<link url="pr.xslt">pr.xslt;</link>
+		<link url="pr.html">pr.html.</link>
+	</deliverables>
+</pr>

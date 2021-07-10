@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+from jjcli import * 
+import bs4
+c=clfilter(opt="do:")     ## option values in c.opt dictionary
+
+for txt in c.slurp():
+   bs=bs4.BeautifulSoup(txt,'html.parser')
+   tid=1
+   for tag in "ins script style".split():
+       for s in bs.find_all(tag):
+           s.decompose()
+   for t in bs.find_all('table'):
+       f=open(f'TAB{tid}.tab', "w")
+       print("\n====TABLE====",file=f)
+       for r in t.find_all('tr'):
+           print("",file=f)
+           for d in r.find_all('td'):
+               
+#              print(d.get_text(), end=" | ",file=f)
+#              print(d.text, end=" | ",file=f)
+               print(sub(r'\s+',' ',d.text), end=" | ",file=f)
+       f.close()
+       tid +=1

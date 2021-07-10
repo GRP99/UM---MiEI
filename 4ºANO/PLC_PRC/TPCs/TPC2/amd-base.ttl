@@ -1,0 +1,193 @@
+@prefix : <http://www.di.uminho.pt/prc2021/amd#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/amd> .
+
+<http://www.di.uminho.pt/prc2021/amd> rdf:type owl:Ontology ;
+                                       rdfs:comment "Ontologia para um arquivo de música digital" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/amd#compôs
+:compôs rdf:type owl:ObjectProperty ;
+        owl:inverseOf :foiComposta ;
+        rdfs:domain :Compositor ;
+        rdfs:range :Obra .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#foiComposta
+:foiComposta rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#referenteA
+:referenteA rdf:type owl:ObjectProperty ;
+            owl:inverseOf :segue ;
+            rdfs:domain :Partitura ;
+            rdfs:range :Instrumento .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#segue
+:segue rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#temVídeo
+:temVídeo rdf:type owl:ObjectProperty ;
+          rdfs:domain :Obra ;
+          rdfs:range :Vídeo .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#utiliza
+:utiliza rdf:type owl:ObjectProperty ;
+         owl:inverseOf :utilizado .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#utilizado
+:utilizado rdf:type owl:ObjectProperty ;
+           rdfs:domain :Instrumento ;
+           rdfs:range :Obra .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/amd#afinação
+:afinação rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#arranjo
+:arranjo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#clave
+:clave rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#designação
+:designação rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#editado
+:editado rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#href
+:href rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#path
+:path rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#subtítulo
+:subtítulo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#tipo
+:tipo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#type
+:type rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#título
+:título rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#voz
+:voz rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/amd#Compositor
+:Compositor rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :compôs ;
+                              owl:someValuesFrom :Obra
+                            ] .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Inf-relacionada
+:Inf-relacionada rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Instrumento
+:Instrumento rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :utilizado ;
+                               owl:someValuesFrom :Obra
+                             ] .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Obra
+:Obra rdf:type owl:Class .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Partitura
+:Partitura rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :referenteA ;
+                             owl:someValuesFrom :Instrumento
+                           ] .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Vídeo
+:Vídeo rdf:type owl:Class ;
+       rdfs:subClassOf :Inf-relacionada .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/amd#Bombo
+:Bombo rdf:type owl:NamedIndividual ,
+                :Instrumento ;
+       :utilizado :m23 ;
+       :designação "Bombo" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#FateGods-bombo-caixa.pdf
+:FateGods-bombo-caixa.pdf rdf:type owl:NamedIndividual ,
+                                   :Partitura ;
+                          :referenteA :Bombo ;
+                          :path "FateGods-bombo-caixa.pdf" ;
+                          :type "PDF" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#Steven_Reineke
+:Steven_Reineke rdf:type owl:NamedIndividual ,
+                         :Compositor ;
+                :compôs :m23 ;
+                :nome "Steven Reineke" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#m23
+:m23 rdf:type owl:NamedIndividual ,
+              :Obra ;
+     :temVídeo :videom23 ;
+     :arranjo "Paulo Martins" ;
+     :tipo "Abertura/Concerto" ;
+     :título "Fate of the Gods" .
+
+
+###  http://www.di.uminho.pt/prc2021/amd#videom23
+:videom23 rdf:type owl:NamedIndividual ,
+                                                             :Vídeo ;
+                                                    :href "https://www.youtube.com/watch?v=njXk_v4oERk" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+from jjcli import * 
+import glob, yaml, os
+import jinja2 as j2
+c=clfilter(opt="do:")     ## option values in c.opt dictionary
+
+base="../../Colecoes/Arquivo"
+c.args=glob.iglob(base + "/**/*.md", recursive=True)
+
+def html1( c: dict) :
+    os.makedirs("HTML",exist_ok=True)
+    with open(f'HTML/{c["id"]}.html',"w") as f:
+       txt =  j2.Template("""<h1>{{from}} → {{to}}</h1>
+<pre>{{body}}</pre>
+""").render(c)
+       print(txt, file=f)
+
+
+for txt in c.slurp(): 
+   ex=match(r'\s*---(.*?)---(.*)',txt,flags=re.S)
+   if not ex:
+       warn("#### Erro no formato de", c.filename())
+       continue 
+   meta,body=(ex[1] , ex[2])
+   try:
+       carta= yaml.safe_load(meta)
+   except Exception as e:
+       warn("#### Erro nos metadados de", c.filename(),e)
+       continue 
+   carta["body"]=body
+       
+   html1(carta)

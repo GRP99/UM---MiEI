@@ -1,0 +1,31 @@
+extends layout
+
+block content
+    .w3-container.w3-section
+        each d in dados
+            header.w3-container.w3-blue
+                h3 Exame: #{d.idexame}
+
+            .w3-container
+                table.w3-table-all.w3-section
+                    tr
+                        th Descrição
+                            td= d.descricao_exame
+                    tr
+                        th Relatório
+                            td= d.relatorio                    
+                    tr  
+                        th Tipo de Exame
+                            td
+                                table.w3-table-all.w3-section
+                                    tr
+                                        th Sigla
+                                            td= d.sigla 
+                                    tr    
+                                        th Descrição
+                                            td= d.descricao_tipoexame
+                                                                            
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/listaepisodios") Voltar à lista de episódios
+        p
+        a(href="/listatrabalho") Voltar à lista de trabalho

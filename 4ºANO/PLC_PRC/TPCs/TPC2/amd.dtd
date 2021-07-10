@@ -1,0 +1,43 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT arquivo-musical (obra)+>
+<!ATTLIST arquivo-musical    xmlns CDATA #FIXED ''>
+
+<!ELEMENT obra (titulo,subtitulo?,tipo?,compositor?,(arranjo|editado)?,inf-relacionada?,instrumentos?)>
+<!ATTLIST obra    xmlns CDATA #FIXED ''    id NMTOKEN #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo    xmlns CDATA #FIXED ''>
+
+<!ELEMENT subtitulo (#PCDATA)>
+<!ATTLIST subtitulo    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo    xmlns CDATA #FIXED ''>
+
+<!ELEMENT compositor (#PCDATA)>
+<!ATTLIST compositor    xmlns CDATA #FIXED ''>
+
+<!ELEMENT arranjo (#PCDATA)>
+<!ATTLIST arranjo    xmlns CDATA #FIXED ''>
+
+<!ELEMENT editado (#PCDATA)>
+<!ATTLIST editado    xmlns CDATA #FIXED ''>
+
+<!ELEMENT inf-relacionada (video)>
+<!ATTLIST inf-relacionada    xmlns CDATA #FIXED ''>
+
+<!ELEMENT instrumentos (instrumento)+>
+<!ATTLIST instrumentos    xmlns CDATA #FIXED ''>
+
+<!ELEMENT video EMPTY>
+<!ATTLIST video    xmlns CDATA #FIXED ''    href CDATA #REQUIRED>
+
+<!ELEMENT instrumento (designacao,partitura+)>
+<!ATTLIST instrumento    xmlns CDATA #FIXED ''>
+
+<!ELEMENT designacao (#PCDATA)>
+<!ATTLIST designacao    xmlns CDATA #FIXED ''>
+
+<!ELEMENT partitura EMPTY>
+<!ATTLIST partitura    xmlns CDATA #FIXED ''    afinacao NMTOKEN #IMPLIED    clave NMTOKEN #IMPLIED    path NMTOKEN #REQUIRED    type NMTOKEN #REQUIRED    voz NMTOKEN #IMPLIED>

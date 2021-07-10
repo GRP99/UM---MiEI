@@ -1,0 +1,47 @@
+-> Apresentação dos critérios de avaliação (sujeito alterações)
+        Tp 1-> aquecimento de Python
+        2-> modulos PY + EXPLN
+        3-> geral PLN script ... Livre
+        +
+        Participação na aula + tpc
+        +
+        Teste individual
+
+
+-> Correção do tpc
+        Base o tcp do Rodrigo Pimentel
+
+    Explicação sobre o o map e o filter
+
+    map -> f list    [ f(x) | x ∈  lista ]
+    filter -> pred lista [ x | x ∈ lista : pred(x) ]
+
+    listas em compreensão
+                [ f(x) | x ∈ lista : pred(x) ]
+                [ f(x) for x in lista if pred(x) ]
+                {  :  for x in ...}
+                ( f(x) for x in lista )  <- iterador
+
+    Criação de um exemplo destas listas no tpc analisado.
+
+-> Testes com a função range (rip pc do Rodrigo 🥲 )
+
+-> Criação de um tipo estruturado para guardar uma gramática de uma frase
+
+
+-> TPC 
+    Gramáticas 
+        "np" : "!f1.txt"     
+
+        "s" : "!prov"
+        "s": ["comosecostumadizer""!prov"]
+           : idf 
+
+def idt ():
+    i= choise(1..50)
+    return i
+
+f1.txt { joão, manuel, j Bernardo Barros }
+
+
+encontrar um caso de estudo realista de gerador de coisas convincentes

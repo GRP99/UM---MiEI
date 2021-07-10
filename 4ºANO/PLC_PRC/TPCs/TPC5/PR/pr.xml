@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC5</key>
+        <title>jcrpubs</title>
+        <bdate>22-03-2021</bdate>
+        <edate>29-03-2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p> Numa primeira fase pretendeu-se analisar o dataset das pubs do jcr, para isso com o
+            auxílio do editor <i>Oxygen XML Editor</i> gerei um DTD de forma aperceber a estrutura
+            deste dataset. </p>
+        <p> De seguida foi usado o <i>Protégé</i> para construir a parte estrutural da ontologia e
+            criar alguns indivíduos para servirem de modelo à próxima fase. </p>
+        <p> Posteriormente, criei uma script em <b>Python</b> para povoar a ontologia com os
+            indivíduos do dataset, após gerado o ficheiro de texto acrescentei à ontologia que
+            serviu de base os indivíduos e inferi com o Reasoner disponibilizado mais alguma
+            informação de forma a tornar a ontologia o mais completa possível. </p>
+        <p> Em seguida carreguei a ontologia no Ontobud, para isso criou-se um repositório de nome
+                <b>A83732-TP5</b> e importou-se o ficheiro inferido gerado previamente. </p>
+        <p> Por fim, criou-se uma API de dados com as funcionalidades de CRUD sobre o modelo criado,
+            isto é, inclui as seguintes rotas: <i> GET /pubs </i>, <i> GET /pubs?type= </i>, <i> GET
+                /pubs/{id} </i>, <i> GET /authors </i> e <i> GET /authors/{id} </i> . 
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="../jcrpubs.xml">Dataset</link>
+        <link url="../jcrpubs.dtd">Análise do dataset</link>
+        <link url="../jcrpubs-base.ttl">Parte estrutural da ontologia</link>
+        <link url="../XMLtoTTL.py">Script de povoamento</link>
+        <link url="../jcrpubs.ttl">Ontologia</link>
+        <link url="../jcrpubs-inf.ttl">Ontologia inferida</link>
+        <link url="../api-server/routes/index.js">Rotas criadas;</link>
+        <link url="pr.dtd">pr.dtd;</link>
+        <link url="pr.xml">pr.xml;</link>
+        <link url="pr.xslt">pr.xslt;</link>
+        <link url="pr.html">pr.html.</link>
+    </deliverables>
+</pr>

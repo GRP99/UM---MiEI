@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <meta>
+        <key>TPC4</key>
+        <title>SPARQL</title>
+        <bdate>15-03-2021</bdate>
+        <edate>22-03-2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">
+            José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A83732">
+            <name>Gonçalo Rodrigues Pinto</name>
+            <email>a83732@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+           No presente trabalho pretendeu-se desenvolver uma aplicação WEB de forma a consultar a
+            informação sobre os elementos, grupos e períodos presentes numa ontologia disponibilizada
+            acerca da tabela periódica, para tal foi necessário previamente criar um repositório no
+            <b>GraphDB</b> e posteriormente efetuar o carregamento da ontologia para o sistema.
+            Esta aplicação WEB foi desenvolvida com recurso à <i>framework Express</i>.
+        </p>
+        <p>
+            Na página inicial desta aplicação é apresentado uma breve explicação da aplicação do que esta é, 
+            além de que na parte superior encontra-se sempre disponíveis ligações para consultar a lista 
+            individual de todos os elementos, grupos e períodos que foram importados para o sistema utilizado.
+        </p>
+        <p>
+            Em cada uma destas listas recorreu-se às <i>Datatables</i> do <i>jQuery</i> 
+            pois permite apresentar a informação ordenada conforme a preferência do utilizador, 
+            permite que a tabela se torne mais compacta e ainda permite efetuar uma pesquisa sobre 
+            um determinado campo presente na tabela.
+        </p>
+        <p>
+            Em cada linha da tabela é apresentado um botão que remete para a página individual de cada 
+            indivíduo, onde nesta é possível observar mais informações sobre este e visualizar quais as 
+            relações entre eles (por exemplo, os elementos de um grupo ou período) existindo a possibilidade 
+            de consultar a informação individualizada do individuo em causa. 
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="../appPeriodicTable/routes/index.js">Rotas criadas;</link>
+        <link url="../appPeriodicTable/views/index.pug">Página inicial da aplicação;</link>
+        <link url="pr.dtd">pr.dtd;</link>
+        <link url="pr.xml">pr.xml;</link>
+        <link url="pr.xslt">pr.xslt;</link>
+        <link url="pr.html">pr.html.</link>
+    </deliverables>
+</pr>

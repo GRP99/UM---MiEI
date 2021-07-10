@@ -1,0 +1,42 @@
+DROP TABLE cadeiras;
+DROP TABLE alunos;
+DROP TABLE alunos_cadeiras;
+
+CREATE TABLE cadeiras (
+	id INTEGER PRIMARY KEY UNIQUE,
+    cadeira TEXT NOT NULL UNIQUE,
+    docente TEXT NOT NULL
+);
+
+CREATE TABLE alunos (
+    id INTEGER PRIMARY KEY UNIQUE,
+    nome TEXT NOT NULL,
+    curso TEXT NOT NULL,
+    dataIN DATETIME NOT NULL DEFAULT (datetime(CURRENT_TIMESTAMP, 'localtime'))
+);
+
+CREATE TABLE alunos_cadeiras (
+    id INTEGER PRIMARY KEY UNIQUE,
+    aluno INTEGER NOT NULL,
+    cadeira INTEGER NOT NULL,
+    FOREIGN KEY(aluno) REFERENCES alunos(id) on delete cascade,
+    FOREIGN KEY(cadeira) REFERENCES cadeiras(id) on delete cascade
+);
+
+
+INSERT INTO cadeiras (cadeira, docente) VALUES ("spln", "José João Antunes");
+INSERT INTO cadeiras (cadeira, docente) VALUES ("prc", "José Carlos Ramalho");
+
+INSERT INTO alunos (id, nome, curso) VALUES (85954, "Luís Ribeiro", "MiEI");
+INSERT INTO alunos (id, nome, curso) VALUES (83732, "Gonçalo Pinto", "MiEI");
+INSERT INTO alunos (id, nome, curso) VALUES (76089, "Etienne Costa", "MiEI");
+INSERT INTO alunos (id, nome, curso) VALUES (83322, "José Martinho", "LCC");
+
+INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (85954, 1);
+INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (85954, 2);
+INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (83732, 1);
+INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (83732, 2);
+INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (85000, 1);
+INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (85000, 2);
+INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (83322, 1);
+INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (83322, 2);

@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container.w3-blue
+            h3 Introduza o novo relatório:
+        form.w3-container(action='/relatorio' method='POST')
+            p
+            label Exame:
+                select(name='exame' required='required')
+                    each d in dados
+                        option(value= d.idexame) (#{d.sigla}) #{d.data_hora} - #{d.descricao} :: #{d.nome}_#{d.numUtente} :: Ep#{d.idepisodio}
+                            input(type='hidden' name='idlistatrabalho' value=d.idlistatrabalho)
+            p
+            label Relatório:
+            p
+                textarea(name='relatorio' rows='5' cols='50')
+            hr
+            input.w3-btn.w3-blue(type="submit" value="Publicar")
+    footer(class="w3-container w3-center" style="position: absolute; bottom: 0; width: 100%; height: 2.5rem;")
+        a(href="/") Voltar

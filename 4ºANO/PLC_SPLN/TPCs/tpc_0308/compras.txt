@@ -1,0 +1,85 @@
+Café
+Cereais
+Leite com chocolate
+Açúcar
+Pão de forma
+Néctar de frutas
+Adoçante
+Croissants
+Geleia
+Atum
+Salsichas
+Natas
+Leite condensado
+Molho de tomate
+Azeitonas
+Carne
+Frango
+Iogurte
+Peixe
+Pizza
+Leite
+Queijo
+Requeijão
+Manteiga
+Margarina
+Presunto
+Agrião
+Cebola
+Batata
+Alho
+Alface
+Brócolos
+Pimentão
+Tomate
+Cenoura
+Couve
+Espinafre
+Arroz
+Feijão
+Fermento
+Azeite
+Farinha de trigo
+Ovos
+Pipocas
+Batatas Fritas
+Massa
+Maisena
+Óleo
+Queijo ralado
+Sal
+Temperos
+Vinagre
+Lixivia
+Álcool
+Amaciador
+Cera
+Desinfetante
+Limpa vidros
+Limpa-móveis
+Sabão
+Detergente
+Máscaras
+Algodão
+Acetona
+Lâmina de barbear
+Gel de Banho
+Shampoo
+Desodorizante
+Sabonete
+Papel higiênico
+Cotonetes
+Fio dental
+Pasta dos dentes
+Esponja
+Saco de lixo
+Fósforos
+Guardanapos
+Papel alumínio
+Papel de Cozinha
+Palitos de dente
+Velas
+Água
+Vinho
+Cerveja
+Refrigerante

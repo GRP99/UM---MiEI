@@ -1,0 +1,289 @@
+$for a in {1..300}; do python3 script-ListaCompras.py; done | sort | uniq -c > outcompras.txt      
+      1 INICIO ( Acetona - 10) FIM 
+      1 INICIO ( Acetona - 4) , ( Vinagre - 2) , ( Papel higiênico - 11) FIM 
+      1 INICIO ( Acetona - 5) , ( Algodão - 2) FIM 
+      1 INICIO ( Acetona - 7) FIM 
+      1 INICIO ( Acetona - 8) FIM 
+      1 INICIO ( Açúcar - 11) FIM 
+      1 INICIO ( Açúcar - 4) FIM 
+      1 INICIO ( Açúcar - 5) FIM 
+      1 INICIO ( Açúcar - 5) , ( Massa - 6) FIM 
+      1 INICIO ( Açúcar - 6) , ( Geleia - 3) FIM 
+      1 INICIO ( Adoçante - 1) , ( Saco de lixo - 5) FIM 
+      1 INICIO ( Adoçante - 4) , ( Acetona - 7) FIM 
+      1 INICIO ( Adoçante - 4) FIM 
+      1 INICIO ( Agrião - 1) , ( Sabonete - 4) FIM 
+      1 INICIO ( Agrião - 2) , ( Limpa-móveis - 4) FIM 
+      1 INICIO ( Água - 4) , ( Queijo ralado - 7) , ( Brócolos - 6) FIM 
+      1 INICIO ( Água - 7) FIM 
+      1 INICIO ( Álcool - 1) , ( Papel alumínio - 12) , ( Guardanapos - 9) , ( Cerveja - 1) , ( Detergente - 3) FIM 
+      1 INICIO ( Álcool - 4) FIM 
+      1 INICIO ( Álcool - 5) , ( Cereais - 10) FIM 
+      1 INICIO ( Álcool - 8) , ( Alho - 5) FIM 
+      1 INICIO ( Álcool - 9) FIM 
+      1 INICIO ( Alface - 3) , ( Presunto - 5) , ( Lixivia - 5) , ( Arroz - 9) FIM 
+      1 INICIO ( Alface - 4) , ( Temperos - 10) FIM 
+      1 INICIO ( Algodão - 10) , ( Natas - 4) FIM 
+      1 INICIO ( Algodão - 2) , ( Batatas Fritas - 1) FIM 
+      1 INICIO ( Algodão - 3) , ( Amaciador - 8) FIM 
+      1 INICIO ( Alho - 3) , ( Massa - 11) , ( Cenoura - 12) , ( Geleia - 10) FIM 
+      1 INICIO ( Alho - 4) , ( Frango - 6) , ( Sabão - 3) , ( Presunto - 1) , ( Maisena - 7) FIM 
+      1 INICIO ( Alho - 5) FIM 
+      1 INICIO ( Alho - 5) , ( Máscaras - 3) FIM 
+      1 INICIO ( Alho - 6) , ( Sal - 12) , ( Azeite - 8) FIM 
+      1 INICIO ( Alho - 9) FIM 
+      1 INICIO ( Amaciador - 10) , ( Batatas Fritas - 12) , ( Maisena - 2) , ( Azeite - 12) FIM 
+      1 INICIO ( Amaciador - 12) , ( Limpa-móveis - 5) , ( Cotonetes - 8) FIM 
+      1 INICIO ( Amaciador - 5) FIM 
+      1 INICIO ( Amaciador - 6) , ( Saco de lixo - 9) , ( Leite com chocolate - 10) FIM 
+      1 INICIO ( Amaciador - 8) FIM 
+      1 INICIO ( Arroz - 4) FIM 
+      1 INICIO ( Atum - 1) FIM 
+      1 INICIO ( Atum - 3) , ( Pasta dos dentes - 2) FIM 
+      1 INICIO ( Atum - 4) FIM 
+      1 INICIO ( Azeite - 4) , ( Óleo - 2) , ( Geleia - 8) FIM 
+      1 INICIO ( Azeite - 6) FIM 
+      1 INICIO ( Azeite - 8) , ( Refrigerante - 12) FIM 
+      1 INICIO ( Azeitonas - 10) FIM 
+      1 INICIO ( Azeitonas - 7) FIM 
+      1 INICIO ( Batata - 10) FIM 
+      1 INICIO ( Batata - 4) FIM 
+      1 INICIO ( Batatas Fritas - 4) FIM 
+      1 INICIO ( Batatas Fritas - 7) , ( Massa - 2) FIM 
+      1 INICIO ( Brócolos - 11) , ( Temperos - 8) , ( Papel higiênico - 7) FIM 
+      1 INICIO ( Café - 10) FIM 
+      1 INICIO ( Café - 12) FIM 
+      1 INICIO ( Café - 12) , ( Vinagre - 9) FIM 
+      1 INICIO ( Café - 3) , ( Pimentão - 1) FIM 
+      1 INICIO ( Café - 4) , ( Atum - 2) , ( Presunto - 10) , ( Acetona - 10) , ( Pasta dos dentes - 8) FIM 
+      1 INICIO ( Carne - 10) , ( Desodorizante - 3) FIM 
+      1 INICIO ( Carne - 12) FIM 
+      1 INICIO ( Carne - 6) FIM 
+      1 INICIO ( Cebola - 11) FIM 
+      1 INICIO ( Cebola - 3) , ( Acetona - 5) , ( Papel de Cozinha - 9) FIM 
+      1 INICIO ( Cenoura - 4) FIM 
+      2 INICIO ( Cenoura - 8) FIM 
+      1 INICIO ( Cenoura - 8) , ( Salsichas - 12) , ( Alface - 8) FIM 
+      1 INICIO ( Cera - 1) , ( Margarina - 1) FIM 
+      1 INICIO ( Cera - 2) , ( Açúcar - 1) FIM 
+      1 INICIO ( Cera - 9) , ( Arroz - 12) FIM 
+      1 INICIO ( Cereais - 11) , ( Gel de Banho - 3) FIM 
+      1 INICIO ( Cereais - 3) FIM 
+      1 INICIO ( Cereais - 4) FIM 
+      1 INICIO ( Cereais - 8) FIM 
+      1 INICIO ( Cereais - 8) , ( Pipocas - 3) FIM 
+      1 INICIO ( Cerveja - 11) , ( Atum - 3) , ( Farinha de trigo - 8) FIM 
+      1 INICIO ( Cerveja - 11) FIM 
+      1 INICIO ( Cerveja - 12) FIM 
+      1 INICIO ( Cerveja - 4) , ( Desinfetante - 11) , ( Açúcar - 4) FIM 
+      1 INICIO ( Cerveja - 4) FIM 
+      1 INICIO ( Cerveja - 6) , ( Molho de tomate - 2) , ( Desodorizante - 11) FIM 
+      1 INICIO ( Cotonetes - 11) , ( Álcool - 9) , ( Desodorizante - 9) FIM 
+      1 INICIO ( Cotonetes - 11) FIM 
+      1 INICIO ( Cotonetes - 12) FIM 
+      1 INICIO ( Cotonetes - 7) , ( Espinafre - 6) , ( Alho - 1) FIM 
+      1 INICIO ( Cotonetes - 7) , ( Tomate - 3) , ( Limpa-móveis - 12) , ( Lixivia - 12) FIM 
+      1 INICIO ( Couve - 5) , ( Máscaras - 5) , ( Farinha de trigo - 3) , ( Pão de forma - 11) , ( Desinfetante - 5) FIM 
+      1 INICIO ( Couve - 7) FIM 
+      1 INICIO ( Croissants - 4) FIM 
+      1 INICIO ( Croissants - 5) , ( Azeite - 4) FIM 
+      1 INICIO ( Desinfetante - 10) FIM 
+      1 INICIO ( Desinfetante - 2) FIM 
+      1 INICIO ( Desinfetante - 4) , ( Pipocas - 4) , ( Pão de forma - 10) FIM 
+      1 INICIO ( Desinfetante - 8) FIM 
+      1 INICIO ( Desinfetante - 9) , ( Ovos - 7) , ( Cebola - 4) FIM 
+      1 INICIO ( Desodorizante - 3) FIM 
+      1 INICIO ( Desodorizante - 5) FIM 
+      1 INICIO ( Desodorizante - 8) , ( Pão de forma - 5) , ( Óleo - 12) , ( Leite com chocolate - 3) , ( Cotonetes - 8) FIM 
+      2 INICIO ( Detergente - 8) FIM 
+      1 INICIO ( Espinafre - 12) , ( Azeite - 1) FIM 
+      1 INICIO ( Espinafre - 5) , ( Carne - 7) FIM 
+      1 INICIO ( Espinafre - 7) , ( Iogurte - 9) FIM 
+      1 INICIO ( Espinafre - 7) , ( Massa - 8) , ( Velas - 8) FIM 
+      1 INICIO ( Espinafre - 8) FIM 
+      1 INICIO ( Esponja - 11) , ( Papel de Cozinha - 9) FIM 
+      1 INICIO ( Esponja - 8) , ( Geleia - 2) , ( Agrião - 6) , ( Açúcar - 5) FIM 
+      1 INICIO ( Farinha de trigo - 1) FIM 
+      1 INICIO ( Farinha de trigo - 3) FIM 
+      1 INICIO ( Feijão - 2) , ( Água - 1) FIM 
+      2 INICIO ( Feijão - 8) FIM 
+      1 INICIO ( Feijão - 9) , ( Vinho - 9) FIM 
+      1 INICIO ( Fermento - 11) FIM 
+      1 INICIO ( Fermento - 8) FIM 
+      1 INICIO ( Fio dental - 2) FIM 
+      1 INICIO ( Fio dental - 9) FIM 
+      1 INICIO ( Fósforos - 11) FIM 
+      1 INICIO ( Fósforos - 5) FIM 
+      1 INICIO ( Frango - 12) , ( Feijão - 7) , ( Desinfetante - 4) , ( Queijo - 10) FIM 
+      2 INICIO ( Frango - 12) FIM 
+      1 INICIO ( Frango - 4) , ( Velas - 10) , ( Lâmina de barbear - 6) FIM 
+      1 INICIO ( Frango - 7) FIM 
+      1 INICIO ( Frango - 8) , ( Feijão - 4) , ( Esponja - 8) FIM 
+      1 INICIO ( Gel de Banho - 3) FIM 
+      1 INICIO ( Geleia - 12) , ( Algodão - 11) , ( Sabão - 8) , ( Gel de Banho - 12) , ( Iogurte - 11) , ( Pasta dos dentes - 7) FIM 
+      1 INICIO ( Geleia - 1) FIM 
+      1 INICIO ( Geleia - 2) , ( Croissants - 3) , ( Iogurte - 6) FIM 
+      1 INICIO ( Geleia - 5) FIM 
+      1 INICIO ( Guardanapos - 10) , ( Arroz - 10) , ( Saco de lixo - 10) FIM 
+      1 INICIO ( Guardanapos - 9) FIM 
+      1 INICIO ( Iogurte - 10) FIM 
+      1 INICIO ( Iogurte - 4) FIM 
+      1 INICIO ( Lâmina de barbear - 10) , ( Vinho - 9) , ( Algodão - 6) , ( Açúcar - 11) , ( Temperos - 2) FIM 
+      1 INICIO ( Lâmina de barbear - 11) , ( Saco de lixo - 6) , ( Lâmina de barbear - 7) , ( Leite - 4) , ( Pipocas - 9) , ( Desinfetante - 10) , ( Gel de Banho - 1) FIM 
+      1 INICIO ( Lâmina de barbear - 1) FIM 
+      1 INICIO ( Leite - 1) FIM 
+      1 INICIO ( Leite - 4) , ( Natas - 10) , ( Amaciador - 2) FIM 
+      1 INICIO ( Leite - 8) FIM 
+      1 INICIO ( Leite com chocolate - 9) , ( Máscaras - 5) , ( Fio dental - 7) , ( Fio dental - 11) , ( Cebola - 10) , ( Fio dental - 11) , ( Alho - 11) FIM 
+      1 INICIO ( Leite condensado - 2) FIM 
+      1 INICIO ( Leite condensado - 3) FIM 
+      2 INICIO ( Leite condensado - 4) FIM 
+      1 INICIO ( Leite condensado - 6) , ( Croissants - 2) , ( Sabão - 2) FIM 
+      1 INICIO ( Leite condensado - 7) , ( Batata - 11) FIM 
+      1 INICIO ( Leite condensado - 8) FIM 
+      1 INICIO ( Limpa-móveis - 1) , ( Limpa vidros - 3) FIM 
+      1 INICIO ( Limpa vidros - 10) , ( Alface - 11) , ( Limpa vidros - 5) FIM 
+      1 INICIO ( Limpa vidros - 2) FIM 
+      1 INICIO ( Limpa vidros - 4) FIM 
+      1 INICIO ( Limpa vidros - 5) , ( Feijão - 12) FIM 
+      1 INICIO ( Limpa vidros - 5) FIM 
+      1 INICIO ( Lixivia - 11) FIM 
+      1 INICIO ( Lixivia - 11) , ( Pasta dos dentes - 1) , ( Croissants - 5) FIM 
+      1 INICIO ( Lixivia - 4) , ( Leite com chocolate - 4) , ( Azeite - 5) , ( Pizza - 9) , ( Atum - 3) , ( Couve - 11) , ( Croissants - 11) , ( Croissants - 9) , ( Temperos - 5) , ( Cotonetes - 1) FIM 
+      1 INICIO ( Lixivia - 4) , ( Massa - 1) , ( Leite - 3) FIM 
+      1 INICIO ( Lixivia - 7) , ( Sal - 7) , ( Pipocas - 7) FIM 
+      1 INICIO ( Maisena - 10) FIM 
+      1 INICIO ( Maisena - 12) FIM 
+      1 INICIO ( Maisena - 6) FIM 
+      1 INICIO ( Maisena - 8) , ( Vinho - 1) FIM 
+      1 INICIO ( Manteiga - 11) FIM 
+      1 INICIO ( Manteiga - 12) FIM 
+      1 INICIO ( Manteiga - 2) FIM 
+      1 INICIO ( Manteiga - 2) , ( Velas - 4) FIM 
+      1 INICIO ( Manteiga - 3) FIM 
+      1 INICIO ( Manteiga - 3) , ( Vinho - 10) , ( Água - 4) FIM 
+      2 INICIO ( Manteiga - 4) FIM 
+      1 INICIO ( Margarina - 10) FIM 
+      1 INICIO ( Margarina - 11) FIM 
+      1 INICIO ( Margarina - 1) FIM 
+      1 INICIO ( Margarina - 1) , ( Manteiga - 6) , ( Velas - 11) , ( Requeijão - 8) FIM 
+      1 INICIO ( Margarina - 2) , ( Algodão - 4) , ( Massa - 7) , ( Batata - 10) FIM 
+      1 INICIO ( Margarina - 6) FIM 
+      1 INICIO ( Margarina - 8) FIM 
+      1 INICIO ( Margarina - 9) , ( Presunto - 4) FIM 
+      2 INICIO ( Máscaras - 10) FIM 
+      1 INICIO ( Máscaras - 1) FIM 
+      1 INICIO ( Máscaras - 4) FIM 
+      1 INICIO ( Máscaras - 5) , ( Pão de forma - 5) , ( Gel de Banho - 2) FIM 
+      1 INICIO ( Massa - 11) , ( Algodão - 3) FIM 
+      1 INICIO ( Massa - 11) FIM 
+      1 INICIO ( Massa - 2) , ( Leite com chocolate - 2) , ( Papel higiênico - 5) FIM 
+      1 INICIO ( Molho de tomate - 1) FIM 
+      1 INICIO ( Molho de tomate - 3) FIM 
+      1 INICIO ( Molho de tomate - 6) FIM 
+      1 INICIO ( Molho de tomate - 7) FIM 
+      1 INICIO ( Natas - 10) , ( Acetona - 8) FIM 
+      1 INICIO ( Natas - 3) , ( Natas - 2) FIM 
+      1 INICIO ( Natas - 7) , ( Cenoura - 8) FIM 
+      1 INICIO ( Natas - 9) FIM 
+      1 INICIO ( Néctar de frutas - 10) , ( Cereais - 8) , ( Queijo - 12) FIM 
+      1 INICIO ( Néctar de frutas - 1) , ( Pimentão - 9) FIM 
+      1 INICIO ( Néctar de frutas - 8) , ( Cenoura - 3) FIM 
+      1 INICIO ( Néctar de frutas - 8) , ( Guardanapos - 5) , ( Queijo - 10) FIM 
+      1 INICIO ( Óleo - 3) FIM 
+      1 INICIO ( Óleo - 8) FIM 
+      1 INICIO ( Óleo - 9) FIM 
+      1 INICIO ( Ovos - 10) FIM 
+      1 INICIO ( Ovos - 3) FIM 
+      1 INICIO ( Ovos - 3) , ( Shampoo - 8) FIM 
+      1 INICIO ( Ovos - 4) , ( Néctar de frutas - 7) FIM 
+      1 INICIO ( Ovos - 4) , ( Papel higiênico - 1) , ( Espinafre - 11) FIM 
+      1 INICIO ( Ovos - 9) FIM 
+      1 INICIO ( Palitos de dente - 1) FIM 
+      1 INICIO ( Palitos de dente - 2) , ( Guardanapos - 11) , ( Pão de forma - 2) , ( Leite com chocolate - 3) , ( Brócolos - 12) FIM 
+      1 INICIO ( Palitos de dente - 2) , ( Leite condensado - 12) , ( Alho - 12) FIM 
+      1 INICIO ( Palitos de dente - 8) , ( Papel alumínio - 3) FIM 
+      1 INICIO ( Pão de forma - 11) FIM 
+      1 INICIO ( Papel alumínio - 1) , ( Azeitonas - 8) , ( Margarina - 5) , ( Limpa vidros - 4) , ( Fio dental - 4) , ( Sal - 1) , ( Shampoo - 12) , ( Lâmina de barbear - 8) FIM 
+      1 INICIO ( Papel alumínio - 7) , ( Máscaras - 10) FIM 
+      2 INICIO ( Papel de Cozinha - 11) FIM 
+      1 INICIO ( Papel de Cozinha - 2) FIM 
+      1 INICIO ( Papel de Cozinha - 3) FIM 
+      1 INICIO ( Papel de Cozinha - 7) FIM 
+      1 INICIO ( Papel higiênico - 12) , ( Pimentão - 2) FIM 
+      1 INICIO ( Papel higiênico - 1) FIM 
+      1 INICIO ( Papel higiênico - 3) , ( Manteiga - 11) , ( Gel de Banho - 2) , ( Papel de Cozinha - 11) , ( Cebola - 10) , ( Fermento - 2) , ( Esponja - 10) , ( Cenoura - 7) FIM 
+      1 INICIO ( Pasta dos dentes - 12) , ( Acetona - 12) , ( Sabão - 10) FIM 
+      1 INICIO ( Pasta dos dentes - 12) FIM 
+      1 INICIO ( Pasta dos dentes - 1) , ( Ovos - 5) , ( Palitos de dente - 1) FIM 
+      1 INICIO ( Pasta dos dentes - 1) , ( Shampoo - 5) , ( Cotonetes - 7) , ( Margarina - 7) FIM 
+      1 INICIO ( Pasta dos dentes - 8) , ( Lixivia - 9) , ( Néctar de frutas - 5) , ( Água - 9) , ( Fósforos - 8) , ( Acetona - 8) FIM 
+      1 INICIO ( Peixe - 10) FIM 
+      1 INICIO ( Peixe - 10) , ( Vinagre - 9) FIM 
+      1 INICIO ( Peixe - 2) FIM 
+      1 INICIO ( Peixe - 9) , ( Azeite - 4) FIM 
+      1 INICIO ( Pimentão - 4) , ( Açúcar - 2) , ( Requeijão - 12) FIM 
+      1 INICIO ( Pimentão - 8) , ( Ovos - 7) , ( Adoçante - 8) , ( Máscaras - 4) FIM 
+      1 INICIO ( Pipocas - 10) FIM 
+      1 INICIO ( Pipocas - 12) FIM 
+      1 INICIO ( Pipocas - 2) FIM 
+      1 INICIO ( Pipocas - 5) FIM 
+      1 INICIO ( Pizza - 11) FIM 
+      1 INICIO ( Pizza - 11) , ( Peixe - 9) , ( Papel de Cozinha - 3) FIM 
+      1 INICIO ( Pizza - 12) , ( Máscaras - 11) FIM 
+      1 INICIO ( Pizza - 1) FIM 
+      1 INICIO ( Pizza - 7) , ( Cerveja - 12) , ( Peixe - 6) , ( Leite - 4) FIM 
+      1 INICIO ( Presunto - 4) , ( Desodorizante - 6) , ( Espinafre - 5) FIM 
+      1 INICIO ( Presunto - 7) , ( Detergente - 12) FIM 
+      1 INICIO ( Presunto - 8) FIM 
+      1 INICIO ( Queijo - 10) FIM 
+      1 INICIO ( Queijo - 11) FIM 
+      1 INICIO ( Queijo - 7) , ( Pipocas - 10) FIM 
+      1 INICIO ( Queijo ralado - 2) FIM 
+      1 INICIO ( Queijo ralado - 4) FIM 
+      1 INICIO ( Queijo ralado - 6) , ( Água - 7) , ( Saco de lixo - 1) , ( Desodorizante - 4) , ( Requeijão - 11) FIM 
+      1 INICIO ( Queijo ralado - 9) , ( Feijão - 12) , ( Fio dental - 3) , ( Requeijão - 6) FIM 
+      1 INICIO ( Refrigerante - 12) FIM 
+      1 INICIO ( Refrigerante - 2) FIM 
+      2 INICIO ( Refrigerante - 5) FIM 
+      1 INICIO ( Requeijão - 8) FIM 
+      1 INICIO ( Requeijão - 8) , ( Palitos de dente - 6) FIM 
+      1 INICIO ( Requeijão - 9) , ( Acetona - 8) , ( Batata - 11) , ( Amaciador - 4) , ( Agrião - 6) FIM 
+      1 INICIO ( Sabão - 10) FIM 
+      1 INICIO ( Sabão - 11) FIM 
+      1 INICIO ( Sabão - 12) , ( Café - 6) , ( Cereais - 1) , ( Pipocas - 7) FIM 
+      1 INICIO ( Sabão - 1) FIM 
+      1 INICIO ( Sabão - 2) FIM 
+      1 INICIO ( Sabão - 5) , ( Palitos de dente - 6) FIM 
+      1 INICIO ( Sabão - 6) , ( Alho - 5) FIM 
+      2 INICIO ( Sabão - 6) FIM 
+      1 INICIO ( Sabonete - 12) , ( Farinha de trigo - 4) , ( Néctar de frutas - 3) FIM 
+      1 INICIO ( Sabonete - 3) FIM 
+      1 INICIO ( Sabonete - 9) , ( Fermento - 8) FIM 
+      1 INICIO ( Saco de lixo - 10) , ( Café - 3) , ( Vinagre - 4) , ( Queijo ralado - 10) , ( Shampoo - 2) , ( Papel higiênico - 5) , ( Refrigerante - 6) FIM 
+      1 INICIO ( Saco de lixo - 10) FIM 
+      1 INICIO ( Saco de lixo - 1) , ( Queijo ralado - 4) , ( Açúcar - 2) , ( Desinfetante - 7) FIM 
+      1 INICIO ( Saco de lixo - 4) FIM 
+      1 INICIO ( Sal - 10) FIM 
+      1 INICIO ( Sal - 10) , ( Manteiga - 2) FIM 
+      1 INICIO ( Sal - 12) , ( Fio dental - 6) FIM 
+      1 INICIO ( Sal - 3) FIM 
+      1 INICIO ( Sal - 4) FIM 
+      1 INICIO ( Sal - 4) , ( Sabonete - 1) , ( Croissants - 4) , ( Azeitonas - 5) FIM 
+      1 INICIO ( Sal - 8) FIM 
+      1 INICIO ( Sal - 9) FIM 
+      1 INICIO ( Salsichas - 9) FIM 
+      1 INICIO ( Shampoo - 11) FIM 
+      1 INICIO ( Temperos - 10) , ( Massa - 4) FIM 
+      1 INICIO ( Temperos - 1) FIM 
+      2 INICIO ( Temperos - 9) FIM 
+      1 INICIO ( Tomate - 1) , ( Cera - 9) FIM 
+      1 INICIO ( Tomate - 1) FIM 
+      1 INICIO ( Velas - 2) FIM 
+      1 INICIO ( Velas - 2) , ( Manteiga - 2) , ( Vinagre - 4) FIM 
+      1 INICIO ( Velas - 8) , ( Água - 1) FIM 
+      1 INICIO ( Vinagre - 1) FIM 
+      2 INICIO ( Vinagre - 4) FIM 
+      1 INICIO ( Vinagre - 6) , ( Arroz - 12) FIM 
+      1 INICIO ( Vinagre - 6) , ( Croissants - 8) FIM 
+      1 INICIO ( Vinho - 10) , ( Álcool - 5) FIM 

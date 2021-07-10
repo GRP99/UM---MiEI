@@ -1,0 +1,114 @@
+extends layout
+
+block content
+    script(src='/javascripts/prevent_back.js')
+    if alert == 1
+        script.
+            if (window.confirm('The name you inserted is already associated with other cocktail.'))
+            {
+                // window.location.href = "http://localhost:7301/admin/manage/insertCocktail"
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+            else
+            {
+                // window.location.href = "http://localhost:7301/admin/manage/insertCocktail"
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/manage';")
+                                            i(class = "fa fa-home" style="color:white;font-size:25px;")
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/logout';")
+                                            i(class = "fa fa-sign-out" style="color:white;font-size:25px;")
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px')
+                .row
+                    .col-md-12
+                        h3(style="font-size: 24px;") Submit new 
+                            t(style="color: orange") Cocktail
+                        .card.mb-3(style='background-color:#F8F8F8')
+                            .card-body
+                                form(name="Cocktails" action='http://localhost:7300/cocktails?token=' + token, method='POST')
+                                    .form-group
+                                        label(class="form-label") Name      
+                                        input.form-control(type='text' id='name' name='name' required='required')
+
+                                    .form-group
+                                        div(class='row')
+                                            div(class='col')
+                                                label(class="form-label") Alcoholic      
+                                                select.form-control(name='alcoholic' type='num')
+                                                    option(value='Non alcoholic') No
+                                                    option(value='Alcoholic') Yes
+
+                                            div(class='col') 
+                                                label(class="form-label") Glassware
+                                                select.form-control(name='glassware')
+                                                    option(value='false') Select a Glassware
+                                                    for g in glasswares
+                                                        option(value=g.idGlass)=g.strGlass
+
+                                            div(class='col')
+                                                label(class="form-label") Category      
+                                                select.form-control(name='category')
+                                                    option(value='false') Select a Category
+                                                    for c in categories
+                                                        option(value=c.idCategory)=c.strCategory
+
+                                    div(class='row')
+                                        div(class='col') 
+                                            label(class="form-label") Bartender      
+                                            select.form-control(name='bartender')
+                                                option(value='false') Select a Bartender
+                                                for b in bartenders
+                                                    option(value=b.idBartender)=b.strBartender
+
+                                        div(class='col')
+                                            label(class="form-label") Location      
+                                            select.form-control(name='location')
+                                                option(value='false') Select a Location
+                                                for l in locations
+                                                    option(value=l.idLocation)=l.strLocation
+
+                                        div(class='col')
+                                            label(class="form-label") Bar      
+                                            select.form-control(name='bar')
+                                                option(value='false') Select a Bar
+                                                for b in bars
+                                                    option(value=b.idBar)=b.strBar
+
+                                    div(class='row')
+                                        div(class='col')
+                                            label(class="form-label") Notes      
+                                            textarea.form-control(name='notes' rows="3" cols="50" style="resize:none")
+
+                                        div(class='col')
+                                            label(class="form-label") Preparation (English)      
+                                            textarea.form-control(name='preparation' rows="3" cols="50" style="resize:none")
+
+                                    p The ingredients can be added after the creation of the cocktail
+                                    p
+                                        button(style="float:right; margin-left:10px" class="btn btn-primary btn-sm" type="submit") Submit
+                                        btn(style='float:right' class='btn btn-secondary btn-sm' type='button' onclick="location.href='http://localhost:7301/admin/manage/cocktails';") Cancel
+
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+    .overlay

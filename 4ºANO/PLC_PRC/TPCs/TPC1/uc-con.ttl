@@ -1,0 +1,1949 @@
+@prefix : <http://www.di.uminho.pt/prc2021/uc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.di.uminho.pt/prc2021/uc> .
+
+<http://www.di.uminho.pt/prc2021/uc> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/uc#ensina
+:ensina rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éEnsinaPor ;
+        rdfs:domain :Professor ;
+        rdfs:range :UnidadeCurricular .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#frequenta
+:frequenta rdf:type owl:ObjectProperty ;
+           owl:inverseOf :éFrequentadaPor ;
+           rdfs:domain :Aluno ;
+           rdfs:range :UnidadeCurricular .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#éAlunoDe
+:éAlunoDe rdf:type owl:ObjectProperty ;
+          owl:inverseOf :éProfessorDe .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#éEnsinaPor
+:éEnsinaPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#éFrequentadaPor
+:éFrequentadaPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#éProfessorDe
+:éProfessorDe rdf:type owl:ObjectProperty ;
+              owl:propertyChainAxiom ( :ensina
+                                       :éFrequentadaPor
+                                     ) .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/uc#anoLetivo
+:anoLetivo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#designação
+:designação rdf:type owl:DatatypeProperty .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#nome
+:nome rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/uc#Aluno
+:Aluno rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :frequenta ;
+                         owl:someValuesFrom :UnidadeCurricular
+                       ] .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#Professor
+:Professor rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :ensina ;
+                             owl:someValuesFrom :UnidadeCurricular
+                           ] .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#UnidadeCurricular
+:UnidadeCurricular rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.di.uminho.pt/prc2021/uc#PRC
+:PRC rdf:type owl:NamedIndividual ,
+                  :UnidadeCurricular ;
+         :anoLetivo "2020/2021" ;
+         :designação "Processamento e Representação de Conhecimento" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#SPLN
+:SPLN rdf:type owl:NamedIndividual ,
+                  :UnidadeCurricular ;
+         :anoLetivo "2020/2021" ;
+         :designação "Scripting no Processamento de Linguagem Natural" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#PRI
+:PRI rdf:type owl:NamedIndividual ,
+                  :UnidadeCurricular ;
+         :anoLetivo "2020/2021" ;
+         :designação "Processamento e Representação de Informação" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#GCS
+:GCS rdf:type owl:NamedIndividual ,
+                  :UnidadeCurricular ;
+         :anoLetivo "2020/2021" ;
+         :designação "Gramáticas na Compreensão de Software" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jcr
+:jcr rdf:type owl:NamedIndividual ,
+              :Professor ;
+     :ensina :PRC ,
+             :PRI ;
+     :nome "José Carlos Ramalho" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jj
+:jj rdf:type owl:NamedIndividual ,
+              :Professor ;
+     :ensina :SPLN ;
+     :nome "José João" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#prh
+:prh rdf:type owl:NamedIndividual ,
+              :Professor ;
+     :ensina :GCS ;
+     :nome "Pedro Rangel Henriques" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#als
+:als rdf:type owl:NamedIndividual ,
+              :Professor ;
+    :nome "António Luís Sousa" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#littlemay
+:littlemay rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Little May" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#brockpatterson
+:brockpatterson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Brock Patterson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#juliaramsey
+:juliaramsey rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Julia Ramsey" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#rosiehardin
+:rosiehardin rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Rosie Hardin" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#marjoriekane
+:marjoriekane rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Marjorie Kane" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#moorebolton
+:moorebolton rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Moore Bolton" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#flossiestark
+:flossiestark rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Flossie Stark" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#claudetteruiz
+:claudetteruiz rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Claudette Ruiz" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#lizaallen
+:lizaallen rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Liza Allen" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#noladodson
+:noladodson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Nola Dodson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#gloriathomas
+:gloriathomas rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Gloria Thomas" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#christiancleveland
+:christiancleveland rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Christian Cleveland" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#dixonhampton
+:dixonhampton rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Dixon Hampton" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#burgessrichmond
+:burgessrichmond rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Burgess Richmond" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#loriemays
+:loriemays rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Lorie Mays" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#stevensonpeterson
+:stevensonpeterson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Stevenson Peterson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#mcfaddenwilliam
+:mcfaddenwilliam rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Mcfadden William" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#pettyparsons
+:pettyparsons rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Petty Parsons" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#kendrastokes
+:kendrastokes rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Kendra Stokes" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#collinssharp
+:collinssharp rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Collins Sharp" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#shortroach
+:shortroach rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Short Roach" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jeannineryan
+:jeannineryan rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Jeannine Ryan" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#shirleysalinas
+:shirleysalinas rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Shirley Salinas" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#mejiaewing
+:mejiaewing rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Mejia Ewing" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#walshdorsey
+:walshdorsey rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Walsh Dorsey" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#copelandshepherd
+:copelandshepherd rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Copeland Shepherd" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#ramseyfaulkner
+:ramseyfaulkner rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Ramsey Faulkner" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#pacemurray
+:pacemurray rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Pace Murray" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#weissdickson
+:weissdickson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Weiss Dickson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#bettiehubbard
+:bettiehubbard rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Bettie Hubbard" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#rubysampson
+:rubysampson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Ruby Sampson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#patelbarron
+:patelbarron rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Patel Barron" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#trevinoworkman
+:trevinoworkman rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Trevino Workman" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#finchpitts
+:finchpitts rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Finch Pitts" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#patricamueller
+:patricamueller rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Patrica Mueller" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#porterbates
+:porterbates rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Porter Bates" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#barberbruce
+:barberbruce rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Barber Bruce" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#watsonoconnor
+:watsonoconnor rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Watson Oconnor" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#juarezoneil
+:juarezoneil rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Juarez Oneil" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#kelleyingram
+:kelleyingram rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Kelley Ingram" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#banksgreene
+:banksgreene rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Banks Greene" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#gloverware
+:gloverware rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Glover Ware" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jacquelynmcfadden
+:jacquelynmcfadden rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Jacquelyn Mcfadden" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#ortizbrady
+:ortizbrady rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Ortiz Brady" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#slaterwhitaker
+:slaterwhitaker rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Slater Whitaker" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#careyblack
+:careyblack rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Carey Black" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#crawfordharrington
+:crawfordharrington rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Crawford Harrington" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#isabelrusso
+:isabelrusso rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Isabel Russo" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jamiwiley
+:jamiwiley rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Jami Wiley" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#rivasdouglas
+:rivasdouglas rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Rivas Douglas" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#augustanicholson
+:augustanicholson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Augusta Nicholson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#deloresbender
+:deloresbender rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Delores Bender" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#byrdmercado
+:byrdmercado rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Byrd Mercado" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#gilliamrocha
+:gilliamrocha rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Gilliam Rocha" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#rhodatrujillo
+:rhodatrujillo rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Rhoda Trujillo" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#carlybartlett
+:carlybartlett rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Carly Bartlett" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#emmanoel
+:emmanoel rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Emma Noel" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#espinozabarker
+:espinozabarker rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Espinoza Barker" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#sheilagray
+:sheilagray rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Sheila Gray" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#rosalindoneal
+:rosalindoneal rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Rosalind Oneal" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#cassandracline
+:cassandracline rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Cassandra Cline" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#kerrgillespie
+:kerrgillespie rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Kerr Gillespie" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#corataylor
+:corataylor rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Cora Taylor" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#davidsontravis
+:davidsontravis rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Davidson Travis" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#garnerday
+:garnerday rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Garner Day" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#rondahoffman
+:rondahoffman rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Ronda Hoffman" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#gaymeadows
+:gaymeadows rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Gay Meadows" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jaimekline
+:jaimekline rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Jaime Kline" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#tayloredwards
+:tayloredwards rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Taylor Edwards" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#renaleach
+:renaleach rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Rena Leach" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#stewartsnow
+:stewartsnow rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Stewart Snow" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#karaneal
+:karaneal rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Kara Neal" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#mullenhickman
+:mullenhickman rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Mullen Hickman" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#bartlettgarner
+:bartlettgarner rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Bartlett Garner" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#deborahholder
+:deborahholder rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Deborah Holder" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#deannpennington
+:deannpennington rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Deann Pennington" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#wilsonowens
+:wilsonowens rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Wilson Owens" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#stafforddiaz
+:stafforddiaz rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Stafford Diaz" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#cantucarson
+:cantucarson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Cantu Carson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#alliebowman
+:alliebowman rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Allie Bowman" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#cindyhorn
+:cindyhorn rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Cindy Horn" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#carlenechurch
+:carlenechurch rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Carlene Church" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#bookersantiago
+:bookersantiago rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Booker Santiago" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#wilkinsfinley
+:wilkinsfinley rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Wilkins Finley" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#tabathaoliver
+:tabathaoliver rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Tabatha Oliver" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#adrianvaldez
+:adrianvaldez rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Adrian Valdez" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#tuckerhughes
+:tuckerhughes rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Tucker Hughes" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#hazelhenson
+:hazelhenson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Hazel Henson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#alexandriawilliams
+:alexandriawilliams rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Alexandria Williams" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#janjackson
+:janjackson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Jan Jackson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#eulamatthews
+:eulamatthews rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Eula Matthews" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#katherynle
+:katherynle rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Katheryn Le" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#guerravasquez
+:guerravasquez rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Guerra Vasquez" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#lulafrost
+:lulafrost rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Lula Frost" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#kimhartman
+:kimhartman rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Kim Hartman" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#stonecunningham
+:stonecunningham rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Stone Cunningham" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#alissawilder
+:alissawilder rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Alissa Wilder" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#searsblevins
+:searsblevins rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Sears Blevins" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#bowmanturner
+:bowmanturner rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Bowman Turner" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#donaldsonalvarado
+:donaldsonalvarado rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Donaldson Alvarado" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#bertiepennington
+:bertiepennington rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Bertie Pennington" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jackiewheeler
+:jackiewheeler rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Jackie Wheeler" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#russellfitzgerald
+:russellfitzgerald rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Russell Fitzgerald" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#hollieharmon
+:hollieharmon rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Hollie Harmon" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#yatesbaxter
+:yatesbaxter rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Yates Baxter" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#summersfarley
+:summersfarley rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Summers Farley" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#dicksonbowen
+:dicksonbowen rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Dickson Bowen" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#nelsonrobbins
+:nelsonrobbins rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Nelson Robbins" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#lindsaywilder
+:lindsaywilder rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Lindsay Wilder" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#chrishammond
+:chrishammond rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Chris Hammond" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#santiagogamble
+:santiagogamble rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Santiago Gamble" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#grahamcarter
+:grahamcarter rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Graham Carter" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jessiewolfe
+:jessiewolfe rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Jessie Wolfe" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#fitzgeraldwillis
+:fitzgeraldwillis rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Fitzgerald Willis" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jasminemueller
+:jasminemueller rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Jasmine Mueller" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#melissabenton
+:melissabenton rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Melissa Benton" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#hollandduffy
+:hollandduffy rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Holland Duffy" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#velezwalsh
+:velezwalsh rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Velez Walsh" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#evanschavez
+:evanschavez rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Evans Chavez" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#johnsontillman
+:johnsontillman rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Johnson Tillman" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#tamaralynn
+:tamaralynn rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Tamara Lynn" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#sheilaoneil
+:sheilaoneil rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Sheila Oneil" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#joannconley
+:joannconley rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Joann Conley" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#kayesloan
+:kayesloan rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Kaye Sloan" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#clarkwalter
+:clarkwalter rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Clark Walter" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#hensleyharrell
+:hensleyharrell rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Hensley Harrell" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#riddlearmstrong
+:riddlearmstrong rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Riddle Armstrong" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#isabellabarnes
+:isabellabarnes rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Isabella Barnes" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#whitakerphillips
+:whitakerphillips rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Whitaker Phillips" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#hebertleach
+:hebertleach rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Hebert Leach" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#blackburncain
+:blackburncain rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Blackburn Cain" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#rodriquezrivers
+:rodriquezrivers rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Rodriquez Rivers" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#rosiefitzpatrick
+:rosiefitzpatrick rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Rosie Fitzpatrick" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#armstrongkim
+:armstrongkim rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Armstrong Kim" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#fieldsevans
+:fieldsevans rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Fields Evans" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#hullchristian
+:hullchristian rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Hull Christian" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#gallaghermccullough
+:gallaghermccullough rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Gallagher Mccullough" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#doloresclemons
+:doloresclemons rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Dolores Clemons" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#haneyknowles
+:haneyknowles rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Haney Knowles" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#lourdeshead
+:lourdeshead rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Lourdes Head" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#loriebond
+:loriebond rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Lorie Bond" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#pughmathews
+:pughmathews rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Pugh Mathews" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#higginslloyd
+:higginslloyd rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Higgins Lloyd" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#jamesnielsen
+:jamesnielsen rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "James Nielsen" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#mavisharper
+:mavisharper rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Mavis Harper" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#kathrineschroeder
+:kathrineschroeder rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Kathrine Schroeder" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#steelejarvis
+:steelejarvis rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Steele Jarvis" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#mercadofrye
+:mercadofrye rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Mercado Frye" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#brendacochran
+:brendacochran rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Brenda Cochran" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#caroldunn
+:caroldunn rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Carol Dunn" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#bonitamacias
+:bonitamacias rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Bonita Macias" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#juliewilliam
+:juliewilliam rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Julie William" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#fryewagner
+:fryewagner rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Frye Wagner" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#sashawatts
+:sashawatts rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Sasha Watts" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#bernadineortega
+:bernadineortega rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Bernadine Ortega" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#pruittsummers
+:pruittsummers rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Pruitt Summers" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#avawarner
+:avawarner rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Ava Warner" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#diannamann
+:diannamann rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Dianna Mann" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#connieweiss
+:connieweiss rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Connie Weiss" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#elvagriffith
+:elvagriffith rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Elva Griffith" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#johnshartman
+:johnshartman rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Johns Hartman" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#vanessaellison
+:vanessaellison rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Vanessa Ellison" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#feliciasherman
+:feliciasherman rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Felicia Sherman" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#christianmorales
+:christianmorales rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Christian Morales" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#glorialove
+:glorialove rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Gloria Love" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#wittstone
+:wittstone rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Witt Stone" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#howellbuchanan
+:howellbuchanan rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Howell Buchanan" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#imogenepena
+:imogenepena rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Imogene Pena" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#sharronpearson
+:sharronpearson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Sharron Pearson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#consuelokinney
+:consuelokinney rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Consuelo Kinney" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#tracideleon
+:tracideleon rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Traci Deleon" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#lesliekeller
+:lesliekeller rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Leslie Keller" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#michellewong
+:michellewong rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Michelle Wong" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#latashaoconnor
+:latashaoconnor rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Latasha Oconnor" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#kendramcpherson
+:kendramcpherson rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Kendra Mcpherson" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#heatherknight
+:heatherknight rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Heather Knight" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#ballmendez
+:ballmendez rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Ball Mendez" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#willisjoseph
+:willisjoseph rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Willis Joseph" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#randimcclure
+:randimcclure rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Randi Mcclure" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#loreneblevins
+:loreneblevins rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Lorene Blevins" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#charlottepierce
+:charlottepierce rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Charlotte Pierce" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#linabean
+:linabean rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Lina Bean" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#carolemorin
+:carolemorin rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Carole Morin" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#winifredschneider
+:winifredschneider rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Winifred Schneider" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#cranesteele
+:cranesteele rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Crane Steele" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#hornemullen
+:hornemullen rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Horne Mullen" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#maddenmcmillan
+:maddenmcmillan rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Madden Mcmillan" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#lydiatorres
+:lydiatorres rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Lydia Torres" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#bradleyhayes
+:bradleyhayes rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Bradley Hayes" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#mccartygreene
+:mccartygreene rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Mccarty Greene" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#wilkersonwhitley
+:wilkersonwhitley rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Wilkerson Whitley" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#chavezwynn
+:chavezwynn rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Chavez Wynn" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#pearsonvincent
+:pearsonvincent rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Pearson Vincent" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#chrystalleon
+:chrystalleon rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Chrystal Leon" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#tannerglenn
+:tannerglenn rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Tanner Glenn" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#allisoncampos
+:allisoncampos rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Allison Campos" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#angelinalee
+:angelinalee rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Angelina Lee" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#clairerandall
+:clairerandall rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Claire Randall" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#contreraswyatt
+:contreraswyatt rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Contreras Wyatt" .
+
+
+###  http://www.di.uminho.pt/prc2021/uc#deanfischer
+:deanfischer rdf:type owl:NamedIndividual ;
+          :frequenta :PRC ,
+                     :SPLN ,
+                     :PRI ,
+                     :GCS ;
+          :nome "Dean Fischer" .
+
+
+###  Generated by the Converter JSON to TTL (grp) https://github.com/GRP99/PRC2021/tree/main/TPC1

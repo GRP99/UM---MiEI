@@ -1,0 +1,77 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container
+            h4(class="w3-container w3-center") Pedido #{idpedido}
+        if info.length > 0
+            .w3-container
+                table.w3-table-all.w3-section
+                    each i in info
+                        tr
+                            th Estado
+                                td= i.estado
+                                td
+                        tr
+                            th Data e Hora
+                                td= i.data_hora
+                                td
+                        tr            
+                            th Descrição
+                                td= i.explicacao
+                                td
+                        tr
+                            th Relatório
+                                td= i.relatorio
+                                td
+                        tr
+                            th Tipo de Exame
+                                td #{i.sigla} :: #{i.descricao}
+                                td
+                        tr
+                            th Episódio
+                                td  #{i.idepisodio} :: #{i.caracterizacao}
+                                td 
+                        tr
+                            th Paciente
+                                td  #{i.num_utente} :: #{i.nome}
+                                td
+                                    button(class="button-transparent" id="myBtn")
+                                        i(class="fa fa-user" aria-hidden="true")
+                                    div(id="myModal" class="modal")
+                                        div(class="modal-content")
+                                            .w3-container.w3-margin.w3-border
+                                                    span(class="close") &times                                                        
+                                                    h4(class="w3-container w3-center") Paciente #{i.idpaciente}
+                                                    table.w3-table-all.w3-section
+                                                        tr
+                                                            th Data de Nascimento
+                                                                td= i.data_nascimento
+                                                                td
+                                                        tr
+                                                            th Email
+                                                                td= i.email
+                                                                td
+                                                        tr            
+                                                            th Morada
+                                                                td= i.morada
+                                                                td
+                                                        tr
+                                                            th Nome
+                                                                td= i.nome
+                                                                td
+                                                        tr
+                                                            th Número Utente
+                                                                td= i.num_utente
+                                                                td
+                                                        tr
+                                                            th Sexo
+                                                                td= i.sexo
+                                                                td
+                                                        tr
+                                                            th Telemóvel
+                                                                td= i.telemovel
+                                                                td
+        else
+            .w3-container
+                h5(class="w3-container w3-center") Não foi possível obter informação do pedido em causa ...

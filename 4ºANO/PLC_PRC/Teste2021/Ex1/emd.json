@@ -1,0 +1,5102 @@
+[
+    {
+      "_id": "60b3ee0ee00725274024d5a2",
+      "index": 0,
+      "dataEMD": "2020-07-27",
+      "nome": {
+        "primeiro": "Emily",
+        "último": "Terrell"
+      },
+      "idade": 28,
+      "género": "F",
+      "morada": "Clay",
+      "modalidade": "Futebol",
+      "clube": "GDGoma",
+      "email": "emily.terrell@gdgoma.org",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e62b59d062f2018a3",
+      "index": 1,
+      "dataEMD": "2019-01-17",
+      "nome": {
+        "primeiro": "Medina",
+        "último": "Hartman"
+      },
+      "idade": 34,
+      "género": "M",
+      "morada": "Orick",
+      "modalidade": "Triatlo",
+      "clube": "AVCfamalicão",
+      "email": "medina.hartman@avcfamalicão.name",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e01ada8b23fc63b31",
+      "index": 2,
+      "dataEMD": "2020-04-09",
+      "nome": {
+        "primeiro": "Andrews",
+        "último": "Rivas"
+      },
+      "idade": 24,
+      "género": "F",
+      "morada": "Saticoy",
+      "modalidade": "Badminton",
+      "clube": "ABCbraga",
+      "email": "andrews.rivas@abcbraga.us",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e6ab8471af29e2014",
+      "index": 3,
+      "dataEMD": "2020-06-12",
+      "nome": {
+        "primeiro": "Marcella",
+        "último": "Combs"
+      },
+      "idade": 24,
+      "género": "M",
+      "morada": "Manila",
+      "modalidade": "Ciclismo",
+      "clube": "Clube de Orientação do Minho",
+      "email": "marcella.combs@clube de orientação do minho.com",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ed16d4695ffdf5f17",
+      "index": 4,
+      "dataEMD": "2019-09-13",
+      "nome": {
+        "primeiro": "Mendoza",
+        "último": "Buckner"
+      },
+      "idade": 23,
+      "género": "M",
+      "morada": "Brogan",
+      "modalidade": "Patinagem",
+      "clube": "SCBraga",
+      "email": "mendoza.buckner@scbraga.ca",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e2707c21708cc3418",
+      "index": 5,
+      "dataEMD": "2021-04-25",
+      "nome": {
+        "primeiro": "Sellers",
+        "último": "Copeland"
+      },
+      "idade": 28,
+      "género": "F",
+      "morada": "Spelter",
+      "modalidade": "Triatlo",
+      "clube": "Clube de Orientação do Minho",
+      "email": "sellers.copeland@clube de orientação do minho.net",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e4a1e0233af16ac8c",
+      "index": 6,
+      "dataEMD": "2020-12-29",
+      "nome": {
+        "primeiro": "Bernard",
+        "último": "Stokes"
+      },
+      "idade": 34,
+      "género": "M",
+      "morada": "Sussex",
+      "modalidade": "Badminton",
+      "clube": "AVCfamalicão",
+      "email": "bernard.stokes@avcfamalicão.biz",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ed5225a2a93a69c3a",
+      "index": 7,
+      "dataEMD": "2021-03-04",
+      "nome": {
+        "primeiro": "Alfreda",
+        "último": "Raymond"
+      },
+      "idade": 30,
+      "género": "M",
+      "morada": "Sultana",
+      "modalidade": "Triatlo",
+      "clube": "ABCbraga",
+      "email": "alfreda.raymond@abcbraga.tv",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e9488e742d1600f58",
+      "index": 8,
+      "dataEMD": "2021-05-29",
+      "nome": {
+        "primeiro": "Alston",
+        "último": "Green"
+      },
+      "idade": 29,
+      "género": "M",
+      "morada": "Thornport",
+      "modalidade": "Triatlo",
+      "clube": "SCBraga",
+      "email": "alston.green@scbraga.biz",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ef8b2c3b732bc0d82",
+      "index": 9,
+      "dataEMD": "2019-10-27",
+      "nome": {
+        "primeiro": "Paige",
+        "último": "Mccarthy"
+      },
+      "idade": 32,
+      "género": "M",
+      "morada": "Brandywine",
+      "modalidade": "Parapente",
+      "clube": "ACDRcrespos",
+      "email": "paige.mccarthy@acdrcrespos.co.uk",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ec14a4ad7e917ed36",
+      "index": 10,
+      "dataEMD": "2020-08-09",
+      "nome": {
+        "primeiro": "Claudine",
+        "último": "Gill"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Katonah",
+      "modalidade": "Orientação",
+      "clube": "ACRroriz",
+      "email": "claudine.gill@acrroriz.me",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ecf1638e25755912c",
+      "index": 11,
+      "dataEMD": "2019-12-03",
+      "nome": {
+        "primeiro": "Summer",
+        "último": "Calhoun"
+      },
+      "idade": 26,
+      "género": "F",
+      "morada": "National",
+      "modalidade": "Esgrima",
+      "clube": "Clube de Orientação do Minho",
+      "email": "summer.calhoun@clube de orientação do minho.info",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e2fac3611c3cd7291",
+      "index": 12,
+      "dataEMD": "2020-01-22",
+      "nome": {
+        "primeiro": "Slater",
+        "último": "David"
+      },
+      "idade": 25,
+      "género": "M",
+      "morada": "Chicopee",
+      "modalidade": "BTT",
+      "clube": "Vitoria",
+      "email": "slater.david@vitoria.org",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e1f3d25c518678bd7",
+      "index": 13,
+      "dataEMD": "2020-09-03",
+      "nome": {
+        "primeiro": "Ophelia",
+        "último": "Boyd"
+      },
+      "idade": 21,
+      "género": "M",
+      "morada": "Chaparrito",
+      "modalidade": "Atletismo",
+      "clube": "AmigosMontanha",
+      "email": "ophelia.boyd@amigosmontanha.name",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ee62c8f8a846459ea",
+      "index": 14,
+      "dataEMD": "2019-08-02",
+      "nome": {
+        "primeiro": "Evans",
+        "último": "Singleton"
+      },
+      "idade": 25,
+      "género": "M",
+      "morada": "Sunwest",
+      "modalidade": "Orientação",
+      "clube": "Clube de Orientação do Minho",
+      "email": "evans.singleton@clube de orientação do minho.us",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e0539642b38645cb3",
+      "index": 15,
+      "dataEMD": "2020-08-07",
+      "nome": {
+        "primeiro": "Church",
+        "último": "Bishop"
+      },
+      "idade": 28,
+      "género": "M",
+      "morada": "Vallonia",
+      "modalidade": "Orientação",
+      "clube": "Vitoria",
+      "email": "church.bishop@vitoria.com",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e3f327a6ba71f77b0",
+      "index": 16,
+      "dataEMD": "2019-07-13",
+      "nome": {
+        "primeiro": "Woodard",
+        "último": "Bennett"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Ruckersville",
+      "modalidade": "SUP",
+      "clube": "EDViana",
+      "email": "woodard.bennett@edviana.ca",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e30fc3c2042f955eb",
+      "index": 17,
+      "dataEMD": "2019-09-15",
+      "nome": {
+        "primeiro": "Vasquez",
+        "último": "Michael"
+      },
+      "idade": 27,
+      "género": "M",
+      "morada": "Munjor",
+      "modalidade": "Basquetebol",
+      "clube": "Vitoria",
+      "email": "vasquez.michael@vitoria.net",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ee90bdefcc8703185",
+      "index": 18,
+      "dataEMD": "2019-09-04",
+      "nome": {
+        "primeiro": "Holloway",
+        "último": "Maxwell"
+      },
+      "idade": 30,
+      "género": "F",
+      "morada": "Waikele",
+      "modalidade": "Ciclismo",
+      "clube": "AVCfamalicão",
+      "email": "holloway.maxwell@avcfamalicão.biz",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e559fb2fd0142f64c",
+      "index": 19,
+      "dataEMD": "2020-02-04",
+      "nome": {
+        "primeiro": "Michele",
+        "último": "Barber"
+      },
+      "idade": 27,
+      "género": "F",
+      "morada": "Oberlin",
+      "modalidade": "Karaté",
+      "clube": "Clube de Orientação do Minho",
+      "email": "michele.barber@clube de orientação do minho.tv",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0eb2087f8cccef830d",
+      "index": 20,
+      "dataEMD": "2020-03-01",
+      "nome": {
+        "primeiro": "Chambers",
+        "último": "Burton"
+      },
+      "idade": 25,
+      "género": "M",
+      "morada": "Boling",
+      "modalidade": "SUP",
+      "clube": "Vitoria",
+      "email": "chambers.burton@vitoria.biz",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ea0dc6768a6ca7192",
+      "index": 21,
+      "dataEMD": "2021-03-26",
+      "nome": {
+        "primeiro": "Massey",
+        "último": "Goodman"
+      },
+      "idade": 32,
+      "género": "M",
+      "morada": "Garfield",
+      "modalidade": "BTT",
+      "clube": "AmigosMontanha",
+      "email": "massey.goodman@amigosmontanha.co.uk",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ee3d27702cac0b7cd",
+      "index": 22,
+      "dataEMD": "2021-02-26",
+      "nome": {
+        "primeiro": "Klein",
+        "último": "Cameron"
+      },
+      "idade": 30,
+      "género": "F",
+      "morada": "Twilight",
+      "modalidade": "Futebol",
+      "clube": "SCBraga",
+      "email": "klein.cameron@scbraga.me",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e23a38b2da3f0a76e",
+      "index": 23,
+      "dataEMD": "2020-07-11",
+      "nome": {
+        "primeiro": "Lambert",
+        "último": "Mueller"
+      },
+      "idade": 25,
+      "género": "M",
+      "morada": "Oretta",
+      "modalidade": "Basquetebol",
+      "clube": "ACDRcrespos",
+      "email": "lambert.mueller@acdrcrespos.info",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e172e761f8d52c213",
+      "index": 24,
+      "dataEMD": "2021-02-15",
+      "nome": {
+        "primeiro": "Ewing",
+        "último": "Drake"
+      },
+      "idade": 21,
+      "género": "M",
+      "morada": "Nanafalia",
+      "modalidade": "Ciclismo",
+      "clube": "ACDRcrespos",
+      "email": "ewing.drake@acdrcrespos.org",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e2573d42d411cc591",
+      "index": 25,
+      "dataEMD": "2019-01-04",
+      "nome": {
+        "primeiro": "Lester",
+        "último": "Manning"
+      },
+      "idade": 35,
+      "género": "M",
+      "morada": "Grandview",
+      "modalidade": "Dança",
+      "clube": "ACDRcrespos",
+      "email": "lester.manning@acdrcrespos.name",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ee95a95d0c9bc3e5f",
+      "index": 26,
+      "dataEMD": "2020-04-16",
+      "nome": {
+        "primeiro": "Nina",
+        "último": "Fowler"
+      },
+      "idade": 30,
+      "género": "F",
+      "morada": "Turah",
+      "modalidade": "Futebol",
+      "clube": "AmigosMontanha",
+      "email": "nina.fowler@amigosmontanha.us",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0effaf9b013df4203d",
+      "index": 27,
+      "dataEMD": "2020-07-25",
+      "nome": {
+        "primeiro": "Lynn",
+        "último": "Shaw"
+      },
+      "idade": 26,
+      "género": "F",
+      "morada": "Cutter",
+      "modalidade": "SUP",
+      "clube": "Clube de Orientação do Minho",
+      "email": "lynn.shaw@clube de orientação do minho.com",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ee3f58fda00f17cc6",
+      "index": 28,
+      "dataEMD": "2021-01-13",
+      "nome": {
+        "primeiro": "Betty",
+        "último": "Blake"
+      },
+      "idade": 25,
+      "género": "F",
+      "morada": "Teasdale",
+      "modalidade": "Badminton",
+      "clube": "ABCbraga",
+      "email": "betty.blake@abcbraga.ca",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ee7cb2701483df2c9",
+      "index": 29,
+      "dataEMD": "2020-10-23",
+      "nome": {
+        "primeiro": "Oneill",
+        "último": "Roth"
+      },
+      "idade": 25,
+      "género": "M",
+      "morada": "Graball",
+      "modalidade": "Andebol",
+      "clube": "EDViana",
+      "email": "oneill.roth@edviana.net",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e74703dea724376f8",
+      "index": 30,
+      "dataEMD": "2019-06-03",
+      "nome": {
+        "primeiro": "Roxanne",
+        "último": "Miles"
+      },
+      "idade": 26,
+      "género": "F",
+      "morada": "Haring",
+      "modalidade": "Badminton",
+      "clube": "Vitoria",
+      "email": "roxanne.miles@vitoria.biz",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ef3bfaf77b4e67849",
+      "index": 31,
+      "dataEMD": "2019-04-20",
+      "nome": {
+        "primeiro": "Cecelia",
+        "último": "Adams"
+      },
+      "idade": 28,
+      "género": "F",
+      "morada": "Fairlee",
+      "modalidade": "Futebol",
+      "clube": "AmigosMontanha",
+      "email": "cecelia.adams@amigosmontanha.tv",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e54b12900f5e6c314",
+      "index": 32,
+      "dataEMD": "2019-12-12",
+      "nome": {
+        "primeiro": "Irma",
+        "último": "Jacobs"
+      },
+      "idade": 27,
+      "género": "F",
+      "morada": "Driftwood",
+      "modalidade": "Atletismo",
+      "clube": "EDViana",
+      "email": "irma.jacobs@edviana.biz",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ef050e91efe68a668",
+      "index": 33,
+      "dataEMD": "2020-12-23",
+      "nome": {
+        "primeiro": "Angelia",
+        "último": "Noel"
+      },
+      "idade": 34,
+      "género": "M",
+      "morada": "Martell",
+      "modalidade": "Orientação",
+      "clube": "EDViana",
+      "email": "angelia.noel@edviana.co.uk",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e536b83d9d562f9c8",
+      "index": 34,
+      "dataEMD": "2020-06-02",
+      "nome": {
+        "primeiro": "Sallie",
+        "último": "Shaffer"
+      },
+      "idade": 24,
+      "género": "M",
+      "morada": "Brownlee",
+      "modalidade": "Ciclismo",
+      "clube": "Clube de Orientação do Minho",
+      "email": "sallie.shaffer@clube de orientação do minho.me",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e6dbcbe60effe125d",
+      "index": 35,
+      "dataEMD": "2020-06-22",
+      "nome": {
+        "primeiro": "Jordan",
+        "último": "Bonner"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Northchase",
+      "modalidade": "SUP",
+      "clube": "Vitoria",
+      "email": "jordan.bonner@vitoria.info",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e8b4f7dca2601ddfc",
+      "index": 36,
+      "dataEMD": "2019-12-17",
+      "nome": {
+        "primeiro": "Bartlett",
+        "último": "Sexton"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Rehrersburg",
+      "modalidade": "Atletismo",
+      "clube": "GDGoma",
+      "email": "bartlett.sexton@gdgoma.org",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e59411e4e9d97d70a",
+      "index": 37,
+      "dataEMD": "2019-07-27",
+      "nome": {
+        "primeiro": "Opal",
+        "último": "Stewart"
+      },
+      "idade": 30,
+      "género": "F",
+      "morada": "Dola",
+      "modalidade": "Basquetebol",
+      "clube": "AVCfamalicão",
+      "email": "opal.stewart@avcfamalicão.name",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ee78616dd040e4dca",
+      "index": 38,
+      "dataEMD": "2020-11-26",
+      "nome": {
+        "primeiro": "Ola",
+        "último": "Glover"
+      },
+      "idade": 34,
+      "género": "F",
+      "morada": "Barronett",
+      "modalidade": "Equitação",
+      "clube": "Clube de Orientação do Minho",
+      "email": "ola.glover@clube de orientação do minho.us",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ea3043984230726fc",
+      "index": 39,
+      "dataEMD": "2019-11-21",
+      "nome": {
+        "primeiro": "Shelia",
+        "último": "York"
+      },
+      "idade": 21,
+      "género": "M",
+      "morada": "Escondida",
+      "modalidade": "Orientação",
+      "clube": "SCBraga",
+      "email": "shelia.york@scbraga.com",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e242cedae88a5f12c",
+      "index": 40,
+      "dataEMD": "2019-07-31",
+      "nome": {
+        "primeiro": "Raquel",
+        "último": "Ratliff"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Goldfield",
+      "modalidade": "Patinagem",
+      "clube": "ABCbraga",
+      "email": "raquel.ratliff@abcbraga.ca",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e846df12b8f8e750d",
+      "index": 41,
+      "dataEMD": "2019-09-14",
+      "nome": {
+        "primeiro": "Burke",
+        "último": "Weeks"
+      },
+      "idade": 29,
+      "género": "M",
+      "morada": "Mapletown",
+      "modalidade": "Parapente",
+      "clube": "AmigosMontanha",
+      "email": "burke.weeks@amigosmontanha.net",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e3f165afa6f23a0eb",
+      "index": 42,
+      "dataEMD": "2019-04-30",
+      "nome": {
+        "primeiro": "Best",
+        "último": "French"
+      },
+      "idade": 33,
+      "género": "M",
+      "morada": "Longbranch",
+      "modalidade": "Ciclismo",
+      "clube": "GDGoma",
+      "email": "best.french@gdgoma.biz",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e0ee0185da196c9ab",
+      "index": 43,
+      "dataEMD": "2019-10-08",
+      "nome": {
+        "primeiro": "Fowler",
+        "último": "Alvarez"
+      },
+      "idade": 31,
+      "género": "M",
+      "morada": "Choctaw",
+      "modalidade": "Esgrima",
+      "clube": "AmigosMontanha",
+      "email": "fowler.alvarez@amigosmontanha.tv",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ecfbe9bf6149ba53b",
+      "index": 44,
+      "dataEMD": "2020-03-16",
+      "nome": {
+        "primeiro": "Terri",
+        "último": "Avila"
+      },
+      "idade": 22,
+      "género": "F",
+      "morada": "Crown",
+      "modalidade": "Esgrima",
+      "clube": "AVCfamalicão",
+      "email": "terri.avila@avcfamalicão.biz",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e84beb8fe0be593a5",
+      "index": 45,
+      "dataEMD": "2019-10-14",
+      "nome": {
+        "primeiro": "Alford",
+        "último": "Small"
+      },
+      "idade": 32,
+      "género": "F",
+      "morada": "Alamo",
+      "modalidade": "Badminton",
+      "clube": "AVCfamalicão",
+      "email": "alford.small@avcfamalicão.co.uk",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ebab436c1d23c2a84",
+      "index": 46,
+      "dataEMD": "2020-03-01",
+      "nome": {
+        "primeiro": "Key",
+        "último": "Arnold"
+      },
+      "idade": 27,
+      "género": "F",
+      "morada": "Orason",
+      "modalidade": "Ciclismo",
+      "clube": "AmigosMontanha",
+      "email": "key.arnold@amigosmontanha.me",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e20e993d5010857a4",
+      "index": 47,
+      "dataEMD": "2021-04-16",
+      "nome": {
+        "primeiro": "Nguyen",
+        "último": "Diaz"
+      },
+      "idade": 35,
+      "género": "F",
+      "morada": "Watchtower",
+      "modalidade": "BTT",
+      "clube": "AmigosMontanha",
+      "email": "nguyen.diaz@amigosmontanha.info",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ee409ac878ba9b99b",
+      "index": 48,
+      "dataEMD": "2021-04-04",
+      "nome": {
+        "primeiro": "Sherry",
+        "último": "Morales"
+      },
+      "idade": 26,
+      "género": "F",
+      "morada": "Waukeenah",
+      "modalidade": "Atletismo",
+      "clube": "AVCfamalicão",
+      "email": "sherry.morales@avcfamalicão.org",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ed7a60ecd07dadb9e",
+      "index": 49,
+      "dataEMD": "2019-09-11",
+      "nome": {
+        "primeiro": "Crane",
+        "último": "Ballard"
+      },
+      "idade": 25,
+      "género": "F",
+      "morada": "Fedora",
+      "modalidade": "BTT",
+      "clube": "Vitoria",
+      "email": "crane.ballard@vitoria.name",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e07cb41f968328e60",
+      "index": 50,
+      "dataEMD": "2020-07-11",
+      "nome": {
+        "primeiro": "Terry",
+        "último": "Chaney"
+      },
+      "idade": 23,
+      "género": "F",
+      "morada": "Blanco",
+      "modalidade": "Karaté",
+      "clube": "SCBraga",
+      "email": "terry.chaney@scbraga.us",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ee48920a886a461e2",
+      "index": 51,
+      "dataEMD": "2019-03-04",
+      "nome": {
+        "primeiro": "Sheppard",
+        "último": "Bryant"
+      },
+      "idade": 23,
+      "género": "M",
+      "morada": "Brandermill",
+      "modalidade": "Karaté",
+      "clube": "AVCfamalicão",
+      "email": "sheppard.bryant@avcfamalicão.com",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e79c5349b29557a62",
+      "index": 52,
+      "dataEMD": "2020-11-03",
+      "nome": {
+        "primeiro": "Janis",
+        "último": "Mckinney"
+      },
+      "idade": 28,
+      "género": "M",
+      "morada": "Osage",
+      "modalidade": "BTT",
+      "clube": "ABCbraga",
+      "email": "janis.mckinney@abcbraga.ca",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e3bffb9b3df6f5ea4",
+      "index": 53,
+      "dataEMD": "2020-05-10",
+      "nome": {
+        "primeiro": "Sue",
+        "último": "Waters"
+      },
+      "idade": 32,
+      "género": "M",
+      "morada": "Carrizo",
+      "modalidade": "Andebol",
+      "clube": "Vitoria",
+      "email": "sue.waters@vitoria.net",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e03c621784bf7b2eb",
+      "index": 54,
+      "dataEMD": "2019-05-30",
+      "nome": {
+        "primeiro": "Cynthia",
+        "último": "Page"
+      },
+      "idade": 22,
+      "género": "F",
+      "morada": "Forestburg",
+      "modalidade": "Equitação",
+      "clube": "ACRroriz",
+      "email": "cynthia.page@acrroriz.biz",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ea96d47b79642735d",
+      "index": 55,
+      "dataEMD": "2019-10-14",
+      "nome": {
+        "primeiro": "Montgomery",
+        "último": "Rhodes"
+      },
+      "idade": 31,
+      "género": "F",
+      "morada": "Rivers",
+      "modalidade": "Atletismo",
+      "clube": "Vitoria",
+      "email": "montgomery.rhodes@vitoria.tv",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e63cc2530b136daef",
+      "index": 56,
+      "dataEMD": "2021-03-22",
+      "nome": {
+        "primeiro": "Claire",
+        "último": "Joyce"
+      },
+      "idade": 25,
+      "género": "M",
+      "morada": "Belgreen",
+      "modalidade": "Basquetebol",
+      "clube": "ACDRcrespos",
+      "email": "claire.joyce@acdrcrespos.biz",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e8a311b08fca3541b",
+      "index": 57,
+      "dataEMD": "2021-04-16",
+      "nome": {
+        "primeiro": "Evangelina",
+        "último": "Key"
+      },
+      "idade": 26,
+      "género": "M",
+      "morada": "Whitewater",
+      "modalidade": "Ciclismo",
+      "clube": "ACDRcrespos",
+      "email": "evangelina.key@acdrcrespos.co.uk",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ea9b4c2114abcf6d7",
+      "index": 58,
+      "dataEMD": "2020-11-24",
+      "nome": {
+        "primeiro": "Effie",
+        "último": "Gibson"
+      },
+      "idade": 33,
+      "género": "M",
+      "morada": "Virgie",
+      "modalidade": "Andebol",
+      "clube": "ACRroriz",
+      "email": "effie.gibson@acrroriz.me",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e16fc834f28234ef4",
+      "index": 59,
+      "dataEMD": "2021-03-16",
+      "nome": {
+        "primeiro": "Maureen",
+        "último": "Cobb"
+      },
+      "idade": 24,
+      "género": "M",
+      "morada": "Venice",
+      "modalidade": "Patinagem",
+      "clube": "AmigosMontanha",
+      "email": "maureen.cobb@amigosmontanha.info",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0efe55045feaaea0d0",
+      "index": 60,
+      "dataEMD": "2020-11-22",
+      "nome": {
+        "primeiro": "Dee",
+        "último": "Holman"
+      },
+      "idade": 35,
+      "género": "F",
+      "morada": "Brenton",
+      "modalidade": "Parapente",
+      "clube": "AVCfamalicão",
+      "email": "dee.holman@avcfamalicão.org",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e53dad18808565be7",
+      "index": 61,
+      "dataEMD": "2019-02-13",
+      "nome": {
+        "primeiro": "Larson",
+        "último": "Morin"
+      },
+      "idade": 26,
+      "género": "F",
+      "morada": "Summerset",
+      "modalidade": "Andebol",
+      "clube": "GDGoma",
+      "email": "larson.morin@gdgoma.name",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e25015995bacd5bed",
+      "index": 62,
+      "dataEMD": "2021-01-29",
+      "nome": {
+        "primeiro": "Ursula",
+        "último": "Martinez"
+      },
+      "idade": 32,
+      "género": "F",
+      "morada": "Lorraine",
+      "modalidade": "Dança",
+      "clube": "AmigosMontanha",
+      "email": "ursula.martinez@amigosmontanha.us",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ed8819374df399b72",
+      "index": 63,
+      "dataEMD": "2020-10-10",
+      "nome": {
+        "primeiro": "English",
+        "último": "Clemons"
+      },
+      "idade": 30,
+      "género": "M",
+      "morada": "Ticonderoga",
+      "modalidade": "Basquetebol",
+      "clube": "GDGoma",
+      "email": "english.clemons@gdgoma.com",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e47a5478e9b66110d",
+      "index": 64,
+      "dataEMD": "2020-10-28",
+      "nome": {
+        "primeiro": "Stella",
+        "último": "Jackson"
+      },
+      "idade": 31,
+      "género": "F",
+      "morada": "Kaka",
+      "modalidade": "Badminton",
+      "clube": "ACDRcrespos",
+      "email": "stella.jackson@acdrcrespos.ca",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0eddf26117e9d32bcb",
+      "index": 65,
+      "dataEMD": "2019-05-01",
+      "nome": {
+        "primeiro": "Haley",
+        "último": "Joseph"
+      },
+      "idade": 28,
+      "género": "F",
+      "morada": "Brantleyville",
+      "modalidade": "Ciclismo",
+      "clube": "AVCfamalicão",
+      "email": "haley.joseph@avcfamalicão.net",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ebc5f8bcac6a4b89d",
+      "index": 66,
+      "dataEMD": "2020-04-09",
+      "nome": {
+        "primeiro": "Kelsey",
+        "último": "Roberts"
+      },
+      "idade": 28,
+      "género": "M",
+      "morada": "Morgandale",
+      "modalidade": "Patinagem",
+      "clube": "Vitoria",
+      "email": "kelsey.roberts@vitoria.biz",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e9f0c3dbf2ecc854f",
+      "index": 67,
+      "dataEMD": "2019-06-26",
+      "nome": {
+        "primeiro": "Watson",
+        "último": "Lynch"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Fillmore",
+      "modalidade": "Dança",
+      "clube": "GDGoma",
+      "email": "watson.lynch@gdgoma.tv",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e6cb88f8d26691e15",
+      "index": 68,
+      "dataEMD": "2021-05-14",
+      "nome": {
+        "primeiro": "Chasity",
+        "último": "Coffey"
+      },
+      "idade": 23,
+      "género": "F",
+      "morada": "Kersey",
+      "modalidade": "Karaté",
+      "clube": "EDViana",
+      "email": "chasity.coffey@edviana.biz",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e0797a9f03b138d18",
+      "index": 69,
+      "dataEMD": "2021-02-26",
+      "nome": {
+        "primeiro": "Paula",
+        "último": "Delaney"
+      },
+      "idade": 29,
+      "género": "M",
+      "morada": "Disautel",
+      "modalidade": "Dança",
+      "clube": "EDViana",
+      "email": "paula.delaney@edviana.co.uk",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e769aecb50db619f2",
+      "index": 70,
+      "dataEMD": "2019-06-27",
+      "nome": {
+        "primeiro": "Galloway",
+        "último": "Sanders"
+      },
+      "idade": 33,
+      "género": "M",
+      "morada": "Allendale",
+      "modalidade": "Futebol",
+      "clube": "ACRroriz",
+      "email": "galloway.sanders@acrroriz.me",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e553355b77862ea98",
+      "index": 71,
+      "dataEMD": "2021-04-12",
+      "nome": {
+        "primeiro": "Tina",
+        "último": "Blankenship"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Longoria",
+      "modalidade": "SUP",
+      "clube": "ACDRcrespos",
+      "email": "tina.blankenship@acdrcrespos.info",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ee3bb3fd71f515d88",
+      "index": 72,
+      "dataEMD": "2021-04-11",
+      "nome": {
+        "primeiro": "Whitehead",
+        "último": "Montgomery"
+      },
+      "idade": 34,
+      "género": "M",
+      "morada": "Fairview",
+      "modalidade": "Parapente",
+      "clube": "AVCfamalicão",
+      "email": "whitehead.montgomery@avcfamalicão.org",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ed5dd8522cc53e7b0",
+      "index": 73,
+      "dataEMD": "2021-04-22",
+      "nome": {
+        "primeiro": "Dominguez",
+        "último": "Chambers"
+      },
+      "idade": 35,
+      "género": "M",
+      "morada": "Malott",
+      "modalidade": "Equitação",
+      "clube": "ABCbraga",
+      "email": "dominguez.chambers@abcbraga.name",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e28ab1329e2ed0888",
+      "index": 74,
+      "dataEMD": "2019-05-23",
+      "nome": {
+        "primeiro": "Booth",
+        "último": "Eaton"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Terlingua",
+      "modalidade": "Triatlo",
+      "clube": "SCBraga",
+      "email": "booth.eaton@scbraga.us",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e7524108bf9936414",
+      "index": 75,
+      "dataEMD": "2019-07-14",
+      "nome": {
+        "primeiro": "Joanna",
+        "último": "Grant"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Noblestown",
+      "modalidade": "Parapente",
+      "clube": "AmigosMontanha",
+      "email": "joanna.grant@amigosmontanha.com",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e59e86eaf9b9a5372",
+      "index": 76,
+      "dataEMD": "2019-03-28",
+      "nome": {
+        "primeiro": "Jeri",
+        "último": "Pearson"
+      },
+      "idade": 29,
+      "género": "F",
+      "morada": "Falmouth",
+      "modalidade": "Orientação",
+      "clube": "ACRroriz",
+      "email": "jeri.pearson@acrroriz.ca",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e13085dc64e17e4b0",
+      "index": 77,
+      "dataEMD": "2021-05-13",
+      "nome": {
+        "primeiro": "Sanchez",
+        "último": "Mcgee"
+      },
+      "idade": 31,
+      "género": "F",
+      "morada": "Bascom",
+      "modalidade": "Ciclismo",
+      "clube": "ACDRcrespos",
+      "email": "sanchez.mcgee@acdrcrespos.net",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e3d4f8a3a439f8b7a",
+      "index": 78,
+      "dataEMD": "2019-12-02",
+      "nome": {
+        "primeiro": "Magdalena",
+        "último": "Francis"
+      },
+      "idade": 27,
+      "género": "M",
+      "morada": "Fostoria",
+      "modalidade": "Esgrima",
+      "clube": "ACDRcrespos",
+      "email": "magdalena.francis@acdrcrespos.biz",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e6edaad4b8a63efae",
+      "index": 79,
+      "dataEMD": "2021-05-19",
+      "nome": {
+        "primeiro": "Morris",
+        "último": "Poole"
+      },
+      "idade": 34,
+      "género": "F",
+      "morada": "Steinhatchee",
+      "modalidade": "Badminton",
+      "clube": "AVCfamalicão",
+      "email": "morris.poole@avcfamalicão.tv",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e538d62e10eba66b6",
+      "index": 80,
+      "dataEMD": "2021-02-16",
+      "nome": {
+        "primeiro": "Rodriguez",
+        "último": "Gonzalez"
+      },
+      "idade": 25,
+      "género": "M",
+      "morada": "Coaldale",
+      "modalidade": "Triatlo",
+      "clube": "GDGoma",
+      "email": "rodriguez.gonzalez@gdgoma.biz",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0eca6dd1525f201090",
+      "index": 81,
+      "dataEMD": "2021-05-18",
+      "nome": {
+        "primeiro": "Christine",
+        "último": "Rice"
+      },
+      "idade": 33,
+      "género": "M",
+      "morada": "Hayes",
+      "modalidade": "Orientação",
+      "clube": "GDGoma",
+      "email": "christine.rice@gdgoma.co.uk",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e472001f8e05a40ee",
+      "index": 82,
+      "dataEMD": "2020-11-10",
+      "nome": {
+        "primeiro": "Valdez",
+        "último": "Harper"
+      },
+      "idade": 33,
+      "género": "F",
+      "morada": "Jacksonwald",
+      "modalidade": "Karaté",
+      "clube": "AmigosMontanha",
+      "email": "valdez.harper@amigosmontanha.me",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e3b279f45e79cd6fa",
+      "index": 83,
+      "dataEMD": "2021-04-24",
+      "nome": {
+        "primeiro": "Berta",
+        "último": "Clay"
+      },
+      "idade": 29,
+      "género": "M",
+      "morada": "Barclay",
+      "modalidade": "Atletismo",
+      "clube": "Clube de Orientação do Minho",
+      "email": "berta.clay@clube de orientação do minho.info",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0eee4b8338800e6003",
+      "index": 84,
+      "dataEMD": "2019-10-18",
+      "nome": {
+        "primeiro": "Bonnie",
+        "último": "Sandoval"
+      },
+      "idade": 22,
+      "género": "M",
+      "morada": "Shaft",
+      "modalidade": "Equitação",
+      "clube": "Clube de Orientação do Minho",
+      "email": "bonnie.sandoval@clube de orientação do minho.org",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e66f3d4c3cc778b1e",
+      "index": 85,
+      "dataEMD": "2020-11-24",
+      "nome": {
+        "primeiro": "Stein",
+        "último": "Wiggins"
+      },
+      "idade": 35,
+      "género": "F",
+      "morada": "Rosine",
+      "modalidade": "Atletismo",
+      "clube": "EDViana",
+      "email": "stein.wiggins@edviana.name",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e278b7161e71d9ceb",
+      "index": 86,
+      "dataEMD": "2020-12-08",
+      "nome": {
+        "primeiro": "Tanya",
+        "último": "Mcclain"
+      },
+      "idade": 26,
+      "género": "M",
+      "morada": "Fivepointville",
+      "modalidade": "SUP",
+      "clube": "GDGoma",
+      "email": "tanya.mcclain@gdgoma.us",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e7ded570068dce1d9",
+      "index": 87,
+      "dataEMD": "2021-02-23",
+      "nome": {
+        "primeiro": "Perry",
+        "último": "Sanford"
+      },
+      "idade": 32,
+      "género": "M",
+      "morada": "Albany",
+      "modalidade": "Atletismo",
+      "clube": "Vitoria",
+      "email": "perry.sanford@vitoria.com",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e94c479068389f5e3",
+      "index": 88,
+      "dataEMD": "2019-10-10",
+      "nome": {
+        "primeiro": "Maxine",
+        "último": "Rutledge"
+      },
+      "idade": 33,
+      "género": "M",
+      "morada": "Caberfae",
+      "modalidade": "Badminton",
+      "clube": "AmigosMontanha",
+      "email": "maxine.rutledge@amigosmontanha.ca",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e7ac2f667ececc242",
+      "index": 89,
+      "dataEMD": "2020-07-01",
+      "nome": {
+        "primeiro": "Tucker",
+        "último": "Morse"
+      },
+      "idade": 26,
+      "género": "M",
+      "morada": "Tyhee",
+      "modalidade": "Badminton",
+      "clube": "SCBraga",
+      "email": "tucker.morse@scbraga.net",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0eabfeddd7f84fd275",
+      "index": 90,
+      "dataEMD": "2020-05-17",
+      "nome": {
+        "primeiro": "Thelma",
+        "último": "Schmidt"
+      },
+      "idade": 23,
+      "género": "M",
+      "morada": "Greenfields",
+      "modalidade": "Badminton",
+      "clube": "ACRroriz",
+      "email": "thelma.schmidt@acrroriz.biz",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e3d51473e1b41004b",
+      "index": 91,
+      "dataEMD": "2020-03-24",
+      "nome": {
+        "primeiro": "Charles",
+        "último": "Kim"
+      },
+      "idade": 24,
+      "género": "F",
+      "morada": "Bennett",
+      "modalidade": "BTT",
+      "clube": "ACDRcrespos",
+      "email": "charles.kim@acdrcrespos.tv",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e926c1d538dfaabd3",
+      "index": 92,
+      "dataEMD": "2020-01-27",
+      "nome": {
+        "primeiro": "Duncan",
+        "último": "Davidson"
+      },
+      "idade": 35,
+      "género": "F",
+      "morada": "Cedarville",
+      "modalidade": "Karaté",
+      "clube": "AmigosMontanha",
+      "email": "duncan.davidson@amigosmontanha.biz",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0ea6339abf19460649",
+      "index": 93,
+      "dataEMD": "2019-04-07",
+      "nome": {
+        "primeiro": "Gertrude",
+        "último": "Dillon"
+      },
+      "idade": 27,
+      "género": "F",
+      "morada": "Oneida",
+      "modalidade": "Badminton",
+      "clube": "ACRroriz",
+      "email": "gertrude.dillon@acrroriz.co.uk",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e059b32a47b518e93",
+      "index": 94,
+      "dataEMD": "2019-02-06",
+      "nome": {
+        "primeiro": "Brennan",
+        "último": "Santana"
+      },
+      "idade": 29,
+      "género": "F",
+      "morada": "Villarreal",
+      "modalidade": "BTT",
+      "clube": "Vitoria",
+      "email": "brennan.santana@vitoria.me",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e57b3659681466acf",
+      "index": 95,
+      "dataEMD": "2020-11-09",
+      "nome": {
+        "primeiro": "Ball",
+        "último": "Barlow"
+      },
+      "idade": 28,
+      "género": "F",
+      "morada": "Hobucken",
+      "modalidade": "Parapente",
+      "clube": "AmigosMontanha",
+      "email": "ball.barlow@amigosmontanha.info",
+      "federado": true,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0e651ec286b869976d",
+      "index": 96,
+      "dataEMD": "2020-05-10",
+      "nome": {
+        "primeiro": "Oneil",
+        "último": "Baxter"
+      },
+      "idade": 24,
+      "género": "F",
+      "morada": "Sanders",
+      "modalidade": "Triatlo",
+      "clube": "Clube de Orientação do Minho",
+      "email": "oneil.baxter@clube de orientação do minho.org",
+      "federado": true,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e67043c92ce84a97c",
+      "index": 97,
+      "dataEMD": "2020-10-09",
+      "nome": {
+        "primeiro": "Helena",
+        "último": "Mayo"
+      },
+      "idade": 25,
+      "género": "F",
+      "morada": "Bend",
+      "modalidade": "Andebol",
+      "clube": "Vitoria",
+      "email": "helena.mayo@vitoria.name",
+      "federado": false,
+      "resultado": false
+    },
+    {
+      "_id": "60b3ee0ea5d75fed720e4820",
+      "index": 98,
+      "dataEMD": "2021-05-10",
+      "nome": {
+        "primeiro": "Martin",
+        "último": "Brewer"
+      },
+      "idade": 31,
+      "género": "F",
+      "morada": "Taycheedah",
+      "modalidade": "Patinagem",
+      "clube": "ACRroriz",
+      "email": "martin.brewer@acrroriz.us",
+      "federado": false,
+      "resultado": true
+    },
+    {
+      "_id": "60b3ee0e9dc10b681d5212b5",
+      "index": 99,
+      "dataEMD": "2019-10-13",
+      "nome": {
+        "primeiro": "Wilder",
+        "último": "Greene"
+      },
+      "idade": 34,
+      "género": "M",
+      "morada": "Heil",
+      "modalidade": "Badminton",
+      "clube": "Vitoria",
+      "email": "wilder.greene@vitoria.com",
+      "federado": false,
+      "resultado": false
+    },
+        {
+          "_id": "60b3ee817af5fb3fb1e153ef",
+          "index": 0,
+          "dataEMD": "2019-06-23",
+          "nome": {
+            "primeiro": "Harrison",
+            "último": "Finch"
+          },
+          "idade": 21,
+          "género": "F",
+          "morada": "Harrison",
+          "modalidade": "Esgrima",
+          "clube": "EDViana",
+          "email": "harrison.finch@edviana.us",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81145de55fffb7bdfa",
+          "index": 1,
+          "dataEMD": "2019-01-01",
+          "nome": {
+            "primeiro": "Jordan",
+            "último": "Alvarez"
+          },
+          "idade": 25,
+          "género": "F",
+          "morada": "Riviera",
+          "modalidade": "Atletismo",
+          "clube": "EDViana",
+          "email": "jordan.alvarez@edviana.biz",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee811a4429c17e036357",
+          "index": 2,
+          "dataEMD": "2020-04-27",
+          "nome": {
+            "primeiro": "Lane",
+            "último": "Norton"
+          },
+          "idade": 22,
+          "género": "M",
+          "morada": "Homestead",
+          "modalidade": "Patinagem",
+          "clube": "ABCbraga",
+          "email": "lane.norton@abcbraga.io",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee8115745fe4ce8dbc5a",
+          "index": 3,
+          "dataEMD": "2020-07-06",
+          "nome": {
+            "primeiro": "Carrillo",
+            "último": "Munoz"
+          },
+          "idade": 32,
+          "género": "F",
+          "morada": "Bordelonville",
+          "modalidade": "Esgrima",
+          "clube": "SCBraga",
+          "email": "carrillo.munoz@scbraga.biz",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee8128adc82a45f8023d",
+          "index": 4,
+          "dataEMD": "2020-06-18",
+          "nome": {
+            "primeiro": "Barrett",
+            "último": "Frederick"
+          },
+          "idade": 29,
+          "género": "M",
+          "morada": "Stollings",
+          "modalidade": "BTT",
+          "clube": "AVCfamalicão",
+          "email": "barrett.frederick@avcfamalicão.net",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81525963fc4fd2cf9d",
+          "index": 5,
+          "dataEMD": "2019-06-12",
+          "nome": {
+            "primeiro": "Harmon",
+            "último": "Stone"
+          },
+          "idade": 21,
+          "género": "M",
+          "morada": "Idledale",
+          "modalidade": "Badminton",
+          "clube": "AmigosMontanha",
+          "email": "harmon.stone@amigosmontanha.com",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81e69c16cc6108e7ad",
+          "index": 6,
+          "dataEMD": "2021-01-18",
+          "nome": {
+            "primeiro": "Chandra",
+            "último": "Potts"
+          },
+          "idade": 32,
+          "género": "M",
+          "morada": "Albany",
+          "modalidade": "Patinagem",
+          "clube": "AmigosMontanha",
+          "email": "chandra.potts@amigosmontanha.tv",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81ec958ef30a9daa8d",
+          "index": 7,
+          "dataEMD": "2021-01-12",
+          "nome": {
+            "primeiro": "John",
+            "último": "Warner"
+          },
+          "idade": 22,
+          "género": "M",
+          "morada": "Veyo",
+          "modalidade": "Badminton",
+          "clube": "Clube de Orientação do Minho",
+          "email": "john.warner@clube de orientação do minho.co.uk",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee813905ebb273d5d9a0",
+          "index": 8,
+          "dataEMD": "2019-03-09",
+          "nome": {
+            "primeiro": "Casey",
+            "último": "Bowman"
+          },
+          "idade": 22,
+          "género": "F",
+          "morada": "Tryon",
+          "modalidade": "Patinagem",
+          "clube": "ABCbraga",
+          "email": "casey.bowman@abcbraga.ca",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee8106e9b44af3270a40",
+          "index": 9,
+          "dataEMD": "2020-04-23",
+          "nome": {
+            "primeiro": "Mccullough",
+            "último": "Pena"
+          },
+          "idade": 27,
+          "género": "M",
+          "morada": "Sunwest",
+          "modalidade": "Triatlo",
+          "clube": "Clube de Orientação do Minho",
+          "email": "mccullough.pena@clube de orientação do minho.name",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee812f35f4ff3c2edecf",
+          "index": 10,
+          "dataEMD": "2019-06-27",
+          "nome": {
+            "primeiro": "Brianna",
+            "último": "Bentley"
+          },
+          "idade": 28,
+          "género": "F",
+          "morada": "Ypsilanti",
+          "modalidade": "Triatlo",
+          "clube": "ACDRcrespos",
+          "email": "brianna.bentley@acdrcrespos.org",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee819d5bb33e21ff7e16",
+          "index": 11,
+          "dataEMD": "2021-02-26",
+          "nome": {
+            "primeiro": "Nixon",
+            "último": "Hendrix"
+          },
+          "idade": 31,
+          "género": "M",
+          "morada": "Bethpage",
+          "modalidade": "Ténis",
+          "clube": "AVCfamalicão",
+          "email": "nixon.hendrix@avcfamalicão.info",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81ce306eb25d963bb0",
+          "index": 12,
+          "dataEMD": "2019-07-11",
+          "nome": {
+            "primeiro": "Buckner",
+            "último": "Luna"
+          },
+          "idade": 22,
+          "género": "M",
+          "morada": "Veguita",
+          "modalidade": "Esgrima",
+          "clube": "EDViana",
+          "email": "buckner.luna@edviana.us",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8138f5b0173e1bc637",
+          "index": 13,
+          "dataEMD": "2019-08-25",
+          "nome": {
+            "primeiro": "Britt",
+            "último": "Zamora"
+          },
+          "idade": 23,
+          "género": "F",
+          "morada": "Rutherford",
+          "modalidade": "Ténis",
+          "clube": "Clube de Orientação do Minho",
+          "email": "britt.zamora@clube de orientação do minho.biz",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81f5035e13f1db0069",
+          "index": 14,
+          "dataEMD": "2020-11-14",
+          "nome": {
+            "primeiro": "Hendrix",
+            "último": "Bauer"
+          },
+          "idade": 30,
+          "género": "M",
+          "morada": "Ryderwood",
+          "modalidade": "Karaté",
+          "clube": "SCBraga",
+          "email": "hendrix.bauer@scbraga.io",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8131597dae8f73a11b",
+          "index": 15,
+          "dataEMD": "2019-10-30",
+          "nome": {
+            "primeiro": "Travis",
+            "último": "Sampson"
+          },
+          "idade": 29,
+          "género": "M",
+          "morada": "Dotsero",
+          "modalidade": "Ténis",
+          "clube": "EDViana",
+          "email": "travis.sampson@edviana.biz",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81e32abefb2a9e8629",
+          "index": 16,
+          "dataEMD": "2019-11-22",
+          "nome": {
+            "primeiro": "Darla",
+            "último": "Ware"
+          },
+          "idade": 21,
+          "género": "M",
+          "morada": "Villarreal",
+          "modalidade": "Triatlo",
+          "clube": "GDGoma",
+          "email": "darla.ware@gdgoma.net",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee815852d8fc2dc33e8a",
+          "index": 17,
+          "dataEMD": "2020-01-17",
+          "nome": {
+            "primeiro": "Peters",
+            "último": "Vaughn"
+          },
+          "idade": 21,
+          "género": "F",
+          "morada": "Brandermill",
+          "modalidade": "Ténis",
+          "clube": "ACRroriz",
+          "email": "peters.vaughn@acrroriz.com",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee815e7f792d741f2228",
+          "index": 18,
+          "dataEMD": "2020-10-25",
+          "nome": {
+            "primeiro": "Lawrence",
+            "último": "Herman"
+          },
+          "idade": 31,
+          "género": "M",
+          "morada": "Wakulla",
+          "modalidade": "Futebol",
+          "clube": "GDGoma",
+          "email": "lawrence.herman@gdgoma.tv",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee815b7d9a126c47165d",
+          "index": 19,
+          "dataEMD": "2019-07-26",
+          "nome": {
+            "primeiro": "Chang",
+            "último": "Oneill"
+          },
+          "idade": 24,
+          "género": "M",
+          "morada": "Falconaire",
+          "modalidade": "Triatlo",
+          "clube": "EDViana",
+          "email": "chang.oneill@edviana.co.uk",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81e769b6603a6525c6",
+          "index": 20,
+          "dataEMD": "2020-12-20",
+          "nome": {
+            "primeiro": "Patrick",
+            "último": "Mcintyre"
+          },
+          "idade": 21,
+          "género": "F",
+          "morada": "Emory",
+          "modalidade": "BTT",
+          "clube": "EDViana",
+          "email": "patrick.mcintyre@edviana.ca",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee815cb65367e6de0b3c",
+          "index": 21,
+          "dataEMD": "2020-01-11",
+          "nome": {
+            "primeiro": "Joyce",
+            "último": "Evans"
+          },
+          "idade": 27,
+          "género": "F",
+          "morada": "Rivers",
+          "modalidade": "Andebol",
+          "clube": "AmigosMontanha",
+          "email": "joyce.evans@amigosmontanha.name",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee813bd664873721a6a1",
+          "index": 22,
+          "dataEMD": "2019-07-03",
+          "nome": {
+            "primeiro": "Larsen",
+            "último": "Villarreal"
+          },
+          "idade": 25,
+          "género": "M",
+          "morada": "Dawn",
+          "modalidade": "Triatlo",
+          "clube": "SCBraga",
+          "email": "larsen.villarreal@scbraga.org",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81e901a8c787b38008",
+          "index": 23,
+          "dataEMD": "2020-03-09",
+          "nome": {
+            "primeiro": "Morrow",
+            "último": "Yang"
+          },
+          "idade": 24,
+          "género": "M",
+          "morada": "Tibbie",
+          "modalidade": "Basquetebol",
+          "clube": "ACDRcrespos",
+          "email": "morrow.yang@acdrcrespos.info",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81874f8871966eedd1",
+          "index": 24,
+          "dataEMD": "2021-02-04",
+          "nome": {
+            "primeiro": "Dunn",
+            "último": "Horn"
+          },
+          "idade": 31,
+          "género": "M",
+          "morada": "Ripley",
+          "modalidade": "Andebol",
+          "clube": "Clube de Orientação do Minho",
+          "email": "dunn.horn@clube de orientação do minho.us",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81146b3cd8954b7256",
+          "index": 25,
+          "dataEMD": "2019-09-04",
+          "nome": {
+            "primeiro": "Viola",
+            "último": "Medina"
+          },
+          "idade": 24,
+          "género": "M",
+          "morada": "Nipinnawasee",
+          "modalidade": "Esgrima",
+          "clube": "EDViana",
+          "email": "viola.medina@edviana.biz",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81e02e5fb35760bec3",
+          "index": 26,
+          "dataEMD": "2021-05-14",
+          "nome": {
+            "primeiro": "Valdez",
+            "último": "Barnes"
+          },
+          "idade": 22,
+          "género": "F",
+          "morada": "Islandia",
+          "modalidade": "Parapente",
+          "clube": "ACDRcrespos",
+          "email": "valdez.barnes@acdrcrespos.io",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8162c5de4569ccfe2f",
+          "index": 27,
+          "dataEMD": "2019-08-29",
+          "nome": {
+            "primeiro": "Sweet",
+            "último": "Gibbs"
+          },
+          "idade": 35,
+          "género": "F",
+          "morada": "Stagecoach",
+          "modalidade": "Esgrima",
+          "clube": "AVCfamalicão",
+          "email": "sweet.gibbs@avcfamalicão.biz",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81034e5cb2050e882a",
+          "index": 28,
+          "dataEMD": "2019-07-17",
+          "nome": {
+            "primeiro": "Addie",
+            "último": "Hayes"
+          },
+          "idade": 23,
+          "género": "M",
+          "morada": "Bennett",
+          "modalidade": "Ténis",
+          "clube": "ACRroriz",
+          "email": "addie.hayes@acrroriz.net",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81a545dd3ccaea41b0",
+          "index": 29,
+          "dataEMD": "2021-04-25",
+          "nome": {
+            "primeiro": "May",
+            "último": "Holt"
+          },
+          "idade": 34,
+          "género": "M",
+          "morada": "Springdale",
+          "modalidade": "SUP",
+          "clube": "AmigosMontanha",
+          "email": "may.holt@amigosmontanha.com",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee817c1ce5b6cb67302a",
+          "index": 30,
+          "dataEMD": "2019-12-31",
+          "nome": {
+            "primeiro": "Christensen",
+            "último": "Boyd"
+          },
+          "idade": 34,
+          "género": "F",
+          "morada": "Wells",
+          "modalidade": "Esgrima",
+          "clube": "ABCbraga",
+          "email": "christensen.boyd@abcbraga.tv",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81cdbf91a4db1113eb",
+          "index": 31,
+          "dataEMD": "2019-03-18",
+          "nome": {
+            "primeiro": "Workman",
+            "último": "Franks"
+          },
+          "idade": 31,
+          "género": "M",
+          "morada": "Greenfields",
+          "modalidade": "Andebol",
+          "clube": "AmigosMontanha",
+          "email": "workman.franks@amigosmontanha.co.uk",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81ed581129ff3b2087",
+          "index": 32,
+          "dataEMD": "2020-01-05",
+          "nome": {
+            "primeiro": "Lucile",
+            "último": "Underwood"
+          },
+          "idade": 34,
+          "género": "M",
+          "morada": "Innsbrook",
+          "modalidade": "Andebol",
+          "clube": "AVCfamalicão",
+          "email": "lucile.underwood@avcfamalicão.ca",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81e62094c1d0bfca5c",
+          "index": 33,
+          "dataEMD": "2019-08-09",
+          "nome": {
+            "primeiro": "Heath",
+            "último": "Bishop"
+          },
+          "idade": 32,
+          "género": "F",
+          "morada": "Grantville",
+          "modalidade": "Esgrima",
+          "clube": "AmigosMontanha",
+          "email": "heath.bishop@amigosmontanha.name",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81bc1a4f4c3bc26de1",
+          "index": 34,
+          "dataEMD": "2019-04-12",
+          "nome": {
+            "primeiro": "Rosales",
+            "último": "Mejia"
+          },
+          "idade": 23,
+          "género": "F",
+          "morada": "Dale",
+          "modalidade": "Badminton",
+          "clube": "Clube de Orientação do Minho",
+          "email": "rosales.mejia@clube de orientação do minho.org",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81e20d4412bdf4f468",
+          "index": 35,
+          "dataEMD": "2019-02-02",
+          "nome": {
+            "primeiro": "Ray",
+            "último": "Howe"
+          },
+          "idade": 25,
+          "género": "M",
+          "morada": "Nicut",
+          "modalidade": "Atletismo",
+          "clube": "Vitoria",
+          "email": "ray.howe@vitoria.info",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81956a3fcc57d06c8c",
+          "index": 36,
+          "dataEMD": "2019-07-05",
+          "nome": {
+            "primeiro": "Suarez",
+            "último": "Campbell"
+          },
+          "idade": 34,
+          "género": "M",
+          "morada": "Hamilton",
+          "modalidade": "Atletismo",
+          "clube": "ACDRcrespos",
+          "email": "suarez.campbell@acdrcrespos.us",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee8125e3c7f8ae2daa67",
+          "index": 37,
+          "dataEMD": "2020-01-20",
+          "nome": {
+            "primeiro": "Shaffer",
+            "último": "Le"
+          },
+          "idade": 32,
+          "género": "M",
+          "morada": "Shepardsville",
+          "modalidade": "Ciclismo",
+          "clube": "AVCfamalicão",
+          "email": "shaffer.le@avcfamalicão.biz",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81c0d4102a9f396149",
+          "index": 38,
+          "dataEMD": "2019-02-08",
+          "nome": {
+            "primeiro": "Justine",
+            "último": "Wise"
+          },
+          "idade": 31,
+          "género": "M",
+          "morada": "Hondah",
+          "modalidade": "Ciclismo",
+          "clube": "AVCfamalicão",
+          "email": "justine.wise@avcfamalicão.io",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81b5064ca4e9536d3c",
+          "index": 39,
+          "dataEMD": "2019-10-14",
+          "nome": {
+            "primeiro": "Villarreal",
+            "último": "Tucker"
+          },
+          "idade": 23,
+          "género": "M",
+          "morada": "Tecolotito",
+          "modalidade": "Triatlo",
+          "clube": "AVCfamalicão",
+          "email": "villarreal.tucker@avcfamalicão.biz",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee8195bd88f9e936aca7",
+          "index": 40,
+          "dataEMD": "2021-04-05",
+          "nome": {
+            "primeiro": "Monica",
+            "último": "Neal"
+          },
+          "idade": 30,
+          "género": "M",
+          "morada": "Roberts",
+          "modalidade": "Badminton",
+          "clube": "ACRroriz",
+          "email": "monica.neal@acrroriz.net",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81864959e7fb8bc864",
+          "index": 41,
+          "dataEMD": "2019-05-11",
+          "nome": {
+            "primeiro": "Lloyd",
+            "último": "Dotson"
+          },
+          "idade": 21,
+          "género": "M",
+          "morada": "Winesburg",
+          "modalidade": "Patinagem",
+          "clube": "ABCbraga",
+          "email": "lloyd.dotson@abcbraga.com",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8187b3e7d863bbaf97",
+          "index": 42,
+          "dataEMD": "2019-01-29",
+          "nome": {
+            "primeiro": "Mccray",
+            "último": "Barker"
+          },
+          "idade": 35,
+          "género": "F",
+          "morada": "Blairstown",
+          "modalidade": "Dança",
+          "clube": "Vitoria",
+          "email": "mccray.barker@vitoria.tv",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81afbc52a666850b8c",
+          "index": 43,
+          "dataEMD": "2019-02-14",
+          "nome": {
+            "primeiro": "Sellers",
+            "último": "Hunter"
+          },
+          "idade": 23,
+          "género": "F",
+          "morada": "Omar",
+          "modalidade": "Parapente",
+          "clube": "SCBraga",
+          "email": "sellers.hunter@scbraga.co.uk",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81d74bfab7c22b5eaa",
+          "index": 44,
+          "dataEMD": "2021-01-31",
+          "nome": {
+            "primeiro": "Cathryn",
+            "último": "Fletcher"
+          },
+          "idade": 29,
+          "género": "F",
+          "morada": "Oasis",
+          "modalidade": "Patinagem",
+          "clube": "Clube de Orientação do Minho",
+          "email": "cathryn.fletcher@clube de orientação do minho.ca",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee810078ab3f7321a731",
+          "index": 45,
+          "dataEMD": "2020-02-29",
+          "nome": {
+            "primeiro": "Dee",
+            "último": "Lowery"
+          },
+          "idade": 21,
+          "género": "F",
+          "morada": "Rodman",
+          "modalidade": "Basquetebol",
+          "clube": "Vitoria",
+          "email": "dee.lowery@vitoria.name",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81a40cc7fc63be65ad",
+          "index": 46,
+          "dataEMD": "2019-04-25",
+          "nome": {
+            "primeiro": "Freeman",
+            "último": "Wyatt"
+          },
+          "idade": 26,
+          "género": "F",
+          "morada": "Bentonville",
+          "modalidade": "Triatlo",
+          "clube": "ACRroriz",
+          "email": "freeman.wyatt@acrroriz.org",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81efda597f9d074638",
+          "index": 47,
+          "dataEMD": "2020-01-09",
+          "nome": {
+            "primeiro": "Guy",
+            "último": "Drake"
+          },
+          "idade": 25,
+          "género": "F",
+          "morada": "Helen",
+          "modalidade": "Karaté",
+          "clube": "ABCbraga",
+          "email": "guy.drake@abcbraga.info",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81d9e0e05421b4d08e",
+          "index": 48,
+          "dataEMD": "2019-07-01",
+          "nome": {
+            "primeiro": "Mendez",
+            "último": "Good"
+          },
+          "idade": 33,
+          "género": "M",
+          "morada": "Westmoreland",
+          "modalidade": "Triatlo",
+          "clube": "Clube de Orientação do Minho",
+          "email": "mendez.good@clube de orientação do minho.us",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee813611a9e67c3546a3",
+          "index": 49,
+          "dataEMD": "2019-03-03",
+          "nome": {
+            "primeiro": "Burnett",
+            "último": "Hogan"
+          },
+          "idade": 24,
+          "género": "M",
+          "morada": "Valmy",
+          "modalidade": "Parapente",
+          "clube": "ACRroriz",
+          "email": "burnett.hogan@acrroriz.biz",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee816e416ff33c21634a",
+          "index": 50,
+          "dataEMD": "2020-08-03",
+          "nome": {
+            "primeiro": "Jamie",
+            "último": "Cherry"
+          },
+          "idade": 23,
+          "género": "F",
+          "morada": "Forbestown",
+          "modalidade": "Futebol",
+          "clube": "ABCbraga",
+          "email": "jamie.cherry@abcbraga.io",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81858e8c650b8d992f",
+          "index": 51,
+          "dataEMD": "2019-09-06",
+          "nome": {
+            "primeiro": "Bird",
+            "último": "Noble"
+          },
+          "idade": 21,
+          "género": "F",
+          "morada": "Lafferty",
+          "modalidade": "Karaté",
+          "clube": "ACRroriz",
+          "email": "bird.noble@acrroriz.biz",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee817468bb467a39e2f8",
+          "index": 52,
+          "dataEMD": "2020-08-11",
+          "nome": {
+            "primeiro": "Burgess",
+            "último": "Bradshaw"
+          },
+          "idade": 25,
+          "género": "F",
+          "morada": "Bluffview",
+          "modalidade": "Patinagem",
+          "clube": "ABCbraga",
+          "email": "burgess.bradshaw@abcbraga.net",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8117de88dc519ae9d3",
+          "index": 53,
+          "dataEMD": "2020-10-22",
+          "nome": {
+            "primeiro": "Laura",
+            "último": "Jacobson"
+          },
+          "idade": 27,
+          "género": "F",
+          "morada": "Kirk",
+          "modalidade": "Parapente",
+          "clube": "ACRroriz",
+          "email": "laura.jacobson@acrroriz.com",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee8160bf5c46dcb3cfa7",
+          "index": 54,
+          "dataEMD": "2020-09-06",
+          "nome": {
+            "primeiro": "Blair",
+            "último": "Sherman"
+          },
+          "idade": 31,
+          "género": "M",
+          "morada": "Waukeenah",
+          "modalidade": "Badminton",
+          "clube": "SCBraga",
+          "email": "blair.sherman@scbraga.tv",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81ea2bed08bf81e861",
+          "index": 55,
+          "dataEMD": "2020-09-01",
+          "nome": {
+            "primeiro": "Bobbi",
+            "último": "Hawkins"
+          },
+          "idade": 26,
+          "género": "M",
+          "morada": "Takilma",
+          "modalidade": "Esgrima",
+          "clube": "SCBraga",
+          "email": "bobbi.hawkins@scbraga.co.uk",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81051fe3467036095a",
+          "index": 56,
+          "dataEMD": "2019-12-21",
+          "nome": {
+            "primeiro": "Montoya",
+            "último": "Anthony"
+          },
+          "idade": 31,
+          "género": "F",
+          "morada": "Clara",
+          "modalidade": "Basquetebol",
+          "clube": "ACRroriz",
+          "email": "montoya.anthony@acrroriz.ca",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8152ddb1911c44b96a",
+          "index": 57,
+          "dataEMD": "2021-01-29",
+          "nome": {
+            "primeiro": "Hooper",
+            "último": "Kirby"
+          },
+          "idade": 26,
+          "género": "F",
+          "morada": "Roosevelt",
+          "modalidade": "BTT",
+          "clube": "ACRroriz",
+          "email": "hooper.kirby@acrroriz.name",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81839f04840d199de9",
+          "index": 58,
+          "dataEMD": "2020-12-30",
+          "nome": {
+            "primeiro": "Wolfe",
+            "último": "Baird"
+          },
+          "idade": 24,
+          "género": "F",
+          "morada": "Faxon",
+          "modalidade": "Esgrima",
+          "clube": "AVCfamalicão",
+          "email": "wolfe.baird@avcfamalicão.org",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81375cc4e9aba8bc6e",
+          "index": 59,
+          "dataEMD": "2019-01-03",
+          "nome": {
+            "primeiro": "Lamb",
+            "último": "Graham"
+          },
+          "idade": 33,
+          "género": "M",
+          "morada": "Bluetown",
+          "modalidade": "SUP",
+          "clube": "AVCfamalicão",
+          "email": "lamb.graham@avcfamalicão.info",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81422fd173977583e5",
+          "index": 60,
+          "dataEMD": "2021-04-22",
+          "nome": {
+            "primeiro": "Valentine",
+            "último": "Fitzgerald"
+          },
+          "idade": 32,
+          "género": "M",
+          "morada": "Kersey",
+          "modalidade": "BTT",
+          "clube": "ABCbraga",
+          "email": "valentine.fitzgerald@abcbraga.us",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee813c7547937e764cab",
+          "index": 61,
+          "dataEMD": "2020-06-26",
+          "nome": {
+            "primeiro": "Herminia",
+            "último": "Mooney"
+          },
+          "idade": 21,
+          "género": "M",
+          "morada": "Matheny",
+          "modalidade": "Andebol",
+          "clube": "AmigosMontanha",
+          "email": "herminia.mooney@amigosmontanha.biz",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee818db2661d700d6ea3",
+          "index": 62,
+          "dataEMD": "2019-09-08",
+          "nome": {
+            "primeiro": "Golden",
+            "último": "Hopkins"
+          },
+          "idade": 31,
+          "género": "F",
+          "morada": "Courtland",
+          "modalidade": "Badminton",
+          "clube": "AVCfamalicão",
+          "email": "golden.hopkins@avcfamalicão.io",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee811426bce48b453191",
+          "index": 63,
+          "dataEMD": "2020-12-22",
+          "nome": {
+            "primeiro": "Lancaster",
+            "último": "Andrews"
+          },
+          "idade": 24,
+          "género": "M",
+          "morada": "Longoria",
+          "modalidade": "Triatlo",
+          "clube": "Vitoria",
+          "email": "lancaster.andrews@vitoria.biz",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81d13fde44c2e74aab",
+          "index": 64,
+          "dataEMD": "2019-08-15",
+          "nome": {
+            "primeiro": "Elena",
+            "último": "Sullivan"
+          },
+          "idade": 28,
+          "género": "F",
+          "morada": "Leola",
+          "modalidade": "Futebol",
+          "clube": "Clube de Orientação do Minho",
+          "email": "elena.sullivan@clube de orientação do minho.net",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81ef9b6d894223a9fd",
+          "index": 65,
+          "dataEMD": "2020-04-26",
+          "nome": {
+            "primeiro": "Deana",
+            "último": "Ramsey"
+          },
+          "idade": 23,
+          "género": "M",
+          "morada": "Gila",
+          "modalidade": "Andebol",
+          "clube": "ACRroriz",
+          "email": "deana.ramsey@acrroriz.com",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee8154161dd7358b2e65",
+          "index": 66,
+          "dataEMD": "2019-12-01",
+          "nome": {
+            "primeiro": "Mayra",
+            "último": "Rose"
+          },
+          "idade": 33,
+          "género": "M",
+          "morada": "Calpine",
+          "modalidade": "Patinagem",
+          "clube": "ACDRcrespos",
+          "email": "mayra.rose@acdrcrespos.tv",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81fcb5c8f9970e2899",
+          "index": 67,
+          "dataEMD": "2020-07-27",
+          "nome": {
+            "primeiro": "Tina",
+            "último": "Salinas"
+          },
+          "idade": 29,
+          "género": "F",
+          "morada": "Welda",
+          "modalidade": "SUP",
+          "clube": "Vitoria",
+          "email": "tina.salinas@vitoria.co.uk",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81e97e332884e1299a",
+          "index": 68,
+          "dataEMD": "2020-05-24",
+          "nome": {
+            "primeiro": "Sheila",
+            "último": "Caldwell"
+          },
+          "idade": 22,
+          "género": "M",
+          "morada": "Leroy",
+          "modalidade": "Triatlo",
+          "clube": "AVCfamalicão",
+          "email": "sheila.caldwell@avcfamalicão.ca",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8151ebf5ddaa5ca13c",
+          "index": 69,
+          "dataEMD": "2020-01-02",
+          "nome": {
+            "primeiro": "Hudson",
+            "último": "Duffy"
+          },
+          "idade": 22,
+          "género": "M",
+          "morada": "Whitestone",
+          "modalidade": "Orientação",
+          "clube": "EDViana",
+          "email": "hudson.duffy@edviana.name",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee818e25f41f67491f02",
+          "index": 70,
+          "dataEMD": "2021-04-22",
+          "nome": {
+            "primeiro": "Guzman",
+            "último": "Douglas"
+          },
+          "idade": 21,
+          "género": "F",
+          "morada": "Alderpoint",
+          "modalidade": "Orientação",
+          "clube": "ABCbraga",
+          "email": "guzman.douglas@abcbraga.org",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee817ca74f6cb607c6f9",
+          "index": 71,
+          "dataEMD": "2019-12-09",
+          "nome": {
+            "primeiro": "Ethel",
+            "último": "Bartlett"
+          },
+          "idade": 26,
+          "género": "F",
+          "morada": "Muir",
+          "modalidade": "Orientação",
+          "clube": "ACRroriz",
+          "email": "ethel.bartlett@acrroriz.info",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee818cd611e6bf56f2f1",
+          "index": 72,
+          "dataEMD": "2021-04-13",
+          "nome": {
+            "primeiro": "Doyle",
+            "último": "Odom"
+          },
+          "idade": 23,
+          "género": "F",
+          "morada": "Newry",
+          "modalidade": "Esgrima",
+          "clube": "AmigosMontanha",
+          "email": "doyle.odom@amigosmontanha.us",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81c1515414ac1fb549",
+          "index": 73,
+          "dataEMD": "2020-06-02",
+          "nome": {
+            "primeiro": "Araceli",
+            "último": "Castaneda"
+          },
+          "idade": 28,
+          "género": "F",
+          "morada": "Magnolia",
+          "modalidade": "Ciclismo",
+          "clube": "AVCfamalicão",
+          "email": "araceli.castaneda@avcfamalicão.biz",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81d15fe413bd86d938",
+          "index": 74,
+          "dataEMD": "2020-06-04",
+          "nome": {
+            "primeiro": "Fuentes",
+            "último": "Walker"
+          },
+          "idade": 25,
+          "género": "F",
+          "morada": "Leming",
+          "modalidade": "Atletismo",
+          "clube": "SCBraga",
+          "email": "fuentes.walker@scbraga.io",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81e2dc932e4e6f7e51",
+          "index": 75,
+          "dataEMD": "2019-01-09",
+          "nome": {
+            "primeiro": "Sarah",
+            "último": "Moore"
+          },
+          "idade": 35,
+          "género": "M",
+          "morada": "Morgandale",
+          "modalidade": "Basquetebol",
+          "clube": "ACDRcrespos",
+          "email": "sarah.moore@acdrcrespos.biz",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81f9666482a5c13406",
+          "index": 76,
+          "dataEMD": "2019-10-25",
+          "nome": {
+            "primeiro": "Cheryl",
+            "último": "Watson"
+          },
+          "idade": 31,
+          "género": "M",
+          "morada": "Fairview",
+          "modalidade": "Orientação",
+          "clube": "GDGoma",
+          "email": "cheryl.watson@gdgoma.net",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81d7dbdba97369e927",
+          "index": 77,
+          "dataEMD": "2019-04-12",
+          "nome": {
+            "primeiro": "Langley",
+            "último": "Velez"
+          },
+          "idade": 33,
+          "género": "M",
+          "morada": "Neahkahnie",
+          "modalidade": "Andebol",
+          "clube": "ACRroriz",
+          "email": "langley.velez@acrroriz.com",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81e024b81dde892dd6",
+          "index": 78,
+          "dataEMD": "2019-06-30",
+          "nome": {
+            "primeiro": "Alisa",
+            "último": "Morrison"
+          },
+          "idade": 26,
+          "género": "M",
+          "morada": "Kiskimere",
+          "modalidade": "Futebol",
+          "clube": "GDGoma",
+          "email": "alisa.morrison@gdgoma.tv",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81c5073acaa4febef6",
+          "index": 79,
+          "dataEMD": "2019-12-29",
+          "nome": {
+            "primeiro": "Malinda",
+            "último": "Merritt"
+          },
+          "idade": 33,
+          "género": "M",
+          "morada": "Cecilia",
+          "modalidade": "Ciclismo",
+          "clube": "ABCbraga",
+          "email": "malinda.merritt@abcbraga.co.uk",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81963e6ecf70e3d586",
+          "index": 80,
+          "dataEMD": "2020-07-30",
+          "nome": {
+            "primeiro": "Lenora",
+            "último": "Kane"
+          },
+          "idade": 30,
+          "género": "F",
+          "morada": "Axis",
+          "modalidade": "Triatlo",
+          "clube": "ABCbraga",
+          "email": "lenora.kane@abcbraga.ca",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8122f33125935e59d3",
+          "index": 81,
+          "dataEMD": "2021-02-25",
+          "nome": {
+            "primeiro": "Cabrera",
+            "último": "Curtis"
+          },
+          "idade": 22,
+          "género": "M",
+          "morada": "Beechmont",
+          "modalidade": "Futebol",
+          "clube": "AVCfamalicão",
+          "email": "cabrera.curtis@avcfamalicão.name",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81828ee0dba6850475",
+          "index": 82,
+          "dataEMD": "2020-05-28",
+          "nome": {
+            "primeiro": "Roseann",
+            "último": "Benjamin"
+          },
+          "idade": 21,
+          "género": "F",
+          "morada": "Stewart",
+          "modalidade": "BTT",
+          "clube": "ABCbraga",
+          "email": "roseann.benjamin@abcbraga.org",
+          "federado": false,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee8152b3f05331a47645",
+          "index": 83,
+          "dataEMD": "2020-04-29",
+          "nome": {
+            "primeiro": "Stafford",
+            "último": "Ray"
+          },
+          "idade": 21,
+          "género": "M",
+          "morada": "Zeba",
+          "modalidade": "Parapente",
+          "clube": "ACDRcrespos",
+          "email": "stafford.ray@acdrcrespos.info",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81411e7acd216d0bf0",
+          "index": 84,
+          "dataEMD": "2019-09-18",
+          "nome": {
+            "primeiro": "Jewel",
+            "último": "Trevino"
+          },
+          "idade": 29,
+          "género": "F",
+          "morada": "Garnet",
+          "modalidade": "Patinagem",
+          "clube": "ACRroriz",
+          "email": "jewel.trevino@acrroriz.us",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8103ed6d19e90ce9f7",
+          "index": 85,
+          "dataEMD": "2020-09-04",
+          "nome": {
+            "primeiro": "Mckenzie",
+            "último": "Woods"
+          },
+          "idade": 24,
+          "género": "M",
+          "morada": "Craig",
+          "modalidade": "Ténis",
+          "clube": "ACRroriz",
+          "email": "mckenzie.woods@acrroriz.biz",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8182b8712a2f15e41a",
+          "index": 86,
+          "dataEMD": "2020-12-10",
+          "nome": {
+            "primeiro": "Jean",
+            "último": "Conley"
+          },
+          "idade": 21,
+          "género": "M",
+          "morada": "Tilleda",
+          "modalidade": "Triatlo",
+          "clube": "GDGoma",
+          "email": "jean.conley@gdgoma.io",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee811a2021b6b24ffbc2",
+          "index": 87,
+          "dataEMD": "2020-09-14",
+          "nome": {
+            "primeiro": "Conway",
+            "último": "Alexander"
+          },
+          "idade": 24,
+          "género": "M",
+          "morada": "Darrtown",
+          "modalidade": "BTT",
+          "clube": "SCBraga",
+          "email": "conway.alexander@scbraga.biz",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81c44446a9eceefd87",
+          "index": 88,
+          "dataEMD": "2020-04-08",
+          "nome": {
+            "primeiro": "Maryann",
+            "último": "Joyce"
+          },
+          "idade": 21,
+          "género": "F",
+          "morada": "Harmon",
+          "modalidade": "Andebol",
+          "clube": "ACDRcrespos",
+          "email": "maryann.joyce@acdrcrespos.net",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee812d50aad901e7e243",
+          "index": 89,
+          "dataEMD": "2019-07-31",
+          "nome": {
+            "primeiro": "Ayers",
+            "último": "Carroll"
+          },
+          "idade": 35,
+          "género": "F",
+          "morada": "Sylvanite",
+          "modalidade": "Ciclismo",
+          "clube": "GDGoma",
+          "email": "ayers.carroll@gdgoma.com",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee816b42d22ea075aba7",
+          "index": 90,
+          "dataEMD": "2019-01-29",
+          "nome": {
+            "primeiro": "Bonita",
+            "último": "Mccormick"
+          },
+          "idade": 35,
+          "género": "M",
+          "morada": "Marshall",
+          "modalidade": "Esgrima",
+          "clube": "GDGoma",
+          "email": "bonita.mccormick@gdgoma.tv",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee812a4b8125a96689a0",
+          "index": 91,
+          "dataEMD": "2019-04-28",
+          "nome": {
+            "primeiro": "Kathy",
+            "último": "Kramer"
+          },
+          "idade": 24,
+          "género": "F",
+          "morada": "Williams",
+          "modalidade": "Karaté",
+          "clube": "EDViana",
+          "email": "kathy.kramer@edviana.co.uk",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81b71a63346d0243e7",
+          "index": 92,
+          "dataEMD": "2020-10-10",
+          "nome": {
+            "primeiro": "Tonia",
+            "último": "Bryan"
+          },
+          "idade": 35,
+          "género": "F",
+          "morada": "Corinne",
+          "modalidade": "Basquetebol",
+          "clube": "EDViana",
+          "email": "tonia.bryan@edviana.ca",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81559385200672594d",
+          "index": 93,
+          "dataEMD": "2020-02-02",
+          "nome": {
+            "primeiro": "Barker",
+            "último": "Mercer"
+          },
+          "idade": 34,
+          "género": "F",
+          "morada": "Grayhawk",
+          "modalidade": "Triatlo",
+          "clube": "AVCfamalicão",
+          "email": "barker.mercer@avcfamalicão.name",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81a113b4cb68ef5906",
+          "index": 94,
+          "dataEMD": "2019-05-19",
+          "nome": {
+            "primeiro": "Mcfarland",
+            "último": "Tyson"
+          },
+          "idade": 25,
+          "género": "F",
+          "morada": "Kula",
+          "modalidade": "Equitação",
+          "clube": "AmigosMontanha",
+          "email": "mcfarland.tyson@amigosmontanha.org",
+          "federado": true,
+          "resultado": true
+        },
+        {
+          "_id": "60b3ee81655cc723f988a62d",
+          "index": 95,
+          "dataEMD": "2021-02-19",
+          "nome": {
+            "primeiro": "Meagan",
+            "último": "Carter"
+          },
+          "idade": 35,
+          "género": "M",
+          "morada": "Martinsville",
+          "modalidade": "SUP",
+          "clube": "SCBraga",
+          "email": "meagan.carter@scbraga.info",
+          "federado": true,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee8186fff74d432c9259",
+          "index": 96,
+          "dataEMD": "2019-06-25",
+          "nome": {
+            "primeiro": "Catalina",
+            "último": "Webb"
+          },
+          "idade": 35,
+          "género": "M",
+          "morada": "Aurora",
+          "modalidade": "Futebol",
+          "clube": "ABCbraga",
+          "email": "catalina.webb@abcbraga.us",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81051bf4a2138bb141",
+          "index": 97,
+          "dataEMD": "2020-10-31",
+          "nome": {
+            "primeiro": "Moses",
+            "último": "Sargent"
+          },
+          "idade": 25,
+          "género": "M",
+          "morada": "Wildwood",
+          "modalidade": "Esgrima",
+          "clube": "ABCbraga",
+          "email": "moses.sargent@abcbraga.biz",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81c4345661feac7a9a",
+          "index": 98,
+          "dataEMD": "2021-02-19",
+          "nome": {
+            "primeiro": "Preston",
+            "último": "Mccall"
+          },
+          "idade": 33,
+          "género": "F",
+          "morada": "Mathews",
+          "modalidade": "Karaté",
+          "clube": "AVCfamalicão",
+          "email": "preston.mccall@avcfamalicão.io",
+          "federado": false,
+          "resultado": false
+        },
+        {
+          "_id": "60b3ee81451b811209c3deef",
+          "index": 99,
+          "dataEMD": "2019-06-30",
+          "nome": {
+            "primeiro": "Christian",
+            "último": "Clements"
+          },
+          "idade": 33,
+          "género": "M",
+          "morada": "Cochranville",
+          "modalidade": "Atletismo",
+          "clube": "ACDRcrespos",
+          "email": "christian.clements@acdrcrespos.biz",
+          "federado": false,
+          "resultado": false
+        },
+            {
+              "_id": "60b3eeb933e50bd455af89a9",
+              "index": 0,
+              "dataEMD": "2020-08-30",
+              "nome": {
+                "primeiro": "Jeanine",
+                "último": "Hester"
+              },
+              "idade": 30,
+              "género": "M",
+              "morada": "Baden",
+              "modalidade": "Patinagem",
+              "clube": "AVCfamalicão",
+              "email": "jeanine.hester@avcfamalicão.name",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9b701a941937c0dd8",
+              "index": 1,
+              "dataEMD": "2020-08-12",
+              "nome": {
+                "primeiro": "Tonia",
+                "último": "Espinoza"
+              },
+              "idade": 24,
+              "género": "F",
+              "morada": "Fillmore",
+              "modalidade": "Andebol",
+              "clube": "AVCfamalicão",
+              "email": "tonia.espinoza@avcfamalicão.ca",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9fc87ff10010ae517",
+              "index": 2,
+              "dataEMD": "2019-08-25",
+              "nome": {
+                "primeiro": "Alyssa",
+                "último": "Howard"
+              },
+              "idade": 26,
+              "género": "F",
+              "morada": "Conestoga",
+              "modalidade": "SUP",
+              "clube": "SCBraga",
+              "email": "alyssa.howard@scbraga.info",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9e966a3cf1239840a",
+              "index": 3,
+              "dataEMD": "2020-06-29",
+              "nome": {
+                "primeiro": "Merrill",
+                "último": "Fulton"
+              },
+              "idade": 29,
+              "género": "M",
+              "morada": "Berlin",
+              "modalidade": "Badminton",
+              "clube": "AmigosMontanha",
+              "email": "merrill.fulton@amigosmontanha.org",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9dbbc9f23e5c888ac",
+              "index": 4,
+              "dataEMD": "2020-11-01",
+              "nome": {
+                "primeiro": "Jaime",
+                "último": "Erickson"
+              },
+              "idade": 25,
+              "género": "F",
+              "morada": "Yardville",
+              "modalidade": "Dança",
+              "clube": "ABCbraga",
+              "email": "jaime.erickson@abcbraga.co.uk",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9425c872217db611e",
+              "index": 5,
+              "dataEMD": "2019-09-09",
+              "nome": {
+                "primeiro": "Felicia",
+                "último": "Skinner"
+              },
+              "idade": 31,
+              "género": "F",
+              "morada": "Rosburg",
+              "modalidade": "Futebol",
+              "clube": "ACDRcrespos",
+              "email": "felicia.skinner@acdrcrespos.biz",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb967d2dd4be3e2c87d",
+              "index": 6,
+              "dataEMD": "2020-07-12",
+              "nome": {
+                "primeiro": "Margaret",
+                "último": "Bray"
+              },
+              "idade": 22,
+              "género": "M",
+              "morada": "Sardis",
+              "modalidade": "Karaté",
+              "clube": "Clube de Orientação do Minho",
+              "email": "margaret.bray@clube de orientação do minho.biz",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb944e8f43647ed05f2",
+              "index": 7,
+              "dataEMD": "2021-03-04",
+              "nome": {
+                "primeiro": "Etta",
+                "último": "Cotton"
+              },
+              "idade": 32,
+              "género": "M",
+              "morada": "Graniteville",
+              "modalidade": "SUP",
+              "clube": "AVCfamalicão",
+              "email": "etta.cotton@avcfamalicão.us",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9bc3d74e0cb400631",
+              "index": 8,
+              "dataEMD": "2020-10-18",
+              "nome": {
+                "primeiro": "Kelley",
+                "último": "Davidson"
+              },
+              "idade": 25,
+              "género": "F",
+              "morada": "Ruckersville",
+              "modalidade": "Equitação",
+              "clube": "AVCfamalicão",
+              "email": "kelley.davidson@avcfamalicão.com",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb934a2174ec11d92a6",
+              "index": 9,
+              "dataEMD": "2019-08-18",
+              "nome": {
+                "primeiro": "Crawford",
+                "último": "Merritt"
+              },
+              "idade": 27,
+              "género": "M",
+              "morada": "Roy",
+              "modalidade": "Ciclismo",
+              "clube": "SCBraga",
+              "email": "crawford.merritt@scbraga.net",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9fa4e587712a640d4",
+              "index": 10,
+              "dataEMD": "2020-11-04",
+              "nome": {
+                "primeiro": "Kim",
+                "último": "Buck"
+              },
+              "idade": 25,
+              "género": "F",
+              "morada": "Rosine",
+              "modalidade": "Badminton",
+              "clube": "AVCfamalicão",
+              "email": "kim.buck@avcfamalicão.tv",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb948dd398953308f2d",
+              "index": 11,
+              "dataEMD": "2019-07-01",
+              "nome": {
+                "primeiro": "Gilda",
+                "último": "Schmidt"
+              },
+              "idade": 29,
+              "género": "F",
+              "morada": "Enoree",
+              "modalidade": "Dança",
+              "clube": "SCBraga",
+              "email": "gilda.schmidt@scbraga.me",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9a2085e98659a2f5b",
+              "index": 12,
+              "dataEMD": "2019-04-09",
+              "nome": {
+                "primeiro": "Mcintosh",
+                "último": "Aguirre"
+              },
+              "idade": 35,
+              "género": "M",
+              "morada": "Emory",
+              "modalidade": "Basquetebol",
+              "clube": "Vitoria",
+              "email": "mcintosh.aguirre@vitoria.name",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9bfd86db079523f51",
+              "index": 13,
+              "dataEMD": "2020-11-25",
+              "nome": {
+                "primeiro": "Ida",
+                "último": "Bradshaw"
+              },
+              "idade": 21,
+              "género": "F",
+              "morada": "Lowgap",
+              "modalidade": "Dança",
+              "clube": "Clube de Orientação do Minho",
+              "email": "ida.bradshaw@clube de orientação do minho.ca",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb98614ea36f88963ba",
+              "index": 14,
+              "dataEMD": "2020-04-08",
+              "nome": {
+                "primeiro": "Jefferson",
+                "último": "Pacheco"
+              },
+              "idade": 34,
+              "género": "M",
+              "morada": "Strykersville",
+              "modalidade": "Dança",
+              "clube": "EDViana",
+              "email": "jefferson.pacheco@edviana.info",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb910808af364c63729",
+              "index": 15,
+              "dataEMD": "2020-12-14",
+              "nome": {
+                "primeiro": "Olson",
+                "último": "Hickman"
+              },
+              "idade": 35,
+              "género": "F",
+              "morada": "Madrid",
+              "modalidade": "Equitação",
+              "clube": "ACRroriz",
+              "email": "olson.hickman@acrroriz.org",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb939a5cb2da478d86c",
+              "index": 16,
+              "dataEMD": "2020-06-09",
+              "nome": {
+                "primeiro": "Malinda",
+                "último": "Mccall"
+              },
+              "idade": 23,
+              "género": "F",
+              "morada": "Winchester",
+              "modalidade": "Futebol",
+              "clube": "SCBraga",
+              "email": "malinda.mccall@scbraga.co.uk",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb92b1debc068c42080",
+              "index": 17,
+              "dataEMD": "2020-10-06",
+              "nome": {
+                "primeiro": "Raquel",
+                "último": "Dejesus"
+              },
+              "idade": 31,
+              "género": "M",
+              "morada": "Greenfields",
+              "modalidade": "Triatlo",
+              "clube": "ACRroriz",
+              "email": "raquel.dejesus@acrroriz.biz",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9ec44aba1040d2e1e",
+              "index": 18,
+              "dataEMD": "2020-02-06",
+              "nome": {
+                "primeiro": "Daniel",
+                "último": "Chambers"
+              },
+              "idade": 22,
+              "género": "F",
+              "morada": "Nicholson",
+              "modalidade": "Patinagem",
+              "clube": "GDGoma",
+              "email": "daniel.chambers@gdgoma.biz",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9a9f081f26deada43",
+              "index": 19,
+              "dataEMD": "2019-12-21",
+              "nome": {
+                "primeiro": "Samantha",
+                "último": "Sharp"
+              },
+              "idade": 23,
+              "género": "F",
+              "morada": "Elliott",
+              "modalidade": "Triatlo",
+              "clube": "ACRroriz",
+              "email": "samantha.sharp@acrroriz.us",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9468961b15e8e1277",
+              "index": 20,
+              "dataEMD": "2021-01-09",
+              "nome": {
+                "primeiro": "Robert",
+                "último": "Herman"
+              },
+              "idade": 33,
+              "género": "M",
+              "morada": "Weogufka",
+              "modalidade": "Basquetebol",
+              "clube": "Clube de Orientação do Minho",
+              "email": "robert.herman@clube de orientação do minho.com",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9edcbd2a0befa0a74",
+              "index": 21,
+              "dataEMD": "2021-02-20",
+              "nome": {
+                "primeiro": "Olive",
+                "último": "Chapman"
+              },
+              "idade": 30,
+              "género": "F",
+              "morada": "Wikieup",
+              "modalidade": "Dança",
+              "clube": "AVCfamalicão",
+              "email": "olive.chapman@avcfamalicão.net",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb97aecf09da8650e19",
+              "index": 22,
+              "dataEMD": "2019-04-30",
+              "nome": {
+                "primeiro": "Mccoy",
+                "último": "Blackburn"
+              },
+              "idade": 29,
+              "género": "M",
+              "morada": "Osmond",
+              "modalidade": "SUP",
+              "clube": "AmigosMontanha",
+              "email": "mccoy.blackburn@amigosmontanha.tv",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9d7265f5ab15e4fed",
+              "index": 23,
+              "dataEMD": "2020-12-10",
+              "nome": {
+                "primeiro": "Lambert",
+                "último": "Ferrell"
+              },
+              "idade": 30,
+              "género": "M",
+              "morada": "Rowe",
+              "modalidade": "SUP",
+              "clube": "Vitoria",
+              "email": "lambert.ferrell@vitoria.me",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9217c0274b8a1022b",
+              "index": 24,
+              "dataEMD": "2019-03-12",
+              "nome": {
+                "primeiro": "Small",
+                "último": "Coffey"
+              },
+              "idade": 29,
+              "género": "M",
+              "morada": "Waumandee",
+              "modalidade": "Dança",
+              "clube": "Vitoria",
+              "email": "small.coffey@vitoria.name",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9cc832d080dd2c0e0",
+              "index": 25,
+              "dataEMD": "2019-05-03",
+              "nome": {
+                "primeiro": "Hicks",
+                "último": "Daniels"
+              },
+              "idade": 32,
+              "género": "F",
+              "morada": "Frizzleburg",
+              "modalidade": "Ciclismo",
+              "clube": "ABCbraga",
+              "email": "hicks.daniels@abcbraga.ca",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9bc920eef418c62ac",
+              "index": 26,
+              "dataEMD": "2019-03-23",
+              "nome": {
+                "primeiro": "Meghan",
+                "último": "Cabrera"
+              },
+              "idade": 28,
+              "género": "M",
+              "morada": "Shawmut",
+              "modalidade": "Andebol",
+              "clube": "EDViana",
+              "email": "meghan.cabrera@edviana.info",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9cf9c078af09a7b74",
+              "index": 27,
+              "dataEMD": "2019-01-12",
+              "nome": {
+                "primeiro": "Hubbard",
+                "último": "Hart"
+              },
+              "idade": 22,
+              "género": "F",
+              "morada": "Trucksville",
+              "modalidade": "Esgrima",
+              "clube": "GDGoma",
+              "email": "hubbard.hart@gdgoma.org",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb968346da5d651b20d",
+              "index": 28,
+              "dataEMD": "2020-07-25",
+              "nome": {
+                "primeiro": "Chelsea",
+                "último": "Gallegos"
+              },
+              "idade": 21,
+              "género": "M",
+              "morada": "Warren",
+              "modalidade": "Andebol",
+              "clube": "AVCfamalicão",
+              "email": "chelsea.gallegos@avcfamalicão.co.uk",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb91afe89807606d176",
+              "index": 29,
+              "dataEMD": "2020-03-16",
+              "nome": {
+                "primeiro": "Natalie",
+                "último": "Figueroa"
+              },
+              "idade": 33,
+              "género": "M",
+              "morada": "Jugtown",
+              "modalidade": "Esgrima",
+              "clube": "Clube de Orientação do Minho",
+              "email": "natalie.figueroa@clube de orientação do minho.biz",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9080c70a07ef5c4ac",
+              "index": 30,
+              "dataEMD": "2020-11-20",
+              "nome": {
+                "primeiro": "Hayes",
+                "último": "Ward"
+              },
+              "idade": 30,
+              "género": "M",
+              "morada": "Accoville",
+              "modalidade": "Futebol",
+              "clube": "EDViana",
+              "email": "hayes.ward@edviana.biz",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb96f9b421618f39954",
+              "index": 31,
+              "dataEMD": "2019-10-13",
+              "nome": {
+                "primeiro": "Graves",
+                "último": "Mccray"
+              },
+              "idade": 22,
+              "género": "F",
+              "morada": "Kipp",
+              "modalidade": "Esgrima",
+              "clube": "ABCbraga",
+              "email": "graves.mccray@abcbraga.us",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb90afb40019dea8a64",
+              "index": 32,
+              "dataEMD": "2020-09-27",
+              "nome": {
+                "primeiro": "Mavis",
+                "último": "Riley"
+              },
+              "idade": 31,
+              "género": "F",
+              "morada": "Nescatunga",
+              "modalidade": "Karaté",
+              "clube": "AmigosMontanha",
+              "email": "mavis.riley@amigosmontanha.com",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb90fc3f9678fed0903",
+              "index": 33,
+              "dataEMD": "2019-09-09",
+              "nome": {
+                "primeiro": "Salas",
+                "último": "Joseph"
+              },
+              "idade": 30,
+              "género": "F",
+              "morada": "Greenwich",
+              "modalidade": "Parapente",
+              "clube": "AmigosMontanha",
+              "email": "salas.joseph@amigosmontanha.net",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9f0342bd19d6a5a39",
+              "index": 34,
+              "dataEMD": "2020-10-22",
+              "nome": {
+                "primeiro": "Carly",
+                "último": "Peck"
+              },
+              "idade": 33,
+              "género": "M",
+              "morada": "Byrnedale",
+              "modalidade": "Futebol",
+              "clube": "EDViana",
+              "email": "carly.peck@edviana.tv",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb966fd425e94c59395",
+              "index": 35,
+              "dataEMD": "2019-02-16",
+              "nome": {
+                "primeiro": "Ramirez",
+                "último": "Blevins"
+              },
+              "idade": 35,
+              "género": "M",
+              "morada": "Bluetown",
+              "modalidade": "Orientação",
+              "clube": "Vitoria",
+              "email": "ramirez.blevins@vitoria.me",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb91977642e615c41e3",
+              "index": 36,
+              "dataEMD": "2020-12-31",
+              "nome": {
+                "primeiro": "Parks",
+                "último": "Saunders"
+              },
+              "idade": 32,
+              "género": "F",
+              "morada": "Sheatown",
+              "modalidade": "Orientação",
+              "clube": "Clube de Orientação do Minho",
+              "email": "parks.saunders@clube de orientação do minho.name",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb93a24ff700a3928d5",
+              "index": 37,
+              "dataEMD": "2021-01-13",
+              "nome": {
+                "primeiro": "Leanne",
+                "último": "Armstrong"
+              },
+              "idade": 28,
+              "género": "M",
+              "morada": "Cochranville",
+              "modalidade": "Futebol",
+              "clube": "AmigosMontanha",
+              "email": "leanne.armstrong@amigosmontanha.ca",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb99c434fb1a7c7c633",
+              "index": 38,
+              "dataEMD": "2020-03-22",
+              "nome": {
+                "primeiro": "Kline",
+                "último": "Stark"
+              },
+              "idade": 31,
+              "género": "F",
+              "morada": "Tedrow",
+              "modalidade": "Equitação",
+              "clube": "AVCfamalicão",
+              "email": "kline.stark@avcfamalicão.info",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9f430b0e9e81165c4",
+              "index": 39,
+              "dataEMD": "2019-02-18",
+              "nome": {
+                "primeiro": "Elliott",
+                "último": "Guzman"
+              },
+              "idade": 29,
+              "género": "F",
+              "morada": "Rutherford",
+              "modalidade": "Dança",
+              "clube": "Clube de Orientação do Minho",
+              "email": "elliott.guzman@clube de orientação do minho.org",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb94d27b52fe1b15f19",
+              "index": 40,
+              "dataEMD": "2019-08-06",
+              "nome": {
+                "primeiro": "Liz",
+                "último": "Baldwin"
+              },
+              "idade": 23,
+              "género": "M",
+              "morada": "Basye",
+              "modalidade": "Orientação",
+              "clube": "ABCbraga",
+              "email": "liz.baldwin@abcbraga.co.uk",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb91ab516aa15e1199a",
+              "index": 41,
+              "dataEMD": "2020-10-16",
+              "nome": {
+                "primeiro": "Warner",
+                "último": "Bullock"
+              },
+              "idade": 35,
+              "género": "M",
+              "morada": "Valle",
+              "modalidade": "Parapente",
+              "clube": "GDGoma",
+              "email": "warner.bullock@gdgoma.biz",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb97b17e786bdf88e29",
+              "index": 42,
+              "dataEMD": "2019-12-18",
+              "nome": {
+                "primeiro": "Santana",
+                "último": "Harper"
+              },
+              "idade": 32,
+              "género": "F",
+              "morada": "Malo",
+              "modalidade": "Futebol",
+              "clube": "SCBraga",
+              "email": "santana.harper@scbraga.biz",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb95762eb38f4ae9a22",
+              "index": 43,
+              "dataEMD": "2019-01-18",
+              "nome": {
+                "primeiro": "Imelda",
+                "último": "Odonnell"
+              },
+              "idade": 31,
+              "género": "F",
+              "morada": "Riviera",
+              "modalidade": "Atletismo",
+              "clube": "AVCfamalicão",
+              "email": "imelda.odonnell@avcfamalicão.us",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9c05f073a238c4aa6",
+              "index": 44,
+              "dataEMD": "2020-09-24",
+              "nome": {
+                "primeiro": "Lila",
+                "último": "Curry"
+              },
+              "idade": 23,
+              "género": "M",
+              "morada": "Alden",
+              "modalidade": "Futebol",
+              "clube": "AmigosMontanha",
+              "email": "lila.curry@amigosmontanha.com",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9c82e74bc1831a3be",
+              "index": 45,
+              "dataEMD": "2020-02-06",
+              "nome": {
+                "primeiro": "Milagros",
+                "último": "Ellis"
+              },
+              "idade": 21,
+              "género": "M",
+              "morada": "Why",
+              "modalidade": "Patinagem",
+              "clube": "ACDRcrespos",
+              "email": "milagros.ellis@acdrcrespos.net",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9e81cdbbee14cab97",
+              "index": 46,
+              "dataEMD": "2019-07-15",
+              "nome": {
+                "primeiro": "Stafford",
+                "último": "Hale"
+              },
+              "idade": 29,
+              "género": "F",
+              "morada": "Bowden",
+              "modalidade": "Dança",
+              "clube": "ACDRcrespos",
+              "email": "stafford.hale@acdrcrespos.tv",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb983fb3181e8f43d12",
+              "index": 47,
+              "dataEMD": "2021-05-05",
+              "nome": {
+                "primeiro": "Blevins",
+                "último": "Cline"
+              },
+              "idade": 22,
+              "género": "F",
+              "morada": "Delshire",
+              "modalidade": "Triatlo",
+              "clube": "Clube de Orientação do Minho",
+              "email": "blevins.cline@clube de orientação do minho.me",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9817b6dc6e2848304",
+              "index": 48,
+              "dataEMD": "2020-07-15",
+              "nome": {
+                "primeiro": "Marisol",
+                "último": "Owen"
+              },
+              "idade": 23,
+              "género": "M",
+              "morada": "Soham",
+              "modalidade": "Parapente",
+              "clube": "ACDRcrespos",
+              "email": "marisol.owen@acdrcrespos.name",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9ab56338f42cdaf13",
+              "index": 49,
+              "dataEMD": "2020-07-02",
+              "nome": {
+                "primeiro": "Mcintyre",
+                "último": "Walsh"
+              },
+              "idade": 31,
+              "género": "M",
+              "morada": "Beechmont",
+              "modalidade": "Atletismo",
+              "clube": "ABCbraga",
+              "email": "mcintyre.walsh@abcbraga.ca",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9de8d709dd3fd086f",
+              "index": 50,
+              "dataEMD": "2020-11-06",
+              "nome": {
+                "primeiro": "Valarie",
+                "último": "Silva"
+              },
+              "idade": 25,
+              "género": "M",
+              "morada": "Lynn",
+              "modalidade": "Futebol",
+              "clube": "ACDRcrespos",
+              "email": "valarie.silva@acdrcrespos.info",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9077997c0e212f286",
+              "index": 51,
+              "dataEMD": "2020-01-06",
+              "nome": {
+                "primeiro": "Jimmie",
+                "último": "Beck"
+              },
+              "idade": 34,
+              "género": "M",
+              "morada": "Walker",
+              "modalidade": "Atletismo",
+              "clube": "AVCfamalicão",
+              "email": "jimmie.beck@avcfamalicão.org",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb916caa13610b8cadf",
+              "index": 52,
+              "dataEMD": "2019-08-30",
+              "nome": {
+                "primeiro": "Amparo",
+                "último": "Price"
+              },
+              "idade": 30,
+              "género": "M",
+              "morada": "Townsend",
+              "modalidade": "Futebol",
+              "clube": "ACDRcrespos",
+              "email": "amparo.price@acdrcrespos.co.uk",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9c65ee38149a83dfc",
+              "index": 53,
+              "dataEMD": "2021-01-24",
+              "nome": {
+                "primeiro": "Susanna",
+                "último": "Lowery"
+              },
+              "idade": 33,
+              "género": "M",
+              "morada": "Cawood",
+              "modalidade": "Orientação",
+              "clube": "EDViana",
+              "email": "susanna.lowery@edviana.biz",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb97c9c1d91087c47a4",
+              "index": 54,
+              "dataEMD": "2020-08-23",
+              "nome": {
+                "primeiro": "Flynn",
+                "último": "Huber"
+              },
+              "idade": 26,
+              "género": "M",
+              "morada": "Teasdale",
+              "modalidade": "Atletismo",
+              "clube": "Clube de Orientação do Minho",
+              "email": "flynn.huber@clube de orientação do minho.biz",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb97aabcddbffca43f3",
+              "index": 55,
+              "dataEMD": "2019-03-29",
+              "nome": {
+                "primeiro": "Elaine",
+                "último": "Allen"
+              },
+              "idade": 32,
+              "género": "M",
+              "morada": "Kaka",
+              "modalidade": "Equitação",
+              "clube": "ACDRcrespos",
+              "email": "elaine.allen@acdrcrespos.us",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb935b59a6c217af521",
+              "index": 56,
+              "dataEMD": "2020-09-24",
+              "nome": {
+                "primeiro": "Gwen",
+                "último": "Pate"
+              },
+              "idade": 26,
+              "género": "M",
+              "morada": "Snelling",
+              "modalidade": "Karaté",
+              "clube": "AmigosMontanha",
+              "email": "gwen.pate@amigosmontanha.com",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb972a330700a58a10a",
+              "index": 57,
+              "dataEMD": "2020-08-19",
+              "nome": {
+                "primeiro": "Leila",
+                "último": "Solis"
+              },
+              "idade": 34,
+              "género": "F",
+              "morada": "Glenville",
+              "modalidade": "Parapente",
+              "clube": "ACRroriz",
+              "email": "leila.solis@acrroriz.net",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9a78530cac96a3f79",
+              "index": 58,
+              "dataEMD": "2021-04-17",
+              "nome": {
+                "primeiro": "Mercedes",
+                "último": "Heath"
+              },
+              "idade": 31,
+              "género": "M",
+              "morada": "Chaparrito",
+              "modalidade": "Dança",
+              "clube": "GDGoma",
+              "email": "mercedes.heath@gdgoma.tv",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9235de1538781611d",
+              "index": 59,
+              "dataEMD": "2019-05-03",
+              "nome": {
+                "primeiro": "Althea",
+                "último": "Fitzpatrick"
+              },
+              "idade": 24,
+              "género": "M",
+              "morada": "Marne",
+              "modalidade": "Basquetebol",
+              "clube": "EDViana",
+              "email": "althea.fitzpatrick@edviana.me",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9f7311f86c6a33646",
+              "index": 60,
+              "dataEMD": "2019-12-09",
+              "nome": {
+                "primeiro": "Arlene",
+                "último": "Morton"
+              },
+              "idade": 34,
+              "género": "F",
+              "morada": "Wiscon",
+              "modalidade": "Orientação",
+              "clube": "Vitoria",
+              "email": "arlene.morton@vitoria.name",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9354e8a0e1817c201",
+              "index": 61,
+              "dataEMD": "2020-09-26",
+              "nome": {
+                "primeiro": "Mosley",
+                "último": "Gonzales"
+              },
+              "idade": 26,
+              "género": "M",
+              "morada": "Driftwood",
+              "modalidade": "BTT",
+              "clube": "SCBraga",
+              "email": "mosley.gonzales@scbraga.ca",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9e6ca114d8ab96bc4",
+              "index": 62,
+              "dataEMD": "2019-08-31",
+              "nome": {
+                "primeiro": "Torres",
+                "último": "Hardy"
+              },
+              "idade": 33,
+              "género": "F",
+              "morada": "Fairfield",
+              "modalidade": "Dança",
+              "clube": "Clube de Orientação do Minho",
+              "email": "torres.hardy@clube de orientação do minho.info",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb945accec6f3eb9c3d",
+              "index": 63,
+              "dataEMD": "2020-12-13",
+              "nome": {
+                "primeiro": "Annmarie",
+                "último": "Petersen"
+              },
+              "idade": 22,
+              "género": "M",
+              "morada": "Twilight",
+              "modalidade": "Dança",
+              "clube": "Clube de Orientação do Minho",
+              "email": "annmarie.petersen@clube de orientação do minho.org",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb92a2f391cda5b305e",
+              "index": 64,
+              "dataEMD": "2020-12-03",
+              "nome": {
+                "primeiro": "Osborn",
+                "último": "Green"
+              },
+              "idade": 32,
+              "género": "M",
+              "morada": "Jacksonwald",
+              "modalidade": "Karaté",
+              "clube": "ACRroriz",
+              "email": "osborn.green@acrroriz.co.uk",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9a57cc0f98a998c9a",
+              "index": 65,
+              "dataEMD": "2020-08-26",
+              "nome": {
+                "primeiro": "Davenport",
+                "último": "Dominguez"
+              },
+              "idade": 23,
+              "género": "F",
+              "morada": "Vallonia",
+              "modalidade": "Patinagem",
+              "clube": "ACRroriz",
+              "email": "davenport.dominguez@acrroriz.biz",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb94b33eaa274778def",
+              "index": 66,
+              "dataEMD": "2019-12-20",
+              "nome": {
+                "primeiro": "Barton",
+                "último": "Massey"
+              },
+              "idade": 26,
+              "género": "M",
+              "morada": "Ribera",
+              "modalidade": "Parapente",
+              "clube": "AmigosMontanha",
+              "email": "barton.massey@amigosmontanha.biz",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9a78fd4bfe9e36453",
+              "index": 67,
+              "dataEMD": "2019-06-09",
+              "nome": {
+                "primeiro": "Holly",
+                "último": "Bowen"
+              },
+              "idade": 29,
+              "género": "M",
+              "morada": "Adamstown",
+              "modalidade": "Orientação",
+              "clube": "ACDRcrespos",
+              "email": "holly.bowen@acdrcrespos.us",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9868c63b27774163f",
+              "index": 68,
+              "dataEMD": "2020-06-28",
+              "nome": {
+                "primeiro": "Dennis",
+                "último": "Crawford"
+              },
+              "idade": 30,
+              "género": "M",
+              "morada": "Wanship",
+              "modalidade": "Atletismo",
+              "clube": "AmigosMontanha",
+              "email": "dennis.crawford@amigosmontanha.com",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9a857578bd25302db",
+              "index": 69,
+              "dataEMD": "2019-05-25",
+              "nome": {
+                "primeiro": "Oliver",
+                "último": "Mcleod"
+              },
+              "idade": 25,
+              "género": "F",
+              "morada": "Garnet",
+              "modalidade": "Ténis",
+              "clube": "SCBraga",
+              "email": "oliver.mcleod@scbraga.net",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9abbaec58aed568da",
+              "index": 70,
+              "dataEMD": "2019-03-01",
+              "nome": {
+                "primeiro": "Tameka",
+                "último": "Orr"
+              },
+              "idade": 24,
+              "género": "F",
+              "morada": "Klagetoh",
+              "modalidade": "Ciclismo",
+              "clube": "Vitoria",
+              "email": "tameka.orr@vitoria.tv",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb90d885cf3327fe6bd",
+              "index": 71,
+              "dataEMD": "2020-05-28",
+              "nome": {
+                "primeiro": "Foster",
+                "último": "Strickland"
+              },
+              "idade": 29,
+              "género": "M",
+              "morada": "Holtville",
+              "modalidade": "Patinagem",
+              "clube": "Clube de Orientação do Minho",
+              "email": "foster.strickland@clube de orientação do minho.me",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb91ded4fa3db5fdf8e",
+              "index": 72,
+              "dataEMD": "2019-10-26",
+              "nome": {
+                "primeiro": "Marlene",
+                "último": "Rodgers"
+              },
+              "idade": 27,
+              "género": "F",
+              "morada": "Levant",
+              "modalidade": "Ténis",
+              "clube": "SCBraga",
+              "email": "marlene.rodgers@scbraga.name",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb909f2540c651ec8ff",
+              "index": 73,
+              "dataEMD": "2020-04-12",
+              "nome": {
+                "primeiro": "Shari",
+                "último": "Mathews"
+              },
+              "idade": 22,
+              "género": "M",
+              "morada": "Joes",
+              "modalidade": "Andebol",
+              "clube": "ACDRcrespos",
+              "email": "shari.mathews@acdrcrespos.ca",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb91c3038d321c60bb3",
+              "index": 74,
+              "dataEMD": "2021-05-07",
+              "nome": {
+                "primeiro": "Josie",
+                "último": "Rasmussen"
+              },
+              "idade": 34,
+              "género": "M",
+              "morada": "Riverton",
+              "modalidade": "Badminton",
+              "clube": "ACDRcrespos",
+              "email": "josie.rasmussen@acdrcrespos.info",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9c4b1d5f4d4a0099b",
+              "index": 75,
+              "dataEMD": "2020-06-22",
+              "nome": {
+                "primeiro": "Shelton",
+                "último": "Walton"
+              },
+              "idade": 35,
+              "género": "M",
+              "morada": "Williston",
+              "modalidade": "Parapente",
+              "clube": "EDViana",
+              "email": "shelton.walton@edviana.org",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9cded7ae5d2724d52",
+              "index": 76,
+              "dataEMD": "2020-11-21",
+              "nome": {
+                "primeiro": "Odonnell",
+                "último": "Russell"
+              },
+              "idade": 31,
+              "género": "M",
+              "morada": "Alderpoint",
+              "modalidade": "BTT",
+              "clube": "GDGoma",
+              "email": "odonnell.russell@gdgoma.co.uk",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb91485796dedd2444b",
+              "index": 77,
+              "dataEMD": "2021-02-04",
+              "nome": {
+                "primeiro": "Elba",
+                "último": "Le"
+              },
+              "idade": 30,
+              "género": "F",
+              "morada": "Ebro",
+              "modalidade": "SUP",
+              "clube": "ACRroriz",
+              "email": "elba.le@acrroriz.biz",
+              "federado": false,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9fbb0206c040aa4f1",
+              "index": 78,
+              "dataEMD": "2019-10-20",
+              "nome": {
+                "primeiro": "Sweet",
+                "último": "Woodward"
+              },
+              "idade": 22,
+              "género": "F",
+              "morada": "Urie",
+              "modalidade": "Equitação",
+              "clube": "GDGoma",
+              "email": "sweet.woodward@gdgoma.biz",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9ef81456a2178baca",
+              "index": 79,
+              "dataEMD": "2020-02-24",
+              "nome": {
+                "primeiro": "Wilkins",
+                "último": "Cummings"
+              },
+              "idade": 33,
+              "género": "M",
+              "morada": "Gila",
+              "modalidade": "Dança",
+              "clube": "ACRroriz",
+              "email": "wilkins.cummings@acrroriz.us",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb929306aeaff7f31a0",
+              "index": 80,
+              "dataEMD": "2021-02-04",
+              "nome": {
+                "primeiro": "Rogers",
+                "último": "Noel"
+              },
+              "idade": 35,
+              "género": "F",
+              "morada": "Cresaptown",
+              "modalidade": "BTT",
+              "clube": "ACDRcrespos",
+              "email": "rogers.noel@acdrcrespos.com",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb99d4b85092734ded4",
+              "index": 81,
+              "dataEMD": "2021-03-08",
+              "nome": {
+                "primeiro": "Hodges",
+                "último": "Ashley"
+              },
+              "idade": 31,
+              "género": "F",
+              "morada": "Crawfordsville",
+              "modalidade": "Andebol",
+              "clube": "ABCbraga",
+              "email": "hodges.ashley@abcbraga.net",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb96b4950f33f42c5b6",
+              "index": 82,
+              "dataEMD": "2020-12-19",
+              "nome": {
+                "primeiro": "Curtis",
+                "último": "Dillon"
+              },
+              "idade": 29,
+              "género": "M",
+              "morada": "Beason",
+              "modalidade": "Parapente",
+              "clube": "AmigosMontanha",
+              "email": "curtis.dillon@amigosmontanha.tv",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9c4c935218799831f",
+              "index": 83,
+              "dataEMD": "2021-02-08",
+              "nome": {
+                "primeiro": "Lelia",
+                "último": "Oliver"
+              },
+              "idade": 30,
+              "género": "M",
+              "morada": "Cedarville",
+              "modalidade": "Ténis",
+              "clube": "GDGoma",
+              "email": "lelia.oliver@gdgoma.me",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb91dbe172db8fd8f61",
+              "index": 84,
+              "dataEMD": "2019-02-07",
+              "nome": {
+                "primeiro": "Fuentes",
+                "último": "Rogers"
+              },
+              "idade": 28,
+              "género": "M",
+              "morada": "Grazierville",
+              "modalidade": "BTT",
+              "clube": "SCBraga",
+              "email": "fuentes.rogers@scbraga.name",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9c7550e5dc5a5ddb1",
+              "index": 85,
+              "dataEMD": "2020-05-28",
+              "nome": {
+                "primeiro": "Carole",
+                "último": "Lindsey"
+              },
+              "idade": 34,
+              "género": "F",
+              "morada": "Weedville",
+              "modalidade": "Orientação",
+              "clube": "AmigosMontanha",
+              "email": "carole.lindsey@amigosmontanha.ca",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb95632a2a2915ae72b",
+              "index": 86,
+              "dataEMD": "2019-07-27",
+              "nome": {
+                "primeiro": "Martinez",
+                "último": "Johns"
+              },
+              "idade": 32,
+              "género": "M",
+              "morada": "Hebron",
+              "modalidade": "SUP",
+              "clube": "ABCbraga",
+              "email": "martinez.johns@abcbraga.info",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9af56ea737b79ac30",
+              "index": 87,
+              "dataEMD": "2020-07-21",
+              "nome": {
+                "primeiro": "Kellie",
+                "último": "Holland"
+              },
+              "idade": 30,
+              "género": "F",
+              "morada": "Bloomington",
+              "modalidade": "Equitação",
+              "clube": "SCBraga",
+              "email": "kellie.holland@scbraga.org",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9e387855b0de81d09",
+              "index": 88,
+              "dataEMD": "2019-06-27",
+              "nome": {
+                "primeiro": "Mathis",
+                "último": "Kirk"
+              },
+              "idade": 23,
+              "género": "F",
+              "morada": "Klondike",
+              "modalidade": "Futebol",
+              "clube": "EDViana",
+              "email": "mathis.kirk@edviana.co.uk",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb93bfe7ecd8361f659",
+              "index": 89,
+              "dataEMD": "2019-10-22",
+              "nome": {
+                "primeiro": "Bertha",
+                "último": "Shelton"
+              },
+              "idade": 28,
+              "género": "M",
+              "morada": "Sedley",
+              "modalidade": "Orientação",
+              "clube": "GDGoma",
+              "email": "bertha.shelton@gdgoma.biz",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9860033876d65f5f7",
+              "index": 90,
+              "dataEMD": "2020-01-08",
+              "nome": {
+                "primeiro": "Bonnie",
+                "último": "Diaz"
+              },
+              "idade": 31,
+              "género": "F",
+              "morada": "Gerton",
+              "modalidade": "Ténis",
+              "clube": "SCBraga",
+              "email": "bonnie.diaz@scbraga.biz",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb97a2511a770990f0f",
+              "index": 91,
+              "dataEMD": "2020-08-23",
+              "nome": {
+                "primeiro": "Becker",
+                "último": "Talley"
+              },
+              "idade": 31,
+              "género": "M",
+              "morada": "Valmy",
+              "modalidade": "Futebol",
+              "clube": "Clube de Orientação do Minho",
+              "email": "becker.talley@clube de orientação do minho.us",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9080a93e404ab974a",
+              "index": 92,
+              "dataEMD": "2019-08-11",
+              "nome": {
+                "primeiro": "Zelma",
+                "último": "Bell"
+              },
+              "idade": 30,
+              "género": "F",
+              "morada": "Shasta",
+              "modalidade": "Equitação",
+              "clube": "Clube de Orientação do Minho",
+              "email": "zelma.bell@clube de orientação do minho.com",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb96e988bb711c0c940",
+              "index": 93,
+              "dataEMD": "2019-09-29",
+              "nome": {
+                "primeiro": "Stanton",
+                "último": "Cox"
+              },
+              "idade": 22,
+              "género": "F",
+              "morada": "Foxworth",
+              "modalidade": "BTT",
+              "clube": "EDViana",
+              "email": "stanton.cox@edviana.net",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb97d329fb5b3d7379b",
+              "index": 94,
+              "dataEMD": "2020-07-15",
+              "nome": {
+                "primeiro": "Cindy",
+                "último": "Shepherd"
+              },
+              "idade": 23,
+              "género": "F",
+              "morada": "Brule",
+              "modalidade": "Ciclismo",
+              "clube": "AVCfamalicão",
+              "email": "cindy.shepherd@avcfamalicão.tv",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb95b00f32d469ef4b2",
+              "index": 95,
+              "dataEMD": "2020-09-20",
+              "nome": {
+                "primeiro": "Knapp",
+                "último": "Buckner"
+              },
+              "idade": 31,
+              "género": "F",
+              "morada": "Rose",
+              "modalidade": "Futebol",
+              "clube": "ABCbraga",
+              "email": "knapp.buckner@abcbraga.me",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb91accf4bd8b426245",
+              "index": 96,
+              "dataEMD": "2020-11-27",
+              "nome": {
+                "primeiro": "Callahan",
+                "último": "Mitchell"
+              },
+              "idade": 24,
+              "género": "M",
+              "morada": "Wollochet",
+              "modalidade": "Parapente",
+              "clube": "ABCbraga",
+              "email": "callahan.mitchell@abcbraga.name",
+              "federado": true,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9dd4dc919156890ee",
+              "index": 97,
+              "dataEMD": "2021-01-10",
+              "nome": {
+                "primeiro": "Allie",
+                "último": "Lyons"
+              },
+              "idade": 31,
+              "género": "M",
+              "morada": "Welch",
+              "modalidade": "Equitação",
+              "clube": "ACRroriz",
+              "email": "allie.lyons@acrroriz.ca",
+              "federado": false,
+              "resultado": false
+            },
+            {
+              "_id": "60b3eeb9d9f01093dc14973f",
+              "index": 98,
+              "dataEMD": "2020-05-08",
+              "nome": {
+                "primeiro": "Tammy",
+                "último": "Bryant"
+              },
+              "idade": 32,
+              "género": "M",
+              "morada": "Fidelis",
+              "modalidade": "Futebol",
+              "clube": "ACDRcrespos",
+              "email": "tammy.bryant@acdrcrespos.info",
+              "federado": true,
+              "resultado": true
+            },
+            {
+              "_id": "60b3eeb9d027f625a1b63723",
+              "index": 99,
+              "dataEMD": "2021-01-02",
+              "nome": {
+                "primeiro": "Carissa",
+                "último": "Rosario"
+              },
+              "idade": 30,
+              "género": "F",
+              "morada": "Brookfield",
+              "modalidade": "Esgrima",
+              "clube": "Clube de Orientação do Minho",
+              "email": "carissa.rosario@clube de orientação do minho.org",
+              "federado": true,
+              "resultado": true
+            }
+          ]

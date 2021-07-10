@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    .w3-container.w3-margin.w3-border
+        .w3-container
+            h4(class="w3-container w3-center") Episódios
+        if episodios.length > 0
+            .w3-container
+                table(id="myTable")
+                    tr(class="header")
+                        th(style="width:15%;text-align:center") Episódio
+                        th(style="width:45%;text-align:center") Caracterização
+                        th(style="width:15%;text-align:center") Total de Pedidos
+                        th(style="width:25%;text-align:center")
+                    each e in episodios
+                        tr
+                            td(style="text-align:center")= e.idepisodio
+                            td(style="text-align:center")= e.caracterizacao                            
+                            td(style="text-align:center")= e.totalPedidos
+                            td(style="text-align:center")
+                                button(class="button-transparent" onclick="location.href='http://localhost:4001/episodio/" + e.idepisodio + "'")
+                                    i(class="fa fa-info-circle" aria-hidden="true")
+                p
+
+
+        else
+            .w3-container
+                h5(class="w3-container w3-center") Ainda não há episodios registados ...

@@ -1,0 +1,57 @@
+extends layout
+
+block content
+    script(src='/javascripts/prevent_back.js')
+    if alert == 1
+        script.
+            if (window.confirm('The name you inserted is already associated with other ingredient.'))
+            {
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+            else
+            {
+                history.pushState(null, "", location.href.split("?")[0]);
+            }
+    #content
+        header
+            .container-fluid
+                .row
+                    .col-md-3
+                        .full
+                            a.logo(href='/homepage')
+                                img(src='/images/favicon.ico' alt='#' style='width: 15%;')
+                    .col-md-9
+                        .full
+                            div(class='right_header_info')
+                                ul
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/manage';")
+                                            i(class = "fa fa-home" style="color:white;font-size:25px;")
+                                    li 
+                                        button(class="button-transparent" onclick="location.href='http://localhost:7301/admin/logout';")
+                                            i(class = "fa fa-sign-out" style="color:white;font-size:25px;")
+        about
+            .container
+                .row
+                    .col-md-12
+                        .title
+                            h2(style='margin-top: 150px')
+                .row
+                    .col-md-12
+                        h3(style="font-size: 24px;") Submit new 
+                            t(style="color: orange") Ingredient
+                        .card.mb-3(style='background-color:#F8F8F8')
+                            .card-body
+
+                                form(name="Bartenders" action='http://localhost:7300/ingredients?token=' + token, method='POST')
+                                    label(class="form-label") Name      
+                                    input.form-control(type='text' id='name' name='name' required='required')
+
+                                    p
+                                        button(style="float:right; margin-left:10px" class="btn btn-primary btn-sm" type="submit") Submit
+                                        btn(style='float:right' class='btn btn-secondary btn-sm' type='button' onclick="location.href='http://localhost:7301/admin/manage/ingredients';") Cancel
+        footer
+            .copyright
+                .container
+                    p &copy; Gon&ccedil;alo Pinto and Lu&iacute;s Ribeiro
+    .overlay

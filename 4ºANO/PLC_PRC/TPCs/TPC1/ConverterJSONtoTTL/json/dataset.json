@@ -1,0 +1,1057 @@
+{
+    "ucs": [
+        {
+            "id": "PRC",
+            "designacao": "Processamento e Representação de Conhecimento",
+            "anoLetivo": "2020/2021"
+        }, {
+            "id": "SPLN",
+            "designacao": "Scripting no Processamento de Linguagem Natural",
+            "anoLetivo": "2020/2021"
+        }, {
+            "id": "PRI",
+            "designacao": "Processamento e Representação de Informação",
+            "anoLetivo": "2020/2021"
+        }, {
+            "id": "GCS",
+            "designacao": "Gramáticas na Compreensão de Software",
+            "anoLetivo": "2020/2021"
+        }
+    ],
+    "professores": [
+        {
+            "id": "jcr",
+            "nome": {
+                "primeiro": "José Carlos",
+                "ultimo": "Ramalho"
+            },
+            "ensina": ["PRC", "PRI"]
+        }, {
+            "id": "jj",
+            "nome": {
+                "primeiro": "José",
+                "ultimo": "João"
+            },
+            "ensina": ["SPLN"]
+        }, {
+            "id": "prh",
+            "nome": {
+                "primeiro": "Pedro Rangel",
+                "ultimo": "Henriques"
+            },
+            "ensina": ["GCS"]
+        }, {
+            "id": "als",
+            "nome": {
+                "primeiro": "António Luís",
+                "ultimo": "Sousa"
+            }
+        }
+    ],
+    "alunos": [
+        {
+            "nome": {
+                "primeiro": "Little",
+                "ultimo": "May"
+            }
+        },
+        {
+            "nome": {
+                "primeiro": "Brock",
+                "ultimo": "Patterson"
+            }
+        },
+        {
+            "nome": {
+                "primeiro": "Julia",
+                "ultimo": "Ramsey"
+            }
+        },
+        {
+            "nome": {
+                "primeiro": "Rosie",
+                "ultimo": "Hardin"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Marjorie",
+                "ultimo": "Kane"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Moore",
+                "ultimo": "Bolton"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Flossie",
+                "ultimo": "Stark"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Claudette",
+                "ultimo": "Ruiz"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Liza",
+                "ultimo": "Allen"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Nola",
+                "ultimo": "Dodson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Gloria",
+                "ultimo": "Thomas"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Christian",
+                "ultimo": "Cleveland"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Dixon",
+                "ultimo": "Hampton"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Burgess",
+                "ultimo": "Richmond"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Lorie",
+                "ultimo": "Mays"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Stevenson",
+                "ultimo": "Peterson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Mcfadden",
+                "ultimo": "William"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Petty",
+                "ultimo": "Parsons"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Kendra",
+                "ultimo": "Stokes"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Collins",
+                "ultimo": "Sharp"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Short",
+                "ultimo": "Roach"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Jeannine",
+                "ultimo": "Ryan"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Shirley",
+                "ultimo": "Salinas"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Mejia",
+                "ultimo": "Ewing"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Walsh",
+                "ultimo": "Dorsey"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Copeland",
+                "ultimo": "Shepherd"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Ramsey",
+                "ultimo": "Faulkner"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Pace",
+                "ultimo": "Murray"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Weiss",
+                "ultimo": "Dickson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Bettie",
+                "ultimo": "Hubbard"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Ruby",
+                "ultimo": "Sampson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Patel",
+                "ultimo": "Barron"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Trevino",
+                "ultimo": "Workman"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Finch",
+                "ultimo": "Pitts"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Patrica",
+                "ultimo": "Mueller"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Porter",
+                "ultimo": "Bates"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Barber",
+                "ultimo": "Bruce"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Watson",
+                "ultimo": "Oconnor"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Juarez",
+                "ultimo": "Oneil"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Kelley",
+                "ultimo": "Ingram"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Banks",
+                "ultimo": "Greene"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Glover",
+                "ultimo": "Ware"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Jacquelyn",
+                "ultimo": "Mcfadden"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Ortiz",
+                "ultimo": "Brady"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Slater",
+                "ultimo": "Whitaker"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Carey",
+                "ultimo": "Black"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Crawford",
+                "ultimo": "Harrington"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Isabel",
+                "ultimo": "Russo"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Jami",
+                "ultimo": "Wiley"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Rivas",
+                "ultimo": "Douglas"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Augusta",
+                "ultimo": "Nicholson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Delores",
+                "ultimo": "Bender"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Byrd",
+                "ultimo": "Mercado"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Gilliam",
+                "ultimo": "Rocha"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Rhoda",
+                "ultimo": "Trujillo"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Carly",
+                "ultimo": "Bartlett"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Emma",
+                "ultimo": "Noel"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Espinoza",
+                "ultimo": "Barker"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Sheila",
+                "ultimo": "Gray"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Rosalind",
+                "ultimo": "Oneal"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Cassandra",
+                "ultimo": "Cline"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Kerr",
+                "ultimo": "Gillespie"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Cora",
+                "ultimo": "Taylor"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Davidson",
+                "ultimo": "Travis"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Garner",
+                "ultimo": "Day"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Ronda",
+                "ultimo": "Hoffman"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Gay",
+                "ultimo": "Meadows"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Jaime",
+                "ultimo": "Kline"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Taylor",
+                "ultimo": "Edwards"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Rena",
+                "ultimo": "Leach"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Stewart",
+                "ultimo": "Snow"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Kara",
+                "ultimo": "Neal"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Mullen",
+                "ultimo": "Hickman"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Bartlett",
+                "ultimo": "Garner"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Deborah",
+                "ultimo": "Holder"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Deann",
+                "ultimo": "Pennington"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Wilson",
+                "ultimo": "Owens"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Stafford",
+                "ultimo": "Diaz"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Cantu",
+                "ultimo": "Carson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Allie",
+                "ultimo": "Bowman"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Cindy",
+                "ultimo": "Horn"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Carlene",
+                "ultimo": "Church"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Booker",
+                "ultimo": "Santiago"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Wilkins",
+                "ultimo": "Finley"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Tabatha",
+                "ultimo": "Oliver"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Adrian",
+                "ultimo": "Valdez"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Tucker",
+                "ultimo": "Hughes"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Hazel",
+                "ultimo": "Henson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Alexandria",
+                "ultimo": "Williams"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Jan",
+                "ultimo": "Jackson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Eula",
+                "ultimo": "Matthews"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Katheryn",
+                "ultimo": "Le"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Guerra",
+                "ultimo": "Vasquez"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Lula",
+                "ultimo": "Frost"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Kim",
+                "ultimo": "Hartman"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Stone",
+                "ultimo": "Cunningham"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Alissa",
+                "ultimo": "Wilder"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Sears",
+                "ultimo": "Blevins"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Bowman",
+                "ultimo": "Turner"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Donaldson",
+                "ultimo": "Alvarado"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Bertie",
+                "ultimo": "Pennington"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Jackie",
+                "ultimo": "Wheeler"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Russell",
+                "ultimo": "Fitzgerald"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Hollie",
+                "ultimo": "Harmon"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Yates",
+                "ultimo": "Baxter"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Summers",
+                "ultimo": "Farley"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Dickson",
+                "ultimo": "Bowen"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Nelson",
+                "ultimo": "Robbins"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Lindsay",
+                "ultimo": "Wilder"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Chris",
+                "ultimo": "Hammond"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Santiago",
+                "ultimo": "Gamble"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Graham",
+                "ultimo": "Carter"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Jessie",
+                "ultimo": "Wolfe"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Fitzgerald",
+                "ultimo": "Willis"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Jasmine",
+                "ultimo": "Mueller"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Melissa",
+                "ultimo": "Benton"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Holland",
+                "ultimo": "Duffy"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Velez",
+                "ultimo": "Walsh"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Evans",
+                "ultimo": "Chavez"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Johnson",
+                "ultimo": "Tillman"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Tamara",
+                "ultimo": "Lynn"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Sheila",
+                "ultimo": "Oneil"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Joann",
+                "ultimo": "Conley"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Kaye",
+                "ultimo": "Sloan"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Clark",
+                "ultimo": "Walter"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Hensley",
+                "ultimo": "Harrell"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Riddle",
+                "ultimo": "Armstrong"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Isabella",
+                "ultimo": "Barnes"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Whitaker",
+                "ultimo": "Phillips"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Hebert",
+                "ultimo": "Leach"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Blackburn",
+                "ultimo": "Cain"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Rodriquez",
+                "ultimo": "Rivers"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Rosie",
+                "ultimo": "Fitzpatrick"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Armstrong",
+                "ultimo": "Kim"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Fields",
+                "ultimo": "Evans"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Hull",
+                "ultimo": "Christian"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Gallagher",
+                "ultimo": "Mccullough"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Dolores",
+                "ultimo": "Clemons"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Haney",
+                "ultimo": "Knowles"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Lourdes",
+                "ultimo": "Head"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Lorie",
+                "ultimo": "Bond"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Pugh",
+                "ultimo": "Mathews"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Higgins",
+                "ultimo": "Lloyd"
+            }
+        }, {
+            "nome": {
+                "primeiro": "James",
+                "ultimo": "Nielsen"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Mavis",
+                "ultimo": "Harper"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Kathrine",
+                "ultimo": "Schroeder"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Steele",
+                "ultimo": "Jarvis"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Mercado",
+                "ultimo": "Frye"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Brenda",
+                "ultimo": "Cochran"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Carol",
+                "ultimo": "Dunn"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Bonita",
+                "ultimo": "Macias"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Julie",
+                "ultimo": "William"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Frye",
+                "ultimo": "Wagner"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Sasha",
+                "ultimo": "Watts"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Bernadine",
+                "ultimo": "Ortega"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Pruitt",
+                "ultimo": "Summers"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Ava",
+                "ultimo": "Warner"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Dianna",
+                "ultimo": "Mann"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Connie",
+                "ultimo": "Weiss"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Elva",
+                "ultimo": "Griffith"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Johns",
+                "ultimo": "Hartman"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Vanessa",
+                "ultimo": "Ellison"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Felicia",
+                "ultimo": "Sherman"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Christian",
+                "ultimo": "Morales"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Gloria",
+                "ultimo": "Love"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Witt",
+                "ultimo": "Stone"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Howell",
+                "ultimo": "Buchanan"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Imogene",
+                "ultimo": "Pena"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Sharron",
+                "ultimo": "Pearson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Consuelo",
+                "ultimo": "Kinney"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Traci",
+                "ultimo": "Deleon"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Leslie",
+                "ultimo": "Keller"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Michelle",
+                "ultimo": "Wong"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Latasha",
+                "ultimo": "Oconnor"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Kendra",
+                "ultimo": "Mcpherson"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Heather",
+                "ultimo": "Knight"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Ball",
+                "ultimo": "Mendez"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Willis",
+                "ultimo": "Joseph"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Randi",
+                "ultimo": "Mcclure"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Lorene",
+                "ultimo": "Blevins"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Charlotte",
+                "ultimo": "Pierce"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Lina",
+                "ultimo": "Bean"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Carole",
+                "ultimo": "Morin"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Winifred",
+                "ultimo": "Schneider"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Crane",
+                "ultimo": "Steele"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Horne",
+                "ultimo": "Mullen"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Madden",
+                "ultimo": "Mcmillan"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Lydia",
+                "ultimo": "Torres"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Bradley",
+                "ultimo": "Hayes"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Mccarty",
+                "ultimo": "Greene"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Wilkerson",
+                "ultimo": "Whitley"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Chavez",
+                "ultimo": "Wynn"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Pearson",
+                "ultimo": "Vincent"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Chrystal",
+                "ultimo": "Leon"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Tanner",
+                "ultimo": "Glenn"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Allison",
+                "ultimo": "Campos"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Angelina",
+                "ultimo": "Lee"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Claire",
+                "ultimo": "Randall"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Contreras",
+                "ultimo": "Wyatt"
+            }
+        }, {
+            "nome": {
+                "primeiro": "Dean",
+                "ultimo": "Fischer"
+            }
+        }
+    ]
+}

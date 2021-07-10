@@ -1,0 +1,97 @@
+#!/usr/bin/python3
+import os
+import sqlite3, re
+
+# create a default path to connect to and create (if necessary) a database. (In the same dir as script)
+DEFAULT_PATH = os.path.join(os.path.dirname(__file__), 'test.db')
+
+def db_connect(db_path=DEFAULT_PATH):
+    con_t = sqlite3.connect(db_path)
+    return con_t
+
+def createTables():
+
+    cur = con.cursor() # Instance cursor
+
+    cadeiras_sql = """
+        CREATE TABLE cadeiras (
+            id INTEGER PRIMARY KEY UNIQUE,
+            cadeira text NOT NULL,
+            docente text NOT NULL)"""
+    
+    alunos_sql = """
+        CREATE TABLE alunos (
+            id INTEGER PRIMARY KEY UNIQUE,
+            nome text NOT NULL,
+            idade integer NOT NULL,
+            curso text NOT NULL)"""
+
+    alunos_cadeiras_sql = """
+        CREATE TABLE alunos_cadeiras (
+            id INTEGER PRIMARY KEY UNIQUE,
+            aluno INTEGER NOT NULL,
+            cadeira INTEGER NOT NULL,
+            FOREIGN KEY(aluno) REFERENCES alunos(id)),
+            FOREIGN KEY(cadeira) REFERENCES cadeiras(id))"""
+
+    # Create table cadeiras
+    cur.execute(cadeiras_sql)
+    # Create table alunos
+    cur.execute(alunos_sql)
+
+    con.commit()
+
+
+def loadtoTables():
+
+    # Add data to tables - Instances
+    c_sql = "INSERT INTO cadeiras (cadeira, docente) VALUES (?,?)"
+    a_sql = "INSERT INTO alunos (id, nome, idade, curso) VALUES (?,?,?,?)"
+    reqca = "INSERT INTO alunos_cadeiras (aluno, cadeira) VALUES (?,?)"
+
+    c_list = [
+        ("spln", "José João Antunes"),
+        ("prc", "José Carlos Ramalho")    
+    ]
+
+    a_list = [
+        (85954, "Luís Ribeiro", 21, "MiEI"),
+        (83732, "Gonçalo Pinto", 21, "MiEI"),
+        (85000, "Etienne Costa", 21, "MiEI"),
+        (83322, "José Martinho", 23, "LCC")
+    ]
+
+    estuda = [
+        (85954, 1),
+        (85954, 2),
+        (83732, 1),
+        (83732, 2),
+        (85000, 1),
+        (85000, 2),
+        (83322, 1),
+        (83322, 2)
+    ]
+
+    cur = con.cursor() # Instance cursor
+
+    # Executar e dar load dos individuos nas respetivas tabelas
+    cur.executemany(c_sql, c_list)
+    cur.executemany(a_sql, a_list)
+    cur.executemany(reqca, estuda)
+
+    con.commit()
+
+
+
+def main():
+    
+    global con
+    con = db_connect()
+    con.execute("PRAGMA foreign_keys = 1") # Verifica sintaxe das foreign keys
+
+    createTables()  # Create Tables
+    loadtoTables()
+
+    con.close()
+
+main()

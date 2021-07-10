@@ -1,0 +1,32 @@
+Número,Tipo,Data,Valor,Entidade,Descrição
+2020/001,Despesa,2020-01-04,7.28,CGD,Manutenção da conta
+2020/002,Receita,2020-01-06,64.00,7º Esq,Janeiro
+2020/003,Receita,2020-01-06,406.62,2º Dto,Abril a Dezembro de 2019
+2020/004,Despesa,2020-01-08,222.65,EDP,Luz
+2020/005,Receita,2020-01-16,45.18,7º Dto,Janeiro
+2020/006,Despesa,2020-02-01,7.28,CGD,Manutenção da conta
+2020/007,Receita,2020-02-04,64.00,5º Esq,Fevereiro
+2020/008,Receita,2020-02-06,64.00,7º Esq,Fevereiro
+2020/009,Despesa,2020-01-20,439.77,Kone,Manutenção dos elevadores: 1º trimestre
+2020/010,Receita,2020-02-12,384.00,1º e 3º Esq,"Janeiro, Fevereiro e Março"
+2020/011,Receita,2020-02-20,45.18,7º Dto,Fevereiro
+2020/012,Despesa,2020-02-24,20.00,Serralheiro,Concerto do trinco da porta
+2020/013,Despesa,2020-02-24,174.30,CMB,Inspeção dos elevadores
+2020/014,Receita,2020-02-24,194.30,1º Dto,"Acertos: Janeiro, Fevereiro, Março, Abril e 13.58 de Maio"
+2020/015,Receita,2020-03-11,271.08,5º Dto,Janeiro a Junho
+2020/016,Despesa,2020-03-11,1655.00,PluriRapel,Reparação das fachadas
+2020/017,Receita,2020-02-26,64.00,5º Esq,Março
+2020/018,Receita,2020-02-29,542.16,3º Dto,Janeiro a Dezembro
+2020/019,Despesa,2020-03-04,236.59,EDP,Luz
+2020/020,Receita,2020-03-06,64.00,7º Esq,Março
+2020/021,Despesa,2020-03-07,7.28,CGD,Manutenção da conta
+2020/022,Receita,2020-03-15,45.18,7º Dto,Março
+2020/023,Receita,2020-03-30,64.00,5º Esq,Abril 
+2020/024,Despesa,2020-04-04,7.28,CGD,Manutenção da conta
+2020/025,Receita,2020-04-06,64.00,7º Esq,Abril
+2020/026,Receita,2020-04-07,225.90,6º Dto,Abril a Agosto
+2020/027,Receita,2020-04-14,45.18,7º Dto,Abril
+2020/028,Despesa,2020-04-15,207.98,Vizinhos,Luz Comum
+2020/029,Despesa,2020-04-15,1080.00,Limpeza,Limpeza 2020
+2020/030,Receita,2020-04-15,542.16,4º Dto,Janeiro a Dezembro
+2020/031,Despesa,2020-04-01,439.77,Kone,Manutenção dos elevadores: 2º trimestre

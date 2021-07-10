@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    table(id='example' class='display' style='width:100%')
+        thead
+            tr
+                th Number
+                th Name
+                th About
+        tbody
+            each g in groups 
+                tr
+                    td(style="text-align:center")=g.number
+                    td(style="text-align:center")=g.nome
+                    td(style="text-align:center")
+                        button(class="button-transparent" onclick="location.href='http://localhost:7201/group/" + g.id + "'")
+                            i(class="fa fa-info-circle" aria-hidden="true")

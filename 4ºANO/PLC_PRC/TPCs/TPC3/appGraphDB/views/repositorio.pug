@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h3 Repositório: #{info.id}
+
+        .w3-container
+            table.w3-table-all.w3-section
+                tr
+                    th Título
+                        td= info.title
+                tr
+                    th Total de declarações 
+                        td #{tamanho.total} dos quais #{tamanho.explicit} são explícitos e #{tamanho.inferred} são inferidos
+                tr  
+                    th Classes
+                        td
+                            table.w3-table-all.w3-section
+                                each c in classes
+                                    tr
+                                        td
+                                            a(href="http://localhost:54321/repositorio/"+info.id+"/classe/" + c.classe + "?p=" + c.prefixo)= c.classe
+
+    footer(class="w3-container w3-center" style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;")
+        p
+            a(href="/") Voltar à página principal

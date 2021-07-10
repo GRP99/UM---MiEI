@@ -1,0 +1,131 @@
+#!/usr/bin/python3
+
+from jjcli import *       ## re.* functions also imported
+c=clfilter(opt="do:")     ## options in c.opt  (...if "-d" in c.opt:)
+
+for pg in c.slurp():     ## process one striped text at the time
+#    familiares = findall(r'<a\s+href=(.*?id=(\d+)"?)>(.*?)</a>', pg)
+#    for url,id,nome in familiares:
+#        print(f"==> {id} {nome.strip()}")
+
+    p1, *sec_cont =split(r'<div\s+class="marcadorP".*?>(.*?)</div>',pg)
+    nome = findall(r'<title>([\w \-]+)</title>', p1)
+    print("NOME:",nome[0])	
+    for sec in sec_cont:
+        if len(sec) < 30:
+           tit=sec
+        else:
+           familiares = findall(r'<a\s+href=(.*?id=(\d+)"?)>(.*?)</a>', sec)
+           for url,id,nome in familiares:
+              print(f"{tit}==> {id} {nome.strip()}")
+           
+
+# ==> ir buscar todos!!!!
+# ===> import requests
+# ===> pg = reguests.get(URL)
+
+#\w = [a-zA-Z0-9_áéíó...]
+#(...) = captura
+# *? 
+
+'''
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Language" content="pt">
+	<title>Serafim Antunes Rodrigues Guimarães</title>
+	<link rel="stylesheet" href="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/style.css" type="text/css">
+</head>
+
+<body style="background-color: #fff; margin: 10px 0;">
+<a name="topo"></a>
+<div align="center">
+<div style="width: 760px;">
+
+<!-- MENU GENEA PORTUGAL -->
+
+<div class="head2" style="margin-bottom: 5px;" align="center">Família Antunes Guimarães (Briteiros)</div>
+<table width="100%" height="25" cellspacing="0" cellpadding="0" border="0" bgcolor="#000080">
+<tbody><tr>
+<td width="8" valign="top"><img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/mmcanto1.gif" width="6" height="6"></td>
+<td class="gpmenu1b" width="484">
+<a href="http://pagfam.geneall.net/3418/" class="butlink" style="width: 150px; text-align: center;">Página Inicial</a>
+|
+<a href="http://pagfam.geneall.net/3418/contacto.php" class="butlink" style="width: 150px; text-align: center;">Contacto</a></td>
+
+<form action="" onsubmit="this.action=this['s_type'].options[this['s_type'].selectedIndex].value;"></form>
+<td width="260" align="right">
+<input type="text" name="search" style="width: 120px; text-align: center;">
+	<select name="s_type" style="width: 80px;">
+	<option value="pessoas_search.php" selected="selected">Pessoas</option>
+	<option value="familias_search.php">Famílias</option>
+	</select><input type="submit" value="»" class="submit" style="width: 21px; margin-left: 5px;" title="Pesquisar">&nbsp;
+</td>
+
+<td width="6" valign="top" align="right"><img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/cmcanto5.gif" width="6" height="6"></td>
+</tr>
+
+</tbody></table>
+
+<div style="border-color: #000080; border-style: solid; padding: 7px; border-width: 0px 1px 0px 1px; background-color: #FFF4EE; text-align: left;">
+
+<table cellspacing="0" cellpadding="0" border="0">
+		<tbody><tr valign="top"><td width="150"><img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/pixel.gif" width="150" height="1"><br>
+		<div style="background-color: #4B0081;" align="center"><a class="butlink" href="http://pagfam.geneall.net/3418/costados.php?id=1076115">Costados</a></div>
+		<img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/pixel.gif" width="1" height="10"><br>
+		<div style="background-color: #B9908E;" align="center"><a class="butlink" href="http://pagfam.geneall.net/3418/familias.php?id=3759">Família</a></div>
+</td>
+		<td><img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/pixel.gif" width="7" height="1"></td>
+		<td width="1" bgcolor="#B0C4DD"><img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/pixel.gif" width="1" height="1"></td>
+		<td><img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/pixel.gif" width="7" height="1"></td>
+		<td width="100%">
+<div class="head1" align="center">
+Serafim Antunes Rodrigues Guimarães
+</div>
+<div align="center"> * América do Sul, Brasil, Pelotas  <nobr>1847</nobr>  + Guimarães, Briteiros (Salvador)  <nobr>25.11.1930</nobr></div><div class="marcadorP" style="margin-top: 10px;">Pais</div><div class="txt2" align="center">
+<div align="center"><b>Pai:</b> <a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076106"> Francisco Antunes Guimarães</a> *  <nobr>13.02.1806</nobr></div><div align="center"><b>Mãe:</b> <a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076107">D. Francisca Eulália Rodrigues de Araújo</a></div><div class="marcadorP" style="margin-top: 10px;">Casamentos</div><div align="center"></div><div style="margin-bottom: 15px;" align="center"><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076116"> Rita Isabel de Freitas Fernandes</a> *  <nobr>05.08.1855</nobr></div>
+		</div>
+		<div class="txt2"><div class="marcadorP" style="margin-top: 10px;">Filhos</div><ul style="margin-top: 5px;"><li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076276"> Ana Antunes Guimarães</a> *  <nobr>01.12.1874</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076277"> Serafim Antunes Guimarães</a> *  <nobr>06.09.1875</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076278"> João Antunes Guimarães</a> *  <nobr>16.02.1877</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076210"> Justino Antunes Guimarães</a> *  <nobr>30.09.1878</nobr> <img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/cc.png" alt="" width="13" height="8" border="0">  Rosa Martins de Oliveira</li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076279"> Luís Antunes Guimarães</a> *  <nobr>13.01.1880</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076281"> Leonor Antunes Guimarães</a> *  <nobr>14.04.1881</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076282"> António Antunes Guimarães</a> *  <nobr>30.05.1883</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076284"> Maria Antunes Guimarães</a> *  <nobr>03.01.1885</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1087737"> Francisco Antunes Guimarães</a> *  <nobr>04.03.1887</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076285"> Constança Antunes Guimarães</a> *  <nobr>03.06.1889</nobr> </li>
+
+<li><a href="http://pagfam.geneall.net/3418/pessoas.php?id=1076286"> Alberto Antunes Guimarães</a> *  <nobr>18.12.1890</nobr> </li>
+
+</ul><div class="marcadorP" style="margin-top: 10px;">Notas</div><ul class="txt2">
+<li>Causa da morte: nefrite</li>
+</ul>
+
+</div></td></tr></tbody></table>
+
+<!-- Begin Footer -->
+</div>
+<table width="100%" height="22" cellspacing="0" cellpadding="0" border="0" bgcolor="#000080">
+<tbody><tr>
+<td width="8" valign="bottom"><img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/mmcanto3.gif" width="6" height="6"></td>
+<td class="txt1" style="color: white;" align="center">
+© 2004 &nbsp;Guarda-Mór, Edição de Publicações Multimédia Lda.
+</td>
+<td width="8" valign="bottom" align="right"><img src="Serafim%20Antunes%20Rodrigues%20Guimar%C3%A3es_files/mmcanto4.gif" width="6" height="6"></td>
+</tr>
+</tbody></table>
+<br>
+</div>
+</div>
+
+'''

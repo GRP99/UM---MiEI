@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .w3-container.w3-section.w3-card-4
+        header.w3-container.w3-blue
+            h3 Classe: #{classe}
+        .w3-container
+            h2 Lista de Indivíduos
+            ul
+                each i in individuos
+                    li
+                        a(href="http://localhost:54321/repositorio/"+repositorio+"/classe/" + classe + "/individuo/"+i+"?p=" + prefixo)= i
+                                                
+    footer(class="w3-container w3-center" style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center;")
+        p
+            a(href="/repositorio/"+ repositorio) Voltar à página do repositório

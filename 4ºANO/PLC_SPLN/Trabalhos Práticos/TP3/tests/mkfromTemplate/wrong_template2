@@ -1,0 +1,41 @@
+=== tree
+{%name%}/
+- {%name%}.py
+- doc/
+-- {%name%}.md
+- README
+
+
+=== meta
+author: Grupo02
+
+
+=== {%name%}.py
+print('Hello world !!!')
+
+
+=== {%name%}
+teste
+teste2
+
+
+=== {%name%}.md
+# NAME
+
+{%name%} - o nosso fabuloso script ...FIXME
+
+## Synopsis
+
+   {%name%} file*
+
+## Description
+
+## See also
+
+## Author
+
+Comments and bug reports to {%author%}, {%email%}.
+
+
+=== README
+FIXME: descrição sumária do filtro

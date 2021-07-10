@@ -1,0 +1,25 @@
+extends layout
+
+block content
+    h1 Periodic Table of the Elements
+    p Welcome to the Web application for exploring the elements, groups and periods of the Periodic Table.
+    p The Periodic Table was constructed from a provided ontology.
+    p All available information is stored in a GraphDB repository.
+    hr
+    hr
+    h3 Execution mode :
+    ul
+        li Open <a href="http://localhost:7200/" target="_blank">GraphDB</a> ;
+        li Create a new repository <i>(Setup - Repositories)</i> with the following id <b>"tabelaPeriodica"</b> ;
+        li Select the repository created and import the following RDF <a href="https://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/f17.html" target="_blank">file</a> <i>(Import - RDF - Upload RDF Files)</i> ;
+        li Ready for exploring &#128512 ;
+    hr
+    hr
+    footer(class="w3-container w3-center" style="bottom: 0; width: 100%;")
+        p Author : Gonçalo Rodrigues Pinto
+        p MiEI - 4ºAno - 2ºSemestre - PRC 20/21
+        p 
+            a(href="mailto:a83732@alunos.uminho.pt") a83732@alunos.uminho.pt
+        p 
+            a(href="https://github.com/GRP99/PRC2021" target="_blank")
+                img(src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" alt="Github" style="width:75px;height:75px;")

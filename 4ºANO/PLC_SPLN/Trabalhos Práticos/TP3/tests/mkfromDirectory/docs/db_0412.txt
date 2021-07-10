@@ -1,0 +1,28 @@
+=== DIÁRIO DE BORDO :: AULA 7 [12 DE ABRIL DE 2021]
+
+    + Intervenientes:
+        * Autor : Gonçalo Pinto, a83732.
+        * Piloto de Testes : Sofia Teixeira, a80624.
+
+    + Plano da Aula:
+        1. Marcação das apresentações do TP0 com os grupos em falta.
+
+        2. Análise do trabalho realizado e resultados obtidos pela Sofia Teixeira face ao desafio de encontrar o nome mais provável para um dado email, colocado pelo docente na última aula:
+            - Através de um ficheiro de nomes e emails com auxílio de expressões regulares foi obtido a precisão do algoritmo, quais os emails que não encontrou "match" e para cada email obteve uma lista dos nomes mais prováveis;
+
+        3. Modificação e melhoramento do script apresentado em 2:
+            - Função que recebe um ficheiro, gera uma lista de pares (nome e email);
+            - Função que partindo de um email e de uma lista de nomes, calcula uma lista de nomes mais prováveis baseada na separação das letras do email;
+            - Função que avalia a função de cálculo construída;
+        
+        4. Instalação da biblioteca "spacy" para processamento de linguagem natural.
+            $ pip install spacy
+            $ sudo python3 -m spacy download pt
+        
+        5. Realização de algumas experiências com a biblioteca "spacy".
+
+    + TPC:
+        1. Calcular a nossa lista de nomes mais prováveis, juntamente com a sua precisão; 
+        2. Estudar bilbioteca "spacy";
+
+===

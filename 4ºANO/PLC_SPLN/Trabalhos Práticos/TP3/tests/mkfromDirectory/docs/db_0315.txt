@@ -1,0 +1,23 @@
+Diario de bordo - Aula 4
+
+autor: Luis Ramos, a83930
+
+piloto: Gonçalo Pinto
+
+aula:
+
+	- Correção do TPC da aula anterior
+
+	- Modificação e melhoramento do TPC da aula anterior
+
+	- Extração de informação estruturada de ficheiros, no caso informação acerca de pessoas
+
+	- tp0: (http://pagfam.geneall.net/3418/)
+	
+		- usar import request
+		- request.get(URL)
+		- fazer um print bonito
+
+		- buscar a pagina, processar e printar a informação bonita
+		- grupos de 2 ou 3
+		- 15 dias

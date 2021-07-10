@@ -1,0 +1,169 @@
+#!/usr/bin/python3
+import queries, os, readline
+from jjcli import *
+
+
+def select():
+  os.system('cls' if os.name == 'nt' else 'clear')
+  s = f"""
+    ╔══════════════════════════════════════════════════════════════════════╗
+    ║                                                                      ║
+    ║    1 - View all students.                                            ║
+    ║    2 - View all subjects.                                            ║
+    ║    3 - View students related to a subject.                           ║
+    ║    4 - View subjects related to a student.                           ║
+    ║    5 - Back.                                                         ║
+    ║                                                                      ║
+    ╚══════════════════════════════════════════════════════════════════════╝
+  """
+  print(s)
+  while True:
+    option = input("SELECT: ").strip()
+    try:
+      val = int(option)
+    except ValueError:
+      print("ERROR: That's not a number.")
+      break
+    if not (1 <= val <= 5):
+      print("ERROR: Please enter a valid option number.")
+    else:
+      if (val == 1): queries.students()
+      if (val == 2): queries.subjects()
+      if (val == 3):
+        s = input("\tSUBJECT >> ").strip() 
+        queries.studsubs(s)
+      if (val == 4):
+        s = input("\tSTUDENT >> ").strip()
+        queries.substudents(s)
+      if (val == 5): console()
+
+def insert():
+  os.system('cls' if os.name == 'nt' else 'clear')
+  s = f"""
+    ╔══════════════════════════════════════════════════════════════════════╗
+    ║                                                                      ║
+    ║    1 - Insert a student. (INSERT: 1 - id,name,course)                ║
+    ║    2 - Insert a subject. (INSERT: 2 - name,teacher)                  ║
+    ║    3 - Add a subject to a student. (INSERT: 3 - student,subject)     ║
+    ║    4 - Back.                                                         ║
+    ║                                                                      ║
+    ╚══════════════════════════════════════════════════════════════════════╝
+  """
+  print(s)
+
+  while True:
+    inp = input("INSERT: ")
+    op  = inp.split('-')
+    if not int(op[0]) == 4:
+      
+      matched = re.match("[1-3] \- (\w,?)+", inp)
+
+      if bool(matched):
+        option = str(op[0]).strip()
+        fields = str(op[1]).strip()
+        f = [x for x in fields.split(',')]
+      else:
+        print("Syntax ERROR. Please verify syntax above.")
+        break
+    else:
+
+      if str(inp) == "4":
+        option = str(op[0]).strip()
+      else:
+        print("Syntax ERROR. Please verify syntax above.")
+        break
+      
+    val = int(option)
+    if not (1 <= val <= 4):
+      print("ERROR: Please enter a valid option number.")
+    else:
+      if (val == 1): queries.insert_student(f)
+      if (val == 2): queries.insert_subject(f)
+      if (val == 3): queries.insert_row_ss(f)
+      if (val == 4): console()
+
+def delete():
+  os.system('cls' if os.name == 'nt' else 'clear')
+  s = f"""
+    ╔══════════════════════════════════════════════════════════════════════╗
+    ║                                                                      ║
+    ║    1 - Delete a student. (DELETE: 1 - id)                            ║
+    ║    2 - Delete a subject. (DELETE: 2 - name)                          ║
+    ║    3 - Back.                                                         ║
+    ║                                                                      ║
+    ╚══════════════════════════════════════════════════════════════════════╝
+  """
+  print(s)
+
+  while True:
+    inp = input("DELETE: ")
+    op = inp.split('-')
+    
+    if not int(op[0]) == 3:
+
+      matched = re.match("[1-2] \- (\w,?)+", inp)
+
+      if bool(matched):
+        option = str(op[0]).strip()
+        fields = str(op[1]).strip()
+        f = [x for x in fields.split(',')]
+      else:
+        print("Syntax ERROR. Please verify syntax above.")
+        break
+    else:
+      if str(inp) == "3":
+        option = str(op[0]).strip()
+      else:
+        print("Syntax ERROR. Please verify syntax above.")
+        break
+    
+    val = int(option)
+    if not (1 <= val <= 3):
+      print("ERROR: Please enter a valid option number.")
+    else:
+      if (val == 1): queries.delete_student(f)
+      if (val == 2): queries.delete_subject(f)
+      if (val == 3): console()
+
+
+def console():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    main = f"""
+      ╔══════════════════════════════════════════════════════════════════════╗
+      ║                                                                      ║
+      ║                           sqlite queries                             ║
+      ║                                                                      ║
+      ╠══════════════════════════════════════════════════════════════════════╣
+      ║                                                                      ║
+      ║  Select your option bellow to querie our database                    ║
+      ║                                                                      ║
+      ╠══════════════════════════════════════════════════════════════════════╣
+      ║                                                                      ║
+      ║    1 - Select Data.                                                  ║
+      ║    2 - Insert Data.                                                  ║
+      ║    3 - Delete Data.                                                  ║
+      ║    4 - Exit.                                                         ║
+      ║                                                                      ║
+      ║                                                                      ║
+      ╚══════════════════════════════════════════════════════════════════════╝
+    """
+    print(main)
+
+    try:
+      option = input("? ").strip()
+      try:
+        val = int(option)
+      except ValueError:
+        print("ERROR: That's not a number.")
+        sys.exit()
+      if not (1 <= val <= 4):
+          print("ERROR: Please enter a valid option number.")
+      else:
+        if (val == 1): select()
+        elif (val == 2): insert()
+        elif (val == 3): delete()
+        elif (val == 4): sys.exit()      
+    except KeyboardInterrupt:
+      sys.exit()
+
+console()
