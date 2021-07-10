@@ -12,7 +12,7 @@
 * Permitir anular movimentos e colocar âncoras.
 ### Etapa 3 - Avaliação final com pontuação
 * Resolver puzzles;
-* Gerar puzzles com várias diculdades;
+* Gerar puzzles com várias dificuldades;
 * Compilar com as opções `gcc -std=c11 -Wall -Wextra -pedantic -O2` sem warnings nem erros;
 * Avaliação da documentação;
 * Avaliação de modularidade e legibilidade;
