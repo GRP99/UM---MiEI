@@ -7,6 +7,4 @@ objectivo: o de ensinar a documentar programas, validá-los, e a produzir textos
 ### Grupo
 O trabalho foi desenvolvido pelo grupo 17, composto pelos elementos:
 * Gonçalo Pinto
-* [Luís Francisco Lopes]
-
-[Luís Francisco Lopes]:https://github.com/chico2911
+* [Luís Francisco Lopes](https://github.com/chico2911)

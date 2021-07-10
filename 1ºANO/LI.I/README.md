@@ -6,6 +6,4 @@ O projecto consistiu em pequenos programas em Haskell que respondem a diferentes
 ### Grupo
 O projecto foi desenvolvido pelo grupo 125, composto pelos elementos:
 * Gonçalo Pinto
-* [José Nuno Costa]
-
-[José Nuno Costa]:https://github.com/jnuno420
+* [José Nuno Costa](https://github.com/jnuno420)

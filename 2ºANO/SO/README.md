@@ -1,11 +1,11 @@
-# SOO
-U.C. de Sistemas Operativos (2018/19)
+# SO
+### Trabalho prático & Guiões de Sistemas Operativos (2018/19)
 
-Mestrado Integrado em Eng. Informática - 2º ano - Universidade do Minho
+* [Trabalho prático](Trabalho_prático/)
+* [Guiões](Guiões/)
 
+### Grupo
+O trabalho prático foi desenvolvido pelo grupo 20, composto pelos elementos:
 * Gonçalo Pinto
-* [Luís Francisco Lopes]
-* [José Pinto]
-
-[Luís Francisco Lopes]:https://github.com/chico2911
-[José Pinto]:https://github.com/ZePinto99
+* [Luís Francisco Lopes](https://github.com/chico2911)
+* [José Pinto](https://github.com/ZePinto99)

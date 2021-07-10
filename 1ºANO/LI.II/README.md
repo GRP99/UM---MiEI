@@ -6,8 +6,5 @@ O projecto consistiu num puzzle inspirado no Jogo do Galo, jogado numa grelha e 
 ### Grupo
 O projecto foi desenvolvido pelo grupo 65, composto pelos elementos:
 * Gonçalo Pinto
-* [Luís Francisco Lopes]
-* [Rui Chaves]
-
-[Luís Francisco Lopes]:https://github.com/chico2911
-[Rui Chaves]:https://github.com/ruifchaves
+* [Luís Francisco Lopes](https://github.com/chico2911)
+* [Rui Chaves](https://github.com/ruifchaves)

@@ -20,6 +20,7 @@ Por outro lado, o mesmo ficheiro [cp1819t.lhs](cp1819t.lhs) é executável e con
 Para gerar o PDF integral do relatório deve se correr os comando seguintes, que actualizam a bibliografia (com BibTEX) e o índice remissivo (com makeindex),
 <p> <code> $ bibtex cp1819t.aux </code>
 <p> <code> $ makeindex cp1819t.idx </code>
+
 e recompilar o texto como acima se indicou. 
 
 Deve ainda instalar o utilitário *QuickCheck*, que ajuda a validar programas em Haskell e a biblioteca Gloss para geração de gráficos 2D:
