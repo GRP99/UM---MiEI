@@ -1,12 +1,11 @@
 # CG
-U.C. de Computação Gráfica (2019/20)
+### Assignment & Practical Classes de Computação Gráfica (2019/20)
+* [Assignment](Assignment/)
+* [Practical Classes](Practical_Classes/)
 
-Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
-
-* Diogo Vasconcelos
+### Grupo
+O trabalho prático foi desenvolvido pelo grupo 47, composto pelos elementos:
+* [Diogo Vasconcelos](https://github.com/absolutmiei)
 * Gonçalo Pinto
-* [João Parente]
-* [José Nuno Costa]
-
-[João Parente]:https://github.com/Joao-Parente
-[José Nuno Costa]:https://github.com/jnuno420
+* [João Parente](https://github.com/Joao-Parente)
+* [José Nuno Costa](https://github.com/jnuno420)

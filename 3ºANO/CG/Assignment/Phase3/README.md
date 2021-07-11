@@ -1,0 +1,2 @@
+# Phase 3 – Curves, Cubic Surfaces and VBOs
+In this phase the generator application must be able to create a new type of model based on Bezier patches. The generator will receive as parameters the name of a file where the Bezier control points are defined as well as the required tessellation level. The resulting file will contain a list of the triangles to draw the surface

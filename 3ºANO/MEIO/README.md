@@ -1,12 +1,10 @@
 # MEIO
-Trabalho prático da U.C. de Modelos Estocásticos de Investigação Operacional (2019/20)
 
-Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
+### Trabalho prático de Modelos Estocásticos de Investigação Operacional (2019/20)
 
-* Diogo Vasconcelos
+### Grupo
+O trabalho prático foi desenvolvido pelo grupo 34, composto pelos elementos:
+* [Diogo Vasconcelos](https://github.com/absolutmiei)
 * Gonçalo Pinto
-* [João Parente]
-* [José Nuno Costa]
-
-[João Parente]:https://github.com/Joao-Parente
-[José Nuno Costa]:https://github.com/jnuno420
+* [João Parente](https://github.com/Joao-Parente)
+* [José Nuno Costa](https://github.com/jnuno420)

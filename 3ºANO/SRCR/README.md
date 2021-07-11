@@ -1,12 +1,13 @@
 # SRCR
-U.C. de Sistemas de Representação de Conhecimento e Raciocínio (2019/20)
+### Trabalho de grupo & Componente Individual & Fichas de Sistemas de Representação de Conhecimento e Raciocínio (2019/20)
 
-Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
+* [Trabalho de grupo](Trabalho_grupo/)
+* [Componente Individual](Trabalho_individual/)
+* [Fichas](Fichas/)
 
-* Diogo Vasconcelos
+### Grupo
+O trabalho de grupo foi desenvolvido pelo grupo 31, composto pelos elementos:
+* [Diogo Vasconcelos](https://github.com/absolutmiei)
 * Gonçalo Pinto
-* [João Parente]
-* [José Nuno Costa]
-
-[João Parente]:https://github.com/Joao-Parente
-[José Nuno Costa]:https://github.com/jnuno420
+* [João Parente](https://github.com/Joao-Parente)
+* [José Nuno Costa](https://github.com/jnuno420)

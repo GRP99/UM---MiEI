@@ -1,0 +1,2 @@
+# Phase 2 – Geometric Transforms
+This phase is about creating hierarchical scenes using geometric transforms. A scene is defined as a tree where each node contains a set of geometric transforms (translate, rotate and scale) and optionally a set of models. Each node can also have children nodes.

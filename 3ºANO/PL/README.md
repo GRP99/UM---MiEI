@@ -1,11 +1,10 @@
 # PL
-U.C. de Processamento de Linguagens (2019/20)
+### Trabalhos Práticos & Fichas de Processamento de Linguagens (2019/20)
+* [Trabalhos práticos](Trabalhos_práticos/)
+* [Fichas](Fichas/)
 
-Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
-
+### Grupo
+Os Trabalhos Práticos foram desenvolvidos pelo grupo 33, composto pelos elementos:
 * Gonçalo Pinto
-* [João Parente]
-* [José Nuno Costa]
-
-[João Parente]:https://github.com/Joao-Parente
-[José Nuno Costa]:https://github.com/jnuno420
+* [João Parente](https://github.com/Joao-Parente)
+* [José Nuno Costa](https://github.com/jnuno420)

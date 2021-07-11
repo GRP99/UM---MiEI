@@ -5,7 +5,7 @@
 * [Trabalho 3](Trabalho3/)
 
 ### Grupo
-O trabalho prático foi desenvolvido pelo grupo 34, composto pelos elementos:
+Os trabalhos foram desenvolvido pelo grupo 34, composto pelos elementos:
 * [Diogo Vasconcelos](https://github.com/absolutmiei)
 * Gonçalo Pinto
 * [João Parente](https://github.com/Joao-Parente)
