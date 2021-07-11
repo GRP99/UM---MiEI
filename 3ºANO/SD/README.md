@@ -1,11 +1,10 @@
 # SD
-U.C. de Sistemas Distribuídos (2019/20)
+### Trabalho prático & Guiões de Sistemas Distribuídos (2019/20)
+* [Trabalho prático](Trabalho_prático/)
+* [Guiões](Guioes/)
 
-Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
-
+### Grupo
+O trabalho prático foi desenvolvido pelo grupo 20, composto pelos elementos:
 * Gonçalo Pinto
-* [João Parente]
-* [José Nuno Costa]
-
-[João Parente]:https://github.com/Joao-Parente
-[José Nuno Costa]:https://github.com/jnuno420
+* [João Parente](https://github.com/Joao-Parente)
+* [José Nuno Costa](https://github.com/jnuno420)

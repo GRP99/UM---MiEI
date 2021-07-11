@@ -1,12 +1,10 @@
 # DSS
-Trabalho prático da U.C. de Desenvolvimento de Sistemas Software (2019/20)
 
-Mestrado Integrado em Eng. Informática - 3º ano - Universidade do Minho
+### Trabalho prático de Desenvolvimento de Sistemas Software (2019/20)
 
-* Diogo Vasconcelos
+### Grupo
+O trabalho prático foi desenvolvido pelo grupo 11, composto pelos elementos:
+* [Diogo Vasconcelos](https://github.com/absolutmiei)
 * Gonçalo Pinto
-* [João Parente]
-* [José Nuno Costa]
-
-[João Parente]:https://github.com/Joao-Parente
-[José Nuno Costa]:https://github.com/jnuno420
+* [João Parente](https://github.com/Joao-Parente)
+* [José Nuno Costa](https://github.com/jnuno420)
