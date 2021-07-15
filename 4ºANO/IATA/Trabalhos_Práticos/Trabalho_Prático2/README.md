@@ -1,0 +1,1 @@
+# Inteligência Ambiente com suporte de Processamento de Linguagem Natural

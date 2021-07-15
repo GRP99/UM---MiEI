@@ -1,7 +1,7 @@
 # BD
 ### Trabalho prático & Fichas de Bases de Dados (2019/20)
 
-* [Trabalho prático](Trabalho_prático/)
+* [Trabalho prático](Trabalho_Prático/)
 * [Fichas](Fichas/)
 
 ### Grupo

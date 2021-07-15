@@ -1,13 +1,10 @@
-# Análise de Dados
-## U.C. incluída no perfil de Engenharia do Conhecimento
-### Mestrado Integrado em Eng. Informática na Universidade do Minho 
-
-Esta Unidade Curricular enquadra-se no 1ºSemestre do 4ºAno de MiEI.
-  * Gonçalo Pinto
-  * [João Mota]
-  * [José Gonçalo Costa]
-  * [José Nuno Costa]
-
-[João Mota]:https://github.com/JoaoDiogoMota
-[José Gonçalo Costa]:https://github.com/JoseCosta28
-[José Nuno Costa]:https://github.com/jnuno420
+# AD
+### Trabalho Prático & Fichas de Análise de Dados (2020/21)
+* [Trabalho Prático](Trabalho_Prático/)
+* [Fichas](Fichas/)
+### Grupo
+O trabalho prático foi desenvolvido pelo grupo 3, composto pelos elementos:
+* Gonçalo Pinto
+* [João Mota](https://github.com/JoaoDiogoMota)
+* [José Gonçalo Costa](https://github.com/JoseCosta28)
+* [José Nuno Costa](https://github.com/jnuno420)

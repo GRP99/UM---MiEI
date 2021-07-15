@@ -38,5 +38,7 @@ Para além disso, em algumas das UC's estão também anexados exercícios práti
   * [Inteligência Ambiente-Tecnologias e Aplicações](4ºANO/IATA)
   * [EC - Análise de Dados](4ºANO/EC_AD)
   * [EC - Administração e Exploração de Bases de Dados](4ºANO/EC_AEBD)
+  * [EC - Descoberta do Conhecimento](4ºANO/EC_DC)
+  * [EC - Interoperabilidade Semântica](4ºANO/EC_IS)
   * [PLC - Gramáticas na Compreensão de Software](4ºANO/PLC_GCS)
   * [PLC - Processamento e Representação de Informação](4ºANO/PLC_PRI)
