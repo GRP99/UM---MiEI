@@ -1,5 +1,0 @@
-1. cd C:\Program Files\MongoDB\Tools\100\bin
-
-2. <copiar ficheiro json para a directoria a cima 
-
-3. mongoimport --db TestePRI2020 --collection pubs --drop --file jcrpubs.json --jsonArray 

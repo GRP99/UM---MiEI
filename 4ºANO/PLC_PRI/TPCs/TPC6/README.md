@@ -1,4 +1,4 @@
-# 6º Trabalho Individual
+# TPC 6
 
 Este trabalho consistiu na construção de um servidor desenvolvido em **Node.js** capaz de responder a pedidos de GET e POST na porta 7777 utilizando uma *API REST* configurada através do **JSON-Server** .
 

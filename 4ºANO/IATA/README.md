@@ -3,7 +3,7 @@
 * [Trabalhos práticos](Trabalhos_Práticos/)
 * [Questões de Aula](Questões_de_Aula/)
 ### Grupo
-Os trabalhos práticos foi desenvolvido pelo grupo 6, composto pelos elementos:
+Os trabalhos práticos foram desenvolvidos pelo grupo 6, composto pelos elementos:
 * [Ana Afonso](https://github.com/AnaBeatriz2)
 * Gonçalo Pinto
 * [Inês Marinho](https://github.com/inesmarinho)

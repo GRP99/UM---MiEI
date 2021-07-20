@@ -1,4 +1,4 @@
-# 7º Trabalho Individual
+# TPC 7
 
 Este trabalho consistiu na construção de um servidor capaz de responder a pedidos de GET, POST, PUT e DELETE na porta 7700, direcionado a uma base de dados de alunos da unidade curricular presente.
 

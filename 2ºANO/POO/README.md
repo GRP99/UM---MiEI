@@ -1,7 +1,7 @@
 # POO
 ### Trabalho prático & Fichas de Programação Orientada aos Objetos (2018/19)
 
-* [Trabalho prático](Trabalho_Prático/)
+* [Trabalho prático](Trabalho_prático/)
 * [Fichas](Fichas/)
 
 ### Grupo

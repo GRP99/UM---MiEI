@@ -1,7 +1,7 @@
 # SO
 ### Trabalho prático & Guiões de Sistemas Operativos (2018/19)
 
-* [Trabalho prático](Trabalho_Prático/)
+* [Trabalho prático](Trabalho_prático/)
 * [Guiões](Guiões/)
 
 ### Grupo

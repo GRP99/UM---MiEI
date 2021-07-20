@@ -1,4 +1,4 @@
-# 3º Trabalho Individual
+# TPC 3
 **Documentos criados foram baseados no seguinte [XML] tal como foi indicado.**
 
 ## 1º ETAPA -> DTD

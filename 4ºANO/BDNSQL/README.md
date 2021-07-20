@@ -1,6 +1,6 @@
 # BDNSQL
 ### Trabalho prático & Fichas de Base de Dados NoSQL (2020/21)
-* [Trabalho prático](Trabalho_Prático/)
+* [Trabalho Prático](Trabalho_Prático/)
 * [Fichas](Fichas/)
 ### Grupo
 O trabalho prático foi desenvolvido pelo grupo 1, composto pelos elementos:

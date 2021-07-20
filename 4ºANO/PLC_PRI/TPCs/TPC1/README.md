@@ -1,4 +1,4 @@
-# 1º Trabalho Individual
+# TPC 1
 
 Criar uma página HTML com um dos seguintes temas:
 * Gato

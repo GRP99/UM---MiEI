@@ -42,3 +42,5 @@ Para além disso, em algumas das UC's estão também anexados exercícios práti
   * [EC - Interoperabilidade Semântica](4ºANO/EC_IS)
   * [PLC - Gramáticas na Compreensão de Software](4ºANO/PLC_GCS)
   * [PLC - Processamento e Representação de Informação](4ºANO/PLC_PRI)
+  * [PLC - Processamento e Representação de Conhecimento](4ºANO/PLC_PRC)
+  * [PLC - Scripting no Processamento de Linguagem Natural](4ºANO/PLC_SPLN)

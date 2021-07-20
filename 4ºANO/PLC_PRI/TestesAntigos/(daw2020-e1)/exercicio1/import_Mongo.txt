@@ -1,5 +1,0 @@
-1. cd C:\Program Files\MongoDB\Tools\100\bin
-
-2. <copiar ficheiro json para a directoria a cima 
-
-3. mongoimport --db TesteDAW2020 --collection arqs --drop --file arquivo-musica-digital.json --jsonArray 

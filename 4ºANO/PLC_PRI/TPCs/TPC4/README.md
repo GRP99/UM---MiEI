@@ -1,4 +1,4 @@
-# 4º Trabalho Individual
+# TPC 4
 
 ## 1º Tarefa -> WEBSITE
 Partindo do [XML] sobre os Arqueossítios do Nordeste Português realizou-se um XSLT (*eXtensible Stylesheet Language*) que permitisse processar este XML num website gerando para o efeito um ficheiro por cada arqueossítio registado, estes ficheiros encontram-se numerados sequencialmente. Este website apresenta um índice agrupado e ordenado inicialmente por concelhos no qual é listado os arqueossítios, em que cada um tem associado um link que remete à página de cada arqueossítio com a informação fornecida.

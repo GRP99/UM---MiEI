@@ -1,6 +1,6 @@
 # SD
 ### Trabalho prático & Guiões de Sistemas Distribuídos (2019/20)
-* [Trabalho prático](Trabalho_Prático/)
+* [Trabalho prático](Trabalho_prático/)
 * [Guiões](Guioes/)
 
 ### Grupo
