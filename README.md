@@ -44,3 +44,4 @@ Para além disso, em algumas das UC's estão também anexados exercícios práti
   * [PLC - Processamento e Representação de Informação](4ºANO/PLC_PRI)
   * [PLC - Processamento e Representação de Conhecimento](4ºANO/PLC_PRC)
   * [PLC - Scripting no Processamento de Linguagem Natural](4ºANO/PLC_SPLN)
+  * [Laboratório em Engenharia Informática](4ºANO/LEI)
