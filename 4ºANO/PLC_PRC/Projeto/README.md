@@ -11,23 +11,19 @@
     1. Create a repository with the name "projectPRC";
     2. Import this [file](/Ontologies/ontology-inferred.ttl) into the created repository;
     3. Make sure GraphDB is listening on port 7200.
-1. Start MongoDB
+2. Start MongoDB
     1. Create a database with the name "cocktailsDB";
     2. With the help of mongoimport import the files present in this [folder](App/api-server/data/);
-    3. Make sure GraphDB is listening on port 27017.
-2. Start API-Server
+    3. Make sure MongoDB is listening on port 27017.
+3. Start API-Server
     1. Open terminal and access the following directory "[api-server](App/api-server)";
     2. Run <code>npm i</code>
-
     3. Run <code>npm start</code>
-    
     4. Check if API-Server is listening at the port 7300.
-3. Start View-Server
+4. Start View-Server
     1. Open terminal and access the following directory "[view-server](App/view-server)";
     2. Run <code>npm i</code>
-
     3. Run <code>npm start</code>
-    
     4. Check if API-Server is listening at the port 7301.
 
 ---
